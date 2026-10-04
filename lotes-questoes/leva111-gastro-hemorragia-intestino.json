@@ -1,0 +1,818 @@
+[
+ {
+  "q": "Homem de 58 anos com cirrose por álcool, Child-Pugh C10, chega ao pronto-socorro com dois episódios de hematêmese volumosa há 3 horas. Pressão arterial 96/60 mmHg, frequência cardíaca 112 bpm, sem febre e sem dor abdominal; ascite moderada, sem sinais de peritonite. Hemoglobina 7,6 g/dL, plaquetas 68.000/mm³, INR 1,9, creatinina 1,1 mg/dL. Já recebeu cristaloide em volume moderado, um concentrado de hemácias e terlipressina 2 mg em bolus, com endoscopia programada para as próximas horas. A paracentese diagnóstica mostra 110 polimorfonucleares/mm³. Qual é a conduta antimicrobiana adequada?",
+  "alts": [
+   "Nenhum antibiótico até haver febre ou PBE",
+   "Ceftriaxona 1 g IV ao dia por até 7 dias",
+   "Norfloxacino oral 400 mg/dia por 6 meses",
+   "Meropeném 1 g IV a cada 8 h por 14 dias",
+   "Antibiótico só se hemocultura positivar"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Consenso de Baveno VII, 2022, profilaxia antibiótica de curta duração no sangramento varicoso agudo",
+  "coment": "Todo cirrótico com hemorragia digestiva alta deve receber profilaxia antibiótica desde a admissão, porque a infecção bacteriana é frequente nesse contexto e se associa a ressangramento e morte; a profilaxia reduz as duas coisas. O Baveno VII recomenda ceftriaxona 1 g ao dia, especialmente em cirrose avançada, em locais com resistência a quinolonas ou em quem já usava quinolona, com duração máxima de 7 dias. A indicação não depende de infecção estabelecida: aqui a paracentese tem menos de 250 polimorfonucleares, ou seja, não há peritonite bacteriana espontânea, e ainda assim o antibiótico está indicado. O norfloxacino por meses é profilaxia secundária de peritonite, outro cenário. Carbapenêmico fica reservado para infecção documentada ou suspeita de germe resistente, e esperar febre ou hemocultura perde o benefício preventivo.",
+  "porAlt": [
+   "A profilaxia é dada justamente antes da infecção aparecer; esperar febre ou peritonite elimina o benefício sobre mortalidade.",
+   "Correta: a ceftriaxona por no máximo 7 dias é a profilaxia indicada em todo cirrótico com sangramento, sobretudo em Child-Pugh C.",
+   "Norfloxacino prolongado é profilaxia secundária de peritonite bacteriana espontânea, não a cobertura do episódio hemorrágico agudo.",
+   "Carbapenêmico por 14 dias é tratamento de infecção grave ou resistente, sem indicação como profilaxia neste paciente.",
+   "A hemocultura não orienta a profilaxia, que deve começar na admissão independentemente de qualquer resultado microbiológico."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos com cirrose por hepatite C, Child-Pugh C11, é admitida com hematêmese maciça. Foi intubada para proteção de via aérea, recebe terlipressina e ceftriaxona desde a chegada e foi submetida a ligadura elástica de variz esofágica com sangramento em jato há 4 horas e a nova tentativa endoscópica há 1 hora, ambas sem controle. Mantém sangue vivo pela sonda, com pressão arterial 78/44 mmHg apesar de noradrenalina e de três concentrados de hemácias. A radiologia intervencionista só estará disponível em 10 horas. Qual é a conduta imediata mais adequada?",
+  "alts": [
+   "Balão ou prótese esofágica como ponte para TIPS de resgate",
+   "Terceira sessão de ligadura elástica até cessar o sangue",
+   "Dobrar a terlipressina e aguardar a intervenção vascular",
+   "Transfundir plasma e plaquetas até INR e contagem normais",
+   "Encaminhar para derivação cirúrgica portocava de urgência"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Consenso de Baveno VII, 2022, sangramento varicoso refratário: tamponamento ou prótese como ponte para TIPS de resgate",
+  "coment": "Trata-se de sangramento varicoso refratário: persiste apesar de vasoativo em dose adequada e de duas tentativas endoscópicas. O Baveno VII define que, nessa situação, o tratamento definitivo é o TIPS de resgate e que, enquanto ele não está disponível, deve-se usar uma ponte mecânica: o balão de Sengstaken-Blakemore, por no máximo 24 horas e com via aérea protegida, ou a prótese esofágica autoexpansível, preferível quando disponível por eficácia semelhante e menos complicações. Insistir em novas sessões de ligadura numa paciente em choque não é recomendado. Aumentar a dose do vasoativo não resolve a falha. Plasma e plaquetas não corrigem sangramento de origem portal, e o INR não reflete a hemostasia do cirrótico; volume excessivo ainda eleva a pressão portal. A derivação cirúrgica tem mortalidade proibitiva em Child-Pugh C.",
+  "porAlt": [
+   "Correta: após falha de vasoativo e endoscopia, o balão ou a prótese controlam o sangramento até o TIPS de resgate.",
+   "Duas tentativas endoscópicas já falharam e a paciente está em choque; nova ligadura retarda o controle mecânico e o TIPS.",
+   "Não há benefício em escalonar o vasoativo após falha; a conduta é ponte mecânica e descompressão portal definitiva.",
+   "Plasma e plaquetas não tratam sangramento por hipertensão portal e o volume a mais pode aumentar a pressão nas varizes.",
+   "A derivação cirúrgica em Child-Pugh C tem mortalidade muito alta e foi substituída pelo TIPS como resgate."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos com cirrose por esteato-hepatite metabólica, Child-Pugh B8, foi internado ontem por melena e hematêmese. Recebe octreotida em infusão contínua e ceftriaxona desde a admissão, e a endoscopia nas primeiras 12 horas mostrou varizes esofágicas de grosso calibre com estigma de sangramento recente, sem sangramento ativo, tratadas com ligadura. Desde então está estável: pressão arterial 118/72 mmHg, frequência 84 bpm, hemoglobina estável em 8,4 g/dL, sem encefalopatia. Não preenche critérios para TIPS preemptivo. Quanto ao vasoativo, qual é a conduta recomendada?",
+  "alts": [
+   "Manter a octreotida por 2 a 5 dias após a ligadura",
+   "Suspender a octreotida logo após a ligadura eficaz",
+   "Manter a octreotida até completar 14 dias de uso",
+   "Manter a octreotida até a hemoglobina passar de 10",
+   "Trocar a octreotida por propranolol em dose plena"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso de Baveno VII, 2022, duração do vasoativo no sangramento varicoso agudo",
+  "coment": "O vasoativo (terlipressina, somatostatina ou octreotida) deve ser iniciado antes da endoscopia e mantido por 2 a 5 dias, porque o risco de ressangramento precoce é maior nos primeiros dias, mesmo após ligadura bem-sucedida. A suspensão imediata expõe o paciente a esse período de maior risco, e não há benefício em prolongar até 14 dias. Ao retirar o vasoativo, inicia-se o betabloqueador não seletivo (propranolol, nadolol ou carvedilol) associado à ligadura seriada, como profilaxia secundária; a troca imediata, em dose plena, no primeiro dia, ainda com o paciente recém-sangrado, não é a recomendação. A hemoglobina não é critério de duração: a estratégia transfusional é restritiva, com alvo de 7 a 8 g/dL, e buscar valores acima de 10 aumenta a pressão portal. Como é Child-Pugh B sem sangramento ativo no exame, não há indicação de TIPS preemptivo.",
+  "porAlt": [
+   "Correta: o Baveno VII recomenda manter o vasoativo por 2 a 5 dias, período de maior risco de ressangramento.",
+   "Suspender logo após a ligadura deixa o paciente desprotegido justamente nos dias em que o ressangramento é mais comum.",
+   "Prolongar até 14 dias não traz benefício adicional e mantém infusão e internação sem necessidade.",
+   "A hemoglobina não define a duração; o alvo transfusional é restritivo e valores altos elevam a pressão portal.",
+   "O betabloqueador entra quando o vasoativo é suspenso, não no lugar dele no primeiro dia após o sangramento."
+  ]
+ },
+ {
+  "q": "Mulher de 55 anos com cirrose criptogênica, Child-Pugh A6, procura o pronto-socorro com melena e um episódio de hematêmese. Após estabilização com cristaloide em volume moderado, terlipressina e ceftriaxona, a endoscopia mostra esôfago sem varizes e uma variz isolada de fundo gástrico de 15 mm (IGV1), com coágulo aderido e sangramento em porejamento. Pressão arterial 112/70 mmHg, hemoglobina 8,9 g/dL. A tomografia recente não mostra trombose de veia porta. Qual é o tratamento endoscópico de escolha?",
+  "alts": [
+   "Ligadura elástica da variz isolada do fundo gástrico",
+   "Escleroterapia com etanolamina na variz do fundo",
+   "Coagulação com plasma de argônio na variz do fundo",
+   "Injeção de adrenalina diluída ao redor da variz",
+   "Obliteração da variz com injeção de cianoacrilato"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Consenso de Baveno VII, 2022, tratamento endoscópico das varizes gástricas IGV1 e GOV2",
+  "coment": "As varizes gástricas são classificadas por Sarin: as GOV1 continuam as esofágicas pela pequena curvatura e são tratadas como elas, com ligadura. Já as GOV2 e as varizes isoladas de fundo (IGV1) são calibrosas, de fluxo alto, e o Baveno VII recomenda a obliteração endoscópica com cianoacrilato no sangramento agudo. A ligadura de uma variz de fundo de 15 mm costuma não apreender toda a parede do vaso e, quando o anel cai, deixa úlcera sobre uma variz volumosa, com ressangramento grave. A escleroterapia convencional tem resultado inferior nesse território. Plasma de argônio e adrenalina são técnicas para lesões não varicosas, sem papel em variz. TIPS e obliteração retrógrada transvenosa com balão são alternativas ou resgate, conforme a anatomia e a disponibilidade, mas não o tratamento endoscópico de escolha.",
+  "porAlt": [
+   "A ligadura de variz de fundo volumosa tem alto risco de ressangramento pela úlcera que surge quando o anel se solta.",
+   "A escleroterapia convencional tem baixa eficácia e mais complicações nas varizes de fundo gástrico.",
+   "O plasma de argônio é usado em angiectasias e ectasia vascular antral, não para obliterar variz calibrosa.",
+   "A adrenalina diluída é técnica de hemostasia de úlcera péptica e não oblitera o vaso varicoso.",
+   "Correta: em variz isolada de fundo gástrico que sangra, o cianoacrilato é o tratamento endoscópico recomendado."
+  ]
+ },
+ {
+  "q": "Homem de 31 anos procura o pronto-socorro porque teve uma evacuação de fezes pretas e pastosas pela manhã, após 5 dias de ibuprofeno 600 mg três vezes ao dia por entorse de tornozelo. Nega hematêmese, síncope, hepatopatia, cardiopatia ou insuficiência renal. Pressão arterial 126/80 mmHg, frequência cardíaca 84 bpm. Toque retal com fezes escurecidas. Hemoglobina 14,2 g/dL, ureia 32 mg/dL, creatinina 0,9 mg/dL. O ibuprofeno foi suspenso. Pelo escore de Glasgow-Blatchford, qual é a conduta mais adequada?",
+  "alts": [
+   "Escore 1; internar e fazer endoscopia em até 12 h",
+   "Escore 1; alta com IBP e endoscopia ambulatorial",
+   "Escore 4; internar e fazer endoscopia em até 24 h",
+   "Escore 1; internar com IBP em infusão contínua",
+   "Escore 6; endoscopia de urgência na emergência"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, alta precoce com Glasgow-Blatchford 0 ou 1",
+  "coment": "O escore de Glasgow-Blatchford soma pontos por ureia, hemoglobina, pressão sistólica, frequência cardíaca, melena, síncope, hepatopatia e insuficiência cardíaca. Aqui a ureia de 32 mg/dL corresponde a nitrogênio ureico de cerca de 15 mg/dL, abaixo do primeiro corte, e não pontua; a hemoglobina acima de 13 g/dL no homem, a sistólica acima de 110 mmHg e a frequência abaixo de 100 bpm também não. Só a melena soma 1 ponto. A diretriz do ACG de 2021 recomenda que pacientes com escore 0 ou 1 sejam considerados de muito baixo risco e possam ser manejados ambulatorialmente, com endoscopia eletiva, porque o risco de intervenção ou morte é muito baixo. Internar esse paciente não muda desfecho e consome leito. O inibidor de bomba oral é adequado, e a suspensão do anti-inflamatório é essencial.",
+  "porAlt": [
+   "O cálculo está certo, mas escore 1 não exige internação nem endoscopia nas primeiras 12 horas.",
+   "Correta: com escore 1 o risco é muito baixo, e a diretriz permite alta com endoscopia ambulatorial.",
+   "O escore está superestimado: ureia, hemoglobina e sinais vitais deste paciente não pontuam.",
+   "Infusão contínua de inibidor de bomba é para quem teve estigma de alto risco tratado, não para escore 1.",
+   "O escore não é 6, e não há instabilidade que justifique endoscopia de urgência na sala de emergência."
+  ]
+ },
+ {
+  "q": "Mulher de 67 anos, em uso de ácido acetilsalicílico 100 mg/dia por angioplastia coronária há 3 anos, é internada por hematêmese. Após estabilização, a endoscopia em 14 horas mostra úlcera de 12 mm na parede posterior do bulbo duodenal com vaso visível não sangrante (Forrest IIa), tratada com injeção de adrenalina e clipes, com sucesso. Recebeu omeprazol 80 mg IV antes do exame. Está estável, com hemoglobina de 9,1 g/dL. Qual é o esquema de inibidor de bomba recomendado a partir de agora?",
+  "alts": [
+   "Dose padrão oral 1 vez ao dia desde já, por 8 semanas",
+   "Infusão contínua por 7 dias, depois dose padrão diária",
+   "Dose alta por 3 dias, depois 2 vezes ao dia até 14 dias",
+   "Dose alta por 3 dias e suspender se H. pylori negativo",
+   "Dose alta intravenosa até a hemoglobina se estabilizar"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, inibidor de bomba após hemostasia endoscópica",
+  "coment": "Vaso visível não sangrante é estigma de alto risco (Forrest IIa) e, após a terapia endoscópica, o inibidor de bomba em dose alta reduz ressangramento, cirurgia e mortalidade. A diretriz do ACG de 2021 recomenda dose alta, contínua ou em bolus intermitentes ao menos duas vezes ao dia, por 3 dias, seguida de inibidor oral duas vezes ao dia até completar 14 dias, e depois uma vez ao dia conforme a etiologia. Dose padrão única desde o início é insuficiente nesse risco, e estender a infusão por 7 dias não acrescenta benefício. A pesquisa de Helicobacter pylori orienta a erradicação, mas não encurta o tratamento da úlcera. Como o ácido acetilsalicílico é prevenção secundária coronária, deve ser retomado o mais cedo possível, idealmente nos primeiros dias, mantendo o inibidor de bomba.",
+  "porAlt": [
+   "Dose única diária desde já é insuficiente para úlcera com vaso visível recém-tratada.",
+   "A infusão por 7 dias não reduz ressangramento além do esquema de 3 dias recomendado.",
+   "Correta: após hemostasia de estigma de alto risco, usa-se dose alta por 3 dias e depois duas vezes ao dia até o 14º dia.",
+   "A úlcera precisa de inibidor de bomba independentemente do Helicobacter pylori; a pesquisa só orienta a erradicação.",
+   "A duração da dose alta é fixa em 3 dias e não é guiada pela hemoglobina."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos, sem comorbidades, foi internado ontem por melena, com hemoglobina de 11,8 g/dL, pressão arterial 124/78 mmHg e frequência 92 bpm, e recebeu omeprazol IV. A endoscopia nesta manhã mostrou úlcera gástrica de 8 mm na pequena curvatura do antro, com base limpa de fibrina, sem vaso ou coágulo (Forrest III); foram feitas biópsias da borda e do antro para Helicobacter pylori. Está estável, sem nova exteriorização. Qual é a conduta mais adequada?",
+  "alts": [
+   "Repetir a endoscopia em 24 horas para nova revisão",
+   "Manter jejum e IBP em infusão contínua por 72 horas",
+   "Aplicar clipes endoscópicos na base limpa da úlcera",
+   "Dieta oral, IBP oral e alta precoce com seguimento",
+   "Angiografia com embolização profilática da gástrica"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, úlcera de base limpa sem terapia endoscópica",
+  "coment": "A classificação de Forrest estima o risco de ressangramento pela aparência da úlcera. A base limpa (Forrest III) tem risco de ressangramento abaixo de 5%, e a diretriz do ACG de 2021 não recomenda terapia endoscópica nesse estigma. O paciente pode receber dieta oral logo, inibidor de bomba oral em dose padrão e alta precoce, desde que estável. Repetir endoscopia de rotina em 24 horas, manter infusão contínua ou embolizar profilaticamente não tem benefício e são reservados a estigmas de alto risco ou a ressangramento. Por ser úlcera gástrica, as biópsias da borda ajudam a afastar neoplasia, e costuma-se programar nova endoscopia em 8 a 12 semanas para confirmar a cicatrização; a pesquisa de Helicobacter pylori orienta a erradicação, que reduz recidiva.",
+  "porAlt": [
+   "A revisão endoscópica de rotina não é indicada, menos ainda em lesão de baixo risco como esta.",
+   "Jejum e infusão contínua são excessivos; o tratamento intensivo é reservado a estigmas de alto risco.",
+   "Não há indicação de terapia endoscópica em base limpa, pois não há vaso nem coágulo a tratar.",
+   "Correta: úlcera de base limpa tem baixo risco de ressangramento e permite dieta e alta precoce com inibidor oral.",
+   "Embolização é resgate após falha endoscópica em sangramento ativo, nunca medida profilática em Forrest III."
+  ]
+ },
+ {
+  "q": "Homem de 27 anos chega ao pronto-socorro após uma festa em que bebeu grande quantidade de álcool. Teve vários episódios de vômitos alimentares e depois um vômito com rajas de sangue vivo, cerca de 50 mL. Nega anti-inflamatório, dor torácica ou dispneia. Pressão arterial 128/76 mmHg, frequência 96 bpm, sem enfisema subcutâneo, abdome inocente. Hemoglobina 14,6 g/dL. A endoscopia mostra laceração linear de 1,5 cm na mucosa da transição esofagogástrica, sem sangramento ativo nem vaso visível. Qual é a conduta adequada?",
+  "alts": [
+   "Hemostasia endoscópica com clipes ao longo da laceração",
+   "Tomografia com contraste oral para afastar perfuração",
+   "Observação, antiemético e IBP, sem terapia endoscópica",
+   "Jejum por 7 dias com nutrição parenteral e IBP venoso",
+   "Passagem de sonda nasogástrica para lavagem gástrica"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ESGE Guideline: Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, update 2021, síndrome de Mallory-Weiss",
+  "coment": "A síndrome de Mallory-Weiss é a laceração longitudinal da mucosa da transição esofagogástrica causada por aumento abrupto da pressão intra-abdominal, tipicamente vômitos repetidos após libação alcoólica. O sangramento cessa espontaneamente na grande maioria dos casos. A diretriz da ESGE de 2021 reserva a hemostasia endoscópica para a laceração com sangramento ativo; sem sangramento e sem vaso visível, a conduta é clínica, com antiemético para evitar novos esforços de vômito e inibidor de bomba, com alta precoce se estável. A tomografia para perfuração só se justifica com dor torácica, enfisema ou sinais sistêmicos, que lembram a síndrome de Boerhaave, ausentes aqui. Jejum prolongado e lavagem gástrica não têm papel.",
+  "porAlt": [
+   "Clipes são indicados apenas quando a laceração sangra ativamente durante o exame.",
+   "Sem dor torácica, enfisema ou instabilidade, não há suspeita de ruptura transmural que justifique tomografia.",
+   "Correta: sem sangramento ativo, a laceração cicatriza sozinha e basta controlar os vômitos com inibidor de bomba.",
+   "Jejum prolongado e nutrição parenteral são desnecessários numa lesão superficial que cicatriza em dias.",
+   "A sonda e a lavagem não tratam a laceração e o esforço de passagem pode até piorá-la."
+  ]
+ },
+ {
+  "q": "Homem de 79 anos com hipertensão e diverticulose conhecida apresenta quatro episódios de sangue vivo e coágulos pelo reto nas últimas 2 horas, sem dor. Não usa anti-inflamatório nem anticoagulante e nega epigastralgia ou hepatopatia. Chegou com pressão arterial 86/54 mmHg e frequência 118 bpm; após 1 litro de cristaloide e um concentrado de hemácias, a pressão subiu para 98/60 mmHg, mas mantém sangramento vivo. Hemoglobina 8,0 g/dL, ureia 38 mg/dL, creatinina 1,0 mg/dL. O aspirado nasogástrico é bilioso, sem sangue. Qual é o próximo exame mais adequado?",
+  "alts": [
+   "Colonoscopia urgente sem preparo nas próximas 2 horas",
+   "Endoscopia digestiva alta antes de qualquer outro exame",
+   "Cintilografia com hemácias marcadas e imagens tardias",
+   "Angiotomografia de abdome, com embolização se positiva",
+   "Colectomia total de urgência sem localizar o sangramento"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, angiotomografia no sangramento hemodinamicamente significativo",
+  "coment": "Hematoquezia volumosa com instabilidade que persiste após reanimação define sangramento baixo hemodinamicamente significativo. A diretriz do ACG de 2023 recomenda a angiotomografia como primeiro exame nesse cenário: é rápida, disponível, localiza o extravasamento e orienta a embolização por arteriografia, que deve ser feita logo em seguida quando o exame é positivo. A endoscopia alta deve vir antes quando há forte suspeita de fonte alta, o que não ocorre aqui: não há uso de anti-inflamatório, a ureia não está desproporcionalmente elevada e o aspirado é bilioso. A colonoscopia urgente sem preparo tem baixo rendimento e não melhorou desfechos em ensaios. A cintilografia é lenta e localiza mal. A colectomia às cegas só se considera em sangramento persistente sem localização após os métodos disponíveis, pela alta mortalidade e ressangramento.",
+  "porAlt": [
+   "Sem preparo, a visualização é ruim e a colonoscopia urgente não mostrou melhora de desfechos neste cenário.",
+   "Aspirado bilioso, ureia proporcional e ausência de anti-inflamatório tornam a fonte alta pouco provável.",
+   "A cintilografia demora, localiza o foco com imprecisão e atrasa a terapia em paciente instável.",
+   "Correta: em sangramento baixo com repercussão hemodinâmica, a angiotomografia localiza o foco e guia a embolização.",
+   "A colectomia sem localização tem mortalidade alta e só cabe após falha dos métodos de localização."
+  ]
+ },
+ {
+  "q": "Mulher de 72 anos é internada após dois episódios de hematoquezia de moderado volume. Chegou com pressão arterial 132/80 mmHg e frequência 88 bpm, e permanece estável desde então. A hemoglobina caiu de 12,1 para 10,6 g/dL em 12 horas e não houve novo sangramento nas últimas 8 horas. Não usa antitrombóticos. Tem diverticulose extensa em colonoscopia de 4 anos atrás. Qual é a conduta diagnóstica mais adequada?",
+  "alts": [
+   "Colonoscopia em até 6 horas, mesmo sem preparo intestinal",
+   "Colonoscopia na internação, sem urgência, após preparo",
+   "Angiotomografia imediata, mesmo sem sangramento ativo",
+   "Arteriografia mesentérica seletiva e embolização do foco",
+   "Alta sem exame, pois a causa diverticular é conhecida"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, momento da colonoscopia",
+  "coment": "A maior parte dos sangramentos digestivos baixos cessa espontaneamente, e o diverticular é a causa mais comum no idoso. Na paciente estável, a diretriz do ACG de 2023 recomenda colonoscopia durante a internação, após preparo adequado com polietilenoglicol, sem caráter de urgência: ensaios randomizados mostraram que fazê-la nas primeiras 24 horas não reduz ressangramento nem mortalidade. O exame confirma a fonte, permite tratar estigmas e afasta neoplasia e colite. A angiotomografia é útil quando há sangramento ativo com repercussão hemodinâmica, e com o sangramento parado o rendimento é baixo. A arteriografia exige extravasamento ativo. Diverticulose prévia não prova que os divertículos sangraram, e a alta sem investigação deixa passar câncer, angiectasias ou colite isquêmica.",
+  "porAlt": [
+   "Colonoscopia ultraprecoce sem preparo tem rendimento baixo e não melhora ressangramento nem mortalidade.",
+   "Correta: em paciente estável, a colonoscopia é feita na internação, após preparo, sem necessidade de urgência.",
+   "Sem sangramento ativo, a angiotomografia raramente mostra extravasamento e expõe a contraste sem ganho.",
+   "A arteriografia só localiza sangramento em atividade e é procedimento invasivo, reservado à terapia.",
+   "Diverticulose antiga não confirma a origem do sangramento; neoplasia e outras causas precisam ser excluídas."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos recebe alta após sangramento diverticular que cessou espontaneamente, confirmado por colonoscopia, sem necessidade de terapia endoscópica. Usa ácido acetilsalicílico (AAS) 100 mg/dia iniciado há 6 anos como prevenção primária, por diabetes, sem doença coronariana, cerebrovascular ou arterial periférica, e toma naproxeno 500 mg duas vezes ao dia por artrose de joelho. LDL de 88 mg/dL em uso de atorvastatina. Qual é a orientação mais adequada em relação a esses medicamentos?",
+  "alts": [
+   "Suspender o AAS e também o naproxeno",
+   "Manter o AAS e suspender o naproxeno",
+   "Manter o AAS e trocar por celecoxibe",
+   "Trocar o AAS por clopidogrel 75 mg/dia",
+   "Manter o AAS e o naproxeno com um IBP"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, antitrombóticos e anti-inflamatórios após sangramento diverticular",
+  "coment": "Anti-inflamatórios não esteroidais e ácido acetilsalicílico aumentam o risco de sangramento diverticular e de recidiva. A diretriz do ACG de 2023 distingue a indicação do AAS: em prevenção secundária, com doença cardiovascular estabelecida, ele deve ser mantido, porque o benefício supera o risco; em prevenção primária, como aqui, recomenda-se evitá-lo após hemorragia diverticular, já que o ganho cardiovascular é pequeno e o risco de ressangramento é real. Os anti-inflamatórios não seletivos devem ser suspensos. O celecoxibe reduz lesão alta, mas não está demonstrado que proteja do sangramento colônico. O inibidor de bomba não protege o cólon, porque o mecanismo não é ácido. O clopidogrel também aumenta sangramento diverticular e não tem indicação em prevenção primária. Para a artrose, preferir paracetamol e medidas não farmacológicas.",
+  "porAlt": [
+   "Correta: AAS em prevenção primária e anti-inflamatório devem ser suspensos após sangramento diverticular.",
+   "Manter o AAS faz sentido só em prevenção secundária; aqui não há doença cardiovascular estabelecida.",
+   "O AAS segue sem indicação, e o celecoxibe não tem proteção demonstrada contra sangramento do cólon.",
+   "O clopidogrel também eleva o risco de sangramento diverticular e não tem indicação neste paciente.",
+   "O inibidor de bomba protege o estômago, não os divertículos, e mantém dois fatores de ressangramento."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos em hemodiálise por doença renal diabética tem episódios recorrentes de hematoquezia de pequeno volume e anemia ferropriva, com hemoglobina de 8,2 g/dL e ferritina de 9 ng/mL, necessitando de transfusão a cada 2 meses. Não usa anticoagulante. A colonoscopia com bom preparo mostra três lesões planas, avermelhadas, de 4 a 6 mm, de aspecto arboriforme, no ceco e no cólon ascendente, uma delas com porejamento; a endoscopia alta é normal. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Hemicolectomia direita eletiva com anastomose",
+   "Octreotida de depósito como primeira escolha",
+   "Coagulação com plasma de argônio das ectasias",
+   "Ressecção das lesões por polipectomia com alça",
+   "Apenas reposição de ferro, sem tratar as lesões"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, terapia endoscópica térmica de angiectasias",
+  "coment": "Lesões planas, vermelhas e arboriformes no cólon direito de idosa em diálise são angiectasias (angiodisplasias), causa importante de sangramento baixo recorrente e de anemia ferropriva, sobretudo em doença renal crônica, estenose aórtica e doença de von Willebrand adquirida. Quando a lesão sangra ou a anemia exige transfusão, o tratamento inicial é endoscópico térmico, e a coagulação com plasma de argônio é o método mais usado, por ser eficaz e com baixo risco de perfuração no cólon direito de parede fina. A reposição de ferro acompanha, mas sozinha não basta numa paciente dependente de transfusão. Octreotida e talidomida ficam para sangramento refratário ou lesões difusas. Alça de polipectomia não é técnica para lesão vascular plana, e a hemicolectomia é reservada a falha das demais opções.",
+  "porAlt": [
+   "A cirurgia é reservada a sangramento refratário após falha endoscópica e farmacológica.",
+   "Octreotida é opção para lesões difusas ou refratárias, não primeira linha diante de lesões tratáveis.",
+   "Correta: angiectasia com porejamento e anemia transfusional deve ser tratada com plasma de argônio.",
+   "Alça de polipectomia não se aplica a lesão vascular plana e aumenta o risco de perfuração.",
+   "Com transfusões a cada 2 meses e lesão sangrante, o ferro sozinho não controla o problema."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, previamente hígida, tem dor em fossa ilíaca esquerda há 2 dias, temperatura de 37,6 °C, sem vômitos, aceitando líquidos. Abdome com dor localizada, sem defesa difusa. Leucócitos 11.800/mm³, proteína C reativa 64 mg/L. A tomografia mostra espessamento de 5 cm do sigmoide com divertículos e densificação da gordura, sem abscesso, gás extraluminal ou fístula. Não é imunossuprimida, não tem diabetes descompensado e mora com o marido. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tratamento ambulatorial com analgesia e sem antibiótico",
+   "Ciprofloxacino com metronidazol oral por 10 dias em casa",
+   "Internação com ceftriaxona e metronidazol endovenosos",
+   "Internação com jejum e nutrição parenteral por 5 dias",
+   "Colonoscopia na próxima semana para excluir neoplasia"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021, uso seletivo de antibiótico",
+  "coment": "A paciente tem diverticulite aguda não complicada confirmada por tomografia, é imunocompetente, tolera via oral e tem suporte em casa. A atualização da AGA de 2021 orienta que o antibiótico seja usado de forma seletiva, não rotineira, nesse perfil: ensaios randomizados e metanálises mostraram que ele não encurta os sintomas nem reduz complicações, recorrência ou cirurgia. O antibiótico fica indicado se houver imunossupressão, fragilidade ou comorbidade relevante, vômitos ou sintomas refratários, proteína C reativa acima de 140 mg/L, leucócitos acima de 15.000/mm³, coleção ou segmento inflamado mais extenso na tomografia, nada disso presente aqui. Internação e jejum não se justificam. A colonoscopia não é feita na fase aguda, pelo risco de perfuração; ela é considerada após 6 a 8 semanas se não houver exame recente de qualidade.",
+  "porAlt": [
+   "Correta: diverticulite não complicada leve em imunocompetente pode ser tratada em casa sem antibiótico.",
+   "O antibiótico oral não mudou desfechos neste perfil e acrescenta efeitos adversos e resistência.",
+   "Não há critério de internação nem de antibiótico venoso numa paciente estável que aceita via oral.",
+   "Jejum e nutrição parenteral não têm papel na diverticulite não complicada que tolera líquidos.",
+   "A colonoscopia na fase aguda tem risco de perfuração; quando indicada, é feita após 6 a 8 semanas."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos teve, há 2 meses, o primeiro episódio de diverticulite aguda não complicada confirmada por tomografia, tratado em casa, com resolução completa. Colonoscopia de rastreamento de boa qualidade, feita há 1 ano, foi normal, exceto por diverticulose do sigmoide. Fuma 10 cigarros por dia, tem índice de massa corporal de 31 kg/m², é sedentário e come pouca fibra. Pergunta o que fazer para evitar novos episódios. Qual é a orientação mais adequada?",
+  "alts": [
+   "Evitar sementes, pipoca e castanhas, e usar mesalazina",
+   "Probiótico contínuo e dieta pobre em resíduos por 1 ano",
+   "Fibras, exercício e cessar tabagismo; sementes liberadas",
+   "Rifaximina cíclica mensal associada a dieta sem fibras",
+   "Sigmoidectomia eletiva indicada a partir deste 1º episódio"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021, prevenção de recorrência",
+  "coment": "A prevenção de recorrência da diverticulite se apoia em mudanças de estilo de vida. A atualização da AGA de 2021 recomenda dieta rica em fibras, atividade física regular, perda de peso, cessação do tabagismo e evitar anti-inflamatórios não esteroidais. A antiga restrição de sementes, milho, pipoca e castanhas não tem respaldo: estudos de coorte não mostraram aumento de risco, e o consumo de castanhas até se associou a menor incidência. Mesalazina, rifaximina e probióticos não reduziram recorrência em ensaios e não são recomendados. A indicação de sigmoidectomia eletiva deixou de ser definida pelo número de episódios e é individualizada, pesando gravidade, impacto na qualidade de vida e imunossupressão; após um episódio não complicado, não está indicada. Como a colonoscopia de boa qualidade é recente, não precisa ser repetida.",
+  "porAlt": [
+   "A restrição de sementes não tem base em evidência e a mesalazina não reduziu recorrência em ensaios.",
+   "Probióticos não mostraram benefício, e dieta pobre em resíduos vai contra a recomendação de fibras.",
+   "Correta: fibras, exercício, perda de peso e parar de fumar reduzem recorrência, e sementes não precisam ser evitadas.",
+   "Rifaximina não é recomendada para prevenção, e retirar as fibras aumenta o risco de novos episódios.",
+   "A cirurgia eletiva é individualizada e não se indica após um único episódio não complicado."
+  ]
+ },
+ {
+  "q": "Rapaz de 19 anos procura o pronto-socorro com dois episódios de evacuação com sangue vermelho-escuro em grande quantidade, indolores. Pressão arterial 108/66 mmHg, frequência 104 bpm, abdome indolor. Hemoglobina 9,4 g/dL, ureia 30 mg/dL. Teve episódio semelhante aos 14 anos, sem diagnóstico. A endoscopia alta e a colonoscopia com bom preparo, feitas na internação, não mostram lesão, e o íleo terminal visualizado é normal. Está estável após um concentrado de hemácias. Qual é o exame mais indicado para a principal hipótese?",
+  "alts": [
+   "Cintilografia com pertecnetato de tecnécio-99m",
+   "Cintilografia com hemácias marcadas com tecnécio",
+   "Arteriografia mesentérica seletiva de urgência",
+   "Trânsito do intestino delgado com bário oral",
+   "Repetir colonoscopia com novo preparo intestinal"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Small Bowel Bleeding, 2015, cintilografia para divertículo de Meckel no jovem",
+  "coment": "Sangramento volumoso, indolor e recorrente em jovem, com endoscopia alta e colonoscopia normais, sugere fonte no intestino delgado, e nessa faixa etária o divertículo de Meckel é a principal causa. O sangramento vem da úlcera na mucosa ileal adjacente, provocada pela secreção ácida de mucosa gástrica ectópica presente no divertículo. A cintilografia com pertecnetato de tecnécio-99m é captada pelas células da mucosa gástrica e localiza o divertículo; a diretriz do ACG de sangramento do delgado recomenda considerá-la em pacientes jovens com sangramento de delgado. A cintilografia com hemácias marcadas detecta sangramento ativo em qualquer local, sem especificidade para Meckel. A arteriografia exige sangramento em curso. O trânsito baritado tem baixa sensibilidade. Repetir uma colonoscopia de boa qualidade raramente acrescenta.",
+  "porAlt": [
+   "Correta: o pertecnetato marca a mucosa gástrica ectópica e é o exame de escolha para divertículo de Meckel.",
+   "Hemácias marcadas mostram sangramento ativo, mas não identificam a mucosa gástrica característica do Meckel.",
+   "A arteriografia só localiza sangramento ativo intenso e o paciente está estável no momento.",
+   "O trânsito baritado tem baixa sensibilidade para divertículo de Meckel e para fontes de sangramento.",
+   "A colonoscopia já foi feita com bom preparo e não explica um sangramento originado no delgado."
+  ]
+ },
+ {
+  "q": "Mulher de 34 anos tem há 3 meses dor em fossa ilíaca direita e 3 a 4 evacuações pastosas por dia, sem sangue, sem febre e com perda de 1 kg. Exame físico sem massa e sem doença perianal. Hemoglobina 12,6 g/dL, albumina 4,0 g/dL, proteína C reativa 12 mg/L, calprotectina fecal 380 µg/g. A colonoscopia mostra úlceras aftoides em 8 cm do íleo terminal e na válvula ileocecal, sem úlceras profundas, e a enterorressonância não mostra estenose, fístula ou abscesso. As biópsias são compatíveis com doença de Crohn. Qual é a indução mais adequada?",
+  "alts": [
+   "Budesonida oral de liberação ileal, 9 mg por dia",
+   "Mesalazina oral 4 g por dia por tempo prolongado",
+   "Prednisona 1 mg/kg/dia associada a azatioprina",
+   "Infliximabe associado a azatioprina desde o início",
+   "Ciprofloxacino com metronidazol por seis semanas"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2025, indução na doença ileocecal leve a moderada",
+  "coment": "A paciente tem doença de Crohn ileocecal leve, com lesões superficiais e curtas, sem doença perianal, sem estenose ou fístula, sem anemia ou hipoalbuminemia, ou seja, de baixo risco de evolução agressiva. Nesse perfil, a diretriz do ACG de 2025 recomenda budesonida oral de liberação ileal, 9 mg ao dia, para induzir remissão: age no íleo e cólon direito com baixa absorção sistêmica e menos efeitos que a prednisona. A mesalazina não é recomendada no Crohn por falta de eficácia consistente. A mesma diretriz defende biológico precoce, geralmente anti-TNF, quando a doença é moderada a grave ou há fatores de mau prognóstico, como úlceras profundas, doença extensa, perianal ou início precoce, o que não é o caso. Antibióticos não tratam a doença luminal. A atividade deve ser reavaliada com marcadores e endoscopia.",
+  "porAlt": [
+   "Correta: na doença ileocecal leve de baixo risco, a budesonida de liberação ileal é a indução recomendada.",
+   "A mesalazina não tem eficácia consistente no Crohn e não é recomendada para indução ou manutenção.",
+   "Corticoide sistêmico em dose plena é excessivo para doença leve e tem mais efeitos que a budesonida.",
+   "O biológico precoce é reservado a doença moderada a grave ou com fatores de mau prognóstico.",
+   "Antibióticos não induzem remissão na doença luminal e ficam para complicações infecciosas ou perianais."
+  ]
+ },
+ {
+  "q": "Homem de 28 anos com retocolite ulcerativa extensa diagnosticada há 1 ano, em uso irregular de mesalazina, é internado com 10 evacuações diárias com sangue, frequência cardíaca 104 bpm, temperatura 37,9 °C, hemoglobina 10,1 g/dL, proteína C reativa 86 mg/L e velocidade de hemossedimentação de 42 mm/h. A radiografia de abdome não mostra dilatação colônica. Não recebeu corticoide nos últimos meses. Qual conjunto de medidas iniciais é o mais adequado?",
+  "alts": [
+   "Corticoide oral em dose plena, ciprofloxacino e jejum oral",
+   "Colectomia de urgência pelos critérios de colite grave atual",
+   "Corticoide IV, pesquisar C. difficile e heparina profilática",
+   "Mesalazina oral em dose máxima, enemas e alta com retorno",
+   "Infliximabe imediato e suspender heparina pelo sangramento"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025, manejo inicial da colite aguda grave hospitalizada",
+  "coment": "O paciente preenche os critérios de Truelove e Witts para colite aguda grave: seis ou mais evacuações com sangue e ao menos um sinal sistêmico (taquicardia, febre, anemia ou hemossedimentação elevada). A diretriz do ACG de 2025 orienta internação com corticoide intravenoso, como metilprednisolona 60 mg ao dia, pesquisa de infecção por Clostridioides difficile, que piora o prognóstico e muda a conduta, e profilaxia farmacológica de tromboembolismo venoso, porque o risco trombótico é alto e o sangramento retal não a contraindica. Retossigmoidoscopia cuidadosa ajuda a afastar citomegalovírus. A resposta é reavaliada por volta do terceiro dia; sem melhora, faz-se resgate com infliximabe ou ciclosporina e avalia-se cirurgia. Colectomia imediata cabe em megacólon tóxico, perfuração ou hemorragia maciça, ausentes aqui. Antibiótico empírico e jejum não melhoram o desfecho.",
+  "porAlt": [
+   "Corticoide oral é insuficiente na colite grave internada, e antibiótico empírico e jejum não mudam o desfecho.",
+   "A colectomia imediata é para megacólon tóxico, perfuração ou hemorragia maciça, que este paciente não tem.",
+   "Correta: corticoide venoso, exclusão de C. difficile e profilaxia de trombose são as medidas iniciais na colite grave.",
+   "Com critérios de gravidade, mesalazina e alta expõem o paciente a deterioração rápida fora do hospital.",
+   "O infliximabe é resgate após falha do corticoide, e a profilaxia de trombose deve ser mantida."
+  ]
+ },
+ {
+  "q": "Mulher de 31 anos com retocolite ulcerativa em remissão com mesalazina, assintomática, traz exames de rotina: fosfatase alcalina 410 U/L (referência até 104), gama-GT 290 U/L, transaminases 1,5 vez o limite superior e bilirrubina normal. A ultrassonografia não mostra cálculos nem dilatação de vias biliares, e o anticorpo antimitocôndria é negativo. Não usa álcool nem outros medicamentos. Qual é o exame mais indicado para a principal hipótese?",
+  "alts": [
+   "Biópsia hepática para colangite biliar primária",
+   "CPRE diagnóstica com escovado das vias biliares",
+   "Anticorpo antimúsculo liso para hepatite autoimune",
+   "Colangiorressonância para colangite esclerosante",
+   "Repetir enzimas em 6 meses por efeito da mesalazina"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "AASLD Practice Guidance on primary sclerosing cholangitis and cholangiocarcinoma, 2022; ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025",
+  "coment": "Colestase persistente em paciente com retocolite ulcerativa deve levantar a suspeita de colangite esclerosante primária, a manifestação hepatobiliar mais característica da doença inflamatória intestinal, que acomete principalmente homens jovens, mas também mulheres. A ultrassonografia costuma ser normal nas fases iniciais. A orientação da AASLD de 2022 recomenda a colangiorressonância como exame diagnóstico de escolha, por mostrar estenoses multifocais e dilatações das vias biliares intra e extra-hepáticas de forma não invasiva. A CPRE fica para quando há necessidade terapêutica ou de amostra para afastar colangiocarcinoma, pelo risco de pancreatite e colangite. A biópsia hepática só se faz se houver suspeita de doença de pequenos ductos ou sobreposição com hepatite autoimune. A colangite biliar primária é improvável com antimitocôndria negativo. O diagnóstico muda a vigilância do cólon, que passa a ser anual.",
+  "porAlt": [
+   "Com antimitocôndria negativo a colangite biliar é improvável, e a biópsia não é o primeiro exame aqui.",
+   "A CPRE é invasiva e fica reservada a intervenção terapêutica ou coleta de material, não ao diagnóstico.",
+   "Hepatite autoimune cursaria com predomínio de transaminases, e o padrão aqui é claramente colestático.",
+   "Correta: colestase em portador de retocolite sugere colangite esclerosante, e a colangiorressonância é o exame de escolha.",
+   "Atribuir à mesalazina e esperar 6 meses atrasa o diagnóstico de uma doença que muda o seguimento."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos tem retocolite ulcerativa extensa, até o ceco, diagnosticada há 8 anos, em remissão clínica e endoscópica com mesalazina. Não tem colangite esclerosante primária nem história familiar de câncer colorretal. A última colonoscopia, há 3 anos, foi para avaliação de atividade e não mostrou displasia. Qual é a estratégia de prevenção de câncer colorretal recomendada?",
+  "alts": [
+   "Colonoscopia de rastreio apenas a partir dos 45 anos",
+   "Colonoscopia a cada 10 anos, como na população geral",
+   "Colectomia profilática pela extensão e pela duração",
+   "Teste imunoquímico fecal anual em vez de colonoscopia",
+   "Iniciar colonoscopia de vigilância a cada 1 a 3 anos"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025, vigilância de displasia na colite extensa",
+  "coment": "O risco de câncer colorretal na retocolite aumenta com a duração e a extensão da doença e com a intensidade da inflamação. Por isso, a diretriz do ACG de 2025 recomenda colonoscopia de vigilância a partir de 8 anos do diagnóstico em quem tem colite além do reto, repetida a cada 1 a 3 anos conforme o risco, com aparelho de alta definição e técnicas que aumentam a detecção de displasia, como a cromoscopia. Pacientes com colangite esclerosante primária fogem dessa regra: a vigilância começa no diagnóstico da colangite e é anual. O rastreio da população geral, aos 45 anos e a cada 10 anos, não se aplica a quem tem colite extensa de longa data. O teste imunoquímico fecal não serve, porque a doença inflamatória causa sangramento e a displasia pode ser plana. A colectomia profilática sem displasia não é indicada.",
+  "porAlt": [
+   "A vigilância na colite não depende da idade de rastreio populacional, e sim do tempo e da extensão da doença.",
+   "O intervalo de 10 anos é para risco médio e é longo demais para colite extensa de longa duração.",
+   "Sem displasia, a colectomia profilática não se justifica apenas pela extensão e duração da colite.",
+   "O teste fecal perde valor na colite, que sangra, e não detecta displasia plana; a colonoscopia é obrigatória.",
+   "Correta: com 8 anos de colite extensa, inicia-se colonoscopia de vigilância a cada 1 a 3 anos."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos chega com dor epigástrica intensa em faixa, irradiada para o dorso, iniciada há 10 horas após jantar com bebida alcoólica, com náuseas. Pressão arterial 134/82 mmHg, frequência 98 bpm, temperatura 37,2 °C, saturação 97%. Abdome doloroso no epigástrio, sem peritonite. Lipase 1.380 U/L (referência até 60), creatinina 1,0 mg/dL, ureia 34 mg/dL, leucócitos 12.400/mm³. A ultrassonografia de abdome mostra vesícula sem cálculos e pâncreas mal visualizado por gases. Sobre o diagnóstico, qual é a afirmação correta?",
+  "alts": [
+   "Só se confirma com tomografia contrastada de entrada",
+   "Exige amilase acima de 3 vezes para ser confirmado",
+   "Está confirmado; não exige tomografia neste momento",
+   "Exige ressonância, pois o pâncreas não foi bem visto",
+   "Exige lipase acima de 10 vezes o limite superior normal"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, critérios diagnósticos de Atlanta revisados",
+  "coment": "Pela classificação de Atlanta revisada, adotada pela diretriz do ACG de 2024, o diagnóstico de pancreatite aguda exige dois de três critérios: dor abdominal típica, lipase ou amilase acima de três vezes o limite superior e achados de imagem característicos. Este paciente tem dor típica e lipase cerca de 23 vezes o limite, o que já fecha o diagnóstico sem qualquer imagem do pâncreas. A tomografia contrastada na admissão não é recomendada quando o diagnóstico é claro: ela não muda a conduta inicial, a necrose pode não estar definida nas primeiras 72 horas e o contraste soma risco. Fica para dúvida diagnóstica ou para quem não melhora após 48 a 72 horas. A ultrassonografia serve para buscar litíase biliar, não para confirmar a pancreatite. Não há exigência de amilase quando a lipase já é diagnóstica, nem de lipase acima de 10 vezes.",
+  "porAlt": [
+   "A tomografia de entrada não é necessária quando os dois critérios clínico-laboratoriais já estão presentes.",
+   "Basta lipase ou amilase acima de três vezes; a lipase isolada já cumpre o critério enzimático.",
+   "Correta: dor típica e lipase acima de três vezes o limite já preenchem dois critérios, sem necessidade de imagem.",
+   "A má visualização na ultrassonografia não importa, porque a imagem não é necessária para este diagnóstico.",
+   "O corte diagnóstico é três vezes o limite superior, não dez vezes, e o paciente o ultrapassa com folga."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos está internada há 30 horas com pancreatite aguda biliar leve, sem falência orgânica, e recebeu hidratação moderada com Ringer lactato e analgesia. Hoje a dor caiu de 8 para 3 em 10, não há vômitos, os ruídos hidroaéreos estão presentes e ela refere fome. A lipase ainda está 4 vezes acima do normal. Bilirrubina normal, sem sinais de colangite. Quanto à alimentação, qual é a conduta mais adequada?",
+  "alts": [
+   "Aguardar a lipase normalizar para liberar a dieta oral",
+   "Iniciar dieta oral sólida com pouca gordura já hoje",
+   "Iniciar nutrição parenteral total e manter o jejum",
+   "Iniciar dieta enteral por sonda nasojejunal desde hoje",
+   "Dieta líquida restrita por 5 dias antes de sólidos"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, realimentação oral precoce",
+  "coment": "A diretriz do ACG de 2024 recomenda realimentação oral precoce na pancreatite leve, idealmente nas primeiras 24 a 48 horas, assim que a dor diminui e não há vômitos, porque o jejum prolongado favorece atrofia da mucosa, translocação bacteriana e infecção, além de prolongar a internação. Não é preciso esperar a normalização da lipase, que não se relaciona com a tolerância alimentar nem com a gravidade. Também não é preciso começar por dieta líquida: a dieta sólida com pouca gordura é segura e reduz o tempo de internação. Sonda e nutrição parenteral ficam para quem não tolera a via oral, e na pancreatite grave a via enteral é preferida à parenteral. Por ser biliar e leve, a colecistectomia deve ser feita na mesma internação para evitar recorrência.",
+  "porAlt": [
+   "A lipase não guia a realimentação, e esperar sua normalização prolonga o jejum sem benefício.",
+   "Correta: com dor em queda e fome, a dieta oral sólida com pouca gordura deve ser iniciada precocemente.",
+   "A nutrição parenteral é reservada a quem não tolera via enteral e não se aplica a pancreatite leve.",
+   "A sonda nasojejunal é para quem não consegue comer; esta paciente tem fome e tolera a via oral.",
+   "Começar por líquidos não traz vantagem, e a dieta sólida com pouca gordura é segura desde o início."
+  ]
+ },
+ {
+  "q": "Homem de 57 anos está no quarto dia de pancreatite aguda alcoólica grave, na UTI por insuficiência respiratória que melhorou com cateter nasal de alto fluxo. A tomografia contrastada de ontem mostra necrose de cerca de 40% do pâncreas, sem gás nem coleção encapsulada. Temperatura 37,8 °C, leucócitos 16.000/mm³, procalcitonina 0,3 ng/mL, hemoculturas negativas e nenhum outro foco infeccioso. Não tolera dieta oral por dor e náuseas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Nutrição enteral por sonda, sem antibiótico profilático",
+   "Meropeném profilático e nutrição parenteral exclusiva",
+   "Imipeném por 14 dias e jejum até a necrose se resolver",
+   "Necrosectomia precoce e antibiótico de amplo espectro",
+   "Punção da necrose por agulha fina e antibiótico empírico"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, antibiótico profilático e nutrição na pancreatite necrosante",
+  "coment": "A diretriz do ACG de 2024 recomenda não usar antibiótico profilático na pancreatite grave ou necrosante sem infecção documentada: os ensaios não mostraram redução de infecção da necrose nem de mortalidade, e há seleção de germes resistentes e fungos. Febre baixa e leucocitose nos primeiros dias refletem a resposta inflamatória sistêmica; a suspeita de necrose infectada surge mais tarde, em geral após 7 a 10 dias, com piora clínica ou gás na tomografia. Quando a via oral não é tolerada, a nutrição enteral por sonda é preferida à parenteral, porque preserva a barreira intestinal e reduz infecções, falência orgânica e mortalidade. A punção por agulha fina deixou de ser rotina. A intervenção na necrose, quando necessária, deve ser adiada até a encapsulação, em geral após quatro semanas, preferindo abordagens minimamente invasivas.",
+  "porAlt": [
+   "Correta: sem infecção documentada não se usa antibiótico, e a via enteral é preferida quando a oral falha.",
+   "Antibiótico profilático não reduz mortalidade, e a nutrição parenteral aumenta infecções em relação à enteral.",
+   "Antibiótico sem infecção é contraindicado e o jejum prolongado piora a barreira intestinal.",
+   "Intervir na necrose precocemente aumenta mortalidade; deve-se aguardar a encapsulação.",
+   "A punção da necrose não é rotina e não há quadro sugestivo de infecção neste quarto dia."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, ex-etilista, com pancreatite crônica calcificante, refere 4 evacuações diárias volumosas, gordurosas e de difícil descarga, com perda de 6 kg em 4 meses. Elastase fecal de 62 µg/g. Hemoglobina glicada de 6,1%. Usa pancreatina 10.000 UI de lipase em jejum, pela manhã, uma vez ao dia, sem melhora. Qual é o ajuste mais adequado?",
+  "alts": [
+   "Manter 10 mil UI em jejum e associar loperamida diariamente",
+   "Dobrar a dose em jejum, duas horas antes do café da manhã",
+   "Suspender a enzima e iniciar dieta totalmente sem gordura",
+   "Trocar por octreotida para reduzir a secreção intestinal",
+   "40 a 50 mil UI de lipase junto de cada refeição principal"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AGA Clinical Practice Update on the Epidemiology, Evaluation, and Management of Exocrine Pancreatic Insufficiency, 2023; ACG Clinical Guideline: Chronic Pancreatitis, 2020",
+  "coment": "Esteatorreia com perda de peso e elastase fecal abaixo de 100 µg/g confirmam insuficiência pancreática exócrina. A falha aqui é de dose e de horário: a enzima só age misturada ao alimento no duodeno. A atualização da AGA de 2023 recomenda iniciar com ao menos 40.000 a 50.000 unidades de lipase em cada refeição principal, tomadas no início ou ao longo da refeição, e metade dessa dose nos lanches, com titulação pela resposta clínica. Se a resposta for insuficiente apesar de dose adequada, pode-se associar inibidor de bomba, que protege as enzimas da inativação ácida. A dieta não deve ser pobre em gordura, porque isso agrava a desnutrição e a deficiência de vitaminas lipossolúveis. Loperamida mascara o problema, e a octreotida reduz ainda mais a secreção pancreática. Deve-se avaliar vitaminas lipossolúveis e densidade óssea.",
+  "porAlt": [
+   "Dose baixa em jejum não digere gordura alguma, e a loperamida só mascara a esteatorreia.",
+   "Em jejum, a enzima não encontra alimento para agir; dobrar a dose no horário errado não resolve.",
+   "Restringir gordura agrava a perda de peso e as deficiências; o correto é ajustar a enzima.",
+   "A octreotida reduz a secreção pancreática e pode piorar a insuficiência exócrina.",
+   "Correta: a enzima precisa de dose adequada e ser tomada com as refeições, começando por 40 a 50 mil UI de lipase."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos com esclerose sistêmica há 10 anos refere distensão abdominal, flatulência e diarreia aquosa há 6 meses, com perda de 4 kg. Hemoglobina 11,0 g/dL com volume corpuscular médio de 104 fL, vitamina B12 baixa (160 pg/mL), folato sérico elevado (24 ng/mL), sorologia para doença celíaca negativa com IgA total normal e calprotectina fecal de 40 µg/g. Colonoscopia recente normal. Qual é o próximo passo diagnóstico mais adequado?",
+  "alts": [
+   "Teste respiratório com glicose ou lactulose",
+   "Elastase fecal com tomografia de pâncreas",
+   "Teste respiratório com ureia marcada com 13C",
+   "Biópsia de duodeno com coloração pelo PAS",
+   "Teste de tolerância à lactose com glicemia"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth, 2020, teste respiratório com glicose ou lactulose",
+  "coment": "A esclerose sistêmica compromete a motilidade do intestino delgado e é causa clássica de supercrescimento bacteriano. O quadro de distensão, flatulência e diarreia com B12 baixa e folato alto é típico: as bactérias consomem a cobalamina e produzem folato. A diretriz do ACG de 2020 recomenda o teste respiratório com glicose ou lactulose, medindo hidrogênio e metano, como forma prática e não invasiva de diagnóstico; a cultura do aspirado jejunal é o padrão de referência, mas pouco disponível. O tratamento é com antibiótico, sendo a rifaximina a opção mais estudada, além de procinéticos e correção de deficiências. A sorologia celíaca negativa e a calprotectina normal afastam celíaca e inflamação. O teste com ureia marcada pesquisa Helicobacter pylori, a coloração pelo PAS busca doença de Whipple e o perfil não é de insuficiência pancreática.",
+  "porAlt": [
+   "Correta: dismotilidade da esclerose sistêmica, B12 baixa e folato alto apontam supercrescimento, e o teste respiratório confirma.",
+   "Insuficiência pancreática não explica folato alto, e não há história de pancreatite ou álcool.",
+   "O teste com ureia marcada detecta Helicobacter pylori, que não explica diarreia com B12 baixa e folato alto.",
+   "A coloração pelo PAS investiga doença de Whipple, pouco provável sem artralgias, febre ou linfonodomegalia.",
+   "A intolerância à lactose não explica a deficiência de B12 com folato elevado nem a perda de peso."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos, agricultor, tem há 5 anos artralgias migratórias de grandes articulações, tratadas como artrite soronegativa. Há 8 meses surgiram diarreia, perda de 11 kg, febre baixa e escurecimento da pele. Ao exame, linfonodomegalias generalizadas e hiperpigmentação cutânea. Albumina 2,6 g/dL. A endoscopia mostra vilosidades duodenais espessadas e mucosa esbranquiçada; as biópsias têm macrófagos espumosos PAS-positivos na lâmina própria, resistentes à diástase, com Ziehl-Neelsen negativo, e a PCR tecidual para Tropheryma whipplei é positiva. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Ceftriaxona por 14 dias e depois sulfametoxazol-trimetoprima por 12 meses",
+   "Rifampicina, isoniazida, pirazinamida e etambutol por seis meses no total",
+   "Dieta isenta de glúten por toda a vida associada a reposição de vitaminas",
+   "Prednisona e metotrexato pela artrite, com enzimas pancreáticas associadas",
+   "Doxiciclina por 14 dias, sem necessidade de manutenção com outro antibiótico"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Feurle et al., ensaio randomizado de tratamento da doença de Whipple, Gastroenterology 2010; Marth et al., revisão sobre doença de Whipple, Lancet Infectious Diseases 2016",
+  "coment": "A doença de Whipple é infecção sistêmica rara por Tropheryma whipplei, típica de homens de meia-idade com contato com solo. Artralgias migratórias costumam preceder em anos a diarreia, a perda de peso, a febre, as linfonodomegalias e a hiperpigmentação. O diagnóstico vem da biópsia duodenal com macrófagos PAS-positivos e da PCR. O tratamento com melhor evidência começa com antibiótico que atravessa a barreira hematoencefálica, ceftriaxona ou meropeném intravenoso por 14 dias, para tratar ou prevenir o acometimento neurológico, seguido de sulfametoxazol-trimetoprima oral por 12 meses; doxiciclina com hidroxicloroquina por 12 meses é alternativa. Cursos curtos têm recidiva alta. O Ziehl-Neelsen negativo afasta micobactéria atípica. A dieta sem glúten trata doença celíaca, e o imunossupressor dado por artrite presumida pode agravar a infecção.",
+  "porAlt": [
+   "Correta: indução intravenosa com ceftriaxona e manutenção oral prolongada com sulfametoxazol-trimetoprima é o esquema de referência.",
+   "O esquema de tuberculose não trata Tropheryma whipplei, e o Ziehl-Neelsen negativo afasta micobactéria.",
+   "A dieta sem glúten trata doença celíaca, que não cursa com macrófagos PAS-positivos nem com essa PCR.",
+   "Imunossupressão por artrite presumida pode piorar a infecção, e o problema não é insuficiência pancreática.",
+   "Um curso curto de doxiciclina isolada tem recidiva alta; a doença exige tratamento por cerca de 1 ano."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos retirou o glúten da dieta por conta própria há 14 meses por distensão e diarreia, com melhora parcial. Nunca fez sorologia ou endoscopia antes da dieta. Agora, ainda sem glúten, a antitransglutaminase IgA é negativa, com IgA total normal. Ela quer saber se tem doença celíaca, mas teme voltar a comer glúten. Qual é o próximo passo mais adequado?",
+  "alts": [
+   "Tipagem HLA-DQ2/DQ8; se negativa, afasta doença celíaca",
+   "Sorologia negativa já afasta a doença, mesmo sem glúten",
+   "Biópsia duodenal agora, mesmo sem nenhum consumo de glúten",
+   "Dosar antigliadina nativa IgG para confirmar o diagnóstico",
+   "Manter a dieta sem glúten e rotular como doença celíaca"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023, uso do HLA-DQ2/DQ8 em quem já está sem glúten",
+  "coment": "Sorologia e histologia só são confiáveis com consumo de glúten; após mais de um ano de dieta, a antitransglutaminase negativa e a mucosa normal podem refletir apenas a retirada do glúten. A diretriz do ACG de 2023 indica a tipagem de HLA-DQ2 e DQ8 justamente nessa situação: quase todos os celíacos têm um desses haplótipos, então o resultado negativo praticamente exclui a doença e dispensa o teste de reintrodução. Se for positivo, o que ocorre em cerca de um terço da população, ele não confirma o diagnóstico, e então se discute reintrodução supervisionada de glúten seguida de sorologia e biópsia duodenal. A antigliadina nativa tem baixa acurácia e não é recomendada. Rotular a paciente como celíaca sem confirmação impõe dieta restritiva por toda a vida e pode encobrir outro diagnóstico.",
+  "porAlt": [
+   "Correta: o HLA-DQ2/DQ8 negativo exclui doença celíaca com segurança mesmo em quem já está sem glúten.",
+   "Sem glúten na dieta, a sorologia se negativa também em celíacos e não pode afastar a doença.",
+   "A biópsia sem consumo de glúten pode estar normal mesmo em celíaco e não é conclusiva.",
+   "A antigliadina nativa tem baixa sensibilidade e especificidade e não é recomendada no diagnóstico.",
+   "Rotular sem confirmação impõe dieta por toda a vida e pode atrasar a busca de outro diagnóstico."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos, assintomático, sem história pessoal ou familiar de pólipos, câncer colorretal ou doença inflamatória intestinal, vem a consulta de rotina em serviço que segue a força-tarefa americana de prevenção. Hemograma normal, sem sangramento retal ou mudança do hábito intestinal. Nunca fez exame do intestino. Segundo a recomendação da USPSTF de 2021, qual é a conduta?",
+  "alts": [
+   "Aguardar até os 50 anos para iniciar o rastreio, pois o risco é habitual",
+   "Iniciar rastreio com sangue oculto anual e colonoscopia a cada 5 anos",
+   "Iniciar rastreio com antígeno carcinoembrionário anual e toque retal",
+   "Indicar colonoscopia agora e repeti-la a cada 3 anos, se for normal",
+   "Iniciar rastreio com teste imunoquímico anual ou colonoscopia decenal"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "USPSTF, Screening for Colorectal Cancer: Recommendation Statement, 2021, início aos 45 anos",
+  "coment": "Em 2021 a USPSTF antecipou o início do rastreamento do câncer colorretal em pessoas de risco habitual de 50 para 45 anos (recomendação B), pelo aumento da incidência em adultos mais jovens, mantendo a recomendação A entre 50 e 75 anos e decisão individualizada entre 76 e 85. As estratégias aceitas incluem teste imunoquímico fecal anual, teste de DNA fecal com imunoquímico a cada 1 a 3 anos, colonoscopia a cada 10 anos, colonografia por tomografia a cada 5 anos e retossigmoidoscopia a cada 5 anos. Antígeno carcinoembrionário e toque retal não são métodos de rastreio. No Brasil, o protocolo nacional anunciado pelo Ministério da Saúde e pelo INCA em 2026 adota o teste imunoquímico fecal em assintomáticos de 50 a 75 anos no SUS, com colonoscopia se positivo; a pergunta aqui pede a recomendação americana.",
+  "porAlt": [
+   "Esperar até os 50 anos era a recomendação anterior; desde 2021 a USPSTF indica início aos 45 anos.",
+   "Combinar sangue oculto anual com colonoscopia a cada 5 anos não é estratégia recomendada e soma exames.",
+   "Antígeno carcinoembrionário serve para seguimento de câncer tratado, não para rastreamento.",
+   "Com colonoscopia normal em risco habitual, o intervalo é de 10 anos, não de 3 anos.",
+   "Correta: pela USPSTF de 2021 o rastreio começa aos 45 anos, e teste imunoquímico anual ou colonoscopia decenal são opções válidas."
+  ]
+ },
+ {
+  "q": "Mulher de 61 anos foi operada por adenocarcinoma de cólon ascendente, estádio II. A imuno-histoquímica do tumor mostra perda de expressão de MLH1 e PMS2, com MSH2 e MSH6 preservados. Não tem outros cânceres; o pai teve câncer de próstata aos 78 anos e não há casos de câncer colorretal ou de endométrio na família. Qual é o próximo passo na investigação de síndrome de Lynch?",
+  "alts": [
+   "Testar MLH1 germinativo nos filhos antes da paciente",
+   "Nada mais, pois não preenche os critérios de Amsterdam",
+   "Pesquisar BRAF V600E ou metilação do promotor de MLH1",
+   "Sequenciar o gene APC no sangue periférico da paciente",
+   "Repetir imuno-histoquímica em biópsia de pólipo antigo"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "NCCN Guidelines: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric, 2025, triagem universal do tumor para deficiência de reparo",
+  "coment": "Recomenda-se testar todo câncer colorretal para deficiência de reparo de pareamento, por imuno-histoquímica ou instabilidade de microssatélites, porque os critérios clínicos de Amsterdam e Bethesda deixam passar muitos casos de síndrome de Lynch. A perda de MLH1 com PMS2 é o padrão mais comum, mas, em idosos, na maioria das vezes resulta de silenciamento epigenético esporádico por hipermetilação do promotor de MLH1, frequentemente com mutação BRAF V600E no tumor. Por isso, o passo seguinte é pesquisar BRAF V600E ou metilação do promotor: se presente, o tumor é provavelmente esporádico; se ausente, indica-se aconselhamento e teste germinativo na paciente. Testar os filhos antes de definir a mutação na paciente inverte a lógica da investigação. APC se refere a polipose adenomatosa familiar, sem relação com este padrão.",
+  "porAlt": [
+   "O teste em familiares só faz sentido depois de identificar a variante patogênica na própria paciente.",
+   "A história familiar negativa não exclui Lynch; por isso se testa o tumor, independentemente de Amsterdam.",
+   "Correta: perda de MLH1 exige pesquisar BRAF V600E ou metilação do promotor para separar caso esporádico de Lynch.",
+   "O gene APC é da polipose adenomatosa familiar e não explica a perda de MLH1 e PMS2 no tumor.",
+   "Repetir a imuno-histoquímica em outra lesão não esclarece se a perda de MLH1 é germinativa ou esporádica."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos fez colonoscopia de rastreamento com bom preparo. Foi encontrado adenoma tubuloviloso séssil de 28 mm no cólon transverso, ressecado em fragmentos por mucosectomia, com displasia de baixo grau, além de dois adenomas tubulares de 4 mm no sigmoide, ressecados inteiros. Não houve complicações. Qual é o intervalo para a próxima colonoscopia?",
+  "alts": [
+   "Em 3 anos, pelo componente viloso do adenoma",
+   "Em 1 ano, pelo número total de adenomas achados",
+   "Em 5 anos, pois a displasia foi de baixo grau",
+   "Em 10 anos, pois todas as lesões foram retiradas",
+   "Em 6 meses, para revisar o local da ressecção"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "US Multi-Society Task Force on Colorectal Cancer, Recommendations for Follow-Up After Colonoscopy and Polypectomy, 2020, ressecção fragmentada de lesão de 20 mm ou mais",
+  "coment": "O fator que manda no intervalo aqui é a técnica de ressecção. Lesões de 20 mm ou mais retiradas em fragmentos têm recidiva local em uma parcela importante dos casos, porque pode restar tecido adenomatoso entre os fragmentos. A força-tarefa americana de 2020 recomenda nova colonoscopia em 6 meses para revisar a cicatriz e tratar resíduo, depois em 1 ano e, se estiver limpo, em 3 anos. Se o adenoma de 28 mm tivesse sido retirado em bloco, o intervalo seria de 3 anos, como para qualquer adenoma de 10 mm ou mais ou com componente viloso. Os dois adenomas pequenos não mudam a conduta. Intervalos de 5 ou 10 anos ignoram o risco de lesão residual, e 1 ano não é o intervalo recomendado para a primeira revisão.",
+  "porAlt": [
+   "Três anos seria adequado se a lesão tivesse sido retirada em bloco; o risco aqui é a recidiva local.",
+   "O número de adenomas não define o intervalo neste caso, e sim a ressecção fragmentada da lesão grande.",
+   "Displasia de baixo grau não autoriza intervalo longo quando há risco de tecido residual no local.",
+   "Dez anos é para colonoscopia normal; o paciente tem adenoma avançado ressecado em fragmentos.",
+   "Correta: ressecção fragmentada de lesão de 20 mm ou mais exige revisão do local em 6 meses."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos com hipertensão procura a unidade básica por cansaço aos esforços há 3 meses. Nega sangramentos visíveis, dor abdominal ou mudança do hábito intestinal; perdeu 3 kg. Não usa anti-inflamatório nem antitrombótico. Hemoglobina 9,6 g/dL, volume corpuscular médio de 72 fL e ferritina de 8 ng/mL. Nunca fez exames do intestino. Qual é a investigação mais adequada?",
+  "alts": [
+   "Sangue oculto e, se negativo, ferro oral",
+   "Colonoscopia apenas se houver sangramento",
+   "Endoscopia digestiva alta e colonoscopia",
+   "Ferro oral e exames só se não responder",
+   "Tomografia de abdome e marcadores tumorais"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "AGA Clinical Practice Guideline on the Gastrointestinal Evaluation of Iron Deficiency Anemia, 2020, endoscopia bidirecional",
+  "coment": "Anemia ferropriva em homem ou em mulher após a menopausa deve ser considerada perda digestiva até prova em contrário, e o câncer colorretal e o gástrico estão entre as causas mais importantes. A diretriz da AGA de 2020 recomenda endoscopia digestiva alta e colonoscopia nesses pacientes assintomáticos, em vez de nenhuma investigação, porque lesões relevantes aparecem nos dois segmentos e às vezes simultaneamente. A pesquisa de sangue oculto não deve guiar a decisão: o resultado negativo não afasta lesão, já que o sangramento é intermitente. Tratar com ferro e investigar só se não houver resposta atrasa o diagnóstico de neoplasia, ainda mais com perda de peso. Tomografia e marcadores tumorais não substituem a visualização direta da mucosa. A endoscopia alta deve incluir biópsias duodenais para doença celíaca e gástricas para Helicobacter pylori.",
+  "porAlt": [
+   "O sangue oculto negativo não afasta neoplasia, pois o sangramento pode ser intermitente.",
+   "A ausência de sangramento visível é a regra no câncer de cólon direito e não dispensa a colonoscopia.",
+   "Correta: anemia ferropriva no homem exige investigação do trato digestivo alto e baixo com endoscopia.",
+   "Repor ferro antes de investigar pode atrasar o diagnóstico de câncer, sobretudo com perda de peso.",
+   "A tomografia não detecta lesões mucosas pequenas, e marcadores tumorais não servem para diagnóstico."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos fez endoscopia por dispepsia, que mostrou lesão subepitelial de 14 mm no corpo gástrico, com mucosa normal por cima. A ecoendoscopia mostra lesão hipoecoica homogênea, de bordas regulares, originada da muscular própria, sem focos ecogênicos, cistos ou linfonodos. Ela não tem sangramento, anemia ou perda de peso. Qual é a conduta mais adequada?",
+  "alts": [
+   "Gastrectomia total com linfadenectomia D2 eletiva",
+   "Imatinibe neoadjuvante por 6 meses e então ressecção",
+   "Alta sem seguimento, pois lesões assim são benignas",
+   "Vigilância com ecoendoscopia, ressecando se crescer",
+   "Quimioterapia sistêmica com cisplatina e fluoruracila"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESMO-EURACAN-GENTURIS Clinical Practice Guidelines: Gastrointestinal stromal tumours, 2022, nódulos gástricos menores que 2 cm",
+  "coment": "Lesão hipoecoica originada da muscular própria do estômago sugere tumor estromal gastrointestinal (GIST) ou leiomioma. A diretriz da ESMO de 2022 orienta que nódulos gástricos menores que 2 cm, sem características de alto risco na ecoendoscopia (bordas irregulares, focos ecogênicos, espaços císticos, heterogeneidade ou crescimento), podem ser acompanhados com ecoendoscopia periódica, porque a maioria tem comportamento indolente e o risco de metástase é muito baixo. A ressecção é indicada se houver crescimento, sintomas ou achados suspeitos, ou se a paciente preferir. Alta sem seguimento é inadequada, pois parte dessas lesões evolui. Linfadenectomia não tem papel, já que o GIST raramente dá metástase linfonodal. O imatinibe neoadjuvante é para tumores grandes ou em locais de ressecção difícil, e a quimioterapia convencional é ineficaz no GIST.",
+  "porAlt": [
+   "Gastrectomia com linfadenectomia é excessiva, e o GIST raramente compromete linfonodos.",
+   "O imatinibe neoadjuvante é reservado a tumores grandes ou de ressecção difícil, não a nódulo de 14 mm.",
+   "Parte desses nódulos cresce ou tem potencial maligno, e por isso o seguimento é necessário.",
+   "Correta: GIST gástrico menor que 2 cm sem sinais de alto risco pode ser vigiado, com ressecção se crescer.",
+   "A quimioterapia citotóxica convencional não tem eficácia no GIST."
+  ]
+ },
+ {
+  "q": "Homem de 60 anos foi submetido a ressecção completa, com margens livres e sem ruptura tumoral, de GIST gástrico de 9 cm. A anatomia patológica mostra 12 mitoses por 5 mm², CD117 e DOG1 positivos, e a análise molecular encontra mutação no éxon 11 do KIT. A tomografia de estadiamento não mostra metástases. Qual é a conduta mais adequada?",
+  "alts": [
+   "Imatinibe adjuvante 400 mg por dia por 1 ano",
+   "Imatinibe adjuvante 400 mg por dia por 3 anos",
+   "Seguimento apenas, pois as margens estão livres",
+   "Radioterapia adjuvante no leito da ressecção",
+   "Quimioterapia adjuvante baseada em doxorrubicina"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESMO-EURACAN-GENTURIS Clinical Practice Guidelines: Gastrointestinal stromal tumours, 2022, imatinibe adjuvante por 3 anos no alto risco",
+  "coment": "O risco de recidiva do GIST ressecado é estimado pelo tamanho, pelo índice mitótico, pela localização e pela ruptura. Um tumor gástrico de 9 cm com mais de 5 mitoses por 5 mm² é de alto risco. A diretriz da ESMO de 2022 recomenda imatinibe adjuvante 400 mg ao dia por 3 anos nesses pacientes, com base no ensaio que mostrou ganho de sobrevida global com 3 anos em comparação com 1 ano. A mutação no éxon 11 do KIT é sensível ao imatinibe; já a mutação PDGFRA D842V é resistente e não se beneficia, por isso a análise molecular é obrigatória antes de indicar. Margens livres não eliminam o risco de recidiva peritoneal ou hepática. Radioterapia e quimioterapia citotóxica não têm papel no GIST localizado.",
+  "porAlt": [
+   "Um ano de imatinibe foi inferior a 3 anos em sobrevida global no ensaio de referência.",
+   "Correta: GIST ressecado de alto risco com mutação sensível no KIT recebe imatinibe adjuvante por 3 anos.",
+   "Margens livres não eliminam o alto risco de recidiva definido por tamanho e índice mitótico.",
+   "A radioterapia não tem papel na adjuvância do GIST gástrico ressecado.",
+   "O GIST é resistente à quimioterapia citotóxica convencional, inclusive à doxorrubicina."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos, tabagista de 45 maços-ano e etilista de destilado desde a juventude, tratado há 4 anos de carcinoma de laringe, refere disfagia progressiva há 3 meses, primeiro para sólidos e agora para pastosos, com perda de 9 kg. Nega pirose crônica. Índice de massa corporal de 19 kg/m². Qual é a hipótese histológica mais provável e o exame inicial?",
+  "alts": [
+   "Carcinoma escamoso; endoscopia digestiva alta com biópsia",
+   "Adenocarcinoma; endoscopia digestiva alta com biópsia ampla",
+   "Carcinoma escamoso; esofagografia baritada sem endoscopia",
+   "Acalasia secundária; manometria esofágica de alta resolução",
+   "Adenocarcinoma; tomografia de tórax como o exame inicial"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESMO Clinical Practice Guideline: Oesophageal cancer, 2022, fatores de risco e diagnóstico endoscópico",
+  "coment": "Disfagia progressiva, de sólidos para pastosos, com perda de peso em idoso é câncer de esôfago até prova em contrário. Tabagismo e etilismo pesados, além do antecedente de câncer de cabeça e pescoço, apontam para carcinoma de células escamosas, que compartilha esses fatores e costuma ocorrer no esôfago médio; o campo de cancerização explica o risco de segundo tumor. O adenocarcinoma se associa a refluxo crônico, esôfago de Barrett e obesidade, e predomina no esôfago distal e na transição esofagogástrica. A diretriz da ESMO de 2022 recomenda endoscopia digestiva alta com biópsias múltiplas como exame diagnóstico inicial; tomografia, ecoendoscopia e PET entram no estadiamento depois da confirmação histológica. A esofagografia pode mostrar a estenose, mas não substitui a biópsia. A manometria não está indicada diante de sinais de alarme sem endoscopia prévia.",
+  "porAlt": [
+   "Correta: álcool, tabaco e câncer de laringe prévio apontam carcinoma escamoso, confirmado por endoscopia com biópsia.",
+   "Sem refluxo crônico ou obesidade, o adenocarcinoma é menos provável que o carcinoma escamoso neste perfil.",
+   "A esofagografia não dá diagnóstico histológico e não dispensa a endoscopia com biópsia.",
+   "A perda de peso e o perfil de risco exigem afastar neoplasia por endoscopia antes de pensar em manometria.",
+   "A tomografia é exame de estadiamento, feita após o diagnóstico histológico, não o exame inicial."
+  ]
+ },
+ {
+  "q": "Mulher de 38 anos, assintomática, procura atendimento porque o pai teve adenocarcinoma gástrico do tipo intestinal aos 64 anos. Não tem dispepsia, anemia ou perda de peso, e não há outros casos de câncer gástrico nem de câncer de mama lobular na família. Nunca foi testada para Helicobacter pylori. Qual é a conduta preventiva mais adequada?",
+  "alts": [
+   "Endoscopia anual a partir de agora, por toda a vida",
+   "Pesquisa de mutação germinativa de CDH1 antes de tudo",
+   "Pesquisar Helicobacter pylori e erradicar se positivo",
+   "Nenhuma medida, pois só há um parente de primeiro grau",
+   "Gastrectomia profilática total pela história familiar"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "Maastricht VI/Florence Consensus Report on the management of Helicobacter pylori infection, 2022; ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024",
+  "coment": "O Helicobacter pylori é o principal fator de risco do adenocarcinoma gástrico, sobretudo do tipo intestinal de Lauren, que segue a cascata de gastrite crônica, atrofia, metaplasia intestinal e displasia. Parentes de primeiro grau de pacientes com câncer gástrico têm risco aumentado, e o consenso de Maastricht VI de 2022 e a diretriz do ACG de 2024 recomendam pesquisar e erradicar a bactéria nesse grupo, porque a erradicação reduz a incidência de câncer, especialmente antes de surgirem atrofia e metaplasia. Endoscopia anual por toda a vida não é recomendada para quem tem apenas um parente afetado, embora a endoscopia possa ser considerada conforme idade e achados. A pesquisa de CDH1 é para suspeita de câncer gástrico difuso hereditário, com casos do tipo difuso em idade jovem ou câncer de mama lobular na família. Gastrectomia profilática é reservada a portadores de mutação patogênica de CDH1.",
+  "porAlt": [
+   "Endoscopia anual por toda a vida não é recomendada só por um parente com câncer do tipo intestinal.",
+   "O teste de CDH1 é para suspeita de câncer gástrico difuso hereditário, que esta família não sugere.",
+   "Correta: em parente de primeiro grau de paciente com câncer gástrico, pesquisar e erradicar a bactéria reduz o risco.",
+   "Um parente de primeiro grau já aumenta o risco e justifica a pesquisa e a erradicação do Helicobacter pylori.",
+   "A gastrectomia profilática é reservada a portadoras de mutação patogênica de CDH1, não a este caso."
+  ]
+ }
+]

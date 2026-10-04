@@ -1,0 +1,818 @@
+[
+ {
+  "q": "Homem de 52 anos, que bebe cerca de 10 doses de destilado por dia há 15 anos, procura avaliação por ganho de peso abdominal, face arredondada e hipertensão recente. Exame: IMC 31 kg/m², sem estrias violáceas, sem fraqueza muscular proximal e sem equimoses espontâneas. Laboratório: GGT 310 U/L, AST 98 U/L, ALT 45 U/L, cortisol sérico após 1 mg de dexametasona às 23 horas de 4,2 µg/dL e cortisol livre urinário de 24 horas 1,4 vez o limite superior, em duas coletas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Dosar ACTH e pedir ressonância de sela turca de imediato",
+   "Tomografia de adrenais em busca de adenoma que secreta",
+   "Iniciar cetoconazol para controlar o hipercortisolismo",
+   "Abstinência alcoólica e repetir os testes após semanas",
+   "Teste com 8 mg de dexametasona para definir a origem"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), estados de pseudo-Cushing",
+  "coment": "O consenso de 2021 chama de pseudo-Cushing, ou hipercortisolismo não neoplásico, a ativação do eixo por alcoolismo, depressão, obesidade grave, síndrome dos ovários policísticos e diabetes mal controlado. Nesses estados, os testes de rastreio costumam vir alterados de forma discreta, com cortisol livre urinário abaixo de 3 vezes o limite. Aqui faltam os achados que mais discriminam Cushing verdadeiro, como miopatia proximal, estrias violáceas largas e equimoses fáceis, e há forte marca de uso de álcool. A conduta é suspender o álcool e repetir a avaliação depois de algumas semanas de abstinência, quando o eixo tende a normalizar. Investigar a origem, com ACTH, imagem ou teste de 8 mg, só faz sentido depois de confirmar hipercortisolismo patológico. Tratar com inibidor da esteroidogênese sem diagnóstico seria erro.",
+  "porAlt": [
+   "Pesquisar a origem antes de confirmar hipercortisolismo patológico leva a achados incidentais e erro.",
+   "Imagem adrenal sem diagnóstico bioquímico firme pode achar incidentaloma sem relação com o quadro.",
+   "Inibidor da esteroidogênese não se usa sem diagnóstico confirmado de síndrome de Cushing.",
+   "Correta: álcool causa hipercortisolismo funcional que regride com a abstinência, e os testes devem ser repetidos depois.",
+   "O teste de 8 mg serve para diferenciar causas já confirmadas, e hoje tem papel limitado."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos, tabagista de 50 maços-ano, apresenta em 6 semanas fraqueza intensa nos membros inferiores, edema de tornozelos, hiperglicemia nova e hipertensão de difícil controle. Exame: pele difusamente escurecida, sem obesidade central marcante e sem estrias. Laboratório: potássio 2,4 mEq/L, bicarbonato 34 mEq/L, glicemia 286 mg/dL, cortisol livre urinário 18 vezes o limite superior e ACTH 245 pg/mL (referência até 46 pg/mL). Ressonância de sela sem lesão. Radiografia de tórax com massa hilar direita. Qual é a hipótese mais provável?",
+  "alts": [
+   "Doença de Cushing por microadenoma não visível",
+   "Carcinoma adrenal produtor de cortisol e androgênio",
+   "Síndrome de Cushing exógena por corticoide oculto",
+   "Secreção ectópica de ACTH por carcinoma pulmonar",
+   "Pseudo-Cushing ligado ao tabagismo e ao estresse"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), síndrome de ACTH ectópico",
+  "coment": "A secreção ectópica de ACTH, classicamente pelo carcinoma de pequenas células de pulmão e por tumores neuroendócrinos, produz hipercortisolismo muito intenso e de instalação rápida. O fenótipo clássico de Cushing muitas vezes não tem tempo de surgir, e predominam hipocalemia grave, alcalose metabólica, hiperglicemia, edema, miopatia e hiperpigmentação pelo ACTH muito alto. O cortisol em excesso satura a 11-beta-hidroxiesteroide desidrogenase tipo 2 renal e age no receptor mineralocorticoide, o que explica a hipocalemia. ACTH elevado afasta causa adrenal e exógena, que cursam com ACTH suprimido. Na doença de Cushing, o cortisol urinário costuma ser menos elevado e a evolução é lenta. Massa pulmonar em tabagista fecha o raciocínio, e a investigação segue com tomografia de tórax e biópsia.",
+  "porAlt": [
+   "Microadenoma dá quadro lento e cortisol menos elevado, e não explica a massa pulmonar.",
+   "Tumor adrenal secretor suprime o ACTH, que aqui está muito alto.",
+   "Corticoide exógeno suprime ACTH e cortisol endógeno, o oposto do encontrado.",
+   "Correta: evolução rápida, hipocalemia grave, alcalose, hiperpigmentação, ACTH muito alto e massa pulmonar.",
+   "Pseudo-Cushing não gera cortisol 18 vezes o limite nem hipocalemia grave."
+  ]
+ },
+ {
+  "q": "Mulher de 41 anos vive com HIV e usa tenofovir, lamivudina e darunavir potencializado com ritonavir. Tem asma tratada com fluticasona inalatória 500 µg duas vezes ao dia há 8 meses. Relata ganho de 9 kg, estrias violáceas largas no abdome, face arredondada e equimoses fáceis. Nega uso de corticoide oral, injetável ou tópico. Cortisol sérico às 8 horas de 1,1 µg/dL e ACTH de 4 pg/mL. Qual é a explicação mais provável?",
+  "alts": [
+   "Adenoma adrenal que secreta cortisol de forma autônoma",
+   "Insuficiência adrenal primária por adrenalite autoimune",
+   "Doença de Cushing com secreção cíclica e intensa de ACTH",
+   "Cushing exógeno por inibição do CYP3A4 pelo ritonavir",
+   "Lipodistrofia do antirretroviral, sem excesso de cortisol"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), causas exógenas e interações medicamentosas",
+  "coment": "O ritonavir, e também o cobicistate, inibe fortemente o CYP3A4, enzima que metaboliza a fluticasona e a budesonida. O corticoide inalatório, que em geral tem pouca ação sistêmica, passa a se acumular e produz síndrome de Cushing exógena, com supressão do eixo. O padrão laboratorial é típico: sinais clínicos de excesso de glicocorticoide com cortisol endógeno e ACTH muito baixos, porque o imunoensaio não mede a fluticasona. O consenso de 2021 recomenda excluir corticoide exógeno antes de qualquer investigação de Cushing endógeno. A conduta é trocar o corticoide inalatório por um menos dependente do CYP3A4, como beclometasona, ou rever o antirretroviral, e avaliar insuficiência adrenal secundária na retirada, pois o eixo está suprimido e há risco de crise.",
+  "porAlt": [
+   "Adenoma secretor teria cortisol alto, e não cortisol matinal de 1,1 µg/dL.",
+   "Insuficiência adrenal primária teria ACTH alto e não causaria estrias e ganho de peso.",
+   "Doença de Cushing cursa com ACTH normal ou alto, não suprimido.",
+   "Correta: fluticasona acumulada pela inibição do CYP3A4 gera Cushing com cortisol e ACTH endógenos suprimidos.",
+   "Lipodistrofia não explica estrias violáceas, equimoses e eixo suprimido."
+  ]
+ },
+ {
+  "q": "Mulher de 34 anos tem quadro típico de síndrome de Cushing. Cortisol salivar noturno elevado em duas amostras, cortisol livre urinário 4 vezes o limite superior e cortisol de 9,8 µg/dL após 1 mg de dexametasona. ACTH 88 pg/mL. Ressonância de sela mostra adenoma de 12 mm, sem invasão do seio cavernoso. O teste com desmopressina mostrou aumento de ACTH compatível com origem hipofisária, e a tomografia de tórax foi normal. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cateterismo de seios petrosos antes de qualquer cirurgia já",
+   "Tomografia de abdome e de pelve em busca de tumor ectópico",
+   "Cirurgia transesfenoidal, sem cateterismo de seios petrosos",
+   "Adrenalectomia bilateral laparoscópica como primeira opção",
+   "Teste com 8 mg de dexametasona para confirmar a sua origem"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), indicação de cateterismo de seios petrosos",
+  "coment": "Confirmado hipercortisolismo com ACTH normal ou alto, a causa é dependente de ACTH, e a dúvida passa a ser hipófise versus tumor ectópico. O consenso de 2021 aceita dispensar o cateterismo de seios petrosos quando a ressonância mostra adenoma de 10 mm ou mais e os testes dinâmicos, como estímulo com CRH ou desmopressina, são concordantes com origem hipofisária, sobretudo se a imagem de tórax for normal. Nesse cenário a probabilidade de doença de Cushing é muito alta e o cateterismo, invasivo e caro, pouco acrescenta. O cateterismo fica para lesões menores que 6 mm, ausência de adenoma ou testes discordantes. A cirurgia transesfenoidal por cirurgião experiente é o tratamento de primeira linha. Adrenalectomia bilateral é reservada para falha das demais opções.",
+  "porAlt": [
+   "O cateterismo fica para lesão pequena, ausente ou testes discordantes.",
+   "Com adenoma grande e teste concordante, a busca extensa de tumor ectópico não é o próximo passo.",
+   "Correta: adenoma de 12 mm com teste dinâmico concordante permite ir direto à cirurgia hipofisária.",
+   "Adrenalectomia bilateral é opção de resgate, com risco de insuficiência adrenal e Nelson.",
+   "O teste de 8 mg tem acurácia limitada e não muda a conduta aqui."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos com hipotireoidismo de Hashimoto relata fadiga, perda de 6 kg, avidez por sal e escurecimento de cicatrizes há 4 meses. PA 96 x 60 mmHg sentada. Sódio 129 mEq/L, potássio 5,6 mEq/L, cortisol às 8 horas 3,2 µg/dL, ACTH 610 pg/mL e renina elevada. No teste com cosintropina 250 µg, o cortisol foi de 4,0 µg/dL aos 60 minutos. Com o diagnóstico de insuficiência adrenal primária firmado e o tratamento iniciado, qual exame é o primeiro passo na busca da causa?",
+  "alts": [
+   "Tomografia de adrenais com contraste",
+   "Ácidos graxos de cadeia muito longa",
+   "Anticorpo anti-21-hidroxilase sérico",
+   "Teste tuberculínico e raio X de tórax",
+   "Ressonância magnética de sela turca"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Endocrine Society, diretriz de insuficiência adrenal primária, 2016, investigação etiológica",
+  "coment": "A diretriz da Endocrine Society de 2016 segue como referência para insuficiência adrenal primária, já que a busca não mostrou atualização dedicada em 2025. Ela recomenda iniciar a investigação etiológica pelos anticorpos anti-21-hidroxilase, porque a adrenalite autoimune responde pela maioria dos casos em países desenvolvidos e costuma associar-se a outras doenças autoimunes, como tireoidite de Hashimoto, diabetes tipo 1 e vitiligo, compondo a síndrome poliglandular autoimune tipo 2. Se os anticorpos forem negativos, segue-se a tomografia de adrenais para buscar infecção, hemorragia, infiltração ou metástase. Ácidos graxos de cadeia muito longa entram em homens com anticorpos negativos, pela adrenoleucodistrofia. Tuberculose deve ser lembrada no Brasil, mas não é o primeiro exame nesta paciente com perfil autoimune. Ressonância de sela não cabe com ACTH alto.",
+  "porAlt": [
+   "A tomografia vem se os anticorpos forem negativos.",
+   "Adrenoleucodistrofia é investigada em homens com anticorpos negativos.",
+   "Correta: a causa autoimune é a mais comum e é investigada primeiro com anti-21-hidroxilase.",
+   "Tuberculose entra no diferencial, mas o perfil autoimune pede anticorpos primeiro.",
+   "ACTH muito alto indica causa adrenal, e não hipofisária."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos com insuficiência adrenal primária conhecida chega ao pronto-socorro com vômitos incoercíveis há 24 horas. PA 78 x 40 mmHg, FC 122 bpm, sódio 126 mEq/L, potássio 5,9 mEq/L e glicemia 64 mg/dL. Recebeu hidrocortisona 100 mg endovenosa, 1.000 mL de salina isotônica na primeira hora e glicose endovenosa, com melhora parcial da pressão. Como deve prosseguir a reposição hormonal nas próximas 24 horas?",
+  "alts": [
+   "Hidrocortisona 200 mg/dia e fludrocortisona 0,1 mg oral",
+   "Dexametasona 4 mg/dia, para não interferir no cortisol sérico",
+   "Prednisona oral 20 mg/dia já na manhã do dia seguinte à crise",
+   "Hidrocortisona 200 mg/dia endovenosa, sem fludrocortisona",
+   "Hidrocortisona 20 mg/dia, a dose habitual de manutenção"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "Endocrine Society, diretriz de insuficiência adrenal primária, 2016, tratamento da crise adrenal",
+  "coment": "Na crise adrenal, a diretriz de 2016 recomenda hidrocortisona 100 mg endovenosa imediata, reposição volêmica com salina isotônica e correção da hipoglicemia, seguida de hidrocortisona 200 mg em 24 horas, em infusão contínua ou 50 mg a cada 6 horas. Em doses de hidrocortisona a partir de cerca de 50 mg por dia, a ação mineralocorticoide da própria hidrocortisona é suficiente, e a fludrocortisona é dispensável. Ela volta quando a dose de hidrocortisona é reduzida para a manutenção. Dexametasona não tem efeito mineralocorticoide e só seria aceitável por curto período em paciente sem diagnóstico, enquanto se aguarda teste. Manter via oral com vômitos incoercíveis e choque é inseguro, e a dose de manutenção é insuficiente na crise.",
+  "porAlt": [
+   "Com hidrocortisona acima de 50 mg/dia, a fludrocortisona não acrescenta e só entra na manutenção.",
+   "O diagnóstico já é conhecido, e dexametasona não tem efeito mineralocorticoide.",
+   "Via oral é inadequada com vômitos incoercíveis e instabilidade hemodinâmica.",
+   "Correta: 200 mg/dia de hidrocortisona já têm ação mineralocorticoide suficiente, e a fludrocortisona volta na manutenção.",
+   "A dose de manutenção é insuficiente para a crise adrenal."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos com DPOC recebeu alta após exacerbação, com prescrição de prednisona 40 mg/dia por 5 dias. Usou um curso semelhante há 2 anos e não faz uso contínuo de corticoide sistêmico, nem de corticoide inalatório em dose alta. Ao final do quinto dia, pergunta se precisa reduzir a dose aos poucos ou fazer algum exame antes de parar. Qual é a orientação adequada?",
+  "alts": [
+   "Reduzir 5 mg a cada semana até suspender por completo",
+   "Suspender ao final do curso, sem desmame nem exames",
+   "Dosar cortisol matinal antes de suspender o corticoide",
+   "Trocar por hidrocortisona 20 mg/dia durante um mês",
+   "Fazer o teste com cosintropina antes da suspensão"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "Diretriz conjunta ESE e Endocrine Society sobre insuficiência adrenal induzida por glicocorticoide, 2024, cursos curtos",
+  "coment": "A diretriz conjunta de 2024 sobre insuficiência adrenal induzida por glicocorticoide orienta que cursos com duração menor que 3 a 4 semanas, qualquer que seja a dose, podem ser interrompidos sem desmame e sem teste do eixo, porque o risco de supressão clinicamente relevante é baixo. O desmame e a avaliação com cortisol matinal ficam para quem usou dose suprafisiológica por mais tempo, ou recebeu cursos repetidos e frequentes. Mesmo nesses, a diretriz não recomenda teste enquanto a dose ainda é suprafisiológica, e sim quando se chega à dose fisiológica. Trocar por hidrocortisona ou testar com cosintropina aqui só prolonga exposição e gera custo. Vale orientar o paciente a procurar atendimento se surgirem fadiga intensa, náuseas ou hipotensão nas semanas seguintes.",
+  "porAlt": [
+   "Desmame é desnecessário em curso de 5 dias.",
+   "Correta: curso menor que 3 a 4 semanas pode ser suspenso sem desmame e sem teste do eixo.",
+   "Cortisol matinal só se indica após uso prolongado, ao chegar à dose fisiológica.",
+   "Hidrocortisona de reposição não tem indicação após curso curto.",
+   "Teste de cosintropina não se justifica com risco tão baixo de supressão."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos com artrite reumatoide usa prednisona 10 mg/dia há 2 anos e será submetida a colectomia eletiva por via aberta, sob anestesia geral, com previsão de jejum prolongado. Nunca fez avaliação do eixo adrenal. PA, sódio e potássio normais. Como deve ser o manejo do glicocorticoide no perioperatório?",
+  "alts": [
+   "Manter só a prednisona habitual, inclusive no dia da cirurgia",
+   "Hidrocortisona 100 mg na indução e 200 mg/24 h, depois reduzir",
+   "Suspender a prednisona 48 horas antes para testar o eixo adrenal",
+   "Hidrocortisona 25 mg na indução anestésica, sem novas doses",
+   "Dexametasona 0,5 mg à noite durante toda a internação clínica"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz conjunta ESE e Endocrine Society sobre insuficiência adrenal induzida por glicocorticoide, 2024, cobertura perioperatória",
+  "coment": "Quem usa ou usou recentemente glicocorticoide em dose suprafisiológica por mais de algumas semanas e não teve o eixo testado deve ser tratado como possível portador de insuficiência adrenal. A diretriz conjunta de 2024 recomenda cobertura parenteral em estresse moderado a grave, em procedimentos sob anestesia geral ou regional e quando a via oral ficará suspensa. Para cirurgia de grande porte, a dose é hidrocortisona 100 mg endovenosa na indução, seguida de 200 mg em 24 horas, em infusão contínua ou 50 mg a cada 6 horas, com redução para a dose habitual conforme a recuperação, em geral em 1 a 2 dias quando o curso é sem complicação. Suspender o corticoide antes da cirurgia expõe a crise adrenal e piora a doença de base. Prednisona 10 mg/dia, por si, pode não bastar diante do estresse cirúrgico.",
+  "porAlt": [
+   "A dose habitual pode ser insuficiente diante do estresse cirúrgico de grande porte.",
+   "Correta: cirurgia de grande porte sob anestesia geral exige cobertura parenteral com hidrocortisona.",
+   "Suspender o corticoide antes da cirurgia expõe a paciente a crise adrenal.",
+   "Dose única baixa não cobre o estresse que se prolonga no pós-operatório.",
+   "Dexametasona em dose baixa à noite não substitui a cobertura de estresse."
+  ]
+ },
+ {
+  "q": "Mulher de 31 anos, 5 meses após parto complicado por hemorragia grave com transfusão de 6 concentrados de hemácias, não conseguiu amamentar e não voltou a menstruar. Refere fadiga intensa, intolerância ao frio e tontura ao levantar. PA 92 x 58 mmHg, sódio 128 mEq/L, potássio 4,1 mEq/L e glicemia 68 mg/dL. TSH 1,2 mUI/L, T4 livre 0,5 ng/dL (referência 0,9 a 1,8), cortisol às 8 horas 2,1 µg/dL, prolactina 2 ng/mL, FSH e LH baixos e estradiol baixo. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Iniciar levotiroxina e depois a hidrocortisona",
+   "Aguardar o TSH subir para tratar a tireoide",
+   "Iniciar estrogênio e progestagênio de imediato",
+   "Iniciar hidrocortisona antes da levotiroxina",
+   "Hidrocortisona associada à fludrocortisona"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Endocrine Society, diretriz de reposição hormonal no hipopituitarismo em adultos, 2016",
+  "coment": "Hemorragia puerperal grave seguida de agalactia, amenorreia, hipotireoidismo e hipocortisolismo sugere síndrome de Sheehan, necrose isquêmica da hipófise aumentada pela gestação. No hipotireoidismo central, o TSH pode vir normal ou baixo, e o seguimento se faz pelo T4 livre, não pelo TSH. A diretriz da Endocrine Society de 2016 recomenda avaliar e repor o glicocorticoide antes de iniciar a levotiroxina, porque o hormônio tireoidiano acelera o metabolismo do cortisol e aumenta sua demanda, podendo precipitar crise adrenal. Na insuficiência adrenal secundária, a aldosterona é preservada pelo sistema renina-angiotensina, por isso o potássio é normal e a fludrocortisona não é necessária. A hiponatremia aqui decorre da falta de cortisol. A reposição de estrogênio entra depois de estabilizados os eixos vitais.",
+  "porAlt": [
+   "Levotiroxina antes do corticoide aumenta a demanda de cortisol e pode precipitar crise.",
+   "No hipotireoidismo central o TSH não sobe, e o guia é o T4 livre.",
+   "A reposição gonadal não é prioridade diante de cortisol e T4 livre muito baixos.",
+   "Correta: no hipopituitarismo, o cortisol é reposto antes da levotiroxina para evitar crise adrenal.",
+   "Na insuficiência adrenal secundária a aldosterona está preservada, sem indicação de fludrocortisona."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos teve hipertensão estágio 1 confirmada por monitorização ambulatorial há 3 meses, sem lesão de órgão-alvo. Usa anlodipino 5 mg/dia. Potássio 4,3 mEq/L, creatinina 0,9 mg/dL, sem nódulo adrenal conhecido, sem apneia do sono e sem história familiar de AVC precoce. De acordo com a diretriz de hiperaldosteronismo primário mais recente da Endocrine Society, qual é a conduta adequada quanto ao rastreio dessa causa?",
+  "alts": [
+   "Rastrear com aldosterona e renina já nesta fase",
+   "Rastrear só se a hipertensão ficar resistente",
+   "Rastrear apenas se surgir hipocalemia espontânea",
+   "Rastrear apenas se houver incidentaloma adrenal",
+   "Suspender o anlodipino por 4 semanas e rastrear"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "Endocrine Society, diretriz de hiperaldosteronismo primário, 2025, recomendação 1 sobre rastreio",
+  "coment": "A diretriz da Endocrine Society de 2025 mudou o rastreio do hiperaldosteronismo primário: passou a sugerir rastrear todas as pessoas com hipertensão, e não apenas grupos de alto risco como hipertensão resistente, hipocalemia, incidentaloma adrenal, apneia do sono ou história familiar, que eram os critérios da versão de 2016. O motivo é a prevalência de 5% a 14% na atenção primária, o subdiagnóstico e o maior risco cardiovascular e renal do excesso de aldosterona, tratável de forma específica. O rastreio usa aldosterona, renina e a relação entre elas, com potássio dosado e corrigido. A diretriz recomenda manejar os medicamentos que interferem conforme segurança e viabilidade. Bloqueadores de canal de cálcio di-hidropiridínicos interferem pouco, e não é preciso suspender o anlodipino para colher.",
+  "porAlt": [
+   "Correta: a diretriz de 2025 sugere rastrear todos os hipertensos com aldosterona e renina.",
+   "Restringir à hipertensão resistente era o critério antigo, abandonado em 2025.",
+   "A maioria dos casos tem potássio normal, e esperar hipocalemia atrasa o diagnóstico.",
+   "Incidentaloma é só um dos cenários, e a diretriz atual não restringe o rastreio a ele.",
+   "Anlodipino interfere pouco na relação aldosterona/renina e não precisa ser suspenso."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos com hiperaldosteronismo primário bilateral confirmado por cateterismo das veias adrenais usa espironolactona 25 mg/dia, anlodipino 10 mg/dia e losartana 50 mg/dia. Pressão média no consultório e na medida residencial de 146 x 92 mmHg. Potássio 4,4 mEq/L, creatinina 0,8 mg/dL e atividade de renina plasmática persistentemente suprimida, de 0,2 ng/mL/h. Sem ginecomastia ou mastalgia. Qual é o ajuste mais adequado?",
+  "alts": [
+   "Aumentar a espironolactona buscando elevar a renina",
+   "Associar hidroclorotiazida e manter a espironolactona",
+   "Trocar a espironolactona por amilorida em dose plena",
+   "Indicar adrenalectomia do lado com mais aldosterona",
+   "Aumentar a losartana e manter a espironolactona igual"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Endocrine Society, diretriz de hiperaldosteronismo primário, 2025, recomendações 7, 9 e 10 sobre tratamento clínico",
+  "coment": "Na doença bilateral, o tratamento é clínico com antagonista do receptor mineralocorticoide. A diretriz de 2025 sugere a espironolactona como preferencial, pelo custo e disponibilidade, e prefere antagonistas mineralocorticoides aos bloqueadores do canal epitelial de sódio, como amilorida. Uma recomendação nova é usar a renina como marcador do bloqueio: se a pressão segue alta e a renina continua suprimida, o bloqueio mineralocorticoide é insuficiente, e a dose deve ser aumentada até a renina subir. Renina suprimida sob tratamento associa-se a mais eventos cardiovasculares e fibrilação atrial. Adrenalectomia não se indica em doença bilateral. Somar tiazídico ou elevar o bloqueador do receptor de angiotensina não corrige o excesso de aldosterona e atrasa o ajuste específico.",
+  "porAlt": [
+   "Correta: renina suprimida com pressão alta indica bloqueio mineralocorticoide insuficiente, e a dose deve subir.",
+   "Tiazídico não corrige o excesso de aldosterona e piora o potássio.",
+   "A diretriz prefere antagonista mineralocorticoide aos bloqueadores do canal epitelial de sódio.",
+   "Doença bilateral confirmada não tem indicação cirúrgica.",
+   "Elevar a losartana não trata o excesso de aldosterona, que segue sem bloqueio suficiente."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos relata crises de cefaleia, palpitação e sudorese há 6 meses, com PA de 178 x 104 mmHg durante os episódios. Não usa antidepressivos tricíclicos, inibidores da recaptação de noradrenalina nem descongestionantes. Metanefrinas livres plasmáticas colhidas em decúbito, após 30 minutos de repouso: normetanefrina 4,8 vezes o limite superior e metanefrina 3,2 vezes o limite superior. Qual é o próximo passo?",
+  "alts": [
+   "Cintilografia com MIBG como o primeiro exame",
+   "Tomografia computadorizada de abdome e pelve",
+   "Repetir as metanefrinas após suspender café",
+   "Teste com clonidina antes de fazer a imagem",
+   "Biópsia percutânea guiada da adrenal suspeita"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Endocrine Society, diretriz de feocromocitoma e paraganglioma, 2014, diagnóstico bioquímico e de imagem",
+  "coment": "A diretriz da Endocrine Society para feocromocitoma e paraganglioma, ainda vigente, recomenda metanefrinas livres plasmáticas ou metanefrinas fracionadas urinárias como teste inicial. Elevações acima de 3 vezes o limite superior, colhidas da forma correta e sem medicamentos interferentes, têm alta probabilidade de tumor e dispensam testes adicionais. O teste de supressão com clonidina fica para elevações limítrofes. Confirmado o diagnóstico bioquímico, a imagem inicial recomendada é a tomografia computadorizada de abdome e pelve, pela boa resolução espacial. A ressonância é preferida em metástases, paraganglioma de base de crânio, gestantes e crianças. Imagem funcional, como MIBG ou PET, entra depois, para doença metastática ou tumor grande. Biópsia é contraindicada, pelo risco de crise adrenérgica.",
+  "porAlt": [
+   "Imagem funcional é complementar, não o primeiro exame de localização.",
+   "Correta: com metanefrinas acima de 3 vezes o limite, segue-se a localização por tomografia.",
+   "Elevação tão acentuada não se explica por cafeína, e repetir só atrasa.",
+   "Clonidina é para elevações limítrofes, não acima de 3 vezes o limite.",
+   "Biópsia de suspeita de feocromocitoma pode precipitar crise adrenérgica."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos faz tomografia por cólica renal, e encontra-se massa adrenal esquerda de 6,2 cm, heterogênea, de contornos irregulares, com densidade de 38 unidades Hounsfield na fase sem contraste. Nega sintomas. PA 138 x 86 mmHg, sem estigmas de Cushing. Não tem história de câncer. Qual é a conduta mais adequada?",
+  "alts": [
+   "Biópsia percutânea com agulha antes de qualquer decisão",
+   "Repetir a tomografia em 6 a 12 meses e então decidir",
+   "Avaliação hormonal com metanefrinas e adrenalectomia",
+   "Alta do seguimento, pois a lesão é assintomática agora",
+   "Ressonância anual, sem exames hormonais neste momento"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz ESE e ENSAT de incidentaloma adrenal, 2023, avaliação hormonal e indicação cirúrgica",
+  "coment": "A diretriz europeia de 2023 recomenda, para todo incidentaloma, teste com 1 mg de dexametasona e avaliação clínica de excesso hormonal. Dosar metanefrinas é indicado quando a densidade sem contraste é maior que 10 unidades Hounsfield, e em suspeita de carcinoma adrenocortical acrescenta-se perfil de esteroides sexuais e precursores. Lesão grande, heterogênea, irregular e com densidade alta é indeterminada com forte suspeita de malignidade, e a diretriz orienta cirurgia, discutida em equipe multidisciplinar. Excluir feocromocitoma antes da operação é obrigatório, para preparar com bloqueio alfa. Biópsia não é recomendada na avaliação de massa adrenal, exceto em suspeita de metástase de tumor extra-adrenal e após excluir feocromocitoma. Observar com imagem seriada atrasaria a cirurgia de um provável carcinoma.",
+  "porAlt": [
+   "Biópsia não se recomenda e pode disseminar carcinoma ou precipitar crise adrenérgica.",
+   "Seguir com imagem atrasa a cirurgia de lesão com forte suspeita de carcinoma.",
+   "Correta: lesão grande e suspeita pede avaliação hormonal, incluindo metanefrinas, e cirurgia.",
+   "Ausência de sintomas não afasta malignidade nem secreção hormonal.",
+   "Toda massa adrenal precisa de avaliação hormonal, e esta exige conduta ativa."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos, com ciclos menstruais regulares e sem galactorreia, fez dosagem de prolactina num check-up pedido por acne: 92 ng/mL (referência até 25 ng/mL), confirmada em outro dia com 88 ng/mL. Não usa medicamentos. TSH 1,9 mUI/L, função renal normal e beta-hCG negativo. Exame neurológico e campimetria de confrontação normais. Qual é o próximo passo?",
+  "alts": [
+   "Pesquisar macroprolactina por polietilenoglicol",
+   "Ressonância magnética de sela turca com contraste",
+   "Iniciar cabergolina 0,5 mg por semana e redosar",
+   "Repetir a prolactina com diluição desta amostra",
+   "Teste de estímulo com TRH para medir prolactina"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023)",
+  "coment": "A macroprolactina é um complexo de prolactina com imunoglobulina G, de alto peso molecular e pouca atividade biológica, que é detectada pelos imunoensaios e eleva a prolactina sem causar sintomas. O consenso de 2023 recomenda pesquisá-la, por precipitação com polietilenoglicol, sobretudo quando a hiperprolactinemia é discreta a moderada e não há manifestações como oligomenorreia, galactorreia ou hipogonadismo. Excluídas gravidez, medicamentos, hipotireoidismo e doença renal, essa é a próxima etapa antes de qualquer imagem, que poderia mostrar incidentaloma hipofisário sem relação com o exame e levar a tratamento desnecessário. Diluição da amostra serve para o efeito gancho, que ocorre em macroadenomas com prolactina extremamente alta e valor medido falsamente baixo, situação diferente da descrita. Teste com TRH não tem papel atual.",
+  "porAlt": [
+   "Correta: hiperprolactinemia sem sintomas sugere macroprolactina, pesquisada com polietilenoglicol.",
+   "Imagem antes de excluir macroprolactina pode achar incidentaloma e motivar tratamento sem necessidade.",
+   "Tratar sem sintomas e sem excluir macroprolactina pode ser desnecessário.",
+   "Diluição serve para o efeito gancho em macroadenoma, não para este cenário.",
+   "O teste com TRH não tem utilidade no diagnóstico atual."
+  ]
+ },
+ {
+  "q": "Homem de 26 anos com esquizofrenia estável usa risperidona 4 mg/dia há 1 ano e refere perda de libido e disfunção erétil. Prolactina 118 ng/mL, testosterona total 210 ng/dL (baixa) e LH baixo. Sem cefaleia, sem alteração visual e com sintomas iniciados após a risperidona. O psiquiatra considera arriscado suspender o antipsicótico, mesmo por poucos dias. Qual é a melhor estratégia inicial?",
+  "alts": [
+   "Discutir com o psiquiatra a troca ou associação de aripiprazol",
+   "Iniciar cabergolina e manter a risperidona na mesma dose atual",
+   "Trocar a risperidona por haloperidol em dose baixa, à noite",
+   "Ressonância de sela turca seguida de cirurgia transesfenoidal",
+   "Suspender a risperidona por 72 horas e repetir a prolactina"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023), hiperprolactinemia por medicamentos",
+  "coment": "Antipsicóticos que bloqueiam receptores D2, como risperidona e haloperidol, são causa frequente de hiperprolactinemia com hipogonadismo. Quando a relação temporal é clara e a suspensão é insegura, o consenso de 2023 orienta decidir com o psiquiatra a troca por um antipsicótico que pouco eleva a prolactina, ou a associação de aripiprazol, agonista parcial dopaminérgico que reduz a prolactina sem desestabilizar o quadro. Agonistas dopaminérgicos, como cabergolina, podem piorar a psicose e ficam como exceção, com cautela. Suspender por 72 horas só é aceitável quando seguro, o que não é o caso. Ressonância é indicada se houver sintomas de massa, dúvida sobre a causa ou prolactina desproporcional ao medicamento, e cirurgia não trata hiperprolactinemia medicamentosa. Se o hipogonadismo persistir, a reposição de testosterona pode ser discutida depois.",
+  "porAlt": [
+   "Correta: aripiprazol, como troca ou associação, reduz a prolactina sem suspender o tratamento psiquiátrico.",
+   "Agonista dopaminérgico pode piorar a psicose e não é a primeira opção.",
+   "Haloperidol também bloqueia D2 e mantém a hiperprolactinemia.",
+   "Cirurgia não trata hiperprolactinemia causada por medicamento.",
+   "A suspensão foi considerada insegura pelo psiquiatra, o que exclui esse teste."
+  ]
+ },
+ {
+  "q": "Mulher de 38 anos com microprolactinoma de 6 mm usa cabergolina 0,5 mg por semana há 3 anos. A prolactina está normal há 2 anos e meio, com último valor de 12 ng/mL, e a ressonância atual não mostra tumor visível. Não deseja gestação no momento e tolera bem o remédio. Pergunta se pode interrompê-lo. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a cabergolina por tempo indeterminado",
+   "Suspender a cabergolina só após a menopausa",
+   "Trocar por bromocriptina antes de suspender",
+   "Indicar cirurgia para cura antes de suspender",
+   "Reduzir e suspender, com prolactina seriada"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023), retirada do agonista dopaminérgico",
+  "coment": "O consenso de 2023 considera a retirada do agonista dopaminérgico em pacientes tratados por pelo menos 2 anos, com prolactina normal de forma sustentada e sem tumor visível na ressonância, ou com redução importante do volume. A dose deve ser reduzida de forma gradual antes de suspender, e a prolactina é monitorada com frequência no primeiro ano, período em que ocorre a maior parte das recidivas, depois com intervalos maiores. A taxa de remissão sustentada gira em torno de um terço a metade dos casos, maior em microadenomas com dose baixa no fim do tratamento. Se a hiperprolactinemia voltar, reinicia-se a cabergolina. Trocar por bromocriptina não traz vantagem, e cirurgia não se indica em paciente controlada com tumor invisível.",
+  "porAlt": [
+   "Manter indefinidamente ignora a chance real de remissão após a retirada.",
+   "A menopausa favorece a retirada, mas não é condição para tentá-la.",
+   "Bromocriptina é menos eficaz e menos tolerada, sem vantagem na retirada.",
+   "Cirurgia não se indica em microprolactinoma controlado e sem tumor visível.",
+   "Correta: 2 anos ou mais de prolactina normal e tumor invisível permitem tentar a retirada gradual."
+  ]
+ },
+ {
+  "q": "Homem de 49 anos com apneia obstrutiva do sono, síndrome do túnel do carpo bilateral já operada, hipertensão e diabetes diagnosticado há 6 meses. Relata que o número do sapato e o do anel aumentaram nos últimos anos. Ao exame: prognatismo, nariz alargado, espaçamento entre os dentes, mãos espessas e macroglossia. Visão sem queixas. Qual é o exame inicial mais adequado para investigar a principal hipótese?",
+  "alts": [
+   "GH sérico basal colhido ao acaso no dia",
+   "Ressonância de sela turca como 1º exame",
+   "Teste oral de glicose com GH de início",
+   "IGF-1 sérico ajustado para idade e sexo",
+   "Prolactina sérica com diluição da amostra"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "Endocrine Society, diretriz de acromegalia, 2014, rastreio com IGF-1",
+  "coment": "Alterações acrais e faciais progressivas, apneia do sono, túnel do carpo, hipertensão e diabetes formam o quadro típico de acromegalia. A diretriz da Endocrine Society de 2014, ainda referência, recomenda o IGF-1 sérico, interpretado pelos valores de referência para idade e sexo, como teste inicial, porque reflete a secreção integrada de GH ao longo do dia. O GH basal isolado não serve para rastreio, pois sua secreção é pulsátil e varia com sono, jejum e estresse. Com IGF-1 elevado ou duvidoso, confirma-se com o teste oral de tolerância à glicose, em que a ausência de supressão do GH abaixo de 1 ng/mL fecha o diagnóstico. A ressonância de sela vem depois da confirmação bioquímica. Prolactina pode ser dosada, pela cossecreção, mas não define o diagnóstico.",
+  "porAlt": [
+   "GH basal é pulsátil e não serve para rastreio.",
+   "A imagem só se pede após confirmar o excesso hormonal.",
+   "O teste de supressão confirma o diagnóstico depois de IGF-1 alterado.",
+   "Correta: o IGF-1 integra a secreção de GH e é o melhor exame inicial.",
+   "Prolactina pode vir alta por cossecreção, mas não diagnostica acromegalia."
+  ]
+ },
+ {
+  "q": "Homem de 38 anos com nefrolitíase recorrente tem cálcio total 11,4 mg/dL, PTH 142 pg/mL e fósforo 2,3 mg/dL. Há 2 anos tratou úlceras duodenais múltiplas com diarreia crônica, e a gastrina de jejum, colhida sem inibidor de bomba, foi de 1.200 pg/mL. A ressonância de sela mostrou microadenoma de 7 mm, com prolactina de 140 ng/mL. O pai teve tumor de hipófise e cálculos renais. Qual é o diagnóstico mais provável e sua implicação para as paratireoides?",
+  "alts": [
+   "NEM 2A, com adenoma único de paratireoide",
+   "Adenoma de paratireoide esporádico isolado",
+   "NEM 1, com doença em várias paratireoides",
+   "NEM 2B, sem acometimento de paratireoides",
+   "Hiperparatireoidismo secundário à diarreia"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Diretriz de prática clínica para neoplasia endócrina múltipla tipo 1 (Thakker et al., J Clin Endocrinol Metab, 2012)",
+  "coment": "A neoplasia endócrina múltipla tipo 1, por mutação do gene MEN1, associa hiperparatireoidismo primário, tumores neuroendócrinos duodenopancreáticos, como o gastrinoma, e adenomas hipofisários, mais comumente prolactinomas. O diagnóstico clínico exige dois desses tumores, ou um com parente de primeiro grau acometido. O hiperparatireoidismo é a manifestação mais frequente e precoce, e na doença é multiglandular, por hiperplasia ou múltiplos adenomas. Por isso a diretriz de 2012 orienta paratireoidectomia subtotal ou total com autoimplante, e não retirada de uma só glândula, com recidiva frequente. Corrigir a hipercalcemia também reduz a gastrina. Na NEM 2A, o hiperparatireoidismo é menos comum e acompanha o carcinoma medular. A NEM 2B não costuma ter hiperparatireoidismo. Diarreia não causaria hipercalcemia com PTH alto.",
+  "porAlt": [
+   "A NEM 2A cursa com carcinoma medular e feocromocitoma, não gastrinoma e adenoma hipofisário.",
+   "Adenoma esporádico não explica gastrinoma, prolactinoma e história familiar.",
+   "Correta: paratireoide, gastrinoma e hipófise definem NEM 1, com doença multiglandular.",
+   "A NEM 2B não inclui gastrinoma nem prolactinoma.",
+   "Hiperparatireoidismo secundário cursa com cálcio normal ou baixo, não alto."
+  ]
+ },
+ {
+  "q": "Mulher de 33 anos tem nódulo tireoidiano de 2 cm cuja punção mostrou carcinoma medular. Calcitonina 320 pg/mL, CEA 18 ng/mL, sem linfonodos suspeitos na ultrassonografia cervical. O pai morreu de crise hipertensiva durante uma cirurgia abdominal. O teste genético mostrou mutação germinativa do RET no códon 634. PA 152 x 94 mmHg. Antes da tireoidectomia total, qual exame é indispensável para evitar a complicação mais grave?",
+  "alts": [
+   "Cintilografia de tireoide com tecnécio-99m",
+   "Metanefrinas livres plasmáticas ou urinárias",
+   "Gastrina sérica em jejum, sem inibidor de bomba",
+   "Ressonância magnética de sela com contraste",
+   "Anticorpos antitireoperoxidase e TSH sérico"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "American Thyroid Association, diretriz revisada de carcinoma medular de tireoide, 2015, avaliação pré-operatória na NEM 2",
+  "coment": "Mutação germinativa do RET no códon 634 caracteriza NEM 2A de alto risco, com carcinoma medular em praticamente todos os portadores, feocromocitoma em cerca de metade e hiperparatireoidismo em parte deles. A diretriz da American Thyroid Association de 2015 recomenda, antes de qualquer cirurgia em portador de NEM 2, excluir feocromocitoma com metanefrinas plasmáticas ou urinárias. Se presente, a adrenalectomia, com preparo por bloqueio alfa, vem antes da tireoidectomia, porque a anestesia com feocromocitoma não reconhecido pode causar crise hipertensiva fatal, como provavelmente ocorreu com o pai. Cálcio e PTH também devem ser dosados antes, para tratar hiperparatireoidismo na mesma cirurgia. Calcitonina abaixo de 500 pg/mL e pescoço sem linfonodos não exigem imagem de corpo inteiro. Gastrina e sela pertencem à NEM 1.",
+  "porAlt": [
+   "Cintilografia não tem papel no carcinoma medular.",
+   "Correta: feocromocitoma deve ser excluído antes da tireoidectomia na NEM 2A.",
+   "Gastrinoma faz parte da NEM 1, e não da NEM 2A.",
+   "Tumores hipofisários fazem parte da NEM 1, não da NEM 2.",
+   "Autoimunidade tireoidiana não muda o risco cirúrgico neste contexto."
+  ]
+ },
+ {
+  "q": "Mulher de 62 anos, assintomática, tem hiperparatireoidismo primário descoberto em exames de rotina: cálcio total 10,8 mg/dL (referência até 10,2), PTH 98 pg/mL, 25-hidroxivitamina D 34 ng/mL e taxa de filtração estimada de 78 mL/min/1,73 m². Densitometria com escore T de -1,9 na coluna, -1,7 no colo femoral e -2,1 no terço distal do rádio. Radiografia de coluna sem fraturas e ultrassonografia renal sem cálculos. Calciúria de 24 horas de 284 mg em duas coletas, com perfil bioquímico de risco litogênico. Qual é a conduta?",
+  "alts": [
+   "Observar com cálcio anual e densitometria bienal",
+   "Cinacalcete para normalizar o cálcio e observar",
+   "Alendronato e rever a indicação cirúrgica em 1 ano",
+   "Paratireoidectomia indicada pela hipercalciúria",
+   "Repetir a densitometria em 1 ano e então decidir"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Quinto Workshop Internacional de hiperparatireoidismo primário assintomático, 2022, critérios de paratireoidectomia",
+  "coment": "O quinto workshop internacional, de 2022, indica cirurgia no hiperparatireoidismo primário assintomático quando há cálcio mais de 1 mg/dL acima do limite superior, escore T de -2,5 ou menos em qualquer sítio ou fratura vertebral, filtração abaixo de 60 mL/min, nefrolitíase ou nefrocalcinose, idade abaixo de 50 anos, ou calciúria elevada. A novidade foi baixar o limite de calciúria para mais de 250 mg em 24 horas nas mulheres e mais de 300 mg nos homens, reconhecendo seu papel como marcador de risco renal. Nesta paciente, cálcio, densidade, função renal e idade não preenchem critério, mas a calciúria de 284 mg com perfil litogênico sim. Cinacalcete reduz o cálcio sem melhorar o osso e fica para quem não pode operar. Observação seria adequada sem nenhum critério.",
+  "porAlt": [
+   "Observação cabe só a quem não preenche critérios, o que não é o caso.",
+   "Cinacalcete é reservado a quem não pode ou não quer operar.",
+   "Bisfosfonato não substitui a cirurgia quando há critério preenchido.",
+   "Correta: calciúria acima de 250 mg/24 h na mulher passou a ser critério cirúrgico em 2022.",
+   "A densidade não atinge critério, mas a calciúria já indica cirurgia."
+  ]
+ },
+ {
+  "q": "Mulher de 54 anos com câncer de mama metastático para ossos e fígado foi internada há 3 semanas por cálcio de 13,6 mg/dL (albumina 3,8 g/dL), tratada com salina isotônica e ácido zoledrônico 4 mg, com normalização. Volta com cálcio de 12,9 mg/dL, sonolência leve e poliúria. PTH 6 pg/mL, PTHrP elevado e creatinina 0,9 mg/dL. Após a reidratação, qual é o antirreabsortivo mais adequado agora?",
+  "alts": [
+   "Nova dose de ácido zoledrônico",
+   "Pamidronato por via endovenosa",
+   "Prednisona oral em dose diária",
+   "Calcitonina mantida por semanas",
+   "Denosumabe por via subcutânea"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Endocrine Society, diretriz de tratamento da hipercalcemia da malignidade em adultos, 2023",
+  "coment": "A diretriz da Endocrine Society de 2023 recomenda tratar a hipercalcemia da malignidade com bisfosfonato endovenoso ou denosumabe, e sugere preferir o denosumabe, pela maior potência, com base em evidência indireta. Quando a hipercalcemia recorre ou é refratária apesar do bisfosfonato endovenoso, a diretriz sugere especificamente o denosumabe, que age por outro mecanismo, inibindo o ligante do RANK, e não depende da função renal. Repetir zoledronato ou trocar para pamidronato mantém a mesma classe que já falhou. Glicocorticoide é a escolha quando a hipercalcemia é mediada por calcitriol, como em linfomas e doenças granulomatosas, e não na hipercalcemia humoral por PTHrP. Calcitonina tem efeito rápido mas transitório, com taquifilaxia em 48 a 72 horas, e serve só como ponte. Monitorar hipocalcemia com o denosumabe.",
+  "porAlt": [
+   "Repetir a mesma classe que falhou é menos eficaz que trocar de mecanismo.",
+   "Pamidronato é bisfosfonato, a classe que já não controlou.",
+   "Corticoide é para hipercalcemia mediada por calcitriol, não por PTHrP.",
+   "Calcitonina perde efeito em 48 a 72 horas e não serve por semanas.",
+   "Correta: na recorrência após bisfosfonato endovenoso, a diretriz sugere denosumabe."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos com linfoma difuso de grandes células B, ainda sem quimioterapia, apresenta poliúria, constipação e confusão leve. Cálcio total 12,8 mg/dL, albumina 4,0 g/dL, PTH 7 pg/mL, PTHrP indetectável, 25-hidroxivitamina D 28 ng/mL, 1,25-di-hidroxivitamina D 98 pg/mL (referência 18 a 72) e creatinina 1,3 mg/dL. Após hidratação com salina isotônica, qual tratamento age no mecanismo principal da hipercalcemia?",
+  "alts": [
+   "Cinacalcete em dose alta",
+   "Furosemida venosa isolada",
+   "Glicocorticoide sistêmico",
+   "Calcitonina subcutânea só",
+   "Restrição de cálcio isolada"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Endocrine Society, diretriz de tratamento da hipercalcemia da malignidade em adultos, 2023, hipercalcemia mediada por calcitriol",
+  "coment": "Com PTH suprimido, PTHrP indetectável, 25-hidroxivitamina D normal e 1,25-di-hidroxivitamina D elevada, o mecanismo é a produção extrarrenal de calcitriol, pela 1-alfa-hidroxilase expressa nas células do linfoma, como ocorre também em sarcoidose e tuberculose. O calcitriol aumenta a absorção intestinal de cálcio e a reabsorção óssea. A diretriz da Endocrine Society de 2023 recomenda glicocorticoide como tratamento inicial nesse cenário, porque inibe a 1-alfa-hidroxilase e reduz a absorção intestinal de cálcio. Antirreabsortivo pode ser somado se a hipercalcemia for grave ou não responder. Cinacalcete atua no receptor sensor de cálcio da paratireoide e não tem papel com PTH suprimido. Furosemida isolada não é tratamento e só cabe em sobrecarga de volume. Calcitonina é ponte de poucos dias.",
+  "porAlt": [
+   "Cinacalcete age na paratireoide, e o PTH já está suprimido.",
+   "Diurético de alça isolado não trata a causa e pode desidratar.",
+   "Correta: corticoide inibe a 1-alfa-hidroxilase do tumor, o mecanismo central aqui.",
+   "Calcitonina perde efeito em poucos dias e não age no mecanismo.",
+   "Dieta sozinha é insuficiente para hipercalcemia sintomática."
+  ]
+ },
+ {
+  "q": "Mulher de 47 anos, por orientação de uma clínica estética, toma há 5 meses cápsulas manipuladas de vitamina D em dose alta, todos os dias. Apresenta náuseas, poliúria, polidipsia e constipação. Cálcio total 13,1 mg/dL, fósforo 4,8 mg/dL, PTH 5 pg/mL, 25-hidroxivitamina D 312 ng/mL e creatinina 1,4 mg/dL (prévia de 0,8). Não usa carbonato de cálcio nem tiazídico. Qual é o diagnóstico e a conduta inicial?",
+  "alts": [
+   "Hiperparatireoidismo primário; paratireoidectomia",
+   "Hipercalcemia humoral maligna; buscar tumor sólido",
+   "Sarcoidose; tomografia de tórax e corticoide oral",
+   "Síndrome leite-álcali; suspender o cálcio da dieta",
+   "Intoxicação por vitamina D; suspender e hidratar"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Endocrine Society, diretriz de vitamina D para prevenção de doenças, 2024; diretriz de hipercalcemia da malignidade, 2023, diagnóstico diferencial",
+  "coment": "Hipercalcemia com PTH suprimido e 25-hidroxivitamina D acima de 150 ng/mL, em quem usa doses altas sem controle, define intoxicação por vitamina D. O excesso aumenta a absorção intestinal de cálcio e fósforo e a reabsorção óssea, com lesão renal por hipercalciúria e vasoconstrição. A conduta é suspender toda vitamina D e suplemento de cálcio, hidratar com salina isotônica e, nos casos graves ou persistentes, associar glicocorticoide ou bisfosfonato. Como a vitamina D é lipossolúvel e se acumula no tecido adiposo, a hipercalcemia pode durar semanas. A diretriz da Endocrine Society de 2024 não recomenda dosagem rotineira de 25-hidroxivitamina D em adultos saudáveis nem doses acima da ingestão diária recomendada sem indicação, prática que leva a casos como este. PTH suprimido afasta hiperparatireoidismo.",
+  "porAlt": [
+   "PTH suprimido exclui hiperparatireoidismo primário.",
+   "A história de dose alta e a 25-hidroxivitamina D explicam o quadro sem buscar tumor.",
+   "Na sarcoidose, a alteração típica é da 1,25 e não da 25-hidroxivitamina D.",
+   "Leite-álcali exige ingestão alta de cálcio com álcali, ausente aqui.",
+   "Correta: 25-hidroxivitamina D muito alta com PTH suprimido e uso de altas doses define intoxicação."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, institucionalizada, com pouca exposição solar e gastrectomia parcial antiga, refere dor óssea difusa, fraqueza proximal e marcha anserina há 8 meses. Cálcio total 8,1 mg/dL, fósforo 2,2 mg/dL, fosfatase alcalina 420 U/L, PTH 168 pg/mL, 25-hidroxivitamina D 6 ng/mL e creatinina 0,7 mg/dL. Radiografia de bacia mostra pseudofraturas nos ramos púbicos. Qual é o diagnóstico e o tratamento inicial?",
+  "alts": [
+   "Osteoporose; iniciar ácido zoledrônico",
+   "Hiperparatireoidismo primário; cirurgia",
+   "Doença de Paget; bisfosfonato endovenoso",
+   "Metástase óssea; cintilografia e biópsia",
+   "Osteomalacia; repor vitamina D e cálcio"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Consenso global sobre prevenção e manejo do raquitismo nutricional e da osteomalacia (Munns et al., 2016); Endocrine Society, diretriz de vitamina D, 2024",
+  "coment": "Dor óssea, fraqueza proximal e marcha anserina com cálcio e fósforo baixos, fosfatase alcalina e PTH elevados, 25-hidroxivitamina D muito baixa e pseudofraturas de Looser definem osteomalacia por deficiência de vitamina D, um defeito de mineralização da matriz óssea. Pouca exposição solar, institucionalização e gastrectomia, que reduz absorção, são fatores clássicos. O hiperparatireoidismo é secundário à hipocalcemia. O tratamento é repor colecalciferol em dose terapêutica, com cálcio suficiente, e acompanhar a normalização da fosfatase alcalina e do PTH, o que pode levar meses. Bisfosfonato, sobretudo endovenoso, não deve ser dado antes de corrigir a deficiência, pelo risco de hipocalcemia grave. A diretriz de 2024 trata de prevenção, e não muda a reposição na deficiência sintomática.",
+  "porAlt": [
+   "Bisfosfonato antes de corrigir a deficiência pode causar hipocalcemia grave.",
+   "O PTH alto é secundário a cálcio baixo, não hiperparatireoidismo primário.",
+   "Paget cursa com fosfatase alta mas cálcio, fósforo e vitamina D normais.",
+   "Os achados laboratoriais explicam o quadro sem suspeita de neoplasia.",
+   "Correta: defeito de mineralização com vitamina D muito baixa e Looser se trata com vitamina D e cálcio."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos, no primeiro dia após tireoidectomia total por bócio multinodular, refere parestesias periorais e nas mãos, com cãibras. Sinais de Chvostek e Trousseau positivos. Cálcio total 6,9 mg/dL, albumina 4,0 g/dL, cálcio iônico 0,82 mmol/L, PTH 4 pg/mL, magnésio 2,0 mg/dL e fósforo 5,1 mg/dL. Eletrocardiograma com QTc de 500 ms. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cálcio oral isolado e nova dosagem de cálcio sérico amanhã",
+   "Gluconato de cálcio venoso, depois cálcio oral e calcitriol",
+   "Colecalciferol em dose alta por via oral como reposição única",
+   "Sulfato de magnésio venoso antes de qualquer dose de cálcio",
+   "Cloreto de cálcio em bolus rápido, sem monitorização cardíaca"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r1",
+  "base": "Segundo Workshop Internacional de hipoparatireoidismo, diretriz de avaliação e manejo (J Bone Miner Res, 2022)",
+  "coment": "Hipocalcemia sintomática com PTH baixo e fósforo alto logo após tireoidectomia total indica hipoparatireoidismo pós-cirúrgico, a causa mais comum de hipoparatireoidismo. Sintomas como tetania e QT prolongado pedem cálcio endovenoso: gluconato de cálcio a 10%, 1 a 2 ampolas diluídas em 10 a 20 minutos, seguido de infusão contínua, com monitorização cardíaca. Ao mesmo tempo, inicia-se cálcio oral e calcitriol, porque sem PTH não há ativação renal da vitamina D, e o colecalciferol sozinho é ineficaz e lento. O workshop de 2022 orienta manter o cálcio no limite inferior da normalidade, para reduzir hipercalciúria. O magnésio está normal, então sua reposição não é a prioridade. Cloreto de cálcio em bolus rápido, sem monitor e por veia periférica, traz risco de arritmia e lesão tecidual.",
+  "porAlt": [
+   "Cálcio oral sozinho é insuficiente com tetania e QT longo.",
+   "Correta: hipocalcemia sintomática exige cálcio venoso, e sem PTH é preciso calcitriol.",
+   "Sem PTH, o colecalciferol não é ativado e não corrige a hipocalcemia aguda.",
+   "O magnésio é normal e não limita a resposta ao cálcio.",
+   "Bolus rápido sem monitor arrisca arritmia e lesão da veia."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos usa omeprazol 40 mg/dia há 6 anos. Internado por tremores, cãibras e fraqueza. Cálcio total 7,2 mg/dL (albumina 4,1 g/dL), PTH 18 pg/mL, magnésio 0,7 mg/dL, potássio 3,0 mEq/L e fósforo 3,6 mg/dL. Recebeu duas ampolas de gluconato de cálcio endovenoso, com melhora transitória e nova queda do cálcio em poucas horas. Qual é a medida essencial para corrigir a hipocalcemia?",
+  "alts": [
+   "Aumentar a infusão de cálcio venoso",
+   "Iniciar calcitriol em dose plena",
+   "Repor magnésio por via endovenosa",
+   "Repor apenas potássio endovenoso",
+   "Paratormônio recombinante injetável"
+  ],
+  "gab": 2,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "Segundo Workshop Internacional de hipoparatireoidismo, diretriz de avaliação e manejo (J Bone Miner Res, 2022), hipoparatireoidismo funcional por hipomagnesemia",
+  "coment": "Hipomagnesemia grave, abaixo de cerca de 1 mg/dL, causa hipocalcemia por dois mecanismos: reduz a secreção de PTH e induz resistência ao PTH no osso e no rim. Por isso o PTH vem inapropriadamente normal ou baixo diante da hipocalcemia, e a reposição de cálcio isolada não se sustenta. Inibidores da bomba de prótons em uso prolongado reduzem a absorção intestinal de magnésio e são causa reconhecida. A hipocalemia associada também é refratária enquanto o magnésio não for corrigido, pela perda renal de potássio. A conduta é repor sulfato de magnésio endovenoso, avaliar a troca do inibidor de bomba e repor potássio. Calcitriol e PTH recombinante não corrigem a causa, e aumentar o cálcio venoso sem magnésio mantém a refratariedade.",
+  "porAlt": [
+   "Mais cálcio sem magnésio mantém a hipocalcemia refratária.",
+   "Calcitriol não corrige o defeito de secreção e ação do PTH causado pela falta de magnésio.",
+   "Correta: sem corrigir o magnésio, a secreção e a ação do PTH seguem prejudicadas.",
+   "A hipocalemia também depende do magnésio e não se corrige sozinha.",
+   "PTH recombinante não está indicado em hipocalcemia por hipomagnesemia."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos fez paratireoidectomia há 3 dias por adenoma. No pré-operatório: cálcio 13,2 mg/dL, PTH 980 pg/mL, fosfatase alcalina 520 U/L e lesões de osteíte fibrosa cística. Agora refere parestesias. Cálcio total 7,0 mg/dL, fósforo 1,9 mg/dL, magnésio 1,4 mg/dL, PTH 48 pg/mL e fosfatase alcalina 610 U/L. Qual é o mecanismo mais provável da hipocalcemia?",
+  "alts": [
+   "Hipoparatireoidismo definitivo por lesão das glândulas",
+   "Deficiência de vitamina D por má absorção intestinal",
+   "Hipomagnesemia primária como causa isolada do quadro",
+   "Pseudo-hipoparatireoidismo com resistência renal ao PTH",
+   "Síndrome da fome óssea, com remineralização intensa"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Quinto Workshop Internacional de hiperparatireoidismo primário, 2022; Segundo Workshop Internacional de hipoparatireoidismo (J Bone Miner Res, 2022)",
+  "coment": "Após corrigir hiperparatireoidismo grave com doença óssea, a queda abrupta do PTH interrompe a reabsorção, enquanto a formação óssea continua acelerada. O osso desmineralizado capta grande quantidade de cálcio, fósforo e magnésio, quadro chamado síndrome da fome óssea. A pista que a separa do hipoparatireoidismo pós-cirúrgico é o fósforo: baixo na fome óssea, por captação óssea, e alto no hipoparatireoidismo, pela falta de PTH. O PTH aqui está normal, e a fosfatase alcalina segue alta. Fatores de risco são PTH e fosfatase muito altos no pré-operatório, osteíte fibrosa e idade maior. O tratamento costuma exigir cálcio venoso e depois oral em doses altas, calcitriol e reposição de magnésio, às vezes por semanas. A hipomagnesemia é consequência e não causa isolada.",
+  "porAlt": [
+   "No hipoparatireoidismo o PTH é baixo e o fósforo alto, o contrário do visto.",
+   "Nada sugere má absorção, e o quadro surgiu logo após a cirurgia.",
+   "O magnésio baixo é consequência da captação óssea, não a causa isolada.",
+   "Resistência ao PTH cursa com fósforo alto e é doença congênita.",
+   "Correta: fósforo e magnésio baixos com PTH normal após doença óssea grave indicam fome óssea."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos, na menopausa desde os 50, procura a unidade básica para consulta de rotina. É tabagista de 20 maços-ano, tem IMC de 18,5 kg/m² e a mãe teve fratura de quadril aos 70 anos. Não usa corticoide e nunca teve fratura. Exame físico sem alterações. Pergunta se precisa de algum exame para os ossos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Densitometria só a partir dos 65 anos de idade",
+   "Radiografia de coluna em vez de densitometria",
+   "Iniciar alendronato sem exame, só pelo risco",
+   "Densitometria agora, pelos fatores de risco",
+   "Ultrassonografia de calcâneo como rastreio"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "USPSTF, recomendação de rastreio de osteoporose, 2025; Endocrine Society, diretriz de tratamento farmacológico da osteoporose pós-menopausa, atualização 2020",
+  "coment": "A recomendação da força-tarefa americana de 2025 manteve o rastreio com densitometria para todas as mulheres a partir de 65 anos e estendeu às mulheres na pós-menopausa abaixo de 65 anos com risco aumentado, identificado por fatores clínicos ou ferramenta como o FRAX. Esta paciente soma baixo peso, tabagismo e fratura de quadril materna, fatores que elevam o risco e justificam a densitometria já. O resultado, combinado ao FRAX, orienta a decisão de tratamento conforme a diretriz da Endocrine Society. Iniciar bisfosfonato sem avaliação não é recomendado em quem nunca fraturou. Radiografia simples não mede densidade, e ultrassonografia de calcâneo não substitui a densitometria central para diagnóstico. Também cabem orientação para parar de fumar, exercício e ingestão adequada de cálcio.",
+  "porAlt": [
+   "Esperar os 65 anos ignora os fatores de risco que antecipam o rastreio.",
+   "Radiografia não mede densidade mineral óssea.",
+   "Sem fratura, a decisão de tratar depende da densitometria e do FRAX.",
+   "Correta: pós-menopausa abaixo de 65 anos com risco aumentado tem indicação de densitometria.",
+   "Ultrassom de calcâneo não substitui a densitometria central."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos com osteoporose usa denosumabe 60 mg a cada 6 meses há 5 anos, iniciado após fratura vertebral. A densitometria atual mostra escore T de -2,2 no colo femoral e -2,0 na coluna, sem novas fraturas. A última dose foi há 5 meses. Taxa de filtração de 70 mL/min. Ela leu que o tratamento não deve ser eterno e quer parar. Qual é a orientação correta?",
+  "alts": [
+   "Suspender o denosumabe e reavaliar a densidade em 2 anos",
+   "Trocar por zoledronato cerca de 6 meses após a última dose",
+   "Suspender e manter apenas cálcio e vitamina D por via oral",
+   "Espaçar o denosumabe para uma só aplicação a cada 12 meses",
+   "Trocar por raloxifeno diário após a última aplicação feita"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Endocrine Society, diretriz de tratamento farmacológico da osteoporose pós-menopausa, atualização 2020, suspensão do denosumabe",
+  "coment": "Diferentemente dos bisfosfonatos, que se depositam no osso e permitem pausa, o efeito do denosumabe é reversível. Ao suspender, há aumento rebote da remodelação, perda rápida da densidade ganha e risco de fraturas vertebrais múltiplas, sobretudo em quem já teve fratura vertebral. A atualização da Endocrine Society de 2020 recomenda não interromper nem atrasar o denosumabe sem transição para outro antirreabsortivo, em geral bisfosfonato, como zoledronato endovenoso aplicado perto de quando seria a próxima dose, ou alendronato oral. A paciente, com fratura prévia, segue com alto risco. Espaçar as doses tem o mesmo efeito de suspender. Raloxifeno é antirreabsortivo fraco e não previne o rebote de forma confiável. Cálcio e vitamina D isolados não bastam.",
+  "porAlt": [
+   "Suspender sem transição causa rebote e fraturas vertebrais múltiplas.",
+   "Correta: o denosumabe só deve ser suspenso com transição para bisfosfonato.",
+   "Cálcio e vitamina D não impedem o rebote da remodelação.",
+   "Atrasar as doses produz o mesmo rebote da suspensão.",
+   "Raloxifeno é fraco demais para conter o rebote após o denosumabe."
+  ]
+ },
+ {
+  "q": "Mulher de 67 anos com polimialgia reumática vai iniciar prednisona 15 mg/dia, com previsão de uso por pelo menos 6 meses. Nunca fraturou. Densitometria com escore T de -2,0 no colo femoral. O FRAX ajustado para a dose de corticoide mostra risco em 10 anos de 22% para fratura maior e 3,4% para quadril. Taxa de filtração de 75 mL/min, sem doença esofágica. Qual é a conduta para proteção óssea?",
+  "alts": [
+   "Só cálcio, vitamina D e DXA em 2 anos",
+   "Aguardar uma fratura para então tratar",
+   "Calcitonina nasal como agente principal",
+   "Estrogênio sistêmico como primeira opção",
+   "Cálcio, vitamina D e bisfosfonato oral"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "American College of Rheumatology, diretriz de prevenção e tratamento da osteoporose induzida por glicocorticoide, 2022",
+  "coment": "Glicocorticoide em dose de 2,5 mg/dia ou mais por 3 meses ou mais reduz a formação óssea e eleva o risco de fratura já nos primeiros meses, mesmo com densidade pouco reduzida. A diretriz do American College of Rheumatology de 2022 classifica como alto risco adultos de 40 anos ou mais com FRAX ajustado para glicocorticoide de 20% ou mais para fratura maior ou 3% ou mais para quadril, escore T de -2,5 ou menos, ou fratura prévia. Esta paciente preenche pelos dois limiares do FRAX. Para todos, recomenda cálcio, vitamina D e medidas de estilo de vida, e para os de risco moderado ou alto, tratamento farmacológico, com bisfosfonato oral como opção inicial habitual pelo custo e segurança. Calcitonina não tem mais papel. Estrogênio não é primeira escolha aos 67 anos.",
+  "porAlt": [
+   "Com alto risco, só cálcio e vitamina D é insuficiente.",
+   "A meta é prevenir a primeira fratura, não esperar por ela.",
+   "Calcitonina tem eficácia fraca e não é mais recomendada.",
+   "Terapia hormonal aos 67 anos traz riscos e não é primeira escolha.",
+   "Correta: FRAX acima dos limiares define alto risco e pede antirreabsortivo, em geral bisfosfonato oral."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, brasileiro, faz consulta de rotina. Circunferência abdominal de 96 cm, PA de 128 x 84 mmHg sem medicação, glicemia de jejum 104 mg/dL, triglicerídeos 162 mg/dL e HDL 42 mg/dL. Pelo critério harmonizado de síndrome metabólica, usando para sul-americanos o ponto de corte de cintura recomendado de 90 cm para homens, qual é a classificação correta?",
+  "alts": [
+   "Não tem: a pressão fica abaixo de 130 x 85 mmHg",
+   "Não tem: a cintura não chega aos 102 cm exigidos",
+   "Tem síndrome: cintura, HDL e glicemia alterados",
+   "Tem síndrome: cintura, glicemia e triglicerídeos",
+   "Não tem: a glicemia não atinge 110 mg/dL em jejum"
+  ],
+  "gab": 3,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Declaração conjunta harmonizada IDF, AHA e NHLBI sobre síndrome metabólica (Alberti et al., Circulation, 2009)",
+  "coment": "O critério harmonizado de 2009 define síndrome metabólica pela presença de 3 ou mais de 5 componentes, sem obrigar nenhum deles: cintura aumentada pelo ponto de corte da população, triglicerídeos de 150 mg/dL ou mais, HDL abaixo de 40 mg/dL em homens ou 50 mg/dL em mulheres, PA de 130 x 85 mmHg ou mais, e glicemia de jejum de 100 mg/dL ou mais, contando o uso de tratamento para cada um. Para populações sul e centro-americanas, a IDF recomenda usar os pontos de corte de sul-asiáticos, 90 cm para homens e 80 cm para mulheres. Este paciente tem cintura de 96 cm, glicemia de 104 mg/dL e triglicerídeos de 162 mg/dL, totalizando três critérios. A pressão e o HDL estão dentro do normal. O valor de 102 cm vinha de critérios mais antigos.",
+  "porAlt": [
+   "A pressão normal não impede o diagnóstico, que exige 3 de 5 critérios.",
+   "O limite de 102 cm não é o usado para sul-americanos no critério harmonizado.",
+   "O HDL de 42 mg/dL é normal para homem, pois o limite é 40.",
+   "Correta: cintura de 96 cm, glicemia de 104 e triglicerídeos de 162 somam três critérios.",
+   "O limite de glicemia no critério harmonizado é 100 mg/dL, não 110."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, IMC de 34 kg/m², tem apneia obstrutiva do sono com índice de apneia e hipopneia de 38 eventos por hora e não tolerou o CPAP. Tem pré-diabetes, sem diabetes, sem doença cardiovascular, sem história de pancreatite e sem história pessoal ou familiar de carcinoma medular de tireoide. Já segue plano alimentar e atividade física. Segundo a diretriz brasileira mais recente de tratamento farmacológico da obesidade, qual é a opção preferencial?",
+  "alts": [
+   "Orlistate 120 mg junto às três refeições do dia",
+   "Tirzepatida semanal associada ao estilo de vida",
+   "Liraglutida 1,8 mg/dia como opção preferencial",
+   "Naltrexona com bupropiona em doses escalonadas",
+   "Aguardar 6 meses só com dieta antes de medicar"
+  ],
+  "gab": 1,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ABESO, Diretriz Brasileira de Tratamento Farmacológico da Obesidade, 2025, tratamento por cenário clínico",
+  "coment": "A diretriz brasileira de tratamento farmacológico da obesidade, divulgada pela ABESO no fim de 2025, indica tratamento para IMC de 30 kg/m² ou mais, ou de 27 kg/m² ou mais com complicações relacionadas à adiposidade, e classifica semaglutida e tirzepatida como primeira linha, com a maior certeza de evidência entre os fármacos avaliados. Ela orienta a escolha por cenário clínico, e na apneia obstrutiva moderada a grave sugere tirzepatida, que reduziu a gravidade da apneia em ensaio clínico dedicado. Outra mudança é não exigir falha prévia de mudança de estilo de vida para iniciar medicação. Orlistate e naltrexona com bupropiona têm eficácia menor. Liraglutida na dose de 1,8 mg/dia é a dose do diabetes, e não a usada para obesidade.",
+  "porAlt": [
+   "Orlistate tem eficácia modesta e não é preferencial na apneia.",
+   "Correta: na apneia moderada a grave, a diretriz de 2025 sugere tirzepatida.",
+   "Essa dose de liraglutida é a do diabetes, e a classe tem perda de peso menor.",
+   "Naltrexona com bupropiona tem eficácia menor e não é a preferida aqui.",
+   "A diretriz atual não exige falha do estilo de vida antes da medicação."
+  ]
+ },
+ {
+  "q": "Homem de 39 anos, IMC de 44 kg/m², com diabetes tipo 2, hipertensão e esteatose hepática, procura encaminhamento para cirurgia bariátrica após várias tentativas de tratamento clínico. Na entrevista, relata beber cerca de 8 doses de destilado por dia, quase todos os dias, com episódios de amnésia e uma internação por pancreatite aguda alcoólica há 4 meses. Nunca fez tratamento para o uso de álcool. Qual é a conduta mais adequada quanto à cirurgia?",
+  "alts": [
+   "Adiar e tratar o uso de álcool antes de operar",
+   "Indicar bypass gástrico já, pelo IMC e diabetes",
+   "Contraindicar a cirurgia de forma definitiva",
+   "Preferir banda gástrica para reduzir o risco",
+   "Exigir IMC acima de 50 para indicar cirurgia"
+  ],
+  "gab": 0,
+  "tema": "endocrino",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ASMBS e IFSO, diretriz de indicações de cirurgia metabólica e bariátrica, 2022; CFM, Resolução 2.429, 2025 (substituiu a 2.131/2015)",
+  "coment": "O paciente tem indicação de cirurgia pelo IMC acima de 40 e pelas comorbidades, segundo a diretriz da ASMBS e da IFSO de 2022, que indica cirurgia com IMC de 35 ou mais e a considera a partir de 30 com doença metabólica. Porém, o uso ativo e grave de álcool, sem tratamento, é contraindicação, ao menos temporária: a Resolução CFM 2.429/2025, que substituiu a de 2015, veda a cirurgia no abuso de substâncias não tratado ou mal controlado e na incapacidade de aderir ao seguimento, e a ASMBS/IFSO pede o mesmo. Após cirurgias como o bypass gástrico, a absorção do álcool fica mais rápida e o pico sérico, maior, com aumento do risco de transtorno por uso de álcool, além de pior adesão às vitaminas e ao seguimento. A conduta é encaminhar para tratamento do uso de álcool e reavaliar a cirurgia após período de abstinência sustentada. Contraindicar para sempre seria excessivo, e IMC acima de 50 não é exigência.",
+  "porAlt": [
+   "Correta: uso grave e ativo de álcool deve ser tratado antes, e a cirurgia é reavaliada depois.",
+   "Operar com uso ativo de álcool aumenta o risco de piora do transtorno e complicações.",
+   "A contraindicação é temporária e pode ser revista após tratamento e abstinência.",
+   "Trocar a técnica não resolve o problema, e a banda tem resultados piores.",
+   "IMC acima de 50 não é exigência, pois 35 ou mais já indica cirurgia."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos, IMC de 46 kg/m², é internado por sonolência diurna, cefaleia matinal e edema de membros inferiores. Ronca alto e tem pausas respiratórias observadas pela esposa. Acordado, em ar ambiente: pH 7,36, PaCO2 54 mmHg, PaO2 58 mmHg e bicarbonato 31 mEq/L. Radiografia de tórax sem doença do parênquima, espirometria sem obstrução, função tireoidiana normal e sem doença neuromuscular. Qual é o diagnóstico mais provável e o tratamento de base?",
+  "alts": [
+   "DPOC hipercápnica; broncodilatador de longa duração",
+   "Hipotireoidismo grave; levotiroxina em dose de ataque",
+   "Apneia central do sono; acetazolamida noturna diária",
+   "Insuficiência cardíaca; diurético e oxigênio à noite",
+   "Hipoventilação da obesidade; pressão positiva noturna"
+  ],
+  "gab": 4,
+  "tema": "endocrino",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "American Thoracic Society, diretriz de avaliação e manejo da síndrome de obesidade-hipoventilação, 2019",
+  "coment": "A síndrome de obesidade-hipoventilação é definida por IMC de 30 kg/m² ou mais com hipercapnia diurna, PaCO2 de 45 mmHg ou mais acordado, sem outra causa de hipoventilação, como doença pulmonar obstrutiva, doença neuromuscular, hipotireoidismo ou deformidade torácica. Bicarbonato elevado reflete compensação renal da hipercapnia crônica, e a maioria dos pacientes tem apneia obstrutiva associada. A diretriz da American Thoracic Society de 2019 recomenda pressão positiva nas vias aéreas durante o sono como tratamento de base, com CPAP como primeira escolha em quem tem apneia obstrutiva grave associada, e perda de peso sustentada, com avaliação de cirurgia bariátrica. Oxigênio isolado pode piorar a hipercapnia. A doença associa-se a hipertensão pulmonar, cor pulmonale e maior mortalidade quando não tratada.",
+  "porAlt": [
+   "A espirometria sem obstrução afasta DPOC como causa da hipercapnia.",
+   "A função tireoidiana normal exclui hipotireoidismo.",
+   "Roncos e pausas observadas sugerem apneia obstrutiva, não central.",
+   "Oxigênio isolado pode piorar a hipercapnia, que é o problema central.",
+   "Correta: obesidade com hipercapnia diurna e outras causas excluídas define a síndrome, tratada com pressão positiva."
+  ]
+ }
+]

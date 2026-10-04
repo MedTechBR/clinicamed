@@ -1,0 +1,866 @@
+[
+ {
+  "q": "Mulher de 34 anos, lavradora no interior do Piauí, procura a unidade básica por três manchas hipocrômicas de bordas bem definidas no braço direito e na coxa esquerda, a maior com 4 cm, presentes há 8 meses. Nas três há hipoestesia térmica e dolorosa. A palpação dos nervos ulnares, medianos, radiais, fibulares e tibiais não mostra espessamento nem dor, e a avaliação de força e sensibilidade de mãos e pés é normal. A baciloscopia de raspado intradérmico é negativa. Não há sinais de reação. Pesa 60 kg, não está grávida e não usa medicamentos. Segundo o Ministério da Saúde, qual é a classificação operacional e o tratamento?",
+  "alts": [
+   "Paucibacilar; rifampicina e dapsona por 6 doses",
+   "Multibacilar; PQT-U (com clofazimina) por 12 doses",
+   "Paucibacilar; PQT-U (com clofazimina) por 12 doses",
+   "Paucibacilar; PQT-U (com clofazimina) por 6 doses",
+   "Multibacilar; rifampicina e dapsona por 12 doses"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "PCDT Hanseníase 2022 (Ministério da Saúde) e Guia de Vigilância em Saúde 2024, classificação operacional e PQT-U",
+  "coment": "A classificação operacional do Ministério separa os casos por contagem de lesões e baciloscopia: até cinco lesões com baciloscopia negativa definem o paucibacilar; seis ou mais lesões, ou baciloscopia positiva em qualquer número de lesões, definem o multibacilar. Esta paciente tem três lesões com perda sensitiva, nenhum nervo acometido e baciloscopia negativa, portanto é paucibacilar. A mudança que mais se cobra é a do esquema: desde a implantação da PQT-U, o paucibacilar também recebe clofazimina, junto com rifampicina e dapsona, em 6 doses supervisionadas mensais, concluídas em até 9 meses. O antigo esquema paucibacilar só com rifampicina e dapsona foi abandonado. O multibacilar recebe a mesma PQT-U por 12 doses, em até 18 meses. Ampliar para 12 doses sem critério de multibacilar expõe a paciente a toxicidade sem ganho.",
+  "porAlt": [
+   "O esquema de rifampicina e dapsona sem clofazimina foi substituído pela PQT-U também nos casos paucibacilares.",
+   "Não há critério de multibacilar: as lesões são menos de seis, nenhum nervo está acometido e a baciloscopia é negativa.",
+   "Doze doses correspondem ao multibacilar; no paucibacilar a PQT-U é concluída com 6 doses supervisionadas.",
+   "Correta: três lesões e baciloscopia negativa definem o paucibacilar, tratado com a PQT-U de três fármacos por 6 doses.",
+   "Além de classificar errado, esse esquema sem clofazimina não é usado em nenhuma forma da hanseníase no país."
+  ]
+ },
+ {
+  "q": "Homem de 41 anos com hanseníase multibacilar está na 7ª dose supervisionada da PQT-U. Há 4 dias tem febre de 38,6 °C, mal-estar, artralgia de joelhos e surgimento de dezenas de nódulos eritematosos, quentes e dolorosos na face extensora dos braços, nas coxas e no tronco, alguns com centro violáceo. As lesões antigas não mudaram de aspecto. Não há dor ou espessamento novo de nervos, piora de força ou de sensibilidade, dor testicular, olho vermelho ou edema de mãos e pés. Pesa 70 kg, a função renal e hepática é normal e não tem doenças prévias. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender a PQT-U e usar talidomida",
+   "Manter a PQT-U e associar talidomida",
+   "Manter a PQT-U e associar prednisona",
+   "Suspender a PQT-U e usar prednisona",
+   "Manter a PQT-U e associar colchicina"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "PCDT Hanseníase 2022 (Ministério da Saúde), tratamento da reação tipo 2 (eritema nodoso hansênico)",
+  "coment": "Nódulos eritematosos dolorosos e disseminados, com febre e artralgia, em paciente multibacilar durante o tratamento, sem mudança nas lesões antigas, configuram reação tipo 2, o eritema nodoso hansênico. Pelo PCDT de 2022, a droga de escolha é a talidomida, de 100 a 400 mg/dia conforme a intensidade, com redução gradual após o controle. O corticoide entra quando há neurite, orquite, iridociclite, mãos e pés reacionais, glomerulonefrite, ou quando a talidomida é contraindicada, como em mulheres em idade fértil sem contracepção segura. Este homem não tem nenhum desses comprometimentos, então a talidomida isolada é a escolha. Em nenhuma reação se suspende a PQT-U: a reação é imunológica, não falha terapêutica, e interromper o tratamento aumenta o risco de resistência e de recidiva. Clofazimina e pentoxifilina ficam para casos crônicos ou subentrantes.",
+  "porAlt": [
+   "A reação não é motivo para interromper a PQT-U, que deve ser concluída mesmo durante os episódios reacionais.",
+   "Correta: eritema nodoso hansênico sem neurite ou orquite em homem é tratado com talidomida, mantendo a PQT-U.",
+   "A prednisona fica reservada a neurite, orquite, irite, mãos e pés reacionais ou contraindicação à talidomida.",
+   "Interromper a PQT-U é erro, e o corticoide não é a primeira escolha no eritema nodoso hansênico sem neurite.",
+   "A colchicina não é a terapia recomendada pelo Ministério para a reação tipo 2 da hanseníase multibacilar."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos com hanseníase multibacilar, forma dimorfa, está na 5ª dose da PQT-U. Há 10 dias as placas antigas do antebraço e do joelho ficaram mais eritematosas, edemaciadas e dolorosas, e surgiu uma placa nova no dorso. Relata dor em choque no cotovelo direito, piora da sensibilidade e fraqueza para aproximar o 4º e o 5º dedos da mão direita. O nervo ulnar direito está espessado e doloroso à palpação. Não tem febre, nódulos novos nem dor testicular ou ocular. Pesa 65 kg, glicemia de jejum de 92 mg/dL, sem hipertensão, e o parasitológico de fezes foi tratado. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a PQT-U e talidomida 200 mg/dia",
+   "Suspender a PQT-U e prednisona 1 mg/kg",
+   "Manter a PQT-U e prednisona 0,2 mg/kg/dia",
+   "Manter a PQT-U e prednisona 1 mg/kg/dia",
+   "Manter a PQT-U e neurólise cirúrgica já"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "PCDT Hanseníase 2022 (Ministério da Saúde), reação tipo 1 com neurite",
+  "coment": "A exacerbação inflamatória das lesões antigas, com placa nova e neurite do ulnar com perda de função recente, é a reação tipo 1, ou reação reversa, típica das formas dimorfas. O PCDT de 2022 indica prednisona de 1 a 2 mg/kg/dia conforme a avaliação clínica, com redução lenta guiada pela melhora neural, mantendo a PQT-U. A urgência está no nervo: a perda de força iniciada há menos de alguns meses é potencialmente reversível com corticoide em dose plena, e o atraso deixa sequela. Antes de corticoide prolongado, tratam-se estrongiloidíase e se rastreiam diabetes e hipertensão, o que já foi feito. A talidomida não tem efeito na reação tipo 1. Dose baixa de prednisona não controla neurite. A descompressão cirúrgica é reservada à neurite que não responde ao corticoide, abscesso de nervo ou dor intratável.",
+  "porAlt": [
+   "A talidomida só é eficaz na reação tipo 2 e não protege o nervo na reação reversa da forma dimorfa.",
+   "A PQT-U deve ser mantida durante a reação; suspendê-la favorece recidiva e resistência sem trazer benefício.",
+   "Dose baixa de prednisona é insuficiente para neurite com perda motora recente e não evita a sequela neural.",
+   "Correta: neurite com perda de função na reação reversa exige prednisona em dose plena, sem interromper a PQT-U.",
+   "A neurólise é reservada à falha do corticoide, abscesso de nervo ou dor intratável, e não é a primeira medida."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos recebe diagnóstico de hanseníase multibacilar. Mora há 10 anos com a esposa, de 43 anos, que tem uma cicatriz de BCG no braço, com o filho de 16 anos, sem cicatriz e sem registro vacinal, e com a sogra de 70 anos, que tem duas cicatrizes de BCG. Os três são examinados na unidade e não têm lesões de pele nem alterações neurológicas. Nenhum teve tuberculose, ninguém tem imunossupressão e a esposa não está grávida. Segundo o Ministério da Saúde, qual é a conduta para esses contatos domiciliares?",
+  "alts": [
+   "BCG na esposa e no filho; sem quimioprofilaxia",
+   "BCG só no filho e rifampicina dose única a todos",
+   "BCG para os três contatos; sem quimioprofilaxia",
+   "Sem BCG; rifampicina em dose única aos contatos",
+   "BCG só no filho; sem quimioprofilaxia a ninguém"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "PCDT Hanseníase 2022 e Guia de Vigilância em Saúde 2024 (Ministério da Saúde), vigilância de contatos e BCG",
+  "coment": "Contato domiciliar é quem conviveu no domicílio com o doente nos cinco anos anteriores ao diagnóstico. Todos devem ter exame dermatoneurológico; os que não têm sinais da doença recebem BCG conforme o histórico vacinal, a partir de 1 ano de idade. Sem cicatriz ou com vacinação incerta, aplica-se uma dose; com uma cicatriz ou uma dose comprovada, aplica-se mais uma, com intervalo mínimo de 6 meses; com duas cicatrizes, nada se aplica. Assim, a esposa e o filho recebem uma dose cada, e a sogra não. Gestantes adiam para depois do parto, e quem teve ou trata tuberculose não precisa. O Ministério não adota quimioprofilaxia com rifampicina em dose única para contatos na rotina, e o contato deve saber que a BCG protege, mas não é específica para a hanseníase.",
+  "porAlt": [
+   "Correta: sem cicatriz recebe uma dose e com uma cicatriz recebe mais uma; duas cicatrizes dispensam, e não há quimioprofilaxia.",
+   "A esposa, com uma cicatriz, também recebe dose, e a rifampicina em dose única não é adotada na rotina do Ministério.",
+   "A sogra já tem duas cicatrizes de BCG e, por isso, não recebe nova dose como contato domiciliar.",
+   "A BCG é a imunoprofilaxia recomendada aos contatos sem sinais, e a rifampicina para contatos não faz parte da rotina.",
+   "A esposa tem apenas uma cicatriz vacinal e por isso tem indicação de mais uma dose de BCG."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, pescador no interior do Amazonas, refere há 3 anos obstrução nasal com crostas e epistaxe, e há 1 ano o rosto ficou inchado. Ao exame há infiltração difusa da face, com acentuação dos sulcos, nódulos nos lóbulos das orelhas, perda dos supercílios no terço lateral, edema de mãos e pés e hipoestesia em luvas e botas. Não há placas bem delimitadas. A baciloscopia de raspado intradérmico mostra índice baciloscópico de 5+, com globias. Qual é a forma clínica e o padrão de resposta imune do hospedeiro?",
+  "alts": [
+   "Virchowiana, imunidade celular ausente (Th2)",
+   "Virchowiana, imunidade celular intensa (Th1)",
+   "Tuberculoide, imunidade celular intensa (Th1)",
+   "Dimorfa, imunidade celular instável e mista",
+   "Indeterminada, imunidade celular indefinida"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "PCDT Hanseníase 2022 e Guia de Vigilância em Saúde 2024, classificação de Madri e espectro imunológico",
+  "coment": "Infiltração difusa da face, hansenomas nos lóbulos, madarose, comprometimento nasal com crostas e epistaxe, edema de extremidades e neuropatia simétrica em luvas e botas, com baciloscopia fortemente positiva e globias, compõem a forma virchowiana. Ela ocupa o polo de ausência de imunidade celular específica contra o Mycobacterium leprae: predomina a resposta Th2, com anticorpos que não contêm o bacilo, que se multiplica livremente e se dissemina pela pele, mucosas, nervos e órgãos internos. No polo oposto, a tuberculoide tem resposta Th1 intensa, poucas lesões bem delimitadas e baciloscopia negativa. A dimorfa é instável, com lesões em número variável e tendência à reação tipo 1. A indeterminada é a fase inicial, com mácula hipocrômica e imunidade ainda não definida. Para o Ministério, todo virchowiano é multibacilar.",
+  "porAlt": [
+   "Correta: infiltração difusa, madarose e baciloscopia 5+ marcam o polo virchowiano, sem imunidade celular eficaz.",
+   "A forma virchowiana está no polo sem imunidade celular específica, e não no de resposta Th1 intensa.",
+   "A tuberculoide tem poucas lesões bem delimitadas e baciloscopia negativa, o oposto do que se vê aqui.",
+   "A dimorfa tem placas e lesões foveolares de padrão intermediário, e não infiltração difusa com globias.",
+   "A indeterminada é mácula hipocrômica inicial, com baciloscopia negativa, sem infiltração nem madarose."
+  ]
+ },
+ {
+  "q": "Homem de 72 anos, agricultor aposentado, fototipo II, nunca usou protetor solar. Procura o ambulatório por lesões ásperas no couro cabeludo calvo e na fronte. Há mais de 15 pápulas e pequenas placas eritematosas com escamas aderentes, ásperas ao tato, de 3 a 9 mm, sem infiltração, endurecimento, ulceração, crescimento rápido ou dor. Entre elas a pele é atrófica e com telangiectasias. Não tem imunossupressão nem câncer de pele prévio. Pesa 74 kg e é hipertenso controlado. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Excisão de cada lesão com margem de 4 mm",
+   "5-fluorouracila tópica em todo o campo",
+   "Radioterapia superficial de todo o campo",
+   "Observação, pois a regressão é a regra",
+   "Corticoide tópico potente em todo o campo"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "AAD Guidelines of care for the management of actinic keratosis 2021, tratamento de campo",
+  "coment": "Múltiplas lesões ásperas, eritematosas e descamativas em área de dano solar crônico são ceratoses actínicas, lesões pré-malignas que podem evoluir para carcinoma espinocelular. Quando são numerosas e há dano actínico em toda a área, a diretriz da Academia Americana de Dermatologia de 2021 recomenda tratamento de campo, que trata também as lesões subclínicas. A 5-fluorouracila tópica tem recomendação forte e é a opção de maior eficácia e menor custo; imiquimode e terapia fotodinâmica são alternativas. A crioterapia é ótima para poucas lesões isoladas, mas não trata o campo. Excisão de cada lesão só se justifica se houver suspeita de carcinoma, como infiltração, endurecimento, dor ou crescimento rápido, ausentes aqui. Embora algumas lesões regridam, a observação não é apropriada em campo extenso. O paciente deve ser orientado sobre irritação esperada e fotoproteção.",
+  "porAlt": [
+   "Excisar lesão por lesão é desproporcional sem sinal de carcinoma e deixa o campo subclínico sem tratamento.",
+   "Correta: ceratoses múltiplas com dano solar difuso pedem tratamento de campo, e a 5-fluorouracila tópica tem recomendação forte.",
+   "A radioterapia não é tratamento de rotina da ceratose actínica e expõe o paciente a efeitos tardios desnecessários.",
+   "Parte das lesões regride, mas outras progridem para carcinoma, e a diretriz recomenda tratar o campo extenso.",
+   "O corticoide não trata a displasia queratinocítica e pode mascarar a progressão para carcinoma espinocelular."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos teve um nevo do dorso retirado por biópsia excisional com margem de 2 mm porque cresceu e escureceu em 6 meses. O laudo mostra melanoma extensivo superficial, espessura de Breslow de 1,6 mm, sem ulceração, 2 mitoses/mm² e margens livres. No exame físico completo não há outras lesões suspeitas nem linfonodos axilares, cervicais ou inguinais palpáveis. Não tem sintomas sistêmicos. É saudável, pesa 62 kg e não usa medicamentos. Qual é a conduta cirúrgica mais adequada?",
+  "alts": [
+   "Ampliação de 1 a 2 cm e biópsia do linfonodo sentinela",
+   "Ampliação de 0,5 cm e somente seguimento clínico regular",
+   "Ampliação de 3 cm e linfadenectomia axilar eletiva total",
+   "Ampliação de 1 cm, sem pesquisa do linfonodo sentinela",
+   "Ampliação de 2 cm e PET-CT antes de qualquer outra etapa"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "NCCN Guidelines Melanoma: Cutaneous 2025 e AAD Guidelines of care for primary cutaneous melanoma 2019, margens e linfonodo sentinela",
+  "coment": "O Breslow é o principal fator prognóstico do melanoma localizado e define a margem da ampliação. Pelas diretrizes do NCCN e da Academia Americana de Dermatologia, o melanoma in situ pede 0,5 a 1 cm; até 1 mm, 1 cm; de 1,01 a 2 mm, 1 a 2 cm; acima de 2 mm, 2 cm. Com 1,6 mm, a lesão é T2a, e a biópsia do linfonodo sentinela deve ser discutida e oferecida a todo tumor com mais de 1 mm, pela informação prognóstica e pela indicação de terapia adjuvante. A linfadenectomia eletiva, sem linfonodo comprometido, não aumenta sobrevida e foi abandonada; mesmo com sentinela positivo, a tendência atual é vigilância com ultrassom. Margem maior que 2 cm não melhora desfecho. Exames de imagem de corpo inteiro não são rotina no estádio II sem sintomas.",
+  "porAlt": [
+   "Correta: Breslow de 1,6 mm pede margem de 1 a 2 cm, e a biópsia do linfonodo sentinela é indicada acima de 1 mm.",
+   "Margem de 0,5 cm serve ao melanoma in situ e deixaria um tumor de 1,6 mm com ressecção insuficiente.",
+   "Margem de 3 cm não traz benefício, e a linfadenectomia eletiva sem linfonodo positivo foi abandonada.",
+   "Margem de 1 cm é aceitável, mas dispensar o linfonodo sentinela num T2 tira estadiamento e opção adjuvante.",
+   "PET-CT não é rotina no melanoma localizado assintomático e não substitui a pesquisa do linfonodo sentinela."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos, negro, procura a unidade por uma mancha na planta do pé esquerdo, no calcanhar, que considerava um calo. Notou que ela cresceu no último ano. Mede 14 mm, é assimétrica, tem bordas irregulares e mistura tons de marrom-claro, marrom-escuro e preto, com uma área azulada. Não lembra de trauma. A dermatoscopia mostra pigmentação predominante nas cristas da pele. Não há linfonodos inguinais palpáveis. Tem diabetes controlado. Qual é a principal hipótese diagnóstica?",
+  "alts": [
+   "Nevo juncional acral benigno",
+   "Hematoma subcórneo plantar",
+   "Melanoma lentiginoso acral",
+   "Ceratose seborreica plantar",
+   "Verruga plantar trombosada"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AAD Guidelines of care for primary cutaneous melanoma 2019 e NCCN Melanoma: Cutaneous 2025, regra ABCDE e melanoma acral",
+  "coment": "A lesão preenche todos os critérios do ABCDE: assimetria, bordas irregulares, várias cores, diâmetro acima de 6 mm e evolução documentada. Em pessoas negras e asiáticas, o subtipo mais frequente de melanoma é o lentiginoso acral, que acomete palmas, plantas e leito ungueal e não depende de exposição solar. Na dermatoscopia, o padrão paralelo da crista, com pigmento sobre as cristas e não nos sulcos, é altamente sugestivo de melanoma acral; o nevo acral benigno mostra pigmento nos sulcos. O diagnóstico costuma ser tardio porque a lesão é confundida com calo, micose ou hematoma, o que explica o pior prognóstico. A conduta é biópsia excisional, ou incisional da área mais suspeita quando a lesão é grande, para medir o Breslow. O hematoma subcórneo tem história de trauma e pigmento vermelho-escuro que migra com o crescimento da pele.",
+  "porAlt": [
+   "O nevo acral benigno é pequeno, simétrico, estável e tem pigmento nos sulcos, não nas cristas.",
+   "O hematoma subcórneo segue trauma, tem cor vermelho-escura e se desloca com o crescimento da pele.",
+   "Correta: lesão plantar crescente que cumpre o ABCDE, com padrão paralelo da crista, em homem negro, é melanoma acral até prova em contrário.",
+   "A ceratose seborreica é rara na planta e tem aspecto verrucoso com pseudocistos córneos na dermatoscopia.",
+   "A verruga plantar interrompe os dermatóglifos e mostra pontos negros de capilares trombosados, não mancha plana."
+  ]
+ },
+ {
+  "q": "Homem de 59 anos teve queimadura extensa na perna direita aos 8 anos, que cicatrizou por segunda intenção. Há 8 meses surgiu uma úlcera sobre a cicatriz, que não fecha apesar de curativos diários. A lesão mede 4 cm, tem bordas elevadas, endurecidas e vegetantes, fundo friável que sangra ao toque e odor fétido. Há um linfonodo inguinal direito de 1,5 cm, firme. Não tem varizes, os pulsos distais são normais e o índice tornozelo-braço é de 1,0. Não tem diabetes. Qual é a principal hipótese e a conduta inicial?",
+  "alts": [
+   "Úlcera venosa crônica; compressão e curativo oclusivo",
+   "Carcinoma basocelular; crioterapia da lesão inteira",
+   "Pioderma gangrenoso; corticoide sistêmico em dose alta",
+   "Osteomielite crônica; antibiótico por seis semanas",
+   "Carcinoma espinocelular; biópsia incisional da borda"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "NCCN Guidelines Squamous Cell Skin Cancer 2025, carcinoma em cicatriz crônica (úlcera de Marjolin) como fator de alto risco",
+  "coment": "Úlcera crônica que surge sobre cicatriz de queimadura antiga, com bordas elevadas, endurecidas e vegetantes, sangramento fácil e linfonodo regional, é a úlcera de Marjolin, quase sempre um carcinoma espinocelular. O NCCN classifica o tumor que nasce em cicatriz ou em área de inflamação crônica como de alto risco, pela maior taxa de recidiva e metástase linfonodal. Toda úlcera que não cicatriza em cerca de 3 meses, ou que muda de aspecto, deve ser biopsiada, e a biópsia deve incluir a borda ativa e mais de um ponto, porque o centro necrótico pode dar falso negativo. Confirmado o diagnóstico, segue-se estadiamento com imagem do linfonodo e cirurgia com margens amplas. Aqui não há insuficiência venosa nem arterial, o que afasta úlcera vascular, e crioterapia é inadequada para tumor infiltrativo.",
+  "porAlt": [
+   "Sem varizes, sem sinais de estase e com índice normal, não há base para úlcera venosa, e tratar assim atrasa o câncer.",
+   "O basocelular é raro em cicatriz de queimadura, e a crioterapia não trata lesão infiltrativa com linfonodo suspeito.",
+   "O pioderma tem borda violácea e solapada e dor intensa, e corticoide sem biópsia pode mascarar uma neoplasia.",
+   "Não há exposição óssea, fístula ou imagem de osteomielite que justifique antibiótico prolongado sem biópsia.",
+   "Correta: úlcera vegetante sobre cicatriz de queimadura antiga é carcinoma espinocelular até prova em contrário, e a biópsia da borda confirma."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos tem há 1 ano uma pápula perolada de 8 mm no dorso superior, com telangiectasias na superfície e bordas bem definidas. A biópsia por punch mostrou carcinoma basocelular de padrão nodular, sem invasão perineural. É a primeira lesão, não houve tratamento prévio, e não há outras lesões no exame completo da pele. É imunocompetente, não recebeu radioterapia na região e não tem síndrome genética conhecida. Pesa 66 kg e usa apenas losartana. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Cirurgia micrográfica de Mohs, pelo subtipo",
+   "Radioterapia externa exclusiva sobre a lesão",
+   "Imiquimode tópico 5x por semana por 6 semanas",
+   "Vismodegibe oral contínuo até a regressão total",
+   "Excisão cirúrgica com margem clínica de 4 mm"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "NCCN Guidelines Basal Cell Skin Cancer 2025 e AAD Guidelines of care for basal cell carcinoma 2018, carcinoma basocelular de baixo risco",
+  "coment": "Carcinoma basocelular nodular, primário, pequeno, de bordas definidas, no tronco, em paciente imunocompetente e sem radioterapia prévia, preenche os critérios de baixo risco do NCCN. Para esse grupo, o tratamento de escolha é a excisão cirúrgica padrão com margem clínica de 4 mm e avaliação histológica das margens, que cura mais de 95% dos casos. A cirurgia micrográfica de Mohs é reservada aos tumores de alto risco: localização na zona central da face, subtipos agressivos como esclerodermiforme e micronodular, recidivas, bordas mal definidas e invasão perineural. O imiquimode e a 5-fluorouracila tópicos são opções para o subtipo superficial de baixo risco, não para o nodular. A radioterapia fica para quem não pode operar, em geral idosos. O vismodegibe é para doença localmente avançada ou metastática sem opção cirúrgica.",
+  "porAlt": [
+   "O subtipo nodular primário no tronco é de baixo risco, e a Mohs fica para tumores de alto risco ou área nobre da face.",
+   "A radioterapia é alternativa para não candidatos à cirurgia, o que não é o caso desta paciente saudável.",
+   "O imiquimode tem indicação no basocelular superficial, e sua eficácia no nodular é inferior à da cirurgia.",
+   "O vismodegibe é reservado à doença localmente avançada ou metastática sem opção cirúrgica ou radioterápica.",
+   "Correta: basocelular nodular de baixo risco no tronco é tratado com excisão padrão e margem de 4 mm."
+  ]
+ },
+ {
+  "q": "Mulher de 82 anos, com demência avançada, vive em instituição de longa permanência. Há 6 semanas surgiram crostas espessas, acinzentadas e fissuradas nas mãos, entre os dedos, nos cotovelos, nas axilas e no couro cabeludo, com pouco prurido. Três cuidadoras e duas residentes passaram a ter prurido noturno intenso com pápulas nos punhos e na cintura. O raspado das crostas mostra grande número de ácaros e ovos. Pesa 48 kg, a função hepática é normal e não usa imunossupressores. Qual é a conduta mais adequada?",
+  "alts": [
+   "Permetrina tópica em dose única, sem tratar os contactantes",
+   "Ivermectina em dose única e corticoide tópico sobre as crostas",
+   "Ivermectina em várias doses, permetrina e tratar contactantes",
+   "Enxofre precipitado a 10% isolado; tratar só os sintomáticos",
+   "Itraconazol oral por suspeita de dermatofitose crostosa extensa"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "CDC Clinical Care of Scabies 2024 e IUSTI European guideline for the management of scabies 2017, escabiose crostosa",
+  "coment": "Crostas espessas e hiperceratósicas com pouco prurido, em idosa com demência institucionalizada, carga enorme de ácaros no raspado e surto entre cuidadoras e residentes, configuram escabiose crostosa, antes chamada norueguesa. Por ter milhares a milhões de ácaros, é muito contagiosa e não responde a tratamento único. O CDC recomenda ivermectina oral 200 mcg/kg em várias doses, por exemplo nos dias 1, 2, 8, 9 e 15, com doses adicionais nos casos graves, associada a permetrina 5% aplicada no corpo todo, com remoção das crostas com queratolítico. É indispensável isolamento de contato e tratamento simultâneo de todos os contactantes, sintomáticos ou não, junto com lavagem quente de roupas e roupas de cama. O tratamento isolado do caso índice perpetua o surto. Corticoide piora a infestação, e o exame direto já confirmou o ácaro.",
+  "porAlt": [
+   "Dose única de permetrina não erradica a carga parasitária da forma crostosa e deixa o surto ativo na instituição.",
+   "Uma só dose de ivermectina é insuficiente na forma crostosa, e o corticoide tópico favorece a proliferação do ácaro.",
+   "Correta: escabiose crostosa exige ivermectina oral em várias doses com permetrina e tratamento simultâneo de todos os contactantes.",
+   "O enxofre tem eficácia menor e não serve como terapia isolada da forma crostosa, e todos os contactantes precisam de tratamento.",
+   "O raspado mostrou ácaros e ovos, o que confirma escabiose e afasta a hipótese de dermatofitose."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos, instrutor de academia em Fortaleza, nota há 3 meses manchas claras no tronco superior, no pescoço e nos ombros, que ficaram mais evidentes depois de se bronzear. As máculas são hipocrômicas, arredondadas e confluentes, com descamação fina que aparece ao estirar a pele. A sensibilidade térmica, dolorosa e tátil das manchas é normal. O exame micológico direto do raspado mostra hifas curtas e grupos de esporos arredondados. Não tem outras doenças. Qual é o diagnóstico e o tratamento de primeira linha?",
+  "alts": [
+   "Pitiríase versicolor; terbinafina oral",
+   "Vitiligo inicial; tacrolimo tópico diário",
+   "Hanseníase indeterminada; PQT-U por 6 doses",
+   "Pitiríase alba; emoliente e fotoproteção",
+   "Pitiríase versicolor; antifúngico tópico"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Revisão sistemática de Gupta e Foley 2015 sobre tratamento da pitiríase versicolor (J Fungi), terapia tópica de primeira linha",
+  "coment": "Máculas hipocrômicas no tronco de adulto jovem, em clima quente e úmido, com descamação furfurácea que aparece ao estirar a pele (sinal de Zileri) e exame direto com hifas curtas e esporos agrupados, configuram pitiríase versicolor, causada por leveduras do gênero Malassezia. A hipocromia vem de substâncias da levedura que inibem a melanogênese, por isso fica evidente após exposição solar e demora meses para repigmentar mesmo com a cura. O tratamento de primeira linha é tópico: xampu de cetoconazol 2% ou sulfeto de selênio aplicado no corpo, ou cremes imidazólicos, por 1 a 4 semanas. Itraconazol ou fluconazol orais ficam para doença extensa ou recidivante. A terbinafina oral não atinge a pele em concentração eficaz contra Malassezia, e o cetoconazol oral foi abandonado por hepatotoxicidade. Sensibilidade preservada afasta hanseníase.",
+  "porAlt": [
+   "A terbinafina oral não é eficaz contra Malassezia na pele, embora a terbinafina tópica funcione.",
+   "O vitiligo tem máculas acrômicas, sem descamação, e o exame micológico seria negativo.",
+   "As manchas têm sensibilidade preservada e há fungo no exame direto, o que afasta hanseníase indeterminada.",
+   "A pitiríase alba é da infância, predomina na face e não mostra fungo no exame micológico direto.",
+   "Correta: sinal de Zileri e hifas curtas com esporos confirmam pitiríase versicolor, tratada primeiro com antifúngico tópico."
+  ]
+ },
+ {
+  "q": "Homem de 55 anos com diabetes tipo 2 tem há 3 anos espessamento e coloração amarelada das unhas dos dois háluxes e do 2º dedo do pé direito, com descolamento distal, detritos subungueais e acometimento de mais da metade da lâmina, chegando perto da matriz. O exame micológico direto mostrou hifas septadas, e a cultura identificou Trichophyton rubrum. Transaminases e função renal são normais. Usa metformina e sinvastatina, sem outras interações relevantes. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Terbinafina oral 250 mg/dia por 6 semanas",
+   "Fluconazol oral 150 mg semanal por 4 semanas",
+   "Griseofulvina oral 500 mg/dia por 4 semanas",
+   "Terbinafina oral 250 mg/dia por 12 semanas",
+   "Amorolfina esmalte a 5% isolada por 3 meses"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "British Association of Dermatologists guidelines for the management of onychomycosis 2014, terbinafina como primeira linha",
+  "coment": "Onicomicose subungueal distal por dermatófito, confirmada por exame direto e cultura, com mais de 50% da lâmina comprometida, vários dedos e proximidade da matriz, exige tratamento sistêmico, porque o tópico isolado tem baixa taxa de cura nessas condições. A terbinafina é a droga de escolha contra dermatófitos, com maior taxa de cura micológica e menos interações que os azólicos. Nas unhas dos pés usa-se 250 mg/dia por 12 semanas; nas mãos, 6 semanas bastam, porque a unha cresce mais rápido. O itraconazol, contínuo ou em pulsos, é a alternativa. Fluconazol semanal precisa de muitos meses e é uso fora de bula. A griseofulvina é menos eficaz e exige tratamento muito prolongado. Em diabéticos o tratamento é ainda mais importante, pela porta de entrada para celulite. A confirmação micológica antes de tratar é obrigatória.",
+  "porAlt": [
+   "Seis semanas é a duração para as unhas das mãos, que crescem mais rápido; nos pés a recidiva seria alta.",
+   "O fluconazol semanal exige vários meses de uso, e 4 semanas são insuficientes para a unha do pé.",
+   "A griseofulvina tem eficácia menor e precisaria de muitos meses, e 4 semanas não curam onicomicose.",
+   "Correta: onicomicose dos pés por dermatófito com mais de metade da lâmina acometida é tratada com terbinafina por 12 semanas.",
+   "Esmalte isolado tem baixa cura quando há mais de metade da lâmina, vários dedos e proximidade da matriz."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos, com obesidade e diabetes tipo 2 com hemoglobina glicada de 9,1%, refere ardor e prurido sob as mamas há 3 semanas, pior no calor. Há placa eritematosa vermelho-viva, úmida e brilhante nos sulcos inframamários, com fissura no fundo da dobra, bordas com colarete descamativo e pequenas pápulas e pústulas satélites além da borda. O exame direto com hidróxido de potássio mostra pseudo-hifas e leveduras. Não há febre nem celulite. Qual é a conduta mais adequada?",
+  "alts": [
+   "Imidazólico tópico e manter a dobra seca",
+   "Clobetasol tópico isolado na área afetada",
+   "Terbinafina oral por 2 semanas, sem tópico",
+   "Mupirocina tópica e cefalexina por 7 dias",
+   "Ácido salicílico tópico a 6% e oclusão"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "IDSA Clinical Practice Guideline for the Management of Candidiasis 2016, candidíase cutânea intertriginosa",
+  "coment": "Placa vermelho-viva, úmida e macerada em dobra, com lesões satélites papulopustulosas e pseudo-hifas no exame direto, é intertrigo por Candida, favorecido por obesidade, calor, umidade e diabetes descompensado. A diretriz de candidíase da IDSA indica tratamento tópico com azólico, como clotrimazol, miconazol ou cetoconazol, ou nistatina, por 2 a 4 semanas, e insiste no controle do fator local: manter a dobra seca, usar tecido de algodão entre as mamas e otimizar a glicemia. Antifúngico oral, como fluconazol, fica para doença extensa ou refratária. Corticoide isolado agrava a infecção fúngica. A terbinafina oral tem atividade fraca contra Candida e não é a escolha. As lesões satélites ajudam a distinguir do intertrigo bacteriano, do eritrasma e da dermatofitose, que tem borda ativa com centro claro.",
+  "porAlt": [
+   "Correta: intertrigo candidiásico responde a azólico tópico, com controle da umidade da dobra e da glicemia.",
+   "O corticoide isolado favorece a proliferação da levedura e piora o intertrigo por Candida.",
+   "A terbinafina oral tem atividade fraca contra Candida e não é indicada para a forma cutânea localizada.",
+   "O exame mostrou levedura, não infecção bacteriana, e não há celulite que justifique antibiótico oral.",
+   "Queratolítico com oclusão aumenta a maceração da dobra e não trata a infecção por Candida."
+  ]
+ },
+ {
+  "q": "Homem de 30 anos, motoboy, tem há 2 meses uma lesão pruriginosa na face interna das coxas, que tratou por conta própria com creme de betametasona. No início melhorava, mas a lesão se espalhou. Agora há placas eritematosas com borda ativa elevada, descamativa e com pequenas vesículas, centro mais claro, estendendo-se para as nádegas, poupando o escroto. Não há lesões satélites. O exame direto com hidróxido de potássio mostra hifas septadas e ramificadas. As unhas dos pés estão espessadas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender o corticoide e usar antifúngico tópico",
+   "Manter o corticoide e associar antifúngico tópico",
+   "Trocar por um corticoide de potência mais alta",
+   "Nistatina tópica, por candidíase intertriginosa",
+   "Eritromicina tópica, pela hipótese de eritrasma"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso ECTODERM India sobre dermatofitoses 2018 (BMC Dermatology), uso de corticoide tópico e tinha incógnita",
+  "coment": "Placa com borda ativa descamativa e vesiculosa, centro mais claro, que poupa o escroto e mostra hifas septadas no exame direto, é tinea cruris, uma dermatofitose. O uso de corticoide tópico alivia o prurido no início, mas reduz a resposta imune local, deixa o fungo proliferar e altera o aspecto clínico, quadro chamado tinha incógnita. A conduta é suspender o corticoide e tratar com antifúngico tópico, como terbinafina ou azólico, por 2 a 4 semanas, mantendo por cerca de uma semana após a cura clínica. Quando a lesão é extensa ou refratária, entra antifúngico oral. As unhas espessadas sugerem onicomicose como reservatório, que deve ser investigada e tratada para evitar recidiva. Cremes que combinam corticoide e antifúngico são desaconselhados, porque perpetuam a tinha incógnita e causam atrofia na região inguinal.",
+  "porAlt": [
+   "Correta: dermatofitose agravada por corticoide exige suspender o corticoide e tratar com antifúngico tópico.",
+   "Manter o corticoide, mesmo associado, perpetua a tinha incógnita e causa atrofia e estrias na virilha.",
+   "Aumentar a potência do corticoide agrava a infecção fúngica, que é a causa da piora da lesão.",
+   "A candidíase acomete o escroto e tem satélites, e o exame mostrou hifas septadas de dermatófito.",
+   "O eritrasma é placa acastanhada sem borda vesiculosa e fluorescência vermelho-coral, sem hifas."
+  ]
+ },
+ {
+  "q": "Mulher de 27 anos com dermatite atópica desde a infância, com eczema ativo na face e no pescoço, refere que há 2 dias surgiram muitas vesículas agrupadas e umbilicadas sobre as áreas de eczema, que rapidamente viraram erosões arredondadas em saca-bocado com crostas hemorrágicas. Tem febre de 38,3 °C, mal-estar, dor local e linfonodos cervicais dolorosos. Refere lacrimejamento e dor no olho direito. Não usa imunossupressor sistêmico. Qual é a conduta mais adequada?",
+  "alts": [
+   "Corticoide sistêmico para controlar o eczema",
+   "Cefalexina oral por impetiginização simples",
+   "Iniciar dupilumabe para o surto atópico grave",
+   "Aciclovir sistêmico imediato e avaliar olhos",
+   "Tacrolimo tópico intensivo nas áreas lesadas"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "EuroGuiDerm Guideline on Atopic Eczema 2022 (EADV/EDF), eczema herpético como complicação de urgência",
+  "coment": "Vesículas umbilicadas monomórficas que evoluem para erosões em saca-bocado sobre pele com eczema, com febre e linfonodos, são o eczema herpético, ou erupção variceliforme de Kaposi, disseminação do herpes simples na pele com barreira alterada da dermatite atópica. A diretriz europeia trata o quadro como urgência: aciclovir sistêmico sem esperar a confirmação, por via venosa quando há febre, extensão grande ou sinais de gravidade, e por via oral nos casos leves. Lacrimejamento e dor ocular exigem avaliação oftalmológica imediata, pelo risco de ceratite herpética e perda visual. Pode haver infecção bacteriana secundária, mas o antibiótico não substitui o antiviral. Corticoide sistêmico e imunossupressores tópicos nas áreas afetadas pioram a replicação viral e devem ser suspensos até o controle. Confirma-se por PCR do líquido da vesícula.",
+  "porAlt": [
+   "O corticoide sistêmico favorece a disseminação do herpes e pode agravar o quadro e a lesão ocular.",
+   "Vesículas umbilicadas com erosões em saca-bocado e febre indicam herpes, e o antibiótico não trata o vírus.",
+   "O imunobiológico não trata infecção viral aguda e não deve ser iniciado durante o eczema herpético.",
+   "Correta: eczema herpético é urgência e exige aciclovir sistêmico imediato e avaliação oftalmológica pela queixa ocular.",
+   "O inibidor de calcineurina nas áreas afetadas favorece a replicação viral e deve ser suspenso nelas."
+  ]
+ },
+ {
+  "q": "Mulher de 31 anos, recepcionista, refere há 5 meses placa pruriginosa abaixo do umbigo, exatamente onde encosta o botão metálico da calça jeans, e lesões semelhantes nos lóbulos das orelhas quando usa brincos de bijuteria. Ao exame há placa eczematosa liquenificada periumbilical, com algumas vesículas na periferia, e eczema discreto nos lóbulos. Melhora quando passa dias sem as peças, e piora 1 a 2 dias depois de voltar a usá-las. Não tem atopia pessoal. Qual é o exame mais adequado para confirmar a causa?",
+  "alts": [
+   "Teste de puntura com leitura em 15 a 20 minutos",
+   "Dosagem de IgE sérica específica para o níquel",
+   "Teste de contato com leituras em 48 e 96 horas",
+   "Biópsia com imunofluorescência direta da placa",
+   "Exame micológico direto e cultura do raspado"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "European Society of Contact Dermatitis guideline for diagnostic patch testing 2015 (Johansen et al.), dermatite de contato alérgica",
+  "coment": "Eczema restrito à área de contato com metal, nos botões da calça e nos brincos, que surge 1 a 2 dias após a reexposição, é a dermatite de contato alérgica ao níquel, o alérgeno de contato mais frequente em mulheres. É reação de hipersensibilidade tardia, tipo IV, mediada por linfócitos T. Por isso o exame confirmatório é o teste de contato, com a bateria padrão aplicada no dorso por 48 horas e leituras em 48 horas e no 3º ou 4º dia, como recomenda a diretriz europeia de 2015; a leitura tardia evita falsos negativos. O teste de puntura e a IgE específica investigam reações imediatas, tipo I, como urticária de contato e alergia ao látex. A biópsia mostra apenas espongiose, sem identificar o alérgeno. O tratamento é evitar o metal, usar corticoide tópico na crise e proteger o contato com barreira.",
+  "porAlt": [
+   "O teste de puntura avalia hipersensibilidade imediata mediada por IgE, que não é o mecanismo desse eczema.",
+   "A IgE específica não detecta a sensibilização tardia mediada por linfócitos T ao níquel.",
+   "Correta: eczema tardio no local do metal é hipersensibilidade tipo IV, confirmada pelo teste de contato com leitura tardia.",
+   "A imunofluorescência direta serve às doenças bolhosas autoimunes, e a histologia do eczema não identifica o alérgeno.",
+   "A distribuição exata nos pontos de contato com metal não sugere dermatofitose, e o exame não identificaria o alérgeno."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos, auxiliar de limpeza hospitalar, lava as mãos e manipula detergentes e desinfetantes cerca de 30 vezes por turno, quase sempre sem luvas. Há 4 meses tem ressecamento, eritema, descamação e fissuras dolorosas no dorso das mãos e entre os dedos, com mais ardor que prurido. Piora nas semanas de plantões extras e melhorou muito durante 15 dias de férias. Não há vesículas nem lesões fora das mãos. Não tem atopia nem psoríase na família. O teste de contato com a bateria padrão foi negativo. Qual é o diagnóstico e a conduta?",
+  "alts": [
+   "Dermatite alérgica; afastar o alérgeno do patch test",
+   "Tinha das mãos; terbinafina oral por quatro semanas",
+   "Dermatite irritativa; luvas, emoliente e corticoide",
+   "Psoríase palmoplantar; metotrexato oral 15 mg semanal",
+   "Urticária de contato; anti-histamínico oral contínuo"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "European Society of Contact Dermatitis guideline on hand eczema 2022 (Thyssen et al.), dermatite de contato irritativa ocupacional",
+  "coment": "Ressecamento, fissuras e eritema no dorso e entre os dedos, com ardor predominando sobre o prurido, em trabalhadora com exposição repetida a água, detergentes e desinfetantes, que melhora no afastamento e tem teste de contato negativo, é dermatite de contato por irritante primário. É o tipo mais comum de eczema ocupacional e não envolve sensibilização imune: o dano é direto à barreira cutânea, proporcional à frequência e à intensidade da exposição. A diretriz europeia de eczema de mãos de 2022 baseia o tratamento em reduzir a exposição, com luvas adequadas sobre luvas de algodão, uso de álcool gel em vez de lavagem quando possível, emolientes frequentes e corticoide tópico potente por períodos curtos nas fases inflamatórias. A notificação como doença relacionada ao trabalho e a adequação do posto fazem parte do manejo. O teste negativo afasta alergia de contato relevante.",
+  "porAlt": [
+   "O teste de contato negativo afasta alergia de contato relevante e não há alérgeno identificado para afastar.",
+   "O quadro bilateral ligado à exposição ocupacional não sugere tinha, que costuma ser unilateral e com borda ativa.",
+   "Correta: exposição repetida a irritantes, ardor e teste de contato negativo definem dermatite irritativa, manejada com proteção e reparo da barreira.",
+   "Não há placas eritematodescamativas típicas nem história de psoríase, e o metotrexato não trata eczema irritativo.",
+   "A urticária de contato surge em minutos com pápulas transitórias, e não com fissuras e descamação crônicas."
+  ]
+ },
+ {
+  "q": "Homem de 33 anos com dermatite atópica moderada desde a infância tem surtos quase mensais de eczema nas fossas cubitais, nas fossas poplíteas e no pescoço. Em cada surto usa mometasona creme por 7 a 10 dias, com boa resposta, mas as lesões voltam nas mesmas áreas em 2 a 3 semanas. Usa emoliente de forma irregular. Não tem infecção de pele atual nem sinais de eczema herpético. Pesa 78 kg, não tem outras doenças e não deseja tratamento sistêmico agora. Qual é a melhor estratégia de manutenção?",
+  "alts": [
+   "Prednisona oral em ciclos curtos a cada novo surto da doença",
+   "Anti-histamínico H1 não sedante contínuo como base do controle",
+   "Mupirocina tópica contínua para reduzir a colonização bacteriana",
+   "Ciclosporina oral contínua por tempo indeterminado e sem pausa",
+   "Tópico anti-inflamatório 2 vezes por semana nas áreas habituais"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "EuroGuiDerm Guideline on Atopic Eczema 2022 (EADV/EDF), terapia proativa com corticoide ou inibidor de calcineurina tópico",
+  "coment": "Dermatite atópica com surtos frequentes nas mesmas áreas, que respondem bem ao tratamento da crise mas recidivam logo após a suspensão, é a indicação clássica da terapia proativa. Depois de controlar o surto, mantém-se o anti-inflamatório tópico, corticoide de média potência ou tacrolimo, duas vezes por semana nas áreas que costumam recair, por meses, junto com emoliente diário. A diretriz europeia de 2022 recomenda essa estratégia porque a pele aparentemente normal dessas áreas mantém inflamação subclínica, e a aplicação intermitente reduz o número de surtos com baixo risco de atrofia. Corticoide sistêmico é desaconselhado no tratamento prolongado, pelos efeitos adversos e pelo rebote. Anti-histamínico não controla o eczema. Antibiótico tópico contínuo seleciona resistência. Ciclosporina é opção sistêmica de curto prazo para doença grave, não para uso indefinido.",
+  "porAlt": [
+   "Corticoide oral em ciclos causa rebote e efeitos adversos e é desaconselhado no manejo crônico da dermatite atópica.",
+   "O anti-histamínico não controla a inflamação do eczema, servindo no máximo como adjuvante para o sono.",
+   "Antibiótico tópico contínuo seleciona resistência e não é indicado sem infecção clínica.",
+   "A ciclosporina é para doença grave e por tempo limitado, pela nefrotoxicidade e hipertensão no uso prolongado.",
+   "Correta: surtos recorrentes nas mesmas áreas são controlados com terapia proativa tópica duas vezes por semana e emoliente diário."
+  ]
+ },
+ {
+  "q": "Mulher de 40 anos tem há 2 anos três placas eritematosas, bem delimitadas, com escamas prateadas espessas, nos cotovelos e no joelho direito. A superfície corporal acometida é de 3%, o índice de gravidade e área da psoríase é 4 e o índice de qualidade de vida em dermatologia é 3. Não há lesões no couro cabeludo, unhas, face, genitais ou palmas, e não tem dor articular. Não usou nenhum tratamento. Tem hipertensão controlada com anlodipino. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Metotrexato oral 15 mg por semana como base",
+   "Prednisona oral com redução em quatro semanas",
+   "Adalimumabe subcutâneo a cada 14 dias, contínuo",
+   "Fototerapia UVB de banda estreita 3x semana",
+   "Calcipotriol associado a betametasona tópicos"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Consenso Brasileiro de Psoríase 2020 (Sociedade Brasileira de Dermatologia), psoríase leve e tratamento tópico",
+  "coment": "A gravidade da psoríase se avalia pela superfície corporal acometida, pelo índice de gravidade e área e pelo impacto na qualidade de vida; valores acima de 10 em qualquer deles, ou o comprometimento de áreas especiais como face, couro cabeludo, unhas, genitais e palmas, indicam doença moderada a grave. Esta paciente tem os três índices abaixo de 10 e nenhuma área especial: psoríase leve. Nesses casos, o Consenso Brasileiro de 2020 indica tratamento tópico, e a associação de calcipotriol com dipropionato de betametasona, uma vez ao dia, é a opção de maior eficácia, com manutenção intermitente. Metotrexato, fototerapia e imunobiológicos ficam para a doença moderada a grave, refratária ou com artrite. O corticoide sistêmico deve ser evitado na psoríase, porque sua retirada pode desencadear psoríase pustulosa generalizada ou eritrodermia.",
+  "porAlt": [
+   "O metotrexato é reservado à psoríase moderada a grave ou com artrite, o que não é o caso.",
+   "O corticoide sistêmico é evitado na psoríase, pelo risco de rebote com forma pustulosa ou eritrodérmica.",
+   "O imunobiológico é para doença moderada a grave após falha ou contraindicação aos sistêmicos clássicos.",
+   "A fototerapia é opção para doença moderada a extensa, e não primeira escolha em três placas localizadas.",
+   "Correta: psoríase leve, sem áreas especiais, é tratada com a associação tópica de calcipotriol e betametasona."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos tem psoríase em placas há 15 anos, controlada com tópicos. Há 3 semanas recebeu, em pronto atendimento, prednisona 40 mg/dia por suposta alergia, suspensa abruptamente há 5 dias. Desde ontem tem febre de 39 °C, calafrios e eritema generalizado, doloroso, coberto por pústulas puntiformes que confluem em lagos de pus, sobretudo nas dobras. As mucosas estão poupadas e o sinal de Nikolsky é negativo. Leucócitos de 17.800/mm³, cálcio de 7,6 mg/dL e albumina de 2,8 g/dL. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Síndrome de Stevens-Johnson desencadeada pela prednisona oral",
+   "Impetigo bolhoso disseminado por estafilococo toxigênico grave",
+   "Dermatite herpetiforme agravada pela suspensão da prednisona",
+   "Pênfigo foliáceo disseminado com infecção bacteriana secundária",
+   "Psoríase pustulosa generalizada pela retirada do corticoide"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Consenso Brasileiro de Psoríase 2020 (Sociedade Brasileira de Dermatologia), psoríase pustulosa generalizada e fatores desencadeantes",
+  "coment": "Em paciente com psoríase prévia, a suspensão abrupta de corticoide sistêmico é um dos gatilhos mais conhecidos da psoríase pustulosa generalizada, ou de von Zumbusch. O quadro é de febre alta, eritema doloroso e pústulas estéreis puntiformes que confluem em lagos de pus, com leucocitose, hipocalcemia e hipoalbuminemia, e pode evoluir com sepse, insuficiência renal e distúrbios hidroeletrolíticos, exigindo internação. Por isso o Consenso Brasileiro desaconselha corticoide sistêmico na psoríase. O principal diferencial é a pustulose exantemática generalizada aguda, causada por fármacos como antibióticos e com início poucos dias após a exposição, sem história de psoríase. Na síndrome de Stevens-Johnson há descolamento, Nikolsky positivo e mucosas acometidas. O tratamento inclui suporte, retinoide, ciclosporina ou imunobiológico anti-IL-36, conforme disponibilidade.",
+  "porAlt": [
+   "Stevens-Johnson tem descolamento epidérmico, Nikolsky positivo e mucosas acometidas, ausentes neste paciente.",
+   "O impetigo bolhoso tem bolhas flácidas localizadas e não causa pústulas em lagos com febre e hipocalcemia.",
+   "A dermatite herpetiforme tem vesículas agrupadas pruriginosas em superfícies extensoras, sem pústulas nem febre.",
+   "O pênfigo foliáceo tem erosões crostosas seborreicas, e não pústulas estéreis em lagos com febre alta.",
+   "Correta: pústulas estéreis em lagos, febre e hipocalcemia após retirada de corticoide em psoríaco configuram a forma pustulosa generalizada."
+  ]
+ },
+ {
+  "q": "Mulher de 22 anos, estudante, notou há 10 dias uma placa oval rosada de 4 cm no flanco esquerdo, com colarete de descamação fina voltado para dentro. Há 3 dias surgiram dezenas de lesões ovais menores, semelhantes, no tronco e na raiz dos membros, com o maior eixo acompanhando as linhas de clivagem da pele. O prurido é leve. Teve resfriado há 3 semanas. Não há lesões em palmas, plantas ou mucosas, nem linfonodos aumentados. O teste rápido para sífilis é não reagente e não está grávida. Qual é a conduta mais adequada?",
+  "alts": [
+   "Orientar evolução autolimitada e tratar o prurido",
+   "Terbinafina oral por suspeita de tinha disseminada",
+   "Penicilina benzatina por sífilis secundária provável",
+   "Prednisona oral para abreviar a duração da erupção",
+   "Biópsia de pele para excluir micose fungoide inicial"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "Revisão e classificação da pitiríase rósea (Drago et al., J Am Acad Dermatol 2016) e CDC STI Treatment Guidelines 2021 para o diferencial com sífilis secundária",
+  "coment": "Placa inicial oval com colarete descamativo, o medalhão, seguida dias depois por erupção de lesões menores semelhantes, dispostas ao longo das linhas de clivagem do tronco em padrão de árvore de Natal, após quadro viral, em adulto jovem, é pitiríase rósea de Gibert, associada à reativação dos herpesvírus 6 e 7. É autolimitada, resolvendo em 6 a 8 semanas sem cicatriz. A conduta é tranquilizar e tratar o prurido com emoliente, corticoide tópico de baixa potência ou anti-histamínico. Aciclovir pode encurtar o quadro em casos extensos, com evidência limitada. O diferencial obrigatório é a sífilis secundária, que acomete palmas e plantas e dá linfonodos; o teste não reagente e a distribuição afastam o diagnóstico. Na gestante, a pitiríase rósea no início da gravidez associa-se a perda fetal e merece seguimento.",
+  "porAlt": [
+   "Correta: medalhão seguido de lesões em árvore de Natal é pitiríase rósea, autolimitada, com tratamento apenas sintomático.",
+   "O colarete voltado para dentro e a distribuição em árvore de Natal não são de tinha, que tem borda ativa centrífuga.",
+   "Sem lesões palmoplantares, sem linfonodos e com teste não reagente, não há base para tratar sífilis.",
+   "O corticoide sistêmico não é indicado em doença autolimitada e de bom prognóstico como esta.",
+   "A micose fungoide tem evolução crônica de anos, e um quadro agudo pós-viral típico não exige biópsia."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos tem há 3 meses erosões dolorosas na mucosa oral, que dificultam a alimentação, e há 1 mês bolhas flácidas que se rompem facilmente, deixando erosões no couro cabeludo, no tronco e nas axilas, somando cerca de 15% da superfície corporal. O sinal de Nikolsky é positivo. A biópsia mostra acantólise suprabasal, e a imunofluorescência direta mostra IgG e C3 intercelulares na epiderme. Anticorpos antidesmogleína 3 e antidesmogleína 1 elevados. Sorologias para hepatite B e C negativas, teste de tuberculose latente negativo. Qual é o tratamento de primeira linha?",
+  "alts": [
+   "Dapsona oral isolada com dieta sem glúten",
+   "Rituximabe associado a prednisona sistêmica",
+   "Clobetasol tópico isolado em todo o corpo",
+   "Imunoglobulina EV isolada como monoterapia",
+   "Talidomida oral associada à colchicina diária"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "EADV S2K guidelines on the management of pemphigus vulgaris and foliaceus 2020 (Joly et al.), rituximabe em primeira linha",
+  "coment": "Erosões orais que precedem bolhas flácidas cutâneas com Nikolsky positivo, acantólise suprabasal, IgG intercelular e anticorpos contra as desmogleínas 3 e 1 confirmam pênfigo vulgar mucocutâneo. Com acometimento oral importante e 15% da pele, a doença é moderada a grave. A diretriz europeia de 2020 coloca o rituximabe como tratamento de primeira linha nesses casos, associado a prednisona de 0,5 a 1 mg/kg/dia com redução progressiva, porque o anti-CD20 aumenta a taxa de remissão completa sem corticoide e reduz a dose acumulada de corticoide e seus efeitos adversos. Antes do rituximabe, rastreiam-se hepatite B e tuberculose latente. Imunossupressores poupadores de corticoide, como azatioprina e micofenolato, são alternativas quando o rituximabe não está disponível. A imunoglobulina venosa é para casos refratários. A dapsona e a dieta sem glúten tratam a dermatite herpetiforme.",
+  "porAlt": [
+   "A dapsona com dieta sem glúten é o tratamento da dermatite herpetiforme, não do pênfigo vulgar.",
+   "Correta: pênfigo vulgar moderado a grave tem o rituximabe com prednisona como primeira linha pela diretriz europeia.",
+   "Corticoide tópico isolado não controla pênfigo vulgar com acometimento oral e cutâneo extenso.",
+   "A imunoglobulina venosa é reservada a casos refratários e não é usada como monoterapia inicial.",
+   "Talidomida e colchicina não têm papel no tratamento do pênfigo vulgar, uma doença autoimune grave."
+  ]
+ },
+ {
+  "q": "Homem de 29 anos tem há 6 meses prurido intenso, com queimação, e pequenas pápulas e vesículas agrupadas, a maioria escoriada, nos cotovelos, nos joelhos, nas nádegas e no couro cabeludo. Refere distensão abdominal e fezes amolecidas ocasionais. Hemoglobina de 11,2 g/dL, ferritina de 9 ng/mL, anticorpo antitransglutaminase tecidual IgA de 180 U/mL (referência abaixo de 10). A biópsia de pele perilesional com imunofluorescência direta mostra depósitos granulares de IgA nas papilas dérmicas. A G6PD é normal. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Prednisona oral em dose alta e azatioprina oral",
+   "Rituximabe e prednisona por pênfigo associado",
+   "Dieta sem glúten definitiva e dapsona inicial",
+   "Aciclovir oral supressivo por herpes recorrente",
+   "Dieta sem glúten apenas enquanto houver lesão"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "S2k guideline on diagnosis and treatment of dermatitis herpetiformis (EADV) 2021 (Görög et al.), dieta isenta de glúten e dapsona",
+  "coment": "Vesículas agrupadas, muito pruriginosas e escoriadas, simétricas em superfícies extensoras, nádegas e couro cabeludo, com depósito granular de IgA nas papilas dérmicas, são a dermatite herpetiforme, a manifestação cutânea da doença celíaca; a antitransglutaminase elevada e a anemia ferropriva confirmam a enteropatia, muitas vezes oligossintomática. O autoantígeno cutâneo é a transglutaminase epidérmica. A diretriz europeia de 2021 indica dieta isenta de glúten por toda a vida como tratamento de base, porque controla pele e intestino e reduz o risco de linfoma, e dapsona para alívio rápido do prurido, já que a dieta leva meses a agir na pele. A G6PD deve ser checada antes da dapsona pelo risco de hemólise, e a meta-hemoglobina, monitorada. Com o tempo, a dose da dapsona é reduzida até a suspensão. Corticoide tem pouco efeito.",
+  "porAlt": [
+   "O corticoide sistêmico tem resposta pobre na dermatite herpetiforme e não trata a doença celíaca de base.",
+   "IgA granular nas papilas define dermatite herpetiforme, e não pênfigo, que tem IgG intercelular.",
+   "Correta: dermatite herpetiforme se trata com dieta sem glúten por toda a vida e dapsona para controle rápido do prurido.",
+   "O nome herpetiforme se refere ao agrupamento das vesículas, e não há infecção herpética a tratar.",
+   "A dieta deve ser mantida por toda a vida, pois a reexposição ao glúten reativa a pele e a enteropatia."
+  ]
+ },
+ {
+  "q": "Homem de 19 anos, trabalhador rural em uma área de mata no interior de Goiás, tem há 4 meses lesões com ardor intenso, que piora ao sol, na face, no couro cabeludo e no tronco superior. Ao exame há erosões superficiais cobertas por crostas e escamas amareladas, em distribuição seborreica, e raras bolhas flácidas muito frágeis. As mucosas oral, ocular e genital estão normais. Outros dois moradores da região tiveram quadro parecido. A biópsia mostra clivagem acantolítica na camada granulosa, logo abaixo da córnea, e a imunofluorescência direta mostra IgG intercelular. Qual é o autoantígeno e o nível da clivagem?",
+  "alts": [
+   "Desmogleína 3, com clivagem suprabasal",
+   "BP180, com clivagem na junção dérmica",
+   "Transglutaminase epidérmica, na papila",
+   "Desmogleína 1, com clivagem subcórnea",
+   "Colágeno VII, abaixo da lâmina densa"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r1",
+  "base": "EADV S2K guidelines on the management of pemphigus vulgaris and foliaceus 2020 (Joly et al.), pênfigo foliáceo e autoanticorpos",
+  "coment": "Erosões crostosas superficiais em áreas seborreicas, com ardor que dá ao quadro o nome popular de fogo selvagem, sem acometimento de mucosas, em jovem de zona rural com casos semelhantes na região, é pênfigo foliáceo, na forma endêmica brasileira. O autoantígeno é a desmogleína 1, que predomina nas camadas superficiais da epiderme; por isso a clivagem é alta, subcórnea ou na granulosa, e as bolhas são tão superficiais que raramente se veem íntegras. As mucosas são poupadas porque nelas a desmogleína 3 compensa a perda funcional da desmogleína 1. No pênfigo vulgar, o anticorpo contra a desmogleína 3 causa clivagem suprabasal e erosões orais. O penfigoide bolhoso, com anticorpos contra BP180 e BP230, forma bolhas tensas subepidérmicas. A forma endêmica é associada à exposição a insetos hematófagos.",
+  "porAlt": [
+   "A desmogleína 3 é o alvo do pênfigo vulgar, que causa clivagem suprabasal e erosões nas mucosas.",
+   "O BP180 é o alvo do penfigoide bolhoso, com bolhas tensas subepidérmicas em idosos.",
+   "A transglutaminase epidérmica é o alvo da dermatite herpetiforme, com IgA granular nas papilas.",
+   "Correta: pênfigo foliáceo é causado por anticorpos contra a desmogleína 1, com clivagem superficial e mucosas poupadas.",
+   "O colágeno VII é o alvo da epidermólise bolhosa adquirida, com clivagem abaixo da lâmina densa."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos refere o terceiro episódio, em 1 ano, de placa arredondada, violácea, bem delimitada, com ardor, na glande e no lábio inferior, que surge poucas horas depois de tomar dipirona para cefaleia. As lesões reaparecem sempre nos mesmos locais e, ao regredir em 10 a 14 dias, deixam mancha acastanhada. Não há vesículas agrupadas antes das lesões, febre, lesões em alvo nas extremidades nem acometimento de outras mucosas. Não tem parceria sexual nova, e o teste rápido para sífilis é não reagente. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Herpes simples recorrente nos 2 sítios",
+   "Eritema multiforme associado ao herpes",
+   "Erupção fixa medicamentosa à dipirona",
+   "Líquen plano de mucosa oral e genital",
+   "Sífilis secundária com placas mucosas"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Revisão de erupção fixa medicamentosa (Anderson e Lee, Medicina 2021), recorrência no mesmo sítio e fármacos desencadeantes",
+  "coment": "Placa arredondada, violácea e bem delimitada, que recorre exatamente nos mesmos locais a cada nova exposição ao fármaco, surge em horas e deixa hiperpigmentação residual, é a erupção fixa medicamentosa. Lábios, genitais e mãos são os sítios preferenciais, e os desencadeantes mais comuns são dipirona, anti-inflamatórios, sulfonamidas e tetraciclinas. O mecanismo envolve linfócitos T de memória residentes na pele do local, o que explica a recorrência no mesmo ponto. O diagnóstico é clínico, e o teste de provocação oral é evitado; o tratamento é suspender e evitar o fármaco, com corticoide tópico se houver sintomas. A forma bolhosa generalizada é grave e entra no diferencial com Stevens-Johnson. O herpes recorrente tem pródromo e vesículas agrupadas, e o eritema multiforme mostra lesões em alvo acrais.",
+  "porAlt": [
+   "O herpes recorrente começa com vesículas agrupadas sobre base eritematosa, ausentes nas três crises.",
+   "O eritema multiforme tem lesões em alvo típicas nas extremidades, e não placa única fixa nos mesmos sítios.",
+   "Correta: placa violácea que recorre no mesmo local horas após a dipirona e deixa mancha residual é erupção fixa medicamentosa.",
+   "O líquen plano de mucosas é crônico e não surge em horas após um medicamento, nem regride em duas semanas.",
+   "A sífilis secundária tem lesões disseminadas e palmoplantares, e o teste rápido não reagente a afasta."
+  ]
+ },
+ {
+  "q": "Homem de 60 anos, internado por osteomielite vertebral por estafilococo resistente à meticilina, recebe a primeira dose de vancomicina 1,5 g, infundida em 20 minutos. Quinze minutos após o início surgem prurido e eritema intenso na face, no pescoço e no tronco superior, com sensação de calor. Pressão arterial de 118/72 mmHg, frequência cardíaca de 96 bpm, saturação de 97%. Não há sibilância, estridor, angioedema, urticária, vômitos ou queda de pressão. Nunca recebeu vancomicina. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender a vancomicina e registrar alergia grave",
+   "Pausar, anti-histamínico e reinfundir mais devagar",
+   "Adrenalina intramuscular e trocar de antibiótico",
+   "Manter a infusão e associar corticoide tópico na pele",
+   "Dessensibilização formal em UTI antes da nova dose"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Consenso ASHP/IDSA/PIDS/SIDP de monitorização terapêutica da vancomicina 2020 (Rybak et al.), velocidade de infusão e reação infusional",
+  "coment": "Eritema e prurido em face, pescoço e tronco superior durante infusão rápida de vancomicina, sem broncoespasmo, angioedema ou hipotensão, é a síndrome do homem vermelho, hoje chamada reação infusional à vancomicina. Não é alergia mediada por IgE: a droga provoca liberação direta de histamina pelos mastócitos, dependente da velocidade de infusão, e pode ocorrer já na primeira dose. A conduta é pausar a infusão, dar anti-histamínico H1 e, com melhora, reiniciar em velocidade menor, sem passar de 1 g por hora ou cerca de 10 mg/min; doses maiores devem correr em 2 horas ou mais. A pré-medicação com anti-histamínico previne as doses seguintes. Não há motivo para trocar um antibiótico necessário nem para registrar alergia, o que limitaria o tratamento futuro. Hipotensão, sibilância ou angioedema mudariam o raciocínio para anafilaxia.",
+  "porAlt": [
+   "Não é alergia verdadeira, e registrar alergia grave tiraria uma droga necessária para a osteomielite.",
+   "Correta: reação infusional à vancomicina se resolve pausando, dando anti-histamínico e reinfundindo mais devagar.",
+   "Sem hipotensão, broncoespasmo ou angioedema não há anafilaxia, e a vancomicina pode ser mantida.",
+   "Manter a mesma velocidade perpetua a liberação de histamina, e o corticoide tópico não age no mecanismo.",
+   "Dessensibilização é para alergia mediada por IgE, e esta reação depende só da velocidade de infusão."
+  ]
+ },
+ {
+  "q": "Mulher de 38 anos iniciou carbamazepina há 18 dias para neuralgia do trigêmeo. Há 4 dias teve febre, odinofagia e ardor nos olhos; há 2 dias surgiram máculas eritematovioláceas e lesões em alvo atípicas planas no tronco, que confluíram, com bolhas e descolamento epidérmico em cerca de 18% da superfície corporal. Há erosões dolorosas nos lábios e na mucosa oral, conjuntivite bilateral e erosão vulvar. Nikolsky positivo. Pressão arterial de 110/70 mmHg, sem outros fármacos novos. Qual é a classificação e a primeira medida?",
+  "alts": [
+   "Sobreposição Stevens-Johnson e necrólise; suspender a carbamazepina",
+   "Stevens-Johnson; manter a carbamazepina e associar corticoide sistêmico",
+   "Necrólise epidérmica tóxica; dessensibilizar o paciente à carbamazepina",
+   "Eritema multiforme maior; aciclovir oral e manter a carbamazepina",
+   "DRESS; prednisona 1 mg/kg/dia e manter a carbamazepina em uso contínuo"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "UK guidelines for the management of Stevens-Johnson syndrome/toxic epidermal necrolysis in adults 2016 (British Association of Dermatologists) e classificação de Bastuji-Garin por área de descolamento",
+  "coment": "Pródromo febril com odinofagia e ardor ocular, seguido de máculas violáceas e alvos atípicos planos que confluem em bolhas e descolamento, com duas ou mais mucosas acometidas, 1 a 4 semanas após iniciar carbamazepina, é o espectro Stevens-Johnson e necrólise epidérmica tóxica. A classificação é pela área de pele descolada: menos de 10% é Stevens-Johnson, mais de 30% é necrólise, e entre 10% e 30%, como aqui, é a forma de sobreposição. A medida que mais muda o prognóstico é a suspensão imediata do fármaco suspeito, quanto mais precoce, menor a mortalidade. Depois vêm internação em unidade de queimados ou terapia intensiva, cuidados de pele, avaliação oftalmológica diária e cálculo do SCORTEN. A carbamazepina está entre os culpados mais frequentes, sobretudo em portadores do HLA-B*15:02, comum no Sudeste Asiático.",
+  "porAlt": [
+   "Correta: descolamento entre 10% e 30% com mucosas acometidas é a sobreposição, e suspender o fármaco é a primeira medida.",
+   "Com 18% de descolamento não é Stevens-Johnson isolado, e manter a droga culpada aumenta a mortalidade.",
+   "Necrólise exige mais de 30% de descolamento, e dessensibilização é contraindicada nas reações graves tardias.",
+   "O eritema multiforme maior tem alvos típicos acrais e pouco descolamento, e o fármaco suspeito não deve ser mantido.",
+   "DRESS cursa com eosinofilia, linfonodos e órgão acometido, sem descolamento epidérmico extenso como este."
+  ]
+ },
+ {
+  "q": "Mulher de 26 anos tem o quarto episódio, no último ano, de lesões em alvo típicas, com três zonas concêntricas e centro escurecido, no dorso das mãos, nas palmas, nos antebraços e nos cotovelos, com poucas erosões nos lábios. Os episódios começam sempre 7 a 10 dias depois de crises de herpes labial e duram cerca de 2 semanas, com bom estado geral. Não usa medicamentos, não tem febre, lesões em tronco ou descolamento de pele. O hemograma e a radiografia de tórax são normais. Qual é a medida mais adequada para prevenir novos episódios?",
+  "alts": [
+   "Prednisona oral a cada novo episódio de herpes",
+   "Talidomida oral contínua como primeira opção",
+   "Imunoglobulina EV mensal para evitar recidivas",
+   "Antiviral supressivo contínuo por 6 a 12 meses",
+   "Hidroxicloroquina oral por suspeita de lúpus"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Revisão de eritema multiforme (Trayes et al., Am Fam Physician 2019), profilaxia antiviral no eritema multiforme recorrente associado ao herpes",
+  "coment": "Lesões em alvo típicas, com três zonas, de distribuição acral e pouca mucosa acometida, sempre após herpes labial, é eritema multiforme recorrente associado ao herpes simples, a causa mais comum da doença no adulto. É reação de hipersensibilidade a antígenos virais depositados na pele, distinta do espectro Stevens-Johnson, que costuma ser causado por fármacos e tem alvos atípicos e descolamento. Tratar cada crise de herpes depois que o eritema começou não muda a evolução. Com recorrências frequentes, a profilaxia antiviral contínua com aciclovir ou valaciclovir por 6 a 12 meses reduz bastante o número de episódios, mesmo quando o herpes não é clinicamente evidente. Corticoide sistêmico pode aumentar a frequência das recidivas. Talidomida, imunossupressores e imunoglobulina ficam para casos raros refratários à profilaxia.",
+  "porAlt": [
+   "O corticoide sistêmico não previne episódios e pode aumentar as recidivas do eritema multiforme.",
+   "A talidomida é reservada a casos refratários à profilaxia antiviral, por sua toxicidade e teratogenicidade.",
+   "A imunoglobulina não tem papel na prevenção do eritema multiforme associado ao herpes.",
+   "Correta: eritema multiforme recorrente ligado ao herpes é prevenido com antiviral supressivo contínuo por meses.",
+   "Alvos acrais após herpes labial não sugerem lúpus, e a hidroxicloroquina não previne essas recidivas."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, agricultor no sul da Bahia, tem há 3 meses uma úlcera indolor de 5 cm na perna direita, arredondada, com bordas elevadas em moldura e fundo granuloso avermelhado, e um linfonodo inguinal homolateral aumentado. Não há lesões em mucosa nasal ou oral. A pesquisa direta no raspado da borda mostrou formas amastigotas, e a intradermorreação de Montenegro é positiva. É hipertenso, com creatinina de 1,0 mg/dL, eletrocardiograma normal e enzimas hepáticas normais. Pesa 72 kg. Segundo o Ministério da Saúde, qual é o tratamento de primeira escolha?",
+  "alts": [
+   "Antimoniato de meglumina 15 mg Sb5+/kg/dia por 20 dias EV",
+   "Antimoniato de meglumina intralesional em 1 a 3 sessões",
+   "Anfotericina B lipossomal até dose total de 20 a 40 mg/kg",
+   "Isetionato de pentamidina 4 mg/kg em três doses espaçadas",
+   "Itraconazol oral 200 mg/dia por 3 meses e reavaliar a úlcera"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Manual de Vigilância da Leishmaniose Tegumentar 2017 (Ministério da Saúde), Quadro 9, tratamento da forma cutânea localizada a partir de 50 anos",
+  "coment": "Úlcera indolor com bordas elevadas em moldura e fundo granuloso, linfonodo regional e amastigotas no raspado configuram leishmaniose cutânea localizada, no sul da Bahia causada em geral por Leishmania braziliensis. O antimoniato de meglumina, de 10 a 20 mg Sb5+/kg/dia por 20 dias, é a primeira escolha para a maioria dos pacientes, mas o Manual de 2017 o retira da primeira linha a partir dos 50 anos e em insuficiência renal, cardíaca ou hepática, gestantes e transplantados, pela cardiotoxicidade, nefrotoxicidade e pancreatite. Para esses grupos, a primeira escolha é a anfotericina B lipossomal, de 2 a 3 mg/kg/dia até 20 a 40 mg/kg. O antimoniato intralesional é alternativa só para lesão única de até 3 cm fora da cabeça e das áreas periarticulares, e esta mede 5 cm. A pentamidina é a escolha onde predomina Leishmania guyanensis.",
+  "porAlt": [
+   "O antimoniato sistêmico deixa de ser primeira escolha a partir dos 50 anos, pelo risco cardíaco, renal e pancreático.",
+   "A via intralesional exige lesão única de até 3 cm fora da cabeça e das articulações, e esta úlcera mede 5 cm.",
+   "Correta: a partir dos 50 anos, o Ministério indica a anfotericina B lipossomal como primeira escolha na forma cutânea localizada.",
+   "A pentamidina é primeira escolha onde predomina L. guyanensis, e não para L. braziliensis no sul da Bahia.",
+   "O itraconazol não faz parte dos esquemas recomendados pelo Ministério para a leishmaniose tegumentar."
+  ]
+ },
+ {
+  "q": "Homem de 57 anos, lavrador no Maranhão, tem há 8 anos uma lesão na perna esquerda que começou como pápula após ferimento com espinho e cresceu lentamente. Hoje é uma placa verrucosa, vegetante, de 9 cm, com crostas e pequenos pontos enegrecidos na superfície, com algumas lesões satélites. Não há linfangite, linfonodos aumentados nem lesões em mucosas ou pulmão. O exame direto do material dos pontos negros com hidróxido de potássio mostra células arredondadas, acastanhadas, de parede espessa, com septação em dois planos. Qual é o diagnóstico?",
+  "alts": [
+   "Esporotricose por Sporothrix brasiliensis",
+   "Paracoccidioidomicose por Paracoccidioides",
+   "Tuberculose verrucosa por Mycobacterium",
+   "Leishmaniose verrucosa por L. braziliensis",
+   "Cromoblastomicose por Fonsecaea pedrosoi"
+  ],
+  "gab": 4,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "Revisão e recomendações sobre cromoblastomicose (Queiroz-Telles et al., Clin Microbiol Rev 2017), diagnóstico pelos corpos escleróticos",
+  "coment": "Placa verrucosa de evolução muito lenta, por anos, em membro inferior de trabalhador rural após trauma com material vegetal, com pontos enegrecidos na superfície, é a apresentação típica da cromoblastomicose, uma micose de implantação. No Brasil o agente principal é a Fonsecaea pedrosoi. O diagnóstico é confirmado pelo exame direto, que mostra os corpos escleróticos, ou corpos de Medlar: células castanhas, de parede espessa, com septação em mais de um plano, chamadas células muriformes. Os pontos negros são o local de eliminação transepidérmica do fungo, onde o rendimento do exame é maior. É uma das síndromes verrucosas, junto com esporotricose, paracoccidioidomicose, leishmaniose e tuberculose verrucosa. O tratamento combina itraconazol prolongado com métodos físicos, como crioterapia ou exérese nas lesões pequenas.",
+  "porAlt": [
+   "A esporotricose mostra leveduras em charuto ou nenhuma estrutura no exame direto, e costuma seguir trajeto linfático.",
+   "A paracoccidioidomicose mostra leveduras com múltiplos brotamentos e acomete mucosa oral e pulmão.",
+   "Na tuberculose verrucosa não há corpos escleróticos, e o diagnóstico se faz por histologia e cultura de micobactéria.",
+   "Na leishmaniose o exame direto mostra amastigotas, e não células castanhas de parede espessa.",
+   "Correta: placa verrucosa crônica com pontos negros e corpos escleróticos no exame direto é cromoblastomicose."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, tabagista de 40 maços-ano e ex-lavrador no interior de São Paulo, tem há 5 meses lesões dolorosas na boca, rouquidão, tosse seca e perda de 8 kg. Há ulcerações de fundo granuloso com pontilhado hemorrágico na gengiva e no palato, e linfonodos submandibulares aumentados. A radiografia de tórax mostra infiltrado intersticial bilateral e simétrico nos terços médios. O exame direto do escarro mostra leveduras grandes com múltiplos brotamentos. Saturação de 95% em ar ambiente, sem sinais de insuficiência adrenal. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Anfotericina B só por 2 semanas, e alta",
+   "Itraconazol 200 mg/dia por 9 a 18 meses",
+   "Fluconazol 150 mg por semana por 3 meses",
+   "Esquema RIPE por 6 meses para tuberculose",
+   "Sulfametoxazol-trimetoprima por 4 semanas"
+  ],
+  "gab": 1,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "II Consenso Brasileiro em Paracoccidioidomicose 2017 (Shikanai-Yasuda et al.), tratamento da forma crônica leve a moderada",
+  "coment": "Lesões orais ulceradas com pontilhado hemorrágico, a estomatite moriforme, rouquidão, emagrecimento e infiltrado intersticial pulmonar bilateral em homem tabagista com passado rural, com leveduras de brotamento múltiplo em roda de leme, configuram a forma crônica do adulto da paracoccidioidomicose. Sem insuficiência respiratória, instabilidade ou acometimento grave de órgãos, é forma leve a moderada. O Consenso Brasileiro de 2017 indica itraconazol 200 mg/dia como primeira escolha, por 9 a 18 meses, guiado por cura clínica, radiológica e sorológica. O sulfametoxazol-trimetoprima é a alternativa, com duração ainda maior, de 18 a 24 meses. A anfotericina B fica para as formas graves e é seguida de manutenção oral prolongada. O fluconazol tem eficácia inferior. A coexistência com tuberculose deve ser investigada, mas o exame direto já mostrou o fungo.",
+  "porAlt": [
+   "A anfotericina é para formas graves e sempre seguida de manutenção oral prolongada, nunca alta em 2 semanas.",
+   "Correta: forma crônica leve a moderada da paracoccidioidomicose é tratada com itraconazol por 9 a 18 meses.",
+   "O fluconazol tem eficácia inferior, e 3 meses estão muito abaixo da duração necessária.",
+   "O escarro mostrou leveduras de brotamento múltiplo, e não bacilos, o que define paracoccidioidomicose.",
+   "O sulfametoxazol-trimetoprima é alternativa, mas por 18 a 24 meses; 4 semanas levariam a recidiva."
+  ]
+ },
+ {
+  "q": "Mulher de 32 anos tem há 10 dias nódulos eritematosos, quentes e muito dolorosos, de 2 a 5 cm, na face anterior das duas pernas, sem ulceração, além de dor e edema nos dois tornozelos e febre de 37,9 °C. Não usa contraceptivo nem outros medicamentos, não teve dor de garganta e não tem diarreia. A antiestreptolisina O é normal e o teste de liberação de interferon-gama é negativo. A radiografia de tórax mostra linfonodomegalia hilar bilateral e simétrica, sem infiltrado pulmonar. Cálcio sérico normal, sem sintomas oculares. Qual é a conduta mais adequada?",
+  "alts": [
+   "Mediastinoscopia com biópsia de linfonodo hilar imediata",
+   "Esquema RIPE empírico pela adenopatia hilar bilateral",
+   "Anti-inflamatório e seguimento, sem biópsia obrigatória",
+   "Prednisona 40 mg/dia associada a metotrexato desde o início",
+   "Penicilina benzatina por infecção estreptocócica oculta"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS Clinical Practice Guideline: Diagnosis and Detection of Sarcoidosis 2020, síndrome de Löfgren sem necessidade de amostragem linfonodal",
+  "coment": "Eritema nodoso, artrite periarticular de tornozelos, febre e linfonodomegalia hilar bilateral em mulher jovem compõem a síndrome de Löfgren, apresentação aguda da sarcoidose. É tão específica que a diretriz da Sociedade Torácica Americana de 2020 sugere não amostrar linfonodos quando a suspeita clínica é alta, como na síndrome de Löfgren, desde que se faça seguimento clínico atento. O prognóstico é excelente: mais de 80% remitem espontaneamente em até 2 anos. O tratamento é sintomático, com anti-inflamatório não esteroide para dor e artrite e repouso; corticoide só entra em sintomas refratários. O eritema nodoso é uma paniculite septal reativa, e outras causas, como estreptococo, tuberculose, contraceptivos e doença inflamatória intestinal, já foram afastadas. A biópsia volta à mesa se a evolução fugir do esperado.",
+  "porAlt": [
+   "Na síndrome de Löfgren típica a diretriz sugere não amostrar linfonodos, e o procedimento invasivo não é necessário.",
+   "Com teste para tuberculose negativo e quadro típico de Löfgren, tratar tuberculose empiricamente não se justifica.",
+   "Correta: síndrome de Löfgren típica permite seguimento clínico com anti-inflamatório, sem biópsia obrigatória.",
+   "A remissão espontânea é a regra, e imunossupressão combinada não é indicada nesta forma aguda e benigna.",
+   "A antiestreptolisina normal e a ausência de faringite afastam estreptococo como causa do eritema nodoso."
+  ]
+ },
+ {
+  "q": "Homem de 54 anos, etilista de 1 litro de cachaça por dia e com alimentação à base de milho, é internado por confusão mental e diarreia aquosa há 3 semanas. Há placas eritematoacastanhadas, descamativas e bem delimitadas no dorso das mãos e dos antebraços e uma faixa contínua ao redor do pescoço, que arderam após exposição ao sol. A língua é lisa, vermelha e dolorosa. Não há sinais de hepatopatia descompensada, e a amônia é normal. A glicemia capilar é de 88 mg/dL. Qual é a deficiência mais provável e a reposição adequada?",
+  "alts": [
+   "Tiamina isolada; dose alta EV por encefalopatia",
+   "Zinco; sulfato de zinco oral por acrodermatite",
+   "Niacina; nicotinamida oral e tiamina associada",
+   "Vitamina C; ácido ascórbico oral por escorbuto",
+   "Riboflavina; reposição oral só de vitamina B2"
+  ],
+  "gab": 2,
+  "tema": "derma",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESPEN micronutrient guideline 2022 (Berger et al.), deficiência de niacina e pelagra",
+  "coment": "Dermatite fotodistribuída simétrica, com o colar de Casal no pescoço, diarreia e alteração mental compõem os três D da pelagra: dermatite, diarreia e demência, com o quarto, a morte, se não tratada. A deficiência é de niacina, ou vitamina B3, e de seu precursor, o triptofano. O alcoolismo é a causa mais comum hoje, pela dieta pobre e má absorção; outras são dieta baseada em milho não tratado, síndrome carcinoide, que desvia o triptofano para serotonina, e drogas como isoniazida. A diretriz de micronutrientes da ESPEN de 2022 indica reposição com nicotinamida, que não causa o rubor do ácido nicotínico, em geral 100 a 300 mg/dia por via oral em doses divididas até a resolução. No etilista, associa-se tiamina antes de oferecer glicose e corrigem-se as demais carências do complexo B, comuns ao mesmo tempo.",
+  "porAlt": [
+   "A tiamina deve ser dada ao etilista, mas não explica dermatite fotossensível nem diarreia, e sozinha não trata a pelagra.",
+   "A carência de zinco dá dermatite periorificial e acral, e não lesões restritas às áreas expostas ao sol.",
+   "Correta: dermatite fotossensível, diarreia e confusão no etilista são pelagra, tratada com nicotinamida e tiamina associada.",
+   "O escorbuto causa hemorragia perifolicular e gengival, e não dermatite fotodistribuída com colar de Casal.",
+   "A carência de riboflavina dá queilite angular e dermatite seborreica, sem o padrão fotossensível descrito."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos tem há 5 meses placas eritematosas dolorosas, com bordas vesiculosas e crostosas que se expandem e deixam o centro acastanhado, migrando ao longo de semanas pelo períneo, pelas virilhas, pelas nádegas e pelas pernas. Também tem glossite, queilite angular e perda de 9 kg. Recebeu diagnóstico de diabetes há 3 meses, e há 1 mês teve trombose venosa profunda. Hemoglobina de 10,4 g/dL, albumina de 3,0 g/dL, zinco sérico no limite inferior. Não tem doença hepática nem etilismo. Qual é a hipótese diagnóstica e a investigação mais adequada?",
+  "alts": [
+   "Carência de zinco; repor e observar evolução",
+   "Candidíase intertriginosa; exame micológico",
+   "Pênfigo foliáceo; biópsia e imunofluorescência",
+   "Glucagonoma; glucagon sérico e TC abdominal",
+   "Psoríase invertida; biópsia e iniciar tópico"
+  ],
+  "gab": 3,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ENETS 2023 guidance paper for functioning pancreatic neuroendocrine tumours (Hofland et al.), glucagonoma e eritema necrolítico migratório",
+  "coment": "Placas eritematosas com bordas vesicocrostosas que migram por áreas intertriginosas e periorificiais, deixando hiperpigmentação, são o eritema necrolítico migratório, dermatose paraneoplásica característica do glucagonoma, tumor neuroendócrino de células alfa do pâncreas. A síndrome completa inclui diabetes de início recente, perda de peso, glossite e queilite, anemia, hipoaminoacidemia e trombose venosa, todos presentes aqui. O guia da Sociedade Europeia de Tumores Neuroendócrinos de 2023 orienta confirmar com glucagon sérico muito elevado e localizar o tumor por tomografia ou ressonância abdominal, complementando com imagem de receptor de somatostatina para estadiamento. Como a maioria é metastática ao diagnóstico, o reconhecimento da pele é decisivo. A carência de zinco produz quadro semelhante, o pseudoglucagonoma, mas não explica diabetes novo, trombose e emagrecimento.",
+  "porAlt": [
+   "A carência de zinco imita a dermatite, mas não explica diabetes novo, trombose e perda de peso.",
+   "As placas migratórias com bordas crostosas e o quadro sistêmico não são de candidíase intertriginosa.",
+   "O pênfigo foliáceo acomete áreas seborreicas sem padrão migratório e sem diabetes ou trombose associados.",
+   "Correta: eritema necrolítico migratório com diabetes novo, emagrecimento e trombose sugere glucagonoma, confirmado por glucagon e imagem.",
+   "A psoríase invertida não tem bordas vesicocrostosas migratórias nem explica o quadro consumptivo."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos tem acne inflamatória moderada, com pápulas e pústulas na linha da mandíbula, no queixo e no pescoço, que piora na semana antes da menstruação. Usou peróxido de benzoíla com adapaleno por 4 meses e doxiciclina 100 mg/dia por 3 meses, com melhora parcial e recaída ao suspender. Ciclos regulares, sem hirsutismo, sem cicatrizes. Usa DIU de cobre, não planeja gravidez e prefere evitar contraceptivo hormonal. Potássio de 4,1 mEq/L, função renal normal, pressão arterial de 112/70 mmHg. Qual é o próximo passo mais adequado?",
+  "alts": [
+   "Espironolactona oral em baixa dose",
+   "Doxiciclina oral contínua por 1 ano",
+   "Prednisona oral em dose baixa diária",
+   "Minociclina oral mais eritromicina",
+   "Finasterida oral contínua 6 meses"
+  ],
+  "gab": 0,
+  "tema": "derma",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AAD Guidelines of care for the management of acne vulgaris 2024 (Reynolds et al.), espironolactona na acne da mulher adulta",
+  "coment": "Acne inflamatória na mulher adulta, com predomínio na mandíbula, no queixo e no pescoço e piora pré-menstrual, tem forte componente hormonal. A diretriz da Academia Americana de Dermatologia de 2024 recomenda a espironolactona, em geral 50 a 100 mg/dia, para essas pacientes, com ou sem hiperandrogenismo laboratorial. Ela é especialmente útil quando há recaída após antibiótico e a paciente não quer contraceptivo hormonal. Em mulheres jovens e saudáveis sem doença renal, não é preciso dosar potássio de rotina. Como pode feminizar feto masculino, exige contracepção eficaz, garantida pelo DIU. A diretriz limita o antibiótico oral a cerca de 3 a 4 meses, sempre com peróxido de benzoíla, para conter resistência, e desaconselha associar dois antibióticos. A isotretinoína seria opção se houvesse cicatrizes ou doença grave.",
+  "porAlt": [
+   "Correta: acne hormonal da mulher adulta que recai após antibiótico responde à espironolactona, com contracepção garantida pelo DIU.",
+   "Prolongar o antibiótico além de 3 a 4 meses favorece resistência bacteriana e não é recomendado na acne.",
+   "Corticoide sistêmico contínuo não trata acne e pode até desencadear erupção acneiforme.",
+   "Associar dois antibióticos não é recomendado e amplia o risco de resistência sem benefício adicional.",
+   "A finasterida não é recomendada para acne na mulher em idade fértil, pelo risco teratogênico e evidência fraca."
+  ]
+ }
+]

@@ -1,0 +1,674 @@
+[
+ {
+  "q": "Homem de 34 anos, analista de sistemas, procura a unidade básica por pirose retroesternal três a quatro vezes por semana há 4 meses, com regurgitação ácida que piora quando se deita logo após o jantar. Nega disfagia, odinofagia, vômitos, perda de peso, hematêmese ou melena. Não tem história familiar de câncer gástrico ou esofágico. Usa antiácido à base de hidróxido de alumínio sob demanda, com alívio parcial. Índice de massa corporal de 27 kg/m², exame físico sem alterações, hemoglobina de 14,6 g/dL. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Endoscopia digestiva alta antes de iniciar remédio",
+   "pHmetria de 24 horas para confirmar o diagnóstico",
+   "Antagonista H2 em dose dobrada por doze semanas",
+   "IBP uma vez ao dia, antes do café, por 8 semanas",
+   "Procinético associado ao IBP por quatro semanas"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r1",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, prova terapêutica empírica com IBP em sintomas típicos sem alarme",
+  "coment": "Pirose e regurgitação típicas, em adulto jovem sem disfagia, perda de peso, sangramento, anemia ou vômitos, autorizam prova terapêutica. A diretriz do ACG de 2022 recomenda inibidor de bomba de prótons uma vez ao dia, 30 a 60 minutos antes da primeira refeição, por 8 semanas. Se houver resposta, tenta-se reduzir ou suspender o remédio na menor dose eficaz; se não houver, ou se os sintomas voltarem à retirada, indica-se endoscopia após 2 a 4 semanas sem o inibidor, e pHmetria se a endoscopia não mostrar esofagite. Medidas associadas: perda de peso, elevar a cabeceira e evitar refeições nas 2 a 3 horas antes de deitar. Procinético não é recomendado sem gastroparesia documentada.",
+  "porAlt": [
+   "Endoscopia de entrada é reservada a sinais de alarme ou falha da prova terapêutica, e nada disso existe neste paciente.",
+   "A pHmetria entra depois de falha do IBP com endoscopia sem esofagite, não como primeiro passo em quadro típico.",
+   "O antagonista H2 é inferior ao IBP na cicatrização e no controle dos sintomas, e não é a escolha inicial.",
+   "Correta: sintomas típicos sem alarme justificam 8 semanas de IBP diário antes da primeira refeição como teste e tratamento.",
+   "Procinéticos não são recomendados na DRGE sem gastroparesia e acrescentam efeitos adversos sem benefício."
+  ]
+ },
+ {
+  "q": "Mulher de 63 anos refere pirose há cerca de 10 anos, tratada com omeprazol de forma irregular. Há 3 meses passou a ter sensação de entalo retroesternal com carne e pão, que vem piorando, e perdeu 6 kg (de 68 para 62 kg) sem intenção. Nega hematêmese e melena. Exames: hemoglobina de 10,9 g/dL, volume corpuscular médio de 74 fL, ferritina de 9 ng/mL. Exame físico sem linfonodomegalias e abdome sem massas. Qual é a conduta mais adequada?",
+  "alts": [
+   "Dobrar o omeprazol e reavaliar após 8 semanas",
+   "Esofagograma com bário como exame de entrada",
+   "Endoscopia digestiva alta e biópsia das lesões",
+   "Manometria esofágica de alta resolução inicial",
+   "pHmetria de 24 horas com o omeprazol suspenso"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, endoscopia precoce diante de sinais de alarme",
+  "coment": "Disfagia progressiva, perda ponderal involuntária e anemia ferropriva são sinais de alarme que retiram a paciente do caminho da prova terapêutica. Pela diretriz do ACG de 2022, quem tem disfagia ou outros sinais de alarme deve fazer endoscopia digestiva alta, que permite ver estenose péptica, esofagite grave, esôfago de Barrett ou neoplasia e biopsiar o que for suspeito. Em pirose de longa data, mulher acima de 60 anos e disfagia nova, o adenocarcinoma de esôfago e o da cárdia precisam ser afastados primeiro. O esofagograma baritado não é recomendado como exame isolado para diagnosticar DRGE, e manometria e pHmetria são exames funcionais que só fazem sentido depois de excluída lesão estrutural.",
+  "porAlt": [
+   "Escalar o IBP sem investigar atrasa o diagnóstico de uma possível neoplasia em paciente com vários sinais de alarme.",
+   "O esofagograma não substitui a endoscopia, porque não permite biópsia nem caracteriza bem lesões de mucosa.",
+   "Correta: disfagia, emagrecimento e anemia são sinais de alarme e exigem endoscopia com biópsia antes de qualquer outra conduta.",
+   "A manometria investiga motilidade e só é indicada depois que a endoscopia afasta causa estrutural da disfagia.",
+   "A pHmetria quantifica refluxo, mas não responde à pergunta urgente aqui, que é se existe lesão neoplásica."
+  ]
+ },
+ {
+  "q": "Mulher de 41 anos tem pirose diária que não melhorou com 8 semanas de omeprazol 40 mg duas vezes ao dia. Endoscopia feita após 3 semanas sem o remédio foi normal, e as biópsias esofágicas não mostraram eosinófilos. A manometria de alta resolução foi normal. A pH-impedanciometria de 24 horas sem inibidor mostrou tempo de exposição ácida de 2,1%, 38 episódios de refluxo e probabilidade de associação de sintomas de 98%. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Doença do refluxo não erosiva confirmada",
+   "Pirose funcional sem relação com refluxo",
+   "Refluxo inconclusivo em zona intermediária",
+   "Hipersensibilidade esofágica ao refluxo",
+   "Esofagite eosinofílica ainda não detectada"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Consenso de Lyon 2.0, 2023, limiares do tempo de exposição ácida; Critérios de Roma IV, 2016, distúrbios esofágicos funcionais",
+  "coment": "Pelo Consenso de Lyon 2.0 (2023), tempo de exposição ácida abaixo de 4% é normal, entre 4 e 6% é inconclusivo e acima de 6% confirma DRGE. Aqui a exposição é normal, o número de episódios também (abaixo de 40 é considerado normal), e endoscopia e biópsias são normais. O que muda o diagnóstico é a associação sintoma-refluxo positiva: episódios fisiológicos de refluxo desencadeiam a pirose. Os critérios de Roma IV chamam isso de hipersensibilidade ao refluxo; se a associação fosse negativa, seria pirose funcional. A conduta privilegia neuromoduladores e terapia comportamental, e não escalada do IBP. A cirurgia antirrefluxo deve ser vista com cautela nesse perfil, porque não há refluxo patológico documentado.",
+  "porAlt": [
+   "Exposição ácida de 2,1% com endoscopia normal afasta DRGE comprovada, que exige mais de 6% ou esofagite relevante.",
+   "A pirose funcional pressupõe associação negativa entre sintomas e refluxo, e aqui a probabilidade de associação é de 98%.",
+   "A zona inconclusiva do Lyon 2.0 vai de 4 a 6% de exposição ácida, e o valor desta paciente está abaixo de 4%.",
+   "Correta: exposição ácida normal com forte associação entre sintomas e refluxo define hipersensibilidade ao refluxo.",
+   "As biópsias foram colhidas e não mostraram eosinófilos, o que torna essa hipótese improvável neste momento."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, índice de massa corporal de 26 kg/m², tem DRGE há 8 anos. Com pantoprazol 40 mg ao dia, a pirose está controlada, mas persiste regurgitação volumosa quase diária, com tosse noturna e dois episódios de engasgo ao acordar. Endoscopia prévia mostrou esofagite grau C de Los Angeles e hérnia hiatal de 4 cm; a pHmetria sem inibidor revelou tempo de exposição ácida de 11%. A manometria de alta resolução mostrou peristalse normal. Ele não quer usar remédio a vida toda. Qual é a melhor conduta?",
+  "alts": [
+   "Manter o IBP e repetir endoscopia em 1 ano",
+   "Fundoplicatura transoral sem tratar a hérnia",
+   "Acrescentar procinético e dobrar o pantoprazol",
+   "Fundoplicatura com correção da hérnia hiatal",
+   "Trocar o IBP por antagonista H2 ao deitar-se"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, indicações de cirurgia antirrefluxo",
+  "coment": "O paciente reúne o perfil que a diretriz do ACG de 2022 aponta como bom candidato à cirurgia: DRGE objetivamente comprovada (esofagite grau C e exposição ácida de 11%), sintoma de regurgitação que o IBP não controla, hérnia hiatal volumosa e desejo de não depender de remédio. O IBP controla a acidez, não o volume refluído, e por isso a regurgitação persiste. A manometria prévia é obrigatória para afastar acalasia e contratilidade ausente, que contraindicam fundoplicatura total. A fundoplicatura transoral sem incisão só é opção sem hérnia maior que 2 cm e sem esofagite grave; o aumento magnético do esfíncter é alternativa em casos selecionados. Hérnia de 4 cm precisa ser reduzida e o hiato, fechado.",
+  "porAlt": [
+   "Manter o IBP não resolve a regurgitação com tosse e engasgo, que expõe o paciente a aspiração repetida.",
+   "A fundoplicatura transoral só é considerada sem hérnia maior que 2 cm e sem esofagite grave, o que não é o caso.",
+   "Procinéticos não são recomendados na DRGE e dobrar o IBP não age sobre o volume regurgitado.",
+   "Correta: DRGE comprovada com regurgitação refratária e hérnia hiatal é a indicação clássica de fundoplicatura com hiatoplastia.",
+   "O antagonista H2 é menos potente que o IBP e pioraria o controle ácido sem melhorar a regurgitação."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos, índice de massa corporal de 42 kg/m², com hipertensão e diabetes tipo 2, tem pirose e regurgitação há 6 anos. A endoscopia mostrou esofagite grau B de Los Angeles e hérnia hiatal de 2 cm; a pHmetria sem inibidor mostrou tempo de exposição ácida de 9%. Mesmo com IBP em dose dobrada, a regurgitação persiste. A manometria é normal. Ela já tentou perda de peso com dieta e atividade física, sem sucesso, e deseja tratamento cirúrgico. Qual opção cirúrgica é a mais adequada?",
+  "alts": [
+   "Gastrectomia vertical em manga laparoscópica",
+   "Fundoplicatura de Nissen laparoscópica total",
+   "Banda gástrica ajustável por laparoscopia",
+   "Aumento magnético do esfíncter esofágico",
+   "Bypass gástrico em Y de Roux laparoscópico"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, cirurgia antirrefluxo em pacientes com obesidade",
+  "coment": "Em obesidade grave com DRGE comprovada, a diretriz do ACG de 2022 orienta considerar o bypass gástrico em Y de Roux, que trata as duas doenças: a pequena bolsa gástrica produz pouco ácido e a reconstrução em Y desvia a bile. A fundoplicatura isolada em índice de massa corporal acima de 35 tem taxa maior de falha e recidiva da hérnia, e não trata a obesidade nem o diabetes. A gastrectomia vertical aumenta a pressão intragástrica e com frequência piora ou desencadeia DRGE, além de associar-se a esôfago de Barrett novo; em quem já tem refluxo importante, costuma ser evitada. A banda gástrica caiu em desuso pelos maus resultados de longo prazo.",
+  "porAlt": [
+   "A gastrectomia vertical tende a piorar o refluxo e a induzir Barrett, por isso é evitada em quem já tem DRGE importante.",
+   "A fundoplicatura em obesidade grave falha mais e deixa sem tratamento a obesidade e as comorbidades metabólicas.",
+   "A banda gástrica tem maus resultados a longo prazo e pode piorar o refluxo, tendo caído em desuso.",
+   "O aumento magnético do esfíncter não trata a obesidade e foi pouco estudado com índice de massa acima de 35.",
+   "Correta: o bypass em Y de Roux trata a obesidade e a DRGE ao mesmo tempo e é a opção preferida nesse perfil."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, branco, tabagista de 30 maços-ano, com índice de massa corporal de 33 kg/m² e circunferência abdominal de 112 cm, tem pirose semanal há mais de 15 anos, bem controlada com omeprazol sob demanda. Nega disfagia, emagrecimento e sangramento. O pai teve adenocarcinoma de esôfago aos 70 anos. Nunca fez endoscopia. Hemoglobina normal. Do ponto de vista de rastreamento de esôfago de Barrett, qual é a conduta recomendada?",
+  "alts": [
+   "Não rastrear, pois não há nenhum sinal de alarme",
+   "Endoscopia única para rastreio de Barrett agora",
+   "Endoscopia anual enquanto houver pirose semanal",
+   "pHmetria antes, para quantificar o refluxo ácido",
+   "Rastrear só se a pirose deixar de responder ao IBP"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, rastreamento em DRGE crônica com 3 ou mais fatores de risco",
+  "coment": "A diretriz do ACG de 2022 sugere rastreamento único de esôfago de Barrett em pessoas com DRGE crônica e pelo menos três fatores de risco: sexo masculino, idade acima de 50 anos, raça branca, tabagismo, obesidade central e parente de primeiro grau com Barrett ou adenocarcinoma de esôfago. Este paciente tem todos. O rastreio independe de sinal de alarme e de resposta ao IBP; aliás, o bom controle dos sintomas não reduz a chance de Barrett. A endoscopia é o método padrão, e a diretriz passou a aceitar métodos não endoscópicos com cápsula-esponja como alternativa. Se o exame inicial for normal, não se recomenda repetir o rastreio.",
+  "porAlt": [
+   "O rastreio de Barrett é indicado pelos fatores de risco, independentemente de sinais de alarme, que levariam a endoscopia diagnóstica.",
+   "Correta: DRGE crônica com mais de três fatores de risco justifica uma endoscopia única de rastreamento de Barrett.",
+   "Não há indicação de endoscopia anual; se o rastreio inicial for normal, não se recomenda repeti-lo.",
+   "A pHmetria não detecta metaplasia e não muda a indicação de rastreio neste paciente de alto risco.",
+   "A resposta ao IBP não diz nada sobre a presença de Barrett, que muitas vezes coexiste com sintomas controlados."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos com esôfago de Barrett conhecido (Praga C3M5) fez endoscopia de vigilância com cromoscopia virtual, sem lesões visíveis, e biópsias pelo protocolo de Seattle. O laudo mostrou displasia de baixo grau em dois fragmentos, diagnóstico confirmado por um segundo patologista com experiência em esôfago. A biópsia foi feita sem esofagite, em uso regular de esomeprazol 40 mg duas vezes ao dia. Ele é ativo e sem comorbidades relevantes. Qual é a conduta preferida?",
+  "alts": [
+   "Manter vigilância endoscópica a cada 3 a 5 anos",
+   "Terapia de erradicação endoscópica com ablação",
+   "Esofagectomia, pelo risco de câncer invasivo",
+   "Fundoplicatura para fazer a displasia regredir",
+   "Dobrar o IBP e repetir as biópsias em 3 anos"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, terapia de erradicação endoscópica na displasia de baixo grau",
+  "coment": "A displasia de baixo grau em Barrett é superdiagnosticada, por isso a primeira providência é confirmá-la com patologista experiente, o que já foi feito, e excluir esofagite, que confunde a leitura. Confirmada, a diretriz do ACG de 2022 recomenda terapia de erradicação endoscópica, em geral ablação por radiofrequência, porque reduz a progressão para displasia de alto grau e adenocarcinoma. Vigilância endoscópica intensiva (a cada 6 meses no primeiro ano e depois anual) é alternativa aceitável para quem prefere não tratar, mas não é a conduta preferida. Lesão visível exigiria ressecção endoscópica antes da ablação. Cirurgia antirrefluxo e escalada de IBP não revertem displasia.",
+  "porAlt": [
+   "Intervalo de 3 a 5 anos vale para Barrett sem displasia; na displasia de baixo grau a vigilância, se escolhida, é muito mais curta.",
+   "Correta: displasia de baixo grau confirmada por segundo patologista tem indicação de erradicação endoscópica, em geral por ablação.",
+   "A esofagectomia é desproporcional para displasia de baixo grau sem lesão visível e tem morbidade alta.",
+   "A fundoplicatura controla o refluxo, mas não demonstrou regressão confiável da displasia nem prevenção de câncer.",
+   "Escalar o IBP não trata a displasia, e esperar 3 anos expõe o paciente a progressão não detectada."
+  ]
+ },
+ {
+  "q": "Homem de 59 anos com DRGE de longa data, sem uso regular de remédio, fez endoscopia que mostrou mucosa de aspecto colunar estendendo-se 2 cm acima da junção esofagogástrica (Praga C1M2) e esofagite erosiva grau B de Los Angeles nas proximidades. As biópsias mostraram metaplasia intestinal com alterações classificadas como indefinidas para displasia, com intenso infiltrado inflamatório. Qual é a conduta mais adequada?",
+  "alts": [
+   "Ablação por radiofrequência de todo o segmento",
+   "Otimizar o IBP e repetir biópsias em 3 a 6 meses",
+   "Seguir a vigilância habitual de Barrett em 5 anos",
+   "Ressecção endoscópica da mucosa de todo o segmento",
+   "Tratar como alto grau e indicar a esofagectomia"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, conduta no Barrett indefinido para displasia",
+  "coment": "O laudo indefinido para displasia costuma refletir alterações regenerativas causadas pela inflamação, que o patologista não consegue separar de displasia verdadeira. A diretriz do ACG de 2022 recomenda otimizar a supressão ácida, em geral IBP duas vezes ao dia, e repetir a endoscopia com biópsias em 3 a 6 meses, quando a esofagite tiver cicatrizado. Se a nova biópsia mostrar displasia, a conduta passa a seguir o grau encontrado; se não mostrar, segue-se a vigilância do Barrett sem displasia. Ablar ou ressecar antes de esclarecer o laudo é tratar sem diagnóstico, e manter o intervalo de vigilância habitual ignora a possibilidade de displasia real.",
+  "porAlt": [
+   "A ablação é reservada a displasia confirmada; com laudo indefinido e esofagite, primeiro se esclarece o diagnóstico.",
+   "Correta: no Barrett indefinido para displasia otimiza-se o IBP e repete-se a biópsia em 3 a 6 meses, com a esofagite cicatrizada.",
+   "Seguir 5 anos ignora a chance de displasia verdadeira encoberta pela inflamação, que precisa ser esclarecida antes.",
+   "Ressecção endoscópica é indicada para lesão visível, e este segmento não tem nódulo nem área suspeita descrita.",
+   "Não se trata um laudo indefinido como alto grau, e a esofagectomia não é a conduta nem na displasia de alto grau."
+  ]
+ },
+ {
+  "q": "Mulher de 55 anos, com DRGE controlada com omeprazol 20 mg ao dia, fez endoscopia que mostrou língua de mucosa colunar de 2 cm acima da junção esofagogástrica, sem extensão circunferencial (Praga C0M2) e sem lesões visíveis. As biópsias confirmaram metaplasia intestinal sem displasia, revisadas por um segundo patologista. Está assintomática e sem comorbidades. Qual é o intervalo recomendado para a próxima endoscopia de vigilância?",
+  "alts": [
+   "Nova endoscopia com biópsias em 1 ano",
+   "Nova endoscopia com biópsias em 5 anos",
+   "Nova endoscopia com biópsias em 3 anos",
+   "Nenhuma, por se tratar de segmento curto",
+   "Ablação por radiofrequência, sem vigiar"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, intervalos de vigilância no Barrett sem displasia",
+  "coment": "A diretriz do ACG de 2022 alongou o intervalo de vigilância do Barrett de segmento curto. No Barrett sem displasia, recomenda endoscopia com biópsias pelo protocolo de Seattle a cada 5 anos quando a extensão máxima é menor que 3 cm, e a cada 3 anos quando é de 3 cm ou mais. O diagnóstico de Barrett exige pelo menos 1 cm de mucosa colunar com metaplasia intestinal; abaixo disso, na linha Z irregular, não se recomenda biopsiar nem vigiar. Com 2 cm, esta paciente tem Barrett e entra em vigilância. A ablação não é indicada sem displasia, porque o risco anual de câncer é baixo e o tratamento tem complicações como estenose.",
+  "porAlt": [
+   "Endoscopia anual não é recomendada no Barrett sem displasia e aumenta custo e risco sem benefício demonstrado.",
+   "Correta: Barrett sem displasia com menos de 3 cm de extensão segue vigilância endoscópica a cada 5 anos.",
+   "O intervalo de 3 anos vale para segmentos de 3 cm ou mais; com extensão de 2 cm, o intervalo é maior.",
+   "Só fica sem vigilância a mucosa colunar com menos de 1 cm; com 2 cm já é Barrett e precisa ser acompanhado.",
+   "A ablação não é indicada no Barrett sem displasia, pelo baixo risco de câncer e pelas complicações do tratamento."
+  ]
+ },
+ {
+  "q": "Mulher de 29 anos chega ao pronto-socorro 1 hora após ingerir, com intenção suicida, cerca de 50 mL de desentupidor de pia à base de hidróxido de sódio. Refere dor ao engolir e sialorreia. Está lúcida, sem estridor nem rouquidão, com pressão arterial de 118/76 mmHg, frequência cardíaca de 102 bpm, saturação de 98% em ar ambiente, abdome flácido e indolor, sem enfisema subcutâneo. A radiografia de tórax é normal. A família trouxe leite e vinagre por orientação de um vizinho. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Oferecer vinagre diluído para neutralizar a base",
+   "Jejum, suporte e estadiar a lesão por TC ou EDA",
+   "Induzir vômito e fazer lavagem gástrica com soro",
+   "Passar sonda nasogástrica às cegas e aspirá-la",
+   "Corticoide venoso para prevenir a estenose tardia"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "WSES Guidelines: Esophageal Emergencies 2019 e WSES Consensus Conference on Foregut Caustic Injuries 2015, manejo inicial da ingestão cáustica",
+  "coment": "Diante de ingestão cáustica, o atendimento inicial é de proteção: via aérea, acesso venoso, jejum e analgesia. O consenso da Sociedade Mundial de Cirurgia de Emergência (2015) proíbe neutralizar com ácido ou base fraca, porque a reação é exotérmica e amplia a queimadura, e contraindica vômito induzido e lavagem, que reexpõem o esôfago ao cáustico, além de sonda nasogástrica às cegas. A diretriz de 2019 da mesma sociedade coloca a tomografia contrastada como exame que estadia a necrose transmural e seleciona quem precisa de cirurgia; a endoscopia com classificação de Zargar fica para quando a tomografia é indisponível ou inconclusiva. Corticoide não é rotina. Por ser ingestão intencional, a avaliação psiquiátrica é obrigatória antes da alta.",
+  "porAlt": [
+   "Neutralizar é proibido: a reação química libera calor e aprofunda a queimadura já existente.",
+   "Correta: jejum e suporte, sem neutralizar, com estadiamento precoce por tomografia ou endoscopia, é a conduta inicial.",
+   "Vômito induzido e lavagem reexpõem esôfago e boca ao cáustico e aumentam o risco de perfuração e aspiração.",
+   "Sonda às cegas pode perfurar um esôfago queimado e não previne vômito nem estenose, devendo ser evitada.",
+   "O corticoide não é recomendado de rotina, pois não reduz estenose de forma consistente e mascara a perfuração."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos é levado ao pronto-socorro 4 horas após ingerir grande volume de ácido muriático com intenção suicida. Refere dor retroesternal e epigástrica intensa. Está ansioso, com pressão arterial de 104/66 mmHg após 1 litro de cristaloide, frequência cardíaca de 118 bpm, temperatura de 37,6 °C, defesa em epigástrio sem rigidez difusa. Lactato de 3,1 mmol/L, creatinina de 0,9 mg/dL. Radiografias de tórax e abdome em pé sem pneumoperitônio nem pneumomediastino. Qual é o exame mais adequado para definir a conduta?",
+  "alts": [
+   "Endoscopia imediata para classificar por Zargar",
+   "Esofagograma com bário para afastar a perfuração",
+   "Radiografias seriadas e observação por 24 horas",
+   "Ultrassonografia de abdome à beira do leito agora",
+   "Tomografia de tórax e abdome com contraste venoso"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r2",
+  "base": "WSES Guidelines: Esophageal Emergencies 2019, tomografia contrastada como exame de escolha na ingestão cáustica grave",
+  "coment": "Ingestão volumosa e intencional de ácido forte, com dor intensa, taquicardia, lactato elevado e defesa abdominal, sugere necrose transmural mesmo com radiografias normais, que têm baixa sensibilidade para perfuração inicial. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência coloca a tomografia com contraste venoso de tórax e abdome como exame que orienta a decisão: ausência de realce da parede esofágica ou gástrica, borramento da gordura e líquido livre indicam necrose transmural e cirurgia de urgência. A tomografia seleciona melhor que a endoscopia quem precisa ser operado, e a endoscopia nesse cenário traz risco de perfuração. O bário é contraindicado quando se suspeita de perfuração, pela mediastinite química.",
+  "porAlt": [
+   "A endoscopia é menos precisa que a tomografia para detectar necrose transmural e oferece risco de perfuração nesse quadro.",
+   "O bário extravasado causa mediastinite e peritonite graves, sendo contraindicado se há suspeita de perfuração.",
+   "Observar com radiografias atrasa a detecção da necrose, e o atraso cirúrgico eleva muito a mortalidade.",
+   "A ultrassonografia não avalia a parede esofágica nem o mediastino e não substitui a tomografia neste caso.",
+   "Correta: a tomografia contrastada identifica necrose transmural e define quem precisa de cirurgia de urgência."
+  ]
+ },
+ {
+  "q": "Homem de 35 anos ingeriu por acidente um gole de soda cáustica guardada em garrafa de refrigerante. Está estável, sem sinais de perfuração, e a tomografia não mostrou necrose transmural. A endoscopia feita no mesmo dia evidenciou úlceras profundas e circunferenciais no esôfago médio e distal, com áreas esbranquiçadas (Zargar 2B), e estômago com edema e erosões leves. Ele não tem estridor nem acometimento de via aérea. Qual é a conduta mais adequada para esse paciente?",
+  "alts": [
+   "Prednisolona em dose alta durante três semanas",
+   "Dilatação esofágica preventiva na primeira semana",
+   "Nutrição enteral, sem corticoide, e vigilância",
+   "Esofagectomia precoce para evitar a estenose",
+   "Jejum total e nutrição parenteral por 30 dias"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "WSES Consensus Conference on Foregut Caustic Injuries 2015, corticoide, nutrição e momento da dilatação",
+  "coment": "Lesões Zargar 2B têm alto risco de estenose esofágica, que surge em geral entre a 3ª semana e o 3º mês. O consenso de 2015 da Sociedade Mundial de Cirurgia de Emergência reserva corticoide a pacientes com acometimento de via aérea, sem uso rotineiro para prevenir estenose. A nutrição deve ser enteral e precoce, por sonda passada sob visão ou jejunostomia nas lesões graves. A dilatação, quando a estenose se instala, é feita a partir da 3ª semana, porque antes disso a parede está friável e o risco de perfuração é alto. A longo prazo, o esôfago queimado tem risco de carcinoma epidermoide cerca de mil vezes maior, com latência de 15 a 40 anos, o que justifica vigilância endoscópica.",
+  "porAlt": [
+   "Corticoide é reservado a lesão de via aérea e não é usado de rotina para prevenir estenose esofágica.",
+   "Dilatar na primeira semana, com a parede friável, tem alto risco de perfuração; o momento ideal é após a 3ª semana.",
+   "Correta: suporte com nutrição enteral precoce, sem corticoide, e vigilância de estenose e de câncer tardio.",
+   "Sem necrose transmural, não há indicação de ressecção, e a estenose, se surgir, é tratada com dilatação.",
+   "A via enteral é preferível à parenteral sempre que possível, e 30 dias de jejum total não têm justificativa."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos refere há 2 anos sensação de alimento parado na garganta, regurgitação de comida não digerida horas após as refeições, halitose e ruído de gorgolejo ao engolir. Teve duas pneumonias no último ano e perdeu 4 kg. Ao exame, há discreto abaulamento cervical à esquerda que diminui à compressão, com gorgolejo. Nega disfagia progressiva para líquidos e não tem sinais neurológicos focais. Qual é o exame inicial mais adequado?",
+  "alts": [
+   "Endoscopia digestiva alta imediatamente",
+   "Manometria do esôfago de alta resolução",
+   "Esofagograma baritado com perfil cervical",
+   "Tomografia de pescoço com contraste venoso",
+   "Ultrassonografia do pescoço com Doppler"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ESGE Guideline: Endoscopic management of gastrointestinal motility disorders, part 2, 2020, divertículo de Zenker",
+  "coment": "Disfagia alta, regurgitação tardia de alimento não digerido, halitose, gorgolejo cervical e pneumonias aspirativas em idoso compõem o quadro do divertículo de Zenker, uma herniação da mucosa pelo triângulo de Killian, acima do músculo cricofaríngeo, mais comum à esquerda. O esofagograma baritado com incidências laterais é o exame que confirma o diagnóstico, mede o tamanho da bolsa e orienta o tratamento. A endoscopia às cegas pode entrar no divertículo e perfurá-lo; quando feita, deve ser cuidadosa, para afastar carcinoma na bolsa, que é raro. A manometria não é necessária para o diagnóstico, e a tomografia e a ultrassonografia não definem a anatomia funcional da bolsa como o contraste.",
+  "porAlt": [
+   "A endoscopia às cegas pode intubar a bolsa e perfurá-la, por isso não é o primeiro exame quando se suspeita de Zenker.",
+   "A manometria investiga distúrbios motores e não é necessária para diagnosticar divertículo faringoesofágico.",
+   "Correta: o esofagograma baritado com perfil cervical confirma o divertículo de Zenker e mede seu tamanho.",
+   "A tomografia pode mostrar a bolsa por acaso, mas não é o exame de escolha para o diagnóstico de Zenker.",
+   "A ultrassonografia não caracteriza bem a bolsa nem o trânsito do contraste e não é exame diagnóstico aqui."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos, com insuficiência cardíaca de fração de ejeção de 32% e doença pulmonar obstrutiva crônica, tem divertículo de Zenker de 3,5 cm confirmado em esofagograma. Há 1 ano tem disfagia alta, regurgitação noturna e já foi internada duas vezes por pneumonia aspirativa. Perdeu 5 kg. Deseja continuar se alimentando pela boca. Qual é a conduta mais adequada?",
+  "alts": [
+   "Observação clínica, pois o divertículo é benigno",
+   "Dilatação do esfíncter esofágico superior a balão",
+   "Septotomia endoscópica com secção do cricofaríngeo",
+   "Diverticulectomia cervical aberta e sem miotomia",
+   "Gastrostomia com suspensão definitiva da via oral"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESGE Guideline: Endoscopic management of gastrointestinal motility disorders, part 2, 2020, tratamento do divertículo de Zenker sintomático",
+  "coment": "Divertículo de Zenker sintomático, com aspiração e perda de peso, tem indicação de tratamento. A diretriz da Sociedade Europeia de Endoscopia de 2020 recomenda tratar apenas divertículos sintomáticos e considera a abordagem endoscópica flexível uma opção segura e eficaz, especialmente em idosos com comorbidades. O passo essencial de qualquer técnica é seccionar o músculo cricofaríngeo, cuja disfunção gera a alta pressão que formou a bolsa; a septotomia endoscópica faz isso ao dividir o septo entre a bolsa e o esôfago. Retirar o divertículo sem miotomia deixa a causa e leva a recidiva e fístula. Em paciente frágil, com insuficiência cardíaca grave, a via endoscópica evita a cervicotomia e a anestesia prolongada.",
+  "porAlt": [
+   "Observar é inadequado com aspiração recorrente e perda de peso, que tornam o divertículo uma doença grave.",
+   "A dilatação isolada não trata a bolsa nem secciona o cricofaríngeo, tendo efeito pequeno e transitório.",
+   "Correta: em idosa frágil e sintomática, a septotomia endoscópica com secção do cricofaríngeo é a opção preferida.",
+   "Ressecar a bolsa sem miotomia do cricofaríngeo mantém a alta pressão e favorece recidiva e fístula.",
+   "Suspender a via oral não é necessário, pois existe tratamento eficaz e de baixo risco para o divertículo."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos, natural da zona rural do norte de Minas Gerais, tem disfagia para sólidos e líquidos há 6 anos, com perda de 8 kg e constipação crônica. Sorologia para Trypanosoma cruzi positiva por dois métodos; eletrocardiograma com bloqueio de ramo direito e bloqueio divisional anterossuperior; ecocardiograma com fração de ejeção de 58%. O esofagograma mostra esôfago com 6 cm de diâmetro, retenção de contraste e afilamento distal em bico de pássaro. Endoscopia com retroflexão sem lesão neoplásica. Qual é o melhor tratamento?",
+  "alts": [
+   "Esofagectomia subtotal pelo megaesôfago avançado",
+   "Cardiomiotomia a Heller com fundoplicatura parcial",
+   "Benznidazol para fazer regredir a dilatação do órgão",
+   "Nifedipino sublingual como tratamento definitivo",
+   "Toxina botulínica na cárdia repetida a cada 6 meses"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "II Consenso Brasileiro em Doença de Chagas 2015, forma digestiva; ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020",
+  "coment": "O megaesôfago chagásico resulta da destruição dos neurônios do plexo mioentérico pelo Trypanosoma cruzi e se comporta como acalasia. Com 6 cm de diâmetro, o paciente está no grupo II da classificação de Rezende (4 a 7 cm), forma não avançada. Nessa fase, o II Consenso Brasileiro em Doença de Chagas e a diretriz do ACG de 2020 para acalasia apontam a cardiomiotomia a Heller laparoscópica com fundoplicatura parcial como tratamento de escolha; dilatação pneumática e miotomia endoscópica são alternativas em centros experientes. Esofagectomia fica para o megaesôfago avançado, acima de 10 cm ou dolicomegaesôfago, ou após falha da miotomia. O tratamento antiparasitário não reverte a lesão neuronal estabelecida.",
+  "porAlt": [
+   "A esofagectomia é reservada ao megaesôfago avançado (grupo IV) ou à falha da miotomia, e aqui o diâmetro é de 6 cm.",
+   "Correta: no megaesôfago não avançado, a miotomia a Heller com fundoplicatura parcial é o tratamento de escolha.",
+   "O benznidazol não reverte a destruição neuronal já instalada e não melhora a disfagia do megaesôfago.",
+   "Bloqueadores de canal de cálcio têm efeito modesto e passageiro e servem apenas como ponte ou paliação.",
+   "A toxina botulínica tem efeito transitório e fica para quem não pode ser submetido a tratamento definitivo."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos tem há 1 ano disfagia para sólidos e líquidos e episódios de dor retroesternal intensa, em aperto, que a levaram três vezes ao pronto-socorro; a cineangiocoronariografia foi normal. Endoscopia com retroflexão sem lesões. Sorologia para doença de Chagas negativa. Manometria de alta resolução: pressão de relaxamento integrada de 24 mmHg (normal abaixo de 15 mmHg), nenhuma deglutição com peristalse normal e contrações prematuras, com latência distal menor que 4,5 s, em 40% das deglutições. Qual é o diagnóstico e o tratamento preferido?",
+  "alts": [
+   "Acalasia tipo II; dilatação pneumática graduada",
+   "Espasmo esofágico distal; nitrato e observação",
+   "Acalasia tipo III; miotomia endoscópica peroral",
+   "Esôfago hipercontrátil; IBP em dose dobrada diária",
+   "Obstrução da junção; toxina botulínica na cárdia"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Chicago Classification of Esophageal Motility Disorders v4.0, 2021; ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020, miotomia endoscópica no tipo III",
+  "coment": "Pela classificação de Chicago 4.0, a pressão de relaxamento integrada elevada com ausência de peristalse normal define acalasia; contrações prematuras (espásticas), com latência distal abaixo de 4,5 s em 20% ou mais das deglutições, caracterizam o tipo III. Espasmo esofágico distal exige relaxamento normal da junção, o que não ocorre aqui. O tipo III é o que responde pior à dilatação pneumática e à miotomia a Heller, porque o segmento espástico se estende pelo corpo do esôfago. A diretriz do ACG de 2020 favorece a miotomia endoscópica peroral, que permite miotomia longa sob medida, cobrindo todo o segmento espástico visto na manometria.",
+  "porAlt": [
+   "O tipo II tem pressurização panesofágica, não contrações prematuras, e a dilatação responde mal no tipo III.",
+   "O espasmo esofágico distal requer pressão de relaxamento integrada normal, e aqui ela está em 24 mmHg.",
+   "Correta: relaxamento alterado com contrações prematuras define acalasia tipo III, mais bem tratada por miotomia peroral.",
+   "O esôfago hipercontrátil tem contrações vigorosas com relaxamento normal da junção, e o IBP não o trata.",
+   "A obstrução ao fluxo exige alguma peristalse preservada, e a toxina só tem efeito transitório."
+  ]
+ },
+ {
+  "q": "Homem de 71 anos, tabagista de 50 maços-ano, tem disfagia progressiva para sólidos e depois para líquidos há 4 meses, com perda de 11 kg no período. A manometria de alta resolução mostrou pressão de relaxamento integrada de 26 mmHg e ausência de contrações em todas as deglutições. A endoscopia descreveu esôfago com resíduo alimentar e mucosa normal, com resistência firme à passagem do aparelho pela cárdia; a retroflexão não mostrou lesão. Sorologia para doença de Chagas negativa. Qual é a conduta mais adequada antes de tratar como acalasia?",
+  "alts": [
+   "Ecoendoscopia e tomografia para excluir neoplasia",
+   "Dilatação pneumática com base no laudo da manometria",
+   "Miotomia endoscópica peroral, eficaz em todo tipo",
+   "Toxina botulínica, pela idade e pela carga tabágica",
+   "Repetir a sorologia para Chagas por outro método"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020, exclusão de pseudoacalasia",
+  "coment": "Idade acima de 60 anos, disfagia de instalação recente (menos de 1 ano), emagrecimento acentuado e resistência à passagem do aparelho pela cárdia são os sinais que levantam pseudoacalasia, quadro manométrico idêntico ao da acalasia causado por infiltração neoplásica da junção esofagogástrica, em geral adenocarcinoma da cárdia, ou por tumores que comprimem a região. A diretriz do ACG de 2020 recomenda endoscopia com retroflexão em todos e, quando a suspeita persiste apesar de mucosa normal, ecoendoscopia ou tomografia, porque a infiltração pode ser submucosa. Dilatar ou fazer miotomia sobre um tumor atrasa o diagnóstico e pode perfurar. A sorologia negativa por métodos adequados já afasta a forma chagásica.",
+  "porAlt": [
+   "Correta: idade, curta evolução, emagrecimento e cárdia rígida exigem ecoendoscopia e tomografia antes de tratar.",
+   "Dilatar sem excluir neoplasia infiltrativa atrasa o diagnóstico e pode perfurar uma cárdia tumoral.",
+   "A miotomia não deve ser feita antes de afastar pseudoacalasia, que é a principal preocupação neste perfil.",
+   "A toxina é opção para idosos frágeis com acalasia comprovada, mas ainda falta excluir neoplasia neste paciente.",
+   "Repetir a sorologia não muda a prioridade, que é afastar câncer infiltrando a junção esofagogástrica."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos, com esclerose sistêmica cutânea limitada (fenômeno de Raynaud, esclerodactilia, telangiectasias e anticorpo anticentrômero positivo), refere pirose intensa e disfagia para sólidos há 2 anos. A endoscopia mostrou esofagite grau B de Los Angeles. A manometria de alta resolução registrou pressão de relaxamento integrada de 6 mmHg (normal abaixo de 15 mmHg) e 100% das deglutições com peristalse falha. Pela classificação de Chicago 4.0, qual é o diagnóstico manométrico?",
+  "alts": [
+   "Acalasia tipo I, com o esôfago sem contração",
+   "Motilidade esofágica ineficaz, forma conclusiva",
+   "Obstrução ao fluxo da junção esofagogástrica",
+   "Peristalse fragmentada com quebras extensas",
+   "Contratilidade ausente com relaxamento normal"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Chicago Classification of Esophageal Motility Disorders v4.0, 2021, contratilidade ausente e motilidade ineficaz",
+  "coment": "Na classificação de Chicago 4.0, o primeiro passo é avaliar o relaxamento da junção esofagogástrica pela pressão de relaxamento integrada. Com relaxamento normal e 100% das deglutições falhas, o diagnóstico é contratilidade ausente, padrão típico da esclerose sistêmica, em que a fibrose atinge a musculatura lisa do esôfago distal e o esfíncter inferior perde tônus, facilitando refluxo grave. Acalasia tipo I exige relaxamento alterado. A motilidade ineficaz exige mais de 70% de deglutições ineficazes ou pelo menos 50% de falhas, mas com alguma peristalse preservada. A consequência prática é que fundoplicatura total é desaconselhada, pelo risco de disfagia grave, e o controle do refluxo é clínico.",
+  "porAlt": [
+   "A acalasia tipo I exige pressão de relaxamento integrada elevada, e aqui o relaxamento é normal.",
+   "A motilidade ineficaz pressupõe alguma peristalse preservada, e nesta paciente todas as deglutições falharam.",
+   "A obstrução ao fluxo da junção exige relaxamento elevado, o que não ocorre com 6 mmHg.",
+   "Peristalse fragmentada não é mais diagnóstico na versão 4.0, e não descreve ausência total de contração.",
+   "Correta: relaxamento normal com 100% de peristalse falha define contratilidade ausente, comum na esclerose sistêmica."
+  ]
+ },
+ {
+  "q": "Homem de 23 anos, com asma, rinite alérgica e dermatite atópica, tem há 3 anos episódios de entalo com carne. Há 1 mês precisou de endoscopia para retirar um bolo alimentar impactado, sem coleta de biópsias. Usa omeprazol há 2 semanas. A nova endoscopia mostra anéis concêntricos, sulcos longitudinais e placas esbranquiçadas no esôfago. Hemograma com 650 eosinófilos/mm³. Qual conjunto de achados estabelece o diagnóstico de esofagite eosinofílica?",
+  "alts": [
+   "Disfunção esofágica e 15 ou mais eosinófilos por campo",
+   "Seis biópsias distais e 6 ou mais eosinófilos por campo",
+   "Falha de oito semanas de IBP antes de colher biópsias",
+   "IgE específica a alimentos no teste cutâneo de leitura",
+   "Eosinofilia periférica e achados típicos à endoscopia"
+  ],
+  "gab": 0,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Eosinophilic Esophagitis 2025, critérios diagnósticos e técnica de biópsia",
+  "coment": "Pela diretriz do ACG de 2025, a esofagite eosinofílica é diagnosticada pela combinação de sintomas de disfunção esofágica com pelo menos 15 eosinófilos por campo de grande aumento na biópsia, depois de excluídas outras causas de eosinofilia esofágica. Recomenda-se colher no mínimo seis fragmentos de pelo menos dois níveis (proximal ou médio e distal), porque o infiltrado é irregular, e usar escore endoscópico padronizado. A falha do IBP deixou de ser exigida para o diagnóstico; o IBP passou a ser uma das opções de tratamento, e seu uso prévio pode reduzir o infiltrado e mascarar a biópsia. Testes alérgicos cutâneos e eosinofilia periférica não confirmam nem excluem a doença.",
+  "porAlt": [
+   "Correta: sintomas de disfunção esofágica com 15 ou mais eosinófilos por campo, excluídas outras causas, fecham o diagnóstico.",
+   "Biópsias apenas distais e limiar de 6 eosinófilos não são critérios; colhem-se 6 fragmentos de 2 níveis com limiar de 15.",
+   "A falha do IBP deixou de ser exigida para o diagnóstico, e o IBP hoje é uma das opções de tratamento.",
+   "Testes cutâneos têm baixo valor preditivo e não fazem diagnóstico nem orientam bem a dieta de eliminação.",
+   "Eosinofilia periférica e achados endoscópicos sugerem a doença, mas o diagnóstico exige confirmação histológica."
+  ]
+ },
+ {
+  "q": "Mulher de 31 anos com esofagite eosinofílica diagnosticada há 2 anos respondeu bem à budesonida deglutida, mas suspendeu o tratamento por conta própria há 8 meses. Voltou a ter disfagia diária para sólidos e um episódio de impactação. A endoscopia mostra estenose de 10 mm no esôfago médio, que o aparelho padrão não ultrapassa, e as biópsias mostram 45 eosinófilos por campo de grande aumento. Qual é a conduta mais adequada?",
+  "alts": [
+   "Dilatação isolada, sem retomar o tratamento",
+   "Corticoide sistêmico por via oral por 8 semanas",
+   "Dilatar e retomar a terapia anti-inflamatória",
+   "Esofagectomia segmentar do trecho estreitado",
+   "Montelucaste isolado como manutenção crônica"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ACG Clinical Guideline: Diagnosis and Management of Eosinophilic Esophagitis 2025, dilatação de estenoses e terapia de manutenção",
+  "coment": "A esofagite eosinofílica é crônica e, sem tratamento, a inflamação persistente leva a fibrose e estenose. A diretriz do ACG de 2025 recomenda dilatação endoscópica para estenoses sintomáticas, procedimento seguro quando feito de forma gradual, mas lembra que a dilatação não trata a inflamação: deve ser associada a terapia anti-inflamatória, como corticoide tópico deglutido, IBP, dieta de eliminação ou dupilumabe nos não respondedores. Como a recidiva após suspensão é a regra, recomenda-se manutenção a longo prazo. Corticoide sistêmico não é recomendado, pelo perfil de efeitos adversos sem vantagem sobre o tópico, e montelucaste não tem eficácia demonstrada. Cirurgia não tem papel na estenose benigna dilatável.",
+  "porAlt": [
+   "Dilatar sem tratar a inflamação deixa a doença ativa e a estenose volta a se formar em pouco tempo.",
+   "O corticoide sistêmico não é recomendado, pois não supera o tópico e expõe a efeitos adversos importantes.",
+   "Correta: estenose com doença ativa pede dilatação associada à retomada de terapia anti-inflamatória de manutenção.",
+   "Estenose benigna que responde à dilatação não tem indicação de ressecção, cirurgia de alta morbidade.",
+   "O montelucaste não tem eficácia demonstrada na esofagite eosinofílica e não é recomendado."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos é trazido ao pronto-socorro 6 horas após uma festa com grande ingestão de álcool, durante a qual teve vários episódios de vômito vigoroso seguidos de dor retroesternal súbita e intensa, irradiada para o dorso. Está sudoreico, com frequência cardíaca de 116 bpm, pressão arterial de 102/64 mmHg, temperatura de 37,9 °C e crepitação à palpação da fossa supraclavicular. O eletrocardiograma mostra taquicardia sinusal. A radiografia de tórax mostra pneumomediastino e pequeno derrame pleural à esquerda. Qual é o exame mais adequado para confirmar o diagnóstico?",
+  "alts": [
+   "Endoscopia digestiva alta diagnóstica imediata",
+   "Esofagograma baritado como primeiro exame pedido",
+   "Troponinas seriadas e cineangiocoronariografia",
+   "Tomografia de tórax com contraste oral e venoso",
+   "Toracocentese diagnóstica e observação clínica"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "WSES Guidelines: Esophageal Emergencies 2019, tomografia com contraste oral na suspeita de perfuração esofágica",
+  "coment": "Vômitos vigorosos seguidos de dor torácica intensa e enfisema subcutâneo formam a tríade de Mackler da síndrome de Boerhaave, ruptura espontânea transmural, quase sempre na parede posterolateral esquerda do esôfago distal, o que explica o derrame pleural à esquerda. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência coloca a tomografia de tórax com contraste venoso e oral (esofagografia por tomografia) como exame de escolha: tem sensibilidade de 92 a 100%, localiza a lesão e mostra coleções mediastinais e pleurais que orientam a drenagem. O contraste oral deve ser hidrossolúvel. A mortalidade sobe de menos de 10% para cerca de 30% quando o tratamento passa de 24 horas, por isso o diagnóstico não pode atrasar.",
+  "porAlt": [
+   "A endoscopia pode ampliar a lesão ao insuflar ar e não avalia o mediastino, não sendo o exame inicial.",
+   "O bário extravasado provoca mediastinite química; quando se usa contraste, ele deve ser hidrossolúvel.",
+   "O eletrocardiograma não sugere isquemia, e o quadro com pneumomediastino aponta para perfuração esofágica.",
+   "Correta: a tomografia com contraste oral e venoso confirma a perfuração e mostra a extensão mediastinal e pleural.",
+   "A toracocentese pode ajudar depois, mas não confirma o diagnóstico e observar atrasa o tratamento."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos com acalasia tipo II foi submetida a dilatação pneumática com balão de 30 mm. Duas horas depois refere dor retroesternal moderada. Está estável, com frequência cardíaca de 92 bpm, temperatura de 36,8 °C e sem enfisema subcutâneo. A tomografia com contraste oral hidrossolúvel mostra pequeno extravasamento contido junto ao esôfago distal, sem derrame pleural, sem coleção e sem pneumoperitônio. Leucócitos de 9.800/mm³. Qual é a conduta mais adequada?",
+  "alts": [
+   "Esofagectomia de urgência por toracotomia",
+   "Alta com dieta líquida e retorno em 48 horas",
+   "Jejum, antibiótico e fechamento endoscópico",
+   "Repetir a dilatação para completar o efeito",
+   "Toracotomia e sutura primária em qualquer caso"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ESGE Position Statement: Diagnosis and management of iatrogenic endoscopic perforations, update 2020; WSES Guidelines: Esophageal Emergencies 2019",
+  "coment": "Perfuração iatrogênica reconhecida precocemente, pequena, contida e sem sepse é o cenário ideal para tratamento não operatório. A posição de 2020 da Sociedade Europeia de Endoscopia recomenda documentar a suspeita com tomografia e considerar fechamento endoscópico, com clipes ou prótese coberta, conforme o tamanho e a experiência local, além de jejum, antibiótico de amplo espectro e suporte nutricional. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência lista os critérios do manejo conservador: diagnóstico precoce, ausência de sepse, ruptura contida e vigilância por equipe experiente com cirurgia disponível. Piora clínica, falha do fechamento ou contaminação extensa indicam cirurgia. Alta precoce é inadequada.",
+  "porAlt": [
+   "A esofagectomia é desproporcional para perfuração pequena e contida em paciente estável e sem sepse.",
+   "Perfuração confirmada exige internação, jejum e antibiótico; alta precoce expõe a mediastinite não vigiada.",
+   "Correta: perfuração precoce, pequena e contida em paciente estável permite manejo conservador com fechamento endoscópico.",
+   "Nova dilatação ampliaria a perfuração e está contraindicada até a cicatrização completa da lesão.",
+   "A cirurgia é reservada a falha do tratamento conservador, sepse ou contaminação extensa, não a todos os casos."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos, sem alergias, fez endoscopia por dispepsia que mostrou úlcera duodenal de 7 mm com base limpa; o teste da urease na biópsia antral foi positivo. Nunca tratou Helicobacter pylori, mas usou claritromicina há 2 anos para sinusite. Não usa anti-inflamatório. Considerando a recomendação brasileira mais recente, qual é o esquema de primeira linha?",
+  "alts": [
+   "IBP, amoxicilina e claritromicina durante 7 dias",
+   "IBP, amoxicilina e levofloxacino durante 10 dias",
+   "IBP e amoxicilina em dose habitual por sete dias",
+   "IBP, bismuto, tetraciclina, metronidazol, 14 dias",
+   "IBP, claritromicina e metronidazol por dez dias"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "V Consenso Brasileiro sobre Helicobacter pylori 2026, terapia quádrupla com bismuto como primeira linha; ACG Clinical Guideline: Treatment of H. pylori Infection 2024",
+  "coment": "O V Consenso Brasileiro sobre Helicobacter pylori, publicado em 2026, substituiu o IV Consenso (2018), que aceitava a tripla com claritromicina como primeira linha. Pelo avanço da resistência a claritromicina e levofloxacino, a terapia quádrupla com bismuto passou a primeira linha: IBP em dose padrão ou vonoprazana duas vezes ao dia, subcitrato de bismuto, tetraciclina e metronidazol, por 10 a 14 dias; a diretriz do ACG de 2024 recomenda 14 dias. Como alternativas, o consenso lista esquemas com vonoprazana, não com IBP comum. O uso prévio de macrolídeo aumenta a chance de resistência e reforça evitar a claritromicina. A erradicação deve ser confirmada com teste respiratório ou antígeno fecal.",
+  "porAlt": [
+   "A tripla com IBP e claritromicina saiu da primeira linha pela resistência, ainda mais com uso prévio de macrolídeo.",
+   "O levofloxacino tem alta resistência no Brasil e fica para resgate, não para tratamento inicial.",
+   "A dupla só é alternativa com vonoprazana e amoxicilina em dose alta por 14 dias, não com IBP em dose habitual.",
+   "Correta: o V Consenso Brasileiro de 2026 coloca a quádrupla com bismuto como primeira linha, com 14 dias preferidos.",
+   "Esse esquema combina dois antibióticos com resistência crescente e não é recomendado como primeira linha."
+  ]
+ },
+ {
+  "q": "Homem de 42 anos, assintomático, vem à consulta preocupado porque o irmão mais velho recebeu diagnóstico de adenocarcinoma gástrico aos 49 anos. Não tem dispepsia, perda de peso nem anemia, e nunca foi testado ou tratado para Helicobacter pylori. Não usa anti-inflamatórios nem inibidor de bomba de prótons. Qual é a conduta recomendada em relação ao Helicobacter pylori?",
+  "alts": [
+   "Nenhuma conduta, por ele estar assintomático",
+   "Pesquisar H. pylori e erradicar se positivo",
+   "Sorologia anual para H. pylori como rastreio",
+   "Tratar de forma empírica, sem testar antes",
+   "Testar apenas se surgirem sinais de alarme"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r1",
+  "base": "V Consenso Brasileiro sobre Helicobacter pylori 2026, indicações de pesquisa e erradicação",
+  "coment": "Parentes de primeiro grau de pacientes com câncer gástrico têm risco aumentado, em parte por compartilharem a infecção por Helicobacter pylori adquirida na infância. O V Consenso Brasileiro de 2026 inclui esses parentes entre as indicações formais de pesquisa e erradicação, ao lado de úlcera péptica, linfoma MALT, condições pré-neoplásicas, dispepsia, anemia ferropriva sem causa e púrpura trombocitopênica imune, e reforça que todo infectado deve ser tratado. A pesquisa não invasiva preferida é o teste respiratório com ureia marcada ou o antígeno fecal monoclonal. Sorologia não diferencia infecção atual de passada e não serve para controle. Tratar sem testar expõe a antibióticos desnecessários.",
+  "porAlt": [
+   "A ausência de sintomas não afasta a indicação, pois o parentesco com câncer gástrico é indicação formal.",
+   "Correta: parente de primeiro grau de paciente com câncer gástrico deve ser testado e tratado se infectado.",
+   "A sorologia não distingue infecção atual de passada, e repeti-la anualmente não tem utilidade clínica.",
+   "Tratar sem confirmar a infecção expõe a antibióticos desnecessários e favorece resistência bacteriana.",
+   "Esperar sinais de alarme perde a janela de prevenção, que é a razão de testar esse paciente agora."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos tem úlceras duodenais recorrentes há 3 anos, uma delas pós-bulbar, e diarreia crônica que melhora com omeprazol. Não usa anti-inflamatórios e a pesquisa de Helicobacter pylori por histologia foi negativa. Em centro de referência, o omeprazol foi suspenso de forma supervisionada, com antagonista H2 até 48 horas antes da coleta. Gastrina sérica de jejum de 640 pg/mL (referência abaixo de 100 pg/mL) e pH gástrico de 1,6. Cálcio sérico normal. Qual é o próximo passo?",
+  "alts": [
+   "Diagnóstico firmado; indicar operação imediata",
+   "Repetir a gastrina com IBP em dose dobrada",
+   "Teste da secretina para confirmar gastrinoma",
+   "Dosar anticorpo anticélula parietal e biopsiar",
+   "Localizar o tumor por cintilografia diretamente"
+  ],
+  "gab": 2,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ENETS 2023 Guidance Paper for functioning pancreatic neuroendocrine tumour syndromes, diagnóstico bioquímico do gastrinoma",
+  "coment": "Úlceras recorrentes, pós-bulbares e diarreia que melhora com IBP sugerem síndrome de Zollinger-Ellison. O diagnóstico bioquímico exige gastrina elevada com pH gástrico ácido (abaixo de 2), o que afasta hipergastrinemia por hipocloridria, como na gastrite atrófica ou no uso de IBP. Gastrina acima de 10 vezes o limite superior com pH abaixo de 2 é diagnóstica; entre o limite e 10 vezes, como aqui (cerca de 6 vezes), a diretriz da Sociedade Europeia de Tumores Neuroendócrinos de 2023 indica teste da secretina, considerado positivo com aumento de pelo menos 120 pg/mL. A suspensão do IBP deve ser feita com cautela, pelo risco de complicação péptica. Só após a confirmação bioquímica vêm os exames de localização.",
+  "porAlt": [
+   "Com gastrina abaixo de 10 vezes o limite superior, o diagnóstico ainda não está firmado e exige teste provocativo.",
+   "O IBP eleva a gastrina por hipocloridria e invalidaria o exame, que deve ser feito sem o remédio.",
+   "Correta: gastrina entre 1 e 10 vezes o limite com pH ácido pede teste da secretina para confirmar o gastrinoma.",
+   "A gastrite atrófica autoimune cursa com pH alto, e o pH de 1,6 já afasta essa causa de hipergastrinemia.",
+   "Exames de localização, como a cintilografia, vêm depois da confirmação bioquímica, e não a substituem."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos tem síndrome de Zollinger-Ellison confirmada (gastrina de jejum de 1.850 pg/mL com pH gástrico de 1,2), com úlcera jejunal e diarreia de 6 evacuações por dia. Cálcio sérico de 11,2 mg/dL, paratormônio de 132 pg/mL e nefrolitíase prévia; um irmão tem prolactinoma. Os exames de localização estão agendados. Está sem sangramento ativo, hemodinamicamente estável. Qual é o tratamento inicial mais adequado para controlar a hipersecreção ácida?",
+  "alts": [
+   "Antagonista H2 em dose padrão duas vezes ao dia",
+   "Análogo de somatostatina como primeira escolha",
+   "Gastrectomia total para eliminar o órgão-alvo",
+   "IBP em dose alta, ajustada para controle ácido",
+   "IBP na dose habitual de úlcera duodenal comum"
+  ],
+  "gab": 3,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ENETS 2023 Guidance Paper for functioning pancreatic neuroendocrine tumour syndromes, controle da hipersecreção ácida no gastrinoma",
+  "coment": "O controle da hipersecreção ácida é a primeira prioridade no gastrinoma, porque as complicações pépticas, como perfuração, sangramento e estenose, eram a principal causa de morte antes dos IBP. A diretriz da Sociedade Europeia de Tumores Neuroendócrinos de 2023 recomenda IBP em doses mais altas que as usuais, por exemplo omeprazol 60 mg ao dia ou mais, ajustadas pela resposta clínica e, quando disponível, pela secreção ácida. Hipercalcemia com paratormônio elevado e parente com prolactinoma apontam neoplasia endócrina múltipla tipo 1, presente em cerca de 20 a 25% dos gastrinomas; corrigir o hiperparatireoidismo reduz a gastrina e a secreção ácida. Gastrectomia total para controle ácido foi abandonada.",
+  "porAlt": [
+   "Antagonistas H2 em dose padrão são insuficientes para a hipersecreção do gastrinoma e não são primeira escolha.",
+   "O análogo de somatostatina tem papel no controle tumoral, não como droga inicial para a secreção ácida.",
+   "A gastrectomia total para controle ácido foi abandonada desde que os IBP passaram a controlar a secreção.",
+   "Correta: o gastrinoma exige IBP em dose mais alta que a usual, titulada até o controle da secreção ácida.",
+   "A dose habitual de úlcera comum costuma ser insuficiente para a hipersecreção maciça do gastrinoma."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos fez gastrectomia subtotal com reconstrução a Billroth II por adenocarcinoma gástrico há 8 meses. Cerca de 2 horas após as refeições, apresenta sudorese, tremores, palpitações e confusão; uma glicemia capilar no episódio foi de 46 mg/dL, com melhora após ingerir açúcar. Há 3 meses segue orientação de nutricionista: refeições pequenas e frequentes, sem açúcares simples, com líquidos fora das refeições e mais fibras. Os episódios continuam, duas a três vezes por semana. Qual é a conduta mais adequada?",
+  "alts": [
+   "Octreotida de depósito como primeira medicação",
+   "Reoperação com conversão da alça para Y de Roux",
+   "Jejum prolongado de 72 horas para insulinoma",
+   "Suplemento oral rico em glicose nas refeições",
+   "Acarbose antes das refeições principais do dia"
+  ],
+  "gab": 4,
+  "tema": "gastro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "International consensus on the diagnosis and management of dumping syndrome 2020, tratamento do dumping tardio",
+  "coment": "Sintomas adrenérgicos e neuroglicopênicos 1 a 3 horas após a refeição, com hipoglicemia documentada, em paciente gastrectomizado, configuram dumping tardio: a chegada rápida de carboidrato ao intestino provoca hiperglicemia e resposta exagerada de insulina mediada por incretinas, seguida de hipoglicemia. O consenso internacional de 2020 coloca a adequação dietética como primeiro passo. Quando ela não basta, a acarbose, que retarda a absorção de carboidratos, é eficaz no dumping tardio. Os análogos de somatostatina ficam para quem não responde à dieta nem à acarbose, e a cirurgia é último recurso. O diagnóstico pode ser confirmado por teste oral de tolerância modificado, com hipoglicemia abaixo de 50 mg/dL.",
+  "porAlt": [
+   "Os análogos de somatostatina são reservados a quem falha com dieta e acarbose, não a primeira medicação.",
+   "A reoperação é o último recurso, depois de falharem dieta, acarbose e análogos de somatostatina.",
+   "Hipoglicemia pós-prandial após gastrectomia é dumping tardio; insulinoma causaria hipoglicemia de jejum.",
+   "Oferecer mais glicose agrava o pico de insulina que causa a hipoglicemia reativa e piora o quadro.",
+   "Correta: no dumping tardio que persiste apesar da dieta, a acarbose é o passo seguinte recomendado."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos, em uso de naproxeno para osteoartrite, chega com melena e tontura. Pressão arterial de 98/60 mmHg, frequência cardíaca de 108 bpm, hemoglobina de 6,8 g/dL e ureia de 92 mg/dL. Após ressuscitação e transfusão, a endoscopia feita em 10 horas mostra úlcera bulbar de 15 mm com vaso visível não sangrante (Forrest IIa), tratada com clipes e injeção de adrenalina, com hemostasia adequada. Qual é a conduta medicamentosa mais adequada após a endoscopia?",
+  "alts": [
+   "IBP oral em dose padrão uma vez ao dia, em jejum",
+   "IBP em dose alta por 3 dias e depois 2x ao dia",
+   "Ácido tranexâmico venoso pelas próximas 72 h",
+   "Octreotida em infusão contínua por cinco dias",
+   "Antagonista H2 venoso de 12 em 12 horas e alta"
+  ],
+  "gab": 1,
+  "tema": "gastro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r2",
+  "base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding 2021, IBP após hemostasia endoscópica",
+  "coment": "Vaso visível não sangrante tem alto risco de ressangramento e por isso recebe tratamento endoscópico, como foi feito. A diretriz do ACG de 2021 recomenda, após a hemostasia endoscópica, IBP em dose alta, contínua ou intermitente, por 3 dias, seguido de IBP oral duas vezes ao dia nas primeiras 2 semanas; a supressão ácida intensa estabiliza o coágulo, que se desfaz em pH baixo. A mesma diretriz sugere transfusão com hemoglobina abaixo de 7 g/dL, endoscopia em até 24 horas e, no ressangramento, nova endoscopia e, se falhar, embolização. Pesquisar Helicobacter pylori e suspender o anti-inflamatório completam a prevenção da recidiva. Ácido tranexâmico e octreotida não têm papel na úlcera péptica.",
+  "porAlt": [
+   "Dose padrão uma vez ao dia é insuficiente após hemostasia de lesão de alto risco nos primeiros dias.",
+   "Correta: após hemostasia endoscópica usa-se IBP em dose alta por 3 dias e depois duas vezes ao dia por 2 semanas.",
+   "O ácido tranexâmico não reduziu mortalidade no sangramento digestivo e aumentou eventos trombóticos.",
+   "A octreotida é usada no sangramento varicoso, não na úlcera péptica com hemostasia já obtida.",
+   "O antagonista H2 não mantém o pH gástrico alto de forma sustentada e não é recomendado nesse contexto."
+  ]
+ }
+]

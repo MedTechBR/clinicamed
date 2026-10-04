@@ -3978,6 +3978,678 @@ window.BANCO=[
 ]
 },
 {
+"q": "Homem de 34 anos, analista de sistemas, procura a unidade básica por pirose retroesternal três a quatro vezes por semana há 4 meses, com regurgitação ácida que piora quando se deita logo após o jantar. Nega disfagia, odinofagia, vômitos, perda de peso, hematêmese ou melena. Não tem história familiar de câncer gástrico ou esofágico. Usa antiácido à base de hidróxido de alumínio sob demanda, com alívio parcial. Índice de massa corporal de 27 kg/m², exame físico sem alterações, hemoglobina de 14,6 g/dL. Qual é a conduta inicial mais adequada?",
+"alts": [
+"Endoscopia digestiva alta antes de iniciar remédio",
+"pHmetria de 24 horas para confirmar o diagnóstico",
+"Antagonista H2 em dose dobrada por doze semanas",
+"IBP uma vez ao dia, antes do café, por 8 semanas",
+"Procinético associado ao IBP por quatro semanas"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, prova terapêutica empírica com IBP em sintomas típicos sem alarme",
+"coment": "Pirose e regurgitação típicas, em adulto jovem sem disfagia, perda de peso, sangramento, anemia ou vômitos, autorizam prova terapêutica. A diretriz do ACG de 2022 recomenda inibidor de bomba de prótons uma vez ao dia, 30 a 60 minutos antes da primeira refeição, por 8 semanas. Se houver resposta, tenta-se reduzir ou suspender o remédio na menor dose eficaz; se não houver, ou se os sintomas voltarem à retirada, indica-se endoscopia após 2 a 4 semanas sem o inibidor, e pHmetria se a endoscopia não mostrar esofagite. Medidas associadas: perda de peso, elevar a cabeceira e evitar refeições nas 2 a 3 horas antes de deitar. Procinético não é recomendado sem gastroparesia documentada.",
+"porAlt": [
+"Endoscopia de entrada é reservada a sinais de alarme ou falha da prova terapêutica, e nada disso existe neste paciente.",
+"A pHmetria entra depois de falha do IBP com endoscopia sem esofagite, não como primeiro passo em quadro típico.",
+"O antagonista H2 é inferior ao IBP na cicatrização e no controle dos sintomas, e não é a escolha inicial.",
+"Correta: sintomas típicos sem alarme justificam 8 semanas de IBP diário antes da primeira refeição como teste e tratamento.",
+"Procinéticos não são recomendados na DRGE sem gastroparesia e acrescentam efeitos adversos sem benefício."
+]
+},
+{
+"q": "Mulher de 63 anos refere pirose há cerca de 10 anos, tratada com omeprazol de forma irregular. Há 3 meses passou a ter sensação de entalo retroesternal com carne e pão, que vem piorando, e perdeu 6 kg (de 68 para 62 kg) sem intenção. Nega hematêmese e melena. Exames: hemoglobina de 10,9 g/dL, volume corpuscular médio de 74 fL, ferritina de 9 ng/mL. Exame físico sem linfonodomegalias e abdome sem massas. Qual é a conduta mais adequada?",
+"alts": [
+"Dobrar o omeprazol e reavaliar após 8 semanas",
+"Esofagograma com bário como exame de entrada",
+"Endoscopia digestiva alta e biópsia das lesões",
+"Manometria esofágica de alta resolução inicial",
+"pHmetria de 24 horas com o omeprazol suspenso"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, endoscopia precoce diante de sinais de alarme",
+"coment": "Disfagia progressiva, perda ponderal involuntária e anemia ferropriva são sinais de alarme que retiram a paciente do caminho da prova terapêutica. Pela diretriz do ACG de 2022, quem tem disfagia ou outros sinais de alarme deve fazer endoscopia digestiva alta, que permite ver estenose péptica, esofagite grave, esôfago de Barrett ou neoplasia e biopsiar o que for suspeito. Em pirose de longa data, mulher acima de 60 anos e disfagia nova, o adenocarcinoma de esôfago e o da cárdia precisam ser afastados primeiro. O esofagograma baritado não é recomendado como exame isolado para diagnosticar DRGE, e manometria e pHmetria são exames funcionais que só fazem sentido depois de excluída lesão estrutural.",
+"porAlt": [
+"Escalar o IBP sem investigar atrasa o diagnóstico de uma possível neoplasia em paciente com vários sinais de alarme.",
+"O esofagograma não substitui a endoscopia, porque não permite biópsia nem caracteriza bem lesões de mucosa.",
+"Correta: disfagia, emagrecimento e anemia são sinais de alarme e exigem endoscopia com biópsia antes de qualquer outra conduta.",
+"A manometria investiga motilidade e só é indicada depois que a endoscopia afasta causa estrutural da disfagia.",
+"A pHmetria quantifica refluxo, mas não responde à pergunta urgente aqui, que é se existe lesão neoplásica."
+]
+},
+{
+"q": "Mulher de 41 anos tem pirose diária que não melhorou com 8 semanas de omeprazol 40 mg duas vezes ao dia. Endoscopia feita após 3 semanas sem o remédio foi normal, e as biópsias esofágicas não mostraram eosinófilos. A manometria de alta resolução foi normal. A pH-impedanciometria de 24 horas sem inibidor mostrou tempo de exposição ácida de 2,1%, 38 episódios de refluxo e probabilidade de associação de sintomas de 98%. Qual é o diagnóstico mais provável?",
+"alts": [
+"Doença do refluxo não erosiva confirmada",
+"Pirose funcional sem relação com refluxo",
+"Refluxo inconclusivo em zona intermediária",
+"Hipersensibilidade esofágica ao refluxo",
+"Esofagite eosinofílica ainda não detectada"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Consenso de Lyon 2.0, 2023, limiares do tempo de exposição ácida; Critérios de Roma IV, 2016, distúrbios esofágicos funcionais",
+"coment": "Pelo Consenso de Lyon 2.0 (2023), tempo de exposição ácida abaixo de 4% é normal, entre 4 e 6% é inconclusivo e acima de 6% confirma DRGE. Aqui a exposição é normal, o número de episódios também (abaixo de 40 é considerado normal), e endoscopia e biópsias são normais. O que muda o diagnóstico é a associação sintoma-refluxo positiva: episódios fisiológicos de refluxo desencadeiam a pirose. Os critérios de Roma IV chamam isso de hipersensibilidade ao refluxo; se a associação fosse negativa, seria pirose funcional. A conduta privilegia neuromoduladores e terapia comportamental, e não escalada do IBP. A cirurgia antirrefluxo deve ser vista com cautela nesse perfil, porque não há refluxo patológico documentado.",
+"porAlt": [
+"Exposição ácida de 2,1% com endoscopia normal afasta DRGE comprovada, que exige mais de 6% ou esofagite relevante.",
+"A pirose funcional pressupõe associação negativa entre sintomas e refluxo, e aqui a probabilidade de associação é de 98%.",
+"A zona inconclusiva do Lyon 2.0 vai de 4 a 6% de exposição ácida, e o valor desta paciente está abaixo de 4%.",
+"Correta: exposição ácida normal com forte associação entre sintomas e refluxo define hipersensibilidade ao refluxo.",
+"As biópsias foram colhidas e não mostraram eosinófilos, o que torna essa hipótese improvável neste momento."
+]
+},
+{
+"q": "Homem de 52 anos, índice de massa corporal de 26 kg/m², tem DRGE há 8 anos. Com pantoprazol 40 mg ao dia, a pirose está controlada, mas persiste regurgitação volumosa quase diária, com tosse noturna e dois episódios de engasgo ao acordar. Endoscopia prévia mostrou esofagite grau C de Los Angeles e hérnia hiatal de 4 cm; a pHmetria sem inibidor revelou tempo de exposição ácida de 11%. A manometria de alta resolução mostrou peristalse normal. Ele não quer usar remédio a vida toda. Qual é a melhor conduta?",
+"alts": [
+"Manter o IBP e repetir endoscopia em 1 ano",
+"Fundoplicatura transoral sem tratar a hérnia",
+"Acrescentar procinético e dobrar o pantoprazol",
+"Fundoplicatura com correção da hérnia hiatal",
+"Trocar o IBP por antagonista H2 ao deitar-se"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, indicações de cirurgia antirrefluxo",
+"coment": "O paciente reúne o perfil que a diretriz do ACG de 2022 aponta como bom candidato à cirurgia: DRGE objetivamente comprovada (esofagite grau C e exposição ácida de 11%), sintoma de regurgitação que o IBP não controla, hérnia hiatal volumosa e desejo de não depender de remédio. O IBP controla a acidez, não o volume refluído, e por isso a regurgitação persiste. A manometria prévia é obrigatória para afastar acalasia e contratilidade ausente, que contraindicam fundoplicatura total. A fundoplicatura transoral sem incisão só é opção sem hérnia maior que 2 cm e sem esofagite grave; o aumento magnético do esfíncter é alternativa em casos selecionados. Hérnia de 4 cm precisa ser reduzida e o hiato, fechado.",
+"porAlt": [
+"Manter o IBP não resolve a regurgitação com tosse e engasgo, que expõe o paciente a aspiração repetida.",
+"A fundoplicatura transoral só é considerada sem hérnia maior que 2 cm e sem esofagite grave, o que não é o caso.",
+"Procinéticos não são recomendados na DRGE e dobrar o IBP não age sobre o volume regurgitado.",
+"Correta: DRGE comprovada com regurgitação refratária e hérnia hiatal é a indicação clássica de fundoplicatura com hiatoplastia.",
+"O antagonista H2 é menos potente que o IBP e pioraria o controle ácido sem melhorar a regurgitação."
+]
+},
+{
+"q": "Mulher de 45 anos, índice de massa corporal de 42 kg/m², com hipertensão e diabetes tipo 2, tem pirose e regurgitação há 6 anos. A endoscopia mostrou esofagite grau B de Los Angeles e hérnia hiatal de 2 cm; a pHmetria sem inibidor mostrou tempo de exposição ácida de 9%. Mesmo com IBP em dose dobrada, a regurgitação persiste. A manometria é normal. Ela já tentou perda de peso com dieta e atividade física, sem sucesso, e deseja tratamento cirúrgico. Qual opção cirúrgica é a mais adequada?",
+"alts": [
+"Gastrectomia vertical em manga laparoscópica",
+"Fundoplicatura de Nissen laparoscópica total",
+"Banda gástrica ajustável por laparoscopia",
+"Aumento magnético do esfíncter esofágico",
+"Bypass gástrico em Y de Roux laparoscópico"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline for the Diagnosis and Management of GERD 2022, cirurgia antirrefluxo em pacientes com obesidade",
+"coment": "Em obesidade grave com DRGE comprovada, a diretriz do ACG de 2022 orienta considerar o bypass gástrico em Y de Roux, que trata as duas doenças: a pequena bolsa gástrica produz pouco ácido e a reconstrução em Y desvia a bile. A fundoplicatura isolada em índice de massa corporal acima de 35 tem taxa maior de falha e recidiva da hérnia, e não trata a obesidade nem o diabetes. A gastrectomia vertical aumenta a pressão intragástrica e com frequência piora ou desencadeia DRGE, além de associar-se a esôfago de Barrett novo; em quem já tem refluxo importante, costuma ser evitada. A banda gástrica caiu em desuso pelos maus resultados de longo prazo.",
+"porAlt": [
+"A gastrectomia vertical tende a piorar o refluxo e a induzir Barrett, por isso é evitada em quem já tem DRGE importante.",
+"A fundoplicatura em obesidade grave falha mais e deixa sem tratamento a obesidade e as comorbidades metabólicas.",
+"A banda gástrica tem maus resultados a longo prazo e pode piorar o refluxo, tendo caído em desuso.",
+"O aumento magnético do esfíncter não trata a obesidade e foi pouco estudado com índice de massa acima de 35.",
+"Correta: o bypass em Y de Roux trata a obesidade e a DRGE ao mesmo tempo e é a opção preferida nesse perfil."
+]
+},
+{
+"q": "Homem de 61 anos, branco, tabagista de 30 maços-ano, com índice de massa corporal de 33 kg/m² e circunferência abdominal de 112 cm, tem pirose semanal há mais de 15 anos, bem controlada com omeprazol sob demanda. Nega disfagia, emagrecimento e sangramento. O pai teve adenocarcinoma de esôfago aos 70 anos. Nunca fez endoscopia. Hemoglobina normal. Do ponto de vista de rastreamento de esôfago de Barrett, qual é a conduta recomendada?",
+"alts": [
+"Não rastrear, pois não há nenhum sinal de alarme",
+"Endoscopia única para rastreio de Barrett agora",
+"Endoscopia anual enquanto houver pirose semanal",
+"pHmetria antes, para quantificar o refluxo ácido",
+"Rastrear só se a pirose deixar de responder ao IBP"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, rastreamento em DRGE crônica com 3 ou mais fatores de risco",
+"coment": "A diretriz do ACG de 2022 sugere rastreamento único de esôfago de Barrett em pessoas com DRGE crônica e pelo menos três fatores de risco: sexo masculino, idade acima de 50 anos, raça branca, tabagismo, obesidade central e parente de primeiro grau com Barrett ou adenocarcinoma de esôfago. Este paciente tem todos. O rastreio independe de sinal de alarme e de resposta ao IBP; aliás, o bom controle dos sintomas não reduz a chance de Barrett. A endoscopia é o método padrão, e a diretriz passou a aceitar métodos não endoscópicos com cápsula-esponja como alternativa. Se o exame inicial for normal, não se recomenda repetir o rastreio.",
+"porAlt": [
+"O rastreio de Barrett é indicado pelos fatores de risco, independentemente de sinais de alarme, que levariam a endoscopia diagnóstica.",
+"Correta: DRGE crônica com mais de três fatores de risco justifica uma endoscopia única de rastreamento de Barrett.",
+"Não há indicação de endoscopia anual; se o rastreio inicial for normal, não se recomenda repeti-lo.",
+"A pHmetria não detecta metaplasia e não muda a indicação de rastreio neste paciente de alto risco.",
+"A resposta ao IBP não diz nada sobre a presença de Barrett, que muitas vezes coexiste com sintomas controlados."
+]
+},
+{
+"q": "Homem de 66 anos com esôfago de Barrett conhecido (Praga C3M5) fez endoscopia de vigilância com cromoscopia virtual, sem lesões visíveis, e biópsias pelo protocolo de Seattle. O laudo mostrou displasia de baixo grau em dois fragmentos, diagnóstico confirmado por um segundo patologista com experiência em esôfago. A biópsia foi feita sem esofagite, em uso regular de esomeprazol 40 mg duas vezes ao dia. Ele é ativo e sem comorbidades relevantes. Qual é a conduta preferida?",
+"alts": [
+"Manter vigilância endoscópica a cada 3 a 5 anos",
+"Terapia de erradicação endoscópica com ablação",
+"Esofagectomia, pelo risco de câncer invasivo",
+"Fundoplicatura para fazer a displasia regredir",
+"Dobrar o IBP e repetir as biópsias em 3 anos"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, terapia de erradicação endoscópica na displasia de baixo grau",
+"coment": "A displasia de baixo grau em Barrett é superdiagnosticada, por isso a primeira providência é confirmá-la com patologista experiente, o que já foi feito, e excluir esofagite, que confunde a leitura. Confirmada, a diretriz do ACG de 2022 recomenda terapia de erradicação endoscópica, em geral ablação por radiofrequência, porque reduz a progressão para displasia de alto grau e adenocarcinoma. Vigilância endoscópica intensiva (a cada 6 meses no primeiro ano e depois anual) é alternativa aceitável para quem prefere não tratar, mas não é a conduta preferida. Lesão visível exigiria ressecção endoscópica antes da ablação. Cirurgia antirrefluxo e escalada de IBP não revertem displasia.",
+"porAlt": [
+"Intervalo de 3 a 5 anos vale para Barrett sem displasia; na displasia de baixo grau a vigilância, se escolhida, é muito mais curta.",
+"Correta: displasia de baixo grau confirmada por segundo patologista tem indicação de erradicação endoscópica, em geral por ablação.",
+"A esofagectomia é desproporcional para displasia de baixo grau sem lesão visível e tem morbidade alta.",
+"A fundoplicatura controla o refluxo, mas não demonstrou regressão confiável da displasia nem prevenção de câncer.",
+"Escalar o IBP não trata a displasia, e esperar 3 anos expõe o paciente a progressão não detectada."
+]
+},
+{
+"q": "Homem de 59 anos com DRGE de longa data, sem uso regular de remédio, fez endoscopia que mostrou mucosa de aspecto colunar estendendo-se 2 cm acima da junção esofagogástrica (Praga C1M2) e esofagite erosiva grau B de Los Angeles nas proximidades. As biópsias mostraram metaplasia intestinal com alterações classificadas como indefinidas para displasia, com intenso infiltrado inflamatório. Qual é a conduta mais adequada?",
+"alts": [
+"Ablação por radiofrequência de todo o segmento",
+"Otimizar o IBP e repetir biópsias em 3 a 6 meses",
+"Seguir a vigilância habitual de Barrett em 5 anos",
+"Ressecção endoscópica da mucosa de todo o segmento",
+"Tratar como alto grau e indicar a esofagectomia"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, conduta no Barrett indefinido para displasia",
+"coment": "O laudo indefinido para displasia costuma refletir alterações regenerativas causadas pela inflamação, que o patologista não consegue separar de displasia verdadeira. A diretriz do ACG de 2022 recomenda otimizar a supressão ácida, em geral IBP duas vezes ao dia, e repetir a endoscopia com biópsias em 3 a 6 meses, quando a esofagite tiver cicatrizado. Se a nova biópsia mostrar displasia, a conduta passa a seguir o grau encontrado; se não mostrar, segue-se a vigilância do Barrett sem displasia. Ablar ou ressecar antes de esclarecer o laudo é tratar sem diagnóstico, e manter o intervalo de vigilância habitual ignora a possibilidade de displasia real.",
+"porAlt": [
+"A ablação é reservada a displasia confirmada; com laudo indefinido e esofagite, primeiro se esclarece o diagnóstico.",
+"Correta: no Barrett indefinido para displasia otimiza-se o IBP e repete-se a biópsia em 3 a 6 meses, com a esofagite cicatrizada.",
+"Seguir 5 anos ignora a chance de displasia verdadeira encoberta pela inflamação, que precisa ser esclarecida antes.",
+"Ressecção endoscópica é indicada para lesão visível, e este segmento não tem nódulo nem área suspeita descrita.",
+"Não se trata um laudo indefinido como alto grau, e a esofagectomia não é a conduta nem na displasia de alto grau."
+]
+},
+{
+"q": "Mulher de 55 anos, com DRGE controlada com omeprazol 20 mg ao dia, fez endoscopia que mostrou língua de mucosa colunar de 2 cm acima da junção esofagogástrica, sem extensão circunferencial (Praga C0M2) e sem lesões visíveis. As biópsias confirmaram metaplasia intestinal sem displasia, revisadas por um segundo patologista. Está assintomática e sem comorbidades. Qual é o intervalo recomendado para a próxima endoscopia de vigilância?",
+"alts": [
+"Nova endoscopia com biópsias em 1 ano",
+"Nova endoscopia com biópsias em 5 anos",
+"Nova endoscopia com biópsias em 3 anos",
+"Nenhuma, por se tratar de segmento curto",
+"Ablação por radiofrequência, sem vigiar"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Barrett's Esophagus 2022, intervalos de vigilância no Barrett sem displasia",
+"coment": "A diretriz do ACG de 2022 alongou o intervalo de vigilância do Barrett de segmento curto. No Barrett sem displasia, recomenda endoscopia com biópsias pelo protocolo de Seattle a cada 5 anos quando a extensão máxima é menor que 3 cm, e a cada 3 anos quando é de 3 cm ou mais. O diagnóstico de Barrett exige pelo menos 1 cm de mucosa colunar com metaplasia intestinal; abaixo disso, na linha Z irregular, não se recomenda biopsiar nem vigiar. Com 2 cm, esta paciente tem Barrett e entra em vigilância. A ablação não é indicada sem displasia, porque o risco anual de câncer é baixo e o tratamento tem complicações como estenose.",
+"porAlt": [
+"Endoscopia anual não é recomendada no Barrett sem displasia e aumenta custo e risco sem benefício demonstrado.",
+"Correta: Barrett sem displasia com menos de 3 cm de extensão segue vigilância endoscópica a cada 5 anos.",
+"O intervalo de 3 anos vale para segmentos de 3 cm ou mais; com extensão de 2 cm, o intervalo é maior.",
+"Só fica sem vigilância a mucosa colunar com menos de 1 cm; com 2 cm já é Barrett e precisa ser acompanhado.",
+"A ablação não é indicada no Barrett sem displasia, pelo baixo risco de câncer e pelas complicações do tratamento."
+]
+},
+{
+"q": "Mulher de 29 anos chega ao pronto-socorro 1 hora após ingerir, com intenção suicida, cerca de 50 mL de desentupidor de pia à base de hidróxido de sódio. Refere dor ao engolir e sialorreia. Está lúcida, sem estridor nem rouquidão, com pressão arterial de 118/76 mmHg, frequência cardíaca de 102 bpm, saturação de 98% em ar ambiente, abdome flácido e indolor, sem enfisema subcutâneo. A radiografia de tórax é normal. A família trouxe leite e vinagre por orientação de um vizinho. Qual é a conduta inicial mais adequada?",
+"alts": [
+"Oferecer vinagre diluído para neutralizar a base",
+"Jejum, suporte e estadiar a lesão por TC ou EDA",
+"Induzir vômito e fazer lavagem gástrica com soro",
+"Passar sonda nasogástrica às cegas e aspirá-la",
+"Corticoide venoso para prevenir a estenose tardia"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "WSES Guidelines: Esophageal Emergencies 2019 e WSES Consensus Conference on Foregut Caustic Injuries 2015, manejo inicial da ingestão cáustica",
+"coment": "Diante de ingestão cáustica, o atendimento inicial é de proteção: via aérea, acesso venoso, jejum e analgesia. O consenso da Sociedade Mundial de Cirurgia de Emergência (2015) proíbe neutralizar com ácido ou base fraca, porque a reação é exotérmica e amplia a queimadura, e contraindica vômito induzido e lavagem, que reexpõem o esôfago ao cáustico, além de sonda nasogástrica às cegas. A diretriz de 2019 da mesma sociedade coloca a tomografia contrastada como exame que estadia a necrose transmural e seleciona quem precisa de cirurgia; a endoscopia com classificação de Zargar fica para quando a tomografia é indisponível ou inconclusiva. Corticoide não é rotina. Por ser ingestão intencional, a avaliação psiquiátrica é obrigatória antes da alta.",
+"porAlt": [
+"Neutralizar é proibido: a reação química libera calor e aprofunda a queimadura já existente.",
+"Correta: jejum e suporte, sem neutralizar, com estadiamento precoce por tomografia ou endoscopia, é a conduta inicial.",
+"Vômito induzido e lavagem reexpõem esôfago e boca ao cáustico e aumentam o risco de perfuração e aspiração.",
+"Sonda às cegas pode perfurar um esôfago queimado e não previne vômito nem estenose, devendo ser evitada.",
+"O corticoide não é recomendado de rotina, pois não reduz estenose de forma consistente e mascara a perfuração."
+]
+},
+{
+"q": "Homem de 47 anos é levado ao pronto-socorro 4 horas após ingerir grande volume de ácido muriático com intenção suicida. Refere dor retroesternal e epigástrica intensa. Está ansioso, com pressão arterial de 104/66 mmHg após 1 litro de cristaloide, frequência cardíaca de 118 bpm, temperatura de 37,6 °C, defesa em epigástrio sem rigidez difusa. Lactato de 3,1 mmol/L, creatinina de 0,9 mg/dL. Radiografias de tórax e abdome em pé sem pneumoperitônio nem pneumomediastino. Qual é o exame mais adequado para definir a conduta?",
+"alts": [
+"Endoscopia imediata para classificar por Zargar",
+"Esofagograma com bário para afastar a perfuração",
+"Radiografias seriadas e observação por 24 horas",
+"Ultrassonografia de abdome à beira do leito agora",
+"Tomografia de tórax e abdome com contraste venoso"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "WSES Guidelines: Esophageal Emergencies 2019, tomografia contrastada como exame de escolha na ingestão cáustica grave",
+"coment": "Ingestão volumosa e intencional de ácido forte, com dor intensa, taquicardia, lactato elevado e defesa abdominal, sugere necrose transmural mesmo com radiografias normais, que têm baixa sensibilidade para perfuração inicial. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência coloca a tomografia com contraste venoso de tórax e abdome como exame que orienta a decisão: ausência de realce da parede esofágica ou gástrica, borramento da gordura e líquido livre indicam necrose transmural e cirurgia de urgência. A tomografia seleciona melhor que a endoscopia quem precisa ser operado, e a endoscopia nesse cenário traz risco de perfuração. O bário é contraindicado quando se suspeita de perfuração, pela mediastinite química.",
+"porAlt": [
+"A endoscopia é menos precisa que a tomografia para detectar necrose transmural e oferece risco de perfuração nesse quadro.",
+"O bário extravasado causa mediastinite e peritonite graves, sendo contraindicado se há suspeita de perfuração.",
+"Observar com radiografias atrasa a detecção da necrose, e o atraso cirúrgico eleva muito a mortalidade.",
+"A ultrassonografia não avalia a parede esofágica nem o mediastino e não substitui a tomografia neste caso.",
+"Correta: a tomografia contrastada identifica necrose transmural e define quem precisa de cirurgia de urgência."
+]
+},
+{
+"q": "Homem de 35 anos ingeriu por acidente um gole de soda cáustica guardada em garrafa de refrigerante. Está estável, sem sinais de perfuração, e a tomografia não mostrou necrose transmural. A endoscopia feita no mesmo dia evidenciou úlceras profundas e circunferenciais no esôfago médio e distal, com áreas esbranquiçadas (Zargar 2B), e estômago com edema e erosões leves. Ele não tem estridor nem acometimento de via aérea. Qual é a conduta mais adequada para esse paciente?",
+"alts": [
+"Prednisolona em dose alta durante três semanas",
+"Dilatação esofágica preventiva na primeira semana",
+"Nutrição enteral, sem corticoide, e vigilância",
+"Esofagectomia precoce para evitar a estenose",
+"Jejum total e nutrição parenteral por 30 dias"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "WSES Consensus Conference on Foregut Caustic Injuries 2015, corticoide, nutrição e momento da dilatação",
+"coment": "Lesões Zargar 2B têm alto risco de estenose esofágica, que surge em geral entre a 3ª semana e o 3º mês. O consenso de 2015 da Sociedade Mundial de Cirurgia de Emergência reserva corticoide a pacientes com acometimento de via aérea, sem uso rotineiro para prevenir estenose. A nutrição deve ser enteral e precoce, por sonda passada sob visão ou jejunostomia nas lesões graves. A dilatação, quando a estenose se instala, é feita a partir da 3ª semana, porque antes disso a parede está friável e o risco de perfuração é alto. A longo prazo, o esôfago queimado tem risco de carcinoma epidermoide cerca de mil vezes maior, com latência de 15 a 40 anos, o que justifica vigilância endoscópica.",
+"porAlt": [
+"Corticoide é reservado a lesão de via aérea e não é usado de rotina para prevenir estenose esofágica.",
+"Dilatar na primeira semana, com a parede friável, tem alto risco de perfuração; o momento ideal é após a 3ª semana.",
+"Correta: suporte com nutrição enteral precoce, sem corticoide, e vigilância de estenose e de câncer tardio.",
+"Sem necrose transmural, não há indicação de ressecção, e a estenose, se surgir, é tratada com dilatação.",
+"A via enteral é preferível à parenteral sempre que possível, e 30 dias de jejum total não têm justificativa."
+]
+},
+{
+"q": "Homem de 74 anos refere há 2 anos sensação de alimento parado na garganta, regurgitação de comida não digerida horas após as refeições, halitose e ruído de gorgolejo ao engolir. Teve duas pneumonias no último ano e perdeu 4 kg. Ao exame, há discreto abaulamento cervical à esquerda que diminui à compressão, com gorgolejo. Nega disfagia progressiva para líquidos e não tem sinais neurológicos focais. Qual é o exame inicial mais adequado?",
+"alts": [
+"Endoscopia digestiva alta imediatamente",
+"Manometria do esôfago de alta resolução",
+"Esofagograma baritado com perfil cervical",
+"Tomografia de pescoço com contraste venoso",
+"Ultrassonografia do pescoço com Doppler"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESGE Guideline: Endoscopic management of gastrointestinal motility disorders, part 2, 2020, divertículo de Zenker",
+"coment": "Disfagia alta, regurgitação tardia de alimento não digerido, halitose, gorgolejo cervical e pneumonias aspirativas em idoso compõem o quadro do divertículo de Zenker, uma herniação da mucosa pelo triângulo de Killian, acima do músculo cricofaríngeo, mais comum à esquerda. O esofagograma baritado com incidências laterais é o exame que confirma o diagnóstico, mede o tamanho da bolsa e orienta o tratamento. A endoscopia às cegas pode entrar no divertículo e perfurá-lo; quando feita, deve ser cuidadosa, para afastar carcinoma na bolsa, que é raro. A manometria não é necessária para o diagnóstico, e a tomografia e a ultrassonografia não definem a anatomia funcional da bolsa como o contraste.",
+"porAlt": [
+"A endoscopia às cegas pode intubar a bolsa e perfurá-la, por isso não é o primeiro exame quando se suspeita de Zenker.",
+"A manometria investiga distúrbios motores e não é necessária para diagnosticar divertículo faringoesofágico.",
+"Correta: o esofagograma baritado com perfil cervical confirma o divertículo de Zenker e mede seu tamanho.",
+"A tomografia pode mostrar a bolsa por acaso, mas não é o exame de escolha para o diagnóstico de Zenker.",
+"A ultrassonografia não caracteriza bem a bolsa nem o trânsito do contraste e não é exame diagnóstico aqui."
+]
+},
+{
+"q": "Mulher de 81 anos, com insuficiência cardíaca de fração de ejeção de 32% e doença pulmonar obstrutiva crônica, tem divertículo de Zenker de 3,5 cm confirmado em esofagograma. Há 1 ano tem disfagia alta, regurgitação noturna e já foi internada duas vezes por pneumonia aspirativa. Perdeu 5 kg. Deseja continuar se alimentando pela boca. Qual é a conduta mais adequada?",
+"alts": [
+"Observação clínica, pois o divertículo é benigno",
+"Dilatação do esfíncter esofágico superior a balão",
+"Septotomia endoscópica com secção do cricofaríngeo",
+"Diverticulectomia cervical aberta e sem miotomia",
+"Gastrostomia com suspensão definitiva da via oral"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESGE Guideline: Endoscopic management of gastrointestinal motility disorders, part 2, 2020, tratamento do divertículo de Zenker sintomático",
+"coment": "Divertículo de Zenker sintomático, com aspiração e perda de peso, tem indicação de tratamento. A diretriz da Sociedade Europeia de Endoscopia de 2020 recomenda tratar apenas divertículos sintomáticos e considera a abordagem endoscópica flexível uma opção segura e eficaz, especialmente em idosos com comorbidades. O passo essencial de qualquer técnica é seccionar o músculo cricofaríngeo, cuja disfunção gera a alta pressão que formou a bolsa; a septotomia endoscópica faz isso ao dividir o septo entre a bolsa e o esôfago. Retirar o divertículo sem miotomia deixa a causa e leva a recidiva e fístula. Em paciente frágil, com insuficiência cardíaca grave, a via endoscópica evita a cervicotomia e a anestesia prolongada.",
+"porAlt": [
+"Observar é inadequado com aspiração recorrente e perda de peso, que tornam o divertículo uma doença grave.",
+"A dilatação isolada não trata a bolsa nem secciona o cricofaríngeo, tendo efeito pequeno e transitório.",
+"Correta: em idosa frágil e sintomática, a septotomia endoscópica com secção do cricofaríngeo é a opção preferida.",
+"Ressecar a bolsa sem miotomia do cricofaríngeo mantém a alta pressão e favorece recidiva e fístula.",
+"Suspender a via oral não é necessário, pois existe tratamento eficaz e de baixo risco para o divertículo."
+]
+},
+{
+"q": "Homem de 56 anos, natural da zona rural do norte de Minas Gerais, tem disfagia para sólidos e líquidos há 6 anos, com perda de 8 kg e constipação crônica. Sorologia para Trypanosoma cruzi positiva por dois métodos; eletrocardiograma com bloqueio de ramo direito e bloqueio divisional anterossuperior; ecocardiograma com fração de ejeção de 58%. O esofagograma mostra esôfago com 6 cm de diâmetro, retenção de contraste e afilamento distal em bico de pássaro. Endoscopia com retroflexão sem lesão neoplásica. Qual é o melhor tratamento?",
+"alts": [
+"Esofagectomia subtotal pelo megaesôfago avançado",
+"Cardiomiotomia a Heller com fundoplicatura parcial",
+"Benznidazol para fazer regredir a dilatação do órgão",
+"Nifedipino sublingual como tratamento definitivo",
+"Toxina botulínica na cárdia repetida a cada 6 meses"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "II Consenso Brasileiro em Doença de Chagas 2015, forma digestiva; ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020",
+"coment": "O megaesôfago chagásico resulta da destruição dos neurônios do plexo mioentérico pelo Trypanosoma cruzi e se comporta como acalasia. Com 6 cm de diâmetro, o paciente está no grupo II da classificação de Rezende (4 a 7 cm), forma não avançada. Nessa fase, o II Consenso Brasileiro em Doença de Chagas e a diretriz do ACG de 2020 para acalasia apontam a cardiomiotomia a Heller laparoscópica com fundoplicatura parcial como tratamento de escolha; dilatação pneumática e miotomia endoscópica são alternativas em centros experientes. Esofagectomia fica para o megaesôfago avançado, acima de 10 cm ou dolicomegaesôfago, ou após falha da miotomia. O tratamento antiparasitário não reverte a lesão neuronal estabelecida.",
+"porAlt": [
+"A esofagectomia é reservada ao megaesôfago avançado (grupo IV) ou à falha da miotomia, e aqui o diâmetro é de 6 cm.",
+"Correta: no megaesôfago não avançado, a miotomia a Heller com fundoplicatura parcial é o tratamento de escolha.",
+"O benznidazol não reverte a destruição neuronal já instalada e não melhora a disfagia do megaesôfago.",
+"Bloqueadores de canal de cálcio têm efeito modesto e passageiro e servem apenas como ponte ou paliação.",
+"A toxina botulínica tem efeito transitório e fica para quem não pode ser submetido a tratamento definitivo."
+]
+},
+{
+"q": "Mulher de 49 anos tem há 1 ano disfagia para sólidos e líquidos e episódios de dor retroesternal intensa, em aperto, que a levaram três vezes ao pronto-socorro; a cineangiocoronariografia foi normal. Endoscopia com retroflexão sem lesões. Sorologia para doença de Chagas negativa. Manometria de alta resolução: pressão de relaxamento integrada de 24 mmHg (normal abaixo de 15 mmHg), nenhuma deglutição com peristalse normal e contrações prematuras, com latência distal menor que 4,5 s, em 40% das deglutições. Qual é o diagnóstico e o tratamento preferido?",
+"alts": [
+"Acalasia tipo II; dilatação pneumática graduada",
+"Espasmo esofágico distal; nitrato e observação",
+"Acalasia tipo III; miotomia endoscópica peroral",
+"Esôfago hipercontrátil; IBP em dose dobrada diária",
+"Obstrução da junção; toxina botulínica na cárdia"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Chicago Classification of Esophageal Motility Disorders v4.0, 2021; ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020, miotomia endoscópica no tipo III",
+"coment": "Pela classificação de Chicago 4.0, a pressão de relaxamento integrada elevada com ausência de peristalse normal define acalasia; contrações prematuras (espásticas), com latência distal abaixo de 4,5 s em 20% ou mais das deglutições, caracterizam o tipo III. Espasmo esofágico distal exige relaxamento normal da junção, o que não ocorre aqui. O tipo III é o que responde pior à dilatação pneumática e à miotomia a Heller, porque o segmento espástico se estende pelo corpo do esôfago. A diretriz do ACG de 2020 favorece a miotomia endoscópica peroral, que permite miotomia longa sob medida, cobrindo todo o segmento espástico visto na manometria.",
+"porAlt": [
+"O tipo II tem pressurização panesofágica, não contrações prematuras, e a dilatação responde mal no tipo III.",
+"O espasmo esofágico distal requer pressão de relaxamento integrada normal, e aqui ela está em 24 mmHg.",
+"Correta: relaxamento alterado com contrações prematuras define acalasia tipo III, mais bem tratada por miotomia peroral.",
+"O esôfago hipercontrátil tem contrações vigorosas com relaxamento normal da junção, e o IBP não o trata.",
+"A obstrução ao fluxo exige alguma peristalse preservada, e a toxina só tem efeito transitório."
+]
+},
+{
+"q": "Homem de 71 anos, tabagista de 50 maços-ano, tem disfagia progressiva para sólidos e depois para líquidos há 4 meses, com perda de 11 kg no período. A manometria de alta resolução mostrou pressão de relaxamento integrada de 26 mmHg e ausência de contrações em todas as deglutições. A endoscopia descreveu esôfago com resíduo alimentar e mucosa normal, com resistência firme à passagem do aparelho pela cárdia; a retroflexão não mostrou lesão. Sorologia para doença de Chagas negativa. Qual é a conduta mais adequada antes de tratar como acalasia?",
+"alts": [
+"Ecoendoscopia e tomografia para excluir neoplasia",
+"Dilatação pneumática com base no laudo da manometria",
+"Miotomia endoscópica peroral, eficaz em todo tipo",
+"Toxina botulínica, pela idade e pela carga tabágica",
+"Repetir a sorologia para Chagas por outro método"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia 2020, exclusão de pseudoacalasia",
+"coment": "Idade acima de 60 anos, disfagia de instalação recente (menos de 1 ano), emagrecimento acentuado e resistência à passagem do aparelho pela cárdia são os sinais que levantam pseudoacalasia, quadro manométrico idêntico ao da acalasia causado por infiltração neoplásica da junção esofagogástrica, em geral adenocarcinoma da cárdia, ou por tumores que comprimem a região. A diretriz do ACG de 2020 recomenda endoscopia com retroflexão em todos e, quando a suspeita persiste apesar de mucosa normal, ecoendoscopia ou tomografia, porque a infiltração pode ser submucosa. Dilatar ou fazer miotomia sobre um tumor atrasa o diagnóstico e pode perfurar. A sorologia negativa por métodos adequados já afasta a forma chagásica.",
+"porAlt": [
+"Correta: idade, curta evolução, emagrecimento e cárdia rígida exigem ecoendoscopia e tomografia antes de tratar.",
+"Dilatar sem excluir neoplasia infiltrativa atrasa o diagnóstico e pode perfurar uma cárdia tumoral.",
+"A miotomia não deve ser feita antes de afastar pseudoacalasia, que é a principal preocupação neste perfil.",
+"A toxina é opção para idosos frágeis com acalasia comprovada, mas ainda falta excluir neoplasia neste paciente.",
+"Repetir a sorologia não muda a prioridade, que é afastar câncer infiltrando a junção esofagogástrica."
+]
+},
+{
+"q": "Mulher de 46 anos, com esclerose sistêmica cutânea limitada (fenômeno de Raynaud, esclerodactilia, telangiectasias e anticorpo anticentrômero positivo), refere pirose intensa e disfagia para sólidos há 2 anos. A endoscopia mostrou esofagite grau B de Los Angeles. A manometria de alta resolução registrou pressão de relaxamento integrada de 6 mmHg (normal abaixo de 15 mmHg) e 100% das deglutições com peristalse falha. Pela classificação de Chicago 4.0, qual é o diagnóstico manométrico?",
+"alts": [
+"Acalasia tipo I, com o esôfago sem contração",
+"Motilidade esofágica ineficaz, forma conclusiva",
+"Obstrução ao fluxo da junção esofagogástrica",
+"Peristalse fragmentada com quebras extensas",
+"Contratilidade ausente com relaxamento normal"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Chicago Classification of Esophageal Motility Disorders v4.0, 2021, contratilidade ausente e motilidade ineficaz",
+"coment": "Na classificação de Chicago 4.0, o primeiro passo é avaliar o relaxamento da junção esofagogástrica pela pressão de relaxamento integrada. Com relaxamento normal e 100% das deglutições falhas, o diagnóstico é contratilidade ausente, padrão típico da esclerose sistêmica, em que a fibrose atinge a musculatura lisa do esôfago distal e o esfíncter inferior perde tônus, facilitando refluxo grave. Acalasia tipo I exige relaxamento alterado. A motilidade ineficaz exige mais de 70% de deglutições ineficazes ou pelo menos 50% de falhas, mas com alguma peristalse preservada. A consequência prática é que fundoplicatura total é desaconselhada, pelo risco de disfagia grave, e o controle do refluxo é clínico.",
+"porAlt": [
+"A acalasia tipo I exige pressão de relaxamento integrada elevada, e aqui o relaxamento é normal.",
+"A motilidade ineficaz pressupõe alguma peristalse preservada, e nesta paciente todas as deglutições falharam.",
+"A obstrução ao fluxo da junção exige relaxamento elevado, o que não ocorre com 6 mmHg.",
+"Peristalse fragmentada não é mais diagnóstico na versão 4.0, e não descreve ausência total de contração.",
+"Correta: relaxamento normal com 100% de peristalse falha define contratilidade ausente, comum na esclerose sistêmica."
+]
+},
+{
+"q": "Homem de 23 anos, com asma, rinite alérgica e dermatite atópica, tem há 3 anos episódios de entalo com carne. Há 1 mês precisou de endoscopia para retirar um bolo alimentar impactado, sem coleta de biópsias. Usa omeprazol há 2 semanas. A nova endoscopia mostra anéis concêntricos, sulcos longitudinais e placas esbranquiçadas no esôfago. Hemograma com 650 eosinófilos/mm³. Qual conjunto de achados estabelece o diagnóstico de esofagite eosinofílica?",
+"alts": [
+"Disfunção esofágica e 15 ou mais eosinófilos por campo",
+"Seis biópsias distais e 6 ou mais eosinófilos por campo",
+"Falha de oito semanas de IBP antes de colher biópsias",
+"IgE específica a alimentos no teste cutâneo de leitura",
+"Eosinofilia periférica e achados típicos à endoscopia"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Eosinophilic Esophagitis 2025, critérios diagnósticos e técnica de biópsia",
+"coment": "Pela diretriz do ACG de 2025, a esofagite eosinofílica é diagnosticada pela combinação de sintomas de disfunção esofágica com pelo menos 15 eosinófilos por campo de grande aumento na biópsia, depois de excluídas outras causas de eosinofilia esofágica. Recomenda-se colher no mínimo seis fragmentos de pelo menos dois níveis (proximal ou médio e distal), porque o infiltrado é irregular, e usar escore endoscópico padronizado. A falha do IBP deixou de ser exigida para o diagnóstico; o IBP passou a ser uma das opções de tratamento, e seu uso prévio pode reduzir o infiltrado e mascarar a biópsia. Testes alérgicos cutâneos e eosinofilia periférica não confirmam nem excluem a doença.",
+"porAlt": [
+"Correta: sintomas de disfunção esofágica com 15 ou mais eosinófilos por campo, excluídas outras causas, fecham o diagnóstico.",
+"Biópsias apenas distais e limiar de 6 eosinófilos não são critérios; colhem-se 6 fragmentos de 2 níveis com limiar de 15.",
+"A falha do IBP deixou de ser exigida para o diagnóstico, e o IBP hoje é uma das opções de tratamento.",
+"Testes cutâneos têm baixo valor preditivo e não fazem diagnóstico nem orientam bem a dieta de eliminação.",
+"Eosinofilia periférica e achados endoscópicos sugerem a doença, mas o diagnóstico exige confirmação histológica."
+]
+},
+{
+"q": "Mulher de 31 anos com esofagite eosinofílica diagnosticada há 2 anos respondeu bem à budesonida deglutida, mas suspendeu o tratamento por conta própria há 8 meses. Voltou a ter disfagia diária para sólidos e um episódio de impactação. A endoscopia mostra estenose de 10 mm no esôfago médio, que o aparelho padrão não ultrapassa, e as biópsias mostram 45 eosinófilos por campo de grande aumento. Qual é a conduta mais adequada?",
+"alts": [
+"Dilatação isolada, sem retomar o tratamento",
+"Corticoide sistêmico por via oral por 8 semanas",
+"Dilatar e retomar a terapia anti-inflamatória",
+"Esofagectomia segmentar do trecho estreitado",
+"Montelucaste isolado como manutenção crônica"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Eosinophilic Esophagitis 2025, dilatação de estenoses e terapia de manutenção",
+"coment": "A esofagite eosinofílica é crônica e, sem tratamento, a inflamação persistente leva a fibrose e estenose. A diretriz do ACG de 2025 recomenda dilatação endoscópica para estenoses sintomáticas, procedimento seguro quando feito de forma gradual, mas lembra que a dilatação não trata a inflamação: deve ser associada a terapia anti-inflamatória, como corticoide tópico deglutido, IBP, dieta de eliminação ou dupilumabe nos não respondedores. Como a recidiva após suspensão é a regra, recomenda-se manutenção a longo prazo. Corticoide sistêmico não é recomendado, pelo perfil de efeitos adversos sem vantagem sobre o tópico, e montelucaste não tem eficácia demonstrada. Cirurgia não tem papel na estenose benigna dilatável.",
+"porAlt": [
+"Dilatar sem tratar a inflamação deixa a doença ativa e a estenose volta a se formar em pouco tempo.",
+"O corticoide sistêmico não é recomendado, pois não supera o tópico e expõe a efeitos adversos importantes.",
+"Correta: estenose com doença ativa pede dilatação associada à retomada de terapia anti-inflamatória de manutenção.",
+"Estenose benigna que responde à dilatação não tem indicação de ressecção, cirurgia de alta morbidade.",
+"O montelucaste não tem eficácia demonstrada na esofagite eosinofílica e não é recomendado."
+]
+},
+{
+"q": "Homem de 44 anos é trazido ao pronto-socorro 6 horas após uma festa com grande ingestão de álcool, durante a qual teve vários episódios de vômito vigoroso seguidos de dor retroesternal súbita e intensa, irradiada para o dorso. Está sudoreico, com frequência cardíaca de 116 bpm, pressão arterial de 102/64 mmHg, temperatura de 37,9 °C e crepitação à palpação da fossa supraclavicular. O eletrocardiograma mostra taquicardia sinusal. A radiografia de tórax mostra pneumomediastino e pequeno derrame pleural à esquerda. Qual é o exame mais adequado para confirmar o diagnóstico?",
+"alts": [
+"Endoscopia digestiva alta diagnóstica imediata",
+"Esofagograma baritado como primeiro exame pedido",
+"Troponinas seriadas e cineangiocoronariografia",
+"Tomografia de tórax com contraste oral e venoso",
+"Toracocentese diagnóstica e observação clínica"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "WSES Guidelines: Esophageal Emergencies 2019, tomografia com contraste oral na suspeita de perfuração esofágica",
+"coment": "Vômitos vigorosos seguidos de dor torácica intensa e enfisema subcutâneo formam a tríade de Mackler da síndrome de Boerhaave, ruptura espontânea transmural, quase sempre na parede posterolateral esquerda do esôfago distal, o que explica o derrame pleural à esquerda. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência coloca a tomografia de tórax com contraste venoso e oral (esofagografia por tomografia) como exame de escolha: tem sensibilidade de 92 a 100%, localiza a lesão e mostra coleções mediastinais e pleurais que orientam a drenagem. O contraste oral deve ser hidrossolúvel. A mortalidade sobe de menos de 10% para cerca de 30% quando o tratamento passa de 24 horas, por isso o diagnóstico não pode atrasar.",
+"porAlt": [
+"A endoscopia pode ampliar a lesão ao insuflar ar e não avalia o mediastino, não sendo o exame inicial.",
+"O bário extravasado provoca mediastinite química; quando se usa contraste, ele deve ser hidrossolúvel.",
+"O eletrocardiograma não sugere isquemia, e o quadro com pneumomediastino aponta para perfuração esofágica.",
+"Correta: a tomografia com contraste oral e venoso confirma a perfuração e mostra a extensão mediastinal e pleural.",
+"A toracocentese pode ajudar depois, mas não confirma o diagnóstico e observar atrasa o tratamento."
+]
+},
+{
+"q": "Mulher de 58 anos com acalasia tipo II foi submetida a dilatação pneumática com balão de 30 mm. Duas horas depois refere dor retroesternal moderada. Está estável, com frequência cardíaca de 92 bpm, temperatura de 36,8 °C e sem enfisema subcutâneo. A tomografia com contraste oral hidrossolúvel mostra pequeno extravasamento contido junto ao esôfago distal, sem derrame pleural, sem coleção e sem pneumoperitônio. Leucócitos de 9.800/mm³. Qual é a conduta mais adequada?",
+"alts": [
+"Esofagectomia de urgência por toracotomia",
+"Alta com dieta líquida e retorno em 48 horas",
+"Jejum, antibiótico e fechamento endoscópico",
+"Repetir a dilatação para completar o efeito",
+"Toracotomia e sutura primária em qualquer caso"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESGE Position Statement: Diagnosis and management of iatrogenic endoscopic perforations, update 2020; WSES Guidelines: Esophageal Emergencies 2019",
+"coment": "Perfuração iatrogênica reconhecida precocemente, pequena, contida e sem sepse é o cenário ideal para tratamento não operatório. A posição de 2020 da Sociedade Europeia de Endoscopia recomenda documentar a suspeita com tomografia e considerar fechamento endoscópico, com clipes ou prótese coberta, conforme o tamanho e a experiência local, além de jejum, antibiótico de amplo espectro e suporte nutricional. A diretriz de 2019 da Sociedade Mundial de Cirurgia de Emergência lista os critérios do manejo conservador: diagnóstico precoce, ausência de sepse, ruptura contida e vigilância por equipe experiente com cirurgia disponível. Piora clínica, falha do fechamento ou contaminação extensa indicam cirurgia. Alta precoce é inadequada.",
+"porAlt": [
+"A esofagectomia é desproporcional para perfuração pequena e contida em paciente estável e sem sepse.",
+"Perfuração confirmada exige internação, jejum e antibiótico; alta precoce expõe a mediastinite não vigiada.",
+"Correta: perfuração precoce, pequena e contida em paciente estável permite manejo conservador com fechamento endoscópico.",
+"Nova dilatação ampliaria a perfuração e está contraindicada até a cicatrização completa da lesão.",
+"A cirurgia é reservada a falha do tratamento conservador, sepse ou contaminação extensa, não a todos os casos."
+]
+},
+{
+"q": "Mulher de 39 anos, sem alergias, fez endoscopia por dispepsia que mostrou úlcera duodenal de 7 mm com base limpa; o teste da urease na biópsia antral foi positivo. Nunca tratou Helicobacter pylori, mas usou claritromicina há 2 anos para sinusite. Não usa anti-inflamatório. Considerando a recomendação brasileira mais recente, qual é o esquema de primeira linha?",
+"alts": [
+"IBP, amoxicilina e claritromicina durante 7 dias",
+"IBP, amoxicilina e levofloxacino durante 10 dias",
+"IBP e amoxicilina em dose habitual por sete dias",
+"IBP, bismuto, tetraciclina, metronidazol, 14 dias",
+"IBP, claritromicina e metronidazol por dez dias"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "V Consenso Brasileiro sobre Helicobacter pylori 2026, terapia quádrupla com bismuto como primeira linha; ACG Clinical Guideline: Treatment of H. pylori Infection 2024",
+"coment": "O V Consenso Brasileiro sobre Helicobacter pylori, publicado em 2026, substituiu o IV Consenso (2018), que aceitava a tripla com claritromicina como primeira linha. Pelo avanço da resistência a claritromicina e levofloxacino, a terapia quádrupla com bismuto passou a primeira linha: IBP em dose padrão ou vonoprazana duas vezes ao dia, subcitrato de bismuto, tetraciclina e metronidazol, por 10 a 14 dias; a diretriz do ACG de 2024 recomenda 14 dias. Como alternativas, o consenso lista esquemas com vonoprazana, não com IBP comum. O uso prévio de macrolídeo aumenta a chance de resistência e reforça evitar a claritromicina. A erradicação deve ser confirmada com teste respiratório ou antígeno fecal.",
+"porAlt": [
+"A tripla com IBP e claritromicina saiu da primeira linha pela resistência, ainda mais com uso prévio de macrolídeo.",
+"O levofloxacino tem alta resistência no Brasil e fica para resgate, não para tratamento inicial.",
+"A dupla só é alternativa com vonoprazana e amoxicilina em dose alta por 14 dias, não com IBP em dose habitual.",
+"Correta: o V Consenso Brasileiro de 2026 coloca a quádrupla com bismuto como primeira linha, com 14 dias preferidos.",
+"Esse esquema combina dois antibióticos com resistência crescente e não é recomendado como primeira linha."
+]
+},
+{
+"q": "Homem de 42 anos, assintomático, vem à consulta preocupado porque o irmão mais velho recebeu diagnóstico de adenocarcinoma gástrico aos 49 anos. Não tem dispepsia, perda de peso nem anemia, e nunca foi testado ou tratado para Helicobacter pylori. Não usa anti-inflamatórios nem inibidor de bomba de prótons. Qual é a conduta recomendada em relação ao Helicobacter pylori?",
+"alts": [
+"Nenhuma conduta, por ele estar assintomático",
+"Pesquisar H. pylori e erradicar se positivo",
+"Sorologia anual para H. pylori como rastreio",
+"Tratar de forma empírica, sem testar antes",
+"Testar apenas se surgirem sinais de alarme"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "V Consenso Brasileiro sobre Helicobacter pylori 2026, indicações de pesquisa e erradicação",
+"coment": "Parentes de primeiro grau de pacientes com câncer gástrico têm risco aumentado, em parte por compartilharem a infecção por Helicobacter pylori adquirida na infância. O V Consenso Brasileiro de 2026 inclui esses parentes entre as indicações formais de pesquisa e erradicação, ao lado de úlcera péptica, linfoma MALT, condições pré-neoplásicas, dispepsia, anemia ferropriva sem causa e púrpura trombocitopênica imune, e reforça que todo infectado deve ser tratado. A pesquisa não invasiva preferida é o teste respiratório com ureia marcada ou o antígeno fecal monoclonal. Sorologia não diferencia infecção atual de passada e não serve para controle. Tratar sem testar expõe a antibióticos desnecessários.",
+"porAlt": [
+"A ausência de sintomas não afasta a indicação, pois o parentesco com câncer gástrico é indicação formal.",
+"Correta: parente de primeiro grau de paciente com câncer gástrico deve ser testado e tratado se infectado.",
+"A sorologia não distingue infecção atual de passada, e repeti-la anualmente não tem utilidade clínica.",
+"Tratar sem confirmar a infecção expõe a antibióticos desnecessários e favorece resistência bacteriana.",
+"Esperar sinais de alarme perde a janela de prevenção, que é a razão de testar esse paciente agora."
+]
+},
+{
+"q": "Homem de 48 anos tem úlceras duodenais recorrentes há 3 anos, uma delas pós-bulbar, e diarreia crônica que melhora com omeprazol. Não usa anti-inflamatórios e a pesquisa de Helicobacter pylori por histologia foi negativa. Em centro de referência, o omeprazol foi suspenso de forma supervisionada, com antagonista H2 até 48 horas antes da coleta. Gastrina sérica de jejum de 640 pg/mL (referência abaixo de 100 pg/mL) e pH gástrico de 1,6. Cálcio sérico normal. Qual é o próximo passo?",
+"alts": [
+"Diagnóstico firmado; indicar operação imediata",
+"Repetir a gastrina com IBP em dose dobrada",
+"Teste da secretina para confirmar gastrinoma",
+"Dosar anticorpo anticélula parietal e biopsiar",
+"Localizar o tumor por cintilografia diretamente"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ENETS 2023 Guidance Paper for functioning pancreatic neuroendocrine tumour syndromes, diagnóstico bioquímico do gastrinoma",
+"coment": "Úlceras recorrentes, pós-bulbares e diarreia que melhora com IBP sugerem síndrome de Zollinger-Ellison. O diagnóstico bioquímico exige gastrina elevada com pH gástrico ácido (abaixo de 2), o que afasta hipergastrinemia por hipocloridria, como na gastrite atrófica ou no uso de IBP. Gastrina acima de 10 vezes o limite superior com pH abaixo de 2 é diagnóstica; entre o limite e 10 vezes, como aqui (cerca de 6 vezes), a diretriz da Sociedade Europeia de Tumores Neuroendócrinos de 2023 indica teste da secretina, considerado positivo com aumento de pelo menos 120 pg/mL. A suspensão do IBP deve ser feita com cautela, pelo risco de complicação péptica. Só após a confirmação bioquímica vêm os exames de localização.",
+"porAlt": [
+"Com gastrina abaixo de 10 vezes o limite superior, o diagnóstico ainda não está firmado e exige teste provocativo.",
+"O IBP eleva a gastrina por hipocloridria e invalidaria o exame, que deve ser feito sem o remédio.",
+"Correta: gastrina entre 1 e 10 vezes o limite com pH ácido pede teste da secretina para confirmar o gastrinoma.",
+"A gastrite atrófica autoimune cursa com pH alto, e o pH de 1,6 já afasta essa causa de hipergastrinemia.",
+"Exames de localização, como a cintilografia, vêm depois da confirmação bioquímica, e não a substituem."
+]
+},
+{
+"q": "Mulher de 36 anos tem síndrome de Zollinger-Ellison confirmada (gastrina de jejum de 1.850 pg/mL com pH gástrico de 1,2), com úlcera jejunal e diarreia de 6 evacuações por dia. Cálcio sérico de 11,2 mg/dL, paratormônio de 132 pg/mL e nefrolitíase prévia; um irmão tem prolactinoma. Os exames de localização estão agendados. Está sem sangramento ativo, hemodinamicamente estável. Qual é o tratamento inicial mais adequado para controlar a hipersecreção ácida?",
+"alts": [
+"Antagonista H2 em dose padrão duas vezes ao dia",
+"Análogo de somatostatina como primeira escolha",
+"Gastrectomia total para eliminar o órgão-alvo",
+"IBP em dose alta, ajustada para controle ácido",
+"IBP na dose habitual de úlcera duodenal comum"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ENETS 2023 Guidance Paper for functioning pancreatic neuroendocrine tumour syndromes, controle da hipersecreção ácida no gastrinoma",
+"coment": "O controle da hipersecreção ácida é a primeira prioridade no gastrinoma, porque as complicações pépticas, como perfuração, sangramento e estenose, eram a principal causa de morte antes dos IBP. A diretriz da Sociedade Europeia de Tumores Neuroendócrinos de 2023 recomenda IBP em doses mais altas que as usuais, por exemplo omeprazol 60 mg ao dia ou mais, ajustadas pela resposta clínica e, quando disponível, pela secreção ácida. Hipercalcemia com paratormônio elevado e parente com prolactinoma apontam neoplasia endócrina múltipla tipo 1, presente em cerca de 20 a 25% dos gastrinomas; corrigir o hiperparatireoidismo reduz a gastrina e a secreção ácida. Gastrectomia total para controle ácido foi abandonada.",
+"porAlt": [
+"Antagonistas H2 em dose padrão são insuficientes para a hipersecreção do gastrinoma e não são primeira escolha.",
+"O análogo de somatostatina tem papel no controle tumoral, não como droga inicial para a secreção ácida.",
+"A gastrectomia total para controle ácido foi abandonada desde que os IBP passaram a controlar a secreção.",
+"Correta: o gastrinoma exige IBP em dose mais alta que a usual, titulada até o controle da secreção ácida.",
+"A dose habitual de úlcera comum costuma ser insuficiente para a hipersecreção maciça do gastrinoma."
+]
+},
+{
+"q": "Homem de 58 anos fez gastrectomia subtotal com reconstrução a Billroth II por adenocarcinoma gástrico há 8 meses. Cerca de 2 horas após as refeições, apresenta sudorese, tremores, palpitações e confusão; uma glicemia capilar no episódio foi de 46 mg/dL, com melhora após ingerir açúcar. Há 3 meses segue orientação de nutricionista: refeições pequenas e frequentes, sem açúcares simples, com líquidos fora das refeições e mais fibras. Os episódios continuam, duas a três vezes por semana. Qual é a conduta mais adequada?",
+"alts": [
+"Octreotida de depósito como primeira medicação",
+"Reoperação com conversão da alça para Y de Roux",
+"Jejum prolongado de 72 horas para insulinoma",
+"Suplemento oral rico em glicose nas refeições",
+"Acarbose antes das refeições principais do dia"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "International consensus on the diagnosis and management of dumping syndrome 2020, tratamento do dumping tardio",
+"coment": "Sintomas adrenérgicos e neuroglicopênicos 1 a 3 horas após a refeição, com hipoglicemia documentada, em paciente gastrectomizado, configuram dumping tardio: a chegada rápida de carboidrato ao intestino provoca hiperglicemia e resposta exagerada de insulina mediada por incretinas, seguida de hipoglicemia. O consenso internacional de 2020 coloca a adequação dietética como primeiro passo. Quando ela não basta, a acarbose, que retarda a absorção de carboidratos, é eficaz no dumping tardio. Os análogos de somatostatina ficam para quem não responde à dieta nem à acarbose, e a cirurgia é último recurso. O diagnóstico pode ser confirmado por teste oral de tolerância modificado, com hipoglicemia abaixo de 50 mg/dL.",
+"porAlt": [
+"Os análogos de somatostatina são reservados a quem falha com dieta e acarbose, não a primeira medicação.",
+"A reoperação é o último recurso, depois de falharem dieta, acarbose e análogos de somatostatina.",
+"Hipoglicemia pós-prandial após gastrectomia é dumping tardio; insulinoma causaria hipoglicemia de jejum.",
+"Oferecer mais glicose agrava o pico de insulina que causa a hipoglicemia reativa e piora o quadro.",
+"Correta: no dumping tardio que persiste apesar da dieta, a acarbose é o passo seguinte recomendado."
+]
+},
+{
+"q": "Homem de 67 anos, em uso de naproxeno para osteoartrite, chega com melena e tontura. Pressão arterial de 98/60 mmHg, frequência cardíaca de 108 bpm, hemoglobina de 6,8 g/dL e ureia de 92 mg/dL. Após ressuscitação e transfusão, a endoscopia feita em 10 horas mostra úlcera bulbar de 15 mm com vaso visível não sangrante (Forrest IIa), tratada com clipes e injeção de adrenalina, com hemostasia adequada. Qual é a conduta medicamentosa mais adequada após a endoscopia?",
+"alts": [
+"IBP oral em dose padrão uma vez ao dia, em jejum",
+"IBP em dose alta por 3 dias e depois 2x ao dia",
+"Ácido tranexâmico venoso pelas próximas 72 h",
+"Octreotida em infusão contínua por cinco dias",
+"Antagonista H2 venoso de 12 em 12 horas e alta"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding 2021, IBP após hemostasia endoscópica",
+"coment": "Vaso visível não sangrante tem alto risco de ressangramento e por isso recebe tratamento endoscópico, como foi feito. A diretriz do ACG de 2021 recomenda, após a hemostasia endoscópica, IBP em dose alta, contínua ou intermitente, por 3 dias, seguido de IBP oral duas vezes ao dia nas primeiras 2 semanas; a supressão ácida intensa estabiliza o coágulo, que se desfaz em pH baixo. A mesma diretriz sugere transfusão com hemoglobina abaixo de 7 g/dL, endoscopia em até 24 horas e, no ressangramento, nova endoscopia e, se falhar, embolização. Pesquisar Helicobacter pylori e suspender o anti-inflamatório completam a prevenção da recidiva. Ácido tranexâmico e octreotida não têm papel na úlcera péptica.",
+"porAlt": [
+"Dose padrão uma vez ao dia é insuficiente após hemostasia de lesão de alto risco nos primeiros dias.",
+"Correta: após hemostasia endoscópica usa-se IBP em dose alta por 3 dias e depois duas vezes ao dia por 2 semanas.",
+"O ácido tranexâmico não reduziu mortalidade no sangramento digestivo e aumentou eventos trombóticos.",
+"A octreotida é usada no sangramento varicoso, não na úlcera péptica com hemostasia já obtida.",
+"O antagonista H2 não mantém o pH gástrico alto de forma sustentada e não é recomendado nesse contexto."
+]
+},
+{
 "q": "Homem, 58 anos de idade, morador de área rural, com astenia, dor e desconforto em hipocôndrio esquerdo há 6 meses. Exame clínico: fígado palpável a 3 cm do rebordo costal direito e baço a 12 cm do rebordo costal esquerdo. Sem adenomegalias.\n\nExames laboratoriais:\nHb: 12 g/dL\nLeucócitos: 25.000/mm³\nMieloblastos: 3%\nPromielócitos: 3%\nMielócitos: 2%\nMetamielócitos: 3%\nBastões: 3%\nNeutrófilos: 60%\nBasófilos: 5%\nEosinófilos: 5%\nMonócitos: 5%\nPlaquetas: 460 mil/mm³\nÍndices e morfologia normais\n\nA hipótese diagnóstica mais provável é",
 "alts": [
 "Leucemia mielomonocítica crônica",
@@ -4394,6 +5066,822 @@ window.BANCO=[
 }
 },
 {
+"q": "Homem de 58 anos com cirrose por álcool, Child-Pugh C10, chega ao pronto-socorro com dois episódios de hematêmese volumosa há 3 horas. Pressão arterial 96/60 mmHg, frequência cardíaca 112 bpm, sem febre e sem dor abdominal; ascite moderada, sem sinais de peritonite. Hemoglobina 7,6 g/dL, plaquetas 68.000/mm³, INR 1,9, creatinina 1,1 mg/dL. Já recebeu cristaloide em volume moderado, um concentrado de hemácias e terlipressina 2 mg em bolus, com endoscopia programada para as próximas horas. A paracentese diagnóstica mostra 110 polimorfonucleares/mm³. Qual é a conduta antimicrobiana adequada?",
+"alts": [
+"Nenhum antibiótico até haver febre ou PBE",
+"Ceftriaxona 1 g IV ao dia por até 7 dias",
+"Norfloxacino oral 400 mg/dia por 6 meses",
+"Meropeném 1 g IV a cada 8 h por 14 dias",
+"Antibiótico só se hemocultura positivar"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "Consenso de Baveno VII, 2022, profilaxia antibiótica de curta duração no sangramento varicoso agudo",
+"coment": "Todo cirrótico com hemorragia digestiva alta deve receber profilaxia antibiótica desde a admissão, porque a infecção bacteriana é frequente nesse contexto e se associa a ressangramento e morte; a profilaxia reduz as duas coisas. O Baveno VII recomenda ceftriaxona 1 g ao dia, especialmente em cirrose avançada, em locais com resistência a quinolonas ou em quem já usava quinolona, com duração máxima de 7 dias. A indicação não depende de infecção estabelecida: aqui a paracentese tem menos de 250 polimorfonucleares, ou seja, não há peritonite bacteriana espontânea, e ainda assim o antibiótico está indicado. O norfloxacino por meses é profilaxia secundária de peritonite, outro cenário. Carbapenêmico fica reservado para infecção documentada ou suspeita de germe resistente, e esperar febre ou hemocultura perde o benefício preventivo.",
+"porAlt": [
+"A profilaxia é dada justamente antes da infecção aparecer; esperar febre ou peritonite elimina o benefício sobre mortalidade.",
+"Correta: a ceftriaxona por no máximo 7 dias é a profilaxia indicada em todo cirrótico com sangramento, sobretudo em Child-Pugh C.",
+"Norfloxacino prolongado é profilaxia secundária de peritonite bacteriana espontânea, não a cobertura do episódio hemorrágico agudo.",
+"Carbapenêmico por 14 dias é tratamento de infecção grave ou resistente, sem indicação como profilaxia neste paciente.",
+"A hemocultura não orienta a profilaxia, que deve começar na admissão independentemente de qualquer resultado microbiológico."
+]
+},
+{
+"q": "Mulher de 49 anos com cirrose por hepatite C, Child-Pugh C11, é admitida com hematêmese maciça. Foi intubada para proteção de via aérea, recebe terlipressina e ceftriaxona desde a chegada e foi submetida a ligadura elástica de variz esofágica com sangramento em jato há 4 horas e a nova tentativa endoscópica há 1 hora, ambas sem controle. Mantém sangue vivo pela sonda, com pressão arterial 78/44 mmHg apesar de noradrenalina e de três concentrados de hemácias. A radiologia intervencionista só estará disponível em 10 horas. Qual é a conduta imediata mais adequada?",
+"alts": [
+"Balão ou prótese esofágica como ponte para TIPS de resgate",
+"Terceira sessão de ligadura elástica até cessar o sangue",
+"Dobrar a terlipressina e aguardar a intervenção vascular",
+"Transfundir plasma e plaquetas até INR e contagem normais",
+"Encaminhar para derivação cirúrgica portocava de urgência"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "Consenso de Baveno VII, 2022, sangramento varicoso refratário: tamponamento ou prótese como ponte para TIPS de resgate",
+"coment": "Trata-se de sangramento varicoso refratário: persiste apesar de vasoativo em dose adequada e de duas tentativas endoscópicas. O Baveno VII define que, nessa situação, o tratamento definitivo é o TIPS de resgate e que, enquanto ele não está disponível, deve-se usar uma ponte mecânica: o balão de Sengstaken-Blakemore, por no máximo 24 horas e com via aérea protegida, ou a prótese esofágica autoexpansível, preferível quando disponível por eficácia semelhante e menos complicações. Insistir em novas sessões de ligadura numa paciente em choque não é recomendado. Aumentar a dose do vasoativo não resolve a falha. Plasma e plaquetas não corrigem sangramento de origem portal, e o INR não reflete a hemostasia do cirrótico; volume excessivo ainda eleva a pressão portal. A derivação cirúrgica tem mortalidade proibitiva em Child-Pugh C.",
+"porAlt": [
+"Correta: após falha de vasoativo e endoscopia, o balão ou a prótese controlam o sangramento até o TIPS de resgate.",
+"Duas tentativas endoscópicas já falharam e a paciente está em choque; nova ligadura retarda o controle mecânico e o TIPS.",
+"Não há benefício em escalonar o vasoativo após falha; a conduta é ponte mecânica e descompressão portal definitiva.",
+"Plasma e plaquetas não tratam sangramento por hipertensão portal e o volume a mais pode aumentar a pressão nas varizes.",
+"A derivação cirúrgica em Child-Pugh C tem mortalidade muito alta e foi substituída pelo TIPS como resgate."
+]
+},
+{
+"q": "Homem de 63 anos com cirrose por esteato-hepatite metabólica, Child-Pugh B8, foi internado ontem por melena e hematêmese. Recebe octreotida em infusão contínua e ceftriaxona desde a admissão, e a endoscopia nas primeiras 12 horas mostrou varizes esofágicas de grosso calibre com estigma de sangramento recente, sem sangramento ativo, tratadas com ligadura. Desde então está estável: pressão arterial 118/72 mmHg, frequência 84 bpm, hemoglobina estável em 8,4 g/dL, sem encefalopatia. Não preenche critérios para TIPS preemptivo. Quanto ao vasoativo, qual é a conduta recomendada?",
+"alts": [
+"Manter a octreotida por 2 a 5 dias após a ligadura",
+"Suspender a octreotida logo após a ligadura eficaz",
+"Manter a octreotida até completar 14 dias de uso",
+"Manter a octreotida até a hemoglobina passar de 10",
+"Trocar a octreotida por propranolol em dose plena"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso de Baveno VII, 2022, duração do vasoativo no sangramento varicoso agudo",
+"coment": "O vasoativo (terlipressina, somatostatina ou octreotida) deve ser iniciado antes da endoscopia e mantido por 2 a 5 dias, porque o risco de ressangramento precoce é maior nos primeiros dias, mesmo após ligadura bem-sucedida. A suspensão imediata expõe o paciente a esse período de maior risco, e não há benefício em prolongar até 14 dias. Ao retirar o vasoativo, inicia-se o betabloqueador não seletivo (propranolol, nadolol ou carvedilol) associado à ligadura seriada, como profilaxia secundária; a troca imediata, em dose plena, no primeiro dia, ainda com o paciente recém-sangrado, não é a recomendação. A hemoglobina não é critério de duração: a estratégia transfusional é restritiva, com alvo de 7 a 8 g/dL, e buscar valores acima de 10 aumenta a pressão portal. Como é Child-Pugh B sem sangramento ativo no exame, não há indicação de TIPS preemptivo.",
+"porAlt": [
+"Correta: o Baveno VII recomenda manter o vasoativo por 2 a 5 dias, período de maior risco de ressangramento.",
+"Suspender logo após a ligadura deixa o paciente desprotegido justamente nos dias em que o ressangramento é mais comum.",
+"Prolongar até 14 dias não traz benefício adicional e mantém infusão e internação sem necessidade.",
+"A hemoglobina não define a duração; o alvo transfusional é restritivo e valores altos elevam a pressão portal.",
+"O betabloqueador entra quando o vasoativo é suspenso, não no lugar dele no primeiro dia após o sangramento."
+]
+},
+{
+"q": "Mulher de 55 anos com cirrose criptogênica, Child-Pugh A6, procura o pronto-socorro com melena e um episódio de hematêmese. Após estabilização com cristaloide em volume moderado, terlipressina e ceftriaxona, a endoscopia mostra esôfago sem varizes e uma variz isolada de fundo gástrico de 15 mm (IGV1), com coágulo aderido e sangramento em porejamento. Pressão arterial 112/70 mmHg, hemoglobina 8,9 g/dL. A tomografia recente não mostra trombose de veia porta. Qual é o tratamento endoscópico de escolha?",
+"alts": [
+"Ligadura elástica da variz isolada do fundo gástrico",
+"Escleroterapia com etanolamina na variz do fundo",
+"Coagulação com plasma de argônio na variz do fundo",
+"Injeção de adrenalina diluída ao redor da variz",
+"Obliteração da variz com injeção de cianoacrilato"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r3",
+"base": "Consenso de Baveno VII, 2022, tratamento endoscópico das varizes gástricas IGV1 e GOV2",
+"coment": "As varizes gástricas são classificadas por Sarin: as GOV1 continuam as esofágicas pela pequena curvatura e são tratadas como elas, com ligadura. Já as GOV2 e as varizes isoladas de fundo (IGV1) são calibrosas, de fluxo alto, e o Baveno VII recomenda a obliteração endoscópica com cianoacrilato no sangramento agudo. A ligadura de uma variz de fundo de 15 mm costuma não apreender toda a parede do vaso e, quando o anel cai, deixa úlcera sobre uma variz volumosa, com ressangramento grave. A escleroterapia convencional tem resultado inferior nesse território. Plasma de argônio e adrenalina são técnicas para lesões não varicosas, sem papel em variz. TIPS e obliteração retrógrada transvenosa com balão são alternativas ou resgate, conforme a anatomia e a disponibilidade, mas não o tratamento endoscópico de escolha.",
+"porAlt": [
+"A ligadura de variz de fundo volumosa tem alto risco de ressangramento pela úlcera que surge quando o anel se solta.",
+"A escleroterapia convencional tem baixa eficácia e mais complicações nas varizes de fundo gástrico.",
+"O plasma de argônio é usado em angiectasias e ectasia vascular antral, não para obliterar variz calibrosa.",
+"A adrenalina diluída é técnica de hemostasia de úlcera péptica e não oblitera o vaso varicoso.",
+"Correta: em variz isolada de fundo gástrico que sangra, o cianoacrilato é o tratamento endoscópico recomendado."
+]
+},
+{
+"q": "Homem de 31 anos procura o pronto-socorro porque teve uma evacuação de fezes pretas e pastosas pela manhã, após 5 dias de ibuprofeno 600 mg três vezes ao dia por entorse de tornozelo. Nega hematêmese, síncope, hepatopatia, cardiopatia ou insuficiência renal. Pressão arterial 126/80 mmHg, frequência cardíaca 84 bpm. Toque retal com fezes escurecidas. Hemoglobina 14,2 g/dL, ureia 32 mg/dL, creatinina 0,9 mg/dL. O ibuprofeno foi suspenso. Pelo escore de Glasgow-Blatchford, qual é a conduta mais adequada?",
+"alts": [
+"Escore 1; internar e fazer endoscopia em até 12 h",
+"Escore 1; alta com IBP e endoscopia ambulatorial",
+"Escore 4; internar e fazer endoscopia em até 24 h",
+"Escore 1; internar com IBP em infusão contínua",
+"Escore 6; endoscopia de urgência na emergência"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, alta precoce com Glasgow-Blatchford 0 ou 1",
+"coment": "O escore de Glasgow-Blatchford soma pontos por ureia, hemoglobina, pressão sistólica, frequência cardíaca, melena, síncope, hepatopatia e insuficiência cardíaca. Aqui a ureia de 32 mg/dL corresponde a nitrogênio ureico de cerca de 15 mg/dL, abaixo do primeiro corte, e não pontua; a hemoglobina acima de 13 g/dL no homem, a sistólica acima de 110 mmHg e a frequência abaixo de 100 bpm também não. Só a melena soma 1 ponto. A diretriz do ACG de 2021 recomenda que pacientes com escore 0 ou 1 sejam considerados de muito baixo risco e possam ser manejados ambulatorialmente, com endoscopia eletiva, porque o risco de intervenção ou morte é muito baixo. Internar esse paciente não muda desfecho e consome leito. O inibidor de bomba oral é adequado, e a suspensão do anti-inflamatório é essencial.",
+"porAlt": [
+"O cálculo está certo, mas escore 1 não exige internação nem endoscopia nas primeiras 12 horas.",
+"Correta: com escore 1 o risco é muito baixo, e a diretriz permite alta com endoscopia ambulatorial.",
+"O escore está superestimado: ureia, hemoglobina e sinais vitais deste paciente não pontuam.",
+"Infusão contínua de inibidor de bomba é para quem teve estigma de alto risco tratado, não para escore 1.",
+"O escore não é 6, e não há instabilidade que justifique endoscopia de urgência na sala de emergência."
+]
+},
+{
+"q": "Mulher de 67 anos, em uso de ácido acetilsalicílico 100 mg/dia por angioplastia coronária há 3 anos, é internada por hematêmese. Após estabilização, a endoscopia em 14 horas mostra úlcera de 12 mm na parede posterior do bulbo duodenal com vaso visível não sangrante (Forrest IIa), tratada com injeção de adrenalina e clipes, com sucesso. Recebeu omeprazol 80 mg IV antes do exame. Está estável, com hemoglobina de 9,1 g/dL. Qual é o esquema de inibidor de bomba recomendado a partir de agora?",
+"alts": [
+"Dose padrão oral 1 vez ao dia desde já, por 8 semanas",
+"Infusão contínua por 7 dias, depois dose padrão diária",
+"Dose alta por 3 dias, depois 2 vezes ao dia até 14 dias",
+"Dose alta por 3 dias e suspender se H. pylori negativo",
+"Dose alta intravenosa até a hemoglobina se estabilizar"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, inibidor de bomba após hemostasia endoscópica",
+"coment": "Vaso visível não sangrante é estigma de alto risco (Forrest IIa) e, após a terapia endoscópica, o inibidor de bomba em dose alta reduz ressangramento, cirurgia e mortalidade. A diretriz do ACG de 2021 recomenda dose alta, contínua ou em bolus intermitentes ao menos duas vezes ao dia, por 3 dias, seguida de inibidor oral duas vezes ao dia até completar 14 dias, e depois uma vez ao dia conforme a etiologia. Dose padrão única desde o início é insuficiente nesse risco, e estender a infusão por 7 dias não acrescenta benefício. A pesquisa de Helicobacter pylori orienta a erradicação, mas não encurta o tratamento da úlcera. Como o ácido acetilsalicílico é prevenção secundária coronária, deve ser retomado o mais cedo possível, idealmente nos primeiros dias, mantendo o inibidor de bomba.",
+"porAlt": [
+"Dose única diária desde já é insuficiente para úlcera com vaso visível recém-tratada.",
+"A infusão por 7 dias não reduz ressangramento além do esquema de 3 dias recomendado.",
+"Correta: após hemostasia de estigma de alto risco, usa-se dose alta por 3 dias e depois duas vezes ao dia até o 14º dia.",
+"A úlcera precisa de inibidor de bomba independentemente do Helicobacter pylori; a pesquisa só orienta a erradicação.",
+"A duração da dose alta é fixa em 3 dias e não é guiada pela hemoglobina."
+]
+},
+{
+"q": "Homem de 45 anos, sem comorbidades, foi internado ontem por melena, com hemoglobina de 11,8 g/dL, pressão arterial 124/78 mmHg e frequência 92 bpm, e recebeu omeprazol IV. A endoscopia nesta manhã mostrou úlcera gástrica de 8 mm na pequena curvatura do antro, com base limpa de fibrina, sem vaso ou coágulo (Forrest III); foram feitas biópsias da borda e do antro para Helicobacter pylori. Está estável, sem nova exteriorização. Qual é a conduta mais adequada?",
+"alts": [
+"Repetir a endoscopia em 24 horas para nova revisão",
+"Manter jejum e IBP em infusão contínua por 72 horas",
+"Aplicar clipes endoscópicos na base limpa da úlcera",
+"Dieta oral, IBP oral e alta precoce com seguimento",
+"Angiografia com embolização profilática da gástrica"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding, 2021, úlcera de base limpa sem terapia endoscópica",
+"coment": "A classificação de Forrest estima o risco de ressangramento pela aparência da úlcera. A base limpa (Forrest III) tem risco de ressangramento abaixo de 5%, e a diretriz do ACG de 2021 não recomenda terapia endoscópica nesse estigma. O paciente pode receber dieta oral logo, inibidor de bomba oral em dose padrão e alta precoce, desde que estável. Repetir endoscopia de rotina em 24 horas, manter infusão contínua ou embolizar profilaticamente não tem benefício e são reservados a estigmas de alto risco ou a ressangramento. Por ser úlcera gástrica, as biópsias da borda ajudam a afastar neoplasia, e costuma-se programar nova endoscopia em 8 a 12 semanas para confirmar a cicatrização; a pesquisa de Helicobacter pylori orienta a erradicação, que reduz recidiva.",
+"porAlt": [
+"A revisão endoscópica de rotina não é indicada, menos ainda em lesão de baixo risco como esta.",
+"Jejum e infusão contínua são excessivos; o tratamento intensivo é reservado a estigmas de alto risco.",
+"Não há indicação de terapia endoscópica em base limpa, pois não há vaso nem coágulo a tratar.",
+"Correta: úlcera de base limpa tem baixo risco de ressangramento e permite dieta e alta precoce com inibidor oral.",
+"Embolização é resgate após falha endoscópica em sangramento ativo, nunca medida profilática em Forrest III."
+]
+},
+{
+"q": "Homem de 27 anos chega ao pronto-socorro após uma festa em que bebeu grande quantidade de álcool. Teve vários episódios de vômitos alimentares e depois um vômito com rajas de sangue vivo, cerca de 50 mL. Nega anti-inflamatório, dor torácica ou dispneia. Pressão arterial 128/76 mmHg, frequência 96 bpm, sem enfisema subcutâneo, abdome inocente. Hemoglobina 14,6 g/dL. A endoscopia mostra laceração linear de 1,5 cm na mucosa da transição esofagogástrica, sem sangramento ativo nem vaso visível. Qual é a conduta adequada?",
+"alts": [
+"Hemostasia endoscópica com clipes ao longo da laceração",
+"Tomografia com contraste oral para afastar perfuração",
+"Observação, antiemético e IBP, sem terapia endoscópica",
+"Jejum por 7 dias com nutrição parenteral e IBP venoso",
+"Passagem de sonda nasogástrica para lavagem gástrica"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r1",
+"base": "ESGE Guideline: Endoscopic diagnosis and management of nonvariceal upper gastrointestinal hemorrhage, update 2021, síndrome de Mallory-Weiss",
+"coment": "A síndrome de Mallory-Weiss é a laceração longitudinal da mucosa da transição esofagogástrica causada por aumento abrupto da pressão intra-abdominal, tipicamente vômitos repetidos após libação alcoólica. O sangramento cessa espontaneamente na grande maioria dos casos. A diretriz da ESGE de 2021 reserva a hemostasia endoscópica para a laceração com sangramento ativo; sem sangramento e sem vaso visível, a conduta é clínica, com antiemético para evitar novos esforços de vômito e inibidor de bomba, com alta precoce se estável. A tomografia para perfuração só se justifica com dor torácica, enfisema ou sinais sistêmicos, que lembram a síndrome de Boerhaave, ausentes aqui. Jejum prolongado e lavagem gástrica não têm papel.",
+"porAlt": [
+"Clipes são indicados apenas quando a laceração sangra ativamente durante o exame.",
+"Sem dor torácica, enfisema ou instabilidade, não há suspeita de ruptura transmural que justifique tomografia.",
+"Correta: sem sangramento ativo, a laceração cicatriza sozinha e basta controlar os vômitos com inibidor de bomba.",
+"Jejum prolongado e nutrição parenteral são desnecessários numa lesão superficial que cicatriza em dias.",
+"A sonda e a lavagem não tratam a laceração e o esforço de passagem pode até piorá-la."
+]
+},
+{
+"q": "Homem de 79 anos com hipertensão e diverticulose conhecida apresenta quatro episódios de sangue vivo e coágulos pelo reto nas últimas 2 horas, sem dor. Não usa anti-inflamatório nem anticoagulante e nega epigastralgia ou hepatopatia. Chegou com pressão arterial 86/54 mmHg e frequência 118 bpm; após 1 litro de cristaloide e um concentrado de hemácias, a pressão subiu para 98/60 mmHg, mas mantém sangramento vivo. Hemoglobina 8,0 g/dL, ureia 38 mg/dL, creatinina 1,0 mg/dL. O aspirado nasogástrico é bilioso, sem sangue. Qual é o próximo exame mais adequado?",
+"alts": [
+"Colonoscopia urgente sem preparo nas próximas 2 horas",
+"Endoscopia digestiva alta antes de qualquer outro exame",
+"Cintilografia com hemácias marcadas e imagens tardias",
+"Angiotomografia de abdome, com embolização se positiva",
+"Colectomia total de urgência sem localizar o sangramento"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, angiotomografia no sangramento hemodinamicamente significativo",
+"coment": "Hematoquezia volumosa com instabilidade que persiste após reanimação define sangramento baixo hemodinamicamente significativo. A diretriz do ACG de 2023 recomenda a angiotomografia como primeiro exame nesse cenário: é rápida, disponível, localiza o extravasamento e orienta a embolização por arteriografia, que deve ser feita logo em seguida quando o exame é positivo. A endoscopia alta deve vir antes quando há forte suspeita de fonte alta, o que não ocorre aqui: não há uso de anti-inflamatório, a ureia não está desproporcionalmente elevada e o aspirado é bilioso. A colonoscopia urgente sem preparo tem baixo rendimento e não melhorou desfechos em ensaios. A cintilografia é lenta e localiza mal. A colectomia às cegas só se considera em sangramento persistente sem localização após os métodos disponíveis, pela alta mortalidade e ressangramento.",
+"porAlt": [
+"Sem preparo, a visualização é ruim e a colonoscopia urgente não mostrou melhora de desfechos neste cenário.",
+"Aspirado bilioso, ureia proporcional e ausência de anti-inflamatório tornam a fonte alta pouco provável.",
+"A cintilografia demora, localiza o foco com imprecisão e atrasa a terapia em paciente instável.",
+"Correta: em sangramento baixo com repercussão hemodinâmica, a angiotomografia localiza o foco e guia a embolização.",
+"A colectomia sem localização tem mortalidade alta e só cabe após falha dos métodos de localização."
+]
+},
+{
+"q": "Mulher de 72 anos é internada após dois episódios de hematoquezia de moderado volume. Chegou com pressão arterial 132/80 mmHg e frequência 88 bpm, e permanece estável desde então. A hemoglobina caiu de 12,1 para 10,6 g/dL em 12 horas e não houve novo sangramento nas últimas 8 horas. Não usa antitrombóticos. Tem diverticulose extensa em colonoscopia de 4 anos atrás. Qual é a conduta diagnóstica mais adequada?",
+"alts": [
+"Colonoscopia em até 6 horas, mesmo sem preparo intestinal",
+"Colonoscopia na internação, sem urgência, após preparo",
+"Angiotomografia imediata, mesmo sem sangramento ativo",
+"Arteriografia mesentérica seletiva e embolização do foco",
+"Alta sem exame, pois a causa diverticular é conhecida"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, momento da colonoscopia",
+"coment": "A maior parte dos sangramentos digestivos baixos cessa espontaneamente, e o diverticular é a causa mais comum no idoso. Na paciente estável, a diretriz do ACG de 2023 recomenda colonoscopia durante a internação, após preparo adequado com polietilenoglicol, sem caráter de urgência: ensaios randomizados mostraram que fazê-la nas primeiras 24 horas não reduz ressangramento nem mortalidade. O exame confirma a fonte, permite tratar estigmas e afasta neoplasia e colite. A angiotomografia é útil quando há sangramento ativo com repercussão hemodinâmica, e com o sangramento parado o rendimento é baixo. A arteriografia exige extravasamento ativo. Diverticulose prévia não prova que os divertículos sangraram, e a alta sem investigação deixa passar câncer, angiectasias ou colite isquêmica.",
+"porAlt": [
+"Colonoscopia ultraprecoce sem preparo tem rendimento baixo e não melhora ressangramento nem mortalidade.",
+"Correta: em paciente estável, a colonoscopia é feita na internação, após preparo, sem necessidade de urgência.",
+"Sem sangramento ativo, a angiotomografia raramente mostra extravasamento e expõe a contraste sem ganho.",
+"A arteriografia só localiza sangramento em atividade e é procedimento invasivo, reservado à terapia.",
+"Diverticulose antiga não confirma a origem do sangramento; neoplasia e outras causas precisam ser excluídas."
+]
+},
+{
+"q": "Homem de 74 anos recebe alta após sangramento diverticular que cessou espontaneamente, confirmado por colonoscopia, sem necessidade de terapia endoscópica. Usa ácido acetilsalicílico (AAS) 100 mg/dia iniciado há 6 anos como prevenção primária, por diabetes, sem doença coronariana, cerebrovascular ou arterial periférica, e toma naproxeno 500 mg duas vezes ao dia por artrose de joelho. LDL de 88 mg/dL em uso de atorvastatina. Qual é a orientação mais adequada em relação a esses medicamentos?",
+"alts": [
+"Suspender o AAS e também o naproxeno",
+"Manter o AAS e suspender o naproxeno",
+"Manter o AAS e trocar por celecoxibe",
+"Trocar o AAS por clopidogrel 75 mg/dia",
+"Manter o AAS e o naproxeno com um IBP"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, antitrombóticos e anti-inflamatórios após sangramento diverticular",
+"coment": "Anti-inflamatórios não esteroidais e ácido acetilsalicílico aumentam o risco de sangramento diverticular e de recidiva. A diretriz do ACG de 2023 distingue a indicação do AAS: em prevenção secundária, com doença cardiovascular estabelecida, ele deve ser mantido, porque o benefício supera o risco; em prevenção primária, como aqui, recomenda-se evitá-lo após hemorragia diverticular, já que o ganho cardiovascular é pequeno e o risco de ressangramento é real. Os anti-inflamatórios não seletivos devem ser suspensos. O celecoxibe reduz lesão alta, mas não está demonstrado que proteja do sangramento colônico. O inibidor de bomba não protege o cólon, porque o mecanismo não é ácido. O clopidogrel também aumenta sangramento diverticular e não tem indicação em prevenção primária. Para a artrose, preferir paracetamol e medidas não farmacológicas.",
+"porAlt": [
+"Correta: AAS em prevenção primária e anti-inflamatório devem ser suspensos após sangramento diverticular.",
+"Manter o AAS faz sentido só em prevenção secundária; aqui não há doença cardiovascular estabelecida.",
+"O AAS segue sem indicação, e o celecoxibe não tem proteção demonstrada contra sangramento do cólon.",
+"O clopidogrel também eleva o risco de sangramento diverticular e não tem indicação neste paciente.",
+"O inibidor de bomba protege o estômago, não os divertículos, e mantém dois fatores de ressangramento."
+]
+},
+{
+"q": "Mulher de 76 anos em hemodiálise por doença renal diabética tem episódios recorrentes de hematoquezia de pequeno volume e anemia ferropriva, com hemoglobina de 8,2 g/dL e ferritina de 9 ng/mL, necessitando de transfusão a cada 2 meses. Não usa anticoagulante. A colonoscopia com bom preparo mostra três lesões planas, avermelhadas, de 4 a 6 mm, de aspecto arboriforme, no ceco e no cólon ascendente, uma delas com porejamento; a endoscopia alta é normal. Qual é o tratamento inicial mais adequado?",
+"alts": [
+"Hemicolectomia direita eletiva com anastomose",
+"Octreotida de depósito como primeira escolha",
+"Coagulação com plasma de argônio das ectasias",
+"Ressecção das lesões por polipectomia com alça",
+"Apenas reposição de ferro, sem tratar as lesões"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding, 2023, terapia endoscópica térmica de angiectasias",
+"coment": "Lesões planas, vermelhas e arboriformes no cólon direito de idosa em diálise são angiectasias (angiodisplasias), causa importante de sangramento baixo recorrente e de anemia ferropriva, sobretudo em doença renal crônica, estenose aórtica e doença de von Willebrand adquirida. Quando a lesão sangra ou a anemia exige transfusão, o tratamento inicial é endoscópico térmico, e a coagulação com plasma de argônio é o método mais usado, por ser eficaz e com baixo risco de perfuração no cólon direito de parede fina. A reposição de ferro acompanha, mas sozinha não basta numa paciente dependente de transfusão. Octreotida e talidomida ficam para sangramento refratário ou lesões difusas. Alça de polipectomia não é técnica para lesão vascular plana, e a hemicolectomia é reservada a falha das demais opções.",
+"porAlt": [
+"A cirurgia é reservada a sangramento refratário após falha endoscópica e farmacológica.",
+"Octreotida é opção para lesões difusas ou refratárias, não primeira linha diante de lesões tratáveis.",
+"Correta: angiectasia com porejamento e anemia transfusional deve ser tratada com plasma de argônio.",
+"Alça de polipectomia não se aplica a lesão vascular plana e aumenta o risco de perfuração.",
+"Com transfusões a cada 2 meses e lesão sangrante, o ferro sozinho não controla o problema."
+]
+},
+{
+"q": "Mulher de 52 anos, previamente hígida, tem dor em fossa ilíaca esquerda há 2 dias, temperatura de 37,6 °C, sem vômitos, aceitando líquidos. Abdome com dor localizada, sem defesa difusa. Leucócitos 11.800/mm³, proteína C reativa 64 mg/L. A tomografia mostra espessamento de 5 cm do sigmoide com divertículos e densificação da gordura, sem abscesso, gás extraluminal ou fístula. Não é imunossuprimida, não tem diabetes descompensado e mora com o marido. Qual é a conduta mais adequada?",
+"alts": [
+"Tratamento ambulatorial com analgesia e sem antibiótico",
+"Ciprofloxacino com metronidazol oral por 10 dias em casa",
+"Internação com ceftriaxona e metronidazol endovenosos",
+"Internação com jejum e nutrição parenteral por 5 dias",
+"Colonoscopia na próxima semana para excluir neoplasia"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021, uso seletivo de antibiótico",
+"coment": "A paciente tem diverticulite aguda não complicada confirmada por tomografia, é imunocompetente, tolera via oral e tem suporte em casa. A atualização da AGA de 2021 orienta que o antibiótico seja usado de forma seletiva, não rotineira, nesse perfil: ensaios randomizados e metanálises mostraram que ele não encurta os sintomas nem reduz complicações, recorrência ou cirurgia. O antibiótico fica indicado se houver imunossupressão, fragilidade ou comorbidade relevante, vômitos ou sintomas refratários, proteína C reativa acima de 140 mg/L, leucócitos acima de 15.000/mm³, coleção ou segmento inflamado mais extenso na tomografia, nada disso presente aqui. Internação e jejum não se justificam. A colonoscopia não é feita na fase aguda, pelo risco de perfuração; ela é considerada após 6 a 8 semanas se não houver exame recente de qualidade.",
+"porAlt": [
+"Correta: diverticulite não complicada leve em imunocompetente pode ser tratada em casa sem antibiótico.",
+"O antibiótico oral não mudou desfechos neste perfil e acrescenta efeitos adversos e resistência.",
+"Não há critério de internação nem de antibiótico venoso numa paciente estável que aceita via oral.",
+"Jejum e nutrição parenteral não têm papel na diverticulite não complicada que tolera líquidos.",
+"A colonoscopia na fase aguda tem risco de perfuração; quando indicada, é feita após 6 a 8 semanas."
+]
+},
+{
+"q": "Homem de 61 anos teve, há 2 meses, o primeiro episódio de diverticulite aguda não complicada confirmada por tomografia, tratado em casa, com resolução completa. Colonoscopia de rastreamento de boa qualidade, feita há 1 ano, foi normal, exceto por diverticulose do sigmoide. Fuma 10 cigarros por dia, tem índice de massa corporal de 31 kg/m², é sedentário e come pouca fibra. Pergunta o que fazer para evitar novos episódios. Qual é a orientação mais adequada?",
+"alts": [
+"Evitar sementes, pipoca e castanhas, e usar mesalazina",
+"Probiótico contínuo e dieta pobre em resíduos por 1 ano",
+"Fibras, exercício e cessar tabagismo; sementes liberadas",
+"Rifaximina cíclica mensal associada a dieta sem fibras",
+"Sigmoidectomia eletiva indicada a partir deste 1º episódio"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis, 2021, prevenção de recorrência",
+"coment": "A prevenção de recorrência da diverticulite se apoia em mudanças de estilo de vida. A atualização da AGA de 2021 recomenda dieta rica em fibras, atividade física regular, perda de peso, cessação do tabagismo e evitar anti-inflamatórios não esteroidais. A antiga restrição de sementes, milho, pipoca e castanhas não tem respaldo: estudos de coorte não mostraram aumento de risco, e o consumo de castanhas até se associou a menor incidência. Mesalazina, rifaximina e probióticos não reduziram recorrência em ensaios e não são recomendados. A indicação de sigmoidectomia eletiva deixou de ser definida pelo número de episódios e é individualizada, pesando gravidade, impacto na qualidade de vida e imunossupressão; após um episódio não complicado, não está indicada. Como a colonoscopia de boa qualidade é recente, não precisa ser repetida.",
+"porAlt": [
+"A restrição de sementes não tem base em evidência e a mesalazina não reduziu recorrência em ensaios.",
+"Probióticos não mostraram benefício, e dieta pobre em resíduos vai contra a recomendação de fibras.",
+"Correta: fibras, exercício, perda de peso e parar de fumar reduzem recorrência, e sementes não precisam ser evitadas.",
+"Rifaximina não é recomendada para prevenção, e retirar as fibras aumenta o risco de novos episódios.",
+"A cirurgia eletiva é individualizada e não se indica após um único episódio não complicado."
+]
+},
+{
+"q": "Rapaz de 19 anos procura o pronto-socorro com dois episódios de evacuação com sangue vermelho-escuro em grande quantidade, indolores. Pressão arterial 108/66 mmHg, frequência 104 bpm, abdome indolor. Hemoglobina 9,4 g/dL, ureia 30 mg/dL. Teve episódio semelhante aos 14 anos, sem diagnóstico. A endoscopia alta e a colonoscopia com bom preparo, feitas na internação, não mostram lesão, e o íleo terminal visualizado é normal. Está estável após um concentrado de hemácias. Qual é o exame mais indicado para a principal hipótese?",
+"alts": [
+"Cintilografia com pertecnetato de tecnécio-99m",
+"Cintilografia com hemácias marcadas com tecnécio",
+"Arteriografia mesentérica seletiva de urgência",
+"Trânsito do intestino delgado com bário oral",
+"Repetir colonoscopia com novo preparo intestinal"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r1",
+"base": "ACG Clinical Guideline: Diagnosis and Management of Small Bowel Bleeding, 2015, cintilografia para divertículo de Meckel no jovem",
+"coment": "Sangramento volumoso, indolor e recorrente em jovem, com endoscopia alta e colonoscopia normais, sugere fonte no intestino delgado, e nessa faixa etária o divertículo de Meckel é a principal causa. O sangramento vem da úlcera na mucosa ileal adjacente, provocada pela secreção ácida de mucosa gástrica ectópica presente no divertículo. A cintilografia com pertecnetato de tecnécio-99m é captada pelas células da mucosa gástrica e localiza o divertículo; a diretriz do ACG de sangramento do delgado recomenda considerá-la em pacientes jovens com sangramento de delgado. A cintilografia com hemácias marcadas detecta sangramento ativo em qualquer local, sem especificidade para Meckel. A arteriografia exige sangramento em curso. O trânsito baritado tem baixa sensibilidade. Repetir uma colonoscopia de boa qualidade raramente acrescenta.",
+"porAlt": [
+"Correta: o pertecnetato marca a mucosa gástrica ectópica e é o exame de escolha para divertículo de Meckel.",
+"Hemácias marcadas mostram sangramento ativo, mas não identificam a mucosa gástrica característica do Meckel.",
+"A arteriografia só localiza sangramento ativo intenso e o paciente está estável no momento.",
+"O trânsito baritado tem baixa sensibilidade para divertículo de Meckel e para fontes de sangramento.",
+"A colonoscopia já foi feita com bom preparo e não explica um sangramento originado no delgado."
+]
+},
+{
+"q": "Mulher de 34 anos tem há 3 meses dor em fossa ilíaca direita e 3 a 4 evacuações pastosas por dia, sem sangue, sem febre e com perda de 1 kg. Exame físico sem massa e sem doença perianal. Hemoglobina 12,6 g/dL, albumina 4,0 g/dL, proteína C reativa 12 mg/L, calprotectina fecal 380 µg/g. A colonoscopia mostra úlceras aftoides em 8 cm do íleo terminal e na válvula ileocecal, sem úlceras profundas, e a enterorressonância não mostra estenose, fístula ou abscesso. As biópsias são compatíveis com doença de Crohn. Qual é a indução mais adequada?",
+"alts": [
+"Budesonida oral de liberação ileal, 9 mg por dia",
+"Mesalazina oral 4 g por dia por tempo prolongado",
+"Prednisona 1 mg/kg/dia associada a azatioprina",
+"Infliximabe associado a azatioprina desde o início",
+"Ciprofloxacino com metronidazol por seis semanas"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Management of Crohn's Disease in Adults, 2025, indução na doença ileocecal leve a moderada",
+"coment": "A paciente tem doença de Crohn ileocecal leve, com lesões superficiais e curtas, sem doença perianal, sem estenose ou fístula, sem anemia ou hipoalbuminemia, ou seja, de baixo risco de evolução agressiva. Nesse perfil, a diretriz do ACG de 2025 recomenda budesonida oral de liberação ileal, 9 mg ao dia, para induzir remissão: age no íleo e cólon direito com baixa absorção sistêmica e menos efeitos que a prednisona. A mesalazina não é recomendada no Crohn por falta de eficácia consistente. A mesma diretriz defende biológico precoce, geralmente anti-TNF, quando a doença é moderada a grave ou há fatores de mau prognóstico, como úlceras profundas, doença extensa, perianal ou início precoce, o que não é o caso. Antibióticos não tratam a doença luminal. A atividade deve ser reavaliada com marcadores e endoscopia.",
+"porAlt": [
+"Correta: na doença ileocecal leve de baixo risco, a budesonida de liberação ileal é a indução recomendada.",
+"A mesalazina não tem eficácia consistente no Crohn e não é recomendada para indução ou manutenção.",
+"Corticoide sistêmico em dose plena é excessivo para doença leve e tem mais efeitos que a budesonida.",
+"O biológico precoce é reservado a doença moderada a grave ou com fatores de mau prognóstico.",
+"Antibióticos não induzem remissão na doença luminal e ficam para complicações infecciosas ou perianais."
+]
+},
+{
+"q": "Homem de 28 anos com retocolite ulcerativa extensa diagnosticada há 1 ano, em uso irregular de mesalazina, é internado com 10 evacuações diárias com sangue, frequência cardíaca 104 bpm, temperatura 37,9 °C, hemoglobina 10,1 g/dL, proteína C reativa 86 mg/L e velocidade de hemossedimentação de 42 mm/h. A radiografia de abdome não mostra dilatação colônica. Não recebeu corticoide nos últimos meses. Qual conjunto de medidas iniciais é o mais adequado?",
+"alts": [
+"Corticoide oral em dose plena, ciprofloxacino e jejum oral",
+"Colectomia de urgência pelos critérios de colite grave atual",
+"Corticoide IV, pesquisar C. difficile e heparina profilática",
+"Mesalazina oral em dose máxima, enemas e alta com retorno",
+"Infliximabe imediato e suspender heparina pelo sangramento"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025, manejo inicial da colite aguda grave hospitalizada",
+"coment": "O paciente preenche os critérios de Truelove e Witts para colite aguda grave: seis ou mais evacuações com sangue e ao menos um sinal sistêmico (taquicardia, febre, anemia ou hemossedimentação elevada). A diretriz do ACG de 2025 orienta internação com corticoide intravenoso, como metilprednisolona 60 mg ao dia, pesquisa de infecção por Clostridioides difficile, que piora o prognóstico e muda a conduta, e profilaxia farmacológica de tromboembolismo venoso, porque o risco trombótico é alto e o sangramento retal não a contraindica. Retossigmoidoscopia cuidadosa ajuda a afastar citomegalovírus. A resposta é reavaliada por volta do terceiro dia; sem melhora, faz-se resgate com infliximabe ou ciclosporina e avalia-se cirurgia. Colectomia imediata cabe em megacólon tóxico, perfuração ou hemorragia maciça, ausentes aqui. Antibiótico empírico e jejum não melhoram o desfecho.",
+"porAlt": [
+"Corticoide oral é insuficiente na colite grave internada, e antibiótico empírico e jejum não mudam o desfecho.",
+"A colectomia imediata é para megacólon tóxico, perfuração ou hemorragia maciça, que este paciente não tem.",
+"Correta: corticoide venoso, exclusão de C. difficile e profilaxia de trombose são as medidas iniciais na colite grave.",
+"Com critérios de gravidade, mesalazina e alta expõem o paciente a deterioração rápida fora do hospital.",
+"O infliximabe é resgate após falha do corticoide, e a profilaxia de trombose deve ser mantida."
+]
+},
+{
+"q": "Mulher de 31 anos com retocolite ulcerativa em remissão com mesalazina, assintomática, traz exames de rotina: fosfatase alcalina 410 U/L (referência até 104), gama-GT 290 U/L, transaminases 1,5 vez o limite superior e bilirrubina normal. A ultrassonografia não mostra cálculos nem dilatação de vias biliares, e o anticorpo antimitocôndria é negativo. Não usa álcool nem outros medicamentos. Qual é o exame mais indicado para a principal hipótese?",
+"alts": [
+"Biópsia hepática para colangite biliar primária",
+"CPRE diagnóstica com escovado das vias biliares",
+"Anticorpo antimúsculo liso para hepatite autoimune",
+"Colangiorressonância para colangite esclerosante",
+"Repetir enzimas em 6 meses por efeito da mesalazina"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "AASLD Practice Guidance on primary sclerosing cholangitis and cholangiocarcinoma, 2022; ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025",
+"coment": "Colestase persistente em paciente com retocolite ulcerativa deve levantar a suspeita de colangite esclerosante primária, a manifestação hepatobiliar mais característica da doença inflamatória intestinal, que acomete principalmente homens jovens, mas também mulheres. A ultrassonografia costuma ser normal nas fases iniciais. A orientação da AASLD de 2022 recomenda a colangiorressonância como exame diagnóstico de escolha, por mostrar estenoses multifocais e dilatações das vias biliares intra e extra-hepáticas de forma não invasiva. A CPRE fica para quando há necessidade terapêutica ou de amostra para afastar colangiocarcinoma, pelo risco de pancreatite e colangite. A biópsia hepática só se faz se houver suspeita de doença de pequenos ductos ou sobreposição com hepatite autoimune. A colangite biliar primária é improvável com antimitocôndria negativo. O diagnóstico muda a vigilância do cólon, que passa a ser anual.",
+"porAlt": [
+"Com antimitocôndria negativo a colangite biliar é improvável, e a biópsia não é o primeiro exame aqui.",
+"A CPRE é invasiva e fica reservada a intervenção terapêutica ou coleta de material, não ao diagnóstico.",
+"Hepatite autoimune cursaria com predomínio de transaminases, e o padrão aqui é claramente colestático.",
+"Correta: colestase em portador de retocolite sugere colangite esclerosante, e a colangiorressonância é o exame de escolha.",
+"Atribuir à mesalazina e esperar 6 meses atrasa o diagnóstico de uma doença que muda o seguimento."
+]
+},
+{
+"q": "Homem de 44 anos tem retocolite ulcerativa extensa, até o ceco, diagnosticada há 8 anos, em remissão clínica e endoscópica com mesalazina. Não tem colangite esclerosante primária nem história familiar de câncer colorretal. A última colonoscopia, há 3 anos, foi para avaliação de atividade e não mostrou displasia. Qual é a estratégia de prevenção de câncer colorretal recomendada?",
+"alts": [
+"Colonoscopia de rastreio apenas a partir dos 45 anos",
+"Colonoscopia a cada 10 anos, como na população geral",
+"Colectomia profilática pela extensão e pela duração",
+"Teste imunoquímico fecal anual em vez de colonoscopia",
+"Iniciar colonoscopia de vigilância a cada 1 a 3 anos"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults, 2025, vigilância de displasia na colite extensa",
+"coment": "O risco de câncer colorretal na retocolite aumenta com a duração e a extensão da doença e com a intensidade da inflamação. Por isso, a diretriz do ACG de 2025 recomenda colonoscopia de vigilância a partir de 8 anos do diagnóstico em quem tem colite além do reto, repetida a cada 1 a 3 anos conforme o risco, com aparelho de alta definição e técnicas que aumentam a detecção de displasia, como a cromoscopia. Pacientes com colangite esclerosante primária fogem dessa regra: a vigilância começa no diagnóstico da colangite e é anual. O rastreio da população geral, aos 45 anos e a cada 10 anos, não se aplica a quem tem colite extensa de longa data. O teste imunoquímico fecal não serve, porque a doença inflamatória causa sangramento e a displasia pode ser plana. A colectomia profilática sem displasia não é indicada.",
+"porAlt": [
+"A vigilância na colite não depende da idade de rastreio populacional, e sim do tempo e da extensão da doença.",
+"O intervalo de 10 anos é para risco médio e é longo demais para colite extensa de longa duração.",
+"Sem displasia, a colectomia profilática não se justifica apenas pela extensão e duração da colite.",
+"O teste fecal perde valor na colite, que sangra, e não detecta displasia plana; a colonoscopia é obrigatória.",
+"Correta: com 8 anos de colite extensa, inicia-se colonoscopia de vigilância a cada 1 a 3 anos."
+]
+},
+{
+"q": "Homem de 46 anos chega com dor epigástrica intensa em faixa, irradiada para o dorso, iniciada há 10 horas após jantar com bebida alcoólica, com náuseas. Pressão arterial 134/82 mmHg, frequência 98 bpm, temperatura 37,2 °C, saturação 97%. Abdome doloroso no epigástrio, sem peritonite. Lipase 1.380 U/L (referência até 60), creatinina 1,0 mg/dL, ureia 34 mg/dL, leucócitos 12.400/mm³. A ultrassonografia de abdome mostra vesícula sem cálculos e pâncreas mal visualizado por gases. Sobre o diagnóstico, qual é a afirmação correta?",
+"alts": [
+"Só se confirma com tomografia contrastada de entrada",
+"Exige amilase acima de 3 vezes para ser confirmado",
+"Está confirmado; não exige tomografia neste momento",
+"Exige ressonância, pois o pâncreas não foi bem visto",
+"Exige lipase acima de 10 vezes o limite superior normal"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r1",
+"base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, critérios diagnósticos de Atlanta revisados",
+"coment": "Pela classificação de Atlanta revisada, adotada pela diretriz do ACG de 2024, o diagnóstico de pancreatite aguda exige dois de três critérios: dor abdominal típica, lipase ou amilase acima de três vezes o limite superior e achados de imagem característicos. Este paciente tem dor típica e lipase cerca de 23 vezes o limite, o que já fecha o diagnóstico sem qualquer imagem do pâncreas. A tomografia contrastada na admissão não é recomendada quando o diagnóstico é claro: ela não muda a conduta inicial, a necrose pode não estar definida nas primeiras 72 horas e o contraste soma risco. Fica para dúvida diagnóstica ou para quem não melhora após 48 a 72 horas. A ultrassonografia serve para buscar litíase biliar, não para confirmar a pancreatite. Não há exigência de amilase quando a lipase já é diagnóstica, nem de lipase acima de 10 vezes.",
+"porAlt": [
+"A tomografia de entrada não é necessária quando os dois critérios clínico-laboratoriais já estão presentes.",
+"Basta lipase ou amilase acima de três vezes; a lipase isolada já cumpre o critério enzimático.",
+"Correta: dor típica e lipase acima de três vezes o limite já preenchem dois critérios, sem necessidade de imagem.",
+"A má visualização na ultrassonografia não importa, porque a imagem não é necessária para este diagnóstico.",
+"O corte diagnóstico é três vezes o limite superior, não dez vezes, e o paciente o ultrapassa com folga."
+]
+},
+{
+"q": "Mulher de 39 anos está internada há 30 horas com pancreatite aguda biliar leve, sem falência orgânica, e recebeu hidratação moderada com Ringer lactato e analgesia. Hoje a dor caiu de 8 para 3 em 10, não há vômitos, os ruídos hidroaéreos estão presentes e ela refere fome. A lipase ainda está 4 vezes acima do normal. Bilirrubina normal, sem sinais de colangite. Quanto à alimentação, qual é a conduta mais adequada?",
+"alts": [
+"Aguardar a lipase normalizar para liberar a dieta oral",
+"Iniciar dieta oral sólida com pouca gordura já hoje",
+"Iniciar nutrição parenteral total e manter o jejum",
+"Iniciar dieta enteral por sonda nasojejunal desde hoje",
+"Dieta líquida restrita por 5 dias antes de sólidos"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, realimentação oral precoce",
+"coment": "A diretriz do ACG de 2024 recomenda realimentação oral precoce na pancreatite leve, idealmente nas primeiras 24 a 48 horas, assim que a dor diminui e não há vômitos, porque o jejum prolongado favorece atrofia da mucosa, translocação bacteriana e infecção, além de prolongar a internação. Não é preciso esperar a normalização da lipase, que não se relaciona com a tolerância alimentar nem com a gravidade. Também não é preciso começar por dieta líquida: a dieta sólida com pouca gordura é segura e reduz o tempo de internação. Sonda e nutrição parenteral ficam para quem não tolera a via oral, e na pancreatite grave a via enteral é preferida à parenteral. Por ser biliar e leve, a colecistectomia deve ser feita na mesma internação para evitar recorrência.",
+"porAlt": [
+"A lipase não guia a realimentação, e esperar sua normalização prolonga o jejum sem benefício.",
+"Correta: com dor em queda e fome, a dieta oral sólida com pouca gordura deve ser iniciada precocemente.",
+"A nutrição parenteral é reservada a quem não tolera via enteral e não se aplica a pancreatite leve.",
+"A sonda nasojejunal é para quem não consegue comer; esta paciente tem fome e tolera a via oral.",
+"Começar por líquidos não traz vantagem, e a dieta sólida com pouca gordura é segura desde o início."
+]
+},
+{
+"q": "Homem de 57 anos está no quarto dia de pancreatite aguda alcoólica grave, na UTI por insuficiência respiratória que melhorou com cateter nasal de alto fluxo. A tomografia contrastada de ontem mostra necrose de cerca de 40% do pâncreas, sem gás nem coleção encapsulada. Temperatura 37,8 °C, leucócitos 16.000/mm³, procalcitonina 0,3 ng/mL, hemoculturas negativas e nenhum outro foco infeccioso. Não tolera dieta oral por dor e náuseas. Qual é a conduta mais adequada?",
+"alts": [
+"Nutrição enteral por sonda, sem antibiótico profilático",
+"Meropeném profilático e nutrição parenteral exclusiva",
+"Imipeném por 14 dias e jejum até a necrose se resolver",
+"Necrosectomia precoce e antibiótico de amplo espectro",
+"Punção da necrose por agulha fina e antibiótico empírico"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "tit",
+"base": "ACG Clinical Guideline: Management of Acute Pancreatitis, 2024, antibiótico profilático e nutrição na pancreatite necrosante",
+"coment": "A diretriz do ACG de 2024 recomenda não usar antibiótico profilático na pancreatite grave ou necrosante sem infecção documentada: os ensaios não mostraram redução de infecção da necrose nem de mortalidade, e há seleção de germes resistentes e fungos. Febre baixa e leucocitose nos primeiros dias refletem a resposta inflamatória sistêmica; a suspeita de necrose infectada surge mais tarde, em geral após 7 a 10 dias, com piora clínica ou gás na tomografia. Quando a via oral não é tolerada, a nutrição enteral por sonda é preferida à parenteral, porque preserva a barreira intestinal e reduz infecções, falência orgânica e mortalidade. A punção por agulha fina deixou de ser rotina. A intervenção na necrose, quando necessária, deve ser adiada até a encapsulação, em geral após quatro semanas, preferindo abordagens minimamente invasivas.",
+"porAlt": [
+"Correta: sem infecção documentada não se usa antibiótico, e a via enteral é preferida quando a oral falha.",
+"Antibiótico profilático não reduz mortalidade, e a nutrição parenteral aumenta infecções em relação à enteral.",
+"Antibiótico sem infecção é contraindicado e o jejum prolongado piora a barreira intestinal.",
+"Intervir na necrose precocemente aumenta mortalidade; deve-se aguardar a encapsulação.",
+"A punção da necrose não é rotina e não há quadro sugestivo de infecção neste quarto dia."
+]
+},
+{
+"q": "Homem de 52 anos, ex-etilista, com pancreatite crônica calcificante, refere 4 evacuações diárias volumosas, gordurosas e de difícil descarga, com perda de 6 kg em 4 meses. Elastase fecal de 62 µg/g. Hemoglobina glicada de 6,1%. Usa pancreatina 10.000 UI de lipase em jejum, pela manhã, uma vez ao dia, sem melhora. Qual é o ajuste mais adequado?",
+"alts": [
+"Manter 10 mil UI em jejum e associar loperamida diariamente",
+"Dobrar a dose em jejum, duas horas antes do café da manhã",
+"Suspender a enzima e iniciar dieta totalmente sem gordura",
+"Trocar por octreotida para reduzir a secreção intestinal",
+"40 a 50 mil UI de lipase junto de cada refeição principal"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "AGA Clinical Practice Update on the Epidemiology, Evaluation, and Management of Exocrine Pancreatic Insufficiency, 2023; ACG Clinical Guideline: Chronic Pancreatitis, 2020",
+"coment": "Esteatorreia com perda de peso e elastase fecal abaixo de 100 µg/g confirmam insuficiência pancreática exócrina. A falha aqui é de dose e de horário: a enzima só age misturada ao alimento no duodeno. A atualização da AGA de 2023 recomenda iniciar com ao menos 40.000 a 50.000 unidades de lipase em cada refeição principal, tomadas no início ou ao longo da refeição, e metade dessa dose nos lanches, com titulação pela resposta clínica. Se a resposta for insuficiente apesar de dose adequada, pode-se associar inibidor de bomba, que protege as enzimas da inativação ácida. A dieta não deve ser pobre em gordura, porque isso agrava a desnutrição e a deficiência de vitaminas lipossolúveis. Loperamida mascara o problema, e a octreotida reduz ainda mais a secreção pancreática. Deve-se avaliar vitaminas lipossolúveis e densidade óssea.",
+"porAlt": [
+"Dose baixa em jejum não digere gordura alguma, e a loperamida só mascara a esteatorreia.",
+"Em jejum, a enzima não encontra alimento para agir; dobrar a dose no horário errado não resolve.",
+"Restringir gordura agrava a perda de peso e as deficiências; o correto é ajustar a enzima.",
+"A octreotida reduz a secreção pancreática e pode piorar a insuficiência exócrina.",
+"Correta: a enzima precisa de dose adequada e ser tomada com as refeições, começando por 40 a 50 mil UI de lipase."
+]
+},
+{
+"q": "Mulher de 62 anos com esclerose sistêmica há 10 anos refere distensão abdominal, flatulência e diarreia aquosa há 6 meses, com perda de 4 kg. Hemoglobina 11,0 g/dL com volume corpuscular médio de 104 fL, vitamina B12 baixa (160 pg/mL), folato sérico elevado (24 ng/mL), sorologia para doença celíaca negativa com IgA total normal e calprotectina fecal de 40 µg/g. Colonoscopia recente normal. Qual é o próximo passo diagnóstico mais adequado?",
+"alts": [
+"Teste respiratório com glicose ou lactulose",
+"Elastase fecal com tomografia de pâncreas",
+"Teste respiratório com ureia marcada com 13C",
+"Biópsia de duodeno com coloração pelo PAS",
+"Teste de tolerância à lactose com glicemia"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ACG Clinical Guideline: Small Intestinal Bacterial Overgrowth, 2020, teste respiratório com glicose ou lactulose",
+"coment": "A esclerose sistêmica compromete a motilidade do intestino delgado e é causa clássica de supercrescimento bacteriano. O quadro de distensão, flatulência e diarreia com B12 baixa e folato alto é típico: as bactérias consomem a cobalamina e produzem folato. A diretriz do ACG de 2020 recomenda o teste respiratório com glicose ou lactulose, medindo hidrogênio e metano, como forma prática e não invasiva de diagnóstico; a cultura do aspirado jejunal é o padrão de referência, mas pouco disponível. O tratamento é com antibiótico, sendo a rifaximina a opção mais estudada, além de procinéticos e correção de deficiências. A sorologia celíaca negativa e a calprotectina normal afastam celíaca e inflamação. O teste com ureia marcada pesquisa Helicobacter pylori, a coloração pelo PAS busca doença de Whipple e o perfil não é de insuficiência pancreática.",
+"porAlt": [
+"Correta: dismotilidade da esclerose sistêmica, B12 baixa e folato alto apontam supercrescimento, e o teste respiratório confirma.",
+"Insuficiência pancreática não explica folato alto, e não há história de pancreatite ou álcool.",
+"O teste com ureia marcada detecta Helicobacter pylori, que não explica diarreia com B12 baixa e folato alto.",
+"A coloração pelo PAS investiga doença de Whipple, pouco provável sem artralgias, febre ou linfonodomegalia.",
+"A intolerância à lactose não explica a deficiência de B12 com folato elevado nem a perda de peso."
+]
+},
+{
+"q": "Homem de 56 anos, agricultor, tem há 5 anos artralgias migratórias de grandes articulações, tratadas como artrite soronegativa. Há 8 meses surgiram diarreia, perda de 11 kg, febre baixa e escurecimento da pele. Ao exame, linfonodomegalias generalizadas e hiperpigmentação cutânea. Albumina 2,6 g/dL. A endoscopia mostra vilosidades duodenais espessadas e mucosa esbranquiçada; as biópsias têm macrófagos espumosos PAS-positivos na lâmina própria, resistentes à diástase, com Ziehl-Neelsen negativo, e a PCR tecidual para Tropheryma whipplei é positiva. Qual é o tratamento mais adequado?",
+"alts": [
+"Ceftriaxona por 14 dias e depois sulfametoxazol-trimetoprima por 12 meses",
+"Rifampicina, isoniazida, pirazinamida e etambutol por seis meses no total",
+"Dieta isenta de glúten por toda a vida associada a reposição de vitaminas",
+"Prednisona e metotrexato pela artrite, com enzimas pancreáticas associadas",
+"Doxiciclina por 14 dias, sem necessidade de manutenção com outro antibiótico"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Feurle et al., ensaio randomizado de tratamento da doença de Whipple, Gastroenterology 2010; Marth et al., revisão sobre doença de Whipple, Lancet Infectious Diseases 2016",
+"coment": "A doença de Whipple é infecção sistêmica rara por Tropheryma whipplei, típica de homens de meia-idade com contato com solo. Artralgias migratórias costumam preceder em anos a diarreia, a perda de peso, a febre, as linfonodomegalias e a hiperpigmentação. O diagnóstico vem da biópsia duodenal com macrófagos PAS-positivos e da PCR. O tratamento com melhor evidência começa com antibiótico que atravessa a barreira hematoencefálica, ceftriaxona ou meropeném intravenoso por 14 dias, para tratar ou prevenir o acometimento neurológico, seguido de sulfametoxazol-trimetoprima oral por 12 meses; doxiciclina com hidroxicloroquina por 12 meses é alternativa. Cursos curtos têm recidiva alta. O Ziehl-Neelsen negativo afasta micobactéria atípica. A dieta sem glúten trata doença celíaca, e o imunossupressor dado por artrite presumida pode agravar a infecção.",
+"porAlt": [
+"Correta: indução intravenosa com ceftriaxona e manutenção oral prolongada com sulfametoxazol-trimetoprima é o esquema de referência.",
+"O esquema de tuberculose não trata Tropheryma whipplei, e o Ziehl-Neelsen negativo afasta micobactéria.",
+"A dieta sem glúten trata doença celíaca, que não cursa com macrófagos PAS-positivos nem com essa PCR.",
+"Imunossupressão por artrite presumida pode piorar a infecção, e o problema não é insuficiência pancreática.",
+"Um curso curto de doxiciclina isolada tem recidiva alta; a doença exige tratamento por cerca de 1 ano."
+]
+},
+{
+"q": "Mulher de 29 anos retirou o glúten da dieta por conta própria há 14 meses por distensão e diarreia, com melhora parcial. Nunca fez sorologia ou endoscopia antes da dieta. Agora, ainda sem glúten, a antitransglutaminase IgA é negativa, com IgA total normal. Ela quer saber se tem doença celíaca, mas teme voltar a comer glúten. Qual é o próximo passo mais adequado?",
+"alts": [
+"Tipagem HLA-DQ2/DQ8; se negativa, afasta doença celíaca",
+"Sorologia negativa já afasta a doença, mesmo sem glúten",
+"Biópsia duodenal agora, mesmo sem nenhum consumo de glúten",
+"Dosar antigliadina nativa IgG para confirmar o diagnóstico",
+"Manter a dieta sem glúten e rotular como doença celíaca"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ACG Clinical Guideline Update: Diagnosis and Management of Celiac Disease, 2023, uso do HLA-DQ2/DQ8 em quem já está sem glúten",
+"coment": "Sorologia e histologia só são confiáveis com consumo de glúten; após mais de um ano de dieta, a antitransglutaminase negativa e a mucosa normal podem refletir apenas a retirada do glúten. A diretriz do ACG de 2023 indica a tipagem de HLA-DQ2 e DQ8 justamente nessa situação: quase todos os celíacos têm um desses haplótipos, então o resultado negativo praticamente exclui a doença e dispensa o teste de reintrodução. Se for positivo, o que ocorre em cerca de um terço da população, ele não confirma o diagnóstico, e então se discute reintrodução supervisionada de glúten seguida de sorologia e biópsia duodenal. A antigliadina nativa tem baixa acurácia e não é recomendada. Rotular a paciente como celíaca sem confirmação impõe dieta restritiva por toda a vida e pode encobrir outro diagnóstico.",
+"porAlt": [
+"Correta: o HLA-DQ2/DQ8 negativo exclui doença celíaca com segurança mesmo em quem já está sem glúten.",
+"Sem glúten na dieta, a sorologia se negativa também em celíacos e não pode afastar a doença.",
+"A biópsia sem consumo de glúten pode estar normal mesmo em celíaco e não é conclusiva.",
+"A antigliadina nativa tem baixa sensibilidade e especificidade e não é recomendada no diagnóstico.",
+"Rotular sem confirmação impõe dieta por toda a vida e pode atrasar a busca de outro diagnóstico."
+]
+},
+{
+"q": "Homem de 46 anos, assintomático, sem história pessoal ou familiar de pólipos, câncer colorretal ou doença inflamatória intestinal, vem a consulta de rotina em serviço que segue a força-tarefa americana de prevenção. Hemograma normal, sem sangramento retal ou mudança do hábito intestinal. Nunca fez exame do intestino. Segundo a recomendação da USPSTF de 2021, qual é a conduta?",
+"alts": [
+"Aguardar até os 50 anos para iniciar o rastreio, pois o risco é habitual",
+"Iniciar rastreio com sangue oculto anual e colonoscopia a cada 5 anos",
+"Iniciar rastreio com antígeno carcinoembrionário anual e toque retal",
+"Indicar colonoscopia agora e repeti-la a cada 3 anos, se for normal",
+"Iniciar rastreio com teste imunoquímico anual ou colonoscopia decenal"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "USPSTF, Screening for Colorectal Cancer: Recommendation Statement, 2021, início aos 45 anos",
+"coment": "Em 2021 a USPSTF antecipou o início do rastreamento do câncer colorretal em pessoas de risco habitual de 50 para 45 anos (recomendação B), pelo aumento da incidência em adultos mais jovens, mantendo a recomendação A entre 50 e 75 anos e decisão individualizada entre 76 e 85. As estratégias aceitas incluem teste imunoquímico fecal anual, teste de DNA fecal com imunoquímico a cada 1 a 3 anos, colonoscopia a cada 10 anos, colonografia por tomografia a cada 5 anos e retossigmoidoscopia a cada 5 anos. Antígeno carcinoembrionário e toque retal não são métodos de rastreio. No Brasil, o protocolo nacional anunciado pelo Ministério da Saúde e pelo INCA em 2026 adota o teste imunoquímico fecal em assintomáticos de 50 a 75 anos no SUS, com colonoscopia se positivo; a pergunta aqui pede a recomendação americana.",
+"porAlt": [
+"Esperar até os 50 anos era a recomendação anterior; desde 2021 a USPSTF indica início aos 45 anos.",
+"Combinar sangue oculto anual com colonoscopia a cada 5 anos não é estratégia recomendada e soma exames.",
+"Antígeno carcinoembrionário serve para seguimento de câncer tratado, não para rastreamento.",
+"Com colonoscopia normal em risco habitual, o intervalo é de 10 anos, não de 3 anos.",
+"Correta: pela USPSTF de 2021 o rastreio começa aos 45 anos, e teste imunoquímico anual ou colonoscopia decenal são opções válidas."
+]
+},
+{
+"q": "Mulher de 61 anos foi operada por adenocarcinoma de cólon ascendente, estádio II. A imuno-histoquímica do tumor mostra perda de expressão de MLH1 e PMS2, com MSH2 e MSH6 preservados. Não tem outros cânceres; o pai teve câncer de próstata aos 78 anos e não há casos de câncer colorretal ou de endométrio na família. Qual é o próximo passo na investigação de síndrome de Lynch?",
+"alts": [
+"Testar MLH1 germinativo nos filhos antes da paciente",
+"Nada mais, pois não preenche os critérios de Amsterdam",
+"Pesquisar BRAF V600E ou metilação do promotor de MLH1",
+"Sequenciar o gene APC no sangue periférico da paciente",
+"Repetir imuno-histoquímica em biópsia de pólipo antigo"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "NCCN Guidelines: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric, 2025, triagem universal do tumor para deficiência de reparo",
+"coment": "Recomenda-se testar todo câncer colorretal para deficiência de reparo de pareamento, por imuno-histoquímica ou instabilidade de microssatélites, porque os critérios clínicos de Amsterdam e Bethesda deixam passar muitos casos de síndrome de Lynch. A perda de MLH1 com PMS2 é o padrão mais comum, mas, em idosos, na maioria das vezes resulta de silenciamento epigenético esporádico por hipermetilação do promotor de MLH1, frequentemente com mutação BRAF V600E no tumor. Por isso, o passo seguinte é pesquisar BRAF V600E ou metilação do promotor: se presente, o tumor é provavelmente esporádico; se ausente, indica-se aconselhamento e teste germinativo na paciente. Testar os filhos antes de definir a mutação na paciente inverte a lógica da investigação. APC se refere a polipose adenomatosa familiar, sem relação com este padrão.",
+"porAlt": [
+"O teste em familiares só faz sentido depois de identificar a variante patogênica na própria paciente.",
+"A história familiar negativa não exclui Lynch; por isso se testa o tumor, independentemente de Amsterdam.",
+"Correta: perda de MLH1 exige pesquisar BRAF V600E ou metilação do promotor para separar caso esporádico de Lynch.",
+"O gene APC é da polipose adenomatosa familiar e não explica a perda de MLH1 e PMS2 no tumor.",
+"Repetir a imuno-histoquímica em outra lesão não esclarece se a perda de MLH1 é germinativa ou esporádica."
+]
+},
+{
+"q": "Homem de 63 anos fez colonoscopia de rastreamento com bom preparo. Foi encontrado adenoma tubuloviloso séssil de 28 mm no cólon transverso, ressecado em fragmentos por mucosectomia, com displasia de baixo grau, além de dois adenomas tubulares de 4 mm no sigmoide, ressecados inteiros. Não houve complicações. Qual é o intervalo para a próxima colonoscopia?",
+"alts": [
+"Em 3 anos, pelo componente viloso do adenoma",
+"Em 1 ano, pelo número total de adenomas achados",
+"Em 5 anos, pois a displasia foi de baixo grau",
+"Em 10 anos, pois todas as lesões foram retiradas",
+"Em 6 meses, para revisar o local da ressecção"
+],
+"gab": 4,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "US Multi-Society Task Force on Colorectal Cancer, Recommendations for Follow-Up After Colonoscopy and Polypectomy, 2020, ressecção fragmentada de lesão de 20 mm ou mais",
+"coment": "O fator que manda no intervalo aqui é a técnica de ressecção. Lesões de 20 mm ou mais retiradas em fragmentos têm recidiva local em uma parcela importante dos casos, porque pode restar tecido adenomatoso entre os fragmentos. A força-tarefa americana de 2020 recomenda nova colonoscopia em 6 meses para revisar a cicatriz e tratar resíduo, depois em 1 ano e, se estiver limpo, em 3 anos. Se o adenoma de 28 mm tivesse sido retirado em bloco, o intervalo seria de 3 anos, como para qualquer adenoma de 10 mm ou mais ou com componente viloso. Os dois adenomas pequenos não mudam a conduta. Intervalos de 5 ou 10 anos ignoram o risco de lesão residual, e 1 ano não é o intervalo recomendado para a primeira revisão.",
+"porAlt": [
+"Três anos seria adequado se a lesão tivesse sido retirada em bloco; o risco aqui é a recidiva local.",
+"O número de adenomas não define o intervalo neste caso, e sim a ressecção fragmentada da lesão grande.",
+"Displasia de baixo grau não autoriza intervalo longo quando há risco de tecido residual no local.",
+"Dez anos é para colonoscopia normal; o paciente tem adenoma avançado ressecado em fragmentos.",
+"Correta: ressecção fragmentada de lesão de 20 mm ou mais exige revisão do local em 6 meses."
+]
+},
+{
+"q": "Homem de 68 anos com hipertensão procura a unidade básica por cansaço aos esforços há 3 meses. Nega sangramentos visíveis, dor abdominal ou mudança do hábito intestinal; perdeu 3 kg. Não usa anti-inflamatório nem antitrombótico. Hemoglobina 9,6 g/dL, volume corpuscular médio de 72 fL e ferritina de 8 ng/mL. Nunca fez exames do intestino. Qual é a investigação mais adequada?",
+"alts": [
+"Sangue oculto e, se negativo, ferro oral",
+"Colonoscopia apenas se houver sangramento",
+"Endoscopia digestiva alta e colonoscopia",
+"Ferro oral e exames só se não responder",
+"Tomografia de abdome e marcadores tumorais"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "AGA Clinical Practice Guideline on the Gastrointestinal Evaluation of Iron Deficiency Anemia, 2020, endoscopia bidirecional",
+"coment": "Anemia ferropriva em homem ou em mulher após a menopausa deve ser considerada perda digestiva até prova em contrário, e o câncer colorretal e o gástrico estão entre as causas mais importantes. A diretriz da AGA de 2020 recomenda endoscopia digestiva alta e colonoscopia nesses pacientes assintomáticos, em vez de nenhuma investigação, porque lesões relevantes aparecem nos dois segmentos e às vezes simultaneamente. A pesquisa de sangue oculto não deve guiar a decisão: o resultado negativo não afasta lesão, já que o sangramento é intermitente. Tratar com ferro e investigar só se não houver resposta atrasa o diagnóstico de neoplasia, ainda mais com perda de peso. Tomografia e marcadores tumorais não substituem a visualização direta da mucosa. A endoscopia alta deve incluir biópsias duodenais para doença celíaca e gástricas para Helicobacter pylori.",
+"porAlt": [
+"O sangue oculto negativo não afasta neoplasia, pois o sangramento pode ser intermitente.",
+"A ausência de sangramento visível é a regra no câncer de cólon direito e não dispensa a colonoscopia.",
+"Correta: anemia ferropriva no homem exige investigação do trato digestivo alto e baixo com endoscopia.",
+"Repor ferro antes de investigar pode atrasar o diagnóstico de câncer, sobretudo com perda de peso.",
+"A tomografia não detecta lesões mucosas pequenas, e marcadores tumorais não servem para diagnóstico."
+]
+},
+{
+"q": "Mulher de 58 anos fez endoscopia por dispepsia, que mostrou lesão subepitelial de 14 mm no corpo gástrico, com mucosa normal por cima. A ecoendoscopia mostra lesão hipoecoica homogênea, de bordas regulares, originada da muscular própria, sem focos ecogênicos, cistos ou linfonodos. Ela não tem sangramento, anemia ou perda de peso. Qual é a conduta mais adequada?",
+"alts": [
+"Gastrectomia total com linfadenectomia D2 eletiva",
+"Imatinibe neoadjuvante por 6 meses e então ressecção",
+"Alta sem seguimento, pois lesões assim são benignas",
+"Vigilância com ecoendoscopia, ressecando se crescer",
+"Quimioterapia sistêmica com cisplatina e fluoruracila"
+],
+"gab": 3,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESMO-EURACAN-GENTURIS Clinical Practice Guidelines: Gastrointestinal stromal tumours, 2022, nódulos gástricos menores que 2 cm",
+"coment": "Lesão hipoecoica originada da muscular própria do estômago sugere tumor estromal gastrointestinal (GIST) ou leiomioma. A diretriz da ESMO de 2022 orienta que nódulos gástricos menores que 2 cm, sem características de alto risco na ecoendoscopia (bordas irregulares, focos ecogênicos, espaços císticos, heterogeneidade ou crescimento), podem ser acompanhados com ecoendoscopia periódica, porque a maioria tem comportamento indolente e o risco de metástase é muito baixo. A ressecção é indicada se houver crescimento, sintomas ou achados suspeitos, ou se a paciente preferir. Alta sem seguimento é inadequada, pois parte dessas lesões evolui. Linfadenectomia não tem papel, já que o GIST raramente dá metástase linfonodal. O imatinibe neoadjuvante é para tumores grandes ou em locais de ressecção difícil, e a quimioterapia convencional é ineficaz no GIST.",
+"porAlt": [
+"Gastrectomia com linfadenectomia é excessiva, e o GIST raramente compromete linfonodos.",
+"O imatinibe neoadjuvante é reservado a tumores grandes ou de ressecção difícil, não a nódulo de 14 mm.",
+"Parte desses nódulos cresce ou tem potencial maligno, e por isso o seguimento é necessário.",
+"Correta: GIST gástrico menor que 2 cm sem sinais de alto risco pode ser vigiado, com ressecção se crescer.",
+"A quimioterapia citotóxica convencional não tem eficácia no GIST."
+]
+},
+{
+"q": "Homem de 60 anos foi submetido a ressecção completa, com margens livres e sem ruptura tumoral, de GIST gástrico de 9 cm. A anatomia patológica mostra 12 mitoses por 5 mm², CD117 e DOG1 positivos, e a análise molecular encontra mutação no éxon 11 do KIT. A tomografia de estadiamento não mostra metástases. Qual é a conduta mais adequada?",
+"alts": [
+"Imatinibe adjuvante 400 mg por dia por 1 ano",
+"Imatinibe adjuvante 400 mg por dia por 3 anos",
+"Seguimento apenas, pois as margens estão livres",
+"Radioterapia adjuvante no leito da ressecção",
+"Quimioterapia adjuvante baseada em doxorrubicina"
+],
+"gab": 1,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ESMO-EURACAN-GENTURIS Clinical Practice Guidelines: Gastrointestinal stromal tumours, 2022, imatinibe adjuvante por 3 anos no alto risco",
+"coment": "O risco de recidiva do GIST ressecado é estimado pelo tamanho, pelo índice mitótico, pela localização e pela ruptura. Um tumor gástrico de 9 cm com mais de 5 mitoses por 5 mm² é de alto risco. A diretriz da ESMO de 2022 recomenda imatinibe adjuvante 400 mg ao dia por 3 anos nesses pacientes, com base no ensaio que mostrou ganho de sobrevida global com 3 anos em comparação com 1 ano. A mutação no éxon 11 do KIT é sensível ao imatinibe; já a mutação PDGFRA D842V é resistente e não se beneficia, por isso a análise molecular é obrigatória antes de indicar. Margens livres não eliminam o risco de recidiva peritoneal ou hepática. Radioterapia e quimioterapia citotóxica não têm papel no GIST localizado.",
+"porAlt": [
+"Um ano de imatinibe foi inferior a 3 anos em sobrevida global no ensaio de referência.",
+"Correta: GIST ressecado de alto risco com mutação sensível no KIT recebe imatinibe adjuvante por 3 anos.",
+"Margens livres não eliminam o alto risco de recidiva definido por tamanho e índice mitótico.",
+"A radioterapia não tem papel na adjuvância do GIST gástrico ressecado.",
+"O GIST é resistente à quimioterapia citotóxica convencional, inclusive à doxorrubicina."
+]
+},
+{
+"q": "Homem de 63 anos, tabagista de 45 maços-ano e etilista de destilado desde a juventude, tratado há 4 anos de carcinoma de laringe, refere disfagia progressiva há 3 meses, primeiro para sólidos e agora para pastosos, com perda de 9 kg. Nega pirose crônica. Índice de massa corporal de 19 kg/m². Qual é a hipótese histológica mais provável e o exame inicial?",
+"alts": [
+"Carcinoma escamoso; endoscopia digestiva alta com biópsia",
+"Adenocarcinoma; endoscopia digestiva alta com biópsia ampla",
+"Carcinoma escamoso; esofagografia baritada sem endoscopia",
+"Acalasia secundária; manometria esofágica de alta resolução",
+"Adenocarcinoma; tomografia de tórax como o exame inicial"
+],
+"gab": 0,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ESMO Clinical Practice Guideline: Oesophageal cancer, 2022, fatores de risco e diagnóstico endoscópico",
+"coment": "Disfagia progressiva, de sólidos para pastosos, com perda de peso em idoso é câncer de esôfago até prova em contrário. Tabagismo e etilismo pesados, além do antecedente de câncer de cabeça e pescoço, apontam para carcinoma de células escamosas, que compartilha esses fatores e costuma ocorrer no esôfago médio; o campo de cancerização explica o risco de segundo tumor. O adenocarcinoma se associa a refluxo crônico, esôfago de Barrett e obesidade, e predomina no esôfago distal e na transição esofagogástrica. A diretriz da ESMO de 2022 recomenda endoscopia digestiva alta com biópsias múltiplas como exame diagnóstico inicial; tomografia, ecoendoscopia e PET entram no estadiamento depois da confirmação histológica. A esofagografia pode mostrar a estenose, mas não substitui a biópsia. A manometria não está indicada diante de sinais de alarme sem endoscopia prévia.",
+"porAlt": [
+"Correta: álcool, tabaco e câncer de laringe prévio apontam carcinoma escamoso, confirmado por endoscopia com biópsia.",
+"Sem refluxo crônico ou obesidade, o adenocarcinoma é menos provável que o carcinoma escamoso neste perfil.",
+"A esofagografia não dá diagnóstico histológico e não dispensa a endoscopia com biópsia.",
+"A perda de peso e o perfil de risco exigem afastar neoplasia por endoscopia antes de pensar em manometria.",
+"A tomografia é exame de estadiamento, feita após o diagnóstico histológico, não o exame inicial."
+]
+},
+{
+"q": "Mulher de 38 anos, assintomática, procura atendimento porque o pai teve adenocarcinoma gástrico do tipo intestinal aos 64 anos. Não tem dispepsia, anemia ou perda de peso, e não há outros casos de câncer gástrico nem de câncer de mama lobular na família. Nunca foi testada para Helicobacter pylori. Qual é a conduta preventiva mais adequada?",
+"alts": [
+"Endoscopia anual a partir de agora, por toda a vida",
+"Pesquisa de mutação germinativa de CDH1 antes de tudo",
+"Pesquisar Helicobacter pylori e erradicar se positivo",
+"Nenhuma medida, pois só há um parente de primeiro grau",
+"Gastrectomia profilática total pela história familiar"
+],
+"gab": 2,
+"tema": "gastro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "Maastricht VI/Florence Consensus Report on the management of Helicobacter pylori infection, 2022; ACG Clinical Guideline: Treatment of Helicobacter pylori Infection, 2024",
+"coment": "O Helicobacter pylori é o principal fator de risco do adenocarcinoma gástrico, sobretudo do tipo intestinal de Lauren, que segue a cascata de gastrite crônica, atrofia, metaplasia intestinal e displasia. Parentes de primeiro grau de pacientes com câncer gástrico têm risco aumentado, e o consenso de Maastricht VI de 2022 e a diretriz do ACG de 2024 recomendam pesquisar e erradicar a bactéria nesse grupo, porque a erradicação reduz a incidência de câncer, especialmente antes de surgirem atrofia e metaplasia. Endoscopia anual por toda a vida não é recomendada para quem tem apenas um parente afetado, embora a endoscopia possa ser considerada conforme idade e achados. A pesquisa de CDH1 é para suspeita de câncer gástrico difuso hereditário, com casos do tipo difuso em idade jovem ou câncer de mama lobular na família. Gastrectomia profilática é reservada a portadores de mutação patogênica de CDH1.",
+"porAlt": [
+"Endoscopia anual por toda a vida não é recomendada só por um parente com câncer do tipo intestinal.",
+"O teste de CDH1 é para suspeita de câncer gástrico difuso hereditário, que esta família não sugere.",
+"Correta: em parente de primeiro grau de paciente com câncer gástrico, pesquisar e erradicar a bactéria reduz o risco.",
+"Um parente de primeiro grau já aumenta o risco e justifica a pesquisa e a erradicação do Helicobacter pylori.",
+"A gastrectomia profilática é reservada a portadoras de mutação patogênica de CDH1, não a este caso."
+]
+},
+{
 "q": "Paciente no segundo dia de ventilação mecânica, em modo volume controlado, com volume corrente de 7 mL/kg, PEEP de 10 cmH2O, pressão de platô de 27 cmH2O, pressão de pico de 33 cmH2O, FR de 30 irpm, FiO2 de 70%, apresenta a seguinte gasometria:\n\npH: 7,19\nPaCO2: 55 mmHg\nPaO2: 112 mmHg\nHCO3-: 19 mEq/L\nBE: -5\n\nNeste momento, a conduta mais adequada é",
 "alts": [
 "Aumentar a PEEP",
@@ -4706,6 +6194,822 @@ window.BANCO=[
 }
 },
 {
+"q": "Mulher de 34 anos com doença de Graves diagnosticada há 18 meses usa metimazol 5 mg/dia desde o oitavo mês de tratamento, com TSH de 1,9 mUI/L e T4 livre de 1,1 ng/dL nas três últimas consultas trimestrais. Não tem oftalmopatia, não fuma, não planeja gestação e o bócio, antes grau 2, regrediu e hoje não é visível. O anticorpo antirreceptor de TSH (TRAb), que era de 14 UI/L ao diagnóstico (referência até 1,75 UI/L), está hoje em 0,9 UI/L. Qual é a conduta mais adequada?",
+"alts": [
+"Manter o metimazol por mais 18 meses e reavaliar",
+"Indicar iodo radioativo antes de suspender a droga",
+"Trocar por propiltiouracil em dose baixa contínua",
+"Encaminhar para tireoidectomia total programada",
+"Suspender o metimazol e monitorar TSH e T4 livre"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATA 2016 hipertireoidismo, dosagem do TRAb antes de suspender a tionamida após 12 a 18 meses; ETA 2018 doença de Graves",
+"coment": "Após 12 a 18 meses de tionamida, a ATA 2016 recomenda dosar o TRAb antes de decidir pela suspensão: TRAb normal, dose baixa de manutenção, bócio pequeno e ausência de tabagismo e de oftalmopatia são os fatores que mais se associam à remissão. Esta paciente reúne todos eles, e a conduta é suspender o metimazol e repetir TSH e T4 livre a cada 1 a 3 meses nos primeiros 6 meses, quando ocorre a maior parte das recidivas. A ETA 2018 aceita manter metimazol em dose baixa por longo prazo como alternativa razoável quando o TRAb continua elevado ou a paciente prefere, o que não é o caso. Iodo radioativo e cirurgia ficam para recidiva ou para quem não entra em remissão.",
+"porAlt": [
+"Prolongar a tionamida é opção quando o TRAb segue positivo; com o anticorpo negativo não há ganho que justifique mais 18 meses.",
+"Terapia definitiva não é exigida antes de suspender a droga; ela é reservada para recidiva ou falha em obter remissão.",
+"O propiltiouracil tem maior hepatotoxicidade e só tem lugar no primeiro trimestre da gestação ou na crise tireotóxica.",
+"A tireoidectomia não está indicada em paciente em provável remissão, sem nódulo suspeito, bócio compressivo ou oftalmopatia.",
+"Correta: TRAb negativo após 18 meses, em dose baixa e com bócio regredido, indica alta chance de remissão e autoriza a suspensão com vigilância."
+]
+},
+{
+"q": "Homem de 46 anos, tabagista de 30 maços-ano, recebe diagnóstico de doença de Graves: TSH < 0,01 mUI/L, T4 livre de 3,8 ng/dL e TRAb de 22 UI/L (referência até 1,75 UI/L). Há 2 meses nota olhos vermelhos, edema palpebral, dor retro-ocular ao movimentar os olhos e visão dupla intermitente. Exoftalmometria de 24 mm à direita e 23 mm à esquerda, escore de atividade clínica de 5 em 7, acuidade visual e visão de cores preservadas. Além do propranolol e da avaliação oftalmológica urgente, qual é a melhor opção para o hipertireoidismo?",
+"alts": [
+"Iodo radioativo associado a prednisona profilática",
+"Metimazol e programa estruturado para parar de fumar",
+"Iodo radioativo em dose ablativa, sem corticoide algum",
+"Observação sem tionamida até a orbitopatia esfriar",
+"Solução de Lugol isolada por seis semanas seguidas"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ATA 2016 hipertireoidismo, orbitopatia ativa moderada a grave; EUGOGO 2021 orbitopatia de Graves",
+"coment": "O paciente tem orbitopatia ativa (escore de atividade clínica de 5) e moderada a grave (proptose acima de 3 mm do normal, diplopia intermitente e inflamação de partes moles), sem neuropatia óptica. Nesse cenário, a ATA 2016 e o consenso EUGOGO 2021 contraindicam o iodo radioativo, que pode piorar a doença ocular mesmo com corticoide profilático; a profilaxia com prednisona só é aceita na orbitopatia leve e ativa. As opções são tionamida ou tireoidectomia total, com eutireoidismo estável e rápido, porque o hipotireoidismo também agrava a orbitopatia. Parar de fumar é a intervenção modificável de maior impacto. A orbitopatia em si costuma receber metilprednisolona endovenosa, decisão do oftalmologista e do endocrinologista.",
+"porAlt": [
+"A prednisona profilática só torna o iodo aceitável na orbitopatia leve e ativa; na moderada a grave o iodo é evitado.",
+"Correta: na orbitopatia ativa moderada a grave, tionamida com eutireoidismo estável e cessação do tabagismo é a opção segura.",
+"Iodo sem corticoide em fumante com orbitopatia ativa tem o maior risco de agravamento ocular entre as opções.",
+"Deixar o hipertireoidismo sem controle piora a orbitopatia; a tireotoxicose deve ser tratada desde já.",
+"O iodo inorgânico isolado tem efeito transitório e escape, servindo só como preparo cirúrgico ou na crise."
+]
+},
+{
+"q": "Mulher de 29 anos, técnica de enfermagem, procura atendimento por palpitações, perda de 6 kg em 2 meses e insônia. Nega dor cervical, febre ou gestação. Ao exame, frequência cardíaca de 112 bpm, tremor fino, tireoide não palpável e indolor, sem oftalmopatia. TSH < 0,01 mUI/L, T4 livre de 2,9 ng/dL, T3 total de 260 ng/dL, velocidade de hemossedimentação de 8 mm/h, beta-hCG negativo e TRAb negativo. A captação de iodo radioativo em 24 horas foi de 1% (referência de 10 a 30%). Qual exame mais ajuda a definir a causa?",
+"alts": [
+"Anticorpo antiperoxidase sérico",
+"Ultrassonografia com fluxo Doppler",
+"Cintilografia com tecnécio venoso",
+"Dosagem de tireoglobulina sérica",
+"Dosagem de iodo na urina de 24 h"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ATA 2016 hipertireoidismo, diagnóstico etiológico da tireotoxicose com captação baixa",
+"coment": "Tireotoxicose com captação de iodo quase nula tem três grupos de causa: tireoidite (indolor, pós-parto, subaguda ou por drogas), excesso de iodo e ingestão exógena de hormônio. A tireoide impalpável, a hemossedimentação normal, a ausência de dor e o acesso a medicamentos pela profissão apontam para tireotoxicose factícia. A ATA 2016 indica a tireoglobulina sérica para separar as situações: nas tireoidites ela está elevada pela destruição folicular, e na ingestão de levotiroxina fica baixa ou indetectável, porque o TSH suprimido desliga a glândula. A razão T3/T4 também ajuda, sendo alta quando a pessoa usa liotironina. Antes de interpretar, convém confirmar que o anticorpo antitireoglobulina é negativo, pois ele interfere no ensaio.",
+"porAlt": [
+"O anticorpo antiperoxidase pode ser positivo na tireoidite indolor, mas não exclui nem confirma o uso oculto de hormônio.",
+"O Doppler mostraria fluxo reduzido tanto na tireoidite quanto no uso exógeno, sem separar as duas causas.",
+"A cintilografia repetiria a informação da captação baixa, que já está disponível e não diferencia as causas.",
+"Correta: tireoglobulina baixa com captação nula indica hormônio exógeno, enquanto nas tireoidites ela fica elevada.",
+"O iodo urinário identifica sobrecarga de iodo, hipótese pouco provável sem contraste ou amiodarona na história."
+]
+},
+{
+"q": "Mulher de 41 anos tem dor cervical anterior irradiada para a mandíbula há 10 dias, febre baixa e palpitações, 3 semanas após quadro gripal. A tireoide está aumentada, endurecida e muito dolorosa à palpação, sem flutuação. Frequência cardíaca de 108 bpm. TSH de 0,02 mUI/L, T4 livre de 2,4 ng/dL, velocidade de hemossedimentação de 78 mm/h, proteína C reativa de 4,2 mg/dL e captação de iodo em 24 horas de 2%. Usou ibuprofeno 600 mg de 8 em 8 horas por 5 dias, sem alívio, e a dor a impede de dormir. Qual é a conduta?",
+"alts": [
+"Prednisona 40 mg/dia com redução gradual e propranolol",
+"Metimazol 20 mg/dia associado a propranolol de horário",
+"Iodo radioativo após a normalização da hemossedimentação",
+"Antibiótico venoso e drenagem guiada por ultrassonografia",
+"Levotiroxina 100 µg/dia para frear a atividade da glândula"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ATA 2016 hipertireoidismo, tratamento da tireoidite subaguda granulomatosa",
+"coment": "Dor tireoidiana após infecção viral, glândula dolorosa, hemossedimentação elevada e captação baixa definem tireoidite subaguda granulomatosa. A tireotoxicose decorre da liberação de hormônio pré-formado pela destruição folicular, e não de síntese aumentada, por isso tionamidas e iodo radioativo não têm papel. A ATA 2016 recomenda betabloqueador para os sintomas adrenérgicos e anti-inflamatório não esteroide na dor leve a moderada; quando a dor é intensa ou não responde ao anti-inflamatório, indica prednisona 40 mg/dia por 1 a 2 semanas, com retirada em 2 a 4 semanas ou mais. Recaída na retirada é comum. Depois da fase tireotóxica pode haver hipotireoidismo transitório, e cerca de 10 a 15% evoluem com hipotireoidismo permanente.",
+"porAlt": [
+"Correta: dor intensa refratária ao anti-inflamatório indica corticoide, e o betabloqueador controla os sintomas da fase tireotóxica.",
+"Tionamidas bloqueiam síntese, mas a tireotoxicose aqui vem de hormônio já formado liberado pela inflamação.",
+"Com captação de 2% o iodo não seria captado, e a doença é autolimitada, sem indicação de terapia ablativa.",
+"Não há flutuação nem sinais de abscesso; a tireoidite supurativa aguda é rara e tem outro perfil clínico.",
+"Levotiroxina em paciente tireotóxica agravaria os sintomas e não trata a inflamação da glândula."
+]
+},
+{
+"q": "Mulher de 37 anos com doença de Graves que abandonou o metimazol há 4 meses é trazida ao pronto-socorro com tosse produtiva e febre há 3 dias. Está inquieta e ansiosa, mas orientada e sem confusão. Temperatura axilar de 37,9 °C, frequência cardíaca de 118 bpm em ritmo sinusal, pressão arterial de 138/64 mmHg, sem estase jugular nem edema, estertores restritos à base direita, onde a radiografia mostra consolidação. Nega náuseas, vômitos, diarreia ou dor abdominal; sem icterícia. TSH < 0,01 mUI/L e T4 livre de 4,6 ng/dL. Pelo escore de Burch-Wartofsky, qual é a pontuação e sua interpretação?",
+"alts": [
+"40 pontos, altamente sugestivo de crise tireotóxica",
+"25 pontos, crise tireotóxica pouco provável no caso",
+"55 pontos, altamente sugestivo de crise tireotóxica",
+"40 pontos, sugestivo de crise tireotóxica iminente",
+"30 pontos, sugestivo de crise tireotóxica iminente"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "Escore de Burch-Wartofsky (1993) e ATA 2016 hipertireoidismo, pontos de corte 25 e 45 na crise tireotóxica",
+"coment": "O escore soma: temperatura de 37,8 a 38,2 °C, 10 pontos; agitação leve, 10; ausência de sintomas gastrointestinais, 0; frequência de 110 a 119 bpm, 10; ausência de insuficiência cardíaca, 0 (os estertores são da pneumonia, sem estase ou edema); ausência de fibrilação atrial, 0; fator precipitante presente, a pneumonia, 10. Total de 40 pontos. Pela interpretação adotada pela ATA 2016, até 24 pontos a crise é improvável, de 25 a 44 sugere crise iminente e 45 ou mais é altamente sugestivo. Na faixa intermediária a decisão de tratar agressivamente depende do julgamento clínico; a recomendação é internar, tratar a infecção, iniciar tionamida e betabloqueador e reavaliar a pontuação de forma seriada.",
+"porAlt": [
+"A soma está certa, mas 40 pontos fica abaixo do corte de 45, a partir do qual o escore é altamente sugestivo.",
+"Esse total ignora a pontuação da frequência cardíaca ou do fator precipitante, ambos presentes no caso.",
+"Chegar a 55 exigiria contar os estertores da pneumonia como insuficiência cardíaca ou pontuar sintomas ausentes.",
+"Correta: febre de 37,9 °C, agitação leve, 118 bpm e precipitante somam 40 pontos, faixa de 25 a 44, que indica crise iminente.",
+"O total de 30 deixa de somar um dos itens de 10 pontos, como a temperatura ou o fator precipitante."
+]
+},
+{
+"q": "Homem de 67 anos usa amiodarona 200 mg/dia há 3 anos por taquicardia ventricular, com cardiodesfibrilador implantado e fração de ejeção de 40%, estável. Antes da droga, TSH de 1,6 mUI/L e ultrassonografia de tireoide normal. Há 6 semanas perdeu 4 kg e teve dois choques apropriados do dispositivo. TSH < 0,01 mUI/L, T4 livre de 3,4 ng/dL e TRAb negativo. Ultrassonografia: tireoide de volume normal, sem nódulos, Doppler com fluxo intraglandular ausente; captação de iodo em 24 horas abaixo de 2%. O cardiologista prefere manter a amiodarona. Qual é a melhor conduta para a tireotoxicose?",
+"alts": [
+"Metimazol 40 mg/dia isolado até o eutireoidismo",
+"Perclorato de potássio em associação ao metimazol",
+"Iodo radioativo em dose terapêutica, de imediato",
+"Prednisona 40 mg/dia com redução após a resposta",
+"Suspender a amiodarona e observar sem remédios"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ETA 2018 disfunção tireoidiana associada à amiodarona, tratamento da tireotoxicose tipo 2",
+"coment": "Glândula previamente normal, TRAb negativo, fluxo ausente ao Doppler e captação muito baixa caracterizam tireotoxicose induzida por amiodarona tipo 2, uma tireoidite destrutiva. A ETA 2018 recomenda glicocorticoide oral, prednisona de 0,5 a 0,7 mg/kg/dia, cerca de 40 mg, por 3 meses com retirada gradual, e aceita manter a amiodarona quando o cardiologista a considera indispensável, o que atrasa um pouco a resposta. Tionamidas e perclorato pouco atuam porque não há síntese aumentada; ficam para as formas tipo 1 ou mistas. O iodo radioativo não é captado em glândula saturada de iodo. Neste paciente, com arritmia grave e disfunção ventricular, tireotoxicose refratária ou piora cardíaca levaria a tireoidectomia precoce.",
+"porAlt": [
+"Metimazol isolado é a base do tipo 1, com síntese aumentada; na forma destrutiva tem pouco efeito.",
+"O perclorato bloqueia a entrada de iodo e é útil no tipo 1, não na tireoidite destrutiva do tipo 2.",
+"Com captação abaixo de 2% e sobrecarga de iodo, o radioiodo não seria concentrado pela tireoide.",
+"Correta: no tipo 2, tireoidite destrutiva em glândula normal, o glicocorticoide é o tratamento de escolha e a amiodarona pode seguir.",
+"Suspender a amiodarona expõe o paciente a arritmia grave e, pela meia-vida longa, nem acelera a melhora."
+]
+},
+{
+"q": "Mulher de 72 anos com fibrilação atrial e bócio multinodular conhecido há 10 anos, com TSH de 0,9 mUI/L antes da amiodarona, usa a droga há 8 meses. Há 1 mês tem palpitações, perda de 3 kg e piora do controle da frequência. TSH < 0,01 mUI/L, T4 livre de 3,1 ng/dL, T3 total de 240 ng/dL e TRAb negativo. A ultrassonografia mostra bócio de 48 mL com nódulos múltiplos e fluxo aumentado ao Doppler; a captação de iodo em 24 horas é de 9%, inapropriadamente preservada para a sobrecarga de iodo. Qual é a conduta mais adequada?",
+"alts": [
+"Prednisona 40 mg/dia como tratamento isolado e suficiente",
+"Metimazol em dose alta, associando perclorato se possível",
+"Iodo radioativo imediato para ablação dos nódulos ativos",
+"Solução de Lugol para bloquear a saída do hormônio pronto",
+"Levotiroxina em dose supressiva para reduzir os nódulos"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ETA 2018 disfunção tireoidiana associada à amiodarona, tratamento da tireotoxicose tipo 1",
+"coment": "Bócio nodular prévio, fluxo aumentado ao Doppler e captação mantida apesar da carga de iodo caracterizam tireotoxicose induzida por amiodarona tipo 1: o iodo da droga alimenta síntese autônoma, como um fenômeno de Jod-Basedow. A ETA 2018 recomenda tionamida em dose alta, como metimazol 40 mg/dia, e, onde existir, perclorato de potássio por algumas semanas para reduzir a entrada de iodo e tornar a glândula mais sensível. Glicocorticoide entra nas formas mistas ou quando a resposta é ruim. Depois do eutireoidismo, como a doença nodular persiste, a ETA sugere tratamento definitivo, preferindo tireoidectomia; o iodo radioativo pode ser opção mais tarde se a captação permitir. Iodo inorgânico pioraria o quadro.",
+"porAlt": [
+"O corticoide isolado trata a forma destrutiva tipo 2; no tipo 1 só entra em forma mista ou falha da tionamida.",
+"Correta: no tipo 1 há síntese aumentada em bócio nodular, e o tratamento é tionamida em dose alta, com perclorato quando disponível.",
+"Com a glândula saturada de iodo a captação é insuficiente para ablação imediata; isso fica para depois, se couber.",
+"Mais iodo em glândula autônoma alimenta a síntese e piora a tireotoxicose induzida por iodo.",
+"Levotiroxina em paciente tireotóxica agravaria a arritmia e não trata a autonomia nodular."
+]
+},
+{
+"q": "Mulher de 27 anos, primigesta com 9 semanas, tem náuseas e vômitos diários há 3 semanas, com perda de 3 kg e cetonúria. Nega doença tireoidiana prévia. Frequência cardíaca de 96 bpm, sem bócio, tremor ou oftalmopatia. TSH de 0,03 mUI/L, T4 livre de 1,9 ng/dL (limite superior do método para o primeiro trimestre de 1,7 ng/dL), T3 total no limite superior para a gestação e TRAb negativo. Beta-hCG elevado, compatível com gestação única à ultrassonografia. Qual é a conduta para a alteração tireoidiana?",
+"alts": [
+"Propiltiouracil em dose baixa até completar 16 semanas",
+"Metimazol em dose baixa associado a um betabloqueador",
+"Propranolol contínuo até o parto para os sintomas leves",
+"Iodo radioativo programado após o primeiro trimestre",
+"Suporte para os vômitos e repetir a função em semanas"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATA 2026 doença tireoidiana na preconcepção, gestação e pós-parto, tireotoxicose gestacional transitória",
+"coment": "A gonadotrofina coriônica estimula o receptor de TSH, e no pico do primeiro trimestre pode suprimir o TSH e elevar discretamente o T4 livre, sobretudo com hiperêmese. Ausência de história prévia, de bócio e de oftalmopatia, T3 pouco alterado e TRAb negativo separam a tireotoxicose gestacional transitória da doença de Graves. A ATA recomenda tratamento de suporte, com hidratação e antieméticos, e não indica tionamidas, que expõem o feto a risco sem benefício; o quadro se resolve até a segunda metade da gestação, e a função deve ser repetida. Betabloqueador por curto período só se houver sintomas adrenérgicos importantes. A diretriz de 2026, que substituiu a de 2017, manteve esse entendimento.",
+"porAlt": [
+"O propiltiouracil é a tionamida do primeiro trimestre na doença de Graves, mas aqui não há indicação de tionamida.",
+"O metimazol é evitado no primeiro trimestre pela embriopatia e, de todo modo, não é indicado nesse quadro autolimitado.",
+"Betabloqueador prolongado até o parto associa-se a restrição de crescimento e não é necessário com sintomas leves.",
+"Iodo radioativo é contraindicado na gestação e não tem papel numa tireotoxicose transitória.",
+"Correta: TRAb negativo, sem bócio e com hiperêmese caracteriza tireotoxicose mediada pelo hCG, tratada com suporte e reavaliação."
+]
+},
+{
+"q": "Mulher de 68 anos, com osteoporose densitométrica (escore T de -2,7 em coluna lombar) e episódios de palpitação, tem TSH de 0,06 mUI/L e de 0,05 mUI/L em duas dosagens com 3 meses de intervalo, com T4 livre de 1,5 ng/dL e T3 total de 160 ng/dL, ambos normais. Palpa-se nódulo de 2,5 cm no lobo esquerdo. A cintilografia mostra nódulo hipercaptante que suprime o restante do parênquima. Holter com extrassístoles atriais frequentes, sem fibrilação atrial. Qual é a conduta mais adequada?",
+"alts": [
+"Observar e repetir o TSH em seis meses",
+"Tratar com iodo radioativo ou lobectomia",
+"Levotiroxina para reduzir o nódulo quente",
+"Metimazol por 18 meses e depois suspender",
+"Punção aspirativa do nódulo antes de agir"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ATA 2016 hipertireoidismo, tratamento do hipertireoidismo subclínico e do nódulo tóxico",
+"coment": "A paciente tem hipertireoidismo subclínico persistente (TSH abaixo de 0,1 mUI/L em duas dosagens) por adenoma tóxico. A ATA 2016 recomenda tratar quando o TSH está abaixo de 0,1 mUI/L e a pessoa tem 65 anos ou mais, osteoporose, cardiopatia, sintomas ou é mulher na pós-menopausa sem estrogênio; ela preenche vários critérios. No nódulo tóxico, as terapias definitivas são iodo radioativo e lobectomia, que costumam preservar a função do parênquima suprimido. Tionamida em dose baixa contínua é alternativa aceita para quem não pode receber terapia definitiva, mas não induz remissão, ao contrário do que ocorre na doença de Graves. Nódulo hiperfuncionante tem risco de malignidade muito baixo e dispensa punção.",
+"porAlt": [
+"Observar é aceitável com TSH entre 0,1 e 0,4 em pessoa jovem sem riscos, não com supressão e osteoporose.",
+"Correta: TSH abaixo de 0,1 com idade acima de 65 anos e osteoporose indica tratar, e no nódulo tóxico a escolha é terapia definitiva.",
+"Levotiroxina agravaria a tireotoxicose e não reduz nódulo autônomo, que não depende do TSH.",
+"A autonomia nodular não entra em remissão; suspender a tionamida após 18 meses leva à recidiva.",
+"Nódulo hipercaptante à cintilografia raramente é maligno e não tem indicação de punção."
+]
+},
+{
+"q": "Mulher de 39 anos procura atendimento por cansaço e intestino preso há 6 meses. Não planeja gestação e não tem cardiopatia. Exames: TSH de 11,4 mUI/L e, 6 semanas depois, de 12,0 mUI/L, com T4 livre de 0,9 ng/dL (referência de 0,7 a 1,8 ng/dL) nas duas ocasiões e anticorpo antiperoxidase positivo. Peso de 68 kg, colesterol LDL de 148 mg/dL. Não usa medicamentos nem suplementos. Qual é a conduta?",
+"alts": [
+"Observar e repetir o TSH em 6 a 12 meses, sem remédio",
+"Iniciar levotiroxina e repetir o TSH em 6 a 8 semanas",
+"Iniciar liotironina isolada em dose baixa e progressiva",
+"Prescrever selênio oral por 6 meses e reavaliar o TSH",
+"Pedir cintilografia de tireoide antes de qualquer droga"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ETA 2013 hipotireoidismo subclínico e ATA 2014 tratamento do hipotireoidismo, TSH persistente acima de 10 mUI/L",
+"coment": "O hipotireoidismo subclínico foi confirmado por duas dosagens de TSH elevadas com T4 livre normal, e a causa provável é tireoidite de Hashimoto, pelo anticorpo antiperoxidase positivo. A ETA 2013 recomenda tratar adultos com TSH persistentemente igual ou acima de 10 mUI/L, faixa associada a maior progressão para hipotireoidismo clínico e a eventos cardiovasculares; entre o limite superior e 10, o tratamento é individualizado, considerando sintomas, idade e anticorpos. A dose inicial em jovem sem cardiopatia pode ser parcial, de 25 a 75 µg/dia, ajustada pelo TSH após 6 a 8 semanas. Em pessoas com mais de 70 anos e TSH abaixo de 10, a tendência é não tratar. Liotironina isolada e selênio não são recomendados.",
+"porAlt": [
+"Observar é a conduta para TSH entre o limite superior e 10 em idosos, não para TSH acima de 10 confirmado.",
+"Correta: TSH persistente acima de 10 mUI/L em adulta jovem indica levotiroxina, com controle do TSH após 6 a 8 semanas.",
+"A liotironina isolada tem meia-vida curta, gera picos de T3 e não é recomendada como monoterapia.",
+"O selênio pode baixar anticorpos, mas não trata o hipotireoidismo nem é recomendado para esse fim.",
+"A cintilografia não tem papel no hipotireoidismo primário com anticorpo positivo; a causa já é clara."
+]
+},
+{
+"q": "Mulher de 30 anos, com 22 semanas de gestação e sem doença tireoidiana prévia, fez dosagem de TSH por fadiga: 5,6 mUI/L, confirmado 3 semanas depois em 6,0 mUI/L, com T4 livre normal para a idade gestacional. O limite superior do TSH para o segundo trimestre no laboratório é de 4,0 mUI/L. O anticorpo antiperoxidase é positivo. A gestação evolui sem intercorrências, com ultrassonografia normal. Segundo a diretriz vigente, qual é a conduta?",
+"alts": [
+"Não iniciar levotiroxina e manter seguimento",
+"Levotiroxina 50 µg/dia pelo anticorpo positivo",
+"Levotiroxina com alvo de TSH abaixo de 2,5",
+"Pedir captação de iodo para definir a causa",
+"Liotironina em dose baixa até o fim da gestação"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATA 2026 doença tireoidiana na preconcepção, gestação e pós-parto, hipotireoidismo subclínico leve após o primeiro trimestre",
+"coment": "A diretriz de 2026 da ATA mudou o manejo do hipotireoidismo subclínico na gestação. O anticorpo antiperoxidase deixou de orientar a decisão de tratar, e o hipotireoidismo subclínico leve diagnosticado depois do primeiro trimestre não deve receber levotiroxina, porque os ensaios não mostraram benefício obstétrico ou neurocognitivo nessa fase. No primeiro trimestre o tratamento do quadro leve pode ser considerado, e TSH acima de 10 mUI/L deve ser tratado em qualquer fase. A diretriz de 2017 sugeria tratar gestantes com anticorpo positivo e TSH acima do limite da referência, e o alvo de TSH abaixo de 2,5 vinha dessa lógica. A paciente deve repetir a função tireoidiana após o parto, pelo risco de tireoidite pós-parto e de hipotireoidismo futuro.",
+"porAlt": [
+"Correta: hipotireoidismo subclínico leve diagnosticado no segundo trimestre não tem indicação de levotiroxina pela ATA 2026.",
+"O anticorpo positivo deixou de ser critério para tratar o hipotireoidismo subclínico na gestação.",
+"O alvo abaixo de 2,5 pressupõe tratamento, e a nova diretriz não indica levotiroxina neste cenário.",
+"Exames com iodo radioativo são contraindicados na gestação, e a causa provável já é autoimune.",
+"Liotironina não atravessa a placenta de modo útil ao feto e não é usada para tratar gestantes."
+]
+},
+{
+"q": "Homem de 55 anos está no quinto dia após ressecção transesfenoidal de macroadenoma hipofisário não funcionante de 3,2 cm. Refere fadiga, náuseas e tontura ao levantar. Pressão arterial de 98/60 mmHg, sódio de 131 mEq/L e potássio de 4,2 mEq/L. TSH de 1,2 mUI/L, T4 livre de 0,5 ng/dL (referência de 0,7 a 1,8 ng/dL) e cortisol sérico às 8 horas de 2,1 µg/dL. Não recebeu corticoide no perioperatório. Qual é a conduta mais adequada?",
+"alts": [
+"Iniciar levotiroxina e dosar o TSH em seis semanas",
+"Repetir os exames, pois o TSH ainda está normal",
+"Iniciar levotiroxina e hidrocortisona após 1 mês",
+"Dosar o anticorpo antiperoxidase antes de tratar",
+"Iniciar hidrocortisona e só depois a levotiroxina"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "Endocrine Society 2016 reposição hormonal no hipopituitarismo, ordem de reposição e monitorização pelo T4 livre",
+"coment": "T4 livre baixo com TSH normal ou baixo indica hipotireoidismo central, esperado após cirurgia de macroadenoma; o TSH normal não tranquiliza, porque a hipófise lesada não responde. O cortisol matinal de 2,1 µg/dL confirma insuficiência adrenal secundária, e a hipotensão com hiponatremia mostra repercussão clínica. A Endocrine Society 2016 recomenda repor o glicocorticoide antes da levotiroxina, pois o hormônio tireoidiano acelera a depuração do cortisol e pode precipitar crise adrenal. Depois, a levotiroxina é ajustada pelo T4 livre, mantido na metade superior da faixa normal, e não pelo TSH, que perde valor no hipotireoidismo central. A avaliação dos demais eixos e da diurese também faz parte do seguimento.",
+"porAlt": [
+"Levotiroxina antes do corticoide pode precipitar crise adrenal, e o TSH não serve para ajustar a dose.",
+"O TSH normal com T4 livre baixo após cirurgia hipofisária é exatamente o padrão do hipotireoidismo central.",
+"Adiar a hidrocortisona por 1 mês deixa sem tratamento uma insuficiência adrenal já sintomática.",
+"O anticorpo antiperoxidase investiga causa primária, que não explica TSH normal com T4 livre baixo.",
+"Correta: no hipopituitarismo com insuficiência adrenal, o glicocorticoide vem antes da levotiroxina para evitar crise adrenal."
+]
+},
+{
+"q": "Mulher de 45 anos, assintomática, faz exames de rotina. Há 2 meses usa biotina 10 mg/dia por queda de cabelo. Frequência cardíaca de 72 bpm, sem bócio, tremor ou oftalmopatia, peso estável. TSH de 0,05 mUI/L, T4 livre de 3,1 ng/dL, T3 total de 230 ng/dL e TRAb positivo em 4,8 UI/L, todos medidos em imunoensaio com estreptavidina e biotina. Exames de 1 ano atrás, sem suplemento, eram normais. Qual é a melhor conduta?",
+"alts": [
+"Suspender a biotina e repetir os exames em dias",
+"Iniciar metimazol pelo resultado positivo do TRAb",
+"Solicitar cintilografia e captação de iodo em 24 h",
+"Iniciar propranolol e reavaliar a função em 1 mês",
+"Investigar adenoma hipofisário produtor de TSH"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Comunicado de segurança da FDA 2019 sobre biotina em imunoensaios; ATA 2016 hipertireoidismo, confirmação laboratorial",
+"coment": "A discordância entre um perfil de doença de Graves no laboratório e uma paciente sem nenhum sinal clínico deve levantar suspeita de interferência. Doses altas de biotina interferem em imunoensaios que usam o par estreptavidina e biotina: nos ensaios de sanduíche, como o do TSH, o resultado cai falsamente; nos competitivos, como T4 livre, T3 e TRAb, sobe falsamente. O padrão simula exatamente doença de Graves. A FDA emitiu alerta em 2017, reforçado em 2019, e a recomendação é suspender a biotina por pelo menos 2 dias, mais tempo com doses muito altas, e repetir os exames, ou usar método sem biotina. Tratar ou investigar antes disso expõe a paciente a drogas e exames desnecessários.",
+"porAlt": [
+"Correta: biotina em dose alta reduz o TSH e eleva T4 livre, T3 e TRAb nesses ensaios; suspender e repetir esclarece.",
+"O TRAb também sofre interferência no ensaio competitivo e não sustenta tratamento em paciente sem clínica.",
+"A cintilografia seria investigação de tireotoxicose ainda não confirmada e expõe a paciente sem necessidade.",
+"Não há sintomas adrenérgicos que justifiquem betabloqueador; o problema provável é laboratorial.",
+"Adenoma produtor de TSH cursa com TSH normal ou alto, e aqui o TSH está baixo."
+]
+},
+{
+"q": "Homem de 48 anos, com índice de massa corporal de 29 kg/m² e pai com diabetes, faz exames por rastreamento. Está assintomático. Em uma mesma coleta: glicemia de jejum de 108 mg/dL e hemoglobina glicada de 6,6%. No teste oral com 75 g de glicose: glicemia de 226 mg/dL em 1 hora e de 182 mg/dL em 2 horas. Hemograma normal e função renal preservada. Pela diretriz brasileira vigente, como classificar o quadro?",
+"alts": [
+"Pré-diabetes, pois jejum e 2 horas não fecham",
+"Diabetes, pela glicada e pelo teste de 1 hora",
+"Pré-diabetes, repetindo a curva em seis meses",
+"Normal, já que o jejum ficou abaixo de 110 mg/dL",
+"Diabetes só se a de 2 horas chegar a 200 mg/dL"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "SBD 2025 rastreamento e diagnóstico do diabetes tipo 2, glicemia de 1 hora no teste oral (209 mg/dL)",
+"coment": "A diretriz da SBD de 2025 incorporou a glicemia de 1 hora no teste oral de tolerância como critério: 209 mg/dL ou mais equivale a diabetes, e 155 a 208 mg/dL, a pré-diabetes, valores propostos pela Federação Internacional de Diabetes em 2024. Em pessoa assintomática, o diagnóstico exige dois resultados alterados, que podem vir de testes diferentes na mesma coleta. Aqui, a hemoglobina glicada de 6,6% e a glicemia de 1 hora de 226 mg/dL estão ambas na faixa de diabetes, o que fecha o diagnóstico mesmo com jejum e 2 horas apenas na faixa de pré-diabetes. A vantagem da medida de 1 hora é a maior sensibilidade para detectar disfunção precoce da célula beta.",
+"porAlt": [
+"Não é preciso que todos os parâmetros estejam alterados; bastam dois critérios de diabetes concordantes.",
+"Correta: glicada de 6,6% e glicemia de 1 hora de 226 mg/dL são dois critérios de diabetes na mesma coleta.",
+"Repetir seria necessário com um só critério alterado, e aqui já há dois resultados na faixa de diabetes.",
+"Jejum de 108 mg/dL está na faixa de pré-diabetes, que começa em 100 mg/dL, e não define o quadro sozinho.",
+"A SBD 2025 aceita o valor de 1 hora como critério, sem exigir a glicemia de 2 horas acima de 200."
+]
+},
+{
+"q": "Mulher de 55 anos, com hipertensão e índice de massa corporal de 31 kg/m², faz exames de rotina, sem sintomas de hiperglicemia. Em uma mesma amostra: hemoglobina glicada de 6,7% e glicemia de jejum de 112 mg/dL. Hemoglobina de 13,4 g/dL, ferritina normal, sem doença renal. Nunca teve exames alterados. Segundo a ADA, qual é o próximo passo?",
+"alts": [
+"Confirmar diabetes com os dois exames de hoje",
+"Repetir a hemoglobina glicada em nova amostra",
+"Classificar como pré-diabetes pela glicemia",
+"Pedir peptídeo C e anticorpo anti-GAD séricos",
+"Repetir a glicemia de jejum em outra amostra"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 2, resultados discordantes entre dois testes diagnósticos",
+"coment": "A ADA permite confirmar diabetes com dois testes diferentes da mesma amostra, desde que ambos estejam acima do ponto de corte. Quando os resultados são discordantes, como glicada de 6,7% (critério de diabetes) e jejum de 112 mg/dL (pré-diabetes), a recomendação é repetir o teste que ficou acima do limiar. Se a nova glicada for de 6,5% ou mais, o diagnóstico está confirmado; se vier abaixo, a paciente é classificada e acompanhada como de alto risco. Também cabe checar fatores que distorcem a glicada, como anemia, hemoglobinopatia e doença renal, ausentes aqui. Testes discordantes refletem a diferença de sensibilidade entre os métodos, e não erro de um deles.",
+"porAlt": [
+"Para confirmar com a mesma amostra, os dois testes precisam estar na faixa de diabetes, o que não ocorre.",
+"Correta: com testes discordantes, a ADA manda repetir o exame que ficou acima do ponto de corte, aqui a glicada.",
+"A glicada acima de 6,5% não pode ser descartada; ela precisa ser repetida antes de classificar a paciente.",
+"Peptídeo C e anti-GAD servem para classificar o tipo de diabetes, não para confirmar o diagnóstico.",
+"Repetir o exame que já está abaixo do limiar não resolve a dúvida criada pela glicada alterada."
+]
+},
+{
+"q": "Homem de 38 anos com esferocitose hereditária, esplenectomizado na infância, tem anemia hemolítica compensada (hemoglobina de 11,8 g/dL, reticulócitos de 7%). Em consulta de rotina, sem sintomas, apresenta glicemia de jejum de 138 mg/dL e, 2 semanas depois, de 146 mg/dL. A hemoglobina glicada colhida junto com a segunda glicemia é de 5,1%. Índice de massa corporal de 30 kg/m². Qual é a interpretação correta?",
+"alts": [
+"Pré-diabetes, pois a glicada normal o afasta",
+"Erro laboratorial; repetir a glicada depois",
+"Diabetes tipo 1, que pede dosagem de anti-GAD",
+"Diabetes, e a glicada está falsamente baixa",
+"Hiperglicemia de estresse, sem diagnóstico"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ADA Standards of Care in Diabetes 2026, seção 2, limitações da hemoglobina glicada e critérios por glicemia",
+"coment": "Duas glicemias de jejum iguais ou acima de 126 mg/dL em ocasiões diferentes confirmam diabetes, independentemente da hemoglobina glicada. A glicada mede a glicação ao longo da vida média da hemácia, cerca de 120 dias. Em situações de sobrevida eritrocitária reduzida, como hemólise, sangramento recente, transfusão ou tratamento de anemia ferropriva, as hemácias são mais jovens e a glicada sai falsamente baixa. A ADA recomenda usar apenas critérios glicêmicos nesses casos, e o seguimento do controle pode exigir frutosamina ou monitorização contínua de glicose. Deficiência de ferro sem tratamento faz o oposto, elevando a glicada. O paciente tem obesidade e perfil de diabetes tipo 2.",
+"porAlt": [
+"A glicada não afasta diabetes quando a sobrevida das hemácias está encurtada, como na hemólise crônica.",
+"Não se trata de erro, mas de limitação biológica do método, que persistirá em qualquer nova dosagem.",
+"Nada sugere autoimunidade; obesidade e quadro assintomático apontam para diabetes tipo 2.",
+"Correta: duas glicemias de jejum acima de 126 mg/dL fecham o diagnóstico, e a hemólise reduz falsamente a glicada.",
+"Não há doença aguda que explique hiperglicemia de estresse em duas ocasiões ambulatoriais."
+]
+},
+{
+"q": "Mulher de 26 anos, com índice de massa corporal de 21 kg/m², é encaminhada por glicemias de jejum entre 112 e 121 mg/dL em exames anuais desde os 18 anos, sem sintomas. Hemoglobina glicada de 6,2%. No teste oral com 75 g de glicose: jejum de 116 mg/dL e 2 horas de 150 mg/dL. A mãe e o avô materno têm o que chamam de diabetes leve, nunca tratado com remédio. Anticorpo anti-GAD negativo, peptídeo C de jejum de 1,9 ng/mL, sem acantose, triglicérides de 82 mg/dL. Não planeja gestação. Qual é a hipótese mais provável e sua implicação?",
+"alts": [
+"MODY por HNF1A, tratado com sulfonilureia em doses baixas",
+"MODY por glicoquinase, em geral sem necessidade de remédio",
+"Diabetes tipo 1 de início lento, com insulina basal precoce",
+"Diabetes tipo 2 precoce, com metformina e mudança de vida",
+"MODY por HNF4A, tratado com insulina basal desde o início"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ADA Standards of Care in Diabetes 2026, seção 2, diabetes monogênico (MODY)",
+"coment": "Hiperglicemia de jejum leve, estável por anos, com glicada abaixo de 7,6%, pequeno incremento no teste oral (menos de 54 mg/dL entre jejum e 2 horas), herança autossômica dominante em três gerações, ausência de autoimunidade e de resistência à insulina compõem o quadro típico do MODY por mutação da glicoquinase. A enzima funciona como sensor de glicose da célula beta, e a mutação apenas eleva o ponto de ajuste da glicemia. Complicações microvasculares são raras, e a ADA não recomenda tratamento fora da gestação; os hipoglicemiantes quase não mudam a glicada. Na gestação, a conduta depende de o feto herdar ou não a mutação. A confirmação é por teste genético, que também evita rotular a paciente como diabética tipo 1 ou 2.",
+"porAlt": [
+"O MODY por HNF1A causa hiperglicemia progressiva, com grande incremento pós-carga e glicosúria precoce.",
+"Correta: jejum levemente alto e estável, pouco incremento na curva e herança dominante são típicos de MODY por glicoquinase.",
+"Anti-GAD negativo, peptídeo C preservado e estabilidade por 8 anos afastam diabetes autoimune de início lento.",
+"Peso normal, triglicérides baixos e ausência de acantose tornam improvável o diabetes tipo 2 aos 26 anos.",
+"O MODY por HNF4A tem curso progressivo e costuma responder a sulfonilureia, não a insulina desde o início."
+]
+},
+{
+"q": "Homem de 44 anos, com índice de massa corporal de 22 kg/m², recebeu diagnóstico de diabetes tipo 2 há 14 meses. Usa metformina 2 g/dia e gliclazida 120 mg/dia, com doses aumentadas a cada consulta. Perdeu 5 kg no último trimestre e tem poliúria. Hemoglobina glicada de 9,4%, glicemia de jejum de 238 mg/dL, sem cetonúria. Anticorpo anti-GAD de 180 UI/mL (referência abaixo de 5) e peptídeo C de jejum de 0,4 ng/mL. Tem tireoidite de Hashimoto. Qual é a conduta mais adequada?",
+"alts": [
+"Associar inibidor de DPP-4 e manter o resto",
+"Elevar a gliclazida até a sua dose máxima",
+"Associar pioglitazona e reavaliar em 3 meses",
+"Trocar a gliclazida por inibidor de SGLT2",
+"Iniciar insulina e retirar a sulfonilureia"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 2; consenso internacional sobre LADA 2020, conduta pelo peptídeo C",
+"coment": "Adulto magro, com falência rápida dos hipoglicemiantes orais, perda de peso, anti-GAD em título alto e outra doença autoimune tem diabetes autoimune latente do adulto, uma forma de diabetes tipo 1 de progressão lenta. O consenso internacional de 2020 orienta a conduta pelo peptídeo C: abaixo de 0,3 nmol/L, o que corresponde a cerca de 0,9 ng/mL, a reserva é insuficiente e a recomendação é esquema com insulina, como no tipo 1. Sulfonilureias devem ser evitadas, pois aceleram a exaustão da célula beta sem benefício. Inibidores de SGLT2 aumentam o risco de cetoacidose nessa população com pouca insulina endógena. Metformina pode ser mantida enquanto houver resistência à insulina associada.",
+"porAlt": [
+"O inibidor de DPP-4 depende de reserva de célula beta e não corrige uma glicada de 9,4% com peptídeo C de 0,4.",
+"Mais sulfonilureia acelera a falência da célula beta no diabetes autoimune e não resolve a deficiência.",
+"A pioglitazona age na resistência à insulina, que não é o problema central deste paciente magro.",
+"Com peptídeo C tão baixo, o inibidor de SGLT2 aumenta o risco de cetoacidose, inclusive euglicêmica.",
+"Correta: anti-GAD alto com peptídeo C muito baixo indica deficiência de insulina, que exige insulinoterapia, sem sulfonilureia."
+]
+},
+{
+"q": "Mulher de 31 anos com diabetes tipo 1 há 15 anos, em esquema basal-bolus com glargina e asparte, deseja engravidar nos próximos meses. Hemoglobina glicada de 7,6%, sem hipoglicemias graves no último ano, com sensor de monitorização contínua mostrando 58% do tempo no alvo e 2% abaixo de 70 mg/dL. Retinopatia não proliferativa leve, relação albumina-creatinina de 18 mg/g, pressão arterial de 118/74 mmHg. Usa anticoncepcional oral. Qual é a orientação mais adequada sobre a meta glicêmica?",
+"alts": [
+"Liberar a gestação já que a glicada está abaixo de 8%",
+"Liberar a gravidez quando a glicada for abaixo de 7,5%",
+"Adiar até glicada abaixo de 5,7%, sem nenhuma exceção",
+"Liberar e intensificar o controle após o 1º trimestre",
+"Adiar a gestação até a glicada ficar abaixo de 6,5%"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 15, cuidado pré-concepcional e meta de glicada abaixo de 6,5%",
+"coment": "A ADA recomenda que mulheres com diabetes prévio mantenham contracepção eficaz até atingir hemoglobina glicada abaixo de 6,5% antes da concepção, desde que sem hipoglicemia significativa, porque o risco de malformações congênitas e de aborto cresce de forma contínua com a glicada no período da organogênese, que ocorre nas primeiras 8 semanas, muitas vezes antes de a gestação ser reconhecida. Com 7,6% e só 58% do tempo no alvo, ainda há margem segura para intensificar. O preparo inclui ácido fólico, exame oftalmológico antes da concepção e em cada trimestre pela retinopatia, avaliação renal e tireoidiana e revisão de drogas teratogênicas. Durante a gestação, a meta de tempo no alvo, entre 63 e 140 mg/dL, passa a ser acima de 70%.",
+"porAlt": [
+"Glicada de 7,6% ainda se associa a risco aumentado de malformação, e 8% não é meta pré-concepcional.",
+"A meta de 7,5% é usada em outros contextos, não no preparo para a gestação, que pede controle mais estrito.",
+"Exigir 5,7% a qualquer custo aumentaria hipoglicemias graves; a meta é 6,5% quando segura.",
+"A organogênese ocorre nas primeiras semanas, então o controle precisa estar adequado antes de conceber.",
+"Correta: a ADA recomenda manter contracepção até a glicada ficar abaixo de 6,5%, se isso for possível sem hipoglicemia."
+]
+},
+{
+"q": "Homem de 52 anos procura a unidade básica com poliúria, polidipsia e perda de 8 kg em 2 meses. Sem vômitos, dor abdominal ou dispneia. Índice de massa corporal de 30 kg/m², pressão arterial de 134/82 mmHg. Glicemia ao acaso de 342 mg/dL, hemoglobina glicada de 11,6%, cetonúria de traços, bicarbonato de 24 mEq/L e creatinina de 0,9 mg/dL. Não tem doença cardiovascular conhecida. Qual é o tratamento inicial mais adequado?",
+"alts": [
+"Metformina isolada, revendo em 3 meses",
+"Metformina somada a inibidor de DPP-4",
+"Metformina associada à insulina basal",
+"Sulfonilureia isolada em dose máxima",
+"Pioglitazona associada à acarbose oral"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "ADA Standards of Care in Diabetes 2026, seção 9, insulina já no início quando há catabolismo ou glicada acima de 10%",
+"coment": "A ADA recomenda considerar insulina desde o diagnóstico quando há sinais de catabolismo, como perda de peso, ou sintomas de hiperglicemia, ou quando a hemoglobina glicada passa de 10% ou a glicemia é igual ou superior a 300 mg/dL. O paciente reúne os três critérios. Nessa situação, a glicotoxicidade reduz a secreção de insulina, e a insulina basal, iniciada em 10 unidades ou 0,1 a 0,2 U/kg com titulação pela glicemia de jejum, resolve o quadro mais rápido; com o controle, muitas pessoas conseguem reduzir ou retirar a insulina depois. A metformina entra junto. Cetoacidose foi afastada pelo bicarbonato normal. Em seguida, vale reavaliar a escolha de drogas com benefício cardiorrenal ou de peso.",
+"porAlt": [
+"Metformina isolada reduz cerca de 1 a 1,5 ponto de glicada, insuficiente diante de catabolismo e glicada de 11,6%.",
+"O inibidor de DPP-4 tem potência modesta e não reverte a glicotoxicidade de um paciente catabólico.",
+"Correta: perda de peso, glicemia acima de 300 e glicada acima de 10% indicam insulina associada à metformina desde o início.",
+"Sulfonilureia em dose máxima numa célula beta exausta é pouco eficaz e expõe a hipoglicemia.",
+"Pioglitazona e acarbose têm início lento e potência insuficiente para esse grau de descompensação."
+]
+},
+{
+"q": "Mulher de 59 anos com diabetes tipo 2 há 11 anos teve infarto agudo do miocárdio há 2 anos. Usa metformina 2 g/dia, empagliflozina 25 mg/dia, rosuvastatina, ácido acetilsalicílico e ramipril. Índice de massa corporal de 38 kg/m², hemoglobina glicada de 8,6%, taxa de filtração glomerular de 72 mL/min/1,73 m², sem insuficiência cardíaca, sem retinopatia e sem pancreatite prévia. Deseja perder peso. Qual é a melhor medicação a acrescentar?",
+"alts": [
+"Tirzepatida semanal com escalonamento",
+"Pioglitazona 30 mg/dia, por via oral",
+"Glimepirida em dose progressiva diária",
+"Sitagliptina 100 mg/dia por via oral",
+"Insulina glargina noturna com titulação"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ADA Standards of Care in Diabetes 2026, seções 9 e 10; SURPASS-CVOT 2025, tirzepatida não inferior à dulaglutida",
+"coment": "Com doença cardiovascular aterosclerótica, obesidade grau 2 e glicada acima da meta apesar de metformina e inibidor de SGLT2, a ADA 2026 recomenda acrescentar agonista de GLP-1 com benefício cardiovascular comprovado ou o agonista duplo GIP e GLP-1, priorizando a perda de peso, que é meta terapêutica em si. A tirzepatida produz as maiores reduções de glicada e de peso entre as opções disponíveis, e o estudo SURPASS-CVOT, publicado em 2025, mostrou não inferioridade em relação à dulaglutida para morte cardiovascular, infarto e acidente vascular cerebral, o que sustenta seu uso nessa população. Pioglitazona e sulfonilureia aumentam o peso; sitagliptina tem efeito neutro e potência baixa; insulina engorda e aumenta hipoglicemia.",
+"porAlt": [
+"Correta: com aterosclerose e obesidade, o agonista GIP e GLP-1 reduz glicada e peso e tem segurança cardiovascular demonstrada.",
+"A pioglitazona reduz eventos em alguns estudos, mas causa ganho de peso e retenção hídrica, contra o objetivo da paciente.",
+"A glimepirida aumenta peso e hipoglicemia e não tem benefício cardiovascular demonstrado.",
+"A sitagliptina é neutra para eventos cardiovasculares e para o peso, com redução modesta da glicada.",
+"A insulina basal não é a próxima etapa preferida quando há opção injetável com perda de peso e benefício cardiovascular."
+]
+},
+{
+"q": "Homem de 63 anos com diabetes tipo 2 usa metformina 2 g/dia há 8 anos, com hemoglobina glicada de 7,0%. Há 4 meses refere formigamento e queimação simétricos nos pés, que agora sobem até os tornozelos, e esquecimentos recentes. Exame: redução da sensibilidade vibratória nos pés e reflexos aquileus diminuídos. Hemoglobina de 11,6 g/dL, volume corpuscular médio de 104 fL, plaquetas e leucócitos normais. TSH normal. Não usa álcool. Qual é o exame mais indicado neste momento?",
+"alts": [
+"Eletroneuromiografia dos membros",
+"Biópsia do nervo sural direito",
+"Dosagem sérica de vitamina B12",
+"Ressonância magnética da coluna",
+"Dosagem do anticorpo anti-GAD"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "ADA Standards of Care in Diabetes 2026, seções 9 e 12, dosagem periódica de vitamina B12 em usuários de metformina",
+"coment": "O uso prolongado de metformina reduz a absorção ileal de vitamina B12, e a deficiência pode causar neuropatia indistinguível da polineuropatia diabética, além de anemia macrocítica e alterações cognitivas. A ADA recomenda dosar a vitamina B12 periodicamente em quem usa metformina, sobretudo quando há neuropatia periférica ou anemia, como neste paciente. Se o nível for limítrofe, o ácido metilmalônico ajuda a confirmar. O diagnóstico muda o tratamento: a reposição pode estabilizar ou reverter os sintomas, e a metformina não precisa ser suspensa. A eletroneuromiografia raramente é necessária na polineuropatia simétrica típica e não diferencia as causas metabólicas.",
+"porAlt": [
+"A eletroneuromiografia confirmaria polineuropatia, mas não identifica a causa e não é o primeiro passo aqui.",
+"A biópsia de nervo fica para neuropatias atípicas, rapidamente progressivas ou com suspeita de vasculite.",
+"Correta: metformina por anos com neuropatia e macrocitose impõe dosar a vitamina B12, deficiência tratável e frequente.",
+"O quadro simétrico e distal não sugere radiculopatia, que justificaria imagem da coluna.",
+"O anti-GAD classifica diabetes autoimune e não explica neuropatia com anemia macrocítica."
+]
+},
+{
+"q": "Mulher de 64 anos com diabetes tipo 2 há 15 anos, peso de 80 kg, usa metformina 2 g/dia e insulina glargina 52 U ao deitar, com aumentos progressivos no último ano. Hemoglobina glicada de 8,9%. O glicosímetro mostra jejum entre 110 e 125 mg/dL, glicemias antes de dormir entre 230 e 260 mg/dL e dois episódios de 62 mg/dL às 3 horas da madrugada. Sem doença cardiovascular, índice de massa corporal de 32 kg/m², função renal normal. Qual é o ajuste mais adequado?",
+"alts": [
+"Aumentar a glargina em 10% até jejum abaixo de 100",
+"Trocar a glargina por NPH na mesma dose ao deitar",
+"Associar glibenclamida antes do café e do jantar",
+"Associar agonista de GLP-1 e reduzir a glargina",
+"Manter as doses e reforçar apenas a dieta habitual"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ADA Standards of Care in Diabetes 2026, seção 9, sinais de excesso de insulina basal e intensificação",
+"coment": "A paciente mostra sinais de sobrebasalização descritos pela ADA: dose basal acima de 0,5 U/kg (aqui 0,65 U/kg), diferença entre glicemia ao deitar e de jejum maior que 50 mg/dL, hipoglicemia noturna e glicada alta com jejum quase no alvo. O problema é a hiperglicemia pós-prandial, que a insulina basal não corrige. Aumentar a basal só traria mais hipoglicemia. A intensificação recomendada é associar agonista de GLP-1, preferível pela perda de peso e menor risco de hipoglicemia, ou insulina prandial; ao fazê-lo, reduz-se a basal em cerca de 10 a 20% para evitar hipoglicemia. Combinações fixas de basal com GLP-1 são alternativa prática.",
+"porAlt": [
+"Subir a basal com jejum já controlado e hipoglicemia na madrugada agrava o risco sem corrigir o pós-prandial.",
+"A NPH na mesma dose tem pico noturno e aumentaria as hipoglicemias da madrugada.",
+"A glibenclamida associada à insulina aumenta hipoglicemia, sobretudo em idosa, e ganho de peso.",
+"Correta: há sobrebasalização, e o agonista de GLP-1 trata a hiperglicemia pós-prandial, permitindo reduzir a glargina.",
+"Manter o esquema ignora uma glicada de 8,9% e hipoglicemias que exigem mudança terapêutica."
+]
+},
+{
+"q": "Homem de 60 anos com diabetes tipo 2 usa metformina 1 g de 12 em 12 horas e dapagliflozina 10 mg/dia, com hemoglobina glicada de 7,1%. Fará artroplastia total de quadril eletiva daqui a 5 dias, com jejum pré-operatório e anestesia raquidiana. Taxa de filtração glomerular de 78 mL/min/1,73 m², sem insuficiência cardíaca. Qual é a orientação adequada para a dapagliflozina?",
+"alts": [
+"Manter a dapagliflozina até a manhã do procedimento",
+"Suspender apenas 24 horas antes e reiniciar no pós",
+"Suspender 2 semanas antes pelo risco de lesão renal",
+"Suspender a dapagliflozina 3 dias antes da cirurgia",
+"Manter e medir cetonas apenas se surgirem vômitos"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 16, suspensão de inibidores de SGLT2 3 a 4 dias antes da cirurgia",
+"coment": "Jejum, estresse cirúrgico e redução da insulina no perioperatório somam-se ao efeito dos inibidores de SGLT2 e favorecem cetoacidose euglicêmica, que pode passar despercebida porque a glicemia fica pouco elevada. A ADA recomenda suspender esses fármacos 3 a 4 dias antes de cirurgias programadas: 3 dias para dapagliflozina, empagliflozina e canagliflozina e 4 dias para ertugliflozina, conforme a orientação da FDA. O reinício deve ocorrer quando o paciente estiver se alimentando e hidratado, sem náuseas. Se a pessoa chegar à cirurgia sem a suspensão, dosa-se o beta-hidroxibutirato e avalia-se o equilíbrio ácido-base. A metformina é suspensa apenas no dia do procedimento.",
+"porAlt": [
+"Manter até o dia da cirurgia expõe o paciente ao período de maior risco de cetoacidose euglicêmica.",
+"Pausa de 24 horas é insuficiente, pois o efeito cetogênico persiste por alguns dias após a última dose.",
+"O motivo da suspensão é a cetoacidose, e 2 semanas é mais tempo do que o necessário.",
+"Correta: a ADA orienta suspender a dapagliflozina 3 dias antes da cirurgia pelo risco de cetoacidose euglicêmica.",
+"A cetoacidose euglicêmica pode surgir sem vômitos, e a prevenção recomendada é a suspensão programada."
+]
+},
+{
+"q": "Homem de 24 anos com diabetes tipo 1 ficou 2 dias sem insulina por perder a caneta. Chega ao pronto-socorro com náuseas leves, sem vômitos, alerta e aceitando líquidos por via oral. Pressão arterial de 122/76 mmHg, frequência cardíaca de 98 bpm, sem sinais de infecção. Glicemia de 384 mg/dL, beta-hidroxibutirato de 4,2 mmol/L, pH venoso de 7,27, bicarbonato de 16 mEq/L, ânion gap de 19, potássio de 4,6 mEq/L e creatinina de 1,1 mg/dL. Segundo o consenso vigente de crises hiperglicêmicas, qual é a abordagem adequada?",
+"alts": [
+"Bicarbonato venoso e insulina regular em bolus inicial",
+"UTI obrigatória com insulina venosa a 0,14 U/kg/hora",
+"Só hidratação venosa, sem insulina até o pH chegar a 7,3",
+"Fluidos e análogo rápido subcutâneo a cada 1 a 2 horas",
+"Insulina NPH subcutânea e alta hospitalar em 6 horas"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso ADA, AACE, EASD, JBDS e DTS 2024 de crises hiperglicêmicas no adulto, cetoacidose leve sem complicações",
+"coment": "O consenso de 2024 classifica a cetoacidose pela gravidade: leve com pH acima de 7,25 e bicarbonato de 15 mEq/L ou mais; moderada com pH de 7,0 a 7,25 e bicarbonato de 10 a menos de 15; grave com pH abaixo de 7,0, bicarbonato abaixo de 10 ou beta-hidroxibutirato acima de 6 mmol/L. Este paciente tem cetoacidose leve, alerta e estável. Para os quadros leves ou moderados não complicados, o consenso admite análogos de insulina de ação rápida por via subcutânea a cada 1 a 2 horas, junto com hidratação e reposição de potássio, fora da terapia intensiva. A infusão venosa com taxa fixa de 0,1 U/kg/h segue indicada nos casos graves, instáveis ou com rebaixamento de consciência. Bicarbonato só é considerado com pH abaixo de 7,0.",
+"porAlt": [
+"Bicarbonato não tem papel com pH de 7,27, e o bolus de insulina regular não é necessário.",
+"A terapia intensiva e a infusão venosa são reservadas para casos graves ou instáveis, e a dose usual é 0,1 U/kg/h.",
+"Sem insulina a cetogênese não para; com potássio de 4,6 mEq/L não há motivo para adiar a insulina.",
+"Correta: na cetoacidose leve e não complicada, o consenso de 2024 aceita análogo rápido subcutâneo frequente com hidratação.",
+"A NPH isolada não interrompe a cetogênese com rapidez e a alta em 6 horas ignora a resolução do quadro."
+]
+},
+{
+"q": "Mulher de 79 anos com diabetes tipo 2 foi internada na terapia intensiva há 30 horas por estado hiperglicêmico hiperosmolar, com glicemia inicial de 980 mg/dL, osmolalidade efetiva de 362 mOsm/kg e sonolência. Recebeu salina isotônica e insulina venosa a 0,05 U/kg/h. Agora está acordada, orientada como antes da doença, aceitando dieta, com diurese de 0,8 mL/kg/h. Glicemia de 238 mg/dL, sódio de 141 mEq/L, osmolalidade efetiva de 295 mOsm/kg, beta-hidroxibutirato de 0,4 mmol/L e pH de 7,38. Qual é a conduta adequada?",
+"alts": [
+"Manter a infusão até glicemia abaixo de 140 mg/dL",
+"Manter a infusão até o sódio cair para 135 mEq/L",
+"Só considerar resolvido com osmolalidade abaixo de 280",
+"Manter a infusão por mais 24 horas após este momento",
+"Considerar resolvido e iniciar insulina subcutânea"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "Consenso ADA, AACE, EASD, JBDS e DTS 2024 de crises hiperglicêmicas no adulto, critérios de resolução do estado hiperosmolar",
+"coment": "O consenso de 2024 trouxe, pela primeira vez, critérios de resolução do estado hiperglicêmico hiperosmolar: osmolalidade sérica calculada abaixo de 300 mOsm/kg, hipovolemia corrigida com diurese de pelo menos 0,5 mL/kg/h, recuperação do estado mental prévio e glicemia abaixo de 250 mg/dL. A paciente preenche todos. A transição para insulina subcutânea deve começar com insulina basal aplicada 1 a 2 horas antes de desligar a infusão, com dose estimada pela necessidade das últimas horas ou por 0,3 a 0,6 U/kg/dia, mais insulina prandial se estiver comendo. A queda da osmolalidade deve ter sido gradual, idealmente de 3 a 8 mOsm/kg por hora, para reduzir o risco de complicações neurológicas.",
+"porAlt": [
+"Normalizar a glicemia não é critério de resolução, e perseguir 140 mg/dL na infusão aumenta o risco de hipoglicemia.",
+"O sódio de 141 mEq/L já é normal, e o critério de resolução é a osmolalidade, não um alvo de sódio.",
+"O consenso adota osmolalidade abaixo de 300, e esperar 280 prolonga a terapia intensiva sem benefício.",
+"Com os critérios atingidos, prolongar a infusão por tempo fixo não traz ganho e atrasa a transição.",
+"Correta: osmolalidade abaixo de 300, diurese adequada, consciência recuperada e glicemia abaixo de 250 definem resolução."
+]
+},
+{
+"q": "Homem de 58 anos com diabetes tipo 2 usa insulina NPH 30 U pela manhã, metformina e acarbose 100 mg três vezes ao dia. No trabalho, 2 horas após o almoço, sente tremor, sudorese e fome. Está consciente, conversando e consegue engolir. O glicosímetro mostra 58 mg/dL. Um colega oferece opções do que há disponível. Qual é a medida mais adequada?",
+"alts": [
+"Suco de laranja com açúcar comum, 200 mL, e nova glicemia",
+"Sacarose em água, três colheres, e nova glicemia em 1 hora",
+"Glucagon intramuscular de 1 mg aplicado de forma imediata",
+"Sanduíche de pão e queijo, sem necessidade de nova glicemia",
+"Glicose oral pura, 15 a 20 g, e nova glicemia em 15 minutos"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "urg",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 6, tratamento da hipoglicemia com 15 a 20 g de glicose",
+"coment": "A hipoglicemia nível 1 (abaixo de 70 mg/dL) em pessoa consciente deve ser tratada com 15 a 20 g de glicose, preferencialmente glicose pura, repetindo a glicemia em 15 minutos e o tratamento se continuar baixa; depois de normalizada, faz-se um lanche se a próxima refeição estiver distante. O detalhe deste caso é a acarbose: ela inibe as alfa-glicosidases intestinais e retarda a digestão da sacarose e do amido, por isso açúcar comum, suco adoçado e pão corrigem a hipoglicemia de forma lenta e imprevisível. A glicose (dextrose) é absorvida diretamente. Gordura e proteína também retardam a absorção. Glucagon é reservado para quem não pode ingerir por via oral.",
+"porAlt": [
+"A sacarose do açúcar comum precisa de digestão pelas alfa-glicosidases, que a acarbose está bloqueando.",
+"Além de usar sacarose, esperar 1 hora para repetir a glicemia atrasa a detecção de falha do tratamento.",
+"Glucagon é para hipoglicemia grave com incapacidade de ingerir, e o paciente está consciente e deglute.",
+"Amido, gordura e proteína corrigem a glicemia lentamente, e dispensar o reteste é inseguro.",
+"Correta: em uso de acarbose a correção deve ser com glicose pura, que não depende de digestão, com reteste em 15 minutos."
+]
+},
+{
+"q": "Mulher de 61 anos com diabetes tipo 2 há 14 anos refere dor em queimação e choques nos pés há 8 meses, pior à noite, que prejudica o sono. Exame: hipoestesia em bota, monofilamento ausente em quatro pontos de cada pé, reflexos aquileus abolidos, pulsos pediosos presentes. Hemoglobina glicada de 7,4%, vitamina B12 e TSH normais, taxa de filtração glomerular de 78 mL/min/1,73 m², sem depressão, eletrocardiograma normal. Qual é a melhor opção inicial para a dor?",
+"alts": [
+"Tramadol de horário como o tratamento de primeira linha",
+"Pregabalina ou duloxetina, com titulação gradual da dose",
+"Ácido alfalipoico venoso como tratamento de primeira linha",
+"Oxicodona em dose baixa como tratamento de primeira linha",
+"Diclofenaco de horário como tratamento de primeira linha"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ADA Standards of Care in Diabetes 2026, seção 12, tratamento da dor na neuropatia diabética",
+"coment": "A neuropatia dolorosa diabética tem quatro classes de primeira linha segundo a ADA: gabapentinoides (pregabalina, gabapentina), inibidores da recaptação de serotonina e noradrenalina (duloxetina, venlafaxina), antidepressivos tricíclicos e bloqueadores de canais de sódio. A escolha considera comorbidades, interações e custo; tricíclicos exigem cautela em idosos e cardiopatas. As doses devem ser tituladas e, sem resposta adequada, troca-se de classe ou combinam-se classes. Opioides, incluindo tramadol e tapentadol, não são recomendados como primeira ou segunda linha pelo risco de dependência e outros efeitos adversos. O controle glicêmico ajuda a prevenir a progressão, mas não alivia a dor já instalada, e o cuidado com os pés deve ser reforçado.",
+"porAlt": [
+"O tramadol é opioide e não é recomendado como primeira linha pelo risco de dependência e de efeitos adversos.",
+"Correta: gabapentinoides e duloxetina estão entre as classes de primeira linha da ADA para dor neuropática diabética.",
+"O ácido alfalipoico tem evidência limitada e não figura entre as classes de primeira linha da ADA.",
+"Opioides fortes não são recomendados como primeira ou segunda linha na neuropatia dolorosa diabética.",
+"Anti-inflamatórios não tratam dor neuropática e trazem risco renal e gastrointestinal com uso contínuo."
+]
+},
+{
+"q": "Homem de 50 anos com diabetes tipo 2 há 6 anos faz exames anuais. Teve pielonefrite com febre há 10 dias, tratada com sucesso, e a urina foi colhida 4 dias após o fim do antibiótico. Relação albumina-creatinina de 96 mg/g; todas as anteriores abaixo de 30 mg/g. Taxa de filtração glomerular de 88 mL/min/1,73 m², sedimento urinário sem hematúria, pressão arterial de 126/78 mmHg em uso de losartana 50 mg/dia por hipertensão. Qual é a conduta adequada?",
+"alts": [
+"Repetir após a infecção e exigir 2 de 3 amostras alteradas",
+"Confirmar a doença renal do diabetes com este único exame",
+"Solicitar biópsia renal pela albuminúria de início recente",
+"Dobrar a losartana pela albuminúria em faixa moderada A2",
+"Exigir proteinúria de 24 horas como confirmação obrigatória"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ADA Standards of Care in Diabetes 2026, seção 11, e KDIGO 2022 diabetes na DRC, confirmação da albuminúria",
+"coment": "A albuminúria varia muito, e a ADA exige que dois de três exames de relação albumina-creatinina, colhidos em 3 a 6 meses, estejam alterados para caracterizar albuminúria persistente. Infecção, febre, exercício intenso nas 24 horas anteriores, insuficiência cardíaca, hiperglicemia acentuada, menstruação e hipertensão descontrolada elevam a excreção de forma transitória. Aqui houve infecção recente, e o resultado isolado não define doença renal do diabetes. O exame deve ser repetido depois da recuperação completa. Se a albuminúria se confirmar, o paciente se beneficia de inibidor de SGLT2 e de bloqueio do sistema renina-angiotensina em dose máxima tolerada, conforme a KDIGO 2022. A proteinúria de 24 horas não é necessária para o rastreio.",
+"porAlt": [
+"Correta: a albuminúria precisa ser confirmada em 2 de 3 amostras em 3 a 6 meses, longe de infecção e febre.",
+"Um único exame logo após infecção febril pode estar falsamente elevado e não confirma doença renal.",
+"Biópsia fica para achados atípicos, como hematúria, queda rápida da filtração ou ausência de retinopatia em quadro grave.",
+"Intensificar o tratamento antes de confirmar a albuminúria pode ser desnecessário e expõe a efeitos adversos.",
+"A relação albumina-creatinina em amostra isolada é o método recomendado e dispensa a coleta de 24 horas."
+]
+},
+{
+"q": "Homem de 22 anos recebeu diagnóstico de diabetes tipo 1 há 6 meses, após cetoacidose. Hoje usa esquema basal-bolus, com hemoglobina glicada de 7,2%, sem queixas visuais. Pressão arterial de 116/72 mmHg e relação albumina-creatinina de 8 mg/g. Pergunta quando deve fazer o primeiro exame de fundo de olho. Qual é a orientação correta?",
+"alts": [
+"Exame logo no diagnóstico, como no tipo 2",
+"Primeiro exame somente após 10 anos de doença",
+"Primeiro exame apenas se tiver queixa visual",
+"Angiofluoresceinografia anual desde o início",
+"Primeiro exame em até 5 anos do diagnóstico"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "ADA Standards of Care in Diabetes 2026, seção 12, rastreamento da retinopatia diabética",
+"coment": "No diabetes tipo 1 do adulto, a ADA recomenda o primeiro exame oftalmológico com dilatação pupilar em até 5 anos após o início da doença, porque a retinopatia raramente aparece antes disso. No tipo 2, o exame é feito já no diagnóstico, já que a doença pode ter anos de evolução silenciosa. Sem retinopatia em um ou mais exames e com bom controle, o intervalo pode ser de 1 a 2 anos; com retinopatia, o exame passa a ser pelo menos anual. A fotografia de retina com leitura remota, inclusive com inteligência artificial validada, é alternativa aceita para o rastreio. Gestação planejada antecipa o exame. A angiofluoresceinografia não é método de rastreamento.",
+"porAlt": [
+"O exame no diagnóstico é a regra do tipo 2, que pode ter longa evolução silenciosa antes de ser descoberto.",
+"Esperar 10 anos atrasa a detecção, já que a retinopatia pode surgir a partir do quinto ano.",
+"A retinopatia é assintomática até fases avançadas, por isso o rastreio não depende de queixa visual.",
+"A angiofluoresceinografia é invasiva e reservada à investigação de alterações já detectadas.",
+"Correta: no tipo 1 do adulto, o primeiro exame de retina deve ocorrer em até 5 anos após o diagnóstico."
+]
+},
+{
+"q": "Homem de 58 anos com diabetes tipo 2 há 15 anos e polineuropatia sensitiva conhecida nota o pé direito inchado, vermelho e quente há 3 semanas, após torção leve. Não tem dor importante nem febre. Pele íntegra, sem úlcera, pulsos palpáveis, temperatura cutânea 3 °C acima da do pé esquerdo, edema no mediopé. Leucócitos de 7.800/mm³, proteína C reativa de 0,8 mg/dL. Radiografia: discreta fragmentação e luxação nas articulações tarsometatarsais. Qual é o diagnóstico e a conduta inicial?",
+"alts": [
+"Celulite; cefalexina oral por dez dias seguidos",
+"Gota aguda; colchicina e anti-inflamatório oral",
+"Charcot agudo; imobilização com descarga total",
+"Osteomielite; biópsia óssea e antibiótico venoso",
+"Trombose venosa; anticoagulação plena imediata"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "IWGDF 2023 diretriz de neuroartropatia de Charcot no diabetes, diagnóstico e descarga",
+"coment": "Pé quente, edemaciado e eritematoso, com pele íntegra, em pessoa com neuropatia e diferença de temperatura acima de 2 °C em relação ao outro pé, deve ser tratado como neuroartropatia de Charcot ativa até prova em contrário. A ausência de febre, de úlcera e de inflamação sistêmica, além de trauma menor como gatilho, reforça o diagnóstico. A diretriz IWGDF 2023 recomenda iniciar imediatamente a descarga com gesso de contato total ou bota imobilizadora não removível, sem esperar exames adicionais; quando a radiografia é normal, a ressonância detecta a fase inicial. A imobilização dura em geral meses, até a temperatura se igualar. Sem tratamento, a doença evolui com colapso do arco, deformidade em mata-borrão e úlceras.",
+"porAlt": [
+"Celulite costuma ter porta de entrada e dor, e não explica fragmentação e luxação articular.",
+"Gota envolve dor intensa, geralmente no hálux, e não causa desorganização tarsometatarsal.",
+"Correta: pé neuropático quente, edemaciado, sem úlcera e com fragmentação articular é Charcot ativo, tratado com descarga imediata.",
+"Osteomielite no diabetes quase sempre parte de úlcera contígua, ausente neste pé de pele íntegra.",
+"Trombose venosa não causa alterações ósseas e o edema restrito ao mediopé não é típico."
+]
+},
+{
+"q": "Mulher de 70 anos com diabetes tipo 2 em uso de metformina e glicazida, com hemoglobina glicada de 8,2%, é internada na enfermaria por pielonefrite. Está estável, aceita menos da metade das refeições por náuseas e tem glicemias capilares entre 210 e 260 mg/dL. Peso de 70 kg, taxa de filtração glomerular de 55 mL/min/1,73 m². Qual é o esquema de controle glicêmico mais adequado?",
+"alts": [
+"Escala móvel de insulina regular como esquema isolado",
+"Manter a metformina e a glicazida de uso domiciliar",
+"Basal-bolus com dose prandial fixa em cada refeição",
+"Insulina venosa contínua em bomba, na enfermaria geral",
+"Insulina basal com correção, sem dose prandial fixa"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "ADA Standards of Care in Diabetes 2026, seção 16, insulina no paciente não crítico com baixa ingestão",
+"coment": "No paciente internado não crítico, a ADA recomenda iniciar insulina quando a glicemia fica persistentemente igual ou acima de 180 mg/dL, com alvo de 140 a 180 mg/dL. Para quem come pouco ou está em jejum, o esquema preferido é insulina basal com doses de correção, começando com cerca de 0,1 a 0,25 U/kg/dia em idosos ou com função renal reduzida. A insulina prandial fixa em quem não está comendo aumenta o risco de hipoglicemia, e o esquema basal-bolus completo fica para quem se alimenta bem. A escala móvel isolada é desaconselhada, porque trata a hiperglicemia depois que ela ocorre. Sulfonilureia causa hipoglicemia com ingestão irregular, e a metformina costuma ser suspensa durante infecção aguda.",
+"porAlt": [
+"A escala móvel isolada é reativa, gera oscilações e é desaconselhada como esquema único no hospital.",
+"Sulfonilureia com alimentação irregular causa hipoglicemia, e a metformina é evitada na infecção aguda.",
+"Prandial fixa e completa em quem come menos da metade das refeições aumenta o risco de hipoglicemia.",
+"A insulina venosa contínua é para pacientes críticos, não para quem está estável na enfermaria.",
+"Correta: com baixa ingestão, a ADA prefere insulina basal com doses de correção, evitando prandial fixa."
+]
+},
+{
+"q": "Mulher de 32 anos, técnica de enfermagem em unidade de terapia intensiva, sem diabetes, é internada para investigar episódios de confusão e sudorese em horários variados. No segundo dia, às 15 horas, apresenta sudorese e fala arrastada, com glicemia de 38 mg/dL, revertidos com glicose venosa. Na amostra colhida durante o episódio: insulina de 86 µU/mL, peptídeo C abaixo de 0,1 ng/mL, pró-insulina abaixo de 2 pmol/L, beta-hidroxibutirato de 0,1 mmol/L e pesquisa de sulfonilureias e glinidas negativa. Qual é o diagnóstico mais provável?",
+"alts": [
+"Insulinoma pancreático produtor de insulina",
+"Uso oculto de sulfonilureia não detectada",
+"Hipoglicemia autoimune por anti-insulina",
+"Administração exógena e oculta de insulina",
+"Tumor extrapancreático produtor de IGF-II"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "Endocrine Society 2009 avaliação e manejo de hipoglicemia em adultos sem diabetes, interpretação de insulina e peptídeo C",
+"coment": "A hipoglicemia está documentada pela tríade de Whipple: sintomas, glicemia baixa e melhora com glicose. O beta-hidroxibutirato suprimido mostra efeito de insulina. A chave é o peptídeo C: a insulina endógena é liberada junto com ele, em proporção equimolar, enquanto a insulina farmacêutica não contém peptídeo C e ainda suprime a secreção própria. Insulina muito alta com peptídeo C e pró-insulina suprimidos indica insulina exógena, quadro mais comum em profissionais de saúde ou familiares de pessoas com diabetes. Pelos critérios da Endocrine Society, hiperinsulinismo endógeno exige peptídeo C de pelo menos 0,6 ng/mL e pró-insulina de 5 pmol/L ou mais, como no insulinoma ou no uso de secretagogos. A abordagem deve ser cuidadosa, com apoio psiquiátrico.",
+"porAlt": [
+"No insulinoma a secreção é endógena, com peptídeo C e pró-insulina elevados junto com a insulina.",
+"Sulfonilureias estimulam a célula beta e elevam o peptídeo C, além de a pesquisa ter sido negativa.",
+"Na forma autoimune, a pró-insulina e o peptídeo C costumam estar altos, e a insulina muito elevada.",
+"Correta: insulina alta com peptídeo C e pró-insulina suprimidos indica insulina de origem externa.",
+"Tumores produtores de IGF-II suprimem a insulina, que estaria baixa durante a hipoglicemia."
+]
+},
+{
+"q": "Homem de 47 anos tem hipoglicemia de jejum documentada durante jejum supervisionado, interrompido na 20ª hora com glicemia de 42 mg/dL e neuroglicopenia: insulina de 11 µU/mL, peptídeo C de 2,1 ng/mL, pró-insulina de 24 pmol/L, beta-hidroxibutirato de 0,3 mmol/L, elevação de glicemia de 38 mg/dL após glucagon e pesquisa de sulfonilureias negativa. Cálcio, paratormônio e prolactina normais, sem história familiar de tumores endócrinos. A tomografia de abdome com contraste em fase arterial não mostrou lesão pancreática. Qual é o próximo passo mais adequado?",
+"alts": [
+"Pancreatectomia distal às cegas, sem localização",
+"Diazóxido e nova tomografia somente após 1 ano",
+"Cateterismo arterial com cálcio como primeiro exame",
+"Repetir o jejum de 72 horas antes de prosseguir",
+"Ecoendoscopia do pâncreas para localizar a lesão"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Endocrine Society 2009 hipoglicemia em adultos sem diabetes; ENETS 2023 tumores neuroendócrinos pancreáticos funcionantes, localização do insulinoma",
+"coment": "Os critérios bioquímicos de hiperinsulinismo endógeno estão preenchidos: glicemia abaixo de 55 mg/dL com insulina de pelo menos 3 µU/mL, peptídeo C de 0,6 ng/mL ou mais, pró-insulina de 5 pmol/L ou mais, beta-hidroxibutirato suprimido, resposta ao glucagon acima de 25 mg/dL e secretagogos negativos. Sem secretagogos, o diagnóstico mais provável é insulinoma. Somente após a confirmação bioquímica vem a localização. Como a maioria dos insulinomas mede menos de 2 cm, a tomografia pode ser negativa; a ecoendoscopia tem alta sensibilidade e permite punção, e a tomografia por emissão de pósitrons com análogo de GLP-1, quando disponível, também tem bom desempenho. O cateterismo com estímulo de cálcio fica para casos não localizados por métodos menos invasivos. O rastreio de neoplasia endócrina múltipla tipo 1 foi negativo.",
+"porAlt": [
+"Ressecção sem localização expõe a cirurgia de grande porte com risco de não retirar o tumor.",
+"Adiar a localização por 1 ano mantém o risco de hipoglicemia grave num tumor potencialmente curável.",
+"O cateterismo com estímulo de cálcio é invasivo e reservado à falha dos métodos de imagem menos invasivos.",
+"O diagnóstico bioquímico já está completo, e repetir o jejum só atrasa a localização.",
+"Correta: confirmado o hiperinsulinismo endógeno e com tomografia negativa, a ecoendoscopia é o passo seguinte para localizar o tumor."
+]
+},
+{
 "q": "Durante investigação de nefrolitíase, uma mulher de 54 anos de idade, com diabetes, hipertensão e histórico de fratura de ossos longos, realiza uma tomografia de abdome que revela nódulo em adrenal esquerda de 2,8 cm, densidade de <10 UH na fase sem contraste. Nega uso de corticoides. Exames laboratoriais: cortisol após 1 mg de dexametasona 2,5 µg/dL (ref.: < 1,8 µg/dL), ACTH plasmático 8 pg/mL (ref.: 7 a 45 pg/mL), aldosterona 9 ng/dL, renina não supressa, DHEAS dentro dos limites da normalidade. Em relação ao caso apresentado, a conduta mais adequada é",
 "alts": [
 "Adrenalectomia esquerda",
@@ -4990,6 +7294,822 @@ window.BANCO=[
 "banca": "USP (FUVEST)",
 "ano": 2026
 }
+},
+{
+"q": "Homem de 52 anos, que bebe cerca de 10 doses de destilado por dia há 15 anos, procura avaliação por ganho de peso abdominal, face arredondada e hipertensão recente. Exame: IMC 31 kg/m², sem estrias violáceas, sem fraqueza muscular proximal e sem equimoses espontâneas. Laboratório: GGT 310 U/L, AST 98 U/L, ALT 45 U/L, cortisol sérico após 1 mg de dexametasona às 23 horas de 4,2 µg/dL e cortisol livre urinário de 24 horas 1,4 vez o limite superior, em duas coletas. Qual é a conduta mais adequada?",
+"alts": [
+"Dosar ACTH e pedir ressonância de sela turca de imediato",
+"Tomografia de adrenais em busca de adenoma que secreta",
+"Iniciar cetoconazol para controlar o hipercortisolismo",
+"Abstinência alcoólica e repetir os testes após semanas",
+"Teste com 8 mg de dexametasona para definir a origem"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), estados de pseudo-Cushing",
+"coment": "O consenso de 2021 chama de pseudo-Cushing, ou hipercortisolismo não neoplásico, a ativação do eixo por alcoolismo, depressão, obesidade grave, síndrome dos ovários policísticos e diabetes mal controlado. Nesses estados, os testes de rastreio costumam vir alterados de forma discreta, com cortisol livre urinário abaixo de 3 vezes o limite. Aqui faltam os achados que mais discriminam Cushing verdadeiro, como miopatia proximal, estrias violáceas largas e equimoses fáceis, e há forte marca de uso de álcool. A conduta é suspender o álcool e repetir a avaliação depois de algumas semanas de abstinência, quando o eixo tende a normalizar. Investigar a origem, com ACTH, imagem ou teste de 8 mg, só faz sentido depois de confirmar hipercortisolismo patológico. Tratar com inibidor da esteroidogênese sem diagnóstico seria erro.",
+"porAlt": [
+"Pesquisar a origem antes de confirmar hipercortisolismo patológico leva a achados incidentais e erro.",
+"Imagem adrenal sem diagnóstico bioquímico firme pode achar incidentaloma sem relação com o quadro.",
+"Inibidor da esteroidogênese não se usa sem diagnóstico confirmado de síndrome de Cushing.",
+"Correta: álcool causa hipercortisolismo funcional que regride com a abstinência, e os testes devem ser repetidos depois.",
+"O teste de 8 mg serve para diferenciar causas já confirmadas, e hoje tem papel limitado."
+]
+},
+{
+"q": "Homem de 63 anos, tabagista de 50 maços-ano, apresenta em 6 semanas fraqueza intensa nos membros inferiores, edema de tornozelos, hiperglicemia nova e hipertensão de difícil controle. Exame: pele difusamente escurecida, sem obesidade central marcante e sem estrias. Laboratório: potássio 2,4 mEq/L, bicarbonato 34 mEq/L, glicemia 286 mg/dL, cortisol livre urinário 18 vezes o limite superior e ACTH 245 pg/mL (referência até 46 pg/mL). Ressonância de sela sem lesão. Radiografia de tórax com massa hilar direita. Qual é a hipótese mais provável?",
+"alts": [
+"Doença de Cushing por microadenoma não visível",
+"Carcinoma adrenal produtor de cortisol e androgênio",
+"Síndrome de Cushing exógena por corticoide oculto",
+"Secreção ectópica de ACTH por carcinoma pulmonar",
+"Pseudo-Cushing ligado ao tabagismo e ao estresse"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), síndrome de ACTH ectópico",
+"coment": "A secreção ectópica de ACTH, classicamente pelo carcinoma de pequenas células de pulmão e por tumores neuroendócrinos, produz hipercortisolismo muito intenso e de instalação rápida. O fenótipo clássico de Cushing muitas vezes não tem tempo de surgir, e predominam hipocalemia grave, alcalose metabólica, hiperglicemia, edema, miopatia e hiperpigmentação pelo ACTH muito alto. O cortisol em excesso satura a 11-beta-hidroxiesteroide desidrogenase tipo 2 renal e age no receptor mineralocorticoide, o que explica a hipocalemia. ACTH elevado afasta causa adrenal e exógena, que cursam com ACTH suprimido. Na doença de Cushing, o cortisol urinário costuma ser menos elevado e a evolução é lenta. Massa pulmonar em tabagista fecha o raciocínio, e a investigação segue com tomografia de tórax e biópsia.",
+"porAlt": [
+"Microadenoma dá quadro lento e cortisol menos elevado, e não explica a massa pulmonar.",
+"Tumor adrenal secretor suprime o ACTH, que aqui está muito alto.",
+"Corticoide exógeno suprime ACTH e cortisol endógeno, o oposto do encontrado.",
+"Correta: evolução rápida, hipocalemia grave, alcalose, hiperpigmentação, ACTH muito alto e massa pulmonar.",
+"Pseudo-Cushing não gera cortisol 18 vezes o limite nem hipocalemia grave."
+]
+},
+{
+"q": "Mulher de 41 anos vive com HIV e usa tenofovir, lamivudina e darunavir potencializado com ritonavir. Tem asma tratada com fluticasona inalatória 500 µg duas vezes ao dia há 8 meses. Relata ganho de 9 kg, estrias violáceas largas no abdome, face arredondada e equimoses fáceis. Nega uso de corticoide oral, injetável ou tópico. Cortisol sérico às 8 horas de 1,1 µg/dL e ACTH de 4 pg/mL. Qual é a explicação mais provável?",
+"alts": [
+"Adenoma adrenal que secreta cortisol de forma autônoma",
+"Insuficiência adrenal primária por adrenalite autoimune",
+"Doença de Cushing com secreção cíclica e intensa de ACTH",
+"Cushing exógeno por inibição do CYP3A4 pelo ritonavir",
+"Lipodistrofia do antirretroviral, sem excesso de cortisol"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), causas exógenas e interações medicamentosas",
+"coment": "O ritonavir, e também o cobicistate, inibe fortemente o CYP3A4, enzima que metaboliza a fluticasona e a budesonida. O corticoide inalatório, que em geral tem pouca ação sistêmica, passa a se acumular e produz síndrome de Cushing exógena, com supressão do eixo. O padrão laboratorial é típico: sinais clínicos de excesso de glicocorticoide com cortisol endógeno e ACTH muito baixos, porque o imunoensaio não mede a fluticasona. O consenso de 2021 recomenda excluir corticoide exógeno antes de qualquer investigação de Cushing endógeno. A conduta é trocar o corticoide inalatório por um menos dependente do CYP3A4, como beclometasona, ou rever o antirretroviral, e avaliar insuficiência adrenal secundária na retirada, pois o eixo está suprimido e há risco de crise.",
+"porAlt": [
+"Adenoma secretor teria cortisol alto, e não cortisol matinal de 1,1 µg/dL.",
+"Insuficiência adrenal primária teria ACTH alto e não causaria estrias e ganho de peso.",
+"Doença de Cushing cursa com ACTH normal ou alto, não suprimido.",
+"Correta: fluticasona acumulada pela inibição do CYP3A4 gera Cushing com cortisol e ACTH endógenos suprimidos.",
+"Lipodistrofia não explica estrias violáceas, equimoses e eixo suprimido."
+]
+},
+{
+"q": "Mulher de 34 anos tem quadro típico de síndrome de Cushing. Cortisol salivar noturno elevado em duas amostras, cortisol livre urinário 4 vezes o limite superior e cortisol de 9,8 µg/dL após 1 mg de dexametasona. ACTH 88 pg/mL. Ressonância de sela mostra adenoma de 12 mm, sem invasão do seio cavernoso. O teste com desmopressina mostrou aumento de ACTH compatível com origem hipofisária, e a tomografia de tórax foi normal. Qual é a conduta mais adequada?",
+"alts": [
+"Cateterismo de seios petrosos antes de qualquer cirurgia já",
+"Tomografia de abdome e de pelve em busca de tumor ectópico",
+"Cirurgia transesfenoidal, sem cateterismo de seios petrosos",
+"Adrenalectomia bilateral laparoscópica como primeira opção",
+"Teste com 8 mg de dexametasona para confirmar a sua origem"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso internacional sobre síndrome de Cushing (Fleseriu et al., Lancet Diabetes Endocrinol, 2021), indicação de cateterismo de seios petrosos",
+"coment": "Confirmado hipercortisolismo com ACTH normal ou alto, a causa é dependente de ACTH, e a dúvida passa a ser hipófise versus tumor ectópico. O consenso de 2021 aceita dispensar o cateterismo de seios petrosos quando a ressonância mostra adenoma de 10 mm ou mais e os testes dinâmicos, como estímulo com CRH ou desmopressina, são concordantes com origem hipofisária, sobretudo se a imagem de tórax for normal. Nesse cenário a probabilidade de doença de Cushing é muito alta e o cateterismo, invasivo e caro, pouco acrescenta. O cateterismo fica para lesões menores que 6 mm, ausência de adenoma ou testes discordantes. A cirurgia transesfenoidal por cirurgião experiente é o tratamento de primeira linha. Adrenalectomia bilateral é reservada para falha das demais opções.",
+"porAlt": [
+"O cateterismo fica para lesão pequena, ausente ou testes discordantes.",
+"Com adenoma grande e teste concordante, a busca extensa de tumor ectópico não é o próximo passo.",
+"Correta: adenoma de 12 mm com teste dinâmico concordante permite ir direto à cirurgia hipofisária.",
+"Adrenalectomia bilateral é opção de resgate, com risco de insuficiência adrenal e Nelson.",
+"O teste de 8 mg tem acurácia limitada e não muda a conduta aqui."
+]
+},
+{
+"q": "Mulher de 36 anos com hipotireoidismo de Hashimoto relata fadiga, perda de 6 kg, avidez por sal e escurecimento de cicatrizes há 4 meses. PA 96 x 60 mmHg sentada. Sódio 129 mEq/L, potássio 5,6 mEq/L, cortisol às 8 horas 3,2 µg/dL, ACTH 610 pg/mL e renina elevada. No teste com cosintropina 250 µg, o cortisol foi de 4,0 µg/dL aos 60 minutos. Com o diagnóstico de insuficiência adrenal primária firmado e o tratamento iniciado, qual exame é o primeiro passo na busca da causa?",
+"alts": [
+"Tomografia de adrenais com contraste",
+"Ácidos graxos de cadeia muito longa",
+"Anticorpo anti-21-hidroxilase sérico",
+"Teste tuberculínico e raio X de tórax",
+"Ressonância magnética de sela turca"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Endocrine Society, diretriz de insuficiência adrenal primária, 2016, investigação etiológica",
+"coment": "A diretriz da Endocrine Society de 2016 segue como referência para insuficiência adrenal primária, já que a busca não mostrou atualização dedicada em 2025. Ela recomenda iniciar a investigação etiológica pelos anticorpos anti-21-hidroxilase, porque a adrenalite autoimune responde pela maioria dos casos em países desenvolvidos e costuma associar-se a outras doenças autoimunes, como tireoidite de Hashimoto, diabetes tipo 1 e vitiligo, compondo a síndrome poliglandular autoimune tipo 2. Se os anticorpos forem negativos, segue-se a tomografia de adrenais para buscar infecção, hemorragia, infiltração ou metástase. Ácidos graxos de cadeia muito longa entram em homens com anticorpos negativos, pela adrenoleucodistrofia. Tuberculose deve ser lembrada no Brasil, mas não é o primeiro exame nesta paciente com perfil autoimune. Ressonância de sela não cabe com ACTH alto.",
+"porAlt": [
+"A tomografia vem se os anticorpos forem negativos.",
+"Adrenoleucodistrofia é investigada em homens com anticorpos negativos.",
+"Correta: a causa autoimune é a mais comum e é investigada primeiro com anti-21-hidroxilase.",
+"Tuberculose entra no diferencial, mas o perfil autoimune pede anticorpos primeiro.",
+"ACTH muito alto indica causa adrenal, e não hipofisária."
+]
+},
+{
+"q": "Homem de 45 anos com insuficiência adrenal primária conhecida chega ao pronto-socorro com vômitos incoercíveis há 24 horas. PA 78 x 40 mmHg, FC 122 bpm, sódio 126 mEq/L, potássio 5,9 mEq/L e glicemia 64 mg/dL. Recebeu hidrocortisona 100 mg endovenosa, 1.000 mL de salina isotônica na primeira hora e glicose endovenosa, com melhora parcial da pressão. Como deve prosseguir a reposição hormonal nas próximas 24 horas?",
+"alts": [
+"Hidrocortisona 200 mg/dia e fludrocortisona 0,1 mg oral",
+"Dexametasona 4 mg/dia, para não interferir no cortisol sérico",
+"Prednisona oral 20 mg/dia já na manhã do dia seguinte à crise",
+"Hidrocortisona 200 mg/dia endovenosa, sem fludrocortisona",
+"Hidrocortisona 20 mg/dia, a dose habitual de manutenção"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "Endocrine Society, diretriz de insuficiência adrenal primária, 2016, tratamento da crise adrenal",
+"coment": "Na crise adrenal, a diretriz de 2016 recomenda hidrocortisona 100 mg endovenosa imediata, reposição volêmica com salina isotônica e correção da hipoglicemia, seguida de hidrocortisona 200 mg em 24 horas, em infusão contínua ou 50 mg a cada 6 horas. Em doses de hidrocortisona a partir de cerca de 50 mg por dia, a ação mineralocorticoide da própria hidrocortisona é suficiente, e a fludrocortisona é dispensável. Ela volta quando a dose de hidrocortisona é reduzida para a manutenção. Dexametasona não tem efeito mineralocorticoide e só seria aceitável por curto período em paciente sem diagnóstico, enquanto se aguarda teste. Manter via oral com vômitos incoercíveis e choque é inseguro, e a dose de manutenção é insuficiente na crise.",
+"porAlt": [
+"Com hidrocortisona acima de 50 mg/dia, a fludrocortisona não acrescenta e só entra na manutenção.",
+"O diagnóstico já é conhecido, e dexametasona não tem efeito mineralocorticoide.",
+"Via oral é inadequada com vômitos incoercíveis e instabilidade hemodinâmica.",
+"Correta: 200 mg/dia de hidrocortisona já têm ação mineralocorticoide suficiente, e a fludrocortisona volta na manutenção.",
+"A dose de manutenção é insuficiente para a crise adrenal."
+]
+},
+{
+"q": "Homem de 67 anos com DPOC recebeu alta após exacerbação, com prescrição de prednisona 40 mg/dia por 5 dias. Usou um curso semelhante há 2 anos e não faz uso contínuo de corticoide sistêmico, nem de corticoide inalatório em dose alta. Ao final do quinto dia, pergunta se precisa reduzir a dose aos poucos ou fazer algum exame antes de parar. Qual é a orientação adequada?",
+"alts": [
+"Reduzir 5 mg a cada semana até suspender por completo",
+"Suspender ao final do curso, sem desmame nem exames",
+"Dosar cortisol matinal antes de suspender o corticoide",
+"Trocar por hidrocortisona 20 mg/dia durante um mês",
+"Fazer o teste com cosintropina antes da suspensão"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "Diretriz conjunta ESE e Endocrine Society sobre insuficiência adrenal induzida por glicocorticoide, 2024, cursos curtos",
+"coment": "A diretriz conjunta de 2024 sobre insuficiência adrenal induzida por glicocorticoide orienta que cursos com duração menor que 3 a 4 semanas, qualquer que seja a dose, podem ser interrompidos sem desmame e sem teste do eixo, porque o risco de supressão clinicamente relevante é baixo. O desmame e a avaliação com cortisol matinal ficam para quem usou dose suprafisiológica por mais tempo, ou recebeu cursos repetidos e frequentes. Mesmo nesses, a diretriz não recomenda teste enquanto a dose ainda é suprafisiológica, e sim quando se chega à dose fisiológica. Trocar por hidrocortisona ou testar com cosintropina aqui só prolonga exposição e gera custo. Vale orientar o paciente a procurar atendimento se surgirem fadiga intensa, náuseas ou hipotensão nas semanas seguintes.",
+"porAlt": [
+"Desmame é desnecessário em curso de 5 dias.",
+"Correta: curso menor que 3 a 4 semanas pode ser suspenso sem desmame e sem teste do eixo.",
+"Cortisol matinal só se indica após uso prolongado, ao chegar à dose fisiológica.",
+"Hidrocortisona de reposição não tem indicação após curso curto.",
+"Teste de cosintropina não se justifica com risco tão baixo de supressão."
+]
+},
+{
+"q": "Mulher de 58 anos com artrite reumatoide usa prednisona 10 mg/dia há 2 anos e será submetida a colectomia eletiva por via aberta, sob anestesia geral, com previsão de jejum prolongado. Nunca fez avaliação do eixo adrenal. PA, sódio e potássio normais. Como deve ser o manejo do glicocorticoide no perioperatório?",
+"alts": [
+"Manter só a prednisona habitual, inclusive no dia da cirurgia",
+"Hidrocortisona 100 mg na indução e 200 mg/24 h, depois reduzir",
+"Suspender a prednisona 48 horas antes para testar o eixo adrenal",
+"Hidrocortisona 25 mg na indução anestésica, sem novas doses",
+"Dexametasona 0,5 mg à noite durante toda a internação clínica"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Diretriz conjunta ESE e Endocrine Society sobre insuficiência adrenal induzida por glicocorticoide, 2024, cobertura perioperatória",
+"coment": "Quem usa ou usou recentemente glicocorticoide em dose suprafisiológica por mais de algumas semanas e não teve o eixo testado deve ser tratado como possível portador de insuficiência adrenal. A diretriz conjunta de 2024 recomenda cobertura parenteral em estresse moderado a grave, em procedimentos sob anestesia geral ou regional e quando a via oral ficará suspensa. Para cirurgia de grande porte, a dose é hidrocortisona 100 mg endovenosa na indução, seguida de 200 mg em 24 horas, em infusão contínua ou 50 mg a cada 6 horas, com redução para a dose habitual conforme a recuperação, em geral em 1 a 2 dias quando o curso é sem complicação. Suspender o corticoide antes da cirurgia expõe a crise adrenal e piora a doença de base. Prednisona 10 mg/dia, por si, pode não bastar diante do estresse cirúrgico.",
+"porAlt": [
+"A dose habitual pode ser insuficiente diante do estresse cirúrgico de grande porte.",
+"Correta: cirurgia de grande porte sob anestesia geral exige cobertura parenteral com hidrocortisona.",
+"Suspender o corticoide antes da cirurgia expõe a paciente a crise adrenal.",
+"Dose única baixa não cobre o estresse que se prolonga no pós-operatório.",
+"Dexametasona em dose baixa à noite não substitui a cobertura de estresse."
+]
+},
+{
+"q": "Mulher de 31 anos, 5 meses após parto complicado por hemorragia grave com transfusão de 6 concentrados de hemácias, não conseguiu amamentar e não voltou a menstruar. Refere fadiga intensa, intolerância ao frio e tontura ao levantar. PA 92 x 58 mmHg, sódio 128 mEq/L, potássio 4,1 mEq/L e glicemia 68 mg/dL. TSH 1,2 mUI/L, T4 livre 0,5 ng/dL (referência 0,9 a 1,8), cortisol às 8 horas 2,1 µg/dL, prolactina 2 ng/mL, FSH e LH baixos e estradiol baixo. Qual é a conduta inicial mais adequada?",
+"alts": [
+"Iniciar levotiroxina e depois a hidrocortisona",
+"Aguardar o TSH subir para tratar a tireoide",
+"Iniciar estrogênio e progestagênio de imediato",
+"Iniciar hidrocortisona antes da levotiroxina",
+"Hidrocortisona associada à fludrocortisona"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Endocrine Society, diretriz de reposição hormonal no hipopituitarismo em adultos, 2016",
+"coment": "Hemorragia puerperal grave seguida de agalactia, amenorreia, hipotireoidismo e hipocortisolismo sugere síndrome de Sheehan, necrose isquêmica da hipófise aumentada pela gestação. No hipotireoidismo central, o TSH pode vir normal ou baixo, e o seguimento se faz pelo T4 livre, não pelo TSH. A diretriz da Endocrine Society de 2016 recomenda avaliar e repor o glicocorticoide antes de iniciar a levotiroxina, porque o hormônio tireoidiano acelera o metabolismo do cortisol e aumenta sua demanda, podendo precipitar crise adrenal. Na insuficiência adrenal secundária, a aldosterona é preservada pelo sistema renina-angiotensina, por isso o potássio é normal e a fludrocortisona não é necessária. A hiponatremia aqui decorre da falta de cortisol. A reposição de estrogênio entra depois de estabilizados os eixos vitais.",
+"porAlt": [
+"Levotiroxina antes do corticoide aumenta a demanda de cortisol e pode precipitar crise.",
+"No hipotireoidismo central o TSH não sobe, e o guia é o T4 livre.",
+"A reposição gonadal não é prioridade diante de cortisol e T4 livre muito baixos.",
+"Correta: no hipopituitarismo, o cortisol é reposto antes da levotiroxina para evitar crise adrenal.",
+"Na insuficiência adrenal secundária a aldosterona está preservada, sem indicação de fludrocortisona."
+]
+},
+{
+"q": "Homem de 44 anos teve hipertensão estágio 1 confirmada por monitorização ambulatorial há 3 meses, sem lesão de órgão-alvo. Usa anlodipino 5 mg/dia. Potássio 4,3 mEq/L, creatinina 0,9 mg/dL, sem nódulo adrenal conhecido, sem apneia do sono e sem história familiar de AVC precoce. De acordo com a diretriz de hiperaldosteronismo primário mais recente da Endocrine Society, qual é a conduta adequada quanto ao rastreio dessa causa?",
+"alts": [
+"Rastrear com aldosterona e renina já nesta fase",
+"Rastrear só se a hipertensão ficar resistente",
+"Rastrear apenas se surgir hipocalemia espontânea",
+"Rastrear apenas se houver incidentaloma adrenal",
+"Suspender o anlodipino por 4 semanas e rastrear"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "Endocrine Society, diretriz de hiperaldosteronismo primário, 2025, recomendação 1 sobre rastreio",
+"coment": "A diretriz da Endocrine Society de 2025 mudou o rastreio do hiperaldosteronismo primário: passou a sugerir rastrear todas as pessoas com hipertensão, e não apenas grupos de alto risco como hipertensão resistente, hipocalemia, incidentaloma adrenal, apneia do sono ou história familiar, que eram os critérios da versão de 2016. O motivo é a prevalência de 5% a 14% na atenção primária, o subdiagnóstico e o maior risco cardiovascular e renal do excesso de aldosterona, tratável de forma específica. O rastreio usa aldosterona, renina e a relação entre elas, com potássio dosado e corrigido. A diretriz recomenda manejar os medicamentos que interferem conforme segurança e viabilidade. Bloqueadores de canal de cálcio di-hidropiridínicos interferem pouco, e não é preciso suspender o anlodipino para colher.",
+"porAlt": [
+"Correta: a diretriz de 2025 sugere rastrear todos os hipertensos com aldosterona e renina.",
+"Restringir à hipertensão resistente era o critério antigo, abandonado em 2025.",
+"A maioria dos casos tem potássio normal, e esperar hipocalemia atrasa o diagnóstico.",
+"Incidentaloma é só um dos cenários, e a diretriz atual não restringe o rastreio a ele.",
+"Anlodipino interfere pouco na relação aldosterona/renina e não precisa ser suspenso."
+]
+},
+{
+"q": "Mulher de 56 anos com hiperaldosteronismo primário bilateral confirmado por cateterismo das veias adrenais usa espironolactona 25 mg/dia, anlodipino 10 mg/dia e losartana 50 mg/dia. Pressão média no consultório e na medida residencial de 146 x 92 mmHg. Potássio 4,4 mEq/L, creatinina 0,8 mg/dL e atividade de renina plasmática persistentemente suprimida, de 0,2 ng/mL/h. Sem ginecomastia ou mastalgia. Qual é o ajuste mais adequado?",
+"alts": [
+"Aumentar a espironolactona buscando elevar a renina",
+"Associar hidroclorotiazida e manter a espironolactona",
+"Trocar a espironolactona por amilorida em dose plena",
+"Indicar adrenalectomia do lado com mais aldosterona",
+"Aumentar a losartana e manter a espironolactona igual"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Endocrine Society, diretriz de hiperaldosteronismo primário, 2025, recomendações 7, 9 e 10 sobre tratamento clínico",
+"coment": "Na doença bilateral, o tratamento é clínico com antagonista do receptor mineralocorticoide. A diretriz de 2025 sugere a espironolactona como preferencial, pelo custo e disponibilidade, e prefere antagonistas mineralocorticoides aos bloqueadores do canal epitelial de sódio, como amilorida. Uma recomendação nova é usar a renina como marcador do bloqueio: se a pressão segue alta e a renina continua suprimida, o bloqueio mineralocorticoide é insuficiente, e a dose deve ser aumentada até a renina subir. Renina suprimida sob tratamento associa-se a mais eventos cardiovasculares e fibrilação atrial. Adrenalectomia não se indica em doença bilateral. Somar tiazídico ou elevar o bloqueador do receptor de angiotensina não corrige o excesso de aldosterona e atrasa o ajuste específico.",
+"porAlt": [
+"Correta: renina suprimida com pressão alta indica bloqueio mineralocorticoide insuficiente, e a dose deve subir.",
+"Tiazídico não corrige o excesso de aldosterona e piora o potássio.",
+"A diretriz prefere antagonista mineralocorticoide aos bloqueadores do canal epitelial de sódio.",
+"Doença bilateral confirmada não tem indicação cirúrgica.",
+"Elevar a losartana não trata o excesso de aldosterona, que segue sem bloqueio suficiente."
+]
+},
+{
+"q": "Mulher de 39 anos relata crises de cefaleia, palpitação e sudorese há 6 meses, com PA de 178 x 104 mmHg durante os episódios. Não usa antidepressivos tricíclicos, inibidores da recaptação de noradrenalina nem descongestionantes. Metanefrinas livres plasmáticas colhidas em decúbito, após 30 minutos de repouso: normetanefrina 4,8 vezes o limite superior e metanefrina 3,2 vezes o limite superior. Qual é o próximo passo?",
+"alts": [
+"Cintilografia com MIBG como o primeiro exame",
+"Tomografia computadorizada de abdome e pelve",
+"Repetir as metanefrinas após suspender café",
+"Teste com clonidina antes de fazer a imagem",
+"Biópsia percutânea guiada da adrenal suspeita"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Endocrine Society, diretriz de feocromocitoma e paraganglioma, 2014, diagnóstico bioquímico e de imagem",
+"coment": "A diretriz da Endocrine Society para feocromocitoma e paraganglioma, ainda vigente, recomenda metanefrinas livres plasmáticas ou metanefrinas fracionadas urinárias como teste inicial. Elevações acima de 3 vezes o limite superior, colhidas da forma correta e sem medicamentos interferentes, têm alta probabilidade de tumor e dispensam testes adicionais. O teste de supressão com clonidina fica para elevações limítrofes. Confirmado o diagnóstico bioquímico, a imagem inicial recomendada é a tomografia computadorizada de abdome e pelve, pela boa resolução espacial. A ressonância é preferida em metástases, paraganglioma de base de crânio, gestantes e crianças. Imagem funcional, como MIBG ou PET, entra depois, para doença metastática ou tumor grande. Biópsia é contraindicada, pelo risco de crise adrenérgica.",
+"porAlt": [
+"Imagem funcional é complementar, não o primeiro exame de localização.",
+"Correta: com metanefrinas acima de 3 vezes o limite, segue-se a localização por tomografia.",
+"Elevação tão acentuada não se explica por cafeína, e repetir só atrasa.",
+"Clonidina é para elevações limítrofes, não acima de 3 vezes o limite.",
+"Biópsia de suspeita de feocromocitoma pode precipitar crise adrenérgica."
+]
+},
+{
+"q": "Homem de 47 anos faz tomografia por cólica renal, e encontra-se massa adrenal esquerda de 6,2 cm, heterogênea, de contornos irregulares, com densidade de 38 unidades Hounsfield na fase sem contraste. Nega sintomas. PA 138 x 86 mmHg, sem estigmas de Cushing. Não tem história de câncer. Qual é a conduta mais adequada?",
+"alts": [
+"Biópsia percutânea com agulha antes de qualquer decisão",
+"Repetir a tomografia em 6 a 12 meses e então decidir",
+"Avaliação hormonal com metanefrinas e adrenalectomia",
+"Alta do seguimento, pois a lesão é assintomática agora",
+"Ressonância anual, sem exames hormonais neste momento"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Diretriz ESE e ENSAT de incidentaloma adrenal, 2023, avaliação hormonal e indicação cirúrgica",
+"coment": "A diretriz europeia de 2023 recomenda, para todo incidentaloma, teste com 1 mg de dexametasona e avaliação clínica de excesso hormonal. Dosar metanefrinas é indicado quando a densidade sem contraste é maior que 10 unidades Hounsfield, e em suspeita de carcinoma adrenocortical acrescenta-se perfil de esteroides sexuais e precursores. Lesão grande, heterogênea, irregular e com densidade alta é indeterminada com forte suspeita de malignidade, e a diretriz orienta cirurgia, discutida em equipe multidisciplinar. Excluir feocromocitoma antes da operação é obrigatório, para preparar com bloqueio alfa. Biópsia não é recomendada na avaliação de massa adrenal, exceto em suspeita de metástase de tumor extra-adrenal e após excluir feocromocitoma. Observar com imagem seriada atrasaria a cirurgia de um provável carcinoma.",
+"porAlt": [
+"Biópsia não se recomenda e pode disseminar carcinoma ou precipitar crise adrenérgica.",
+"Seguir com imagem atrasa a cirurgia de lesão com forte suspeita de carcinoma.",
+"Correta: lesão grande e suspeita pede avaliação hormonal, incluindo metanefrinas, e cirurgia.",
+"Ausência de sintomas não afasta malignidade nem secreção hormonal.",
+"Toda massa adrenal precisa de avaliação hormonal, e esta exige conduta ativa."
+]
+},
+{
+"q": "Mulher de 29 anos, com ciclos menstruais regulares e sem galactorreia, fez dosagem de prolactina num check-up pedido por acne: 92 ng/mL (referência até 25 ng/mL), confirmada em outro dia com 88 ng/mL. Não usa medicamentos. TSH 1,9 mUI/L, função renal normal e beta-hCG negativo. Exame neurológico e campimetria de confrontação normais. Qual é o próximo passo?",
+"alts": [
+"Pesquisar macroprolactina por polietilenoglicol",
+"Ressonância magnética de sela turca com contraste",
+"Iniciar cabergolina 0,5 mg por semana e redosar",
+"Repetir a prolactina com diluição desta amostra",
+"Teste de estímulo com TRH para medir prolactina"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023)",
+"coment": "A macroprolactina é um complexo de prolactina com imunoglobulina G, de alto peso molecular e pouca atividade biológica, que é detectada pelos imunoensaios e eleva a prolactina sem causar sintomas. O consenso de 2023 recomenda pesquisá-la, por precipitação com polietilenoglicol, sobretudo quando a hiperprolactinemia é discreta a moderada e não há manifestações como oligomenorreia, galactorreia ou hipogonadismo. Excluídas gravidez, medicamentos, hipotireoidismo e doença renal, essa é a próxima etapa antes de qualquer imagem, que poderia mostrar incidentaloma hipofisário sem relação com o exame e levar a tratamento desnecessário. Diluição da amostra serve para o efeito gancho, que ocorre em macroadenomas com prolactina extremamente alta e valor medido falsamente baixo, situação diferente da descrita. Teste com TRH não tem papel atual.",
+"porAlt": [
+"Correta: hiperprolactinemia sem sintomas sugere macroprolactina, pesquisada com polietilenoglicol.",
+"Imagem antes de excluir macroprolactina pode achar incidentaloma e motivar tratamento sem necessidade.",
+"Tratar sem sintomas e sem excluir macroprolactina pode ser desnecessário.",
+"Diluição serve para o efeito gancho em macroadenoma, não para este cenário.",
+"O teste com TRH não tem utilidade no diagnóstico atual."
+]
+},
+{
+"q": "Homem de 26 anos com esquizofrenia estável usa risperidona 4 mg/dia há 1 ano e refere perda de libido e disfunção erétil. Prolactina 118 ng/mL, testosterona total 210 ng/dL (baixa) e LH baixo. Sem cefaleia, sem alteração visual e com sintomas iniciados após a risperidona. O psiquiatra considera arriscado suspender o antipsicótico, mesmo por poucos dias. Qual é a melhor estratégia inicial?",
+"alts": [
+"Discutir com o psiquiatra a troca ou associação de aripiprazol",
+"Iniciar cabergolina e manter a risperidona na mesma dose atual",
+"Trocar a risperidona por haloperidol em dose baixa, à noite",
+"Ressonância de sela turca seguida de cirurgia transesfenoidal",
+"Suspender a risperidona por 72 horas e repetir a prolactina"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023), hiperprolactinemia por medicamentos",
+"coment": "Antipsicóticos que bloqueiam receptores D2, como risperidona e haloperidol, são causa frequente de hiperprolactinemia com hipogonadismo. Quando a relação temporal é clara e a suspensão é insegura, o consenso de 2023 orienta decidir com o psiquiatra a troca por um antipsicótico que pouco eleva a prolactina, ou a associação de aripiprazol, agonista parcial dopaminérgico que reduz a prolactina sem desestabilizar o quadro. Agonistas dopaminérgicos, como cabergolina, podem piorar a psicose e ficam como exceção, com cautela. Suspender por 72 horas só é aceitável quando seguro, o que não é o caso. Ressonância é indicada se houver sintomas de massa, dúvida sobre a causa ou prolactina desproporcional ao medicamento, e cirurgia não trata hiperprolactinemia medicamentosa. Se o hipogonadismo persistir, a reposição de testosterona pode ser discutida depois.",
+"porAlt": [
+"Correta: aripiprazol, como troca ou associação, reduz a prolactina sem suspender o tratamento psiquiátrico.",
+"Agonista dopaminérgico pode piorar a psicose e não é a primeira opção.",
+"Haloperidol também bloqueia D2 e mantém a hiperprolactinemia.",
+"Cirurgia não trata hiperprolactinemia causada por medicamento.",
+"A suspensão foi considerada insegura pelo psiquiatra, o que exclui esse teste."
+]
+},
+{
+"q": "Mulher de 38 anos com microprolactinoma de 6 mm usa cabergolina 0,5 mg por semana há 3 anos. A prolactina está normal há 2 anos e meio, com último valor de 12 ng/mL, e a ressonância atual não mostra tumor visível. Não deseja gestação no momento e tolera bem o remédio. Pergunta se pode interrompê-lo. Qual é a conduta mais adequada?",
+"alts": [
+"Manter a cabergolina por tempo indeterminado",
+"Suspender a cabergolina só após a menopausa",
+"Trocar por bromocriptina antes de suspender",
+"Indicar cirurgia para cura antes de suspender",
+"Reduzir e suspender, com prolactina seriada"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Consenso da Pituitary Society sobre adenomas secretores de prolactina (Petersenn et al., Nat Rev Endocrinol, 2023), retirada do agonista dopaminérgico",
+"coment": "O consenso de 2023 considera a retirada do agonista dopaminérgico em pacientes tratados por pelo menos 2 anos, com prolactina normal de forma sustentada e sem tumor visível na ressonância, ou com redução importante do volume. A dose deve ser reduzida de forma gradual antes de suspender, e a prolactina é monitorada com frequência no primeiro ano, período em que ocorre a maior parte das recidivas, depois com intervalos maiores. A taxa de remissão sustentada gira em torno de um terço a metade dos casos, maior em microadenomas com dose baixa no fim do tratamento. Se a hiperprolactinemia voltar, reinicia-se a cabergolina. Trocar por bromocriptina não traz vantagem, e cirurgia não se indica em paciente controlada com tumor invisível.",
+"porAlt": [
+"Manter indefinidamente ignora a chance real de remissão após a retirada.",
+"A menopausa favorece a retirada, mas não é condição para tentá-la.",
+"Bromocriptina é menos eficaz e menos tolerada, sem vantagem na retirada.",
+"Cirurgia não se indica em microprolactinoma controlado e sem tumor visível.",
+"Correta: 2 anos ou mais de prolactina normal e tumor invisível permitem tentar a retirada gradual."
+]
+},
+{
+"q": "Homem de 49 anos com apneia obstrutiva do sono, síndrome do túnel do carpo bilateral já operada, hipertensão e diabetes diagnosticado há 6 meses. Relata que o número do sapato e o do anel aumentaram nos últimos anos. Ao exame: prognatismo, nariz alargado, espaçamento entre os dentes, mãos espessas e macroglossia. Visão sem queixas. Qual é o exame inicial mais adequado para investigar a principal hipótese?",
+"alts": [
+"GH sérico basal colhido ao acaso no dia",
+"Ressonância de sela turca como 1º exame",
+"Teste oral de glicose com GH de início",
+"IGF-1 sérico ajustado para idade e sexo",
+"Prolactina sérica com diluição da amostra"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "Endocrine Society, diretriz de acromegalia, 2014, rastreio com IGF-1",
+"coment": "Alterações acrais e faciais progressivas, apneia do sono, túnel do carpo, hipertensão e diabetes formam o quadro típico de acromegalia. A diretriz da Endocrine Society de 2014, ainda referência, recomenda o IGF-1 sérico, interpretado pelos valores de referência para idade e sexo, como teste inicial, porque reflete a secreção integrada de GH ao longo do dia. O GH basal isolado não serve para rastreio, pois sua secreção é pulsátil e varia com sono, jejum e estresse. Com IGF-1 elevado ou duvidoso, confirma-se com o teste oral de tolerância à glicose, em que a ausência de supressão do GH abaixo de 1 ng/mL fecha o diagnóstico. A ressonância de sela vem depois da confirmação bioquímica. Prolactina pode ser dosada, pela cossecreção, mas não define o diagnóstico.",
+"porAlt": [
+"GH basal é pulsátil e não serve para rastreio.",
+"A imagem só se pede após confirmar o excesso hormonal.",
+"O teste de supressão confirma o diagnóstico depois de IGF-1 alterado.",
+"Correta: o IGF-1 integra a secreção de GH e é o melhor exame inicial.",
+"Prolactina pode vir alta por cossecreção, mas não diagnostica acromegalia."
+]
+},
+{
+"q": "Homem de 38 anos com nefrolitíase recorrente tem cálcio total 11,4 mg/dL, PTH 142 pg/mL e fósforo 2,3 mg/dL. Há 2 anos tratou úlceras duodenais múltiplas com diarreia crônica, e a gastrina de jejum, colhida sem inibidor de bomba, foi de 1.200 pg/mL. A ressonância de sela mostrou microadenoma de 7 mm, com prolactina de 140 ng/mL. O pai teve tumor de hipófise e cálculos renais. Qual é o diagnóstico mais provável e sua implicação para as paratireoides?",
+"alts": [
+"NEM 2A, com adenoma único de paratireoide",
+"Adenoma de paratireoide esporádico isolado",
+"NEM 1, com doença em várias paratireoides",
+"NEM 2B, sem acometimento de paratireoides",
+"Hiperparatireoidismo secundário à diarreia"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Diretriz de prática clínica para neoplasia endócrina múltipla tipo 1 (Thakker et al., J Clin Endocrinol Metab, 2012)",
+"coment": "A neoplasia endócrina múltipla tipo 1, por mutação do gene MEN1, associa hiperparatireoidismo primário, tumores neuroendócrinos duodenopancreáticos, como o gastrinoma, e adenomas hipofisários, mais comumente prolactinomas. O diagnóstico clínico exige dois desses tumores, ou um com parente de primeiro grau acometido. O hiperparatireoidismo é a manifestação mais frequente e precoce, e na doença é multiglandular, por hiperplasia ou múltiplos adenomas. Por isso a diretriz de 2012 orienta paratireoidectomia subtotal ou total com autoimplante, e não retirada de uma só glândula, com recidiva frequente. Corrigir a hipercalcemia também reduz a gastrina. Na NEM 2A, o hiperparatireoidismo é menos comum e acompanha o carcinoma medular. A NEM 2B não costuma ter hiperparatireoidismo. Diarreia não causaria hipercalcemia com PTH alto.",
+"porAlt": [
+"A NEM 2A cursa com carcinoma medular e feocromocitoma, não gastrinoma e adenoma hipofisário.",
+"Adenoma esporádico não explica gastrinoma, prolactinoma e história familiar.",
+"Correta: paratireoide, gastrinoma e hipófise definem NEM 1, com doença multiglandular.",
+"A NEM 2B não inclui gastrinoma nem prolactinoma.",
+"Hiperparatireoidismo secundário cursa com cálcio normal ou baixo, não alto."
+]
+},
+{
+"q": "Mulher de 33 anos tem nódulo tireoidiano de 2 cm cuja punção mostrou carcinoma medular. Calcitonina 320 pg/mL, CEA 18 ng/mL, sem linfonodos suspeitos na ultrassonografia cervical. O pai morreu de crise hipertensiva durante uma cirurgia abdominal. O teste genético mostrou mutação germinativa do RET no códon 634. PA 152 x 94 mmHg. Antes da tireoidectomia total, qual exame é indispensável para evitar a complicação mais grave?",
+"alts": [
+"Cintilografia de tireoide com tecnécio-99m",
+"Metanefrinas livres plasmáticas ou urinárias",
+"Gastrina sérica em jejum, sem inibidor de bomba",
+"Ressonância magnética de sela com contraste",
+"Anticorpos antitireoperoxidase e TSH sérico"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "American Thyroid Association, diretriz revisada de carcinoma medular de tireoide, 2015, avaliação pré-operatória na NEM 2",
+"coment": "Mutação germinativa do RET no códon 634 caracteriza NEM 2A de alto risco, com carcinoma medular em praticamente todos os portadores, feocromocitoma em cerca de metade e hiperparatireoidismo em parte deles. A diretriz da American Thyroid Association de 2015 recomenda, antes de qualquer cirurgia em portador de NEM 2, excluir feocromocitoma com metanefrinas plasmáticas ou urinárias. Se presente, a adrenalectomia, com preparo por bloqueio alfa, vem antes da tireoidectomia, porque a anestesia com feocromocitoma não reconhecido pode causar crise hipertensiva fatal, como provavelmente ocorreu com o pai. Cálcio e PTH também devem ser dosados antes, para tratar hiperparatireoidismo na mesma cirurgia. Calcitonina abaixo de 500 pg/mL e pescoço sem linfonodos não exigem imagem de corpo inteiro. Gastrina e sela pertencem à NEM 1.",
+"porAlt": [
+"Cintilografia não tem papel no carcinoma medular.",
+"Correta: feocromocitoma deve ser excluído antes da tireoidectomia na NEM 2A.",
+"Gastrinoma faz parte da NEM 1, e não da NEM 2A.",
+"Tumores hipofisários fazem parte da NEM 1, não da NEM 2.",
+"Autoimunidade tireoidiana não muda o risco cirúrgico neste contexto."
+]
+},
+{
+"q": "Mulher de 62 anos, assintomática, tem hiperparatireoidismo primário descoberto em exames de rotina: cálcio total 10,8 mg/dL (referência até 10,2), PTH 98 pg/mL, 25-hidroxivitamina D 34 ng/mL e taxa de filtração estimada de 78 mL/min/1,73 m². Densitometria com escore T de -1,9 na coluna, -1,7 no colo femoral e -2,1 no terço distal do rádio. Radiografia de coluna sem fraturas e ultrassonografia renal sem cálculos. Calciúria de 24 horas de 284 mg em duas coletas, com perfil bioquímico de risco litogênico. Qual é a conduta?",
+"alts": [
+"Observar com cálcio anual e densitometria bienal",
+"Cinacalcete para normalizar o cálcio e observar",
+"Alendronato e rever a indicação cirúrgica em 1 ano",
+"Paratireoidectomia indicada pela hipercalciúria",
+"Repetir a densitometria em 1 ano e então decidir"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Quinto Workshop Internacional de hiperparatireoidismo primário assintomático, 2022, critérios de paratireoidectomia",
+"coment": "O quinto workshop internacional, de 2022, indica cirurgia no hiperparatireoidismo primário assintomático quando há cálcio mais de 1 mg/dL acima do limite superior, escore T de -2,5 ou menos em qualquer sítio ou fratura vertebral, filtração abaixo de 60 mL/min, nefrolitíase ou nefrocalcinose, idade abaixo de 50 anos, ou calciúria elevada. A novidade foi baixar o limite de calciúria para mais de 250 mg em 24 horas nas mulheres e mais de 300 mg nos homens, reconhecendo seu papel como marcador de risco renal. Nesta paciente, cálcio, densidade, função renal e idade não preenchem critério, mas a calciúria de 284 mg com perfil litogênico sim. Cinacalcete reduz o cálcio sem melhorar o osso e fica para quem não pode operar. Observação seria adequada sem nenhum critério.",
+"porAlt": [
+"Observação cabe só a quem não preenche critérios, o que não é o caso.",
+"Cinacalcete é reservado a quem não pode ou não quer operar.",
+"Bisfosfonato não substitui a cirurgia quando há critério preenchido.",
+"Correta: calciúria acima de 250 mg/24 h na mulher passou a ser critério cirúrgico em 2022.",
+"A densidade não atinge critério, mas a calciúria já indica cirurgia."
+]
+},
+{
+"q": "Mulher de 54 anos com câncer de mama metastático para ossos e fígado foi internada há 3 semanas por cálcio de 13,6 mg/dL (albumina 3,8 g/dL), tratada com salina isotônica e ácido zoledrônico 4 mg, com normalização. Volta com cálcio de 12,9 mg/dL, sonolência leve e poliúria. PTH 6 pg/mL, PTHrP elevado e creatinina 0,9 mg/dL. Após a reidratação, qual é o antirreabsortivo mais adequado agora?",
+"alts": [
+"Nova dose de ácido zoledrônico",
+"Pamidronato por via endovenosa",
+"Prednisona oral em dose diária",
+"Calcitonina mantida por semanas",
+"Denosumabe por via subcutânea"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "Endocrine Society, diretriz de tratamento da hipercalcemia da malignidade em adultos, 2023",
+"coment": "A diretriz da Endocrine Society de 2023 recomenda tratar a hipercalcemia da malignidade com bisfosfonato endovenoso ou denosumabe, e sugere preferir o denosumabe, pela maior potência, com base em evidência indireta. Quando a hipercalcemia recorre ou é refratária apesar do bisfosfonato endovenoso, a diretriz sugere especificamente o denosumabe, que age por outro mecanismo, inibindo o ligante do RANK, e não depende da função renal. Repetir zoledronato ou trocar para pamidronato mantém a mesma classe que já falhou. Glicocorticoide é a escolha quando a hipercalcemia é mediada por calcitriol, como em linfomas e doenças granulomatosas, e não na hipercalcemia humoral por PTHrP. Calcitonina tem efeito rápido mas transitório, com taquifilaxia em 48 a 72 horas, e serve só como ponte. Monitorar hipocalcemia com o denosumabe.",
+"porAlt": [
+"Repetir a mesma classe que falhou é menos eficaz que trocar de mecanismo.",
+"Pamidronato é bisfosfonato, a classe que já não controlou.",
+"Corticoide é para hipercalcemia mediada por calcitriol, não por PTHrP.",
+"Calcitonina perde efeito em 48 a 72 horas e não serve por semanas.",
+"Correta: na recorrência após bisfosfonato endovenoso, a diretriz sugere denosumabe."
+]
+},
+{
+"q": "Homem de 61 anos com linfoma difuso de grandes células B, ainda sem quimioterapia, apresenta poliúria, constipação e confusão leve. Cálcio total 12,8 mg/dL, albumina 4,0 g/dL, PTH 7 pg/mL, PTHrP indetectável, 25-hidroxivitamina D 28 ng/mL, 1,25-di-hidroxivitamina D 98 pg/mL (referência 18 a 72) e creatinina 1,3 mg/dL. Após hidratação com salina isotônica, qual tratamento age no mecanismo principal da hipercalcemia?",
+"alts": [
+"Cinacalcete em dose alta",
+"Furosemida venosa isolada",
+"Glicocorticoide sistêmico",
+"Calcitonina subcutânea só",
+"Restrição de cálcio isolada"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Endocrine Society, diretriz de tratamento da hipercalcemia da malignidade em adultos, 2023, hipercalcemia mediada por calcitriol",
+"coment": "Com PTH suprimido, PTHrP indetectável, 25-hidroxivitamina D normal e 1,25-di-hidroxivitamina D elevada, o mecanismo é a produção extrarrenal de calcitriol, pela 1-alfa-hidroxilase expressa nas células do linfoma, como ocorre também em sarcoidose e tuberculose. O calcitriol aumenta a absorção intestinal de cálcio e a reabsorção óssea. A diretriz da Endocrine Society de 2023 recomenda glicocorticoide como tratamento inicial nesse cenário, porque inibe a 1-alfa-hidroxilase e reduz a absorção intestinal de cálcio. Antirreabsortivo pode ser somado se a hipercalcemia for grave ou não responder. Cinacalcete atua no receptor sensor de cálcio da paratireoide e não tem papel com PTH suprimido. Furosemida isolada não é tratamento e só cabe em sobrecarga de volume. Calcitonina é ponte de poucos dias.",
+"porAlt": [
+"Cinacalcete age na paratireoide, e o PTH já está suprimido.",
+"Diurético de alça isolado não trata a causa e pode desidratar.",
+"Correta: corticoide inibe a 1-alfa-hidroxilase do tumor, o mecanismo central aqui.",
+"Calcitonina perde efeito em poucos dias e não age no mecanismo.",
+"Dieta sozinha é insuficiente para hipercalcemia sintomática."
+]
+},
+{
+"q": "Mulher de 47 anos, por orientação de uma clínica estética, toma há 5 meses cápsulas manipuladas de vitamina D em dose alta, todos os dias. Apresenta náuseas, poliúria, polidipsia e constipação. Cálcio total 13,1 mg/dL, fósforo 4,8 mg/dL, PTH 5 pg/mL, 25-hidroxivitamina D 312 ng/mL e creatinina 1,4 mg/dL (prévia de 0,8). Não usa carbonato de cálcio nem tiazídico. Qual é o diagnóstico e a conduta inicial?",
+"alts": [
+"Hiperparatireoidismo primário; paratireoidectomia",
+"Hipercalcemia humoral maligna; buscar tumor sólido",
+"Sarcoidose; tomografia de tórax e corticoide oral",
+"Síndrome leite-álcali; suspender o cálcio da dieta",
+"Intoxicação por vitamina D; suspender e hidratar"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r2",
+"base": "Endocrine Society, diretriz de vitamina D para prevenção de doenças, 2024; diretriz de hipercalcemia da malignidade, 2023, diagnóstico diferencial",
+"coment": "Hipercalcemia com PTH suprimido e 25-hidroxivitamina D acima de 150 ng/mL, em quem usa doses altas sem controle, define intoxicação por vitamina D. O excesso aumenta a absorção intestinal de cálcio e fósforo e a reabsorção óssea, com lesão renal por hipercalciúria e vasoconstrição. A conduta é suspender toda vitamina D e suplemento de cálcio, hidratar com salina isotônica e, nos casos graves ou persistentes, associar glicocorticoide ou bisfosfonato. Como a vitamina D é lipossolúvel e se acumula no tecido adiposo, a hipercalcemia pode durar semanas. A diretriz da Endocrine Society de 2024 não recomenda dosagem rotineira de 25-hidroxivitamina D em adultos saudáveis nem doses acima da ingestão diária recomendada sem indicação, prática que leva a casos como este. PTH suprimido afasta hiperparatireoidismo.",
+"porAlt": [
+"PTH suprimido exclui hiperparatireoidismo primário.",
+"A história de dose alta e a 25-hidroxivitamina D explicam o quadro sem buscar tumor.",
+"Na sarcoidose, a alteração típica é da 1,25 e não da 25-hidroxivitamina D.",
+"Leite-álcali exige ingestão alta de cálcio com álcali, ausente aqui.",
+"Correta: 25-hidroxivitamina D muito alta com PTH suprimido e uso de altas doses define intoxicação."
+]
+},
+{
+"q": "Mulher de 68 anos, institucionalizada, com pouca exposição solar e gastrectomia parcial antiga, refere dor óssea difusa, fraqueza proximal e marcha anserina há 8 meses. Cálcio total 8,1 mg/dL, fósforo 2,2 mg/dL, fosfatase alcalina 420 U/L, PTH 168 pg/mL, 25-hidroxivitamina D 6 ng/mL e creatinina 0,7 mg/dL. Radiografia de bacia mostra pseudofraturas nos ramos púbicos. Qual é o diagnóstico e o tratamento inicial?",
+"alts": [
+"Osteoporose; iniciar ácido zoledrônico",
+"Hiperparatireoidismo primário; cirurgia",
+"Doença de Paget; bisfosfonato endovenoso",
+"Metástase óssea; cintilografia e biópsia",
+"Osteomalacia; repor vitamina D e cálcio"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "Consenso global sobre prevenção e manejo do raquitismo nutricional e da osteomalacia (Munns et al., 2016); Endocrine Society, diretriz de vitamina D, 2024",
+"coment": "Dor óssea, fraqueza proximal e marcha anserina com cálcio e fósforo baixos, fosfatase alcalina e PTH elevados, 25-hidroxivitamina D muito baixa e pseudofraturas de Looser definem osteomalacia por deficiência de vitamina D, um defeito de mineralização da matriz óssea. Pouca exposição solar, institucionalização e gastrectomia, que reduz absorção, são fatores clássicos. O hiperparatireoidismo é secundário à hipocalcemia. O tratamento é repor colecalciferol em dose terapêutica, com cálcio suficiente, e acompanhar a normalização da fosfatase alcalina e do PTH, o que pode levar meses. Bisfosfonato, sobretudo endovenoso, não deve ser dado antes de corrigir a deficiência, pelo risco de hipocalcemia grave. A diretriz de 2024 trata de prevenção, e não muda a reposição na deficiência sintomática.",
+"porAlt": [
+"Bisfosfonato antes de corrigir a deficiência pode causar hipocalcemia grave.",
+"O PTH alto é secundário a cálcio baixo, não hiperparatireoidismo primário.",
+"Paget cursa com fosfatase alta mas cálcio, fósforo e vitamina D normais.",
+"Os achados laboratoriais explicam o quadro sem suspeita de neoplasia.",
+"Correta: defeito de mineralização com vitamina D muito baixa e Looser se trata com vitamina D e cálcio."
+]
+},
+{
+"q": "Mulher de 44 anos, no primeiro dia após tireoidectomia total por bócio multinodular, refere parestesias periorais e nas mãos, com cãibras. Sinais de Chvostek e Trousseau positivos. Cálcio total 6,9 mg/dL, albumina 4,0 g/dL, cálcio iônico 0,82 mmol/L, PTH 4 pg/mL, magnésio 2,0 mg/dL e fósforo 5,1 mg/dL. Eletrocardiograma com QTc de 500 ms. Qual é a conduta mais adequada?",
+"alts": [
+"Cálcio oral isolado e nova dosagem de cálcio sérico amanhã",
+"Gluconato de cálcio venoso, depois cálcio oral e calcitriol",
+"Colecalciferol em dose alta por via oral como reposição única",
+"Sulfato de magnésio venoso antes de qualquer dose de cálcio",
+"Cloreto de cálcio em bolus rápido, sem monitorização cardíaca"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r1",
+"base": "Segundo Workshop Internacional de hipoparatireoidismo, diretriz de avaliação e manejo (J Bone Miner Res, 2022)",
+"coment": "Hipocalcemia sintomática com PTH baixo e fósforo alto logo após tireoidectomia total indica hipoparatireoidismo pós-cirúrgico, a causa mais comum de hipoparatireoidismo. Sintomas como tetania e QT prolongado pedem cálcio endovenoso: gluconato de cálcio a 10%, 1 a 2 ampolas diluídas em 10 a 20 minutos, seguido de infusão contínua, com monitorização cardíaca. Ao mesmo tempo, inicia-se cálcio oral e calcitriol, porque sem PTH não há ativação renal da vitamina D, e o colecalciferol sozinho é ineficaz e lento. O workshop de 2022 orienta manter o cálcio no limite inferior da normalidade, para reduzir hipercalciúria. O magnésio está normal, então sua reposição não é a prioridade. Cloreto de cálcio em bolus rápido, sem monitor e por veia periférica, traz risco de arritmia e lesão tecidual.",
+"porAlt": [
+"Cálcio oral sozinho é insuficiente com tetania e QT longo.",
+"Correta: hipocalcemia sintomática exige cálcio venoso, e sem PTH é preciso calcitriol.",
+"Sem PTH, o colecalciferol não é ativado e não corrige a hipocalcemia aguda.",
+"O magnésio é normal e não limita a resposta ao cálcio.",
+"Bolus rápido sem monitor arrisca arritmia e lesão da veia."
+]
+},
+{
+"q": "Homem de 66 anos usa omeprazol 40 mg/dia há 6 anos. Internado por tremores, cãibras e fraqueza. Cálcio total 7,2 mg/dL (albumina 4,1 g/dL), PTH 18 pg/mL, magnésio 0,7 mg/dL, potássio 3,0 mEq/L e fósforo 3,6 mg/dL. Recebeu duas ampolas de gluconato de cálcio endovenoso, com melhora transitória e nova queda do cálcio em poucas horas. Qual é a medida essencial para corrigir a hipocalcemia?",
+"alts": [
+"Aumentar a infusão de cálcio venoso",
+"Iniciar calcitriol em dose plena",
+"Repor magnésio por via endovenosa",
+"Repor apenas potássio endovenoso",
+"Paratormônio recombinante injetável"
+],
+"gab": 2,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "Segundo Workshop Internacional de hipoparatireoidismo, diretriz de avaliação e manejo (J Bone Miner Res, 2022), hipoparatireoidismo funcional por hipomagnesemia",
+"coment": "Hipomagnesemia grave, abaixo de cerca de 1 mg/dL, causa hipocalcemia por dois mecanismos: reduz a secreção de PTH e induz resistência ao PTH no osso e no rim. Por isso o PTH vem inapropriadamente normal ou baixo diante da hipocalcemia, e a reposição de cálcio isolada não se sustenta. Inibidores da bomba de prótons em uso prolongado reduzem a absorção intestinal de magnésio e são causa reconhecida. A hipocalemia associada também é refratária enquanto o magnésio não for corrigido, pela perda renal de potássio. A conduta é repor sulfato de magnésio endovenoso, avaliar a troca do inibidor de bomba e repor potássio. Calcitriol e PTH recombinante não corrigem a causa, e aumentar o cálcio venoso sem magnésio mantém a refratariedade.",
+"porAlt": [
+"Mais cálcio sem magnésio mantém a hipocalcemia refratária.",
+"Calcitriol não corrige o defeito de secreção e ação do PTH causado pela falta de magnésio.",
+"Correta: sem corrigir o magnésio, a secreção e a ação do PTH seguem prejudicadas.",
+"A hipocalemia também depende do magnésio e não se corrige sozinha.",
+"PTH recombinante não está indicado em hipocalcemia por hipomagnesemia."
+]
+},
+{
+"q": "Mulher de 58 anos fez paratireoidectomia há 3 dias por adenoma. No pré-operatório: cálcio 13,2 mg/dL, PTH 980 pg/mL, fosfatase alcalina 520 U/L e lesões de osteíte fibrosa cística. Agora refere parestesias. Cálcio total 7,0 mg/dL, fósforo 1,9 mg/dL, magnésio 1,4 mg/dL, PTH 48 pg/mL e fosfatase alcalina 610 U/L. Qual é o mecanismo mais provável da hipocalcemia?",
+"alts": [
+"Hipoparatireoidismo definitivo por lesão das glândulas",
+"Deficiência de vitamina D por má absorção intestinal",
+"Hipomagnesemia primária como causa isolada do quadro",
+"Pseudo-hipoparatireoidismo com resistência renal ao PTH",
+"Síndrome da fome óssea, com remineralização intensa"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "r3",
+"base": "Quinto Workshop Internacional de hiperparatireoidismo primário, 2022; Segundo Workshop Internacional de hipoparatireoidismo (J Bone Miner Res, 2022)",
+"coment": "Após corrigir hiperparatireoidismo grave com doença óssea, a queda abrupta do PTH interrompe a reabsorção, enquanto a formação óssea continua acelerada. O osso desmineralizado capta grande quantidade de cálcio, fósforo e magnésio, quadro chamado síndrome da fome óssea. A pista que a separa do hipoparatireoidismo pós-cirúrgico é o fósforo: baixo na fome óssea, por captação óssea, e alto no hipoparatireoidismo, pela falta de PTH. O PTH aqui está normal, e a fosfatase alcalina segue alta. Fatores de risco são PTH e fosfatase muito altos no pré-operatório, osteíte fibrosa e idade maior. O tratamento costuma exigir cálcio venoso e depois oral em doses altas, calcitriol e reposição de magnésio, às vezes por semanas. A hipomagnesemia é consequência e não causa isolada.",
+"porAlt": [
+"No hipoparatireoidismo o PTH é baixo e o fósforo alto, o contrário do visto.",
+"Nada sugere má absorção, e o quadro surgiu logo após a cirurgia.",
+"O magnésio baixo é consequência da captação óssea, não a causa isolada.",
+"Resistência ao PTH cursa com fósforo alto e é doença congênita.",
+"Correta: fósforo e magnésio baixos com PTH normal após doença óssea grave indicam fome óssea."
+]
+},
+{
+"q": "Mulher de 56 anos, na menopausa desde os 50, procura a unidade básica para consulta de rotina. É tabagista de 20 maços-ano, tem IMC de 18,5 kg/m² e a mãe teve fratura de quadril aos 70 anos. Não usa corticoide e nunca teve fratura. Exame físico sem alterações. Pergunta se precisa de algum exame para os ossos. Qual é a conduta mais adequada?",
+"alts": [
+"Densitometria só a partir dos 65 anos de idade",
+"Radiografia de coluna em vez de densitometria",
+"Iniciar alendronato sem exame, só pelo risco",
+"Densitometria agora, pelos fatores de risco",
+"Ultrassonografia de calcâneo como rastreio"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r1",
+"base": "USPSTF, recomendação de rastreio de osteoporose, 2025; Endocrine Society, diretriz de tratamento farmacológico da osteoporose pós-menopausa, atualização 2020",
+"coment": "A recomendação da força-tarefa americana de 2025 manteve o rastreio com densitometria para todas as mulheres a partir de 65 anos e estendeu às mulheres na pós-menopausa abaixo de 65 anos com risco aumentado, identificado por fatores clínicos ou ferramenta como o FRAX. Esta paciente soma baixo peso, tabagismo e fratura de quadril materna, fatores que elevam o risco e justificam a densitometria já. O resultado, combinado ao FRAX, orienta a decisão de tratamento conforme a diretriz da Endocrine Society. Iniciar bisfosfonato sem avaliação não é recomendado em quem nunca fraturou. Radiografia simples não mede densidade, e ultrassonografia de calcâneo não substitui a densitometria central para diagnóstico. Também cabem orientação para parar de fumar, exercício e ingestão adequada de cálcio.",
+"porAlt": [
+"Esperar os 65 anos ignora os fatores de risco que antecipam o rastreio.",
+"Radiografia não mede densidade mineral óssea.",
+"Sem fratura, a decisão de tratar depende da densitometria e do FRAX.",
+"Correta: pós-menopausa abaixo de 65 anos com risco aumentado tem indicação de densitometria.",
+"Ultrassom de calcâneo não substitui a densitometria central."
+]
+},
+{
+"q": "Mulher de 71 anos com osteoporose usa denosumabe 60 mg a cada 6 meses há 5 anos, iniciado após fratura vertebral. A densitometria atual mostra escore T de -2,2 no colo femoral e -2,0 na coluna, sem novas fraturas. A última dose foi há 5 meses. Taxa de filtração de 70 mL/min. Ela leu que o tratamento não deve ser eterno e quer parar. Qual é a orientação correta?",
+"alts": [
+"Suspender o denosumabe e reavaliar a densidade em 2 anos",
+"Trocar por zoledronato cerca de 6 meses após a última dose",
+"Suspender e manter apenas cálcio e vitamina D por via oral",
+"Espaçar o denosumabe para uma só aplicação a cada 12 meses",
+"Trocar por raloxifeno diário após a última aplicação feita"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Endocrine Society, diretriz de tratamento farmacológico da osteoporose pós-menopausa, atualização 2020, suspensão do denosumabe",
+"coment": "Diferentemente dos bisfosfonatos, que se depositam no osso e permitem pausa, o efeito do denosumabe é reversível. Ao suspender, há aumento rebote da remodelação, perda rápida da densidade ganha e risco de fraturas vertebrais múltiplas, sobretudo em quem já teve fratura vertebral. A atualização da Endocrine Society de 2020 recomenda não interromper nem atrasar o denosumabe sem transição para outro antirreabsortivo, em geral bisfosfonato, como zoledronato endovenoso aplicado perto de quando seria a próxima dose, ou alendronato oral. A paciente, com fratura prévia, segue com alto risco. Espaçar as doses tem o mesmo efeito de suspender. Raloxifeno é antirreabsortivo fraco e não previne o rebote de forma confiável. Cálcio e vitamina D isolados não bastam.",
+"porAlt": [
+"Suspender sem transição causa rebote e fraturas vertebrais múltiplas.",
+"Correta: o denosumabe só deve ser suspenso com transição para bisfosfonato.",
+"Cálcio e vitamina D não impedem o rebote da remodelação.",
+"Atrasar as doses produz o mesmo rebote da suspensão.",
+"Raloxifeno é fraco demais para conter o rebote após o denosumabe."
+]
+},
+{
+"q": "Mulher de 67 anos com polimialgia reumática vai iniciar prednisona 15 mg/dia, com previsão de uso por pelo menos 6 meses. Nunca fraturou. Densitometria com escore T de -2,0 no colo femoral. O FRAX ajustado para a dose de corticoide mostra risco em 10 anos de 22% para fratura maior e 3,4% para quadril. Taxa de filtração de 75 mL/min, sem doença esofágica. Qual é a conduta para proteção óssea?",
+"alts": [
+"Só cálcio, vitamina D e DXA em 2 anos",
+"Aguardar uma fratura para então tratar",
+"Calcitonina nasal como agente principal",
+"Estrogênio sistêmico como primeira opção",
+"Cálcio, vitamina D e bisfosfonato oral"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "American College of Rheumatology, diretriz de prevenção e tratamento da osteoporose induzida por glicocorticoide, 2022",
+"coment": "Glicocorticoide em dose de 2,5 mg/dia ou mais por 3 meses ou mais reduz a formação óssea e eleva o risco de fratura já nos primeiros meses, mesmo com densidade pouco reduzida. A diretriz do American College of Rheumatology de 2022 classifica como alto risco adultos de 40 anos ou mais com FRAX ajustado para glicocorticoide de 20% ou mais para fratura maior ou 3% ou mais para quadril, escore T de -2,5 ou menos, ou fratura prévia. Esta paciente preenche pelos dois limiares do FRAX. Para todos, recomenda cálcio, vitamina D e medidas de estilo de vida, e para os de risco moderado ou alto, tratamento farmacológico, com bisfosfonato oral como opção inicial habitual pelo custo e segurança. Calcitonina não tem mais papel. Estrogênio não é primeira escolha aos 67 anos.",
+"porAlt": [
+"Com alto risco, só cálcio e vitamina D é insuficiente.",
+"A meta é prevenir a primeira fratura, não esperar por ela.",
+"Calcitonina tem eficácia fraca e não é mais recomendada.",
+"Terapia hormonal aos 67 anos traz riscos e não é primeira escolha.",
+"Correta: FRAX acima dos limiares define alto risco e pede antirreabsortivo, em geral bisfosfonato oral."
+]
+},
+{
+"q": "Homem de 50 anos, brasileiro, faz consulta de rotina. Circunferência abdominal de 96 cm, PA de 128 x 84 mmHg sem medicação, glicemia de jejum 104 mg/dL, triglicerídeos 162 mg/dL e HDL 42 mg/dL. Pelo critério harmonizado de síndrome metabólica, usando para sul-americanos o ponto de corte de cintura recomendado de 90 cm para homens, qual é a classificação correta?",
+"alts": [
+"Não tem: a pressão fica abaixo de 130 x 85 mmHg",
+"Não tem: a cintura não chega aos 102 cm exigidos",
+"Tem síndrome: cintura, HDL e glicemia alterados",
+"Tem síndrome: cintura, glicemia e triglicerídeos",
+"Não tem: a glicemia não atinge 110 mg/dL em jejum"
+],
+"gab": 3,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "Declaração conjunta harmonizada IDF, AHA e NHLBI sobre síndrome metabólica (Alberti et al., Circulation, 2009)",
+"coment": "O critério harmonizado de 2009 define síndrome metabólica pela presença de 3 ou mais de 5 componentes, sem obrigar nenhum deles: cintura aumentada pelo ponto de corte da população, triglicerídeos de 150 mg/dL ou mais, HDL abaixo de 40 mg/dL em homens ou 50 mg/dL em mulheres, PA de 130 x 85 mmHg ou mais, e glicemia de jejum de 100 mg/dL ou mais, contando o uso de tratamento para cada um. Para populações sul e centro-americanas, a IDF recomenda usar os pontos de corte de sul-asiáticos, 90 cm para homens e 80 cm para mulheres. Este paciente tem cintura de 96 cm, glicemia de 104 mg/dL e triglicerídeos de 162 mg/dL, totalizando três critérios. A pressão e o HDL estão dentro do normal. O valor de 102 cm vinha de critérios mais antigos.",
+"porAlt": [
+"A pressão normal não impede o diagnóstico, que exige 3 de 5 critérios.",
+"O limite de 102 cm não é o usado para sul-americanos no critério harmonizado.",
+"O HDL de 42 mg/dL é normal para homem, pois o limite é 40.",
+"Correta: cintura de 96 cm, glicemia de 104 e triglicerídeos de 162 somam três critérios.",
+"O limite de glicemia no critério harmonizado é 100 mg/dL, não 110."
+]
+},
+{
+"q": "Mulher de 52 anos, IMC de 34 kg/m², tem apneia obstrutiva do sono com índice de apneia e hipopneia de 38 eventos por hora e não tolerou o CPAP. Tem pré-diabetes, sem diabetes, sem doença cardiovascular, sem história de pancreatite e sem história pessoal ou familiar de carcinoma medular de tireoide. Já segue plano alimentar e atividade física. Segundo a diretriz brasileira mais recente de tratamento farmacológico da obesidade, qual é a opção preferencial?",
+"alts": [
+"Orlistate 120 mg junto às três refeições do dia",
+"Tirzepatida semanal associada ao estilo de vida",
+"Liraglutida 1,8 mg/dia como opção preferencial",
+"Naltrexona com bupropiona em doses escalonadas",
+"Aguardar 6 meses só com dieta antes de medicar"
+],
+"gab": 1,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ABESO, Diretriz Brasileira de Tratamento Farmacológico da Obesidade, 2025, tratamento por cenário clínico",
+"coment": "A diretriz brasileira de tratamento farmacológico da obesidade, divulgada pela ABESO no fim de 2025, indica tratamento para IMC de 30 kg/m² ou mais, ou de 27 kg/m² ou mais com complicações relacionadas à adiposidade, e classifica semaglutida e tirzepatida como primeira linha, com a maior certeza de evidência entre os fármacos avaliados. Ela orienta a escolha por cenário clínico, e na apneia obstrutiva moderada a grave sugere tirzepatida, que reduziu a gravidade da apneia em ensaio clínico dedicado. Outra mudança é não exigir falha prévia de mudança de estilo de vida para iniciar medicação. Orlistate e naltrexona com bupropiona têm eficácia menor. Liraglutida na dose de 1,8 mg/dia é a dose do diabetes, e não a usada para obesidade.",
+"porAlt": [
+"Orlistate tem eficácia modesta e não é preferencial na apneia.",
+"Correta: na apneia moderada a grave, a diretriz de 2025 sugere tirzepatida.",
+"Essa dose de liraglutida é a do diabetes, e a classe tem perda de peso menor.",
+"Naltrexona com bupropiona tem eficácia menor e não é a preferida aqui.",
+"A diretriz atual não exige falha do estilo de vida antes da medicação."
+]
+},
+{
+"q": "Homem de 39 anos, IMC de 44 kg/m², com diabetes tipo 2, hipertensão e esteatose hepática, procura encaminhamento para cirurgia bariátrica após várias tentativas de tratamento clínico. Na entrevista, relata beber cerca de 8 doses de destilado por dia, quase todos os dias, com episódios de amnésia e uma internação por pancreatite aguda alcoólica há 4 meses. Nunca fez tratamento para o uso de álcool. Qual é a conduta mais adequada quanto à cirurgia?",
+"alts": [
+"Adiar e tratar o uso de álcool antes de operar",
+"Indicar bypass gástrico já, pelo IMC e diabetes",
+"Contraindicar a cirurgia de forma definitiva",
+"Preferir banda gástrica para reduzir o risco",
+"Exigir IMC acima de 50 para indicar cirurgia"
+],
+"gab": 0,
+"tema": "endocrino",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "ASMBS e IFSO, diretriz de indicações de cirurgia metabólica e bariátrica, 2022; CFM, Resolução 2.429, 2025 (substituiu a 2.131/2015)",
+"coment": "O paciente tem indicação de cirurgia pelo IMC acima de 40 e pelas comorbidades, segundo a diretriz da ASMBS e da IFSO de 2022, que indica cirurgia com IMC de 35 ou mais e a considera a partir de 30 com doença metabólica. Porém, o uso ativo e grave de álcool, sem tratamento, é contraindicação, ao menos temporária: a Resolução CFM 2.429/2025, que substituiu a de 2015, veda a cirurgia no abuso de substâncias não tratado ou mal controlado e na incapacidade de aderir ao seguimento, e a ASMBS/IFSO pede o mesmo. Após cirurgias como o bypass gástrico, a absorção do álcool fica mais rápida e o pico sérico, maior, com aumento do risco de transtorno por uso de álcool, além de pior adesão às vitaminas e ao seguimento. A conduta é encaminhar para tratamento do uso de álcool e reavaliar a cirurgia após período de abstinência sustentada. Contraindicar para sempre seria excessivo, e IMC acima de 50 não é exigência.",
+"porAlt": [
+"Correta: uso grave e ativo de álcool deve ser tratado antes, e a cirurgia é reavaliada depois.",
+"Operar com uso ativo de álcool aumenta o risco de piora do transtorno e complicações.",
+"A contraindicação é temporária e pode ser revista após tratamento e abstinência.",
+"Trocar a técnica não resolve o problema, e a banda tem resultados piores.",
+"IMC acima de 50 não é exigência, pois 35 ou mais já indica cirurgia."
+]
+},
+{
+"q": "Homem de 48 anos, IMC de 46 kg/m², é internado por sonolência diurna, cefaleia matinal e edema de membros inferiores. Ronca alto e tem pausas respiratórias observadas pela esposa. Acordado, em ar ambiente: pH 7,36, PaCO2 54 mmHg, PaO2 58 mmHg e bicarbonato 31 mEq/L. Radiografia de tórax sem doença do parênquima, espirometria sem obstrução, função tireoidiana normal e sem doença neuromuscular. Qual é o diagnóstico mais provável e o tratamento de base?",
+"alts": [
+"DPOC hipercápnica; broncodilatador de longa duração",
+"Hipotireoidismo grave; levotiroxina em dose de ataque",
+"Apneia central do sono; acetazolamida noturna diária",
+"Insuficiência cardíaca; diurético e oxigênio à noite",
+"Hipoventilação da obesidade; pressão positiva noturna"
+],
+"gab": 4,
+"tema": "endocrino",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "American Thoracic Society, diretriz de avaliação e manejo da síndrome de obesidade-hipoventilação, 2019",
+"coment": "A síndrome de obesidade-hipoventilação é definida por IMC de 30 kg/m² ou mais com hipercapnia diurna, PaCO2 de 45 mmHg ou mais acordado, sem outra causa de hipoventilação, como doença pulmonar obstrutiva, doença neuromuscular, hipotireoidismo ou deformidade torácica. Bicarbonato elevado reflete compensação renal da hipercapnia crônica, e a maioria dos pacientes tem apneia obstrutiva associada. A diretriz da American Thoracic Society de 2019 recomenda pressão positiva nas vias aéreas durante o sono como tratamento de base, com CPAP como primeira escolha em quem tem apneia obstrutiva grave associada, e perda de peso sustentada, com avaliação de cirurgia bariátrica. Oxigênio isolado pode piorar a hipercapnia. A doença associa-se a hipertensão pulmonar, cor pulmonale e maior mortalidade quando não tratada.",
+"porAlt": [
+"A espirometria sem obstrução afasta DPOC como causa da hipercapnia.",
+"A função tireoidiana normal exclui hipotireoidismo.",
+"Roncos e pausas observadas sugerem apneia obstrutiva, não central.",
+"Oxigênio isolado pode piorar a hipercapnia, que é o problema central.",
+"Correta: obesidade com hipercapnia diurna e outras causas excluídas define a síndrome, tratada com pressão positiva."
+]
 },
 {
 "q": "Um homem, de 37 anos de idade, com AIDS/HIV diagnosticada há 3 anos, compareceu à consulta com o médico da UBS próxima de sua casa, trazendo resultados de exames solicitados na consulta anterior. O teste rápido molecular para tuberculose feito no escarro confirmou o diagnóstico de tuberculose pulmonar e sensibilidade à rifampicina. A carga viral para HIV apresentou resultado de 98 000 cópias por mililitro. Nessa situação, o médico deverá",
@@ -6039,6 +9159,870 @@ window.BANCO=[
 "Quinolona isolada não cobre MRSA e tem resistência alta.",
 "Pneumonia associada à ventilação com choque e antibiótico recente: vancomicina e 2 antipseudomonas de classes diferentes.",
 "Atrasar antibiótico em choque séptico aumenta mortalidade."
+]
+},
+{
+"q": "Mulher de 34 anos, lavradora no interior do Piauí, procura a unidade básica por três manchas hipocrômicas de bordas bem definidas no braço direito e na coxa esquerda, a maior com 4 cm, presentes há 8 meses. Nas três há hipoestesia térmica e dolorosa. A palpação dos nervos ulnares, medianos, radiais, fibulares e tibiais não mostra espessamento nem dor, e a avaliação de força e sensibilidade de mãos e pés é normal. A baciloscopia de raspado intradérmico é negativa. Não há sinais de reação. Pesa 60 kg, não está grávida e não usa medicamentos. Segundo o Ministério da Saúde, qual é a classificação operacional e o tratamento?",
+"alts": [
+"Paucibacilar; rifampicina e dapsona por 6 doses",
+"Multibacilar; PQT-U (com clofazimina) por 12 doses",
+"Paucibacilar; PQT-U (com clofazimina) por 12 doses",
+"Paucibacilar; PQT-U (com clofazimina) por 6 doses",
+"Multibacilar; rifampicina e dapsona por 12 doses"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "PCDT Hanseníase 2022 (Ministério da Saúde) e Guia de Vigilância em Saúde 2024, classificação operacional e PQT-U",
+"coment": "A classificação operacional do Ministério separa os casos por contagem de lesões e baciloscopia: até cinco lesões com baciloscopia negativa definem o paucibacilar; seis ou mais lesões, ou baciloscopia positiva em qualquer número de lesões, definem o multibacilar. Esta paciente tem três lesões com perda sensitiva, nenhum nervo acometido e baciloscopia negativa, portanto é paucibacilar. A mudança que mais se cobra é a do esquema: desde a implantação da PQT-U, o paucibacilar também recebe clofazimina, junto com rifampicina e dapsona, em 6 doses supervisionadas mensais, concluídas em até 9 meses. O antigo esquema paucibacilar só com rifampicina e dapsona foi abandonado. O multibacilar recebe a mesma PQT-U por 12 doses, em até 18 meses. Ampliar para 12 doses sem critério de multibacilar expõe a paciente a toxicidade sem ganho.",
+"porAlt": [
+"O esquema de rifampicina e dapsona sem clofazimina foi substituído pela PQT-U também nos casos paucibacilares.",
+"Não há critério de multibacilar: as lesões são menos de seis, nenhum nervo está acometido e a baciloscopia é negativa.",
+"Doze doses correspondem ao multibacilar; no paucibacilar a PQT-U é concluída com 6 doses supervisionadas.",
+"Correta: três lesões e baciloscopia negativa definem o paucibacilar, tratado com a PQT-U de três fármacos por 6 doses.",
+"Além de classificar errado, esse esquema sem clofazimina não é usado em nenhuma forma da hanseníase no país."
+]
+},
+{
+"q": "Homem de 41 anos com hanseníase multibacilar está na 7ª dose supervisionada da PQT-U. Há 4 dias tem febre de 38,6 °C, mal-estar, artralgia de joelhos e surgimento de dezenas de nódulos eritematosos, quentes e dolorosos na face extensora dos braços, nas coxas e no tronco, alguns com centro violáceo. As lesões antigas não mudaram de aspecto. Não há dor ou espessamento novo de nervos, piora de força ou de sensibilidade, dor testicular, olho vermelho ou edema de mãos e pés. Pesa 70 kg, a função renal e hepática é normal e não tem doenças prévias. Qual é a conduta mais adequada?",
+"alts": [
+"Suspender a PQT-U e usar talidomida",
+"Manter a PQT-U e associar talidomida",
+"Manter a PQT-U e associar prednisona",
+"Suspender a PQT-U e usar prednisona",
+"Manter a PQT-U e associar colchicina"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "PCDT Hanseníase 2022 (Ministério da Saúde), tratamento da reação tipo 2 (eritema nodoso hansênico)",
+"coment": "Nódulos eritematosos dolorosos e disseminados, com febre e artralgia, em paciente multibacilar durante o tratamento, sem mudança nas lesões antigas, configuram reação tipo 2, o eritema nodoso hansênico. Pelo PCDT de 2022, a droga de escolha é a talidomida, de 100 a 400 mg/dia conforme a intensidade, com redução gradual após o controle. O corticoide entra quando há neurite, orquite, iridociclite, mãos e pés reacionais, glomerulonefrite, ou quando a talidomida é contraindicada, como em mulheres em idade fértil sem contracepção segura. Este homem não tem nenhum desses comprometimentos, então a talidomida isolada é a escolha. Em nenhuma reação se suspende a PQT-U: a reação é imunológica, não falha terapêutica, e interromper o tratamento aumenta o risco de resistência e de recidiva. Clofazimina e pentoxifilina ficam para casos crônicos ou subentrantes.",
+"porAlt": [
+"A reação não é motivo para interromper a PQT-U, que deve ser concluída mesmo durante os episódios reacionais.",
+"Correta: eritema nodoso hansênico sem neurite ou orquite em homem é tratado com talidomida, mantendo a PQT-U.",
+"A prednisona fica reservada a neurite, orquite, irite, mãos e pés reacionais ou contraindicação à talidomida.",
+"Interromper a PQT-U é erro, e o corticoide não é a primeira escolha no eritema nodoso hansênico sem neurite.",
+"A colchicina não é a terapia recomendada pelo Ministério para a reação tipo 2 da hanseníase multibacilar."
+]
+},
+{
+"q": "Mulher de 52 anos com hanseníase multibacilar, forma dimorfa, está na 5ª dose da PQT-U. Há 10 dias as placas antigas do antebraço e do joelho ficaram mais eritematosas, edemaciadas e dolorosas, e surgiu uma placa nova no dorso. Relata dor em choque no cotovelo direito, piora da sensibilidade e fraqueza para aproximar o 4º e o 5º dedos da mão direita. O nervo ulnar direito está espessado e doloroso à palpação. Não tem febre, nódulos novos nem dor testicular ou ocular. Pesa 65 kg, glicemia de jejum de 92 mg/dL, sem hipertensão, e o parasitológico de fezes foi tratado. Qual é a conduta mais adequada?",
+"alts": [
+"Manter a PQT-U e talidomida 200 mg/dia",
+"Suspender a PQT-U e prednisona 1 mg/kg",
+"Manter a PQT-U e prednisona 0,2 mg/kg/dia",
+"Manter a PQT-U e prednisona 1 mg/kg/dia",
+"Manter a PQT-U e neurólise cirúrgica já"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "PCDT Hanseníase 2022 (Ministério da Saúde), reação tipo 1 com neurite",
+"coment": "A exacerbação inflamatória das lesões antigas, com placa nova e neurite do ulnar com perda de função recente, é a reação tipo 1, ou reação reversa, típica das formas dimorfas. O PCDT de 2022 indica prednisona de 1 a 2 mg/kg/dia conforme a avaliação clínica, com redução lenta guiada pela melhora neural, mantendo a PQT-U. A urgência está no nervo: a perda de força iniciada há menos de alguns meses é potencialmente reversível com corticoide em dose plena, e o atraso deixa sequela. Antes de corticoide prolongado, tratam-se estrongiloidíase e se rastreiam diabetes e hipertensão, o que já foi feito. A talidomida não tem efeito na reação tipo 1. Dose baixa de prednisona não controla neurite. A descompressão cirúrgica é reservada à neurite que não responde ao corticoide, abscesso de nervo ou dor intratável.",
+"porAlt": [
+"A talidomida só é eficaz na reação tipo 2 e não protege o nervo na reação reversa da forma dimorfa.",
+"A PQT-U deve ser mantida durante a reação; suspendê-la favorece recidiva e resistência sem trazer benefício.",
+"Dose baixa de prednisona é insuficiente para neurite com perda motora recente e não evita a sequela neural.",
+"Correta: neurite com perda de função na reação reversa exige prednisona em dose plena, sem interromper a PQT-U.",
+"A neurólise é reservada à falha do corticoide, abscesso de nervo ou dor intratável, e não é a primeira medida."
+]
+},
+{
+"q": "Homem de 45 anos recebe diagnóstico de hanseníase multibacilar. Mora há 10 anos com a esposa, de 43 anos, que tem uma cicatriz de BCG no braço, com o filho de 16 anos, sem cicatriz e sem registro vacinal, e com a sogra de 70 anos, que tem duas cicatrizes de BCG. Os três são examinados na unidade e não têm lesões de pele nem alterações neurológicas. Nenhum teve tuberculose, ninguém tem imunossupressão e a esposa não está grávida. Segundo o Ministério da Saúde, qual é a conduta para esses contatos domiciliares?",
+"alts": [
+"BCG na esposa e no filho; sem quimioprofilaxia",
+"BCG só no filho e rifampicina dose única a todos",
+"BCG para os três contatos; sem quimioprofilaxia",
+"Sem BCG; rifampicina em dose única aos contatos",
+"BCG só no filho; sem quimioprofilaxia a ninguém"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "PCDT Hanseníase 2022 e Guia de Vigilância em Saúde 2024 (Ministério da Saúde), vigilância de contatos e BCG",
+"coment": "Contato domiciliar é quem conviveu no domicílio com o doente nos cinco anos anteriores ao diagnóstico. Todos devem ter exame dermatoneurológico; os que não têm sinais da doença recebem BCG conforme o histórico vacinal, a partir de 1 ano de idade. Sem cicatriz ou com vacinação incerta, aplica-se uma dose; com uma cicatriz ou uma dose comprovada, aplica-se mais uma, com intervalo mínimo de 6 meses; com duas cicatrizes, nada se aplica. Assim, a esposa e o filho recebem uma dose cada, e a sogra não. Gestantes adiam para depois do parto, e quem teve ou trata tuberculose não precisa. O Ministério não adota quimioprofilaxia com rifampicina em dose única para contatos na rotina, e o contato deve saber que a BCG protege, mas não é específica para a hanseníase.",
+"porAlt": [
+"Correta: sem cicatriz recebe uma dose e com uma cicatriz recebe mais uma; duas cicatrizes dispensam, e não há quimioprofilaxia.",
+"A esposa, com uma cicatriz, também recebe dose, e a rifampicina em dose única não é adotada na rotina do Ministério.",
+"A sogra já tem duas cicatrizes de BCG e, por isso, não recebe nova dose como contato domiciliar.",
+"A BCG é a imunoprofilaxia recomendada aos contatos sem sinais, e a rifampicina para contatos não faz parte da rotina.",
+"A esposa tem apenas uma cicatriz vacinal e por isso tem indicação de mais uma dose de BCG."
+]
+},
+{
+"q": "Homem de 50 anos, pescador no interior do Amazonas, refere há 3 anos obstrução nasal com crostas e epistaxe, e há 1 ano o rosto ficou inchado. Ao exame há infiltração difusa da face, com acentuação dos sulcos, nódulos nos lóbulos das orelhas, perda dos supercílios no terço lateral, edema de mãos e pés e hipoestesia em luvas e botas. Não há placas bem delimitadas. A baciloscopia de raspado intradérmico mostra índice baciloscópico de 5+, com globias. Qual é a forma clínica e o padrão de resposta imune do hospedeiro?",
+"alts": [
+"Virchowiana, imunidade celular ausente (Th2)",
+"Virchowiana, imunidade celular intensa (Th1)",
+"Tuberculoide, imunidade celular intensa (Th1)",
+"Dimorfa, imunidade celular instável e mista",
+"Indeterminada, imunidade celular indefinida"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "PCDT Hanseníase 2022 e Guia de Vigilância em Saúde 2024, classificação de Madri e espectro imunológico",
+"coment": "Infiltração difusa da face, hansenomas nos lóbulos, madarose, comprometimento nasal com crostas e epistaxe, edema de extremidades e neuropatia simétrica em luvas e botas, com baciloscopia fortemente positiva e globias, compõem a forma virchowiana. Ela ocupa o polo de ausência de imunidade celular específica contra o Mycobacterium leprae: predomina a resposta Th2, com anticorpos que não contêm o bacilo, que se multiplica livremente e se dissemina pela pele, mucosas, nervos e órgãos internos. No polo oposto, a tuberculoide tem resposta Th1 intensa, poucas lesões bem delimitadas e baciloscopia negativa. A dimorfa é instável, com lesões em número variável e tendência à reação tipo 1. A indeterminada é a fase inicial, com mácula hipocrômica e imunidade ainda não definida. Para o Ministério, todo virchowiano é multibacilar.",
+"porAlt": [
+"Correta: infiltração difusa, madarose e baciloscopia 5+ marcam o polo virchowiano, sem imunidade celular eficaz.",
+"A forma virchowiana está no polo sem imunidade celular específica, e não no de resposta Th1 intensa.",
+"A tuberculoide tem poucas lesões bem delimitadas e baciloscopia negativa, o oposto do que se vê aqui.",
+"A dimorfa tem placas e lesões foveolares de padrão intermediário, e não infiltração difusa com globias.",
+"A indeterminada é mácula hipocrômica inicial, com baciloscopia negativa, sem infiltração nem madarose."
+]
+},
+{
+"q": "Homem de 72 anos, agricultor aposentado, fototipo II, nunca usou protetor solar. Procura o ambulatório por lesões ásperas no couro cabeludo calvo e na fronte. Há mais de 15 pápulas e pequenas placas eritematosas com escamas aderentes, ásperas ao tato, de 3 a 9 mm, sem infiltração, endurecimento, ulceração, crescimento rápido ou dor. Entre elas a pele é atrófica e com telangiectasias. Não tem imunossupressão nem câncer de pele prévio. Pesa 74 kg e é hipertenso controlado. Qual é o tratamento mais adequado?",
+"alts": [
+"Excisão de cada lesão com margem de 4 mm",
+"5-fluorouracila tópica em todo o campo",
+"Radioterapia superficial de todo o campo",
+"Observação, pois a regressão é a regra",
+"Corticoide tópico potente em todo o campo"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "AAD Guidelines of care for the management of actinic keratosis 2021, tratamento de campo",
+"coment": "Múltiplas lesões ásperas, eritematosas e descamativas em área de dano solar crônico são ceratoses actínicas, lesões pré-malignas que podem evoluir para carcinoma espinocelular. Quando são numerosas e há dano actínico em toda a área, a diretriz da Academia Americana de Dermatologia de 2021 recomenda tratamento de campo, que trata também as lesões subclínicas. A 5-fluorouracila tópica tem recomendação forte e é a opção de maior eficácia e menor custo; imiquimode e terapia fotodinâmica são alternativas. A crioterapia é ótima para poucas lesões isoladas, mas não trata o campo. Excisão de cada lesão só se justifica se houver suspeita de carcinoma, como infiltração, endurecimento, dor ou crescimento rápido, ausentes aqui. Embora algumas lesões regridam, a observação não é apropriada em campo extenso. O paciente deve ser orientado sobre irritação esperada e fotoproteção.",
+"porAlt": [
+"Excisar lesão por lesão é desproporcional sem sinal de carcinoma e deixa o campo subclínico sem tratamento.",
+"Correta: ceratoses múltiplas com dano solar difuso pedem tratamento de campo, e a 5-fluorouracila tópica tem recomendação forte.",
+"A radioterapia não é tratamento de rotina da ceratose actínica e expõe o paciente a efeitos tardios desnecessários.",
+"Parte das lesões regride, mas outras progridem para carcinoma, e a diretriz recomenda tratar o campo extenso.",
+"O corticoide não trata a displasia queratinocítica e pode mascarar a progressão para carcinoma espinocelular."
+]
+},
+{
+"q": "Mulher de 46 anos teve um nevo do dorso retirado por biópsia excisional com margem de 2 mm porque cresceu e escureceu em 6 meses. O laudo mostra melanoma extensivo superficial, espessura de Breslow de 1,6 mm, sem ulceração, 2 mitoses/mm² e margens livres. No exame físico completo não há outras lesões suspeitas nem linfonodos axilares, cervicais ou inguinais palpáveis. Não tem sintomas sistêmicos. É saudável, pesa 62 kg e não usa medicamentos. Qual é a conduta cirúrgica mais adequada?",
+"alts": [
+"Ampliação de 1 a 2 cm e biópsia do linfonodo sentinela",
+"Ampliação de 0,5 cm e somente seguimento clínico regular",
+"Ampliação de 3 cm e linfadenectomia axilar eletiva total",
+"Ampliação de 1 cm, sem pesquisa do linfonodo sentinela",
+"Ampliação de 2 cm e PET-CT antes de qualquer outra etapa"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "NCCN Guidelines Melanoma: Cutaneous 2025 e AAD Guidelines of care for primary cutaneous melanoma 2019, margens e linfonodo sentinela",
+"coment": "O Breslow é o principal fator prognóstico do melanoma localizado e define a margem da ampliação. Pelas diretrizes do NCCN e da Academia Americana de Dermatologia, o melanoma in situ pede 0,5 a 1 cm; até 1 mm, 1 cm; de 1,01 a 2 mm, 1 a 2 cm; acima de 2 mm, 2 cm. Com 1,6 mm, a lesão é T2a, e a biópsia do linfonodo sentinela deve ser discutida e oferecida a todo tumor com mais de 1 mm, pela informação prognóstica e pela indicação de terapia adjuvante. A linfadenectomia eletiva, sem linfonodo comprometido, não aumenta sobrevida e foi abandonada; mesmo com sentinela positivo, a tendência atual é vigilância com ultrassom. Margem maior que 2 cm não melhora desfecho. Exames de imagem de corpo inteiro não são rotina no estádio II sem sintomas.",
+"porAlt": [
+"Correta: Breslow de 1,6 mm pede margem de 1 a 2 cm, e a biópsia do linfonodo sentinela é indicada acima de 1 mm.",
+"Margem de 0,5 cm serve ao melanoma in situ e deixaria um tumor de 1,6 mm com ressecção insuficiente.",
+"Margem de 3 cm não traz benefício, e a linfadenectomia eletiva sem linfonodo positivo foi abandonada.",
+"Margem de 1 cm é aceitável, mas dispensar o linfonodo sentinela num T2 tira estadiamento e opção adjuvante.",
+"PET-CT não é rotina no melanoma localizado assintomático e não substitui a pesquisa do linfonodo sentinela."
+]
+},
+{
+"q": "Homem de 63 anos, negro, procura a unidade por uma mancha na planta do pé esquerdo, no calcanhar, que considerava um calo. Notou que ela cresceu no último ano. Mede 14 mm, é assimétrica, tem bordas irregulares e mistura tons de marrom-claro, marrom-escuro e preto, com uma área azulada. Não lembra de trauma. A dermatoscopia mostra pigmentação predominante nas cristas da pele. Não há linfonodos inguinais palpáveis. Tem diabetes controlado. Qual é a principal hipótese diagnóstica?",
+"alts": [
+"Nevo juncional acral benigno",
+"Hematoma subcórneo plantar",
+"Melanoma lentiginoso acral",
+"Ceratose seborreica plantar",
+"Verruga plantar trombosada"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "AAD Guidelines of care for primary cutaneous melanoma 2019 e NCCN Melanoma: Cutaneous 2025, regra ABCDE e melanoma acral",
+"coment": "A lesão preenche todos os critérios do ABCDE: assimetria, bordas irregulares, várias cores, diâmetro acima de 6 mm e evolução documentada. Em pessoas negras e asiáticas, o subtipo mais frequente de melanoma é o lentiginoso acral, que acomete palmas, plantas e leito ungueal e não depende de exposição solar. Na dermatoscopia, o padrão paralelo da crista, com pigmento sobre as cristas e não nos sulcos, é altamente sugestivo de melanoma acral; o nevo acral benigno mostra pigmento nos sulcos. O diagnóstico costuma ser tardio porque a lesão é confundida com calo, micose ou hematoma, o que explica o pior prognóstico. A conduta é biópsia excisional, ou incisional da área mais suspeita quando a lesão é grande, para medir o Breslow. O hematoma subcórneo tem história de trauma e pigmento vermelho-escuro que migra com o crescimento da pele.",
+"porAlt": [
+"O nevo acral benigno é pequeno, simétrico, estável e tem pigmento nos sulcos, não nas cristas.",
+"O hematoma subcórneo segue trauma, tem cor vermelho-escura e se desloca com o crescimento da pele.",
+"Correta: lesão plantar crescente que cumpre o ABCDE, com padrão paralelo da crista, em homem negro, é melanoma acral até prova em contrário.",
+"A ceratose seborreica é rara na planta e tem aspecto verrucoso com pseudocistos córneos na dermatoscopia.",
+"A verruga plantar interrompe os dermatóglifos e mostra pontos negros de capilares trombosados, não mancha plana."
+]
+},
+{
+"q": "Homem de 59 anos teve queimadura extensa na perna direita aos 8 anos, que cicatrizou por segunda intenção. Há 8 meses surgiu uma úlcera sobre a cicatriz, que não fecha apesar de curativos diários. A lesão mede 4 cm, tem bordas elevadas, endurecidas e vegetantes, fundo friável que sangra ao toque e odor fétido. Há um linfonodo inguinal direito de 1,5 cm, firme. Não tem varizes, os pulsos distais são normais e o índice tornozelo-braço é de 1,0. Não tem diabetes. Qual é a principal hipótese e a conduta inicial?",
+"alts": [
+"Úlcera venosa crônica; compressão e curativo oclusivo",
+"Carcinoma basocelular; crioterapia da lesão inteira",
+"Pioderma gangrenoso; corticoide sistêmico em dose alta",
+"Osteomielite crônica; antibiótico por seis semanas",
+"Carcinoma espinocelular; biópsia incisional da borda"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "NCCN Guidelines Squamous Cell Skin Cancer 2025, carcinoma em cicatriz crônica (úlcera de Marjolin) como fator de alto risco",
+"coment": "Úlcera crônica que surge sobre cicatriz de queimadura antiga, com bordas elevadas, endurecidas e vegetantes, sangramento fácil e linfonodo regional, é a úlcera de Marjolin, quase sempre um carcinoma espinocelular. O NCCN classifica o tumor que nasce em cicatriz ou em área de inflamação crônica como de alto risco, pela maior taxa de recidiva e metástase linfonodal. Toda úlcera que não cicatriza em cerca de 3 meses, ou que muda de aspecto, deve ser biopsiada, e a biópsia deve incluir a borda ativa e mais de um ponto, porque o centro necrótico pode dar falso negativo. Confirmado o diagnóstico, segue-se estadiamento com imagem do linfonodo e cirurgia com margens amplas. Aqui não há insuficiência venosa nem arterial, o que afasta úlcera vascular, e crioterapia é inadequada para tumor infiltrativo.",
+"porAlt": [
+"Sem varizes, sem sinais de estase e com índice normal, não há base para úlcera venosa, e tratar assim atrasa o câncer.",
+"O basocelular é raro em cicatriz de queimadura, e a crioterapia não trata lesão infiltrativa com linfonodo suspeito.",
+"O pioderma tem borda violácea e solapada e dor intensa, e corticoide sem biópsia pode mascarar uma neoplasia.",
+"Não há exposição óssea, fístula ou imagem de osteomielite que justifique antibiótico prolongado sem biópsia.",
+"Correta: úlcera vegetante sobre cicatriz de queimadura antiga é carcinoma espinocelular até prova em contrário, e a biópsia da borda confirma."
+]
+},
+{
+"q": "Mulher de 58 anos tem há 1 ano uma pápula perolada de 8 mm no dorso superior, com telangiectasias na superfície e bordas bem definidas. A biópsia por punch mostrou carcinoma basocelular de padrão nodular, sem invasão perineural. É a primeira lesão, não houve tratamento prévio, e não há outras lesões no exame completo da pele. É imunocompetente, não recebeu radioterapia na região e não tem síndrome genética conhecida. Pesa 66 kg e usa apenas losartana. Qual é o tratamento mais adequado?",
+"alts": [
+"Cirurgia micrográfica de Mohs, pelo subtipo",
+"Radioterapia externa exclusiva sobre a lesão",
+"Imiquimode tópico 5x por semana por 6 semanas",
+"Vismodegibe oral contínuo até a regressão total",
+"Excisão cirúrgica com margem clínica de 4 mm"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "NCCN Guidelines Basal Cell Skin Cancer 2025 e AAD Guidelines of care for basal cell carcinoma 2018, carcinoma basocelular de baixo risco",
+"coment": "Carcinoma basocelular nodular, primário, pequeno, de bordas definidas, no tronco, em paciente imunocompetente e sem radioterapia prévia, preenche os critérios de baixo risco do NCCN. Para esse grupo, o tratamento de escolha é a excisão cirúrgica padrão com margem clínica de 4 mm e avaliação histológica das margens, que cura mais de 95% dos casos. A cirurgia micrográfica de Mohs é reservada aos tumores de alto risco: localização na zona central da face, subtipos agressivos como esclerodermiforme e micronodular, recidivas, bordas mal definidas e invasão perineural. O imiquimode e a 5-fluorouracila tópicos são opções para o subtipo superficial de baixo risco, não para o nodular. A radioterapia fica para quem não pode operar, em geral idosos. O vismodegibe é para doença localmente avançada ou metastática sem opção cirúrgica.",
+"porAlt": [
+"O subtipo nodular primário no tronco é de baixo risco, e a Mohs fica para tumores de alto risco ou área nobre da face.",
+"A radioterapia é alternativa para não candidatos à cirurgia, o que não é o caso desta paciente saudável.",
+"O imiquimode tem indicação no basocelular superficial, e sua eficácia no nodular é inferior à da cirurgia.",
+"O vismodegibe é reservado à doença localmente avançada ou metastática sem opção cirúrgica ou radioterápica.",
+"Correta: basocelular nodular de baixo risco no tronco é tratado com excisão padrão e margem de 4 mm."
+]
+},
+{
+"q": "Mulher de 82 anos, com demência avançada, vive em instituição de longa permanência. Há 6 semanas surgiram crostas espessas, acinzentadas e fissuradas nas mãos, entre os dedos, nos cotovelos, nas axilas e no couro cabeludo, com pouco prurido. Três cuidadoras e duas residentes passaram a ter prurido noturno intenso com pápulas nos punhos e na cintura. O raspado das crostas mostra grande número de ácaros e ovos. Pesa 48 kg, a função hepática é normal e não usa imunossupressores. Qual é a conduta mais adequada?",
+"alts": [
+"Permetrina tópica em dose única, sem tratar os contactantes",
+"Ivermectina em dose única e corticoide tópico sobre as crostas",
+"Ivermectina em várias doses, permetrina e tratar contactantes",
+"Enxofre precipitado a 10% isolado; tratar só os sintomáticos",
+"Itraconazol oral por suspeita de dermatofitose crostosa extensa"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "CDC Clinical Care of Scabies 2024 e IUSTI European guideline for the management of scabies 2017, escabiose crostosa",
+"coment": "Crostas espessas e hiperceratósicas com pouco prurido, em idosa com demência institucionalizada, carga enorme de ácaros no raspado e surto entre cuidadoras e residentes, configuram escabiose crostosa, antes chamada norueguesa. Por ter milhares a milhões de ácaros, é muito contagiosa e não responde a tratamento único. O CDC recomenda ivermectina oral 200 mcg/kg em várias doses, por exemplo nos dias 1, 2, 8, 9 e 15, com doses adicionais nos casos graves, associada a permetrina 5% aplicada no corpo todo, com remoção das crostas com queratolítico. É indispensável isolamento de contato e tratamento simultâneo de todos os contactantes, sintomáticos ou não, junto com lavagem quente de roupas e roupas de cama. O tratamento isolado do caso índice perpetua o surto. Corticoide piora a infestação, e o exame direto já confirmou o ácaro.",
+"porAlt": [
+"Dose única de permetrina não erradica a carga parasitária da forma crostosa e deixa o surto ativo na instituição.",
+"Uma só dose de ivermectina é insuficiente na forma crostosa, e o corticoide tópico favorece a proliferação do ácaro.",
+"Correta: escabiose crostosa exige ivermectina oral em várias doses com permetrina e tratamento simultâneo de todos os contactantes.",
+"O enxofre tem eficácia menor e não serve como terapia isolada da forma crostosa, e todos os contactantes precisam de tratamento.",
+"O raspado mostrou ácaros e ovos, o que confirma escabiose e afasta a hipótese de dermatofitose."
+]
+},
+{
+"q": "Homem de 24 anos, instrutor de academia em Fortaleza, nota há 3 meses manchas claras no tronco superior, no pescoço e nos ombros, que ficaram mais evidentes depois de se bronzear. As máculas são hipocrômicas, arredondadas e confluentes, com descamação fina que aparece ao estirar a pele. A sensibilidade térmica, dolorosa e tátil das manchas é normal. O exame micológico direto do raspado mostra hifas curtas e grupos de esporos arredondados. Não tem outras doenças. Qual é o diagnóstico e o tratamento de primeira linha?",
+"alts": [
+"Pitiríase versicolor; terbinafina oral",
+"Vitiligo inicial; tacrolimo tópico diário",
+"Hanseníase indeterminada; PQT-U por 6 doses",
+"Pitiríase alba; emoliente e fotoproteção",
+"Pitiríase versicolor; antifúngico tópico"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Revisão sistemática de Gupta e Foley 2015 sobre tratamento da pitiríase versicolor (J Fungi), terapia tópica de primeira linha",
+"coment": "Máculas hipocrômicas no tronco de adulto jovem, em clima quente e úmido, com descamação furfurácea que aparece ao estirar a pele (sinal de Zileri) e exame direto com hifas curtas e esporos agrupados, configuram pitiríase versicolor, causada por leveduras do gênero Malassezia. A hipocromia vem de substâncias da levedura que inibem a melanogênese, por isso fica evidente após exposição solar e demora meses para repigmentar mesmo com a cura. O tratamento de primeira linha é tópico: xampu de cetoconazol 2% ou sulfeto de selênio aplicado no corpo, ou cremes imidazólicos, por 1 a 4 semanas. Itraconazol ou fluconazol orais ficam para doença extensa ou recidivante. A terbinafina oral não atinge a pele em concentração eficaz contra Malassezia, e o cetoconazol oral foi abandonado por hepatotoxicidade. Sensibilidade preservada afasta hanseníase.",
+"porAlt": [
+"A terbinafina oral não é eficaz contra Malassezia na pele, embora a terbinafina tópica funcione.",
+"O vitiligo tem máculas acrômicas, sem descamação, e o exame micológico seria negativo.",
+"As manchas têm sensibilidade preservada e há fungo no exame direto, o que afasta hanseníase indeterminada.",
+"A pitiríase alba é da infância, predomina na face e não mostra fungo no exame micológico direto.",
+"Correta: sinal de Zileri e hifas curtas com esporos confirmam pitiríase versicolor, tratada primeiro com antifúngico tópico."
+]
+},
+{
+"q": "Homem de 55 anos com diabetes tipo 2 tem há 3 anos espessamento e coloração amarelada das unhas dos dois háluxes e do 2º dedo do pé direito, com descolamento distal, detritos subungueais e acometimento de mais da metade da lâmina, chegando perto da matriz. O exame micológico direto mostrou hifas septadas, e a cultura identificou Trichophyton rubrum. Transaminases e função renal são normais. Usa metformina e sinvastatina, sem outras interações relevantes. Qual é o tratamento mais adequado?",
+"alts": [
+"Terbinafina oral 250 mg/dia por 6 semanas",
+"Fluconazol oral 150 mg semanal por 4 semanas",
+"Griseofulvina oral 500 mg/dia por 4 semanas",
+"Terbinafina oral 250 mg/dia por 12 semanas",
+"Amorolfina esmalte a 5% isolada por 3 meses"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "British Association of Dermatologists guidelines for the management of onychomycosis 2014, terbinafina como primeira linha",
+"coment": "Onicomicose subungueal distal por dermatófito, confirmada por exame direto e cultura, com mais de 50% da lâmina comprometida, vários dedos e proximidade da matriz, exige tratamento sistêmico, porque o tópico isolado tem baixa taxa de cura nessas condições. A terbinafina é a droga de escolha contra dermatófitos, com maior taxa de cura micológica e menos interações que os azólicos. Nas unhas dos pés usa-se 250 mg/dia por 12 semanas; nas mãos, 6 semanas bastam, porque a unha cresce mais rápido. O itraconazol, contínuo ou em pulsos, é a alternativa. Fluconazol semanal precisa de muitos meses e é uso fora de bula. A griseofulvina é menos eficaz e exige tratamento muito prolongado. Em diabéticos o tratamento é ainda mais importante, pela porta de entrada para celulite. A confirmação micológica antes de tratar é obrigatória.",
+"porAlt": [
+"Seis semanas é a duração para as unhas das mãos, que crescem mais rápido; nos pés a recidiva seria alta.",
+"O fluconazol semanal exige vários meses de uso, e 4 semanas são insuficientes para a unha do pé.",
+"A griseofulvina tem eficácia menor e precisaria de muitos meses, e 4 semanas não curam onicomicose.",
+"Correta: onicomicose dos pés por dermatófito com mais de metade da lâmina acometida é tratada com terbinafina por 12 semanas.",
+"Esmalte isolado tem baixa cura quando há mais de metade da lâmina, vários dedos e proximidade da matriz."
+]
+},
+{
+"q": "Mulher de 64 anos, com obesidade e diabetes tipo 2 com hemoglobina glicada de 9,1%, refere ardor e prurido sob as mamas há 3 semanas, pior no calor. Há placa eritematosa vermelho-viva, úmida e brilhante nos sulcos inframamários, com fissura no fundo da dobra, bordas com colarete descamativo e pequenas pápulas e pústulas satélites além da borda. O exame direto com hidróxido de potássio mostra pseudo-hifas e leveduras. Não há febre nem celulite. Qual é a conduta mais adequada?",
+"alts": [
+"Imidazólico tópico e manter a dobra seca",
+"Clobetasol tópico isolado na área afetada",
+"Terbinafina oral por 2 semanas, sem tópico",
+"Mupirocina tópica e cefalexina por 7 dias",
+"Ácido salicílico tópico a 6% e oclusão"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "IDSA Clinical Practice Guideline for the Management of Candidiasis 2016, candidíase cutânea intertriginosa",
+"coment": "Placa vermelho-viva, úmida e macerada em dobra, com lesões satélites papulopustulosas e pseudo-hifas no exame direto, é intertrigo por Candida, favorecido por obesidade, calor, umidade e diabetes descompensado. A diretriz de candidíase da IDSA indica tratamento tópico com azólico, como clotrimazol, miconazol ou cetoconazol, ou nistatina, por 2 a 4 semanas, e insiste no controle do fator local: manter a dobra seca, usar tecido de algodão entre as mamas e otimizar a glicemia. Antifúngico oral, como fluconazol, fica para doença extensa ou refratária. Corticoide isolado agrava a infecção fúngica. A terbinafina oral tem atividade fraca contra Candida e não é a escolha. As lesões satélites ajudam a distinguir do intertrigo bacteriano, do eritrasma e da dermatofitose, que tem borda ativa com centro claro.",
+"porAlt": [
+"Correta: intertrigo candidiásico responde a azólico tópico, com controle da umidade da dobra e da glicemia.",
+"O corticoide isolado favorece a proliferação da levedura e piora o intertrigo por Candida.",
+"A terbinafina oral tem atividade fraca contra Candida e não é indicada para a forma cutânea localizada.",
+"O exame mostrou levedura, não infecção bacteriana, e não há celulite que justifique antibiótico oral.",
+"Queratolítico com oclusão aumenta a maceração da dobra e não trata a infecção por Candida."
+]
+},
+{
+"q": "Homem de 30 anos, motoboy, tem há 2 meses uma lesão pruriginosa na face interna das coxas, que tratou por conta própria com creme de betametasona. No início melhorava, mas a lesão se espalhou. Agora há placas eritematosas com borda ativa elevada, descamativa e com pequenas vesículas, centro mais claro, estendendo-se para as nádegas, poupando o escroto. Não há lesões satélites. O exame direto com hidróxido de potássio mostra hifas septadas e ramificadas. As unhas dos pés estão espessadas. Qual é a conduta mais adequada?",
+"alts": [
+"Suspender o corticoide e usar antifúngico tópico",
+"Manter o corticoide e associar antifúngico tópico",
+"Trocar por um corticoide de potência mais alta",
+"Nistatina tópica, por candidíase intertriginosa",
+"Eritromicina tópica, pela hipótese de eritrasma"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso ECTODERM India sobre dermatofitoses 2018 (BMC Dermatology), uso de corticoide tópico e tinha incógnita",
+"coment": "Placa com borda ativa descamativa e vesiculosa, centro mais claro, que poupa o escroto e mostra hifas septadas no exame direto, é tinea cruris, uma dermatofitose. O uso de corticoide tópico alivia o prurido no início, mas reduz a resposta imune local, deixa o fungo proliferar e altera o aspecto clínico, quadro chamado tinha incógnita. A conduta é suspender o corticoide e tratar com antifúngico tópico, como terbinafina ou azólico, por 2 a 4 semanas, mantendo por cerca de uma semana após a cura clínica. Quando a lesão é extensa ou refratária, entra antifúngico oral. As unhas espessadas sugerem onicomicose como reservatório, que deve ser investigada e tratada para evitar recidiva. Cremes que combinam corticoide e antifúngico são desaconselhados, porque perpetuam a tinha incógnita e causam atrofia na região inguinal.",
+"porAlt": [
+"Correta: dermatofitose agravada por corticoide exige suspender o corticoide e tratar com antifúngico tópico.",
+"Manter o corticoide, mesmo associado, perpetua a tinha incógnita e causa atrofia e estrias na virilha.",
+"Aumentar a potência do corticoide agrava a infecção fúngica, que é a causa da piora da lesão.",
+"A candidíase acomete o escroto e tem satélites, e o exame mostrou hifas septadas de dermatófito.",
+"O eritrasma é placa acastanhada sem borda vesiculosa e fluorescência vermelho-coral, sem hifas."
+]
+},
+{
+"q": "Mulher de 27 anos com dermatite atópica desde a infância, com eczema ativo na face e no pescoço, refere que há 2 dias surgiram muitas vesículas agrupadas e umbilicadas sobre as áreas de eczema, que rapidamente viraram erosões arredondadas em saca-bocado com crostas hemorrágicas. Tem febre de 38,3 °C, mal-estar, dor local e linfonodos cervicais dolorosos. Refere lacrimejamento e dor no olho direito. Não usa imunossupressor sistêmico. Qual é a conduta mais adequada?",
+"alts": [
+"Corticoide sistêmico para controlar o eczema",
+"Cefalexina oral por impetiginização simples",
+"Iniciar dupilumabe para o surto atópico grave",
+"Aciclovir sistêmico imediato e avaliar olhos",
+"Tacrolimo tópico intensivo nas áreas lesadas"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "EuroGuiDerm Guideline on Atopic Eczema 2022 (EADV/EDF), eczema herpético como complicação de urgência",
+"coment": "Vesículas umbilicadas monomórficas que evoluem para erosões em saca-bocado sobre pele com eczema, com febre e linfonodos, são o eczema herpético, ou erupção variceliforme de Kaposi, disseminação do herpes simples na pele com barreira alterada da dermatite atópica. A diretriz europeia trata o quadro como urgência: aciclovir sistêmico sem esperar a confirmação, por via venosa quando há febre, extensão grande ou sinais de gravidade, e por via oral nos casos leves. Lacrimejamento e dor ocular exigem avaliação oftalmológica imediata, pelo risco de ceratite herpética e perda visual. Pode haver infecção bacteriana secundária, mas o antibiótico não substitui o antiviral. Corticoide sistêmico e imunossupressores tópicos nas áreas afetadas pioram a replicação viral e devem ser suspensos até o controle. Confirma-se por PCR do líquido da vesícula.",
+"porAlt": [
+"O corticoide sistêmico favorece a disseminação do herpes e pode agravar o quadro e a lesão ocular.",
+"Vesículas umbilicadas com erosões em saca-bocado e febre indicam herpes, e o antibiótico não trata o vírus.",
+"O imunobiológico não trata infecção viral aguda e não deve ser iniciado durante o eczema herpético.",
+"Correta: eczema herpético é urgência e exige aciclovir sistêmico imediato e avaliação oftalmológica pela queixa ocular.",
+"O inibidor de calcineurina nas áreas afetadas favorece a replicação viral e deve ser suspenso nelas."
+]
+},
+{
+"q": "Mulher de 31 anos, recepcionista, refere há 5 meses placa pruriginosa abaixo do umbigo, exatamente onde encosta o botão metálico da calça jeans, e lesões semelhantes nos lóbulos das orelhas quando usa brincos de bijuteria. Ao exame há placa eczematosa liquenificada periumbilical, com algumas vesículas na periferia, e eczema discreto nos lóbulos. Melhora quando passa dias sem as peças, e piora 1 a 2 dias depois de voltar a usá-las. Não tem atopia pessoal. Qual é o exame mais adequado para confirmar a causa?",
+"alts": [
+"Teste de puntura com leitura em 15 a 20 minutos",
+"Dosagem de IgE sérica específica para o níquel",
+"Teste de contato com leituras em 48 e 96 horas",
+"Biópsia com imunofluorescência direta da placa",
+"Exame micológico direto e cultura do raspado"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "European Society of Contact Dermatitis guideline for diagnostic patch testing 2015 (Johansen et al.), dermatite de contato alérgica",
+"coment": "Eczema restrito à área de contato com metal, nos botões da calça e nos brincos, que surge 1 a 2 dias após a reexposição, é a dermatite de contato alérgica ao níquel, o alérgeno de contato mais frequente em mulheres. É reação de hipersensibilidade tardia, tipo IV, mediada por linfócitos T. Por isso o exame confirmatório é o teste de contato, com a bateria padrão aplicada no dorso por 48 horas e leituras em 48 horas e no 3º ou 4º dia, como recomenda a diretriz europeia de 2015; a leitura tardia evita falsos negativos. O teste de puntura e a IgE específica investigam reações imediatas, tipo I, como urticária de contato e alergia ao látex. A biópsia mostra apenas espongiose, sem identificar o alérgeno. O tratamento é evitar o metal, usar corticoide tópico na crise e proteger o contato com barreira.",
+"porAlt": [
+"O teste de puntura avalia hipersensibilidade imediata mediada por IgE, que não é o mecanismo desse eczema.",
+"A IgE específica não detecta a sensibilização tardia mediada por linfócitos T ao níquel.",
+"Correta: eczema tardio no local do metal é hipersensibilidade tipo IV, confirmada pelo teste de contato com leitura tardia.",
+"A imunofluorescência direta serve às doenças bolhosas autoimunes, e a histologia do eczema não identifica o alérgeno.",
+"A distribuição exata nos pontos de contato com metal não sugere dermatofitose, e o exame não identificaria o alérgeno."
+]
+},
+{
+"q": "Mulher de 45 anos, auxiliar de limpeza hospitalar, lava as mãos e manipula detergentes e desinfetantes cerca de 30 vezes por turno, quase sempre sem luvas. Há 4 meses tem ressecamento, eritema, descamação e fissuras dolorosas no dorso das mãos e entre os dedos, com mais ardor que prurido. Piora nas semanas de plantões extras e melhorou muito durante 15 dias de férias. Não há vesículas nem lesões fora das mãos. Não tem atopia nem psoríase na família. O teste de contato com a bateria padrão foi negativo. Qual é o diagnóstico e a conduta?",
+"alts": [
+"Dermatite alérgica; afastar o alérgeno do patch test",
+"Tinha das mãos; terbinafina oral por quatro semanas",
+"Dermatite irritativa; luvas, emoliente e corticoide",
+"Psoríase palmoplantar; metotrexato oral 15 mg semanal",
+"Urticária de contato; anti-histamínico oral contínuo"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "European Society of Contact Dermatitis guideline on hand eczema 2022 (Thyssen et al.), dermatite de contato irritativa ocupacional",
+"coment": "Ressecamento, fissuras e eritema no dorso e entre os dedos, com ardor predominando sobre o prurido, em trabalhadora com exposição repetida a água, detergentes e desinfetantes, que melhora no afastamento e tem teste de contato negativo, é dermatite de contato por irritante primário. É o tipo mais comum de eczema ocupacional e não envolve sensibilização imune: o dano é direto à barreira cutânea, proporcional à frequência e à intensidade da exposição. A diretriz europeia de eczema de mãos de 2022 baseia o tratamento em reduzir a exposição, com luvas adequadas sobre luvas de algodão, uso de álcool gel em vez de lavagem quando possível, emolientes frequentes e corticoide tópico potente por períodos curtos nas fases inflamatórias. A notificação como doença relacionada ao trabalho e a adequação do posto fazem parte do manejo. O teste negativo afasta alergia de contato relevante.",
+"porAlt": [
+"O teste de contato negativo afasta alergia de contato relevante e não há alérgeno identificado para afastar.",
+"O quadro bilateral ligado à exposição ocupacional não sugere tinha, que costuma ser unilateral e com borda ativa.",
+"Correta: exposição repetida a irritantes, ardor e teste de contato negativo definem dermatite irritativa, manejada com proteção e reparo da barreira.",
+"Não há placas eritematodescamativas típicas nem história de psoríase, e o metotrexato não trata eczema irritativo.",
+"A urticária de contato surge em minutos com pápulas transitórias, e não com fissuras e descamação crônicas."
+]
+},
+{
+"q": "Homem de 33 anos com dermatite atópica moderada desde a infância tem surtos quase mensais de eczema nas fossas cubitais, nas fossas poplíteas e no pescoço. Em cada surto usa mometasona creme por 7 a 10 dias, com boa resposta, mas as lesões voltam nas mesmas áreas em 2 a 3 semanas. Usa emoliente de forma irregular. Não tem infecção de pele atual nem sinais de eczema herpético. Pesa 78 kg, não tem outras doenças e não deseja tratamento sistêmico agora. Qual é a melhor estratégia de manutenção?",
+"alts": [
+"Prednisona oral em ciclos curtos a cada novo surto da doença",
+"Anti-histamínico H1 não sedante contínuo como base do controle",
+"Mupirocina tópica contínua para reduzir a colonização bacteriana",
+"Ciclosporina oral contínua por tempo indeterminado e sem pausa",
+"Tópico anti-inflamatório 2 vezes por semana nas áreas habituais"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "EuroGuiDerm Guideline on Atopic Eczema 2022 (EADV/EDF), terapia proativa com corticoide ou inibidor de calcineurina tópico",
+"coment": "Dermatite atópica com surtos frequentes nas mesmas áreas, que respondem bem ao tratamento da crise mas recidivam logo após a suspensão, é a indicação clássica da terapia proativa. Depois de controlar o surto, mantém-se o anti-inflamatório tópico, corticoide de média potência ou tacrolimo, duas vezes por semana nas áreas que costumam recair, por meses, junto com emoliente diário. A diretriz europeia de 2022 recomenda essa estratégia porque a pele aparentemente normal dessas áreas mantém inflamação subclínica, e a aplicação intermitente reduz o número de surtos com baixo risco de atrofia. Corticoide sistêmico é desaconselhado no tratamento prolongado, pelos efeitos adversos e pelo rebote. Anti-histamínico não controla o eczema. Antibiótico tópico contínuo seleciona resistência. Ciclosporina é opção sistêmica de curto prazo para doença grave, não para uso indefinido.",
+"porAlt": [
+"Corticoide oral em ciclos causa rebote e efeitos adversos e é desaconselhado no manejo crônico da dermatite atópica.",
+"O anti-histamínico não controla a inflamação do eczema, servindo no máximo como adjuvante para o sono.",
+"Antibiótico tópico contínuo seleciona resistência e não é indicado sem infecção clínica.",
+"A ciclosporina é para doença grave e por tempo limitado, pela nefrotoxicidade e hipertensão no uso prolongado.",
+"Correta: surtos recorrentes nas mesmas áreas são controlados com terapia proativa tópica duas vezes por semana e emoliente diário."
+]
+},
+{
+"q": "Mulher de 40 anos tem há 2 anos três placas eritematosas, bem delimitadas, com escamas prateadas espessas, nos cotovelos e no joelho direito. A superfície corporal acometida é de 3%, o índice de gravidade e área da psoríase é 4 e o índice de qualidade de vida em dermatologia é 3. Não há lesões no couro cabeludo, unhas, face, genitais ou palmas, e não tem dor articular. Não usou nenhum tratamento. Tem hipertensão controlada com anlodipino. Qual é o tratamento inicial mais adequado?",
+"alts": [
+"Metotrexato oral 15 mg por semana como base",
+"Prednisona oral com redução em quatro semanas",
+"Adalimumabe subcutâneo a cada 14 dias, contínuo",
+"Fototerapia UVB de banda estreita 3x semana",
+"Calcipotriol associado a betametasona tópicos"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Consenso Brasileiro de Psoríase 2020 (Sociedade Brasileira de Dermatologia), psoríase leve e tratamento tópico",
+"coment": "A gravidade da psoríase se avalia pela superfície corporal acometida, pelo índice de gravidade e área e pelo impacto na qualidade de vida; valores acima de 10 em qualquer deles, ou o comprometimento de áreas especiais como face, couro cabeludo, unhas, genitais e palmas, indicam doença moderada a grave. Esta paciente tem os três índices abaixo de 10 e nenhuma área especial: psoríase leve. Nesses casos, o Consenso Brasileiro de 2020 indica tratamento tópico, e a associação de calcipotriol com dipropionato de betametasona, uma vez ao dia, é a opção de maior eficácia, com manutenção intermitente. Metotrexato, fototerapia e imunobiológicos ficam para a doença moderada a grave, refratária ou com artrite. O corticoide sistêmico deve ser evitado na psoríase, porque sua retirada pode desencadear psoríase pustulosa generalizada ou eritrodermia.",
+"porAlt": [
+"O metotrexato é reservado à psoríase moderada a grave ou com artrite, o que não é o caso.",
+"O corticoide sistêmico é evitado na psoríase, pelo risco de rebote com forma pustulosa ou eritrodérmica.",
+"O imunobiológico é para doença moderada a grave após falha ou contraindicação aos sistêmicos clássicos.",
+"A fototerapia é opção para doença moderada a extensa, e não primeira escolha em três placas localizadas.",
+"Correta: psoríase leve, sem áreas especiais, é tratada com a associação tópica de calcipotriol e betametasona."
+]
+},
+{
+"q": "Homem de 48 anos tem psoríase em placas há 15 anos, controlada com tópicos. Há 3 semanas recebeu, em pronto atendimento, prednisona 40 mg/dia por suposta alergia, suspensa abruptamente há 5 dias. Desde ontem tem febre de 39 °C, calafrios e eritema generalizado, doloroso, coberto por pústulas puntiformes que confluem em lagos de pus, sobretudo nas dobras. As mucosas estão poupadas e o sinal de Nikolsky é negativo. Leucócitos de 17.800/mm³, cálcio de 7,6 mg/dL e albumina de 2,8 g/dL. Qual é o diagnóstico mais provável?",
+"alts": [
+"Síndrome de Stevens-Johnson desencadeada pela prednisona oral",
+"Impetigo bolhoso disseminado por estafilococo toxigênico grave",
+"Dermatite herpetiforme agravada pela suspensão da prednisona",
+"Pênfigo foliáceo disseminado com infecção bacteriana secundária",
+"Psoríase pustulosa generalizada pela retirada do corticoide"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r3",
+"base": "Consenso Brasileiro de Psoríase 2020 (Sociedade Brasileira de Dermatologia), psoríase pustulosa generalizada e fatores desencadeantes",
+"coment": "Em paciente com psoríase prévia, a suspensão abrupta de corticoide sistêmico é um dos gatilhos mais conhecidos da psoríase pustulosa generalizada, ou de von Zumbusch. O quadro é de febre alta, eritema doloroso e pústulas estéreis puntiformes que confluem em lagos de pus, com leucocitose, hipocalcemia e hipoalbuminemia, e pode evoluir com sepse, insuficiência renal e distúrbios hidroeletrolíticos, exigindo internação. Por isso o Consenso Brasileiro desaconselha corticoide sistêmico na psoríase. O principal diferencial é a pustulose exantemática generalizada aguda, causada por fármacos como antibióticos e com início poucos dias após a exposição, sem história de psoríase. Na síndrome de Stevens-Johnson há descolamento, Nikolsky positivo e mucosas acometidas. O tratamento inclui suporte, retinoide, ciclosporina ou imunobiológico anti-IL-36, conforme disponibilidade.",
+"porAlt": [
+"Stevens-Johnson tem descolamento epidérmico, Nikolsky positivo e mucosas acometidas, ausentes neste paciente.",
+"O impetigo bolhoso tem bolhas flácidas localizadas e não causa pústulas em lagos com febre e hipocalcemia.",
+"A dermatite herpetiforme tem vesículas agrupadas pruriginosas em superfícies extensoras, sem pústulas nem febre.",
+"O pênfigo foliáceo tem erosões crostosas seborreicas, e não pústulas estéreis em lagos com febre alta.",
+"Correta: pústulas estéreis em lagos, febre e hipocalcemia após retirada de corticoide em psoríaco configuram a forma pustulosa generalizada."
+]
+},
+{
+"q": "Mulher de 22 anos, estudante, notou há 10 dias uma placa oval rosada de 4 cm no flanco esquerdo, com colarete de descamação fina voltado para dentro. Há 3 dias surgiram dezenas de lesões ovais menores, semelhantes, no tronco e na raiz dos membros, com o maior eixo acompanhando as linhas de clivagem da pele. O prurido é leve. Teve resfriado há 3 semanas. Não há lesões em palmas, plantas ou mucosas, nem linfonodos aumentados. O teste rápido para sífilis é não reagente e não está grávida. Qual é a conduta mais adequada?",
+"alts": [
+"Orientar evolução autolimitada e tratar o prurido",
+"Terbinafina oral por suspeita de tinha disseminada",
+"Penicilina benzatina por sífilis secundária provável",
+"Prednisona oral para abreviar a duração da erupção",
+"Biópsia de pele para excluir micose fungoide inicial"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Revisão e classificação da pitiríase rósea (Drago et al., J Am Acad Dermatol 2016) e CDC STI Treatment Guidelines 2021 para o diferencial com sífilis secundária",
+"coment": "Placa inicial oval com colarete descamativo, o medalhão, seguida dias depois por erupção de lesões menores semelhantes, dispostas ao longo das linhas de clivagem do tronco em padrão de árvore de Natal, após quadro viral, em adulto jovem, é pitiríase rósea de Gibert, associada à reativação dos herpesvírus 6 e 7. É autolimitada, resolvendo em 6 a 8 semanas sem cicatriz. A conduta é tranquilizar e tratar o prurido com emoliente, corticoide tópico de baixa potência ou anti-histamínico. Aciclovir pode encurtar o quadro em casos extensos, com evidência limitada. O diferencial obrigatório é a sífilis secundária, que acomete palmas e plantas e dá linfonodos; o teste não reagente e a distribuição afastam o diagnóstico. Na gestante, a pitiríase rósea no início da gravidez associa-se a perda fetal e merece seguimento.",
+"porAlt": [
+"Correta: medalhão seguido de lesões em árvore de Natal é pitiríase rósea, autolimitada, com tratamento apenas sintomático.",
+"O colarete voltado para dentro e a distribuição em árvore de Natal não são de tinha, que tem borda ativa centrífuga.",
+"Sem lesões palmoplantares, sem linfonodos e com teste não reagente, não há base para tratar sífilis.",
+"O corticoide sistêmico não é indicado em doença autolimitada e de bom prognóstico como esta.",
+"A micose fungoide tem evolução crônica de anos, e um quadro agudo pós-viral típico não exige biópsia."
+]
+},
+{
+"q": "Mulher de 45 anos tem há 3 meses erosões dolorosas na mucosa oral, que dificultam a alimentação, e há 1 mês bolhas flácidas que se rompem facilmente, deixando erosões no couro cabeludo, no tronco e nas axilas, somando cerca de 15% da superfície corporal. O sinal de Nikolsky é positivo. A biópsia mostra acantólise suprabasal, e a imunofluorescência direta mostra IgG e C3 intercelulares na epiderme. Anticorpos antidesmogleína 3 e antidesmogleína 1 elevados. Sorologias para hepatite B e C negativas, teste de tuberculose latente negativo. Qual é o tratamento de primeira linha?",
+"alts": [
+"Dapsona oral isolada com dieta sem glúten",
+"Rituximabe associado a prednisona sistêmica",
+"Clobetasol tópico isolado em todo o corpo",
+"Imunoglobulina EV isolada como monoterapia",
+"Talidomida oral associada à colchicina diária"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "EADV S2K guidelines on the management of pemphigus vulgaris and foliaceus 2020 (Joly et al.), rituximabe em primeira linha",
+"coment": "Erosões orais que precedem bolhas flácidas cutâneas com Nikolsky positivo, acantólise suprabasal, IgG intercelular e anticorpos contra as desmogleínas 3 e 1 confirmam pênfigo vulgar mucocutâneo. Com acometimento oral importante e 15% da pele, a doença é moderada a grave. A diretriz europeia de 2020 coloca o rituximabe como tratamento de primeira linha nesses casos, associado a prednisona de 0,5 a 1 mg/kg/dia com redução progressiva, porque o anti-CD20 aumenta a taxa de remissão completa sem corticoide e reduz a dose acumulada de corticoide e seus efeitos adversos. Antes do rituximabe, rastreiam-se hepatite B e tuberculose latente. Imunossupressores poupadores de corticoide, como azatioprina e micofenolato, são alternativas quando o rituximabe não está disponível. A imunoglobulina venosa é para casos refratários. A dapsona e a dieta sem glúten tratam a dermatite herpetiforme.",
+"porAlt": [
+"A dapsona com dieta sem glúten é o tratamento da dermatite herpetiforme, não do pênfigo vulgar.",
+"Correta: pênfigo vulgar moderado a grave tem o rituximabe com prednisona como primeira linha pela diretriz europeia.",
+"Corticoide tópico isolado não controla pênfigo vulgar com acometimento oral e cutâneo extenso.",
+"A imunoglobulina venosa é reservada a casos refratários e não é usada como monoterapia inicial.",
+"Talidomida e colchicina não têm papel no tratamento do pênfigo vulgar, uma doença autoimune grave."
+]
+},
+{
+"q": "Homem de 29 anos tem há 6 meses prurido intenso, com queimação, e pequenas pápulas e vesículas agrupadas, a maioria escoriada, nos cotovelos, nos joelhos, nas nádegas e no couro cabeludo. Refere distensão abdominal e fezes amolecidas ocasionais. Hemoglobina de 11,2 g/dL, ferritina de 9 ng/mL, anticorpo antitransglutaminase tecidual IgA de 180 U/mL (referência abaixo de 10). A biópsia de pele perilesional com imunofluorescência direta mostra depósitos granulares de IgA nas papilas dérmicas. A G6PD é normal. Qual é o tratamento mais adequado?",
+"alts": [
+"Prednisona oral em dose alta e azatioprina oral",
+"Rituximabe e prednisona por pênfigo associado",
+"Dieta sem glúten definitiva e dapsona inicial",
+"Aciclovir oral supressivo por herpes recorrente",
+"Dieta sem glúten apenas enquanto houver lesão"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "S2k guideline on diagnosis and treatment of dermatitis herpetiformis (EADV) 2021 (Görög et al.), dieta isenta de glúten e dapsona",
+"coment": "Vesículas agrupadas, muito pruriginosas e escoriadas, simétricas em superfícies extensoras, nádegas e couro cabeludo, com depósito granular de IgA nas papilas dérmicas, são a dermatite herpetiforme, a manifestação cutânea da doença celíaca; a antitransglutaminase elevada e a anemia ferropriva confirmam a enteropatia, muitas vezes oligossintomática. O autoantígeno cutâneo é a transglutaminase epidérmica. A diretriz europeia de 2021 indica dieta isenta de glúten por toda a vida como tratamento de base, porque controla pele e intestino e reduz o risco de linfoma, e dapsona para alívio rápido do prurido, já que a dieta leva meses a agir na pele. A G6PD deve ser checada antes da dapsona pelo risco de hemólise, e a meta-hemoglobina, monitorada. Com o tempo, a dose da dapsona é reduzida até a suspensão. Corticoide tem pouco efeito.",
+"porAlt": [
+"O corticoide sistêmico tem resposta pobre na dermatite herpetiforme e não trata a doença celíaca de base.",
+"IgA granular nas papilas define dermatite herpetiforme, e não pênfigo, que tem IgG intercelular.",
+"Correta: dermatite herpetiforme se trata com dieta sem glúten por toda a vida e dapsona para controle rápido do prurido.",
+"O nome herpetiforme se refere ao agrupamento das vesículas, e não há infecção herpética a tratar.",
+"A dieta deve ser mantida por toda a vida, pois a reexposição ao glúten reativa a pele e a enteropatia."
+]
+},
+{
+"q": "Homem de 19 anos, trabalhador rural em uma área de mata no interior de Goiás, tem há 4 meses lesões com ardor intenso, que piora ao sol, na face, no couro cabeludo e no tronco superior. Ao exame há erosões superficiais cobertas por crostas e escamas amareladas, em distribuição seborreica, e raras bolhas flácidas muito frágeis. As mucosas oral, ocular e genital estão normais. Outros dois moradores da região tiveram quadro parecido. A biópsia mostra clivagem acantolítica na camada granulosa, logo abaixo da córnea, e a imunofluorescência direta mostra IgG intercelular. Qual é o autoantígeno e o nível da clivagem?",
+"alts": [
+"Desmogleína 3, com clivagem suprabasal",
+"BP180, com clivagem na junção dérmica",
+"Transglutaminase epidérmica, na papila",
+"Desmogleína 1, com clivagem subcórnea",
+"Colágeno VII, abaixo da lâmina densa"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r1",
+"base": "EADV S2K guidelines on the management of pemphigus vulgaris and foliaceus 2020 (Joly et al.), pênfigo foliáceo e autoanticorpos",
+"coment": "Erosões crostosas superficiais em áreas seborreicas, com ardor que dá ao quadro o nome popular de fogo selvagem, sem acometimento de mucosas, em jovem de zona rural com casos semelhantes na região, é pênfigo foliáceo, na forma endêmica brasileira. O autoantígeno é a desmogleína 1, que predomina nas camadas superficiais da epiderme; por isso a clivagem é alta, subcórnea ou na granulosa, e as bolhas são tão superficiais que raramente se veem íntegras. As mucosas são poupadas porque nelas a desmogleína 3 compensa a perda funcional da desmogleína 1. No pênfigo vulgar, o anticorpo contra a desmogleína 3 causa clivagem suprabasal e erosões orais. O penfigoide bolhoso, com anticorpos contra BP180 e BP230, forma bolhas tensas subepidérmicas. A forma endêmica é associada à exposição a insetos hematófagos.",
+"porAlt": [
+"A desmogleína 3 é o alvo do pênfigo vulgar, que causa clivagem suprabasal e erosões nas mucosas.",
+"O BP180 é o alvo do penfigoide bolhoso, com bolhas tensas subepidérmicas em idosos.",
+"A transglutaminase epidérmica é o alvo da dermatite herpetiforme, com IgA granular nas papilas.",
+"Correta: pênfigo foliáceo é causado por anticorpos contra a desmogleína 1, com clivagem superficial e mucosas poupadas.",
+"O colágeno VII é o alvo da epidermólise bolhosa adquirida, com clivagem abaixo da lâmina densa."
+]
+},
+{
+"q": "Homem de 35 anos refere o terceiro episódio, em 1 ano, de placa arredondada, violácea, bem delimitada, com ardor, na glande e no lábio inferior, que surge poucas horas depois de tomar dipirona para cefaleia. As lesões reaparecem sempre nos mesmos locais e, ao regredir em 10 a 14 dias, deixam mancha acastanhada. Não há vesículas agrupadas antes das lesões, febre, lesões em alvo nas extremidades nem acometimento de outras mucosas. Não tem parceria sexual nova, e o teste rápido para sífilis é não reagente. Qual é o diagnóstico mais provável?",
+"alts": [
+"Herpes simples recorrente nos 2 sítios",
+"Eritema multiforme associado ao herpes",
+"Erupção fixa medicamentosa à dipirona",
+"Líquen plano de mucosa oral e genital",
+"Sífilis secundária com placas mucosas"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Revisão de erupção fixa medicamentosa (Anderson e Lee, Medicina 2021), recorrência no mesmo sítio e fármacos desencadeantes",
+"coment": "Placa arredondada, violácea e bem delimitada, que recorre exatamente nos mesmos locais a cada nova exposição ao fármaco, surge em horas e deixa hiperpigmentação residual, é a erupção fixa medicamentosa. Lábios, genitais e mãos são os sítios preferenciais, e os desencadeantes mais comuns são dipirona, anti-inflamatórios, sulfonamidas e tetraciclinas. O mecanismo envolve linfócitos T de memória residentes na pele do local, o que explica a recorrência no mesmo ponto. O diagnóstico é clínico, e o teste de provocação oral é evitado; o tratamento é suspender e evitar o fármaco, com corticoide tópico se houver sintomas. A forma bolhosa generalizada é grave e entra no diferencial com Stevens-Johnson. O herpes recorrente tem pródromo e vesículas agrupadas, e o eritema multiforme mostra lesões em alvo acrais.",
+"porAlt": [
+"O herpes recorrente começa com vesículas agrupadas sobre base eritematosa, ausentes nas três crises.",
+"O eritema multiforme tem lesões em alvo típicas nas extremidades, e não placa única fixa nos mesmos sítios.",
+"Correta: placa violácea que recorre no mesmo local horas após a dipirona e deixa mancha residual é erupção fixa medicamentosa.",
+"O líquen plano de mucosas é crônico e não surge em horas após um medicamento, nem regride em duas semanas.",
+"A sífilis secundária tem lesões disseminadas e palmoplantares, e o teste rápido não reagente a afasta."
+]
+},
+{
+"q": "Homem de 60 anos, internado por osteomielite vertebral por estafilococo resistente à meticilina, recebe a primeira dose de vancomicina 1,5 g, infundida em 20 minutos. Quinze minutos após o início surgem prurido e eritema intenso na face, no pescoço e no tronco superior, com sensação de calor. Pressão arterial de 118/72 mmHg, frequência cardíaca de 96 bpm, saturação de 97%. Não há sibilância, estridor, angioedema, urticária, vômitos ou queda de pressão. Nunca recebeu vancomicina. Qual é a conduta mais adequada?",
+"alts": [
+"Suspender a vancomicina e registrar alergia grave",
+"Pausar, anti-histamínico e reinfundir mais devagar",
+"Adrenalina intramuscular e trocar de antibiótico",
+"Manter a infusão e associar corticoide tópico na pele",
+"Dessensibilização formal em UTI antes da nova dose"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "r3",
+"base": "Consenso ASHP/IDSA/PIDS/SIDP de monitorização terapêutica da vancomicina 2020 (Rybak et al.), velocidade de infusão e reação infusional",
+"coment": "Eritema e prurido em face, pescoço e tronco superior durante infusão rápida de vancomicina, sem broncoespasmo, angioedema ou hipotensão, é a síndrome do homem vermelho, hoje chamada reação infusional à vancomicina. Não é alergia mediada por IgE: a droga provoca liberação direta de histamina pelos mastócitos, dependente da velocidade de infusão, e pode ocorrer já na primeira dose. A conduta é pausar a infusão, dar anti-histamínico H1 e, com melhora, reiniciar em velocidade menor, sem passar de 1 g por hora ou cerca de 10 mg/min; doses maiores devem correr em 2 horas ou mais. A pré-medicação com anti-histamínico previne as doses seguintes. Não há motivo para trocar um antibiótico necessário nem para registrar alergia, o que limitaria o tratamento futuro. Hipotensão, sibilância ou angioedema mudariam o raciocínio para anafilaxia.",
+"porAlt": [
+"Não é alergia verdadeira, e registrar alergia grave tiraria uma droga necessária para a osteomielite.",
+"Correta: reação infusional à vancomicina se resolve pausando, dando anti-histamínico e reinfundindo mais devagar.",
+"Sem hipotensão, broncoespasmo ou angioedema não há anafilaxia, e a vancomicina pode ser mantida.",
+"Manter a mesma velocidade perpetua a liberação de histamina, e o corticoide tópico não age no mecanismo.",
+"Dessensibilização é para alergia mediada por IgE, e esta reação depende só da velocidade de infusão."
+]
+},
+{
+"q": "Mulher de 38 anos iniciou carbamazepina há 18 dias para neuralgia do trigêmeo. Há 4 dias teve febre, odinofagia e ardor nos olhos; há 2 dias surgiram máculas eritematovioláceas e lesões em alvo atípicas planas no tronco, que confluíram, com bolhas e descolamento epidérmico em cerca de 18% da superfície corporal. Há erosões dolorosas nos lábios e na mucosa oral, conjuntivite bilateral e erosão vulvar. Nikolsky positivo. Pressão arterial de 110/70 mmHg, sem outros fármacos novos. Qual é a classificação e a primeira medida?",
+"alts": [
+"Sobreposição Stevens-Johnson e necrólise; suspender a carbamazepina",
+"Stevens-Johnson; manter a carbamazepina e associar corticoide sistêmico",
+"Necrólise epidérmica tóxica; dessensibilizar o paciente à carbamazepina",
+"Eritema multiforme maior; aciclovir oral e manter a carbamazepina",
+"DRESS; prednisona 1 mg/kg/dia e manter a carbamazepina em uso contínuo"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "UK guidelines for the management of Stevens-Johnson syndrome/toxic epidermal necrolysis in adults 2016 (British Association of Dermatologists) e classificação de Bastuji-Garin por área de descolamento",
+"coment": "Pródromo febril com odinofagia e ardor ocular, seguido de máculas violáceas e alvos atípicos planos que confluem em bolhas e descolamento, com duas ou mais mucosas acometidas, 1 a 4 semanas após iniciar carbamazepina, é o espectro Stevens-Johnson e necrólise epidérmica tóxica. A classificação é pela área de pele descolada: menos de 10% é Stevens-Johnson, mais de 30% é necrólise, e entre 10% e 30%, como aqui, é a forma de sobreposição. A medida que mais muda o prognóstico é a suspensão imediata do fármaco suspeito, quanto mais precoce, menor a mortalidade. Depois vêm internação em unidade de queimados ou terapia intensiva, cuidados de pele, avaliação oftalmológica diária e cálculo do SCORTEN. A carbamazepina está entre os culpados mais frequentes, sobretudo em portadores do HLA-B*15:02, comum no Sudeste Asiático.",
+"porAlt": [
+"Correta: descolamento entre 10% e 30% com mucosas acometidas é a sobreposição, e suspender o fármaco é a primeira medida.",
+"Com 18% de descolamento não é Stevens-Johnson isolado, e manter a droga culpada aumenta a mortalidade.",
+"Necrólise exige mais de 30% de descolamento, e dessensibilização é contraindicada nas reações graves tardias.",
+"O eritema multiforme maior tem alvos típicos acrais e pouco descolamento, e o fármaco suspeito não deve ser mantido.",
+"DRESS cursa com eosinofilia, linfonodos e órgão acometido, sem descolamento epidérmico extenso como este."
+]
+},
+{
+"q": "Mulher de 26 anos tem o quarto episódio, no último ano, de lesões em alvo típicas, com três zonas concêntricas e centro escurecido, no dorso das mãos, nas palmas, nos antebraços e nos cotovelos, com poucas erosões nos lábios. Os episódios começam sempre 7 a 10 dias depois de crises de herpes labial e duram cerca de 2 semanas, com bom estado geral. Não usa medicamentos, não tem febre, lesões em tronco ou descolamento de pele. O hemograma e a radiografia de tórax são normais. Qual é a medida mais adequada para prevenir novos episódios?",
+"alts": [
+"Prednisona oral a cada novo episódio de herpes",
+"Talidomida oral contínua como primeira opção",
+"Imunoglobulina EV mensal para evitar recidivas",
+"Antiviral supressivo contínuo por 6 a 12 meses",
+"Hidroxicloroquina oral por suspeita de lúpus"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Revisão de eritema multiforme (Trayes et al., Am Fam Physician 2019), profilaxia antiviral no eritema multiforme recorrente associado ao herpes",
+"coment": "Lesões em alvo típicas, com três zonas, de distribuição acral e pouca mucosa acometida, sempre após herpes labial, é eritema multiforme recorrente associado ao herpes simples, a causa mais comum da doença no adulto. É reação de hipersensibilidade a antígenos virais depositados na pele, distinta do espectro Stevens-Johnson, que costuma ser causado por fármacos e tem alvos atípicos e descolamento. Tratar cada crise de herpes depois que o eritema começou não muda a evolução. Com recorrências frequentes, a profilaxia antiviral contínua com aciclovir ou valaciclovir por 6 a 12 meses reduz bastante o número de episódios, mesmo quando o herpes não é clinicamente evidente. Corticoide sistêmico pode aumentar a frequência das recidivas. Talidomida, imunossupressores e imunoglobulina ficam para casos raros refratários à profilaxia.",
+"porAlt": [
+"O corticoide sistêmico não previne episódios e pode aumentar as recidivas do eritema multiforme.",
+"A talidomida é reservada a casos refratários à profilaxia antiviral, por sua toxicidade e teratogenicidade.",
+"A imunoglobulina não tem papel na prevenção do eritema multiforme associado ao herpes.",
+"Correta: eritema multiforme recorrente ligado ao herpes é prevenido com antiviral supressivo contínuo por meses.",
+"Alvos acrais após herpes labial não sugerem lúpus, e a hidroxicloroquina não previne essas recidivas."
+]
+},
+{
+"q": "Homem de 61 anos, agricultor no sul da Bahia, tem há 3 meses uma úlcera indolor de 5 cm na perna direita, arredondada, com bordas elevadas em moldura e fundo granuloso avermelhado, e um linfonodo inguinal homolateral aumentado. Não há lesões em mucosa nasal ou oral. A pesquisa direta no raspado da borda mostrou formas amastigotas, e a intradermorreação de Montenegro é positiva. É hipertenso, com creatinina de 1,0 mg/dL, eletrocardiograma normal e enzimas hepáticas normais. Pesa 72 kg. Segundo o Ministério da Saúde, qual é o tratamento de primeira escolha?",
+"alts": [
+"Antimoniato de meglumina 15 mg Sb5+/kg/dia por 20 dias EV",
+"Antimoniato de meglumina intralesional em 1 a 3 sessões",
+"Anfotericina B lipossomal até dose total de 20 a 40 mg/kg",
+"Isetionato de pentamidina 4 mg/kg em três doses espaçadas",
+"Itraconazol oral 200 mg/dia por 3 meses e reavaliar a úlcera"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Manual de Vigilância da Leishmaniose Tegumentar 2017 (Ministério da Saúde), Quadro 9, tratamento da forma cutânea localizada a partir de 50 anos",
+"coment": "Úlcera indolor com bordas elevadas em moldura e fundo granuloso, linfonodo regional e amastigotas no raspado configuram leishmaniose cutânea localizada, no sul da Bahia causada em geral por Leishmania braziliensis. O antimoniato de meglumina, de 10 a 20 mg Sb5+/kg/dia por 20 dias, é a primeira escolha para a maioria dos pacientes, mas o Manual de 2017 o retira da primeira linha a partir dos 50 anos e em insuficiência renal, cardíaca ou hepática, gestantes e transplantados, pela cardiotoxicidade, nefrotoxicidade e pancreatite. Para esses grupos, a primeira escolha é a anfotericina B lipossomal, de 2 a 3 mg/kg/dia até 20 a 40 mg/kg. O antimoniato intralesional é alternativa só para lesão única de até 3 cm fora da cabeça e das áreas periarticulares, e esta mede 5 cm. A pentamidina é a escolha onde predomina Leishmania guyanensis.",
+"porAlt": [
+"O antimoniato sistêmico deixa de ser primeira escolha a partir dos 50 anos, pelo risco cardíaco, renal e pancreático.",
+"A via intralesional exige lesão única de até 3 cm fora da cabeça e das articulações, e esta úlcera mede 5 cm.",
+"Correta: a partir dos 50 anos, o Ministério indica a anfotericina B lipossomal como primeira escolha na forma cutânea localizada.",
+"A pentamidina é primeira escolha onde predomina L. guyanensis, e não para L. braziliensis no sul da Bahia.",
+"O itraconazol não faz parte dos esquemas recomendados pelo Ministério para a leishmaniose tegumentar."
+]
+},
+{
+"q": "Homem de 57 anos, lavrador no Maranhão, tem há 8 anos uma lesão na perna esquerda que começou como pápula após ferimento com espinho e cresceu lentamente. Hoje é uma placa verrucosa, vegetante, de 9 cm, com crostas e pequenos pontos enegrecidos na superfície, com algumas lesões satélites. Não há linfangite, linfonodos aumentados nem lesões em mucosas ou pulmão. O exame direto do material dos pontos negros com hidróxido de potássio mostra células arredondadas, acastanhadas, de parede espessa, com septação em dois planos. Qual é o diagnóstico?",
+"alts": [
+"Esporotricose por Sporothrix brasiliensis",
+"Paracoccidioidomicose por Paracoccidioides",
+"Tuberculose verrucosa por Mycobacterium",
+"Leishmaniose verrucosa por L. braziliensis",
+"Cromoblastomicose por Fonsecaea pedrosoi"
+],
+"gab": 4,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Revisão e recomendações sobre cromoblastomicose (Queiroz-Telles et al., Clin Microbiol Rev 2017), diagnóstico pelos corpos escleróticos",
+"coment": "Placa verrucosa de evolução muito lenta, por anos, em membro inferior de trabalhador rural após trauma com material vegetal, com pontos enegrecidos na superfície, é a apresentação típica da cromoblastomicose, uma micose de implantação. No Brasil o agente principal é a Fonsecaea pedrosoi. O diagnóstico é confirmado pelo exame direto, que mostra os corpos escleróticos, ou corpos de Medlar: células castanhas, de parede espessa, com septação em mais de um plano, chamadas células muriformes. Os pontos negros são o local de eliminação transepidérmica do fungo, onde o rendimento do exame é maior. É uma das síndromes verrucosas, junto com esporotricose, paracoccidioidomicose, leishmaniose e tuberculose verrucosa. O tratamento combina itraconazol prolongado com métodos físicos, como crioterapia ou exérese nas lesões pequenas.",
+"porAlt": [
+"A esporotricose mostra leveduras em charuto ou nenhuma estrutura no exame direto, e costuma seguir trajeto linfático.",
+"A paracoccidioidomicose mostra leveduras com múltiplos brotamentos e acomete mucosa oral e pulmão.",
+"Na tuberculose verrucosa não há corpos escleróticos, e o diagnóstico se faz por histologia e cultura de micobactéria.",
+"Na leishmaniose o exame direto mostra amastigotas, e não células castanhas de parede espessa.",
+"Correta: placa verrucosa crônica com pontos negros e corpos escleróticos no exame direto é cromoblastomicose."
+]
+},
+{
+"q": "Homem de 52 anos, tabagista de 40 maços-ano e ex-lavrador no interior de São Paulo, tem há 5 meses lesões dolorosas na boca, rouquidão, tosse seca e perda de 8 kg. Há ulcerações de fundo granuloso com pontilhado hemorrágico na gengiva e no palato, e linfonodos submandibulares aumentados. A radiografia de tórax mostra infiltrado intersticial bilateral e simétrico nos terços médios. O exame direto do escarro mostra leveduras grandes com múltiplos brotamentos. Saturação de 95% em ar ambiente, sem sinais de insuficiência adrenal. Qual é o tratamento mais adequado?",
+"alts": [
+"Anfotericina B só por 2 semanas, e alta",
+"Itraconazol 200 mg/dia por 9 a 18 meses",
+"Fluconazol 150 mg por semana por 3 meses",
+"Esquema RIPE por 6 meses para tuberculose",
+"Sulfametoxazol-trimetoprima por 4 semanas"
+],
+"gab": 1,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "II Consenso Brasileiro em Paracoccidioidomicose 2017 (Shikanai-Yasuda et al.), tratamento da forma crônica leve a moderada",
+"coment": "Lesões orais ulceradas com pontilhado hemorrágico, a estomatite moriforme, rouquidão, emagrecimento e infiltrado intersticial pulmonar bilateral em homem tabagista com passado rural, com leveduras de brotamento múltiplo em roda de leme, configuram a forma crônica do adulto da paracoccidioidomicose. Sem insuficiência respiratória, instabilidade ou acometimento grave de órgãos, é forma leve a moderada. O Consenso Brasileiro de 2017 indica itraconazol 200 mg/dia como primeira escolha, por 9 a 18 meses, guiado por cura clínica, radiológica e sorológica. O sulfametoxazol-trimetoprima é a alternativa, com duração ainda maior, de 18 a 24 meses. A anfotericina B fica para as formas graves e é seguida de manutenção oral prolongada. O fluconazol tem eficácia inferior. A coexistência com tuberculose deve ser investigada, mas o exame direto já mostrou o fungo.",
+"porAlt": [
+"A anfotericina é para formas graves e sempre seguida de manutenção oral prolongada, nunca alta em 2 semanas.",
+"Correta: forma crônica leve a moderada da paracoccidioidomicose é tratada com itraconazol por 9 a 18 meses.",
+"O fluconazol tem eficácia inferior, e 3 meses estão muito abaixo da duração necessária.",
+"O escarro mostrou leveduras de brotamento múltiplo, e não bacilos, o que define paracoccidioidomicose.",
+"O sulfametoxazol-trimetoprima é alternativa, mas por 18 a 24 meses; 4 semanas levariam a recidiva."
+]
+},
+{
+"q": "Mulher de 32 anos tem há 10 dias nódulos eritematosos, quentes e muito dolorosos, de 2 a 5 cm, na face anterior das duas pernas, sem ulceração, além de dor e edema nos dois tornozelos e febre de 37,9 °C. Não usa contraceptivo nem outros medicamentos, não teve dor de garganta e não tem diarreia. A antiestreptolisina O é normal e o teste de liberação de interferon-gama é negativo. A radiografia de tórax mostra linfonodomegalia hilar bilateral e simétrica, sem infiltrado pulmonar. Cálcio sérico normal, sem sintomas oculares. Qual é a conduta mais adequada?",
+"alts": [
+"Mediastinoscopia com biópsia de linfonodo hilar imediata",
+"Esquema RIPE empírico pela adenopatia hilar bilateral",
+"Anti-inflamatório e seguimento, sem biópsia obrigatória",
+"Prednisona 40 mg/dia associada a metotrexato desde o início",
+"Penicilina benzatina por infecção estreptocócica oculta"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATS Clinical Practice Guideline: Diagnosis and Detection of Sarcoidosis 2020, síndrome de Löfgren sem necessidade de amostragem linfonodal",
+"coment": "Eritema nodoso, artrite periarticular de tornozelos, febre e linfonodomegalia hilar bilateral em mulher jovem compõem a síndrome de Löfgren, apresentação aguda da sarcoidose. É tão específica que a diretriz da Sociedade Torácica Americana de 2020 sugere não amostrar linfonodos quando a suspeita clínica é alta, como na síndrome de Löfgren, desde que se faça seguimento clínico atento. O prognóstico é excelente: mais de 80% remitem espontaneamente em até 2 anos. O tratamento é sintomático, com anti-inflamatório não esteroide para dor e artrite e repouso; corticoide só entra em sintomas refratários. O eritema nodoso é uma paniculite septal reativa, e outras causas, como estreptococo, tuberculose, contraceptivos e doença inflamatória intestinal, já foram afastadas. A biópsia volta à mesa se a evolução fugir do esperado.",
+"porAlt": [
+"Na síndrome de Löfgren típica a diretriz sugere não amostrar linfonodos, e o procedimento invasivo não é necessário.",
+"Com teste para tuberculose negativo e quadro típico de Löfgren, tratar tuberculose empiricamente não se justifica.",
+"Correta: síndrome de Löfgren típica permite seguimento clínico com anti-inflamatório, sem biópsia obrigatória.",
+"A remissão espontânea é a regra, e imunossupressão combinada não é indicada nesta forma aguda e benigna.",
+"A antiestreptolisina normal e a ausência de faringite afastam estreptococo como causa do eritema nodoso."
+]
+},
+{
+"q": "Homem de 54 anos, etilista de 1 litro de cachaça por dia e com alimentação à base de milho, é internado por confusão mental e diarreia aquosa há 3 semanas. Há placas eritematoacastanhadas, descamativas e bem delimitadas no dorso das mãos e dos antebraços e uma faixa contínua ao redor do pescoço, que arderam após exposição ao sol. A língua é lisa, vermelha e dolorosa. Não há sinais de hepatopatia descompensada, e a amônia é normal. A glicemia capilar é de 88 mg/dL. Qual é a deficiência mais provável e a reposição adequada?",
+"alts": [
+"Tiamina isolada; dose alta EV por encefalopatia",
+"Zinco; sulfato de zinco oral por acrodermatite",
+"Niacina; nicotinamida oral e tiamina associada",
+"Vitamina C; ácido ascórbico oral por escorbuto",
+"Riboflavina; reposição oral só de vitamina B2"
+],
+"gab": 2,
+"tema": "derma",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESPEN micronutrient guideline 2022 (Berger et al.), deficiência de niacina e pelagra",
+"coment": "Dermatite fotodistribuída simétrica, com o colar de Casal no pescoço, diarreia e alteração mental compõem os três D da pelagra: dermatite, diarreia e demência, com o quarto, a morte, se não tratada. A deficiência é de niacina, ou vitamina B3, e de seu precursor, o triptofano. O alcoolismo é a causa mais comum hoje, pela dieta pobre e má absorção; outras são dieta baseada em milho não tratado, síndrome carcinoide, que desvia o triptofano para serotonina, e drogas como isoniazida. A diretriz de micronutrientes da ESPEN de 2022 indica reposição com nicotinamida, que não causa o rubor do ácido nicotínico, em geral 100 a 300 mg/dia por via oral em doses divididas até a resolução. No etilista, associa-se tiamina antes de oferecer glicose e corrigem-se as demais carências do complexo B, comuns ao mesmo tempo.",
+"porAlt": [
+"A tiamina deve ser dada ao etilista, mas não explica dermatite fotossensível nem diarreia, e sozinha não trata a pelagra.",
+"A carência de zinco dá dermatite periorificial e acral, e não lesões restritas às áreas expostas ao sol.",
+"Correta: dermatite fotossensível, diarreia e confusão no etilista são pelagra, tratada com nicotinamida e tiamina associada.",
+"O escorbuto causa hemorragia perifolicular e gengival, e não dermatite fotodistribuída com colar de Casal.",
+"A carência de riboflavina dá queilite angular e dermatite seborreica, sem o padrão fotossensível descrito."
+]
+},
+{
+"q": "Mulher de 58 anos tem há 5 meses placas eritematosas dolorosas, com bordas vesiculosas e crostosas que se expandem e deixam o centro acastanhado, migrando ao longo de semanas pelo períneo, pelas virilhas, pelas nádegas e pelas pernas. Também tem glossite, queilite angular e perda de 9 kg. Recebeu diagnóstico de diabetes há 3 meses, e há 1 mês teve trombose venosa profunda. Hemoglobina de 10,4 g/dL, albumina de 3,0 g/dL, zinco sérico no limite inferior. Não tem doença hepática nem etilismo. Qual é a hipótese diagnóstica e a investigação mais adequada?",
+"alts": [
+"Carência de zinco; repor e observar evolução",
+"Candidíase intertriginosa; exame micológico",
+"Pênfigo foliáceo; biópsia e imunofluorescência",
+"Glucagonoma; glucagon sérico e TC abdominal",
+"Psoríase invertida; biópsia e iniciar tópico"
+],
+"gab": 3,
+"tema": "derma",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ENETS 2023 guidance paper for functioning pancreatic neuroendocrine tumours (Hofland et al.), glucagonoma e eritema necrolítico migratório",
+"coment": "Placas eritematosas com bordas vesicocrostosas que migram por áreas intertriginosas e periorificiais, deixando hiperpigmentação, são o eritema necrolítico migratório, dermatose paraneoplásica característica do glucagonoma, tumor neuroendócrino de células alfa do pâncreas. A síndrome completa inclui diabetes de início recente, perda de peso, glossite e queilite, anemia, hipoaminoacidemia e trombose venosa, todos presentes aqui. O guia da Sociedade Europeia de Tumores Neuroendócrinos de 2023 orienta confirmar com glucagon sérico muito elevado e localizar o tumor por tomografia ou ressonância abdominal, complementando com imagem de receptor de somatostatina para estadiamento. Como a maioria é metastática ao diagnóstico, o reconhecimento da pele é decisivo. A carência de zinco produz quadro semelhante, o pseudoglucagonoma, mas não explica diabetes novo, trombose e emagrecimento.",
+"porAlt": [
+"A carência de zinco imita a dermatite, mas não explica diabetes novo, trombose e perda de peso.",
+"As placas migratórias com bordas crostosas e o quadro sistêmico não são de candidíase intertriginosa.",
+"O pênfigo foliáceo acomete áreas seborreicas sem padrão migratório e sem diabetes ou trombose associados.",
+"Correta: eritema necrolítico migratório com diabetes novo, emagrecimento e trombose sugere glucagonoma, confirmado por glucagon e imagem.",
+"A psoríase invertida não tem bordas vesicocrostosas migratórias nem explica o quadro consumptivo."
+]
+},
+{
+"q": "Mulher de 29 anos tem acne inflamatória moderada, com pápulas e pústulas na linha da mandíbula, no queixo e no pescoço, que piora na semana antes da menstruação. Usou peróxido de benzoíla com adapaleno por 4 meses e doxiciclina 100 mg/dia por 3 meses, com melhora parcial e recaída ao suspender. Ciclos regulares, sem hirsutismo, sem cicatrizes. Usa DIU de cobre, não planeja gravidez e prefere evitar contraceptivo hormonal. Potássio de 4,1 mEq/L, função renal normal, pressão arterial de 112/70 mmHg. Qual é o próximo passo mais adequado?",
+"alts": [
+"Espironolactona oral em baixa dose",
+"Doxiciclina oral contínua por 1 ano",
+"Prednisona oral em dose baixa diária",
+"Minociclina oral mais eritromicina",
+"Finasterida oral contínua 6 meses"
+],
+"gab": 0,
+"tema": "derma",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "AAD Guidelines of care for the management of acne vulgaris 2024 (Reynolds et al.), espironolactona na acne da mulher adulta",
+"coment": "Acne inflamatória na mulher adulta, com predomínio na mandíbula, no queixo e no pescoço e piora pré-menstrual, tem forte componente hormonal. A diretriz da Academia Americana de Dermatologia de 2024 recomenda a espironolactona, em geral 50 a 100 mg/dia, para essas pacientes, com ou sem hiperandrogenismo laboratorial. Ela é especialmente útil quando há recaída após antibiótico e a paciente não quer contraceptivo hormonal. Em mulheres jovens e saudáveis sem doença renal, não é preciso dosar potássio de rotina. Como pode feminizar feto masculino, exige contracepção eficaz, garantida pelo DIU. A diretriz limita o antibiótico oral a cerca de 3 a 4 meses, sempre com peróxido de benzoíla, para conter resistência, e desaconselha associar dois antibióticos. A isotretinoína seria opção se houvesse cicatrizes ou doença grave.",
+"porAlt": [
+"Correta: acne hormonal da mulher adulta que recai após antibiótico responde à espironolactona, com contracepção garantida pelo DIU.",
+"Prolongar o antibiótico além de 3 a 4 meses favorece resistência bacteriana e não é recomendado na acne.",
+"Corticoide sistêmico contínuo não trata acne e pode até desencadear erupção acneiforme.",
+"Associar dois antibióticos não é recomendado e amplia o risco de resistência sem benefício adicional.",
+"A finasterida não é recomendada para acne na mulher em idade fértil, pelo risco teratogênico e evidência fraca."
 ]
 },
 {
