@@ -23953,6 +23953,870 @@ window.BANCO=[
 }
 },
 {
+"q": "Mulher de 34 anos, 60 kg, procura o pronto-socorro com dor torácica ventilatório-dependente há 2 dias, que piora em decúbito e alivia ao inclinar o tronco para frente. Teve resfriado há 10 dias. Temperatura de 37,4 °C, pressão arterial de 118/74 mmHg, atrito pericárdico audível. O eletrocardiograma mostra supradesnivelamento côncavo difuso do segmento ST com infradesnivelamento de PR. Proteína C reativa de 38 mg/L, troponina normal e ecocardiograma com derrame pericárdico de 6 mm, sem colapso de câmaras. Não usa anticoagulante e tem função renal normal. Foi prescrito ibuprofeno 600 mg de 8 em 8 horas, com proteção gástrica. Qual é o esquema de colchicina mais adequado?",
+"alts": [
+"0,5 mg de 12 em 12 horas por 6 meses, com desmame",
+"1 mg de 12 em 12 horas por apenas duas semanas",
+"0,5 mg ao dia apenas se houver uma recorrência",
+"0,5 mg de 12 em 12 horas enquanto houver dor",
+"0,5 mg uma vez ao dia por 3 meses, sem desmame"
+],
+"gab": 4,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESC 2025 de miocardite e pericardite, colchicina ajustada ao peso por 3 meses no primeiro episódio",
+"coment": "O quadro preenche o diagnóstico de pericardite aguda: dor típica, atrito, alteração eletrocardiográfica difusa, derrame e marcador inflamatório elevado, sem nenhum sinal de alto risco (febre alta, derrame volumoso, tamponamento, imunossupressão, anticoagulação ou falha do anti-inflamatório). A diretriz europeia de 2025, que passou a tratar miocardite e pericardite como um espectro de síndrome inflamatória miopericárdica, manteve o anti-inflamatório associado à colchicina como base do tratamento e reforçou que a colchicina deixou de ser opcional. A dose é ajustada pelo peso: 0,5 mg uma vez ao dia abaixo de 70 kg e 0,5 mg de 12 em 12 horas a partir de 70 kg, por 3 meses no primeiro episódio e 6 meses na recorrência, sem necessidade de desmame. O anti-inflamatório, ao contrário, é mantido até a resolução dos sintomas e da proteína C reativa e então reduzido gradualmente.",
+"porAlt": [
+"Dose de 12 em 12 horas é para quem tem 70 kg ou mais, e 6 meses é a duração para recorrência, não para o primeiro episódio.",
+"Doses de 2 mg ao dia aumentam diarreia e toxicidade sem ganho, e 2 semanas é curto demais para reduzir recorrência.",
+"Adiar a colchicina para a recorrência abre mão da redução de cerca de metade das recidivas demonstrada desde o primeiro episódio.",
+"A colchicina tem duração fixa e não é guiada pela dor; quem é desmamado conforme sintomas e proteína C reativa é o anti-inflamatório.",
+"Correta: com 60 kg, a dose é de 0,5 mg ao dia, mantida por 3 meses no primeiro episódio, e a colchicina não exige desmame."
+]
+},
+{
+"q": "Homem de 41 anos, 82 kg, teve pericardite aguda viral há 10 semanas, tratada com ibuprofeno e colchicina. Por conta própria, suspendeu os dois medicamentos na terceira semana, quando a dor cedeu, e ficou assintomático por cerca de 7 semanas. Há 2 dias voltou a ter dor torácica pleurítica típica. Está afebril, com pressão arterial de 126/80 mmHg e atrito pericárdico. Proteína C reativa de 46 mg/L, troponina normal, ecocardiograma com derrame pequeno e função ventricular preservada. Não tem doença autoimune conhecida, tuberculose ou neoplasia. Qual é a conduta mais adequada?",
+"alts": [
+"Prednisona 1 mg/kg/dia como primeira escolha nesta recorrência",
+"Anakinra subcutânea já nesta primeira recorrência, sem AINE",
+"Indicar pericardiectomia pela recorrência em menos de 3 meses",
+"AINE isolado por 2 semanas, guardando colchicina para depois",
+"Retomar o AINE com colchicina 0,5 mg de 12/12 h por 6 meses"
+],
+"gab": 4,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC 2025 de miocardite e pericardite, tratamento escalonado da pericardite recorrente",
+"coment": "Recorrência é o retorno da inflamação pericárdica após intervalo livre de sintomas de 4 a 6 semanas, como aqui. A causa mais comum de recidiva é justamente tratamento curto ou sem colchicina. A diretriz europeia de 2025 manteve a abordagem escalonada da versão de 2015: o primeiro passo na recorrência é repetir o anti-inflamatório em dose plena, com desmame guiado por sintomas e proteína C reativa, associado à colchicina por pelo menos 6 meses, na dose de 0,5 mg de 12 em 12 horas para quem tem 70 kg ou mais. O corticoide fica reservado para contraindicação ou falha do anti-inflamatório, em dose baixa a moderada, porque doses altas favorecem dependência e novas recidivas. Os bloqueadores de interleucina 1, anakinra e rilonacepte, ganharam espaço nos casos refratários ou dependentes de corticoide com proteína C reativa elevada, e a pericardiectomia é exceção.",
+"porAlt": [
+"Corticoide em dose alta como primeira escolha aumenta a chance de novas recidivas e de dependência, e não é o passo inicial.",
+"Os bloqueadores de interleucina 1 são reservados para refratariedade ou dependência de corticoide, não para a primeira recidiva.",
+"A pericardiectomia é reservada a casos muito selecionados e refratários a todo o tratamento clínico, o que não é este cenário.",
+"Tratar sem colchicina repete o erro que provavelmente causou esta recidiva, e 2 semanas fixas ignoram o desmame guiado.",
+"Correta: a primeira recorrência repete anti-inflamatório em dose plena com colchicina, agora mantida por pelo menos 6 meses."
+]
+},
+{
+"q": "Mulher de 58 anos, com adenocarcinoma de pulmão em quimioterapia, chega com dispneia progressiva há 5 dias. Está taquipneica, com pressão arterial de 92/70 mmHg, frequência cardíaca de 118 bpm, turgência jugular a 45 graus e bulhas abafadas. Pulmões sem estertores. Durante a medida da pressão, os sons de Korotkoff desaparecem na inspiração e a pressão sistólica cai de 92 para 72 mmHg. O eletrocardiograma mostra baixa voltagem e alternância elétrica. Qual é o nome do achado inspiratório e o que ele sugere?",
+"alts": [
+"Sinal de Kussmaul, sugerindo tamponamento cardíaco",
+"Pulso paradoxal, sugerindo tamponamento cardíaco",
+"Pulso alternante, sugerindo disfunção sistólica",
+"Pulso paradoxal, típico de pericardite constritiva",
+"Pulso bisferiens, sugerindo insuficiência aórtica"
+],
+"gab": 1,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "r1",
+"base": "ESC 2025 de miocardite e pericardite, diagnóstico clínico e ecocardiográfico do tamponamento",
+"coment": "Pulso paradoxal é a queda da pressão sistólica maior que 10 mmHg na inspiração. No tamponamento, o pericárdio cheio de líquido fixa o volume total do coração: na inspiração, o retorno venoso aumenta o enchimento do ventrículo direito, o septo desvia para a esquerda e o débito do ventrículo esquerdo cai. Somado à hipotensão, à turgência jugular e às bulhas abafadas (tríade de Beck), e à alternância elétrica, que reflete o coração balançando no derrame volumoso, o quadro é de tamponamento, provavelmente neoplásico. A confirmação vem do ecocardiograma, que mostra o derrame, o colapso diastólico de átrio e ventrículo direitos, a veia cava dilatada sem colapso e a variação respiratória exagerada dos fluxos. A conduta é a drenagem pericárdica guiada por imagem, evitando diuréticos e vasodilatadores, que derrubam ainda mais o enchimento ventricular.",
+"porAlt": [
+"O sinal de Kussmaul é a elevação da pressão venosa jugular na inspiração, típico da constrição e raro no tamponamento.",
+"Correta: queda inspiratória maior que 10 mmHg da pressão sistólica é pulso paradoxal, marca da interdependência ventricular do tamponamento.",
+"O pulso alternante varia batimento a batimento, sem relação com a respiração, e indica disfunção ventricular grave.",
+"O pulso paradoxal é incomum na constrição pura; nela, o achado clássico é o sinal de Kussmaul e o descenso y profundo.",
+"O pulso bisferiens tem dois picos sistólicos e aparece na insuficiência aórtica e na miocardiopatia hipertrófica."
+]
+},
+{
+"q": "Homem de 76 anos, assintomático, faz avaliação pré-operatória de cirurgia de catarata. Nega síncope, tontura, dispneia ou queda. Frequência cardíaca de 46 bpm e pressão arterial de 138/76 mmHg. O eletrocardiograma mostra ritmo sinusal com intervalo PR constante de 180 ms e ondas P bloqueadas subitamente, sem prolongamento prévio do PR, além de bloqueio de ramo esquerdo com QRS de 150 ms. Não usa betabloqueador, digoxina ou antiarrítmico. Potássio de 4,3 mEq/L, TSH normal e ecocardiograma com fração de ejeção de 58%. Qual é a conduta mais adequada?",
+"alts": [
+"Holter de 24 horas e reavaliar só se surgir sintomas",
+"Atropina antes da cirurgia e seguimento ambulatorial",
+"Teste ergométrico para avaliar a resposta cronotrópica",
+"Marca-passo apenas se houver uma síncope documentada",
+"Implantar marca-passo definitivo, sem esperar sintomas"
+],
+"gab": 4,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESC 2021 de estimulação cardíaca, BAV de segundo grau Mobitz II com indicação classe I independente de sintomas",
+"coment": "O traçado descreve bloqueio atrioventricular de segundo grau tipo Mobitz II: PR fixo e bloqueio súbito da onda P, geralmente infranodal, sobretudo quando há QRS largo. Diferentemente do Mobitz I, que costuma ser nodal e benigno, o Mobitz II tem alto risco de progredir para bloqueio total com escape lento e instável, síncope e morte súbita. A diretriz europeia de estimulação cardíaca de 2021 indica marca-passo definitivo, classe I, no bloqueio de segundo grau Mobitz II, no bloqueio 2:1 infranodal, no bloqueio avançado e no bloqueio total, com ou sem sintomas, desde que afastadas causas reversíveis, como fármacos, hipercalemia, hipotireoidismo e isquemia aguda. Aqui todas foram excluídas. Com fração de ejeção preservada, o modo de estimulação convencional é adequado. A cirurgia de catarata pode ser feita depois do implante.",
+"porAlt": [
+"Esperar sintomas no Mobitz II expõe o paciente a bloqueio total súbito, síncope e morte, e a indicação já está estabelecida.",
+"A atropina age no nó atrioventricular e pode piorar o bloqueio infranodal ao aumentar a frequência sinusal sem melhorar a condução.",
+"Teste de esforço não muda a indicação; o Mobitz II com QRS largo já define a necessidade de estimulação permanente.",
+"A diretriz não exige síncope documentada no Mobitz II; ela é critério em outros cenários, como bloqueio bifascicular.",
+"Correta: Mobitz II sem causa reversível tem indicação classe I de marca-passo definitivo, independentemente de sintomas."
+]
+},
+{
+"q": "Mulher de 29 anos, com asma grave e duas internações em terapia intensiva no último ano, usa corticoide inalatório com broncodilatador de longa ação. Chega ao pronto-socorro com palpitações de início súbito há 40 minutos. Está consciente, sem dispneia ou sibilos, com pressão arterial de 118/76 mmHg, frequência cardíaca de 196 bpm e saturação de 98%. O eletrocardiograma mostra taquicardia regular de QRS estreito, sem ondas P visíveis. A manobra de Valsalva modificada, com elevação das pernas, foi feita duas vezes, sem efeito. Qual é a próxima medida mais adequada?",
+"alts": [
+"Adenosina 6 mg em bolus rápido, seguida de flush",
+"Cardioversão elétrica sincronizada imediata já",
+"Metoprolol intravenoso em doses repetidas lentas",
+"Verapamil intravenoso lento, com monitorização",
+"Amiodarona 300 mg intravenosa em bolus rápido"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "ESC 2019 de taquicardia supraventricular, manejo agudo da taquicardia regular de QRS estreito",
+"coment": "Trata-se de taquicardia supraventricular regular, provavelmente reentrada nodal, em paciente estável. A sequência da diretriz europeia de 2019 é: manobra vagal, de preferência a Valsalva modificada com elevação das pernas; se falhar, adenosina intravenosa em bolus rápido; se a adenosina falhar ou não puder ser usada, verapamil ou diltiazem intravenosos; cardioversão elétrica fica para instabilidade ou falha de tudo. A adenosina causa broncoespasmo e deve ser evitada na asma grave, que é exatamente o caso desta paciente, com internações recentes em terapia intensiva. Os betabloqueadores intravenosos têm recomendação fraca e também são inadequados na asma grave. Por isso, o bloqueador de canal de cálcio não di-hidropiridínico, infundido lentamente com monitorização da pressão, é a melhor escolha. Ele é eficaz na reentrada dependente do nó atrioventricular e não piora a broncoconstrição.",
+"porAlt": [
+"A adenosina seria o passo seguinte na maioria dos pacientes, mas provoca broncoespasmo e deve ser evitada na asma grave.",
+"A paciente está estável; cardioversão elétrica fica para instabilidade hemodinâmica ou falha das medidas farmacológicas.",
+"Betabloqueador intravenoso tem recomendação fraca na reversão e pode precipitar broncoespasmo grave nesta paciente asmática.",
+"Correta: com adenosina contraindicada pela asma grave, o verapamil intravenoso é a alternativa para reverter a reentrada nodal.",
+"A amiodarona é pouco eficaz e lenta para reverter reentrada nodal, e não é opção de segunda linha na diretriz europeia."
+]
+},
+{
+"q": "Homem de 64 anos, com infarto anterior há 3 anos e fração de ejeção de 35%, chega com palpitações há 1 hora. Está consciente, sem dor torácica, sem dispneia ou congestão, com pressão arterial de 124/80 mmHg e boa perfusão. O eletrocardiograma mostra taquicardia regular a 172 bpm, com QRS de 160 ms, dissociação atrioventricular e concordância negativa nas derivações precordiais. Potássio de 4,2 mEq/L e magnésio normal. Há anestesista disponível e ele está em jejum há 6 horas. Qual é a conduta inicial mais adequada?",
+"alts": [
+"Verapamil intravenoso para reverter o ritmo atual",
+"Adenosina, tratando como ritmo supraventricular",
+"Digoxina intravenosa para controlar a frequência",
+"Observar, já que está estável e sem dor torácica",
+"Cardioversão elétrica sincronizada sob sedação"
+],
+"gab": 4,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESC 2022 de arritmias ventriculares e prevenção de morte súbita, taquicardia ventricular monomórfica tolerada",
+"coment": "Taquicardia de QRS largo em paciente com cicatriz de infarto é taquicardia ventricular até prova em contrário, e aqui há critérios específicos: dissociação atrioventricular e concordância precordial. Estar hemodinamicamente estável não muda o diagnóstico, apenas a urgência. A diretriz europeia de 2022 recomenda, como primeira linha na taquicardia ventricular monomórfica sustentada bem tolerada, a cardioversão elétrica sincronizada sob sedação, quando o risco anestésico é baixo, por ser mais rápida e eficaz que os antiarrítmicos. A procainamida é a opção farmacológica preferida, e a amiodarona tem papel menor na reversão aguda, embora seja útil na prevenção de recorrência. Verapamil é perigoso em taquicardia de QRS largo de origem incerta, pois pode causar colapso hemodinâmico em taquicardia ventricular. Depois da reversão, a fração de ejeção reduzida e a arritmia sustentada orientam a avaliação para cardiodesfibrilador implantável.",
+"porAlt": [
+"O verapamil em taquicardia ventricular pode provocar hipotensão grave e parada, e é contraindicado no QRS largo incerto.",
+"Os critérios apontam taquicardia ventricular; tratá-la como supraventricular aberrante atrasa a terapia e pode ser perigoso.",
+"A digoxina não reverte taquicardia ventricular e não tem papel no controle de frequência de arritmia ventricular sustentada.",
+"Taquicardia ventricular sustentada pode degenerar a qualquer momento, e estabilidade não autoriza conduta expectante.",
+"Correta: na taquicardia ventricular tolerada com baixo risco anestésico, a cardioversão sincronizada é a primeira linha."
+]
+},
+{
+"q": "Homem de 59 anos, hipertenso mal controlado, chega com dor torácica súbita e lancinante, irradiada para o dorso, há 2 horas. Pressão arterial de 84/60 mmHg no braço direito e 62/40 mmHg no esquerdo, frequência de 120 bpm, turgência jugular e sopro diastólico em foco aórtico. O ecocardiograma à beira do leito mostra lâmina de dissecção na aorta ascendente, insuficiência aórtica moderada e derrame pericárdico com colapso diastólico do ventrículo direito. A cirurgia cardíaca está disponível no próprio hospital. Qual é a conduta mais adequada?",
+"alts": [
+"Pericardiocentese ampla antes de outras medidas",
+"Nitroprussiato e betabloqueador até PAS de 110",
+"Cirurgia de emergência da aorta ascendente, já",
+"Reparo endovascular após estabilizar a pressão",
+"Anticoagulação plena e cateterismo coronário"
+],
+"gab": 2,
+"tema": "cardio",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "ESC 2024 de doenças arteriais periféricas e aórticas, síndrome aórtica aguda tipo A complicada por tamponamento",
+"coment": "Dor torácica lancinante, assimetria de pulsos e sopro de insuficiência aórtica, com lâmina de dissecção na aorta ascendente, definem dissecção aguda tipo A de Stanford. O derrame com colapso de ventrículo direito e hipotensão indica tamponamento por ruptura para o pericárdio, principal causa de morte precoce. A diretriz europeia de 2024 recomenda cirurgia de emergência na dissecção tipo A. No tamponamento, a pericardiocentese ampla é perigosa: ao aliviar a pressão pericárdica, a pressão arterial sobe e o sangramento pela aorta rota recomeça, com colapso. Se a cirurgia não estiver imediatamente disponível, admite-se drenagem controlada de pequenos volumes apenas para manter perfusão mínima. O controle de pressão e frequência com betabloqueador e vasodilatador vale para o paciente hipertenso sem choque, não para quem já está hipotenso. Anticoagulação e trombólise são contraindicadas, e o reparo endovascular é estratégia para dissecção tipo B.",
+"porAlt": [
+"A drenagem ampla eleva a pressão e pode reabrir o sangramento aórtico; se feita, deve ser controlada e só na espera da cirurgia.",
+"Controle anti-impulso é para o paciente hipertenso; neste choque com tamponamento, vasodilatador e betabloqueador agravam a perfusão.",
+"Correta: dissecção tipo A com tamponamento exige cirurgia de emergência, sem atrasar com outras abordagens.",
+"O tratamento endovascular é estratégia da dissecção tipo B complicada; a tipo A, com aorta ascendente, exige cirurgia aberta.",
+"Anticoagular uma dissecção aguda agrava o sangramento, e cateterismo coronário atrasa a cirurgia que define a sobrevida."
+]
+},
+{
+"q": "Homem de 70 anos, ex-tabagista, foi submetido há 2 meses ao reparo endovascular de aneurisma de aorta abdominal infrarrenal de 6,1 cm, descoberto em ultrassonografia. Na consulta, pergunta se os familiares devem ser examinados. Tem um irmão de 56 anos, que nunca fumou e é hipertenso; uma irmã de 62 anos, não tabagista; uma filha de 48 anos e um filho de 44 anos, ambos saudáveis. Segundo a diretriz europeia mais recente, quem deve fazer rastreamento com ultrassonografia agora?",
+"alts": [
+"Apenas o irmão, por ser homem acima de 50",
+"Todos, inclusive os filhos abaixo de 50",
+"Nenhum, pois só fumantes acima de 65 anos",
+"O irmão de 56 anos e a irmã de 62 anos",
+"Apenas os parentes com 65 anos ou mais"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r2",
+"base": "ESC 2024 de doenças arteriais periféricas e aórticas, rastreamento de aneurisma de aorta abdominal em parentes de primeiro grau",
+"coment": "A agregação familiar do aneurisma de aorta abdominal é marcante: parentes de primeiro grau têm risco várias vezes maior que a população geral. A diretriz europeia de 2024 passou a recomendar, com classe I, rastreamento com ultrassonografia em parentes de primeiro grau a partir de 50 anos de idade de pacientes com aneurisma, independentemente do sexo e do tabagismo. Para a população geral, a mesma diretriz recomenda rastrear homens a partir de 65 anos com história de tabagismo, todos os homens a partir de 75 anos e mulheres a partir de 75 anos fumantes ou hipertensas. Aqui, os irmãos de 56 e 62 anos têm indicação agora; os filhos, abaixo de 50 anos, devem ser rastreados ao atingir essa idade. O exame é simples e não invasivo, e um ultrassom normal com aorta abaixo de 2,5 cm aos 65 anos praticamente afasta aneurisma futuro clinicamente relevante.",
+"porAlt": [
+"O critério familiar não distingue sexo; a irmã de 62 anos também tem indicação de rastreamento com ultrassonografia.",
+"Abaixo de 50 anos o rastreio não é recomendado; filha e filho devem ser examinados quando chegarem a essa idade.",
+"Fumantes acima de 65 anos é critério populacional; a história familiar é indicação própria, independente de tabagismo.",
+"Correta: parentes de primeiro grau de 50 anos ou mais devem ser rastreados, sem distinção de sexo ou de tabagismo.",
+"O corte de 65 anos vale para homens tabagistas da população geral, não para parentes de primeiro grau, rastreados aos 50."
+]
+},
+{
+"q": "Homem de 71 anos, ex-tabagista, hipertenso, está em vigilância de aneurisma de aorta abdominal infrarrenal. Há 6 meses, a angiotomografia mostrou diâmetro máximo de 4,7 cm. A nova angiotomografia, no mesmo serviço e com a mesma técnica de medida, mostra 5,3 cm. Está assintomático, sem dor abdominal ou lombar, e o exame físico mostra massa pulsátil indolor. Usa atorvastatina, anlodipino e ácido acetilsalicílico, tem função renal normal e boa capacidade funcional. Qual é a conduta mais adequada?",
+"alts": [
+"Manter a vigilância até o diâmetro chegar a 5,5 cm",
+"Repetir a angiotomografia em 12 meses e então reavaliar",
+"Indicar reparo apenas se surgir dor abdominal ou lombar",
+"Encaminhar ao reparo eletivo pelo crescimento rápido",
+"Iniciar doxiciclina para frear o crescimento da aorta"
+],
+"gab": 3,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESC 2024 de doenças arteriais periféricas e aórticas, indicação de reparo do aneurisma de aorta abdominal por diâmetro ou crescimento",
+"coment": "A indicação de reparo do aneurisma de aorta abdominal assintomático se apoia em dois critérios: diâmetro e velocidade de crescimento. O diâmetro de corte clássico é 5,5 cm em homens, com limiar menor em mulheres, que rompem com diâmetros menores. O segundo critério, frequentemente esquecido, é o crescimento rápido, de 1 cm ou mais por ano, que sinaliza risco de ruptura acima do previsto pelo diâmetro isolado. Aqui o aneurisma cresceu 6 mm em 6 meses, ritmo anual acima de 1 cm, medido com o mesmo método, o que afasta erro de medida. A diretriz europeia de 2024 orienta encaminhar esses pacientes para reparo eletivo, aberto ou endovascular conforme anatomia e risco cirúrgico. Nenhum medicamento reduz o crescimento do aneurisma; doxiciclina e outros testados falharam. Estatina e controle pressórico seguem indicados pelo risco cardiovascular.",
+"porAlt": [
+"Esperar 5,5 cm ignora o segundo critério de reparo; crescimento rápido sinaliza risco de ruptura maior que o do diâmetro.",
+"Com crescimento rápido já documentado, alongar o intervalo de vigilância expõe o paciente a ruptura no período.",
+"Dor abdominal ou lombar em aneurisma sugere expansão aguda ou ruptura iminente; aguardá-la é perder a janela eletiva.",
+"Correta: crescimento acima de 1 cm por ano indica reparo eletivo mesmo antes de o diâmetro atingir 5,5 cm.",
+"A doxiciclina não reduziu o crescimento do aneurisma em ensaio clínico, e nenhum fármaco substitui o reparo indicado."
+]
+},
+{
+"q": "Homem de 68 anos, diabético há 20 anos, com doença renal crônica estágio 3, queixa-se de dor em panturrilhas ao caminhar cerca de 150 metros, que cede com repouso de poucos minutos. Os pulsos pediosos e tibiais posteriores não são palpáveis, e há rarefação de pelos e pele fria nos pés, sem úlceras. O índice tornozelo-braquial é de 1,48 à direita e 1,52 à esquerda. Qual é a interpretação correta e o próximo passo?",
+"alts": [
+"Índice normal, que afasta doença arterial periférica",
+"Índice alto, que confirma insuficiência venosa crônica",
+"Artérias incompressíveis; medir índice hálux-braquial",
+"Índice normal; repetir o índice após esforço em esteira",
+"Índice alto indica arteriografia para revascularizar"
+],
+"gab": 2,
+"tema": "cardio",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "ESC 2024 de doenças arteriais periféricas e aórticas, índice tornozelo-braquial acima de 1,40 e índice hálux-braquial",
+"coment": "O índice tornozelo-braquial é o primeiro exame para diagnosticar doença arterial periférica: valor igual ou menor que 0,90 confirma o diagnóstico. Valores acima de 1,40, porém, não significam artérias saudáveis: indicam artérias tibiais calcificadas e incompressíveis, comuns em diabéticos e renais crônicos, que exigem pressão alta do manguito para colabá-las e superestimam a pressão no tornozelo. Nessa situação, a diretriz europeia de 2024 recomenda medir o índice hálux-braquial, pois as artérias digitais costumam ser poupadas da calcificação; valor abaixo de 0,70 confirma a doença. A ultrassonografia com Doppler também ajuda a localizar as lesões. Aqui a claudicação típica e a ausência de pulsos tornam a doença muito provável. O índice após esforço é útil quando o índice de repouso fica entre 0,91 e 1,40 com sintomas sugestivos, o que não é o caso.",
+"porAlt": [
+"Índice acima de 1,40 não é normal; é artefato de calcificação e não afasta doença arterial nesse paciente com claudicação.",
+"Índice elevado reflete rigidez arterial, não doença venosa; claudicação ao andar que cede no repouso é arterial.",
+"Correta: acima de 1,40 o índice é falso por calcificação, e o índice hálux-braquial abaixo de 0,70 confirma a doença.",
+"O teste de esforço é útil com índice de repouso entre 0,91 e 1,40; acima disso, a medida no tornozelo é inválida.",
+"A arteriografia não é o próximo passo nem há indicação de revascularização antes de confirmar e tratar clinicamente."
+]
+},
+{
+"q": "Homem de 66 anos, diabético, com doença renal crônica e filtração de 22 mL/min/1,73 m², usa enalapril. É admitido com fraqueza e potássio de 6,9 mEq/L, confirmado em nova amostra. O eletrocardiograma mostra ondas T apiculadas e QRS de 98 ms. Recebeu gluconato de cálcio a 10% e insulina regular 10 unidades com 25 g de glicose, com glicemia monitorada. A diurese é preservada, de 1,2 litro por dia, sem congestão, e a gasometria é normal. Qual é a medida mais adequada para remover potássio do organismo a seguir?",
+"alts": [
+"Poliestireno sulfonato de cálcio em enema de retenção",
+"Ciclossilicato de zircônio sódico 10 g de 8/8 horas",
+"Bicarbonato de sódio a 8,4% em bolus intravenoso já",
+"Salbutamol nebulizado em dose alta de 4 em 4 horas",
+"Hemodiálise de urgência, antes de qualquer outra medida"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO Controversies Conference on potassium 2020 e UK Kidney Association 2023, quelantes novos na hipercalemia aguda",
+"coment": "O tratamento da hipercalemia grave tem três tempos: estabilizar a membrana com cálcio, redistribuir o potássio para dentro das células com insulina e glicose ou beta-agonista, e remover o potássio do organismo. As duas primeiras etapas ganham horas, mas não reduzem o potássio corporal total. Para a remoção, o ciclossilicato de zircônio sódico troca potássio por sódio e hidrogênio no intestino com início de ação em cerca de 1 hora, e a diretriz britânica de 2023 o recomenda na hipercalemia grave aguda, junto com as medidas de urgência. O poliestireno sulfonato age lentamente e tem risco de necrose intestinal, sobretudo em enema. Bicarbonato só ajuda na acidose metabólica. Com diurese preservada e resposta às medidas iniciais, a hemodiálise fica para hipercalemia refratária, oligúria ou outras indicações de urgência. Revisar o inibidor da enzima conversora é parte do plano.",
+"porAlt": [
+"O poliestireno age em horas a dias, de forma imprevisível, e em enema associa-se a necrose colônica.",
+"Correta: o ciclossilicato remove potássio pelo intestino com início em cerca de 1 hora e é indicado na hipercalemia aguda grave.",
+"Com gasometria normal, o bicarbonato quase não reduz o potássio, além de sobrecarregar sódio e volume.",
+"O salbutamol apenas desloca o potássio para dentro das células e não reduz o estoque corporal total.",
+"Diálise é para hipercalemia refratária ou com indicação adicional; aqui houve resposta e a diurese está preservada."
+]
+},
+{
+"q": "Homem de 59 anos, com diabetes tipo 2 e doença renal crônica, filtração de 38 mL/min/1,73 m² e relação albumina-creatinina de 1.100 mg/g, usa losartana 100 mg, dapagliflozina 10 mg, clortalidona 25 mg e anlodipino. Pressão arterial de 128/78 mmHg. Nas três últimas coletas, sem hemólise, o potássio ficou entre 5,6 e 5,8 mEq/L. Recebeu orientação nutricional, não usa anti-inflamatórios ou suplementos e tem bicarbonato sérico de 24 mEq/L. Eletrocardiograma normal. Qual é a conduta mais adequada?",
+"alts": [
+"Manter losartana e associar patirômer ou ciclossilicato",
+"Suspender a losartana e aumentar a dose do anlodipino",
+"Reduzir a losartana para 25 mg ao dia e reavaliar o K",
+"Poliestireno sulfonato de cálcio diário, por tempo longo",
+"Bicarbonato de sódio oral, mesmo com bicarbonato normal"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO 2024 de doença renal crônica, manejo da hipercalemia associada ao bloqueio do sistema renina-angiotensina",
+"coment": "O paciente tem doença renal diabética com albuminúria muito elevada, cenário em que o bloqueador do receptor de angiotensina em dose máxima reduz a progressão renal e eventos cardiovasculares. A hipercalemia é a principal razão de suspensão desses fármacos na prática, e a diretriz KDIGO de 2024 orienta controlar o potássio com outras medidas antes de reduzir ou suspender o bloqueio. Aqui já foram feitas as medidas básicas: revisão dietética e de medicamentos, diurético tiazídico, inibidor de SGLT2, que também reduz o potássio, e bicarbonato normal, sem acidose a corrigir. O passo seguinte são os quelantes novos, patirômer ou ciclossilicato de zircônio sódico, bem tolerados no uso crônico e capazes de manter o potássio controlado com o bloqueio pleno. O poliestireno tem efeito errático e risco gastrointestinal, sem dados de segurança no uso prolongado.",
+"porAlt": [
+"Correta: com as medidas básicas esgotadas, o quelante novo permite manter o bloqueio nefroprotetor em dose plena.",
+"Suspender a losartana tira a nefroproteção de um paciente com albuminúria muito alta, e o anlodipino não a substitui.",
+"Reduzir a dose sacrifica parte do benefício renal, e a diretriz prefere controlar o potássio antes de mexer no bloqueio.",
+"O poliestireno tem ação errática e risco de lesão intestinal, e não há dados que apoiem seu uso crônico prolongado.",
+"O bicarbonato reduz potássio quando corrige acidose metabólica; com bicarbonato sérico normal, não há indicação."
+]
+},
+{
+"q": "Homem de 58 anos está em investigação de plaquetose de 1.150.000/mm³ encontrada em exame de rotina. Assintomático, sem uso de medicamentos, com pressão arterial de 130/82 mmHg. Os exames mostram potássio sérico de 6,5 mEq/L, creatinina de 0,9 mg/dL, bicarbonato de 25 mEq/L, glicemia normal e ausência de hemólise relatada pelo laboratório. O eletrocardiograma é normal. Há 1 ano, com plaquetas de 480.000/mm³, o potássio era de 4,4 mEq/L. Qual é a conduta mais adequada para esclarecer o potássio?",
+"alts": [
+"Dosar o potássio no plasma, em tubo com heparina",
+"Gluconato de cálcio e insulina com glicose agora",
+"Ciclossilicato de zircônio por 48 horas e repetir",
+"Investigar hipoaldosteronismo com renina sérica",
+"Restringir potássio da dieta e repetir em 1 mês"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "KDIGO Controversies Conference on potassium 2020, pseudo-hipercalemia por trombocitose",
+"coment": "Antes de tratar uma hipercalemia, é preciso confirmar que ela é real. Na coagulação do sangue no tubo de soro, as plaquetas liberam potássio; com contagens muito altas, essa liberação eleva artificialmente o potássio sérico, fenômeno chamado pseudo-hipercalemia, que também ocorre em leucocitoses extremas, hemólise e garroteamento prolongado com o punho cerrado. As pistas aqui são a plaquetose acentuada, a função renal normal, a ausência de fármacos ou acidose, o eletrocardiograma normal e o potássio normal quando as plaquetas eram menores. A conferência KDIGO de 2020 recomenda dosar o potássio no plasma, em tubo heparinizado, idealmente com gasometria, coleta sem garrote prolongado e processamento rápido. Se o potássio plasmático for normal, nenhum tratamento é necessário. Tratar a pseudo-hipercalemia expõe o paciente a hipocalemia e hipoglicemia sem benefício.",
+"porAlt": [
+"Correta: a dosagem plasmática, sem coagulação no tubo, afasta a liberação de potássio pelas plaquetas e confirma o valor real.",
+"Medidas de urgência para um potássio provavelmente artificial, com eletrocardiograma normal, expõem a riscos sem benefício.",
+"Tratar sem confirmar pode induzir hipocalemia; primeiro é preciso saber se o potássio está realmente elevado.",
+"Hipoaldosteronismo só é investigado depois de confirmada hipercalemia verdadeira, o que ainda não foi feito.",
+"Restringir a dieta não faz sentido sem confirmar o distúrbio, e a explicação mais provável é a plaquetose."
+]
+},
+{
+"q": "Mulher de 70 anos, internada por diarreia aguda há 4 dias, usa hidroclorotiazida para hipertensão, suspensa na admissão. O potássio inicial era de 2,8 mEq/L. Nas últimas 24 horas, recebeu 120 mEq de cloreto de potássio, por via oral e intravenosa, e o potássio agora é de 2,9 mEq/L. O magnésio é de 1,1 mg/dL, a função renal é normal e a diarreia diminuiu. O eletrocardiograma mostra ondas U proeminentes e QT corrigido de 480 ms, sem arritmias. Qual é a conduta mais adequada?",
+"alts": [
+"Dobrar o cloreto de potássio em bolus rápido",
+"Associar espironolactona e manter a mesma dose",
+"Repor sulfato de magnésio junto com o potássio",
+"Diluir o cloreto de potássio em soro glicosado",
+"Trocar o cloreto por citrato de potássio oral"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "KDIGO Controversies Conference on potassium 2020, hipocalemia refratária por hipomagnesemia",
+"coment": "Hipocalemia que não responde a reposição adequada deve levantar a suspeita de hipomagnesemia, comum com diarreia e diuréticos tiazídicos. O magnésio intracelular inibe os canais de potássio da medula renal; quando ele cai, esses canais ficam abertos e o rim perde potássio continuamente, de modo que a reposição de potássio isolada não se sustenta. Por isso, corrige-se o magnésio junto com o potássio, com sulfato de magnésio intravenoso na presença de alterações eletrocardiográficas, como aqui, com QT prolongado. A reposição intravenosa de potássio em veia periférica deve respeitar cerca de 10 mEq por hora, com velocidades maiores apenas em acesso central e monitorização. O diluente deve ser soro fisiológico: a glicose estimula insulina e desloca potássio para dentro das células. Na hipocalemia por diarreia com acidose, o citrato pode ajudar, mas não resolve o problema central aqui.",
+"porAlt": [
+"Bolus rápido de potássio é perigoso, com risco de arritmia fatal, e não resolve a perda renal causada pela hipomagnesemia.",
+"A espironolactona reduz a perda renal de potássio, mas não corrige a causa da refratariedade, que é o magnésio baixo.",
+"Correta: sem corrigir o magnésio, o rim continua perdendo potássio e a reposição isolada não se sustenta.",
+"Soro glicosado estimula a insulina, que desloca potássio para dentro das células e pode agravar a hipocalemia.",
+"Trocar o sal de potássio não corrige a hipomagnesemia, que é o motivo da resposta insuficiente à reposição."
+]
+},
+{
+"q": "Homem de 74 anos, com insuficiência cardíaca de fração reduzida, está internado por pneumonia. Recebeu furosemida 80 mg intravenosa há 6 horas por congestão leve. A creatinina subiu de 1,0 para 2,3 mg/dL em 48 horas, e a diurese foi de 0,4 mL/kg/h nas últimas 8 horas. Pressão arterial de 96/58 mmHg, frequência de 104 bpm, mucosas secas e balanço hídrico negativo de 2,1 litros em 2 dias. Exames urinários: sódio de 48 mEq/L, fração de excreção de sódio de 2,1%, fração de excreção de ureia de 24% e sedimento sem cilindros granulosos. Qual é a interpretação mais adequada?",
+"alts": [
+"Pré-renal, e a FENa está falseada pelo diurético",
+"Necrose tubular aguda, pela FENa acima de 1,0%",
+"Nefrite intersticial aguda induzida pela furosemida",
+"Lesão pós-renal obstrutiva pela oligúria súbita",
+"Necrose tubular aguda, confirmada pela FEUreia"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "KDIGO LRA 2012, avaliação etiológica da lesão renal aguda e fração de excreção de ureia sob diurético",
+"coment": "O aumento de creatinina para mais de duas vezes o basal define lesão renal aguda estágio 2 pela KDIGO. A pergunta é se a causa é pré-renal ou necrose tubular. A fração de excreção de sódio abaixo de 1% sugere pré-renal, mas perde valor após diurético de alça, que aumenta a natriurese por si só; aqui ela está alta porque o paciente recebeu furosemida há poucas horas. A fração de excreção de ureia depende menos do túbulo distal e é pouco afetada pelos diuréticos: valor abaixo de 35% sugere causa pré-renal, e acima de 50%, necrose tubular. Somados o balanço muito negativo, a hipotensão, as mucosas secas e o sedimento sem cilindros granulosos pigmentados, o quadro é de hipovolemia por diurese excessiva. A conduta é suspender o diurético, repor volume com cautela e reavaliar, evitando nefrotóxicos.",
+"porAlt": [
+"Correta: a FEUreia de 24% e o contexto apontam causa pré-renal, e a FENa alta reflete a furosemida recente.",
+"Sob diurético de alça, a FENa acima de 1% não indica necrose tubular; o sódio urinário fica alto por efeito do fármaco.",
+"Nefrite intersticial costuma vir com rash, eosinofilia e leucocitúria, ausentes aqui, e o contexto é de depleção.",
+"Nada sugere obstrução; oligúria súbita isolada não basta, e a ultrassonografia seria o exame para essa hipótese.",
+"FEUreia abaixo de 35% sugere causa pré-renal; na necrose tubular ela fica acima de 50%."
+]
+},
+{
+"q": "Mulher de 63 anos está na terapia intensiva por choque séptico de foco abdominal, em ventilação mecânica e com noradrenalina a 0,2 mcg/kg/min. A creatinina subiu de 0,9 para 3,1 mg/dL em 48 horas, e a diurese está em 0,3 mL/kg/h há 20 horas. Exames: potássio de 5,4 mEq/L, pH de 7,29, bicarbonato de 18 mEq/L e ureia de 142 mg/dL. Relação PaO2/FiO2 de 260, balanço positivo de 1,5 litro, sem piora da oxigenação, sem pericardite ou alteração neurológica atribuível a uremia. Qual é a conduta mais adequada quanto à terapia renal substitutiva?",
+"alts": [
+"Iniciar hemodiálise já, pelo estágio 3 da KDIGO",
+"Manter suporte e dialisar só se surgir indicação",
+"Iniciar diálise já, para prevenir a hipervolemia",
+"Bicarbonato em bolus até o pH ficar acima de 7,40",
+"Furosemida em dose alta para tornar a diurese ativa"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO LRA 2012 (atualização 2026 em consulta pública) e ensaio STARRT-AKI 2020, início da terapia renal substitutiva por indicação",
+"coment": "A paciente tem lesão renal aguda estágio 3 pela KDIGO, por oligúria acima de 12 horas e creatinina mais de três vezes o basal. Estágio 3, por si só, não obriga a dialisar. Os ensaios que compararam início acelerado com estratégia expectante, como STARRT-AKI e AKIKI, não mostraram ganho de sobrevida com a diálise precoce; o início acelerado aumentou dependência de diálise e eventos adversos, e boa parte dos pacientes da estratégia expectante recuperou função sem nunca dialisar. As indicações de urgência são hipercalemia refratária, acidose grave refratária, hipervolemia com repercussão respiratória, complicações urêmicas e certas intoxicações. Aqui o potássio, o pH e a oxigenação não preenchem esses critérios. Mantém-se o suporte com reavaliação frequente. A KDIGO publicou em 2026 rascunho de atualização para consulta pública que mantém a decisão guiada por indicação clínica.",
+"porAlt": [
+"O estágio 3 isolado não é indicação; iniciar precocemente não melhorou a sobrevida e aumentou eventos adversos.",
+"Correta: sem indicação de urgência, a estratégia expectante é segura e evita diálises desnecessárias.",
+"Diálise preventiva sem congestão com repercussão não tem benefício demonstrado e expõe a cateter e hipotensão.",
+"Bicarbonato intravenoso não é recomendado para pH acima de 7,20 sem outra razão, e não muda o desfecho renal.",
+"Converter oligúria em diurese com diurético não melhora o desfecho e não é indicado só para isso, sem congestão."
+]
+},
+{
+"q": "Homem de 72 anos, com doença renal crônica estável e filtração de 26 mL/min/1,73 m², é internado com febre, dor em fossa ilíaca esquerda e leucocitose de 18.000/mm³. A suspeita é diverticulite complicada com abscesso, e o cirurgião solicita tomografia de abdome com contraste intravenoso. Está normotenso, sem congestão, com diurese preservada. Usa anlodipino e insulina, sem metformina. Qual é a conduta mais adequada quanto ao contraste?",
+"alts": [
+"Adiar o exame até que a função renal se recupere",
+"Acetilcisteína oral como única forma de prevenção",
+"Bicarbonato intravenoso, superior ao soro fisiológico",
+"Fazer a tomografia e hidratar com soro fisiológico",
+"Hemodiálise logo após o exame para remover contraste"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r1",
+"base": "Consenso ACR-NKF 2020 sobre contraste iodado e KDIGO LRA 2012, profilaxia da lesão renal associada a contraste",
+"coment": "O risco de lesão renal associada ao contraste iodado intravenoso é menor do que se acreditava, e deixar de fazer um exame necessário costuma causar mais dano do que o próprio contraste. O consenso das sociedades americanas de radiologia e de nefrologia de 2020 considera de risco os pacientes com filtração abaixo de 30 mL/min/1,73 m² que não estão em diálise, e para eles recomenda hidratação intravenosa com cristaloide isotônico antes e depois do exame, salvo congestão, além de usar a menor dose possível de contraste de baixa ou isosmolaridade. Acetilcisteína e bicarbonato não mostraram benefício sobre o soro fisiológico em ensaio grande. A diálise após o exame não protege o rim. Aqui, a suspeita de abscesso exige o exame agora para guiar drenagem e antibiótico. Metformina, se usada, seria suspensa nesse nível de filtração.",
+"porAlt": [
+"Adiar a investigação de um abscesso traz risco maior que o contraste, e a função renal crônica não vai melhorar.",
+"A acetilcisteína não reduziu lesão renal, diálise ou morte em ensaio grande, e não substitui a hidratação.",
+"O bicarbonato não foi superior ao soro fisiológico na prevenção de lesão renal associada a contraste.",
+"Correta: o exame é necessário, e a hidratação com cristaloide isotônico é a profilaxia recomendada para filtração abaixo de 30.",
+"A hemodiálise após o contraste não previne lesão renal e expõe a riscos de acesso vascular desnecessários."
+]
+},
+{
+"q": "Homem de 45 anos, com epilepsia em uso irregular de carbamazepina, tem crise tônico-clônica generalizada em casa. A equipe de atendimento pré-hospitalar chega quando a crise já dura 7 minutos, sem recuperação da consciência. Há três tentativas frustradas de acesso venoso. Pesa cerca de 80 kg, a glicemia capilar é de 112 mg/dL e a saturação é de 93% com oxigênio por máscara. Qual é a melhor medida farmacológica neste momento?",
+"alts": [
+"Diazepam 10 mg por via intramuscular",
+"Fenitoína 20 mg/kg via intramuscular",
+"Aguardar acesso e usar diazepam venoso",
+"Carbamazepina por sonda nasogástrica",
+"Midazolam 10 mg por via intramuscular"
+],
+"gab": 4,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "American Epilepsy Society 2016 e definição operacional da ILAE 2015, benzodiazepínico inicial no estado de mal",
+"coment": "Pela definição da ILAE de 2015, crise tônico-clônica com mais de 5 minutos já é estado de mal epiléptico, e o tratamento deve começar sem demora, porque a resposta aos benzodiazepínicos cai à medida que a crise se prolonga. A diretriz da Sociedade Americana de Epilepsia de 2016 coloca como primeira linha o midazolam intramuscular, o lorazepam intravenoso ou o diazepam intravenoso, todos com eficácia semelhante. Sem acesso venoso, o midazolam intramuscular, na dose de 10 mg para quem pesa mais de 40 kg, é a opção de escolha: no ensaio RAMPART, ele foi ao menos tão eficaz quanto o lorazepam intravenoso no ambiente pré-hospitalar, justamente porque dispensa o tempo de punção. Alternativas sem acesso incluem midazolam intranasal ou bucal e diazepam retal. O diazepam intramuscular tem absorção errática e lenta, e não deve ser usado.",
+"porAlt": [
+"O diazepam é lipossolúvel e tem absorção intramuscular lenta e imprevisível, inadequada para estado de mal.",
+"A fenitoína não é benzodiazepínico de primeira linha, e por via intramuscular causa necrose e absorção errática.",
+"Cada minuto sem tratamento reduz a resposta ao benzodiazepínico; esperar o acesso atrasa o tratamento eficaz.",
+"Fármaco de manutenção por sonda não interrompe crise em curso e expõe a broncoaspiração no paciente inconsciente.",
+"Correta: sem acesso venoso, o midazolam intramuscular é a primeira linha, com absorção rápida e eficácia comprovada."
+]
+},
+{
+"q": "Mulher de 74 anos, com cirrose hepática Child-Pugh B por esteato-hepatite e bloqueio atrioventricular de segundo grau tipo Mobitz I documentado, é trazida ao pronto-socorro em crise tônico-clônica. Recebeu duas doses de 10 mg de diazepam intravenoso, com intervalo de 5 minutos, e a crise persiste há 15 minutos. Pesa 60 kg, a glicemia é de 98 mg/dL, a saturação é de 94% com oxigênio, a pressão arterial é de 150/90 mmHg e as plaquetas são de 88.000/mm³. Qual é o tratamento de segunda linha mais adequado?",
+"alts": [
+"Fenitoína 20 mg/kg intravenosa, até 50 mg/minuto",
+"Valproato 40 mg/kg intravenoso, no máximo 3.000 mg",
+"Terceira dose de diazepam, 10 mg por via venosa",
+"Levetiracetam 60 mg/kg intravenoso, até 4.500 mg",
+"Topiramato em dose de ataque por sonda gástrica"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r2",
+"base": "American Epilepsy Society 2016 e ensaio ESETT 2019, segunda linha do estado de mal epiléptico",
+"coment": "Crise que persiste após duas doses adequadas de benzodiazepínico define estado de mal estabelecido, e a próxima etapa é um anticonvulsivante intravenoso de segunda linha. O ensaio ESETT, publicado em 2019, comparou levetiracetam 60 mg/kg, fosfenitoína 20 mg equivalentes de fenitoína/kg e valproato 40 mg/kg e mostrou eficácia semelhante, em torno de metade dos pacientes, com perfis de segurança parecidos. A escolha passa então a depender das comorbidades. Aqui, a hepatopatia e a plaquetopenia contraindicam o valproato, hepatotóxico e capaz de piorar a trombocitopenia e a coagulação. O bloqueio atrioventricular contraindica a fenitoína, que pode causar bradiarritmia e hipotensão durante a infusão. O levetiracetam, de eliminação renal, sem interação relevante e sem efeito sobre a condução, é a melhor opção. Uma terceira dose de benzodiazepínico aumenta a depressão respiratória sem ganho.",
+"porAlt": [
+"A fenitoína pode causar bradiarritmia e hipotensão e deve ser evitada em bloqueio atrioventricular de segundo grau.",
+"O valproato é hepatotóxico e piora a plaquetopenia, e deve ser evitado em cirrose com plaquetas baixas.",
+"Após duas doses de benzodiazepínico, uma terceira acrescenta depressão respiratória sem aumentar a resposta.",
+"Correta: com hepatopatia e bloqueio atrioventricular, o levetiracetam, de eficácia semelhante no ESETT, é o mais seguro.",
+"O topiramato por sonda tem absorção lenta e não é tratamento de segunda linha validado para estado de mal."
+]
+},
+{
+"q": "Homem de 31 anos, sem antecedentes, teve a primeira crise da vida há 2 semanas: sensação epigástrica ascendente seguida de perda de contato e automatismos orais, evoluindo para crise tônico-clônica bilateral. Não havia privação de sono, álcool, drogas, febre ou distúrbio metabólico. A ressonância de crânio com protocolo para epilepsia é normal. O eletroencefalograma interictal mostra descargas epileptiformes de ponta-onda na região temporal esquerda. Exame neurológico normal. Pela definição prática da ILAE, como deve ser classificado o quadro?",
+"alts": [
+"Crise única; epilepsia só após uma segunda crise",
+"Epilepsia, pelo risco de recorrência acima de 60%",
+"Crise sintomática aguda, sem risco de recorrência",
+"Epilepsia apenas se a ressonância mostrar uma lesão",
+"Crise isolada; repetir o EEG em 6 meses e decidir"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ILAE 2014, definição prática de epilepsia e risco de recorrência após crise não provocada",
+"coment": "A definição prática da ILAE de 2014 considera epilepsia em três situações: duas crises não provocadas com mais de 24 horas de intervalo; uma crise não provocada com probabilidade de recorrência de pelo menos 60% nos 10 anos seguintes, semelhante à de quem já teve duas crises; ou diagnóstico de síndrome epiléptica. Os principais fatores que elevam o risco de recorrência após a primeira crise são lesão estrutural compatível, descargas epileptiformes no eletroencefalograma, crise noturna e déficit neurológico. Aqui a crise foi focal com evolução bilateral, não provocada, e o eletroencefalograma mostrou atividade epileptiforme concordante com a semiologia temporal. Esse paciente já preenche o critério de epilepsia após a primeira crise, o que em geral justifica iniciar antiepiléptico, decisão compartilhada com ele, além de orientação sobre direção e segurança.",
+"porAlt": [
+"A definição de 2014 dispensa a segunda crise quando o risco de recorrência é alto, como com EEG epileptiforme.",
+"Correta: crise não provocada com descargas epileptiformes eleva a recorrência acima de 60%, o que já define epilepsia.",
+"Crise sintomática aguda tem causa imediata, como distúrbio metabólico ou lesão aguda, ausente aqui.",
+"Lesão estrutural é um dos fatores de risco, mas o EEG epileptiforme sozinho já basta para definir epilepsia.",
+"Adiar a classificação ignora que o critério já está preenchido e mantém o paciente sem orientação adequada."
+]
+},
+{
+"q": "Mulher de 24 anos, estudante, relata abalos musculares breves nos braços pela manhã há 1 ano, que a fazem derrubar objetos, e teve a primeira crise tônico-clônica generalizada após noite mal dormida. O eletroencefalograma mostra complexos poliespícula-onda generalizados, e a ressonância é normal. Ela não usa anticoncepcional, tem vida sexual ativa e planeja engravidar em cerca de 2 anos. Não tem outras doenças. Qual é o tratamento mais adequado?",
+"alts": [
+"Levetiracetam e ácido fólico, evitando o valproato",
+"Valproato em dose baixa associado a ácido fólico",
+"Carbamazepina, eficaz na mioclonia e na gestação",
+"Fenitoína, por ter o menor risco de malformações",
+"Topiramato, sem risco fetal e com perda ponderal"
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "EMA 2018 e MHRA 2024, restrição do valproato em mulheres com potencial de engravidar",
+"coment": "O quadro é de epilepsia mioclônica juvenil: mioclonias matinais, crise tônico-clônica desencadeada por privação de sono e poliespícula-onda generalizada. O valproato é o fármaco mais eficaz nessa síndrome, mas é o antiepiléptico de maior teratogenicidade, com cerca de 10% de malformações maiores e até 30 a 40% de alterações do neurodesenvolvimento nos expostos na gestação. As agências europeia e britânica restringiram seu uso em mulheres com potencial de engravidar a situações em que outras opções falharam, sob programa de prevenção de gravidez. Levetiracetam e lamotrigina são as alternativas preferidas, com os menores riscos fetais conhecidos. Carbamazepina e fenitoína agravam mioclonias e ausências nas epilepsias generalizadas. O ácido fólico deve ser iniciado antes da concepção. Também convém discutir contracepção eficaz até o momento planejado da gravidez.",
+"porAlt": [
+"Correta: levetiracetam trata a epilepsia generalizada com baixo risco fetal, e o ácido fólico deve começar antes da gestação.",
+"Mesmo em dose baixa o valproato mantém risco relevante de malformação e de dano ao neurodesenvolvimento.",
+"A carbamazepina pode agravar mioclonias e crises generalizadas, e não é indicada na epilepsia mioclônica juvenil.",
+"A fenitoína é teratogênica e também pode piorar mioclonias, sem ser opção preferencial nessa síndrome.",
+"O topiramato aumenta o risco de fenda labiopalatina e de baixo peso ao nascer, e não é isento de risco fetal."
+]
+},
+{
+"q": "Mulher de 29 anos apresenta há 3 semanas perda visual no olho esquerdo, com dor à movimentação ocular, defeito pupilar aferente relativo e discromatopsia, já em melhora parcial. A ressonância mostra hipersinal com realce no nervo óptico esquerdo e duas lesões ovoides periventriculares sem realce; tronco, cerebelo, córtex e medula sem lesões. Anticorpos antiaquaporina 4 e anti-MOG negativos. O líquor tem índice de cadeias leves livres kappa elevado, e as bandas oligoclonais não foram pesquisadas. Pelos critérios de McDonald revisados em 2024, qual é a interpretação?",
+"alts": [
+"Não fecha: o nervo óptico não conta como região",
+"Fecha EM: o nervo óptico conta como quinta região",
+"Não fecha: o diagnóstico exige bandas oligoclonais",
+"Síndrome clínica isolada; aguardar um novo surto",
+"Neuromielite óptica, pela neurite óptica isolada"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Critérios de McDonald revisados em 2024 (Lancet Neurology 2025), nervo óptico como quinta região e índice kappa",
+"coment": "A revisão dos critérios de McDonald, apresentada em 2024 e publicada em 2025, trouxe mudanças cobradas: o nervo óptico passou a ser a quinta região topográfica para disseminação no espaço, ao lado das regiões periventricular, cortical ou justacortical, infratentorial e medular; o índice de cadeias leves livres kappa no líquor foi aceito como alternativa às bandas oligoclonais; e sinal da veia central e lesões com borda paramagnética entraram como marcadores de apoio. Nesta paciente, pelo critério de 2017, só a região periventricular contaria, e a disseminação no espaço não estaria demonstrada. Pela revisão de 2024, a lesão do nervo óptico, documentada por ressonância, soma-se à periventricular, completando a disseminação no espaço, e a presença simultânea de lesão com e sem realce, assim como o líquor positivo, reforça o diagnóstico. Anticorpos negativos ajudam a afastar neuromielite óptica e doença associada ao anti-MOG.",
+"porAlt": [
+"Essa era a regra de 2017; a revisão de 2024 passou a contar o nervo óptico para disseminação no espaço.",
+"Correta: pela revisão de 2024, o nervo óptico é a quinta região, e o índice kappa no líquor substitui as bandas oligoclonais.",
+"O índice de cadeias leves kappa elevado foi aceito em 2024 como alternativa às bandas oligoclonais no líquor.",
+"Com disseminação no espaço e evidência de atividade em tempos diferentes, não é preciso aguardar novo surto.",
+"Anticorpo antiaquaporina 4 negativo e lesões periventriculares ovoides falam contra neuromielite óptica."
+]
+},
+{
+"q": "Homem de 35 anos, com esclerose múltipla remitente-recorrente em uso de fumarato de dimetila, apresenta há 2 semanas paraparesia com força grau 3 nos membros inferiores, nível sensitivo torácico e urgência urinária. A ressonância mostra lesão medular nova com realce. Urina, radiografia de tórax e proteína C reativa normais, sem febre. Recebeu metilprednisolona 1 g intravenosa por 5 dias, concluída há 10 dias, sem nenhuma melhora; continua sem deambular. Qual é a conduta mais adequada para este surto?",
+"alts": [
+"Prednisona oral 1 mg/kg por 3 meses com desmame",
+"Plasmaférese como tratamento de resgate do surto",
+"Imunoglobulina intravenosa como resgate do surto",
+"Aguardar, porque o surto melhora espontaneamente",
+"Trocar o fumarato por interferon beta para o surto"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r2",
+"base": "ECTRIMS/EAN 2018 de tratamento da esclerose múltipla e AAN 2011 de plasmaférese, surto grave refratário ao corticoide",
+"coment": "O surto de esclerose múltipla com incapacidade relevante é tratado com metilprednisolona em pulso, 500 a 1.000 mg por dia por 3 a 5 dias, depois de excluída infecção que cause pseudossurto. O corticoide acelera a recuperação, mas não muda a incapacidade a longo prazo. Quando um surto grave e incapacitante não responde ao corticoide em cerca de 2 semanas, a plasmaférese é o resgate com melhor evidência, com recomendação da Academia Americana de Neurologia e da diretriz europeia, e resposta em parte expressiva dos casos, sobretudo quando iniciada precocemente. A imunoglobulina intravenosa não mostrou benefício no surto agudo. Prednisona oral prolongada não tem respaldo. Este surto, em vigência de tratamento modificador, também indica falha terapêutica e justifica escalonar para um fármaco de alta eficácia, decisão separada do tratamento do surto.",
+"porAlt": [
+"Corticoide oral prolongado não melhora a recuperação do surto e acumula efeitos adversos sem benefício comprovado.",
+"Correta: no surto grave sem resposta ao pulso de corticoide, a plasmaférese é o resgate com melhor evidência.",
+"A imunoglobulina intravenosa não mostrou benefício no tratamento do surto agudo de esclerose múltipla.",
+"Surto grave refratário tem maior risco de sequela, e há tratamento de resgate eficaz que não deve ser adiado.",
+"Fármaco modificador não trata o surto agudo, e interferon seria escolha de menor eficácia após falha terapêutica."
+]
+},
+{
+"q": "Mulher de 36 anos é mordida pelo cão do vizinho há 3 horas, com ferimento profundo e puntiforme na mão direita. O cão é domiciliado, vacinado no último ano, estava tranquilo antes do incidente, não tem sinais de doença e pode ser observado pelo dono. A paciente lavou a ferida com água e sabão. Não tem profilaxia antirrábica prévia e está com o esquema antitetânico em dia. Segundo o protocolo vigente do Ministério da Saúde, qual é a conduta antirrábica?",
+"alts": [
+"Lavar e iniciar vacina em 4 doses, nos dias 0, 3, 7 e 14",
+"Lavar, iniciar 4 doses de vacina e infiltrar soro na lesão",
+"Lavar, aplicar 2 doses de vacina, nos dias 0 e 3, e observar",
+"Lavar, não indicar profilaxia e observar o cão por 10 dias",
+"Lavar e infiltrar só o soro antirrábico, sem aplicar vacina"
+],
+"gab": 3,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "Nota Técnica nº 8/2022-CGZV/DEIDT/SVS/MS, profilaxia pós-exposição com cão ou gato passível de observação",
+"coment": "Ferimento profundo na mão é exposição grave, mas a conduta depende antes do animal agressor. Pelo protocolo do Ministério da Saúde atualizado em 2022, quando cão ou gato está sadio, sem sinais sugestivos de raiva, e pode ser observado por 10 dias, não se indica profilaxia, seja a exposição leve ou grave: lava-se a ferida com água e sabão e acompanha-se o animal. Se ele permanecer sadio, o caso é encerrado, porque o animal só transmite o vírus na fase sintomática, que leva à morte em poucos dias. Se morrer, desaparecer ou adoecer, inicia-se vacina nos dias 0, 3, 7 e 14 e, por ser exposição grave, soro ou imunoglobulina antirrábica. O protocolo anterior, de 2014, mandava iniciar duas doses de vacina enquanto se observava o animal na exposição grave, e essa etapa foi retirada.",
+"porAlt": [
+"As 4 doses ficam para quando o animal não pode ser observado ou adoece; com cão sadio e observável, não se inicia.",
+"Soro e vacina são indicados em exposição grave por animal não observável ou suspeito, não neste cenário.",
+"Iniciar 2 doses durante a observação era o protocolo anterior a 2022, retirado na atualização do Ministério.",
+"Correta: cão sadio e observável dispensa profilaxia mesmo em exposição grave; a vacina só é iniciada se ele adoecer, morrer ou sumir.",
+"O soro nunca é usado isoladamente; quando indicado, sempre acompanha o esquema de vacina."
+]
+},
+{
+"q": "Mulher de 81 anos, com desnutrição grave e índice de massa corporal de 16 kg/m², fere a sola do pé ao pisar em um prego enferrujado no quintal, há 5 horas. O ferimento é puntiforme e profundo, com terra. O cartão de vacina mostra esquema básico completo com dupla adulto e último reforço há 7 anos. Não tem imunodeficiência conhecida nem alergias. A ferida foi lavada e desbridada. Segundo o Ministério da Saúde, qual é a conduta para profilaxia do tétano?",
+"alts": [
+"Nenhuma, pois o reforço tem menos de 10 anos",
+"Apenas reforço com dupla adulto, sem soro",
+"Esquema de 3 doses de dupla adulto e soro",
+"Reforço com dupla adulto e imunoglobulina",
+"Só imunoglobulina, sem nova dose de vacina"
+],
+"gab": 3,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "tit",
+"base": "Guia de Vigilância em Saúde do Ministério da Saúde 2021, profilaxia do tétano após ferimento, situações especiais",
+"coment": "A profilaxia do tétano cruza o risco do ferimento com a história vacinal. Ferimento puntiforme, profundo e contaminado com terra é de alto risco. Com 3 ou mais doses e último reforço há menos de 5 anos, nada é necessário; entre 5 e 10 anos, em ferimento de alto risco, faz-se reforço com a vacina; com 10 anos ou mais, reforço em qualquer ferimento. O ponto cobrado está na observação do quadro do Ministério: em paciente imunodeprimido, desnutrido grave ou idoso, a resposta ao reforço pode ser insuficiente e lenta, e por isso, além da vacina, indica-se imunoglobulina humana antitetânica ou, na falta, soro antitetânico. Esta paciente reúne idade avançada e desnutrição grave. Vacina e imunoglobulina devem ser aplicadas em locais diferentes. Cuidado local com limpeza e desbridamento é parte essencial da prevenção.",
+"porAlt": [
+"Reforço há mais de 5 anos já exige nova dose em ferimento de alto risco, independentemente do corte de 10 anos.",
+"Reforço isolado seria a conduta para adulto hígido; desnutrição grave e idade avançada indicam também imunização passiva.",
+"Com esquema básico completo documentado, não se reinicia o esquema; basta uma dose de reforço.",
+"Correta: em idosa com desnutrição grave e ferimento de alto risco, soma-se imunoglobulina ao reforço, pela resposta vacinal incerta.",
+"Imunização passiva não substitui o reforço, necessário para manter a proteção futura contra o tétano."
+]
+},
+{
+"q": "Homem de 52 anos, lavrador, nunca vacinado, é internado na terapia intensiva com trismo, riso sardônico, rigidez de nuca e abdome em tábua, com espasmos dolorosos desencadeados por ruído, consciente. Havia ferido o pé com prego há 10 dias. Recebeu imunoglobulina antitetânica, metronidazol, benzodiazepínico em infusão, desbridamento do ferimento e ambiente com pouca estimulação. Após 4 semanas, recupera-se bem e vai receber alta. Qual é a conduta mais adequada quanto à vacinação?",
+"alts": [
+"Esquema completo de dupla adulto: o tétano não imuniza",
+"Nenhuma vacina, pois a doença confere imunidade duradoura",
+"Apenas uma dose de reforço de dupla adulto no dia da alta",
+"Nova dose de imunoglobulina antitetânica a cada 10 anos",
+"Vacinar apenas se ocorrer novo ferimento de alto risco"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r1",
+"base": "Guia de Vigilância em Saúde do Ministério da Saúde 2021, tétano acidental: tratamento e vacinação após a doença",
+"coment": "O tétano é causado pela tetanospasmina, toxina tão potente que a quantidade capaz de causar doença grave é pequena demais para estimular resposta imune protetora. Por isso, ter tido tétano não confere imunidade, e o paciente pode adoecer de novo. O Ministério da Saúde orienta iniciar ou completar o esquema vacinal com três doses de vacina com toxoide tetânico, a dupla adulto no caso de adultos, com intervalo de 60 dias entre elas e mínimo de 30 dias, e reforço a cada 10 anos. A vacinação pode começar ainda durante a internação, em local diferente da imunoglobulina. No tratamento, os pilares foram cumpridos: neutralizar a toxina circulante com imunoglobulina, eliminar o bacilo com desbridamento e antibiótico, controlar espasmos com benzodiazepínico em ambiente calmo e dar suporte intensivo, incluindo via aérea quando necessário.",
+"porAlt": [
+"Correta: a quantidade de toxina não gera imunidade, e o paciente nunca vacinado precisa do esquema básico completo.",
+"Ao contrário de muitas infecções, o tétano não confere imunidade, e o paciente pode ter a doença novamente.",
+"Quem nunca foi vacinado precisa de três doses; uma dose isolada não garante proteção duradoura.",
+"A imunoglobulina dá proteção passiva por poucas semanas e não substitui a imunização ativa com a vacina.",
+"Esperar novo ferimento repete o risco que levou à doença; a vacinação deve ser feita agora, de forma completa."
+]
+},
+{
+"q": "Homem de 40 anos, lavrador do interior de Minas Gerais, foi picado na perna por serpente com chocalho na cauda há 4 horas. Tem dor local discreta, sem edema importante ou bolhas. Apresenta ptose palpebral bilateral, visão turva, face com aspecto miastênico evidente, dor muscular generalizada intensa e urina de cor escura. O tempo de coagulação está incoagulável, a creatinofosfoquinase é de 18.000 U/L e a creatinina é de 1,4 mg/dL, com diurese de 0,4 mL/kg/h. Qual é a classificação e a soroterapia indicada?",
+"alts": [
+"Crotálico moderado: 10 ampolas de anticrotálico",
+"Botrópico grave: 12 ampolas de soro antibotrópico",
+"Elapídico: 10 ampolas de soro antielapídico venoso",
+"Crotálico leve: 5 ampolas e hidratação vigorosa",
+"Crotálico grave: 20 ampolas de soro anticrotálico"
+],
+"gab": 4,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "Guia de Vigilância em Saúde do Ministério da Saúde 2021, acidente crotálico: classificação e soroterapia",
+"coment": "Serpente com chocalho é cascavel, gênero Crotalus. O veneno crotálico tem ações neurotóxica, que causa a fácies miastênica com ptose e visão turva; miotóxica sistêmica, com rabdomiólise, mialgia e urina escura por mioglobinúria; e coagulante, que pode tornar o sangue incoagulável. Ao contrário do acidente botrópico, as manifestações locais são discretas. A classificação do Ministério da Saúde considera grave o quadro com fácies miastênica evidente, mialgia intensa e generalizada e urina escura, com ou sem oligúria; o moderado tem fácies miastênica discreta e mialgia leve. Este paciente tem acidente grave, com 20 ampolas de soro anticrotálico intravenoso. A principal complicação é a lesão renal aguda por mioglobinúria, prevenida com hidratação vigorosa para manter boa diurese, com monitorização. O tempo de coagulação ajuda a avaliar a resposta ao soro.",
+"porAlt": [
+"Mialgia intensa e urina escura com oligúria superam o quadro moderado, que tem fácies discreta e mialgia leve.",
+"O acidente botrópico cursa com dor, edema e bolhas locais intensos, e não com fácies miastênica e rabdomiólise.",
+"O elapídico causa paralisia sem rabdomiólise ou incoagulabilidade, e a serpente com chocalho é a cascavel.",
+"Os achados sistêmicos intensos excluem a forma leve; subdosar o soro aumenta o risco de lesão renal e morte.",
+"Correta: fácies miastênica evidente, mialgia intensa e urina escura definem o acidente crotálico grave, com 20 ampolas."
+]
+},
+{
+"q": "Homem de 32 anos é picado no pé por escorpião amarelo ao calçar a bota, há 40 minutos, em área urbana. Apresenta dor local intensa, irradiada para a perna, com parestesia. Não tem vômitos, sudorese, sialorreia, agitação ou tremores. Frequência cardíaca de 88 bpm, pressão arterial de 128/80 mmHg, frequência respiratória de 16 irpm e saturação de 98%. Ausculta cardíaca e pulmonar normais. Qual é a conduta mais adequada segundo o Ministério da Saúde?",
+"alts": [
+"Soro antiescorpiônico, de 2 a 3 ampolas intravenosas",
+"Analgesia, lidocaína no local e observação clínica",
+"Soro antiescorpiônico, de 4 a 6 ampolas, e internação",
+"Alta imediata com anti-histamínico oral e compressas",
+"Torniquete e incisão local para retirar o veneno já"
+],
+"gab": 1,
+"tema": "infecto",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r2",
+"base": "Guia de Vigilância em Saúde do Ministério da Saúde 2021, escorpionismo: classificação e soroterapia",
+"coment": "O escorpião amarelo, Tityus serrulatus, é o principal responsável pelos acidentes graves no Brasil. A classificação do Ministério da Saúde orienta a conduta. No acidente leve há apenas dor e parestesia locais; trata-se com analgésico e infiltração de anestésico sem vasoconstritor, como lidocaína, no local da picada, com observação clínica, sem soro. No moderado, à dor intensa somam-se manifestações sistêmicas isoladas e não intensas, como sudorese, náuseas, vômitos ocasionais, taquicardia ou agitação, e indicam-se 2 a 3 ampolas de soro antiescorpiônico ou antiaracnídico. No grave, com vômitos profusos, sudorese intensa, prostração, bradicardia, edema pulmonar ou choque, usam-se 4 a 6 ampolas e terapia intensiva. Crianças pequenas têm maior risco de evolução grave e precisam de observação mais prolongada. Vômitos frequentes são o sinal precoce mais associado à gravidade.",
+"porAlt": [
+"O soro em dose de 2 a 3 ampolas é para acidente moderado, com manifestações sistêmicas, ausentes neste paciente.",
+"Correta: sem manifestação sistêmica, o acidente é leve e se trata com analgesia e anestésico local, sob observação.",
+"De 4 a 6 ampolas e terapia intensiva são reservadas ao acidente grave, com vômitos profusos, choque ou edema pulmonar.",
+"A dor do escorpionismo é neurotóxica e intensa; anti-histamínico não a controla, e a alta imediata dispensa a observação.",
+"Torniquete e incisão não removem o veneno, aumentam lesão local e infecção, e são contraindicados."
+]
+},
+{
+"q": "Homem de 57 anos, natural do interior da Bahia, recebeu transplante renal há 4 meses e usa tacrolimo, micofenolato e prednisona 20 mg ao dia. É internado com febre, dispneia, tosse com hemoptise e dor abdominal difusa com distensão. A radiografia mostra infiltrado pulmonar bilateral, e as hemoculturas crescem Escherichia coli. Eosinófilos de 150/mm³. O aspirado traqueal mostra larvas filariformes, e o exame de fezes encontra larvas rabditoides. Além do antibiótico para a bacteremia, qual é a conduta mais adequada?",
+"alts": [
+"Albendazol em dose única e manter imunossupressão",
+"Ivermectina em dose única e aumentar o corticoide",
+"Praziquantel em dose única, mantendo o corticoide",
+"Corticoide em pulso pela síndrome de Loeffler",
+"Ivermectina diária e redução da imunossupressão"
+],
+"gab": 4,
+"tema": "infecto",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "American Society of Transplantation Infectious Diseases Community of Practice 2019, estrongiloidíase no transplante",
+"coment": "O Strongyloides stercoralis completa o ciclo dentro do hospedeiro por autoinfecção, e pode persistir por décadas após a saída da área endêmica. Com imunossupressão, sobretudo corticoide, a carga parasitária explode: na hiperinfecção, larvas migram em grande número pelo pulmão e intestino; na forma disseminada, atingem outros órgãos. As larvas carregam bactérias intestinais, o que explica a bacteremia e a meningite por gram-negativos. A eosinofilia costuma estar ausente, porque o corticoide a suprime. A recomendação da sociedade americana de transplante de 2019 é ivermectina 200 mcg/kg por dia até as fezes e secreções ficarem negativas por pelo menos 2 semanas, com redução da imunossupressão sempre que possível e antibiótico de amplo espectro. Em casos graves com absorção intestinal prejudicada, usa-se a via subcutânea ou retal. A prevenção é rastrear e tratar candidatos a transplante de áreas endêmicas.",
+"porAlt": [
+"Albendazol é menos eficaz que a ivermectina, e dose única não controla a autoinfecção maciça da hiperinfecção.",
+"Dose única é insuficiente na hiperinfecção, e aumentar o corticoide alimenta a replicação do parasita.",
+"O praziquantel trata esquistossomose e teníase, não tem ação sobre Strongyloides, e manter o corticoide perpetua o quadro.",
+"Infiltrado com larvas no imunossuprimido é hiperinfecção; corticoide em pulso pode ser fatal neste contexto.",
+"Correta: hiperinfecção exige ivermectina diária até negativação sustentada e redução da imunossupressão que a desencadeou."
+]
+},
+{
+"q": "Homem de 26 anos, natural de uma área rural de Minas Gerais onde tomava banho em córregos na infância, faz exames admissionais. Está assintomático, sem hepatomegalia, esplenomegalia ou ascite. O exame parasitológico de fezes pelo método de Kato-Katz mostra ovos com espícula lateral. Hemograma normal, transaminases normais e ultrassonografia de abdome sem fibrose periportal. Pesa 70 kg. Segundo o Ministério da Saúde, qual é a conduta mais adequada?",
+"alts": [
+"Praziquantel 50 mg/kg em dose única por via oral",
+"Albendazol 400 mg ao dia durante 3 dias seguidos",
+"Ivermectina 200 mcg/kg em dose única por via oral",
+"Praziquantel 50 mg/kg ao dia por 14 dias seguidos",
+"Não tratar, pois não há sintomas nem há fibrose"
+],
+"gab": 0,
+"tema": "infecto",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r1",
+"base": "Ministério da Saúde, Vigilância da esquistossomose mansoni: diretrizes técnicas 2014, tratamento com praziquantel",
+"coment": "Ovos com espícula lateral nas fezes são característicos do Schistosoma mansoni, a única espécie autóctone no Brasil, endêmica em Minas Gerais e no Nordeste. Todo portador deve ser tratado, mesmo assintomático, por dois motivos: evitar a progressão para fibrose periportal e hipertensão portal, que depende da carga e do tempo de infecção, e interromper a transmissão, já que os ovos eliminados contaminam coleções de água com caramujos. O fármaco de escolha do Ministério da Saúde é o praziquantel por via oral em dose única, de 50 mg/kg para adultos e 60 mg/kg para crianças. A oxamniquina, usada no passado, não está mais disponível. Recomenda-se controle com exame de fezes em amostras seriadas nos meses seguintes, para confirmar a cura. Albendazol e ivermectina tratam outras helmintíases e não agem sobre o esquistossomo.",
+"porAlt": [
+"Correta: o praziquantel em dose única de 50 mg/kg é o tratamento do adulto com esquistossomose mansônica.",
+"O albendazol trata geo-helmintíases, como ascaridíase e ancilostomíase, mas não tem ação sobre o esquistossomo.",
+"A ivermectina é usada em estrongiloidíase e escabiose, não na esquistossomose mansônica.",
+"O praziquantel é eficaz em dose única; esquema de 14 dias não existe e só aumentaria efeitos adversos.",
+"Todo portador deve ser tratado, para evitar fibrose periportal e interromper a eliminação de ovos."
+]
+},
+{
+"q": "Mulher de 22 anos, com anemia falciforme, está internada por crise vaso-oclusiva em membros. No segundo dia, apresenta febre de 38,6 °C, dor torácica e taquipneia. Saturação de 86% em ar ambiente e de 90% com oxigênio a 6 L/min. A radiografia mostra infiltrado multilobar bilateral, que progrediu em 12 horas. Hemoglobina de 9,6 g/dL (basal de 8,5), plaquetas caindo de 260.000 para 120.000/mm³. Já recebe ceftriaxona, azitromicina, analgesia, hidratação e espirometria de incentivo. Qual é a medida mais adequada agora?",
+"alts": [
+"Transfusão simples até a hemoglobina chegar a 13 g/dL",
+"Hidroxiureia em dose máxima iniciada imediatamente",
+"Transfusão de troca, reduzindo HbS para menos de 30%",
+"Furosemida e restrição hídrica rigorosa por 24 horas",
+"Pulso de corticoide como terapia principal do quadro"
+],
+"gab": 2,
+"tema": "hemato",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "r3",
+"base": "ASH 2020 de suporte transfusional na doença falciforme e NHLBI 2014, síndrome torácica aguda grave",
+"coment": "Febre, dor torácica, hipoxemia e infiltrado novo durante a internação por crise vaso-oclusiva definem síndrome torácica aguda, principal causa de morte em adultos com doença falciforme. Antibiótico com cobertura para atípicos, oxigênio, analgesia, hidratação cautelosa e espirometria de incentivo são a base. A transfusão simples é indicada quando a hemoglobina cai pelo menos 1 g/dL abaixo do basal. Nos casos graves, com hipoxemia apesar de oxigênio, progressão rápida do infiltrado, plaquetopenia ou hemoglobina já próxima de 10 g/dL, recomenda-se transfusão de troca, por aférese ou manual, para reduzir a hemoglobina S a menos de 30% sem aumentar a viscosidade. Aqui todos os sinais de gravidade estão presentes, e a hemoglobina de 9,6 g/dL impede transfusão simples volumosa. A queda de plaquetas sugere embolia gordurosa da medula óssea, de pior prognóstico.",
+"porAlt": [
+"Elevar a hemoglobina acima de 10 a 11 g/dL aumenta a viscosidade e pode agravar a vaso-oclusão e o quadro pulmonar.",
+"A hidroxiureia previne crises futuras, mas leva semanas para agir e não trata o episódio agudo.",
+"Correta: síndrome torácica grave e progressiva com hemoglobina perto de 10 g/dL exige troca para reduzir a hemoglobina S.",
+"Restrição hídrica não trata a síndrome torácica; furosemida só se houver hipervolemia, e a desidratação piora a falcização.",
+"Corticoide não é tratamento padrão da síndrome torácica e associa-se a crise de rebote após a retirada."
+]
+},
+{
+"q": "Homem de 28 anos, com anemia falciforme, teve quatro internações por crise vaso-oclusiva dolorosa no último ano e uma síndrome torácica aguda há 2 anos. Não usa hidroxiureia. Hemoglobina de 7,9 g/dL, neutrófilos de 4.800/mm³, plaquetas de 310.000/mm³, reticulócitos de 9%, creatinina de 0,6 mg/dL e transaminases normais. Pesa 70 kg e não pretende ter filhos nos próximos anos. Qual é a conduta mais adequada?",
+"alts": [
+"Hidroxiureia 15 mg/kg/dia, titulada pelo hemograma",
+"Transfusão mensal crônica em vez da hidroxiureia",
+"Hidroxiureia na dose de 35 mg/kg/dia desde o início",
+"Ácido fólico isolado e analgesia sob demanda em casa",
+"Hidroxiureia só se a hemoglobina fetal for baixa"
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "PCDT da Doença Falciforme (Portaria Conjunta SAES/SECTICS nº 16/2024) e NHLBI 2014, indicação e dose da hidroxiureia",
+"coment": "A hidroxiureia aumenta a hemoglobina fetal, que inibe a polimerização da hemoglobina S, e reduz leucócitos e adesão vascular. Em adultos, diminui crises dolorosas, síndrome torácica aguda, transfusões, internações e mortalidade. O protocolo do Ministério da Saúde, atualizado em 2024, e o painel americano de 2014 indicam o fármaco em adultos com três ou mais crises vaso-oclusivas moderadas a graves em 12 meses, com síndrome torácica aguda recorrente ou grave, ou com anemia sintomática importante, entre outras situações. Este paciente preenche os critérios. A dose inicial em adultos é de 15 mg/kg/dia, com aumento de 5 mg/kg a cada 8 semanas até a dose máxima tolerada, de até 35 mg/kg/dia, mantendo neutrófilos acima de 2.000/mm³ e plaquetas acima de 80.000/mm³. O hemograma é feito a cada 2 a 4 semanas na titulação. O fármaco é contraindicado na gestação.",
+"porAlt": [
+"Correta: com crises frequentes e síndrome torácica prévia, inicia-se hidroxiureia a 15 mg/kg/dia, titulada pelo hemograma.",
+"Transfusão crônica é reservada a indicações como prevenção de acidente vascular cerebral, não substitui a hidroxiureia aqui.",
+"Começar na dose máxima aumenta o risco de neutropenia e plaquetopenia; a titulação é progressiva até a dose tolerada.",
+"Ácido fólico não reduz crises, e manter apenas analgesia deixa o paciente exposto a novas internações e lesão orgânica.",
+"A indicação é clínica; a hemoglobina fetal é usada para acompanhar a resposta, não para decidir o início."
+]
+},
+{
+"q": "Mulher de 30 anos, com anemia falciforme, tem colelitíase com cólicas biliares recorrentes e será submetida a colecistectomia videolaparoscópica eletiva sob anestesia geral, com duração prevista de cerca de 90 minutos. Não usa hidroxiureia, teve a última crise vaso-oclusiva há 5 meses e nunca teve síndrome torácica aguda. Hemoglobina basal de 8,0 g/dL, sem aloanticorpos conhecidos. Qual é o preparo hematológico mais adequado?",
+"alts": [
+"Nenhuma transfusão, pois a cirurgia é laparoscópica",
+"Transfusão de troca até a hemoglobina S abaixo de 10%",
+"Transfusão simples para hemoglobina perto de 10 g/dL",
+"Transfusão simples até a hemoglobina acima de 13 g/dL",
+"Adiar a cirurgia até a hemoglobina se normalizar sozinha"
+],
+"gab": 2,
+"tema": "hemato",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "r2",
+"base": "ASH 2020 de suporte transfusional na doença falciforme, transfusão pré-operatória",
+"coment": "Pacientes com anemia falciforme têm risco elevado de complicações perioperatórias, como síndrome torácica aguda, crise vaso-oclusiva e eventos tromboembólicos, desencadeadas por hipoxemia, hipotermia, desidratação e acidose. O ensaio TAPS mostrou que transfundir antes de cirurgias de risco baixo a moderado, como colecistectomia, reduz de forma importante as complicações graves em relação a não transfundir. A diretriz de suporte transfusional da Sociedade Americana de Hematologia de 2020 recomenda transfusão pré-operatória em pacientes com hemoglobina SS ou S-beta zero submetidos a cirurgia com anestesia geral de mais de 1 hora. Para quem tem hemoglobina baixa, a transfusão simples até cerca de 10 g/dL costuma bastar. Valores mais altos aumentam a viscosidade e o risco de vaso-oclusão. A troca fica para quem já tem hemoglobina alta ou cirurgias de maior risco. Hidratação, aquecimento e analgesia completam o cuidado.",
+"porAlt": [
+"Mesmo cirurgia laparoscópica tem risco relevante de síndrome torácica sem transfusão prévia, como mostrou o TAPS.",
+"Reduzir a hemoglobina S abaixo de 10% não é meta pré-operatória e expõe a mais transfusões sem ganho adicional.",
+"Correta: antes de anestesia geral prolongada, a transfusão simples até cerca de 10 g/dL reduz complicações graves.",
+"Hemoglobina acima de 13 g/dL aumenta muito a viscosidade sanguínea e pode precipitar vaso-oclusão.",
+"A anemia é crônica e não vai se normalizar; adiar mantém as cólicas e o risco de colecistite complicada."
+]
+},
+{
+"q": "Homem de 67 anos, hipertenso, procura atendimento por prurido após o banho e cefaleia. Teve acidente vascular cerebral isquêmico há 2 anos. Ao exame, pletora facial e baço palpável a 2 cm do rebordo costal. Hemoglobina de 18,9 g/dL, hematócrito de 57%, leucócitos de 12.400/mm³ e plaquetas de 520.000/mm³. A mutação JAK2 V617F é positiva, e a eritropoetina sérica está baixa. Saturação de oxigênio de 97% em ar ambiente. Qual é o tratamento mais adequado?",
+"alts": [
+"Flebotomias, AAS em dose baixa e hidroxiureia oral",
+"Flebotomias e AAS em dose baixa, sem citorredução",
+"Hidroxiureia isolada, sem flebotomias e sem o AAS",
+"Anticoagulação plena com varfarina por toda a vida",
+"Ruxolitinibe como primeira linha de citorredução"
+],
+"gab": 0,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Critérios OMS 2022 e recomendações ELN 2021 para policitemia vera, tratamento do paciente de alto risco",
+"coment": "Hemoglobina acima de 16,5 g/dL com hematócrito acima de 49% em homem, mutação JAK2 e eritropoetina baixa preenchem os critérios da classificação da OMS de 2022 para policitemia vera; com hemoglobina acima de 18,5 g/dL e os demais critérios, a biópsia pode até ser dispensada. A estratificação de risco trombótico define o tratamento: alto risco é idade a partir de 60 anos ou trombose prévia, e este paciente tem os dois. Para todos, a base é flebotomia com meta de hematócrito abaixo de 45% e ácido acetilsalicílico em dose baixa. No alto risco, acrescenta-se citorredução, e a hidroxiureia é a primeira escolha nessa idade, com interferon peguilado como alternativa. O ruxolitinibe é reservado para intolerância ou resistência à hidroxiureia. Controle dos fatores de risco cardiovascular, como hipertensão, também faz parte do plano.",
+"porAlt": [
+"Correta: no alto risco, por idade e trombose prévia, soma-se a hidroxiureia à flebotomia e ao ácido acetilsalicílico.",
+"Flebotomia e ácido acetilsalicílico isolados são o tratamento do baixo risco; este paciente é de alto risco.",
+"A citorredução não dispensa a flebotomia para atingir hematócrito abaixo de 45%, nem o antiagregante.",
+"Anticoagulação é indicada após trombose venosa; no evento arterial prévio, a base é antiagregação com citorredução.",
+"O ruxolitinibe é segunda linha, após intolerância ou resistência à hidroxiureia, e não a escolha inicial."
+]
+},
+{
+"q": "Mulher de 48 anos tem plaquetas persistentemente entre 760.000 e 810.000/mm³ em quatro exames ao longo de 6 meses. É assintomática, sem esplenomegalia, sem sangramentos ou tromboses. Ferritina de 120 ng/mL, proteína C reativa normal, sem infecção, neoplasia, esplenectomia ou doença inflamatória. Hemoglobina e leucócitos normais. A pesquisa de JAK2 V617F foi negativa, e a de BCR::ABL1 também. Qual é o próximo passo mais adequado na investigação?",
+"alts": [
+"Encerrar como plaquetose reativa e observar",
+"Pesquisar mutação no éxon 12 do gene JAK2",
+"Pesquisar mutações em CALR e MPL no sangue",
+"Iniciar hidroxiureia sem nenhum outro exame",
+"Repetir o JAK2 V617F em 6 meses e decidir"
+],
+"gab": 2,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r2",
+"base": "Classificação OMS 2022 e ICC 2022, critérios diagnósticos da trombocitemia essencial",
+"coment": "Plaquetose persistente acima de 450.000/mm³, sem causa reativa, com ferritina normal, inflamação ausente e BCR::ABL1 negativo, levanta a suspeita de trombocitemia essencial. Pelos critérios da OMS de 2022 e da classificação de consenso internacional de 2022, os critérios maiores incluem plaquetas acima de 450.000/mm³, biópsia de medula com proliferação de megacariócitos grandes e maduros, exclusão de outras neoplasias mieloides e presença de mutação em JAK2, CALR ou MPL. Na trombocitemia essencial, cerca de 55 a 60% têm JAK2 V617F, 20 a 25% têm CALR e 3 a 5% têm MPL. Com JAK2 negativo, o próximo passo é pesquisar CALR e MPL; se todas forem negativas, o caso é triplo-negativo, e a biópsia de medula ganha peso. A mutação no éxon 12 do JAK2 é investigada na suspeita de policitemia vera, não de trombocitemia.",
+"porAlt": [
+"Com causas reativas afastadas e plaquetose persistente, encerrar como reativa deixa uma neoplasia sem diagnóstico.",
+"A mutação no éxon 12 do JAK2 é pesquisada na suspeita de policitemia vera com V617F negativo, não na trombocitemia.",
+"Correta: com JAK2 V617F negativo, CALR e MPL respondem por boa parte das trombocitemias essenciais.",
+"Citorredução sem diagnóstico confirmado nem estratificação de risco não é adequada nesta paciente assintomática.",
+"A mutação JAK2 V617F não surge com o tempo em quem já testou negativo; repetir só atrasa o diagnóstico."
+]
+},
+{
+"q": "Mulher de 32 anos recebeu diagnóstico de policitemia vera com JAK2 V617F positivo após trombose de veia porta, já em anticoagulação. Faz flebotomias com hematócrito mantido abaixo de 45% e usa ácido acetilsalicílico. Planeja engravidar em 1 a 2 anos. Função hepática preservada, plaquetas de 640.000/mm³ e leucócitos de 13.000/mm³. A equipe decide iniciar citorredução. Qual é o fármaco mais adequado?",
+"alts": [
+"Hidroxiureia, segura no planejamento de uma gestação",
+"Ruxolitinibe, de primeira linha em gestação planejada",
+"Interferon alfa peguilado, compatível com a gestação",
+"Bussulfano em ciclos, por ser mais potente e barato",
+"Anagrelida, de escolha para a policitemia vera jovem"
+],
+"gab": 2,
+"tema": "hemato",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "Recomendações ELN 2021 para neoplasias mieloproliferativas, citorredução em pacientes jovens e na gestação",
+"coment": "A trombose venosa esplâncnica é manifestação clássica de neoplasia mieloproliferativa em mulheres jovens e coloca a paciente no grupo de alto risco, com indicação de citorredução além de flebotomia, antiagregação e anticoagulação. Em pacientes jovens, e especialmente em mulheres que planejam engravidar, as recomendações europeias de 2021 preferem o interferon alfa peguilado: não é teratogênico, pode ser mantido na gestação, não tem potencial leucemogênico e pode reduzir a carga alélica do JAK2. A hidroxiureia é teratogênica e deve ser evitada na concepção e na gravidez, e a preocupação com uso por décadas em jovens também pesa. O ruxolitinibe é segunda linha e não tem segurança estabelecida na gestação. O bussulfano é alquilante e leucemogênico, reservado a idosos. A anagrelida reduz apenas plaquetas e não controla a eritrocitose.",
+"porAlt": [
+"A hidroxiureia é teratogênica e deve ser evitada na concepção e na gestação, além do uso prolongado em jovens.",
+"O ruxolitinibe é segunda linha na policitemia vera e não tem segurança estabelecida na gestação.",
+"Correta: o interferon peguilado não é teratogênico e é a citorredução preferida em jovens que planejam engravidar.",
+"O bussulfano é leucemogênico e fica restrito a idosos com opções esgotadas, nunca a jovens que querem engravidar.",
+"A anagrelida só reduz plaquetas, não controla a eritrocitose da policitemia vera e é contraindicada na gestação."
+]
+},
+{
 "q": "Homem de 62 anos, assintomático, fez eletroforese por proteínas totais elevadas: pico monoclonal IgG kappa de 2,4 g/dL. Hemoglobina de 13,6 g/dL, creatinina de 0,9 mg/dL, cálcio de 9,2 mg/dL. Tomografia de baixa dose de corpo inteiro sem lesões líticas. Mielograma com 64% de plasmócitos clonais. Relação de cadeias leves livres kappa/lambda de 38. Ressonância sem lesões focais. Não tem dor óssea, infecções de repetição ou perda de peso. Pelos critérios do IMWG, qual é o diagnóstico?",
 "alts": [
 "Mieloma múltiplo, com indicação de tratar",
