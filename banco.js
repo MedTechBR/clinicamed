@@ -27566,7 +27566,7 @@ window.BANCO=[
 "cenario": "emg",
 "comp": "tto",
 "nivel": "r1",
-"base": "Distúrbios ácido-base, alcalose metabólica responsiva ao cloro (revisão UpToDate 2025)",
+"base": "Distúrbios ácido-base, alcalose metabólica responsiva ao cloro: Emmett M. Metabolic Alkalosis: A Brief Pathophysiologic Review. Clin J Am Soc Nephrol. 2020;15(12):1848-56; Luke RG, Galla JH. It is chloride depletion alkalosis, not contraction alkalosis. J Am Soc Nephrol. 2012;23(2):204-7",
 "coment": "A perda de suco gástrico leva embora hidrogênio, cloro e potássio, produzindo alcalose metabólica hipoclorêmica e hipocalêmica, com contração de volume que perpetua o distúrbio. O tratamento é reposição de volume com salina isotônica e potássio. É a chamada alcalose responsiva ao cloro, corrigida ao restaurar volume e cloreto.",
 "porAlt": [
 "Correta: bicarbonato alto com cloro e potássio baixos, corrigidos com salina e potássio.",
@@ -41994,7 +41994,7 @@ window.BANCO=[
 "cenario": "uti",
 "comp": "urg",
 "nivel": "r3",
-"base": "American Psychiatric Association. Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; UpToDate/consensos sobre síndrome neuroléptica maligna",
+"base": "American Psychiatric Association. Practice Guideline for the Treatment of Patients With Schizophrenia, 2020; Gurrera RJ et al. An international consensus study of neuroleptic malignant syndrome diagnostic criteria using the Delphi method. J Clin Psychiatry. 2011;72(9):1222-8",
 "coment": "A síndrome neuroléptica maligna combina hipertermia, rigidez muscular generalizada, disautonomia e alteração do nível de consciência, com elevação acentuada de creatinoquinase e risco de rabdomiólise e lesão renal. O tratamento é suspender imediatamente o agente antidopaminérgico, oferecer suporte intensivo com resfriamento e hidratação vigorosa e, nos casos moderados a graves, associar dantroleno, que age no músculo, e agonista dopaminérgico como bromocriptina ou amantadina. Benzodiazepínico ajuda na agitação e na rigidez, e eletroconvulsoterapia é opção refratária.",
 "porAlt": [
 "Correta: dantroleno e bromocriptina, associados à suspensão do agente e ao suporte intensivo.",
