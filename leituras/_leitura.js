@@ -92,7 +92,7 @@
     var pres=document.querySelectorAll("pre.mermaid"); if(!pres.length)return;
     if(!window.mermaid){
       if(carregando)return; carregando=true;
-      var s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js";
+      var s=document.createElement("script");s.src="../vendor/mermaid-11.17.2/mermaid.min.js"; /* versão exata servida daqui (antes: @11 móvel no jsDelivr, sem SRI) */
       s.onload=function(){pronto=true;desenha()};
       s.onerror=function(){pres.forEach(function(p){var n=document.createElement("div");n.className="off";
         n.textContent="Fluxograma em texto: sem conexão para desenhar agora.";p.parentNode.insertBefore(n,p)})};

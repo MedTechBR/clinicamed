@@ -3,10 +3,10 @@
    versão velha e a correção vira fantasma.
    Estáticos usam stale-while-revalidate: bump de versão não basta quando a borda do CDN
    devolve conteúdo velho para o precache. HTML é network-first. */
-const CACHE="cm-v170", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
-const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=170","./provas.js?v=170","./banco.js?v=170","./flash.js?v=170",
-           "./pratica.js?v=170","./leituras.js?v=170","./mtsync.js?v=170","./nuvem.js?v=170","./turma.js?v=170","./mtfiltro.js?v=170","./mtsinal.js?v=170","./indice-leituras.js?v=170","./manifest.webmanifest",
-           "./leituras/_leitura.css?v=170","./leituras/_leitura.js?v=170"];
+const CACHE="cm-v171", FONTES="cm-fontes-v1", LIVROS="cm-livros-v1";
+const PRE=["./assets/fonts/inter-400.ttf","./assets/fonts/inter-500.ttf","./assets/fonts/inter-600.ttf","./assets/fonts/inter-700.ttf","./","./index.html","./taxonomia.js?v=171","./provas.js?v=171","./banco.js?v=171","./flash.js?v=171",
+           "./pratica.js?v=171","./leituras.js?v=171","./mtsync.js?v=171","./nuvem.js?v=171","./turma.js?v=171","./mtfiltro.js?v=171","./mtsinal.js?v=171","./indice-leituras.js?v=171","./manifest.webmanifest",
+           "./leituras/_leitura.css?v=171","./leituras/_leitura.js?v=171"];
 /* SDK da conta (Firebase 10.13.2), vendorizado. Fica no balde FONTES, que sobrevive ao bump:
    sem ele o app não abre offline depois de um deploy, e baixar 515 KB a cada versão é
    desperdício. Sem "./" de propósito: o bump.py não versiona, e o mtsync pede estes caminhos. */
@@ -30,8 +30,9 @@ self.addEventListener("fetch",e=>{
   /* SÓ fontes e os módulos versionados do Firebase entram no cache-first. O teste antigo era
      hostname.endsWith("googleapis.com"), que engolia firestore.googleapis.com — o canal de
      escuta do Firestore usa GET, e servir isso da cache trava a sincronização em silêncio. */
-  /* cdn.jsdelivr.net (ícones Tabler, mermaid) fica no balde de fontes, que sobrevive ao bump de
-     versão, mas em stale-while-revalidate: o caminho tem versão maior (@3, @11) e pode andar. */
+  /* cdn.jsdelivr.net (ícones Tabler) fica no balde de fontes, que sobrevive ao bump de
+     versão, mas em stale-while-revalidate: o caminho tem versão maior (@3) e pode andar.
+     O mermaid saiu daqui: agora é vendor/mermaid-<versão exata>/ (ver abaixo). */
   if(url.hostname==="cdn.jsdelivr.net"){
     e.respondWith(caches.open(FONTES).then(async c=>{
       const hit=await c.match(req);
@@ -47,7 +48,9 @@ self.addEventListener("fetch",e=>{
     })); return;
   }
   if(url.origin!==location.origin)return;
-  if(url.pathname.includes("/vendor/firebase-")){
+  /* vendor/: Firebase e mermaid (3,5 MB), com a versão no caminho. Cache-first no balde que
+     sobrevive ao bump, para não re-baixar a cada deploy. Trocar de versão = trocar o caminho. */
+  if(url.pathname.includes("/vendor/")){
     e.respondWith(caches.open(FONTES).then(async c=>{
       const hit=await c.match(req,{ignoreSearch:true}); if(hit)return hit;
       const r=await fetch(req); if(r.ok)c.put(req,r.clone()); return r;
