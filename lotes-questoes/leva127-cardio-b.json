@@ -1,0 +1,722 @@
+[
+ {
+  "q": "Mulher de 63 anos, professora, tem fibrilação atrial paroxística documentada em Holter há 2 meses, com episódios de palpitação de até 6 horas. Tem diabetes tipo 2 há 4 anos, em metformina, com hemoglobina glicada de 6,9%. A pressão é de 124/78 mmHg sem medicação. O ecocardiograma mostra fração de ejeção de 62% e átrio esquerdo de 41 mm, sem valvopatia. Nunca teve AVC, insuficiência cardíaca ou doença vascular. Creatinina de 0,8 mg/dL e hemoglobina de 13,5 g/dL. Pela diretriz europeia de 2024, qual é o escore e a conduta antitrombótica?",
+  "alts": [
+   "CHA₂DS₂-VA de 2: anticoagulante direto é classe I",
+   "CHA₂DS₂-VA de 1: ácido acetilsalicílico em dose baixa",
+   "CHA₂DS₂-VA de 0: dispensa antitrombótico por ora",
+   "CHA₂DS₂-VA de 2: varfarina com INR entre 2 e 3",
+   "CHA₂DS₂-VA de 1: considerar anticoagulante direto"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2024 de fibrilação atrial, CHA₂DS₂-VA: escore 1 deve ser considerado risco elevado (IIa, C)",
+  "coment": "A diretriz europeia de 2024 trocou o CHA₂DS₂-VASc pelo CHA₂DS₂-VA: o sexo feminino deixou de pontuar, porque funcionava como modificador dependente da idade e complicava a decisão sem acrescentar discriminação. Esta paciente soma 1 ponto, o do diabetes; a idade de 63 anos ainda não pontua (65 a 74 anos vale 1). Com escore 2 ou mais, a anticoagulação é recomendada (I, C); com escore 1, ela deve ser considerada (IIa, C), em decisão compartilhada, e o anticoagulante direto é preferido à varfarina na ausência de prótese mecânica ou estenose mitral moderada a grave. Antiagregante não é alternativa ao anticoagulante para prevenir AVC na fibrilação atrial. Quem ainda soma 1 ponto pelo sexo chega ao escore 2 do sistema antigo, e esse é o erro que a questão testa.",
+  "porAlt": [
+   "O sexo feminino não pontua no CHA₂DS₂-VA; o escore 2 resulta da contagem antiga, com o sexo.",
+   "Antiagregante não previne AVC de forma aceitável na fibrilação atrial e não substitui o anticoagulante.",
+   "O diabetes vale 1 ponto, então o escore não é zero.",
+   "O escore é 1, e a varfarina só é preferida em prótese mecânica ou estenose mitral moderada a grave.",
+   "Correta: só o diabetes pontua; com escore 1, a anticoagulação deve ser considerada (IIa), de preferência com anticoagulante direto."
+  ]
+ },
+ {
+  "q": "Homem de 79 anos, 58 kg, com fibrilação atrial permanente, hipertensão e AVC isquêmico há 3 anos, usa dabigatrana 110 mg de 12 em 12 horas há 5 anos. Na consulta de rotina, a creatinina subiu de 1,3 para 2,6 mg/dL ao longo de 1 ano, sem causa aguda, e a taxa de filtração glomerular estimada pelo CKD-EPI 2021 é de 24 mL/min/1,73 m². Hemoglobina de 12,8 g/dL, sem sangramento. Não usa amiodarona, verapamil nem anti-inflamatório, e a função hepática é normal. Qual é a conduta mais adequada sobre a anticoagulação?",
+  "alts": [
+   "Trocar por apixabana 2,5 mg de 12 em 12 horas",
+   "Manter a dabigatrana, que já está em dose reduzida",
+   "Trocar por apixabana 5 mg de 12 em 12 horas",
+   "Trocar por rivaroxabana 20 mg uma vez ao dia",
+   "Suspender o anticoagulante pela piora da função renal"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 de fibrilação atrial, anticoagulantes diretos na doença renal crônica (dabigatrana contraindicada abaixo de 30 mL/min)",
+  "coment": "A dabigatrana é o anticoagulante direto mais dependente do rim (cerca de 80% de eliminação renal) e é contraindicada com filtração abaixo de 30 mL/min, mesmo na dose de 110 mg. Os inibidores do fator Xa têm doses reduzidas aprovadas na Europa para filtração de 15 a 29 mL/min, embora com poucos pacientes nos ensaios. A apixabana é reduzida para 2,5 mg de 12 em 12 horas quando há dois de três critérios (idade ≥ 80 anos, peso ≤ 60 kg, creatinina ≥ 1,5 mg/dL); este paciente tem peso de 58 kg e creatinina de 2,6 mg/dL, e o filtração entre 15 e 29 mL/min também leva à dose reduzida. A rivaroxabana, nessa faixa, seria de 15 mg, não de 20 mg. Suspender a anticoagulação em quem já teve AVC troca um risco controlável por um evento provável. A diretriz também lembra que dose reduzida fora dos critérios é classe III: subdosar causa AVC evitável.",
+  "porAlt": [
+   "Correta: troca para inibidor do fator Xa, e o paciente preenche dois critérios de redução da apixabana.",
+   "A dose de 110 mg não torna a dabigatrana segura com filtração abaixo de 30 mL/min; ela é contraindicada.",
+   "Com peso ≤ 60 kg e creatinina ≥ 1,5 mg/dL, a dose de 5 mg expõe a sangramento.",
+   "Com filtração entre 15 e 49 mL/min, a dose de rivaroxabana é 15 mg ao dia.",
+   "Com AVC prévio e CHA₂DS₂-VA alto, o benefício da anticoagulação supera o risco; a doença renal pede ajuste, não suspensão."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos teve fibrilação atrial diagnosticada há 4 meses no exame pré-operatório de catarata. Refere apenas cansaço leve aos esforços maiores. Tem hipertensão e diabetes tipo 2 controlados. Usa apixabana 5 mg de 12 em 12 horas e bisoprolol 5 mg, com frequência de repouso de 76 bpm. O ecocardiograma mostra fração de ejeção de 55%, átrio esquerdo de 44 mm e nenhuma valvopatia. Ele pergunta se vale a pena tentar voltar ao ritmo normal, já que se sente bem. Qual é a orientação mais adequada pela diretriz europeia de 2024?",
+  "alts": [
+   "Manter controle de frequência, pois os sintomas são leves",
+   "Buscar o ritmo sinusal só se a fração de ejeção cair",
+   "Cardioversão elétrica e suspender a apixabana após",
+   "Aguardar 12 meses e reavaliar os sintomas na consulta",
+   "Considerar controle de ritmo ainda no primeiro ano"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 de fibrilação atrial, controle de ritmo em até 12 meses do diagnóstico (IIa, B), com base no EAST-AFNET 4 (2020)",
+  "coment": "O EAST-AFNET 4 randomizou pacientes com fibrilação atrial diagnosticada havia menos de 1 ano e com condições cardiovasculares (idade acima de 75 anos, AVC prévio ou dois fatores entre hipertensão, diabetes, insuficiência cardíaca e outros) para controle de ritmo precoce, com antiarrítmico ou ablação, ou para cuidado habitual. O controle precoce reduziu o desfecho composto de morte cardiovascular, AVC e hospitalização por insuficiência cardíaca ou síndrome coronariana, inclusive em pacientes pouco sintomáticos. A diretriz europeia de 2024 transformou isso em recomendação: implementar a estratégia de ritmo em até 12 meses do diagnóstico deve ser considerada em pacientes selecionados com risco tromboembólico (IIa, B). Este paciente tem CHA₂DS₂-VA de 3, diagnóstico há 4 meses e átrio ainda moderadamente aumentado: a janela está aberta. Restaurar o ritmo não autoriza suspender o anticoagulante, que segue o escore, não o ritmo.",
+  "porAlt": [
+   "Pouco sintoma não afasta o benefício prognóstico do controle de ritmo precoce demonstrado no EAST-AFNET 4.",
+   "Esperar a disfunção ventricular desperdiça a janela de benefício do primeiro ano.",
+   "A anticoagulação segue o CHA₂DS₂-VA, que é de 3, e não é suspensa após o retorno ao ritmo sinusal.",
+   "Esperar 12 meses tira o paciente da janela em que o controle de ritmo mostrou benefício.",
+   "Correta: diagnóstico recente com risco tromboembólico é o perfil em que o controle de ritmo precoce deve ser considerado."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos é internado por dispneia aos médios esforços e edema há 2 meses. O eletrocardiograma mostra ritmo irregularmente irregular, sem ondas P identificáveis, ondas f finas em V1, frequência ventricular média de 132 bpm e QRS de 96 ms, sem ondas Q. O ecocardiograma mostra fração de ejeção de 28% e ventrículo esquerdo de 61 mm em diástole, sem valvopatia primária. A angiotomografia de coronárias não tem lesões, e a ressonância não mostra realce tardio. Não bebe, e a função tireoidiana é normal. As palpitações começaram há cerca de 1 ano. Compensado com diurético, apixabana e betabloqueador, qual é a estratégia mais adequada para o ritmo?",
+  "alts": [
+   "Controle de frequência e nova avaliação em 12 meses",
+   "Ablação por cateter com isolamento das veias pulmonares",
+   "Cardiodesfibrilador para prevenção primária agora",
+   "Ablação do nó atrioventricular e marca-passo biventricular",
+   "Flecainida oral para manter o ritmo sinusal após cardioversão"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2024 de fibrilação atrial, ablação na insuficiência cardíaca com fração reduzida e alta probabilidade de taquicardiomiopatia (I, B)",
+  "coment": "A combinação de fibrilação atrial de alta resposta por meses, ventrículo dilatado e disfuncionante, coronárias normais e ressonância sem realce tardio (sem cicatriz de outra cardiomiopatia) torna muito provável a cardiomiopatia induzida por taquicardia. Para esse perfil, a diretriz europeia de 2024 recomenda a ablação por cateter para reverter a disfunção ventricular (I, B); em pacientes com fração reduzida em geral, ela deve ser considerada para reduzir hospitalização e prolongar a sobrevida (IIa, B), com base no CASTLE-AF e no CASTLE-HTx. O cardiodesfibrilador em prevenção primária só se discute após pelo menos 3 meses de tratamento otimizado e afastada a causa reversível; aqui a função pode normalizar. A flecainida é contraindicada com cardiopatia estrutural e disfunção sistólica. Ablação do nó com estimulação é a saída para fibrilação permanente refratária, não a primeira escolha em um paciente de 52 anos com chance de recuperar o ritmo e a função.",
+  "porAlt": [
+   "Adiar o controle de ritmo mantém a taquicardiomiopatia e perde a chance de reverter a disfunção.",
+   "Correta: suspeita forte de taquicardiomiopatia na fração reduzida é classe I para ablação por cateter.",
+   "O cardiodesfibrilador exige 3 meses de tratamento otimizado e, aqui, a causa é potencialmente reversível.",
+   "Ablação do nó com estimulação fica para a fibrilação permanente refratária, com hospitalização por insuficiência cardíaca.",
+   "A flecainida é contraindicada na disfunção ventricular e na cardiopatia estrutural."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos fez isolamento das veias pulmonares por fibrilação atrial paroxística sintomática há 8 meses. Desde então está assintomática, e dois Holters de 7 dias e um monitor de eventos de 30 dias não registraram arritmia. Tem hipertensão controlada com losartana 50 mg. Usa rivaroxabana 20 mg ao dia, sem sangramentos, com filtração glomerular estimada (CKD-EPI 2021) de 68 mL/min/1,73 m² e hemoglobina de 13,1 g/dL. Ela pergunta se pode parar o anticoagulante, porque a arritmia foi curada. Qual é a orientação adequada?",
+  "alts": [
+   "Suspender, pois não há recorrência documentada",
+   "Manter o anticoagulante guiado pelo escore",
+   "Trocar por ácido acetilsalicílico em dose baixa",
+   "Reduzir a rivaroxabana para 10 mg ao dia",
+   "Suspender e repetir o Holter a cada 6 meses"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC 2024 de fibrilação atrial, anticoagulação após ablação pelo CHA₂DS₂-VA, e não pelo sucesso do procedimento",
+  "coment": "Recorrências assintomáticas são comuns depois da ablação, e a monitorização intermitente, mesmo prolongada, não as exclui. Por isso, até que ensaios randomizados testem a suspensão, a diretriz europeia de 2024 recomenda manter a anticoagulação após a ablação de acordo com o CHA₂DS₂-VA do paciente e não com o sucesso percebido do procedimento; a mesma lógica vale para ablação endoscópica ou híbrida, independentemente do resultado do ritmo ou da exclusão do apêndice (I, C). Esta paciente soma 2 pontos (idade de 65 a 74 anos e hipertensão), o que indica anticoagulação. A dose de 20 mg é a correta para filtração acima de 50 mL/min; a dose de 10 mg não é aprovada para prevenção de AVC na fibrilação atrial. Antiagregante não substitui anticoagulante.",
+  "porAlt": [
+   "Ausência de recorrência registrada não exclui episódios assintomáticos nem reduz o risco que o escore expressa.",
+   "Correta: com CHA₂DS₂-VA de 2, a anticoagulação continua após a ablação, qualquer que seja o resultado do ritmo.",
+   "Antiagregante não previne AVC na fibrilação atrial de forma aceitável e sangra quase o mesmo.",
+   "A dose de 10 mg não é aprovada para a fibrilação atrial; subdosar é classe III.",
+   "Holter seriado não substitui a anticoagulação indicada pelo escore."
+  ]
+ },
+ {
+  "q": "Homem de 78 anos com marca-passo bicameral por bloqueio atrioventricular total há 2 anos vem à interrogação de rotina. O dispositivo registra episódios de frequência atrial de 190 a 260 bpm, o mais longo com 7 horas, e carga total inferior a 1%; os eletrogramas confirmam fibrilação atrial. Nunca teve palpitação. O eletrocardiograma de 12 derivações mostra ritmo de marca-passo com captura atrial e ventricular. Tem hipertensão e diabetes, CHA₂DS₂-VA de 4, nenhum sangramento prévio, hemoglobina de 13,9 g/dL e filtração glomerular estimada (CKD-EPI 2021) de 61 mL/min/1,73 m². Qual é a orientação pela diretriz europeia de 2024?",
+  "alts": [
+   "Anticoagulação obrigatória, como na fibrilação clínica",
+   "Ácido acetilsalicílico em dose baixa e reavaliação",
+   "Anticoagulante direto em decisão compartilhada",
+   "Anticoagular só se um episódio passar de 24 horas",
+   "Varfarina, pela idade e pelo marca-passo"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC 2024 de fibrilação atrial, fibrilação subclínica detectada por dispositivo (IIb, B), com ARTESiA (2023) e NOAH-AFNET 6 (2023)",
+  "coment": "Fibrilação atrial subclínica é a detectada por dispositivo implantado, sem sintomas e sem registro em eletrocardiograma de 12 derivações ou monitor externo. Ela é menos emboligênica que a clínica. No ARTESiA, a apixabana reduziu AVC e embolia sistêmica em relação ao ácido acetilsalicílico, com mais sangramento maior; no NOAH-AFNET 6, a edoxabana não reduziu o desfecho composto e aumentou sangramento. A diretriz europeia de 2024 traduziu isso como recomendação fraca: anticoagulante direto pode ser considerado na fibrilação subclínica com risco tromboembólico elevado, excluídos os de alto risco de sangramento (IIb, B). Para este paciente, com CHA₂DS₂-VA de 4 e sem fator de sangramento, a conduta é discutir e oferecer o anticoagulante direto, e acompanhar a progressão para fibrilação clínica, que passa a ter indicação classe I. A duração mediana dos episódios nos dois ensaios foi curta, e o limite de 24 horas não é critério da diretriz.",
+  "porAlt": [
+   "Na fibrilação subclínica a recomendação é IIb, não a classe I da fibrilação clínica.",
+   "O ácido acetilsalicílico foi o comparador que a apixabana superou no ARTESiA.",
+   "Correta: com risco tromboembólico alto e sem risco alto de sangramento, o anticoagulante direto pode ser considerado e se decide com o paciente.",
+   "Os ensaios incluíram episódios curtos, e a diretriz não usa um corte de 24 horas.",
+   "Quando se anticoagula, o anticoagulante direto é o preferido; marca-passo não indica varfarina."
+  ]
+ },
+ {
+  "q": "Homem de 64 anos, engenheiro, assintomático, tem estenose aórtica de valva tricúspide acompanhada há 3 anos. O ecocardiograma atual mostra velocidade máxima de 5,2 m/s, gradiente médio de 66 mmHg, área de 0,6 cm² e fração de ejeção de 63%. No teste ergométrico, atingiu 10 METs sem sintomas, com resposta pressórica normal. O NT-proBNP é de 210 pg/mL. A coronariografia não mostra lesões, e o risco cirúrgico pelo STS é de 1,2%. Ele pratica ciclismo e prefere resolver a doença. Qual é a conduta mais adequada pela diretriz ESC/EACTS 2025?",
+  "alts": [
+   "Vigilância a cada 6 meses até surgirem sintomas",
+   "Implante transcateter por via femoral, eletivo",
+   "Troca valvar cirúrgica eletiva, sem esperar sintoma",
+   "Valvoplastia por balão e reavaliação em 1 ano",
+   "Teste ergométrico anual e estatina de alta potência"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC/EACTS 2025 de valvopatias, intervenção na estenose aórtica grave assintomática (IIa, A e IIa, B) e troca cirúrgica abaixo de 70 anos (I, B)",
+  "coment": "A diretriz ESC/EACTS 2025 incorporou o EARLY TAVR, o AVATAR e o RECOVERY: no assintomático com estenose grave de alto gradiente, fração de ejeção ≥ 50%, teste de esforço normal e risco baixo, intervir deve ser considerado em vez de vigiar (IIa, A). Este paciente tem ainda um marcador de alto risco, a velocidade máxima acima de 5,0 m/s, que também sustenta a intervenção (IIa, B). A via segue a idade e a anatomia: abaixo de 70 anos com risco cirúrgico baixo, a troca cirúrgica é a recomendada (I, B); o implante transcateter é a escolha em valva tricúspide a partir dos 70 anos com anatomia adequada (I, A). A valvoplastia por balão é ponte, não tratamento definitivo, e estatina não muda a história natural da estenose aórtica. Vigiar ainda é aceitável em parte dos assintomáticos, mas não é a conduta preferida com velocidade de 5,2 m/s em um paciente de risco baixo.",
+  "porAlt": [
+   "Com velocidade acima de 5 m/s e risco baixo, a diretriz de 2025 favorece intervir a vigiar.",
+   "Abaixo de 70 anos e com risco cirúrgico baixo, a recomendação é a troca cirúrgica.",
+   "Correta: estenose muito grave assintomática de baixo risco em paciente de 64 anos tem indicação de troca cirúrgica precoce.",
+   "A valvoplastia por balão tem reestenose precoce e só serve como ponte.",
+   "Estatina falhou em retardar a estenose aórtica, e repetir o teste não muda a indicação já presente."
+  ]
+ },
+ {
+  "q": "Mulher de 72 anos, independente, com hipertensão controlada, relata dispneia aos médios esforços e um episódio de pré-síncope ao subir escadas. O ecocardiograma mostra estenose aórtica de valva tricúspide com gradiente médio de 48 mmHg, velocidade máxima de 4,4 m/s, área de 0,7 cm² e fração de ejeção de 60%. A angiotomografia mostra anel compatível com as próteses disponíveis, acesso femoral adequado e coronárias sem lesões obstrutivas. O STS é de 2,0%, sem fragilidade. Pela diretriz ESC/EACTS 2025, qual é a conduta preferencial?",
+  "alts": [
+   "Troca cirúrgica, pelo risco baixo e pela idade",
+   "Tratamento clínico até a fração de ejeção cair",
+   "Troca cirúrgica com prótese mecânica e varfarina",
+   "Implante transcateter de valva aórtica femoral",
+   "Valvoplastia por balão, adiando a decisão final"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC/EACTS 2025 de valvopatias, implante transcateter a partir de 70 anos em valva tricúspide com anatomia adequada (I, A)",
+  "coment": "Estenose aórtica grave de alto gradiente sintomática é indicação classe I de intervenção, e iniciar diurético ou obter alívio não deve atrasá-la. A mudança da diretriz de 2025 está na escolha da via: o limite de idade para preferir o implante transcateter caiu de 75 anos (ESC 2021) para 70 anos, desde que a valva seja tricúspide e a anatomia seja adequada para acesso femoral (I, A), com base nos ensaios de risco baixo (PARTNER 3, Evolut Low Risk, NOTION e DEDICATE). Abaixo de 70 anos com risco baixo, a troca cirúrgica segue preferida (I, B). Pela régua antiga de 75 anos, esta paciente iria para cirurgia, e é esse o erro testado. A ACC/AHA 2020 trata a faixa de 65 a 80 anos como decisão compartilhada. Prótese mecânica aos 72 anos expõe a anticoagulação perpétua sem ganho de durabilidade que compense; acima de 65 anos em posição aórtica, a biológica é a preferida.",
+  "porAlt": [
+   "Pelo corte de 75 anos da diretriz de 2021 seria cirurgia; na de 2025, a partir de 70 anos com anatomia adequada, a via preferida é transcateter.",
+   "Sintoma na estenose grave é indicação de intervenção, não de tratamento clínico.",
+   "Acima de 65 anos em posição aórtica, a bioprótese é a preferida, e a via preferida é transcateter.",
+   "Correta: 72 anos, valva tricúspide e acesso femoral adequado são o perfil classe I para implante transcateter.",
+   "A valvoplastia por balão é ponte para quem está instável, não alternativa à troca."
+  ]
+ },
+ {
+  "q": "Homem de 76 anos refere dispneia aos médios esforços e angina aos grandes esforços há 6 meses. Tem hipertensão controlada. O ecocardiograma mostra valva aórtica tricúspide calcificada, área de 0,8 cm², gradiente médio de 31 mmHg, velocidade máxima de 3,6 m/s, fração de ejeção de 63%, ventrículo pequeno com hipertrofia concêntrica e volume sistólico indexado de 29 mL/m². As medidas foram conferidas com pressão de 128/76 mmHg. O escore de cálcio valvar na tomografia é de 2.400 unidades Agatston. A coronariografia não mostra lesões. Qual é a interpretação e a conduta?",
+  "alts": [
+   "Pseudograve: tratar o miocárdio e seguir o paciente",
+   "Estenose moderada: repetir o ecocardiograma em 1 ano",
+   "Grave de baixo fluxo: considerar implante transcateter",
+   "Indefinida: ecocardiograma com dobutamina antes",
+   "Moderada: angina por microvasculopatia, betabloqueador"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESC/EACTS 2025 de valvopatias, estenose aórtica de baixo fluxo e baixo gradiente com fração preservada (IIa, B) e escore de cálcio",
+  "coment": "Área de 0,8 cm² com gradiente abaixo de 40 mmHg é discordância, e o primeiro passo é conferir medidas e pressão, o que foi feito. O volume sistólico indexado de 29 mL/m² (abaixo de 35) define baixo fluxo; com fração preservada e ventrículo pequeno e hipertrofiado, é a estenose de baixo fluxo e baixo gradiente paradoxal, em que o gradiente subestima a obstrução. A confirmação independe do fluxo: o escore de cálcio valvar acima de 2.000 UA no homem (1.200 UA na mulher) torna a estenose grave provável. Confirmada a gravidade, em paciente sintomático, a intervenção deve ser considerada (IIa, B), e aos 76 anos, com valva tricúspide, a via preferida é o implante transcateter. A dobutamina em dose baixa serve ao baixo fluxo com fração reduzida, para testar reserva contrátil; aqui ela não está indicada. O erro mais comum é chamar de moderada a estenose com gradiente baixo sem olhar o fluxo.",
+  "porAlt": [
+   "Pseudograve é conceito do baixo fluxo com fração reduzida que abre a área sob dobutamina.",
+   "Gradiente baixo com fluxo baixo não significa estenose moderada; o escore de cálcio confirma a gravidade.",
+   "Correta: baixo fluxo paradoxal confirmado pelo cálcio, em paciente sintomático de 76 anos, aponta para implante transcateter.",
+   "A dobutamina é usada no baixo fluxo com fração reduzida, não com fração de 63%.",
+   "A angina tem explicação na estenose grave confirmada, e coronárias normais não a tornam microvascular."
+  ]
+ },
+ {
+  "q": "Mulher de 48 anos, 1,55 m e 52 kg, com superfície corporal de 1,49 m², tem prolapso do folheto posterior da mitral com cordoalha rota e insuficiência mitral grave. É assintomática, caminha 6 km por dia e está em ritmo sinusal. O ecocardiograma mostra fração de ejeção de 64%, diâmetro sistólico do ventrículo esquerdo de 34 mm, átrio esquerdo de 46 mm e pressão sistólica pulmonar de 32 mmHg. O transesofágico confirma anatomia favorável ao reparo, em centro com mortalidade operatória inferior a 1%. Pela diretriz ESC/EACTS 2025, qual é a conduta?",
+  "alts": [
+   "Seguimento semestral até o diâmetro chegar a 40 mm",
+   "Reparo transcateter borda a borda, por ser assintomática",
+   "Vasodilatador oral e ecocardiograma em 6 meses",
+   "Reparo cirúrgico da valva mitral, sem esperar sintoma",
+   "Seguimento clínico até a fração de ejeção cair a 50%"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC/EACTS 2025 de valvopatias, insuficiência mitral primária assintomática com diâmetro sistólico ≥ 20 mm/m² (I, B)",
+  "coment": "Na insuficiência mitral primária grave assintomática, a cirurgia é indicada com fração de ejeção ≤ 60% ou diâmetro sistólico ≥ 40 mm (I, B). A diretriz de 2025 acrescentou o limiar indexado de ≥ 20 mm/m², que protege mulheres e pessoas pequenas da indicação tardia: 34 mm em 1,49 m² dão cerca de 22,8 mm/m², acima do corte, embora o valor absoluto esteja abaixo de 40 mm. Na insuficiência mitral, a fração de ejeção superestima a função, porque parte do volume vai para o átrio de baixa resistência; 60% já é disfunção. Com anatomia favorável e centro experiente, o reparo é a técnica recomendada quando o resultado esperado é durável. O reparo transcateter borda a borda fica para quem tem alto risco cirúrgico, e vasodilatador não adia cirurgia na regurgitação crônica sem hipertensão.",
+  "porAlt": [
+   "Esperar 40 mm ignora o limiar indexado, que esta paciente já ultrapassou.",
+   "O reparo transcateter é reservado a quem tem risco cirúrgico alto ou proibitivo.",
+   "Vasodilatador não altera a história natural da regurgitação mitral crônica sem hipertensão.",
+   "Correta: diâmetro sistólico indexado acima de 20 mm/m² é indicação classe I de reparo, mesmo sem sintomas.",
+   "Na insuficiência mitral, o gatilho é fração ≤ 60%; esperar 50% é operar tarde."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos com cardiomiopatia isquêmica, revascularizado por angioplastia há 4 anos, mantém dispneia aos pequenos esforços (classe III da NYHA) apesar de sacubitril-valsartana, bisoprolol, espironolactona e dapagliflozina em doses toleradas, e de ressincronizador implantado há 8 meses. Foi internado por insuficiência cardíaca há 3 meses. O ecocardiograma mostra fração de ejeção de 32%, diâmetro sistólico de 56 mm, insuficiência mitral secundária grave com orifício efetivo de 0,40 cm², pressão sistólica pulmonar de 46 mmHg e ventrículo direito preservado. A cintilografia não mostra isquemia, e a anatomia é favorável. Qual é a conduta?",
+  "alts": [
+   "Reparo transcateter mitral borda a borda",
+   "Troca valvar mitral cirúrgica isolada",
+   "Aumentar a furosemida e manter a conduta",
+   "Encaminhar para transplante como próximo passo",
+   "Anuloplastia mitral com nova revascularização"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC/EACTS 2025 de valvopatias, reparo transcateter borda a borda na insuficiência mitral secundária ventricular com critérios do COAPT (I, A)",
+  "coment": "Na insuficiência mitral secundária, a valva é normal e o problema é o ventrículo; por isso a gravidade só vale depois de tratamento otimizado com os quatro pilares, ressincronização quando indicada e revascularização quando há isquemia. Este paciente cumpriu essas etapas e preenche os critérios que a diretriz de 2025 elevou a classe I, nível A: sintomático (NYHA ≥ II), fração entre 20% e 50%, diâmetro sistólico ≤ 70 mm, hospitalização no último ano, pressão sistólica pulmonar ≤ 70 mmHg, ventrículo direito preservado, sem coronariopatia a revascularizar e com anatomia favorável. É o retrato do COAPT, em que o reparo reduziu hospitalização e mortalidade com benefício mantido em 5 anos; o MITRA-FR, neutro, incluiu ventrículos maiores com regurgitação proporcionalmente menor. Cirurgia mitral na forma secundária é indicada quando o paciente vai a revascularização cirúrgica, o que não é o caso. Transplante e assistência ventricular entram quando os critérios não são preenchidos ou na insuficiência avançada.",
+  "porAlt": [
+   "Correta: o paciente preenche os critérios do COAPT, e o reparo borda a borda é classe I, nível A.",
+   "Cirurgia mitral isolada na forma secundária tem alto risco e benefício não demonstrado fora da revascularização cirúrgica.",
+   "Mais diurético não trata a regurgitação persistente de quem já está otimizado.",
+   "Ele ainda tem opção valvar com benefício provado antes de se discutir transplante.",
+   "Sem isquemia nem lesão a tratar, não há indicação de revascularização cirúrgica que justifique a anuloplastia."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos com cardiopatia reumática relata palpitações e dispneia aos médios esforços há 2 meses. O eletrocardiograma mostra fibrilação atrial com resposta de 110 bpm e ondas f grosseiras em V1. O ecocardiograma mostra estenose mitral com área de 1,3 cm² por planimetria, gradiente médio de 9 mmHg, escore de Wilkins de 7, insuficiência mitral leve, átrio esquerdo de 52 mm e pressão sistólica pulmonar de 44 mmHg. O transesofágico não mostra trombo. Filtração glomerular estimada (CKD-EPI 2021) de 96 mL/min/1,73 m². Qual é o plano mais adequado?",
+  "alts": [
+   "Rivaroxabana e valvoplastia mitral por balão",
+   "Apixabana e troca valvar por prótese mecânica",
+   "Varfarina com INR 2 a 3 e seguimento clínico",
+   "Dabigatrana e comissurotomia mitral cirúrgica",
+   "Varfarina com INR 2 a 3 e valvoplastia por balão"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC/EACTS 2025 de valvopatias, estenose mitral reumática: anticoagulante direto contraindicado com área ≤ 2,0 cm² (III, B) e valvoplastia (I, B); INVICTUS (2022)",
+  "coment": "A estenose mitral reumática com área ≤ 1,5 cm² e sintomas tem indicação de comissurotomia percutânea quando a anatomia é favorável (I, B): Wilkins de 7, insuficiência leve e ausência de trombo no transesofágico, obrigatório antes do procedimento. Na fibrilação atrial associada, a anticoagulação é com varfarina, INR de 2 a 3. O INVICTUS randomizou 4.565 pacientes com fibrilação atrial reumática para rivaroxabana ou antagonista da vitamina K, e o antagonista reduziu o composto de eventos cardiovasculares e morte, sem mais sangramento. A diretriz de 2025 tornou classe III o anticoagulante direto na estenose mitral reumática com área ≤ 2,0 cm². Prótese mecânica não é a primeira opção quando a anatomia permite valvoplastia, e anticoagulante direto em prótese mecânica também é classe III.",
+  "porAlt": [
+   "Anticoagulante direto na estenose mitral reumática com área ≤ 2,0 cm² é classe III, desde o INVICTUS.",
+   "Há anatomia favorável à valvoplastia, e anticoagulante direto é contraindicado em prótese mecânica.",
+   "A paciente é sintomática com área de 1,3 cm²; seguir sem intervir posterga uma indicação classe I.",
+   "Anticoagulante direto não é usado aqui, e a cirurgia fica para quem não é candidato à valvoplastia.",
+   "Correta: varfarina na fibrilação atrial reumática e valvoplastia por balão na estenose sintomática com anatomia favorável."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos com bioprótese aórtica implantada há 2 anos procura o pronto-socorro com febre de 38,4 °C e astenia há 3 semanas. Não há sopro novo nem estigmas periféricos. Três pares de hemoculturas, colhidos com intervalo de 12 horas, crescem Staphylococcus epidermidis com o mesmo antibiograma. O transtorácico e o transesofágico não mostram vegetação, abscesso ou deiscência. O PET-CT com fluordesoxiglicose mostra captação intensa e focal ao redor do anel da prótese. Não há outro foco infeccioso. Pelos critérios de Duke-ISCVID de 2023, como se classifica o caso?",
+  "alts": [
+   "Endocardite definida: dois critérios maiores",
+   "Endocardite possível: um critério maior e dois menores",
+   "Endocardite rejeitada: o germe é contaminante usual",
+   "Endocardite possível: o PET-CT conta só como menor",
+   "Endocardite definida só com transesofágico positivo"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Duke-ISCVID 2023 (Fowler et al., Clin Infect Dis) e ESC 2023 de endocardite, critérios microbiológicos e de imagem",
+  "coment": "Os critérios de Duke-ISCVID de 2023 atualizaram o Duke modificado em dois pontos que este caso usa. Primeiro, ampliaram a lista de agentes típicos: na presença de material protético intracardíaco, estafilococo coagulase-negativo, Corynebacterium striatum e jeikeium, Serratia marcescens, Pseudomonas aeruginosa, Cutibacterium acnes, micobactérias não tuberculosas e Candida passam a contar como típicos quando crescem em hemoculturas separadas; além disso, hemoculturas persistentemente positivas já seriam critério maior. Segundo, o PET-CT com fluordesoxiglicose e a tomografia cardíaca entraram como critério maior de imagem, com a ressalva de que captação nos primeiros 3 meses após o implante pode ser inflamação pós-operatória (aqui são 2 anos). Dois critérios maiores definem endocardite. A ESC 2023, com tabela própria, chega à mesma classificação. Eco negativo não afasta endocardite de prótese, que é justamente onde o PET-CT tem mais valor.",
+  "porAlt": [
+   "Correta: microbiologia com agente típico em prótese e PET-CT positivo após 3 meses do implante são dois critérios maiores.",
+   "O PET-CT é critério maior de imagem, então o caso soma dois maiores.",
+   "Com prótese intracardíaca, o estafilococo coagulase-negativo em hemoculturas repetidas conta como agente típico.",
+   "Os critérios de 2023 colocam o PET-CT entre os critérios maiores de imagem.",
+   "O ecocardiograma não é a única imagem válida; o PET-CT positivo basta como critério maior."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos, usuário de drogas injetáveis, está internado com endocardite de valva mitral nativa por Staphylococcus aureus sensível à oxacilina. Recebe oxacilina 12 g/dia há 5 dias, e as hemoculturas do terceiro dia já são negativas. Hoje refere dor em hipocôndrio esquerdo, e a tomografia mostra infartos esplênico e renal novos. O transesofágico de controle mostra vegetação de 13 mm no folheto anterior, insuficiência mitral moderada e nenhum abscesso. Está estável, sem congestão, com pressão de 118/72 mmHg e creatinina de 1,0 mg/dL. Qual é a conduta pela diretriz europeia de 2023?",
+  "alts": [
+   "Completar 6 semanas de oxacilina e reavaliar a valva",
+   "Cirurgia de emergência nas próximas 24 horas",
+   "Associar rifampicina e gentamicina e manter clínico",
+   "Cirurgia valvar urgente, nos próximos dias",
+   "Operar apenas se surgir insuficiência cardíaca"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ESC 2023 de endocardite, cirurgia urgente com vegetação ≥ 10 mm persistente após embolia apesar do antibiótico (I, B)",
+  "coment": "A cirurgia na endocardite esquerda tem três motivos: insuficiência cardíaca, infecção não controlada e prevenção de embolia. Este paciente se enquadra no terceiro: vegetação persistente de 10 mm ou mais após episódio embólico ocorrido apesar de antibiótico adequado é indicação classe I, B de cirurgia urgente, isto é, nos próximos 3 a 5 dias. O risco de nova embolia é maior nas primeiras 2 semanas de tratamento e com vegetações grandes e móveis na mitral, e esperar o fim do antibiótico desperdiça a janela de prevenção. A cirurgia de emergência, em menos de 24 horas, é reservada ao edema pulmonar refratário ou ao choque por regurgitação aguda grave, obstrução ou fístula. Rifampicina e gentamicina não estão indicadas de rotina na endocardite de valva nativa por S. aureus, porque acrescentam toxicidade sem benefício. A decisão é do Endocarditis Team.",
+  "porAlt": [
+   "Esperar o fim do antibiótico perde a janela em que o risco de nova embolia é maior.",
+   "Emergência em menos de 24 horas é para edema pulmonar refratário ou choque, que ele não tem.",
+   "Rifampicina e gentamicina não são recomendadas na valva nativa por S. aureus e não substituem a cirurgia.",
+   "Correta: vegetação de 13 mm persistente após embolia na vigência de antibiótico é indicação de cirurgia urgente (I, B).",
+   "A insuficiência cardíaca é uma das indicações, mas a embolia com vegetação grande já basta."
+  ]
+ },
+ {
+  "q": "Homem de 81 anos fez implante transcateter de valva aórtica há 14 meses e vai extrair dois molares com descolamento gengival. Há 10 anos teve urticária generalizada 1 hora após tomar amoxicilina, sem angioedema ou hipotensão. Não usa anticoagulante; toma ácido acetilsalicílico 100 mg. Filtração glomerular estimada (CKD-EPI 2021) de 52 mL/min/1,73 m². O dentista pergunta pela profilaxia de endocardite. Pela diretriz europeia de 2023, qual é a orientação?",
+  "alts": [
+   "Clindamicina 600 mg oral, 1 hora antes do procedimento",
+   "Sem profilaxia, pois o implante transcateter não é risco alto",
+   "Cefalexina 2 g oral, 30 a 60 minutos antes do procedimento",
+   "Azitromicina 500 mg oral, 30 a 60 minutos antes",
+   "Amoxicilina 2 g oral, pois a reação foi há muitos anos"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "ESC 2023 de endocardite, profilaxia no alto risco (I, B) e esquemas na alergia à penicilina, sem clindamicina",
+  "coment": "A prótese transcateter aórtica entra no grupo de alto risco da diretriz europeia de 2023, ao lado da endocardite prévia, das próteses e materiais de reparo cirúrgicos, da cardiopatia congênita cianótica e dos dispositivos de assistência ventricular. Para esses pacientes, a profilaxia é recomendada em extração e cirurgia oral e em procedimentos que manipulem gengiva ou região periapical (I, B). O esquema habitual é amoxicilina 2 g por via oral, 30 a 60 minutos antes. Na alergia à penicilina, as opções são azitromicina ou claritromicina 500 mg, doxiciclina 100 mg ou cefalexina 2 g, mas a cefalosporina não deve ser usada quando a reação foi anafilaxia, angioedema ou urticária. A clindamicina saiu das opções em 2023, pelos efeitos adversos graves, incluindo colite por Clostridioides difficile. Reação tipo urticária a betalactâmico não autoriza reexposição sem avaliação alérgica.",
+  "porAlt": [
+   "A clindamicina deixou de ser recomendada na diretriz de 2023 por efeitos adversos graves.",
+   "A prótese aórtica transcateter está no grupo de alto risco, com indicação classe I.",
+   "Cefalosporina é evitada quando a reação prévia à penicilina foi urticária, angioedema ou anafilaxia.",
+   "Correta: alto risco, procedimento com manipulação gengival e alergia com urticária levam ao macrolídeo.",
+   "Urticária generalizada sugere reação imediata, e o tempo decorrido não autoriza reexposição sem avaliação."
+  ]
+ },
+ {
+  "q": "Uma equipe de saúde bucal de uma unidade básica encaminha ao clínico cinco pacientes adultos que farão extração dentária na próxima semana: o primeiro, de 58 anos, tem prolapso mitral com insuficiência moderada; o segundo, de 34 anos, tem valva aórtica bicúspide com estenose moderada; o terceiro, de 66 anos, tem marca-passo bicameral há 3 anos; o quarto, de 61 anos, fez plastia mitral com anel protético há 5 anos; o quinto, de 45 anos, tem cardiomiopatia hipertrófica obstrutiva. Pela diretriz europeia de 2023, em qual deles a profilaxia é recomendada?",
+  "alts": [
+   "No paciente com prolapso e insuficiência moderada",
+   "No paciente com plastia e anel protético",
+   "No paciente com valva aórtica bicúspide",
+   "No portador de marca-passo bicameral",
+   "No paciente com cardiomiopatia hipertrófica"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2023 de endocardite, grupos de risco alto (I, B) e intermediário para profilaxia antibiótica",
+  "coment": "A diretriz europeia de 2023 reservou a profilaxia antibiótica odontológica ao risco alto: endocardite prévia; prótese valvar cirúrgica ou qualquer material usado em reparo cirúrgico, como anel de anuloplastia ou cordas artificiais; prótese transcateter aórtica ou pulmonar; cardiopatia congênita cianótica não tratada ou corrigida com material protético (nos primeiros 6 meses, ou por toda a vida se houver lesão residual); e dispositivo de assistência ventricular. A plastia com anel protético entra nesse grupo. Os demais pacientes da lista estão no risco intermediário (cardiopatia reumática, valvopatia degenerativa não reumática, anomalias valvares congênitas como a bicúspide, dispositivos eletrônicos implantáveis e cardiomiopatia hipertrófica), em que a profilaxia não é recomendada de rotina e pode ser individualizada. Para todos, higiene oral e revisão odontológica regular são a medida de maior impacto.",
+  "porAlt": [
+   "Prolapso mitral com regurgitação, mesmo moderada, é risco intermediário.",
+   "Correta: material protético de reparo valvar cirúrgico é risco alto, com profilaxia classe I.",
+   "A valva bicúspide é anomalia congênita de risco intermediário.",
+   "Dispositivo eletrônico implantável é risco intermediário para profilaxia odontológica.",
+   "A cardiomiopatia hipertrófica está no grupo intermediário."
+  ]
+ },
+ {
+  "q": "Homem de 60 anos, assintomático, sem diabetes e sem evento cardiovascular prévio, tem hipertensão controlada e é ex-tabagista. Fez escore de cálcio coronário por indicação do cardiologista, que foi de 420 unidades Agatston, sem estenose na angiotomografia acima de 50%. Usa rosuvastatina 20 mg há 6 meses, com boa tolerância e adesão. O LDL era de 168 mg/dL antes do tratamento e hoje é de 78 mg/dL; o não HDL é de 104 mg/dL. CK e transaminases normais. Pela diretriz brasileira de dislipidemias de 2025, qual é a meta e a conduta?",
+  "alts": [
+   "Meta abaixo de 50 mg/dL: associar a ezetimiba",
+   "Meta abaixo de 70 mg/dL: manter a dose atual",
+   "Meta abaixo de 100 mg/dL: a dose já está adequada",
+   "Meta abaixo de 40 mg/dL: associar a ezetimiba",
+   "Meta abaixo de 55 mg/dL: associar a ezetimiba"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "SBC 2025, Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose: muito alto risco por escore de cálcio acima de 300 UA",
+  "coment": "A diretriz brasileira de 2025 abandona a divisão binária entre prevenção primária e secundária e trabalha com um contínuo de cinco categorias de risco. O escore de cálcio acima de 300 UA classifica o paciente como de muito alto risco, mesmo sem evento; entre 100 e 300 UA, ou acima do percentil 75, ele seria de alto risco. A meta de LDL no muito alto risco é abaixo de 50 mg/dL, com redução de pelo menos 50% (não HDL abaixo de 80 e apolipoproteína B abaixo de 55 mg/dL). Com 78 mg/dL sob estatina de alta intensidade, a intensificação recomendada é associar ezetimiba ou terapia anti-PCSK9; o passo natural, de menor custo e com redução adicional de cerca de 20% a 25%, é a ezetimiba. A meta abaixo de 40 mg/dL é a do risco extremo, que exige evento aterosclerótico maior.",
+  "porAlt": [
+   "Correta: muito alto risco pelo cálcio acima de 300 UA, meta abaixo de 50 mg/dL e ezetimiba como intensificação.",
+   "A meta abaixo de 70 mg/dL é a do alto risco; o cálcio acima de 300 UA eleva o paciente a muito alto risco.",
+   "A meta abaixo de 100 mg/dL é a do risco intermediário.",
+   "Meta abaixo de 40 mg/dL é do risco extremo, que pressupõe evento aterosclerótico maior.",
+   "O valor de 55 mg/dL é a meta europeia do muito alto risco; a diretriz brasileira de 2025 usa 50 mg/dL."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, tabagista ativo de 30 maços-ano e com diabetes tipo 2 há 8 anos, é internado por infarto sem supradesnivelamento de ST e tratado com angioplastia da artéria descendente anterior. Nunca usou hipolipemiante. O LDL da admissão é de 142 mg/dL, com triglicerídeos de 180 mg/dL. Transaminases e CK normais, taxa de filtração glomerular de 78 mL/min/1,73 m². Pela diretriz brasileira de dislipidemias de 2025, qual é a categoria de risco e a terapia hipolipemiante inicial recomendada?",
+  "alts": [
+   "Muito alto risco: estatina de alta intensidade isolada",
+   "Muito alto risco: estatina moderada e ezetimiba depois",
+   "Risco extremo: estatina, ezetimiba e terapia anti-PCSK9",
+   "Risco extremo: estatina de alta intensidade isolada",
+   "Alto risco: estatina de alta intensidade e fibrato"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "SBC 2025, Diretriz Brasileira de Dislipidemias: critérios de risco extremo e terapia inicial combinada (forte, alta)",
+  "coment": "Pela diretriz brasileira de 2025, risco extremo é a história de múltiplos eventos ateroscleróticos maiores ou de um evento maior com pelo menos duas condições de alto risco. A síndrome coronariana aguda nos últimos 12 meses é evento maior, e o diabetes e o tabagismo atual estão na lista de condições de alto risco, ao lado de idade ≥ 65 anos, hipercolesterolemia familiar, hipertensão, doença renal crônica com taxa de filtração de 15 a 59 e LDL ≥ 100 mg/dL apesar de estatina máxima e ezetimiba. A meta é LDL abaixo de 40 mg/dL. Para esse grupo, a recomendação é iniciar estatina de alta intensidade, ezetimiba e terapia anti-PCSK9 (forte, alta certeza); no muito alto risco, estatina de alta intensidade com ezetimiba, e potencialmente anti-PCSK9. A estratégia escalonada, com estatina isolada e reavaliação, demora a atingir a meta e perde pacientes no caminho. Fibrato não reduz eventos quando somado à estatina.",
+  "porAlt": [
+   "O paciente tem um evento maior e duas condições de alto risco: a categoria é extrema, e a estatina isolada não basta.",
+   "Estatina moderada é insuficiente e a categoria correta é a de risco extremo.",
+   "Correta: risco extremo, com recomendação de terapia inicial tripla para LDL abaixo de 40 mg/dL.",
+   "A categoria está certa, mas a diretriz recomenda iniciar com terapia combinada, não com estatina isolada.",
+   "Síndrome coronariana recente já coloca o paciente acima do alto risco, e fibrato não reduz eventos somado à estatina."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos com diabetes tipo 2 há 12 anos e hipertensão, sem evento cardiovascular, teve mialgia proximal intensa com atorvastatina 20 mg, rosuvastatina 5 mg e pravastatina 20 mg, sempre com CK normal e melhora em 2 a 4 semanas após a suspensão; a reexposição reproduziu os sintomas. TSH e vitamina D normais. Usa ezetimiba 10 mg há 4 meses, com LDL de 96 mg/dL. Taxa de filtração glomerular de 74 mL/min/1,73 m² e ácido úrico normal. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suplementar vitamina D e reintroduzir a atorvastatina",
+   "Coenzima Q10 e nova tentativa com sinvastatina 40 mg",
+   "Associar ácido bempedoico à ezetimiba já em uso",
+   "Associar fenofibrato à ezetimiba e repetir o perfil",
+   "Manter a ezetimiba isolada e reforçar a dieta"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "SBC 2025, Diretriz Brasileira de Dislipidemias, e ESC/EAS 2025 (focused update), ácido bempedoico na intolerância à estatina (I, B)",
+  "coment": "A paciente tem intolerância a três estatinas, inclusive em dose baixa, com sintomas que melhoram na suspensão e voltam na reexposição, e CK normal: preenche a definição de intolerância. Pela diretriz brasileira de 2025, a mulher com diabetes tipo 2 a partir de 56 anos e com 1 ou 2 estratificadores de alto risco (aqui, diabetes há mais de 10 anos e hipertensão), sem estratificador de muito alto risco, é de alto risco: meta de LDL abaixo de 70 mg/dL. Com 96 mg/dL sob ezetimiba, ela está fora da meta. A diretriz brasileira recomenda o ácido bempedoico para quem é intolerante à estatina e não atinge o alvo com ezetimiba (forte, alta), e a atualização europeia de 2025 o recomenda para quem não pode usar estatina (I, B), com base no CLEAR Outcomes, que reduziu eventos cardiovasculares maiores. Terapia anti-PCSK9 é alternativa conforme a meta e o acesso. A diretriz brasileira recomenda contra a reposição de vitamina D para mitigar sintomas musculares, e suplementos não reduzem risco aterosclerótico. Fibrato não substitui terapia redutora de LDL.",
+  "porAlt": [
+   "A diretriz brasileira recomenda contra vitamina D para sintomas musculares, e a intolerância já foi confirmada.",
+   "Coenzima Q10 não tem benefício comprovado, e a sinvastatina 40 mg tem risco muscular maior.",
+   "Correta: intolerante à estatina e fora da meta com ezetimiba, tem indicação de ácido bempedoico.",
+   "Fibrato atua em triglicerídeos e não leva o LDL à meta nem reduz eventos aqui.",
+   "LDL de 96 mg/dL no alto risco está acima da meta de 70 mg/dL e exige intensificação."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos, assintomático, não fumante e sem diabetes, procura avaliação preventiva. Pressão de 126/80 mmHg, índice de massa corporal de 25 kg/m². Colesterol total de 214 mg/dL, HDL de 48 mg/dL, triglicerídeos de 140 mg/dL e LDL de 138 mg/dL. O escore PREVENT estima risco de evento aterosclerótico de 3% em 10 anos. Não há história familiar de doença precoce. A lipoproteína(a), dosada pela primeira vez, é de 210 mg/dL. Pela diretriz brasileira de dislipidemias de 2025, qual é a classificação e a meta de LDL?",
+  "alts": [
+   "Baixo risco: meta de LDL abaixo de 115 mg/dL",
+   "Risco intermediário: meta abaixo de 100 mg/dL",
+   "Alto risco: meta de LDL abaixo de 70 mg/dL",
+   "Baixo risco: tratar a Lp(a) com niacina",
+   "Muito alto risco: meta abaixo de 50 mg/dL"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "SBC 2025, Diretriz Brasileira de Dislipidemias: Lp(a) acima de 180 mg/dL como critério de alto risco e dosagem uma vez na vida",
+  "coment": "A diretriz brasileira de 2025 recomenda dosar a lipoproteína(a) uma vez na vida em todos os adultos, porque ela é determinada geneticamente e não muda com estilo de vida. Valores a partir de 50 mg/dL funcionam como fator agravante, que permite reclassificar para cima o paciente de risco calculado baixo ou intermediário. Acima de 180 mg/dL (390 nmol/L), porém, a Lp(a) passa a ser critério direto de alto risco. Assim, embora o escore calculado seja baixo, este paciente é de alto risco: meta de LDL abaixo de 70 mg/dL, com redução de pelo menos 50%, não HDL abaixo de 100 mg/dL. Ainda não há terapia específica aprovada para baixar a Lp(a) com redução de eventos; a niacina reduz a Lp(a), mas não reduziu eventos e aumentou efeitos adversos. O tratamento se faz baixando o LDL de forma mais intensa.",
+  "porAlt": [
+   "O escore baixo é superado pelo critério da Lp(a) acima de 180 mg/dL.",
+   "A Lp(a) entre 50 e 180 mg/dL seria agravante; acima de 180 mg/dL, a categoria é alto risco.",
+   "Correta: Lp(a) acima de 180 mg/dL classifica como alto risco, com meta de LDL abaixo de 70 mg/dL.",
+   "A niacina reduz a Lp(a), mas não reduziu eventos, e o paciente não é de baixo risco.",
+   "Muito alto risco exige doença aterosclerótica significativa, evento prévio ou cálcio acima de 300 UA."
+  ]
+ },
+ {
+  "q": "Homem de 79 anos tem dispneia aos médios esforços e edema há 8 meses. Operou túnel do carpo bilateral há 6 anos e tem estenose do canal lombar. A pressão, antes elevada, caiu para 108/66 mmHg sem medicação. O eletrocardiograma mostra ritmo sinusal, PR de 230 ms, complexos QRS de baixa voltagem nas derivações periféricas (até 4 mm) e padrão QS de V1 a V3, sem história de infarto. O ecocardiograma mostra septo de 17 mm, miocárdio de aspecto granular e strain longitudinal reduzido com preservação apical. A cintilografia com pirofosfato e SPECT mostra captação miocárdica grau 3. Qual é o próximo passo?",
+  "alts": [
+   "Pesquisar proteína monoclonal no soro e na urina antes",
+   "Confirmar amiloidose por transtirretina e iniciar tafamidis",
+   "Biópsia endomiocárdica imediata para tipagem do amiloide",
+   "Ressonância cardíaca para quantificar o volume extracelular",
+   "Teste genético do gene TTR como próximo exame isolado"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESC 2023 de cardiomiopatias e ESC 2026 de insuficiência cardíaca, diagnóstico não invasivo da amiloidose por transtirretina",
+  "coment": "O quadro reúne os sinais de alerta da amiloidose por transtirretina: idoso, túnel do carpo bilateral anos antes, estenose do canal lombar, hipertensão que se resolveu, parede espessa com voltagem baixa (dissociação típica de infiltração), pseudoinfarto nas precordiais, distúrbio de condução e strain com preservação apical. A cintilografia com traçador ósseo com captação grau 2 ou 3 é altamente sugestiva, mas só fecha o diagnóstico sem biópsia quando se exclui proteína monoclonal por cadeias leves livres séricas e imunofixação sérica e urinária. Esse é o passo que se esquece: a amiloidose de cadeias leves também pode captar o traçador, e a gamopatia monoclonal é comum nessa idade. Se não houver proteína monoclonal, o diagnóstico de amiloidose por transtirretina está feito, seguido de teste genético do TTR em todos e de terapia modificadora. Se houver, o caminho é biópsia com tipagem, com urgência, porque a forma AL é doença hematológica de evolução rápida.",
+  "porAlt": [
+   "Correta: a captação grau 3 só fecha o diagnóstico sem biópsia se cadeias leves livres e imunofixações forem negativas.",
+   "Sem excluir proteína monoclonal, a cintilografia positiva não diferencia transtirretina de cadeias leves.",
+   "A biópsia é reservada a quem tem proteína monoclonal ou cintilografia inconclusiva.",
+   "A ressonância reforça a suspeita, mas não separa os tipos de amiloide nem dispensa a pesquisa monoclonal.",
+   "O teste genético vem depois de confirmada a forma por transtirretina."
+  ]
+ },
+ {
+  "q": "Homem de 49 anos com cardiomiopatia hipertrófica obstrutiva refere dispneia aos médios esforços (classe II a III da NYHA) e pré-síncope ao subir ladeiras, apesar de metoprolol 200 mg ao dia, com frequência de 58 bpm. O eletrocardiograma mostra ritmo sinusal, critérios de voltagem para sobrecarga ventricular esquerda e ondas T negativas de V4 a V6. O ecocardiograma mostra septo de 21 mm, movimento sistólico anterior da mitral, gradiente de via de saída de 42 mmHg em repouso e 84 mmHg com Valsalva, e fração de ejeção de 68%. O risco de morte súbita em 5 anos é de 2,8%. Ele prefere evitar procedimento invasivo agora. Qual é a conduta mais adequada?",
+  "alts": [
+   "Associar anlodipino para reduzir a pós-carga",
+   "Associar mavacanteno com ecocardiogramas seriados",
+   "Associar furosemida em dose alta contra a dispneia",
+   "Trocar o metoprolol por mononitrato de isossorbida",
+   "Implantar cardiodesfibrilador para reduzir o gradiente"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de cardiomiopatias, inibidor de miosina cardíaca na hipertrófica obstrutiva sintomática (IIa, A); AHA/ACC 2024",
+  "coment": "A obstrução na cardiomiopatia hipertrófica é dinâmica: tudo que reduz pré-carga ou pós-carga ou aumenta a contratilidade eleva o gradiente. Por isso, vasodilatadores como di-hidropiridínicos e nitratos e diuréticos em dose alta pioram os sintomas e podem causar síncope. Com sintomas persistentes apesar de betabloqueador em dose plena e gradiente provocado de 50 mmHg ou mais, a diretriz europeia de 2023 coloca o inibidor de miosina cardíaca (mavacanteno) como opção a ser considerada, associado ao betabloqueador (IIa, A), com base no EXPLORER-HCM e no VALOR-HCM, este último mostrando menor necessidade de redução septal. A fração de ejeção precisa estar em 55% ou mais para iniciar, e o ecocardiograma é repetido nas semanas 4, 8 e 12; o fármaco é suspenso se a fração cair abaixo de 50%. A redução septal é a alternativa para os refratários em centro experiente, e a disopiramida é outra opção. O cardiodesfibrilador previne morte súbita, não trata obstrução, e o risco calculado aqui é baixo.",
+  "porAlt": [
+   "Di-hidropiridínico reduz a pós-carga e aumenta o gradiente dinâmico.",
+   "Correta: obstrução sintomática apesar do betabloqueador, com fração preservada, é o cenário do mavacanteno.",
+   "Diurético em dose alta reduz a pré-carga e agrava a obstrução.",
+   "Nitrato reduz a pré-carga e piora a obstrução; retirar o betabloqueador também.",
+   "O cardiodesfibrilador não altera o gradiente, e o risco de morte súbita calculado é de 2,8%."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos com tireoidite de Hashimoto é admitida com dispneia progressiva há 10 dias, sem pródromo viral. O eletrocardiograma mostra bloqueio atrioventricular total com escape de QRS largo a 38 bpm e salvas de taquicardia ventricular monomórfica. O ecocardiograma mostra fração de ejeção de 30% sem dilatação importante. A coronariografia é normal. A troponina é muito elevada e crescente. Recebe marca-passo provisório e amiodarona, com pressão de 96/62 mmHg sem vasopressor. Pela diretriz europeia de 2025, qual é o passo mais importante para definir o tratamento?",
+  "alts": [
+   "Pulso de corticoide empírico, dispensando a biópsia",
+   "Biópsia endomiocárdica para orientar a imunossupressão",
+   "Painel amplo de sorologias virais antes de decidir",
+   "Cardiodesfibrilador definitivo ainda na fase aguda",
+   "Ressonância cardíaca e alta com betabloqueador oral"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC 2025 de miocardite e pericardite, biópsia endomiocárdica no alto risco e na suspeita de miocardite de células gigantes (I, C)",
+  "coment": "Insuficiência cardíaca de instalação em até 2 semanas, com taquicardia ventricular e bloqueio atrioventricular avançado, em mulher jovem com doença autoimune e coronárias normais, é o retrato da miocardite de células gigantes, a forma de pior prognóstico e uma das poucas com tratamento específico. A diretriz europeia de 2025 recomenda a biópsia endomiocárdica na miocardite de alto risco, na instabilidade e na suspeita de células gigantes, eosinofílica ou sarcoidose (I, C), e a imunossupressão combinada quando confirmada. A biópsia também busca o genoma viral por PCR, que deve ser conhecido antes de imunossuprimir. Sorologia viral de rotina não é recomendada (III, C), exceto hepatite C, HIV e Lyme. O cardiodesfibrilador definitivo não se implanta na fase aguda de miocardite ativa; na arritmia ventricular sustentada aguda, a ponte é o colete desfibrilador. Alta com betabloqueador seria ignorar uma doença de alto risco.",
+  "porAlt": [
+   "Imunossuprimir sem biópsia e sem PCR viral expõe ao erro de tratar miocardite viral ativa.",
+   "Correta: suspeita de células gigantes no alto risco é indicação classe I de biópsia, que define a imunossupressão.",
+   "Sorologia viral de rotina é classe III na miocardite e não muda a conduta.",
+   "Na fase aguda da miocardite ativa, o dispositivo definitivo é postergado; usa-se colete desfibrilador como ponte.",
+   "Bloqueio total e taquicardia ventricular são critérios de alto risco, incompatíveis com alta."
+  ]
+ },
+ {
+  "q": "Homem de 81 anos com amiloidose cardíaca por transtirretina do tipo selvagem, confirmada por cintilografia grau 3 sem proteína monoclonal e teste genético negativo, está em classe II da NYHA com furosemida 40 mg ao dia. No retorno, o eletrocardiograma mostra fibrilação atrial com resposta ventricular de 88 bpm e baixa voltagem nas periféricas. Tem hipertensão prévia, hoje com pressão de 104/64 mmHg. Filtração glomerular estimada (CKD-EPI 2021) de 48 mL/min/1,73 m², hemoglobina de 13,0 g/dL, sem sangramento prévio. Qual é a conduta mais adequada?",
+  "alts": [
+   "Ácido acetilsalicílico e tafamidis, pela idade",
+   "Anticoagulante direto e sacubitril-valsartana",
+   "Digoxina para frequência e tafamidis 61 mg ao dia",
+   "Anticoagulante direto e tafamidis 61 mg ao dia",
+   "Diurético apenas: tafamidis não serve após 80 anos"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de cardiomiopatias (anticoagulação independente do escore, I, B) e ESC 2026 de insuficiência cardíaca (estabilizador ou silenciador da transtirretina, I, A)",
+  "coment": "Na amiloidose cardíaca, a fibrilação atrial tem risco tromboembólico desproporcional ao escore, pela disfunção atrial e pela estase: a diretriz europeia de 2023 de cardiomiopatias e a de 2024 de fibrilação atrial recomendam anticoagulação independentemente do CHA₂DS₂-VA (I, B), com anticoagulante direto como preferência. A terapia modificadora da amiloidose por transtirretina está indicada em classe funcional I a III, sem limite de idade: estabilizador (tafamidis, acoramidis) ou silenciador (vutrisiran), classe I, A na diretriz europeia de 2026 de insuficiência cardíaca. O ATTR-ACT, com tafamidis, reduziu morte e hospitalização. O tratamento sintomático foge do padrão da insuficiência cardíaca: bloqueio do sistema renina-angiotensina e betabloqueador são mal tolerados pela hipotensão e pelo débito dependente da frequência, e a digoxina é desencorajada pelo risco de toxicidade, porque se liga às fibrilas. Antiagregante não substitui anticoagulante.",
+  "porAlt": [
+   "Antiagregante não protege contra a embolia, e a anticoagulação é classe I na amiloidose.",
+   "Sacubitril-valsartana é mal tolerado na amiloidose, com pressão já baixa, e não modifica a doença.",
+   "A digoxina é desencorajada na amiloidose, e falta a anticoagulação.",
+   "Correta: anticoagulação qualquer que seja o escore e estabilizador da transtirretina em classe II.",
+   "A idade não contraindica a terapia modificadora; a classe funcional é que orienta."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos é trazido ao pronto-socorro após perder a consciência sentado à mesa do almoço, sem pródromos, com recuperação espontânea em menos de 1 minuto e ferimento no supercílio. Não houve liberação esfincteriana nem confusão posterior. Pressão de 136/80 mmHg deitado e 132/78 mmHg em pé. O eletrocardiograma mostra ritmo sinusal a 70 bpm, PR de 200 ms, bloqueio de ramo direito com QRS de 140 ms e eixo de -60°, com bloqueio divisional anterossuperior esquerdo. O ecocardiograma mostra fração de ejeção de 58% sem valvopatia. A monitorização por 24 horas no hospital foi normal. Pela diretriz europeia de 2018 de síncope, qual é a conduta mais adequada?",
+  "alts": [
+   "Alta com Holter de 24 horas pedido no ambulatório",
+   "Teste de inclinação como primeiro exame dirigido",
+   "Cardiodesfibrilador implantável pelo bloqueio bifascicular",
+   "Massagem do seio carotídeo e alta se ela for negativa",
+   "Estudo eletrofisiológico e marca-passo se HV ≥ 70 ms"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESC 2018 de síncope, bloqueio bifascicular com síncope inexplicada: estudo eletrofisiológico e estimulação se HV ≥ 70 ms (I, B)",
+  "coment": "Síncope sem pródromo, na posição sentada, com trauma, em idoso com bloqueio bifascicular, tem características de alto risco que sugerem causa arrítmica, aqui provavelmente bloqueio atrioventricular paroxístico. A diretriz europeia de 2018 indica, nesse cenário, o estudo eletrofisiológico; um intervalo HV ≥ 70 ms, bloqueio de segundo ou terceiro grau induzido por estimulação atrial ou por teste farmacológico indica marca-passo (I, B). Estudo negativo leva ao monitor de eventos implantável, e marca-passo empírico pode ser considerado em idoso frágil com síncope inexplicada e bloqueio bifascicular (IIb, B). O Holter de 24 horas raramente captura o evento infrequente, e dar alta sem estratificar um paciente de alto risco é o erro mais grave. O cardiodesfibrilador não está indicado com fração preservada e sem substrato para arritmia ventricular. Massagem do seio carotídeo está indicada acima de 40 anos com síncope de causa desconhecida, mas, numa resposta negativa, não exclui o bloqueio.",
+  "porAlt": [
+   "Holter de 24 horas tem baixo rendimento para síncope infrequente e não estratifica o paciente de alto risco.",
+   "Teste de inclinação investiga síncope reflexa, pouco provável sem pródromo e com bloqueio de condução.",
+   "Com fração preservada, o risco é de bradiarritmia, e o cardiodesfibrilador não está indicado.",
+   "Massagem negativa não exclui bloqueio paroxístico, que é a principal hipótese.",
+   "Correta: síncope inexplicada com bloqueio bifascicular pede estudo eletrofisiológico, com marca-passo se HV ≥ 70 ms."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos tem síncopes recorrentes há 3 anos, cinco no último ano, duas com fratura, precedidas às vezes por calor e náusea de poucos segundos, outras vezes sem aviso. Eletrocardiograma e ecocardiograma normais, sem cardiopatia estrutural. Aprendeu manobras de contrapressão, com pouco benefício. O monitor de eventos implantável registrou, durante a última síncope, parada sinusal de 9 segundos seguida de bloqueio atrioventricular com assistolia, sem taquiarritmia. Pressão de 128/80 mmHg. Não usa medicação. Qual é a conduta mais adequada pela diretriz europeia de 2018?",
+  "alts": [
+   "Fludrocortisona e aumento da ingestão de sal",
+   "Cardiodesfibrilador implantável pela assistolia",
+   "Marca-passo de dupla câmara com dupla estimulação",
+   "Treino de inclinação diário e manobras isoladas",
+   "Midodrina e orientação para evitar ortostatismo"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2018 de síncope, estimulação na síncope reflexa com assistolia espontânea documentada acima de 40 anos (IIa, B)",
+  "coment": "A síncope reflexa é benigna na maioria, e o tratamento começa por educação, hidratação e manobras de contrapressão. A estimulação cardíaca entra quando a forma é cardioinibitória e grave. A diretriz europeia de 2018 diz que o marca-passo deve ser considerado para reduzir recorrências em pacientes acima de 40 anos com síncopes recorrentes imprevisíveis e pausa assistólica espontânea documentada maior que 3 segundos com sintomas, ou maior que 6 segundos sem sintomas, por parada sinusal, bloqueio atrioventricular ou ambos (IIa, B). O modo de dupla câmara é o preferido: no ISSUE-3, em pacientes de 40 anos ou mais com síncope assistólica documentada por monitor implantável, a estimulação de dupla câmara reduziu as recorrências de forma importante. Fludrocortisona e midodrina ajudam a forma vasodepressora e o paciente mais jovem com pressão baixa, não a assistolia de 9 segundos. Cardiodesfibrilador trata taquiarritmia ventricular, ausente aqui. Treino de inclinação tem eficácia não comprovada.",
+  "porAlt": [
+   "Fludrocortisona é opção para a forma vasodepressora, não para assistolia documentada.",
+   "O cardiodesfibrilador trata arritmia ventricular, e o registro mostrou assistolia.",
+   "Correta: acima de 40 anos com assistolia espontânea sintomática acima de 3 segundos, o marca-passo de dupla câmara deve ser considerado.",
+   "O treino de inclinação não tem benefício comprovado, e as manobras já falharam.",
+   "Midodrina atua na hipotensão vasodepressora e não previne pausa assistólica."
+  ]
+ },
+ {
+  "q": "Homem de 34 anos é atendido após síncope súbita durante o sono, testemunhada pela esposa, que relata respiração ruidosa e agônica por alguns segundos. Não houve pródromo, convulsão prolongada ou febre. Um primo morreu subitamente aos 38 anos. O eletrocardiograma, sem febre e sem medicações, mostra supradesnivelamento de ST de 3 mm em V1 e V2, com morfologia convexa (em cúpula) seguida de onda T negativa, e intervalo QTc de 410 ms. Ecocardiograma e ressonância cardíaca normais. Potássio de 4,2 mEq/L. Pela diretriz europeia de 2022, qual é a conduta mais adequada?",
+  "alts": [
+   "Teste com ajmalina para confirmar o diagnóstico",
+   "Estudo eletrofisiológico antes de qualquer decisão",
+   "Teste de inclinação para afastar síncope reflexa",
+   "Cardiodesfibrilador implantável, com orientação geral",
+   "Quinidina como primeira escolha, sem dispositivo"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ESC 2022 de arritmias ventriculares e morte súbita, síndrome de Brugada: cardiodesfibrilador na síncope arrítmica com padrão tipo 1 (IIa, C)",
+  "coment": "O eletrocardiograma descreve o padrão tipo 1 de Brugada espontâneo: supradesnivelamento de ST de pelo menos 2 mm em derivação precordial direita, com morfologia em cúpula e onda T negativa, sem febre ou fármaco desencadeante. Em quem não tem outra cardiopatia, isso basta para o diagnóstico (I, C), e o teste com bloqueador de canal de sódio não é recomendado quando já há padrão tipo 1 (III, C). A síncope durante o sono, sem pródromo e com respiração agônica noturna é síncope arrítmica, e a diretriz de 2022 diz que o cardiodesfibrilador deve ser considerado nesse cenário (IIa, C). Todos os portadores devem evitar fármacos que acentuem o supradesnivelamento, cocaína, cannabis e álcool em excesso, e tratar a febre com antitérmico. A quinidina fica para quem tem indicação de cardiodesfibrilador e contraindicação, recusa ou choques recorrentes. O estudo eletrofisiológico tem papel limitado e não muda a indicação em quem já teve síncope arrítmica.",
+  "porAlt": [
+   "Com padrão tipo 1 espontâneo, o teste com bloqueador de sódio é classe III.",
+   "O estudo eletrofisiológico tem valor discutível e não altera a conduta após síncope arrítmica.",
+   "A síncope no sono com respiração agônica é arrítmica, não reflexa.",
+   "Correta: padrão tipo 1 espontâneo com síncope arrítmica indica cardiodesfibrilador, além das medidas gerais.",
+   "A quinidina é alternativa para quem não pode receber o cardiodesfibrilador ou tem choques recorrentes."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, hipertenso e diabético, sem cardiopatia conhecida, vai ser submetido a colectomia laparoscópica eletiva por adenocarcinoma de sigmoide em 3 semanas. Sobe dois lances de escada sem dispneia nem dor torácica e caminha 40 minutos por dia. Usa losartana, anlodipino, metformina e dapagliflozina 10 mg. Pressão de 132/80 mmHg, creatinina de 1,0 mg/dL. Pela diretriz europeia de 2022 de avaliação cardiovascular antes de cirurgia não cardíaca, qual é a avaliação e o preparo mais adequados?",
+  "alts": [
+   "Cintilografia de perfusão miocárdica antes da cirurgia",
+   "Coronariografia pelo diabetes e pela idade acima de 65",
+   "Nenhum exame, pois a capacidade funcional é boa",
+   "Iniciar atenolol em dose plena na véspera da cirurgia",
+   "Eletrocardiograma e troponina antes, com 24 e 48 horas"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2022 de avaliação cardiovascular em cirurgia não cardíaca, eletrocardiograma e troponina de alta sensibilidade antes e 24 e 48 horas após (I, B)",
+  "coment": "A colectomia é cirurgia intraperitoneal, no mínimo de risco intermediário (risco de eventos de 1% a 5%). Para pacientes com doença cardiovascular conhecida, fatores de risco cardiovascular (inclusive idade de 65 anos ou mais) ou sintomas sugestivos, a diretriz europeia de 2022 recomenda eletrocardiograma de 12 derivações antes de cirurgia de risco intermediário ou alto (I, C) e troponina de alta sensibilidade antes e 24 e 48 horas depois (I, B), para detectar a lesão miocárdica perioperatória, que é quase sempre silenciosa e se associa a mortalidade. Com capacidade funcional boa (subir dois lances de escada), testes de estresse não mudam a conduta e não são indicados. Coronariografia pré-operatória de rotina não é recomendada. Iniciar betabloqueador em dose alta sem titulação é classe III (aumenta AVC e morte). Lembrar de suspender a dapagliflozina pelo menos 3 dias antes, pelo risco de cetoacidose euglicêmica.",
+  "porAlt": [
+   "Com boa capacidade funcional, teste de estresse não está indicado.",
+   "Coronariografia pré-operatória de rotina não é recomendada sem indicação própria.",
+   "Boa capacidade funcional dispensa teste de estresse, mas não o eletrocardiograma e a troponina de rastreio.",
+   "Iniciar betabloqueador em dose alta sem titulação é classe III e aumenta AVC e morte.",
+   "Correta: acima de 65 anos com fatores de risco em cirurgia de risco intermediário, eletrocardiograma e troponina seriada são classe I."
+  ]
+ },
+ {
+  "q": "Mulher de 74 anos com fibrilação atrial permanente e CHA₂DS₂-VA de 4 usa dabigatrana 110 mg de 12 em 12 horas. Fará artroplastia total do quadril eletiva com raquianestesia, procedimento de alto risco de sangramento. A creatinina é de 1,3 mg/dL, e a taxa de filtração glomerular estimada pelo CKD-EPI 2021 é de 43 mL/min/1,73 m². Hemoglobina de 12,9 g/dL, plaquetas de 220 mil. Não tem prótese valvar nem AVC nos últimos 3 meses. Qual é o manejo mais adequado da anticoagulação?",
+  "alts": [
+   "Suspender 24 horas antes e retomar no mesmo dia",
+   "Suspender 48 horas antes, sem ponte com heparina",
+   "Suspender 5 dias antes e fazer ponte com heparina",
+   "Manter a dabigatrana e operar sob anestesia geral",
+   "Suspender 96 horas antes, sem ponte com heparina"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2022 de cirurgia não cardíaca e EHRA 2021, interrupção da dabigatrana conforme clearance e risco de sangramento; ponte não recomendada",
+  "coment": "A interrupção dos anticoagulantes diretos depende do fármaco, da função renal e do risco de sangramento do procedimento. A dabigatrana é a mais dependente do rim: com filtração de 30 a 49 mL/min, a última dose deve ser pelo menos 48 horas antes de procedimento de baixo risco e pelo menos 96 horas antes de procedimento de alto risco; com 50 a 79 mL/min, 36 e 72 horas; com 80 mL/min ou mais, 24 e 48 horas. Artroplastia sob raquianestesia é de alto risco, inclusive pelo hematoma espinhal. A ponte com heparina não é recomendada com anticoagulantes diretos: a meia-vida curta torna a ponte desnecessária e ela aumenta sangramento sem reduzir trombose (classe III). A retomada após cirurgia de alto risco ocorre em 48 a 72 horas, quando a hemostasia estiver assegurada.",
+  "porAlt": [
+   "24 horas valem para baixo risco com filtração de 80 mL/min ou mais.",
+   "48 horas valem para baixo risco nesta faixa de filtração, não para cirurgia de alto risco.",
+   "Ponte com heparina não é recomendada com anticoagulante direto e aumenta o sangramento.",
+   "Cirurgia de alto risco de sangramento não se faz sob efeito do anticoagulante, com qualquer anestesia.",
+   "Correta: filtração de 30 a 49 mL/min e procedimento de alto risco exigem pelo menos 96 horas, sem ponte."
+  ]
+ },
+ {
+  "q": "Homem de 77 anos tem aneurisma de aorta abdominal infrarrenal de 6,1 cm, com colo curto e angulado, sem anatomia para reparo endovascular; o cirurgião vascular indica correção aberta eletiva. Tem estenose aórtica conhecida e se diz assintomático, mas é sedentário. O ecocardiograma mostra valva tricúspide, velocidade máxima de 4,5 m/s, gradiente médio de 52 mmHg, área de 0,7 cm² e fração de ejeção de 60%. As coronárias não têm lesões obstrutivas, e a anatomia é favorável ao implante transcateter. Qual é a conduta mais adequada antes da cirurgia aórtica?",
+  "alts": [
+   "Operar o aneurisma com monitorização invasiva",
+   "Valvoplastia por balão como tratamento definitivo",
+   "Cancelar a cirurgia aórtica e seguir clínico",
+   "Iniciar betabloqueador e operar em 2 semanas",
+   "Implante transcateter e cirurgia aórtica após"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2022 de cirurgia não cardíaca (troca valvar antes de cirurgia de alto risco na estenose aórtica grave assintomática, IIa, C) e ESC/EACTS 2025 de valvopatias",
+  "coment": "A correção aberta de aneurisma de aorta é cirurgia de alto risco (mais de 5% de eventos cardiovasculares), e a estenose aórtica grave é o pior cenário para ela: obstrução fixa, hipotensão com vasodilatação anestésica e perda sanguínea, isquemia subendocárdica. A diretriz europeia de 2022 recomenda a troca valvar antes de cirurgia eletiva de risco intermediário ou alto na estenose grave sintomática e diz que ela deve ser considerada na estenose grave assintomática antes de cirurgia eletiva de alto risco (IIa, C). Aos 77 anos, com valva tricúspide e anatomia favorável, o implante transcateter é a via preferida e permite operar o aneurisma pouco depois. A valvoplastia por balão é só ponte quando a troca não é possível, e cancelar a cirurgia deixa um aneurisma de 6,1 cm com risco de ruptura. O betabloqueador não protege da hipotensão da estenose grave e iniciá-lo pouco antes da cirurgia não é recomendado.",
+  "porAlt": [
+   "Monitorização invasiva não remove o risco da obstrução fixa em cirurgia de alto risco.",
+   "A valvoplastia por balão tem reestenose precoce e é reservada como ponte.",
+   "Aneurisma de 6,1 cm tem risco de ruptura que justifica a correção após tratar a valva.",
+   "Betabloqueador iniciado às vésperas não protege e pode agravar a hipotensão.",
+   "Correta: estenose grave antes de cirurgia eletiva de alto risco justifica tratar a valva primeiro, por via transcateter aos 77 anos."
+  ]
+ }
+]

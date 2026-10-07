@@ -1,0 +1,674 @@
+[
+ {
+  "q": "Homem de 68 anos, com insuficiência cardíaca de fração reduzida, chega ao pronto-socorro com dispneia progressiva há 3 dias, ortopneia e ganho de 4 kg. Temperatura de 37,9 °C, pressão arterial de 134/82 mmHg, frequência cardíaca de 104 bpm, frequência respiratória de 24 irpm, SpO₂ de 91% em ar ambiente. Há estertores bibasais, turgência jugular e edema de membros inferiores. A radiografia mostra congestão e derrame bilateral pequeno, sem consolidação definida. Lactato de 1,5 mmol/L, leucócitos de 11.800/mm³. O plantonista hesita entre edema pulmonar cardiogênico e pneumonia. Segundo a diretriz vigente de sepse, qual é a conduta quanto ao antimicrobiano?",
+  "alts": [
+   "Iniciar de imediato, com meta de primeira dose em até 1 hora da chegada",
+   "Aguardar a procalcitonina e iniciar somente se o valor vier elevado",
+   "Colher hemoculturas e tratar só se alguma delas vier positiva",
+   "Investigar rapidamente e iniciar em até 3 horas se a suspeita persistir",
+   "Adiar o antimicrobiano até que surja hipotensão ou lactato acima de 2"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Surviving Sepsis Campaign 2026, escala de certeza diagnóstica e tempo até o antimicrobiano na sepse possível sem choque",
+  "coment": "A SSC 2026 criou uma escala de certeza (sepse definitiva, provável, possível e improvável) que decide o relógio do antimicrobiano. No choque séptico possível, provável ou definitivo, e na sepse provável ou definitiva sem choque, a recomendação é forte para a primeira dose idealmente em 1 hora. Na sepse apenas possível, sem choque, como neste paciente com insuficiência cardíaca descompensada e febre baixa sem consolidação, a sugestão é avaliar rapidamente a probabilidade de causa infecciosa versus não infecciosa (exame, ultrassom pulmonar, ecocardiograma, reavaliação) e, se a preocupação persistir, iniciar o antimicrobiano em até 3 horas do momento da suspeita. A gradação existe porque 10 a 30% dos tratados como sepse têm diagnóstico final não infeccioso. A janela de 3 horas não autoriza procrastinar: se aparecer hipotensão, a conduta muda para antimicrobiano imediato.",
+  "porAlt": [
+   "A janela de 1 hora é recomendação forte para o choque e para a sepse provável ou definitiva; aqui a hipótese alternativa é igualmente provável e não há choque.",
+   "A diretriz sugere avaliação clínica isolada, e não a procalcitonina somada à clínica, para decidir iniciar; o biomarcador só reaparece na decisão de suspender.",
+   "Hemocultura é positiva em só 10 a 20% das sepses; condicionar o tratamento a ela atrasaria a terapia de quem de fato está infectado.",
+   "Correta: sem choque e com sepse apenas possível, a SSC 2026 sugere investigação rápida por tempo limitado e antimicrobiano em até 3 horas da suspeita se a preocupação persistir.",
+   "Esperar a deterioração hemodinâmica inverte a lógica: o relógio de 3 horas começa na suspeita, e o choque passa a exigir antibiótico em 1 hora."
+  ]
+ },
+ {
+  "q": "Mulher de 59 anos, 72 kg, internada na terapia intensiva há 6 dias, evolui com choque séptico por pneumonia associada à ventilação, em noradrenalina a 0,25 µg/kg/min. Hemoculturas e aspirado traqueal foram colhidos antes da primeira dose. Não há colonização conhecida por germe multirresistente, mas a unidade tem alta prevalência de Pseudomonas aeruginosa. Foi prescrita piperacilina-tazobactam 4,5 g de 6 em 6 horas, cada dose infundida em 30 minutos. A filtração glomerular estimada (CKD-EPI 2021) é de 85 mL/min/1,73 m². O farmacêutico clínico questiona a forma de administração. Segundo a diretriz vigente de sepse, qual é a conduta mais adequada?",
+  "alts": [
+   "Manter os bólus de 30 minutos, que garantem pico mais alto",
+   "Infusão prolongada desde a primeira dose, sem dose de ataque",
+   "Dobrar cada dose em bólus e dosar o nível sérico de rotina",
+   "Primeira dose em bólus e manutenção em infusão prolongada",
+   "Trocar por carbapenêmico, que dispensa a infusão prolongada"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Surviving Sepsis Campaign 2026, infusão prolongada de betalactâmico após dose de ataque (recomendação forte, certeza moderada)",
+  "coment": "Uma das mudanças de 2021 para 2026 foi a promoção da infusão prolongada de betalactâmico de sugestão para recomendação forte, com certeza moderada. A justificativa é farmacodinâmica: penicilinas, cefalosporinas e carbapenêmicos matam em função do tempo em que a concentração livre fica acima da concentração inibitória mínima, e a sepse altera volume de distribuição, clearance e ligação proteica a ponto de os bólus de 30 minutos deixarem longos períodos abaixo dela, sobretudo contra germes com concentração inibitória mínima alta como a Pseudomonas. O detalhe cobrado: a primeira dose continua em bólus, para alcançar logo a concentração-alvo, e só a manutenção é prolongada (por exemplo, 3 a 4 horas por dose ou contínua). A monitorização terapêutica de nível sérico é sugestão fraca, caso a caso.",
+  "porAlt": [
+   "O betalactâmico depende do tempo acima da concentração inibitória mínima, não do pico; o bólus intermitente gera concentrações subterapêuticas na sepse.",
+   "A dose de ataque continua em bólus, para atingir rapidamente a concentração-alvo; a infusão prolongada é só para a manutenção.",
+   "Dobrar a dose aumenta toxicidade sem resolver o problema farmacodinâmico, e a monitorização de nível é sugestão caso a caso, não rotina.",
+   "Correta: a SSC 2026 recomenda, de forma forte e com certeza moderada, a manutenção do betalactâmico em infusão prolongada após uma dose de ataque em bólus.",
+   "O carbapenêmico também é betalactâmico tempo-dependente e se beneficia da mesma estratégia; trocar o fármaco não muda a forma de administrar."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, no segundo dia de pós-operatório de colectomia por perfuração diverticular, com foco controlado e meropeném desde a cirurgia. Recebeu 35 mL/kg de cristaloide balanceado, está em noradrenalina a 0,6 µg/kg/min, vasopressina a 0,03 U/min e hidrocortisona 200 mg por dia. A pressão arterial média é de 56 mmHg pela linha arterial. A elevação passiva das pernas não aumentou a integral velocidade-tempo. O ecocardiograma mostra ventrículo esquerdo hiperdinâmico, fração de ejeção estimada de 65%, sem disfunção de ventrículo direito. Segundo a diretriz vigente de sepse, qual é o próximo passo mais adequado?",
+  "alts": [
+   "Subir a vasopressina para 0,06 U/min",
+   "Iniciar terlipressina em bólus de 1 mg agora",
+   "Acrescentar adrenalina em infusão contínua",
+   "Associar dobutamina para elevar o débito",
+   "Infundir azul de metileno em bólus único"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Surviving Sepsis Campaign 2026, sequência de vasopressores: noradrenalina, vasopressina e adrenalina",
+  "coment": "A SSC 2026 organiza os vasoativos em degraus. Noradrenalina é a primeira linha (forte frente a dopamina, adrenalina e selepressina; fraca frente a vasopressina e angiotensina II), iniciada por veia periférica se preciso. Com doses crescentes de noradrenalina, acrescenta-se vasopressina em dose fixa de até 0,03 U/min (fraca, certeza moderada), e a hidrocortisona 200 mg por dia é sugerida no choque séptico. Se a pressão segue inadequada apesar de noradrenalina e vasopressina, sugere-se acrescentar adrenalina; onde não há vasopressina, a adrenalina entra direto sobre a noradrenalina. O ecocardiograma deste paciente descarta disfunção miocárdica, de modo que a dobutamina não se justifica. A diretriz se posicionou contra terlipressina e levosimendana e deixou azul de metileno e midodrina sem recomendação. Antes de escalar, vale conferir foco controlado e fluido adequado, ambos atendidos aqui.",
+  "porAlt": [
+   "A vasopressina é usada em dose fixa de até 0,03 U/min; doses maiores aumentam isquemia digital e mesentérica sem ganho demonstrado.",
+   "A diretriz de 2026 traz sugestão contra a terlipressina no choque séptico, pelo risco de isquemia sem benefício.",
+   "Correta: com pressão inadequada apesar de noradrenalina e vasopressina, a SSC 2026 sugere acrescentar adrenalina.",
+   "O coração está hiperdinâmico e sem disfunção; inotrópico entra somado ao vasopressor só quando há disfunção cardíaca com hipoperfusão.",
+   "O azul de metileno no choque refratário ficou sem recomendação por evidência insuficiente; a sequência com sugestão explícita é noradrenalina, vasopressina e adrenalina."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, 70 kg, com pielonefrite e hipoperfusão induzida por sepse: chegou com pressão de 86/50 mmHg, enchimento capilar de 5 segundos, livedo nos joelhos e lactato de 4,2 mmol/L. Recebeu ceftriaxona na primeira hora e 2.100 mL de cristaloide balanceado em 2 horas. Agora a pressão é de 112/68 mmHg, a frequência cardíaca caiu de 122 para 96 bpm, o enchimento capilar é de 2 segundos, o livedo desapareceu e a diurese é de 0,8 mL/kg/h. O lactato de controle é de 3,0 mmol/L. O residente quer manter bólus de 500 mL a cada hora até o lactato ficar abaixo de 2. Qual é a conduta mais adequada?",
+  "alts": [
+   "Novos bólus de 500 mL até o lactato ficar abaixo de 2 mmol/L",
+   "Iniciar noradrenalina para acelerar a queda do lactato sérico",
+   "Albumina a 20% para seguir expandindo sem novo cristaloide",
+   "Dobutamina para aumentar a oferta tecidual de oxigênio",
+   "Suspender os bólus e seguir reavaliando a perfusão clínica"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Surviving Sepsis Campaign 2026 e ESICM 2025 de choque, enchimento capilar como adjunto e lactato como consequência, não meta",
+  "coment": "Depois do volume inicial, tanto a SSC 2026 quanto a diretriz europeia de choque de 2025 tiram o lactato do papel de meta de ressuscitação. O lactato é marcador de gravidade e prognóstico, cai lentamente e pode se manter elevado por causas não ligadas à perfusão (efeito beta-adrenérgico, disfunção hepática, metabolismo). O enchimento capilar responde em cerca de 10 minutos e, no ANDROMEDA-SHOCK, ressuscitar pelo enchimento capilar teve risco relativo de mortalidade em 28 dias de 0,82 em relação ao alvo de lactato; parar o fluido com enchimento normalizado mostrou-se seguro. Esta paciente melhorou pressão, frequência, pele e diurese, e o lactato está caindo: a evolução é favorável. Insistir em bólus até lactato abaixo de 2 aproxima o acúmulo de fluido, cujo dano aparece acima de cerca de 50 mL/kg.",
+  "porAlt": [
+   "A diretriz manda individualizar o fluido acompanhando a queda do lactato, e não infundir até normalizá-lo; ele leva horas para cair e pode subir por causas não perfusionais.",
+   "Não há hipotensão nem hipoperfusão persistente; vasopressor sem indicação acrescenta risco de arritmia e isquemia.",
+   "A albumina cabe em quem já recebeu grandes volumes ou tem cirrose; aqui a ressuscitação atingiu o objetivo e não há indicação de mais expansão.",
+   "Não há sinal de disfunção miocárdica nem de débito insuficiente; inotrópico em paciente com perfusão restabelecida só aumenta consumo de oxigênio.",
+   "Correta: com enchimento capilar normalizado e perfusão melhorando nas três janelas, o fluido adicional não se justifica; o lactato em queda é consequência, não meta."
+  ]
+ },
+ {
+  "q": "Homem de 57 anos, em choque séptico por colangite, já submetido a drenagem biliar endoscópica. Está em noradrenalina a 0,4 µg/kg/min e vasopressina a 0,03 U/min. Gasometria arterial: pH 7,14, PaCO₂ de 26 mmHg, bicarbonato de 9 mEq/L, lactato de 7,1 mmol/L. Creatinina de 1,0 mg/dL (basal de 0,9) e diurese de 1,1 mL/kg/h nas últimas 6 horas. Potássio de 4,3 mEq/L. O residente propõe bicarbonato de sódio para melhorar a resposta aos vasopressores e reduzir a dose de noradrenalina. Segundo a diretriz vigente de sepse, qual é a conduta mais adequada?",
+  "alts": [
+   "Bicarbonato a 8,4% em bólus até o pH passar de 7,30",
+   "Bicarbonato isotônico em infusão para poupar a noradrenalina",
+   "Hemodiálise de urgência para corrigir rapidamente a acidemia",
+   "Trometamina em infusão no lugar do bicarbonato de sódio",
+   "Não indicar bicarbonato e manter o tratamento da causa"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Surviving Sepsis Campaign 2026, bicarbonato contra para hemodinâmica e a favor só com pH até 7,2 e lesão renal AKIN 2 ou 3; BICARICU-2 (2025)",
+  "coment": "A SSC 2026 mantém duas sugestões fracas sobre bicarbonato na acidemia láctica: contra usá-lo para melhorar a hemodinâmica ou reduzir a dose de vasopressor, e a favor quando há pH de 7,2 ou menos associado a lesão renal aguda AKIN 2 ou 3. A segunda veio do estrato pré-especificado do BICAR-ICU (2018); o BICARICU-2 (2025), que testou justamente esse grupo, não mostrou diferença de mortalidade em 90 dias, mas reduziu a necessidade de terapia renal substitutiva. Este paciente tem acidemia grave sem lesão renal relevante (creatinina estável, diurese preservada), e a proposta é usar o bicarbonato como adjuvante hemodinâmico, exatamente o que a diretriz não sugere. O tratamento é o da causa: foco drenado, perfusão restaurada e antimicrobiano adequado; a acidose láctica melhora junto. Bicarbonato segue indicado na perda de bicarbonato, na intoxicação por tricíclico ou salicilato e na hipercalemia com acidose.",
+  "porAlt": [
+   "Corrigir o número do pH não melhora a hemodinâmica na acidose láctica e traz sobrecarga de sódio, hipocalcemia ionizada e aumento de CO₂.",
+   "Poupar vasopressor é exatamente o objetivo contra o qual a diretriz se posiciona: o bicarbonato não aumentou a resposta às catecolaminas nos estudos.",
+   "A diretriz sugere contra iniciar terapia renal substitutiva sem indicação definitiva, e a função renal e a diurese estão preservadas.",
+   "Trometamina não tem evidência de benefício em desfecho no choque séptico e não é recomendada como alternativa.",
+   "Correta: a SSC 2026 sugere contra o bicarbonato para melhorar hemodinâmica ou reduzir vasopressor; ele só é sugerido com pH até 7,2 associado a lesão renal AKIN 2 ou 3, ausente aqui."
+  ]
+ },
+ {
+  "q": "Mulher de 63 anos, no quinto dia de pós-operatório de artroplastia de quadril, sem profilaxia farmacológica por sangramento da ferida. Apresenta dispneia súbita, pressão arterial de 82/56 mmHg e frequência cardíaca de 126 bpm. Foi passado cateter de artéria pulmonar na unidade, que mostrou: pressão de átrio direito de 19 mmHg, pressão média de artéria pulmonar de 36 mmHg, pressão de oclusão da artéria pulmonar de 7 mmHg, índice cardíaco de 1,7 L/min/m² e resistência vascular sistêmica de 1.750 dyn·s/cm⁵. Saturação venosa mista de 48%. Qual é a interpretação do perfil e a conduta mais adequada?",
+  "alts": [
+   "Cardiogênico por infarto extenso: inotrópico e vasopressor",
+   "Hipovolêmico por sangramento oculto: hemácias e volume",
+   "Distributivo por sepse de ferida: antibiótico e noradrenalina",
+   "Tamponamento cardíaco: pericardiocentese de urgência",
+   "Obstrutivo por embolia pulmonar maciça: reperfusão"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESICM 2025 de choque circulatório e monitorização hemodinâmica, perfis hemodinâmicos e indicação do cateter de artéria pulmonar",
+  "coment": "Os perfis hipovolêmico, cardiogênico e obstrutivo cursam com débito baixo e vasoconstrição compensatória (resistência sistêmica alta e saturação venosa baixa); o distributivo, com débito normal ou alto e resistência baixa. O que separa os três de débito baixo são as pressões de enchimento. No hipovolêmico, todas baixas. No cardiogênico por ventrículo esquerdo, a pressão de oclusão sobe. No obstrutivo por embolia, a pós-carga do ventrículo direito explode: átrio direito e artéria pulmonar altos, enquanto o ventrículo esquerdo recebe pouco sangue e a oclusão fica baixa. No tamponamento, as pressões diastólicas se equalizam (átrio direito, diastólica do ventrículo direito, diastólica pulmonar e oclusão em torno do mesmo valor). A ESICM 2025 deixa o cateter de artéria pulmonar como ferramenta seletiva, útil justamente no choque com disfunção de ventrículo direito. Aqui, choque obstrutivo por embolia maciça indica reperfusão, trombolítica ou mecânica conforme o risco de sangramento.",
+  "porAlt": [
+   "No cardiogênico por falência do ventrículo esquerdo a pressão de oclusão estaria alta; aqui ela é de 7 mmHg.",
+   "Na hipovolemia as pressões de enchimento direitas estariam baixas, e não 19 mmHg com hipertensão pulmonar.",
+   "O distributivo cursa com índice cardíaco normal ou alto e resistência sistêmica baixa, o oposto do encontrado.",
+   "O tamponamento equaliza as pressões diastólicas: o átrio direito e a oclusão ficariam próximos, e não 19 contra 7 mmHg.",
+   "Correta: pressões direitas e pulmonar altas com oclusão baixa, débito baixo e resistência alta configuram obstrução ao fluxo pulmonar; no contexto pós-operatório, embolia maciça, que pede reperfusão."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, com pneumonia e choque séptico, recebeu 2 litros de cristaloide balanceado e está em noradrenalina a 0,12 µg/kg/min por veia periférica, com pressão arterial média de 63 mmHg. Respira espontaneamente com máscara de oxigênio, frequência respiratória de 28 irpm, em fibrilação atrial com resposta de 118 bpm. O enchimento capilar é de 4 segundos. A ultrassonografia mostra veia cava inferior de 1,3 cm com colapso inspiratório de 45% e linhas B esparsas apenas nas bases. Há linha arterial radial. O residente quer mais 500 mL porque a cava colapsa. Qual é a melhor forma de decidir sobre novo volume?",
+  "alts": [
+   "Elevação passiva das pernas medindo a VTI ao ecocardiograma",
+   "Variação de pressão de pulso medida na linha arterial radial",
+   "Variação respiratória do diâmetro da veia cava, já obtida",
+   "Pressão venosa central após a passagem de cateter central",
+   "Resposta da pressão arterial média a um bólus de 500 mL"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESICM 2025 de choque circulatório, testes dinâmicos de responsividade a fluido",
+  "coment": "Só cerca de metade dos pacientes em choque aumenta o débito com volume, e a ESICM 2025 manda avaliar responsividade antes de continuar a ressuscitação em quem persiste em choque após o volume inicial. A elevação passiva das pernas tem recomendação forte com certeza alta, inclusive com respiração espontânea: do semissentado a 45 graus para o decúbito com pernas a 45 graus, autotransfusão reversível de cerca de 300 mL, efeito máximo em 30 a 90 segundos, e resposta definida por aumento de cerca de 10% numa medida de débito em tempo real (integral velocidade-tempo, contorno de pulso). Medir só a pressão arterial não vale. A variação de pressão de pulso exige ventilação controlada sem esforço, ritmo regular e volume corrente de pelo menos 8 mL/kg; a veia cava isolada tem recomendação contra. Se responsivo, ainda é preciso pesar o risco de congestão antes do bólus.",
+  "porAlt": [
+   "Correta: a elevação passiva das pernas, com medida de débito em tempo real como a integral velocidade-tempo, tem recomendação forte e vale com respiração espontânea e arritmia.",
+   "A variação de pressão de pulso só é interpretável em ventilação controlada, sem esforço, ritmo regular e volume corrente de pelo menos 8 mL/kg; aqui há respiração espontânea e fibrilação atrial.",
+   "A ESICM 2025 é contra usar a variação da veia cava isolada para predizer resposta a fluido, porque esforço respiratório e pressão abdominal a confundem.",
+   "A pressão venosa central é medida estática e não prediz responsividade; vale ler quando o cateter já existe, como marcador de congestão.",
+   "O efeito do bólus se julga pelo débito cardíaco ou pela pressão de pulso, não pela pressão média, que depende também do tônus vascular."
+  ]
+ },
+ {
+  "q": "Mulher de 61 anos, em choque séptico de foco abdominal já drenado, recebeu adrenalina a 0,1 µg/kg/min há 2 horas, somada a noradrenalina e vasopressina, por pressão média inadequada. Desde então, a pressão arterial média subiu de 57 para 68 mmHg, o enchimento capilar caiu de 5 para 2 segundos, a diurese passou de 0,2 para 0,9 mL/kg/h e a saturação venosa central subiu de 62% para 71%. A glicemia foi de 140 para 228 mg/dL. O lactato, porém, subiu de 3,1 para 4,9 mmol/L. O residente interpreta como piora da perfusão e propõe novo bólus de fluido. Qual é a interpretação mais adequada?",
+  "alts": [
+   "Hipoperfusão oculta, que exige novo bólus de cristaloide",
+   "Isquemia mesentérica, que exige laparotomia imediata",
+   "Disfunção miocárdica nova, que pede dobutamina associada",
+   "Falha do controle de foco, que pede nova tomografia agora",
+   "Efeito beta da adrenalina, com perfusão em melhora clínica"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESICM 2025 de choque circulatório e Surviving Sepsis Campaign 2026, lactato como consequência e efeito adrenérgico da adrenalina",
+  "coment": "A adrenalina estimula receptores beta-2 do músculo esquelético, acelera a glicólise aeróbica e a produção de piruvato além da capacidade oxidativa, e eleva o lactato sem que haja hipóxia tecidual; a hiperglicemia simultânea é o sinal que denuncia o mecanismo. A ESICM 2025 lista explicitamente esse erro: ler como piora de perfusão o lactato que sobe com adrenalina. A orientação das duas diretrizes é julgar a ressuscitação de forma multimodal, pelas janelas de perfusão (pele, rim, cérebro), pela saturação venosa e pelo gradiente venoarterial de CO₂, e não pelo lactato isolado, que é consequência e não meta. Nesta paciente, pressão, enchimento capilar, diurese e saturação venosa melhoraram, o que indica perfusão adequada. A conduta é manter o tratamento, monitorar glicemia e reduzir a adrenalina assim que a pressão permitir.",
+  "porAlt": [
+   "Todas as janelas de perfusão melhoraram; dar volume pelo lactato isolado contraria a orientação de não usá-lo como meta e arrisca congestão.",
+   "Não há dor, distensão nem piora clínica que sugira isquemia intestinal, e o lactato subiu em paralelo à hiperglicemia, típico do efeito adrenérgico.",
+   "A saturação venosa subiu e a diurese melhorou, sinais de débito adequado; nada aponta disfunção miocárdica nova.",
+   "O foco foi drenado e o paciente melhorou clinicamente nas últimas horas; o lactato isolado não justifica reabordagem.",
+   "Correta: a adrenalina eleva o lactato por estímulo beta-2 da glicólise aeróbica; com pele, rim e saturação venosa melhorando, o aumento não significa hipoperfusão."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos tem parada cardíaca presenciada na sala de emergência, em fibrilação ventricular. Recebeu três choques bifásicos em energia máxima, com RCP de qualidade entre eles, adrenalina 1 mg após o segundo choque e amiodarona 300 mg após o terceiro. O ritmo segue em fibrilação ventricular na checagem. Um colega traz um segundo desfibrilador e afirma que a desfibrilação sequencial dupla passou a ser o padrão após três choques. Segundo a diretriz da AHA de 2025, qual é a afirmação correta?",
+  "alts": [
+   "É o padrão após três choques, com classe 1 pelo DOSE-VF",
+   "Está contraindicada, pois pode danificar os aparelhos",
+   "Pode ser considerada, sem ser padrão e sem pausar a RCP",
+   "Deve substituir a segunda dose de amiodarona, de 150 mg",
+   "Exige três choques empilhados antes de ser realizada"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "AHA 2025, Parte 9, suporte avançado de vida no adulto: mudança de vetor e desfibrilação sequencial dupla na FV refratária (2b, B-R)",
+  "coment": "A fibrilação ventricular que persiste após três choques é cenário clássico de prova. O DOSE-VF comparou desfibrilação padrão, mudança de vetor (pás em posição anteroposterior) e desfibrilação sequencial dupla, e achou mais sobrevida à alta com as duas alternativas. A AHA 2025 reconheceu o resultado, mas, por ser ensaio único, interrompido precocemente e com dúvidas de implementação, classificou as duas estratégias como 2b, de utilidade não estabelecida. A resposta correta não é recomendação padrão nem proibição. O que é estabelecido deve ser feito bem: RCP de alta qualidade com pausas mínimas, choque único seguido de compressões, adrenalina 1 mg a cada 3 a 5 minutos e amiodarona (300 mg, depois 150 mg) ou lidocaína (2b). Montar um segundo aparelho não pode interromper compressões nem desviar a busca das causas reversíveis.",
+  "porAlt": [
+   "O DOSE-VF mostrou mais sobrevida, mas foi um único ensaio interrompido precocemente; a AHA manteve a estratégia como 2b, não estabelecida.",
+   "A diretriz não a proíbe; reconhece o achado do DOSE-VF e deixa a estratégia como opção a considerar.",
+   "Correta: a AHA 2025 classifica a mudança de vetor e a desfibrilação sequencial dupla como 2b, de utilidade não estabelecida, a considerar sem comprometer compressões e o algoritmo padrão.",
+   "Os antiarrítmicos com recomendação seguem no algoritmo; a técnica alternativa não substitui amiodarona ou lidocaína na fibrilação refratária.",
+   "Choque único seguido de RCP imediata é preferido a choques empilhados (2a); empilhar choques reduz a fração de compressão."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos tem parada cardíaca em casa, presenciada pelo marido, que inicia compressões. O serviço de emergência a encontra em assistolia e a traz ao pronto-socorro após 14 minutos. A ventilação é feita com bolsa-válvula-máscara e capnografia acoplada à máscara, sem via aérea avançada, porque duas tentativas de intubação falharam. Após 22 minutos de suporte avançado, com adrenalina a cada 4 minutos e causas reversíveis investigadas, o CO₂ expirado é de 7 mmHg. O líder propõe encerrar a reanimação com base no CO₂ abaixo de 10 mmHg. Segundo a AHA 2025, qual é a afirmação correta?",
+  "alts": [
+   "CO₂ abaixo de 10 aos 20 minutos basta para encerrar",
+   "Encerrar apenas se o ultrassom mostrar coração parado",
+   "Intubar e encerrar se o CO₂ seguir abaixo de 20 mmHg",
+   "Sem tubo, nenhum corte de CO₂ serve para encerrar",
+   "Aplicar a regra universal, que já autoriza o término"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "AHA 2025, Parte 9: término da reanimação e uso do CO₂ expirado (2b no intubado; 3: dano no não intubado)",
+  "coment": "O CO₂ expirado reflete o fluxo pulmonar gerado pelas compressões e serve para monitorar a qualidade da RCP e detectar retorno da circulação. Como critério de término, a AHA 2025 foi restritiva: no paciente intubado, um valor que não ultrapassa 10 mmHg após 20 minutos de suporte avançado pode ser considerado como um componente de abordagem multimodal (2b, C-LD); no paciente não intubado, nenhum valor de corte, em momento algum, deve ser usado como indicação de parar (3: dano). Com máscara, vazamento e ventilação irregular falseiam a leitura. As regras de término (suporte básico, avançado e universal) exigem parada não presenciada pela equipe, nenhum choque e nenhum retorno da circulação; a de suporte avançado acrescenta não presenciada por leigo e sem RCP por leigo. Esta parada foi presenciada com RCP pelo marido. A decisão de encerrar é multimodal e considera tempo, causa reversível tratada e resposta.",
+  "porAlt": [
+   "O corte de 10 mmHg após 20 minutos só pode entrar como componente de decisão multimodal no paciente intubado, e mesmo assim como 2b.",
+   "A diretriz não estabelece o ecocardiograma como ferramenta prognóstica na parada; coração parado ao ultrassom não é critério isolado de término.",
+   "O componente previsto é CO₂ que não supera 10 mmHg após 20 minutos no intubado; 20 mmHg não é o corte e nenhum valor decide sozinho.",
+   "Correta: em paciente não intubado, a AHA 2025 classifica como dano (3) usar qualquer valor de CO₂ expirado, em qualquer momento, como indicação de encerrar esforços.",
+   "Houve parada presenciada e RCP pelo marido, o que já falha os critérios das regras de término, e nenhuma regra dispensa a avaliação multimodal."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos tem parada extra-hospitalar em fibrilação ventricular, com retorno da circulação após 12 minutos e dois choques. Na admissão permanece comatoso, sem resposta a comando verbal. Está em noradrenalina a 0,04 µg/kg/min, com pressão arterial média de 74 mmHg, lactato em queda e sem novas arritmias ventriculares. Dois eletrocardiogramas seriados mostram ritmo sinusal sem supradesnivelamento de ST nem equivalente; o ecocardiograma mostra fração de ejeção de 50% sem alteração segmentar importante. Troponina inicial discretamente elevada. Segundo a AHA de 2025, qual é a conduta mais adequada quanto à coronariografia?",
+  "alts": [
+   "Coronariografia emergente, pois o ritmo foi chocável",
+   "Não fazer agora; realizá-la antes da alta hospitalar",
+   "Coronariografia emergente se a troponina continuar subindo",
+   "Trombólise empírica pela alta chance de oclusão coronária",
+   "Dispensar a coronariografia durante toda a internação"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA 2025, Parte 11, cuidados pós-parada: indicações de coronariografia emergente e antes da alta",
+  "coment": "A Parte 11 da AHA 2025 define quatro situações para coronariografia emergente após o retorno da circulação: supradesnivelamento de ST (ou equivalente) que persiste no eletrocardiograma repetido, mesmo em coma (1); e choque cardiogênico de causa coronária presumida, arritmia ventricular recorrente ou isquemia significativa em curso (2a). No paciente comatoso sem nenhum desses critérios, a coronariografia emergente é classe 3, refletindo ensaios como o COACT e o TOMAHAWK, que não mostraram benefício. Quando há suspeita de causa cardíaca com ritmo chocável, disfunção ventricular inexplicada ou isquemia grave, a coronariografia deve ser feita antes da alta (1). Enquanto isso, o cuidado pós-parada segue: controle de temperatura entre 32 e 37,5 °C por pelo menos 36 horas, pressão média de pelo menos 65 mmHg, saturação de 90 a 98% e prognóstico neurológico multimodal e tardio.",
+  "porAlt": [
+   "O ritmo chocável, por si, não indica coronariografia emergente; a AHA 2025 a reserva a supra persistente, choque cardiogênico, arritmia recorrente ou isquemia em curso.",
+   "Correta: no comatoso sem supradesnivelamento persistente, sem choque cardiogênico, sem arritmia recorrente e sem isquemia em curso, a coronariografia emergente é classe 3; com ritmo chocável, ela é indicada antes da alta (1).",
+   "Elevação discreta de troponina é esperada após desfibrilação e massagem e não está entre os critérios de coronariografia emergente.",
+   "Trombólise sem diagnóstico de oclusão coronária não tem indicação e expõe a sangramento após compressões torácicas.",
+   "Com suspeita de causa cardíaca e ritmo chocável, a coronariografia antes da alta é recomendação classe 1; dispensá-la perde a oportunidade de tratar a causa."
+  ]
+ },
+ {
+  "q": "Mulher de 54 anos, com miocardiopatia isquêmica, chega ao pronto-socorro com palpitações e pré-síncope há 20 minutos. Está sonolenta, mas responde, com pulso carotídeo palpável, pressão arterial de 76/40 mmHg e extremidades frias. O monitor mostra taquicardia de QRS largo, com morfologia e eixo mudando batimento a batimento, frequência em torno de 220 bpm, sustentada. Um eletrocardiograma de 1 semana atrás tinha QTc de 430 ms. Potássio e magnésio ainda não foram dosados. Qual é a conduta imediata?",
+  "alts": [
+   "Cardioversão sincronizada com 100 J sob sedação",
+   "Sulfato de magnésio 2 g IV antes de qualquer choque",
+   "Adenosina 6 mg em bólus rápido com flush de soro",
+   "Amiodarona 150 mg IV em 10 minutos e reavaliação",
+   "Choque não sincronizado imediato em energia máxima"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "AHA 2025, Parte 9, taquicardia ventricular polimórfica: desfibrilação imediata (1, B-NR)",
+  "coment": "Entre as dez mensagens principais da Parte 9 da AHA 2025 está a de que a taquicardia ventricular polimórfica é sempre instável e se trata com desfibrilação imediata, isto é, choque não sincronizado em energia de desfibrilação. A sincronização exige um QRS reconhecível e repetitivo; na polimórfica, o aparelho pode não disparar ou disparar sobre a onda T. O choque termina o episódio, mas não impede o próximo, e o que previne recorrência depende do QT: com QT longo (torsades de pointes), sulfato de magnésio, correção de potássio e suspensão de fármacos que alongam o QT; com QT normal, como nesta paciente coronariopata, lidocaína ou amiodarona e tratamento da isquemia, que é o substrato mais provável. Adenosina, verapamil e diltiazem são proibidos na taquicardia de QRS largo polimórfica ou irregular.",
+  "porAlt": [
+   "Cada QRS é diferente, e o desfibrilador não consegue sincronizar com segurança; a sincronização atrasa ou falha o choque.",
+   "O magnésio é para recorrências de TV polimórfica com QT longo; o episódio sustentado e instável pede choque, e este QT basal era normal.",
+   "Adenosina na taquicardia de QRS largo polimórfica é classe 3: dano, e pode precipitar fibrilação ventricular.",
+   "Antiarrítmico é para recorrências da TV polimórfica sem QT longo, depois de terminado o episódio; atrasar o choque no instável é erro.",
+   "Correta: a TV polimórfica sustentada é sempre instável para a AHA 2025 e se trata com choque não sincronizado imediato (1, B-NR)."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos, hipertenso em uso de atenolol 50 mg ao dia, recebe contraste iodado para tomografia e, em 3 minutos, apresenta urticária generalizada, sibilância e pressão arterial de 70/40 mmHg. Recebeu adrenalina 0,5 mg intramuscular na coxa três vezes, com 5 minutos de intervalo, 2 litros de cristaloide em bólus, oxigênio e posição supina com pernas elevadas, e foi iniciada adrenalina em infusão contínua por bomba, monitorizado. Após 30 minutos, mantém pressão de 76/44 mmHg e frequência cardíaca de 62 bpm, com sibilância persistente. Qual é o próximo passo mais adequado?",
+  "alts": [
+   "Hidrocortisona 200 mg como medida principal",
+   "Prometazina endovenosa para bloquear a histamina",
+   "Adrenalina 1 mg endovenosa em bólus rápido",
+   "Dopamina em dose baixa no lugar da adrenalina",
+   "Glucagon endovenoso, somado à adrenalina"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "WAO 2020 de anafilaxia e AAAAI/ACAAI 2023 (atualização do parâmetro de anafilaxia), anafilaxia refratária e glucagon no usuário de betabloqueador",
+  "coment": "O betabloqueador torna a anafilaxia mais grave e menos responsiva à adrenalina, porque os receptores beta estão ocupados e há ativação reflexa vagal com bradicardia relativa. A sequência permanece: adrenalina intramuscular 0,01 mg/kg (máximo de 0,5 mg) repetida a cada 5 a 15 minutos, volume, oxigênio e posição; sem resposta após duas doses, trata-se como anafilaxia refratária, com adrenalina endovenosa em infusão titulada em ambiente monitorizado. Quando mesmo assim não há resposta, sobretudo em usuário de betabloqueador, a WAO indica glucagon, que ativa a adenilciclase por receptor próprio e tem efeito inotrópico e cronotrópico independente do bloqueio beta. A dose usual em adultos é de 1 a 5 mg em 5 minutos, seguida de infusão; vômito é frequente, por isso proteger a via aérea. Anti-histamínico e corticoide são segunda linha e não substituem nenhuma dessas medidas.",
+  "porAlt": [
+   "A WAO registra evidência crescente de que o corticoide não ajuda no manejo agudo; ele não reverte choque nem broncoespasmo.",
+   "O anti-histamínico H1 alivia a pele, não trata hipotensão nem broncoespasmo, e a prometazina pode piorar a hipotensão.",
+   "Adrenalina endovenosa em bólus de 1 mg é dose de parada; fora dela causa arritmia fatal e crise hipertensiva. A via endovenosa é titulada em infusão.",
+   "Dopamina não tem vantagem e depende também de receptores adrenérgicos bloqueados; substituir a adrenalina retira o fármaco de primeira linha.",
+   "Correta: na anafilaxia refratária em usuário de betabloqueador, o glucagon age por via independente do receptor beta e é a medida indicada quando não há resposta à adrenalina."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos vai a colecistectomia eletiva. Na indução recebe propofol, fentanil, rocurônio e cefazolina 2 g. Cinco minutos depois, a pressão sistólica cai de 124 para 58 mmHg, a frequência cardíaca sobe para 138 bpm e surge broncoespasmo com pressão de pico de 42 cmH₂O e onda de capnografia em barbatana de tubarão. Não há urticária, rubor nem angioedema visíveis. O tubo está bem posicionado. A equipe trata com adrenalina e volume, com boa resposta. O anestesista diz que não pode ser anafilaxia porque não há lesão de pele. Qual é a interpretação e a investigação mais adequadas?",
+  "alts": [
+   "Não é anafilaxia, pois falta acometimento de pele ou mucosa",
+   "Anafilaxia; triptase só após 48 horas, quando estiver no pico",
+   "Broncoespasmo pela intubação, sem necessidade de triptase",
+   "Anafilaxia; triptase em 1 a 2 horas e basal após 24 horas",
+   "Angioedema por bradicinina; dosar C4 e iniciar icatibanto"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "WAO 2020 de anafilaxia, critérios clínicos e dosagem de triptase; AAAAI/ACAAI 2023",
+  "coment": "A WAO 2020 considera a anafilaxia altamente provável com qualquer de dois critérios. O primeiro exige pele ou mucosa associada a acometimento respiratório, cardiovascular ou gastrointestinal grave. O segundo, que a prova cobra, é hipotensão, broncoespasmo ou acometimento laríngeo agudo após exposição a alérgeno conhecido ou altamente provável, mesmo sem pele. Na anafilaxia perioperatória, a pele costuma faltar ou passar despercebida sob os campos, e bloqueadores neuromusculares e antibióticos como a cefazolina estão entre os gatilhos mais frequentes. A triptase confirma a ativação mastocitária: sobe a partir de 15 minutos, tem pico em 1 a 2 horas e normaliza em cerca de 24 horas; colhe-se o quanto antes, idealmente até 2 horas, e repete-se o valor basal após pelo menos 24 horas, considerando significativo o aumento acima de 20% do basal mais 2 ng/mL. Triptase normal não exclui. A paciente deve ser encaminhada para investigação alergológica antes de nova anestesia.",
+  "porAlt": [
+   "O segundo critério da WAO dispensa a pele: hipotensão, broncoespasmo ou acometimento laríngeo agudo após alérgeno conhecido ou altamente provável bastam.",
+   "A triptase sobe de 15 minutos a 3 horas após o início, com pico em 1 a 2 horas; colhida só após 48 horas, já voltou ao basal e perde o valor diagnóstico.",
+   "Broncoespasmo isolado não explica hipotensão de 58 mmHg com taquicardia; atribuir à intubação perde o diagnóstico e expõe a nova reação em cirurgia futura.",
+   "Correta: hipotensão e broncoespasmo minutos após alérgeno provável preenchem o segundo critério da WAO mesmo sem pele; a triptase de fase aguda, colhida perto do pico, se compara à basal colhida após 24 horas.",
+   "Angioedema por bradicinina cursa sem broncoespasmo e sem choque, instala-se em horas e não responde bem à adrenalina, ao contrário deste quadro."
+  ]
+ },
+ {
+  "q": "Mulher de 28 anos, sem asma, come um doce com amendoim e em 10 minutos apresenta urticária difusa, aperto na garganta, rouquidão leve e sibilos. No pronto-socorro recebe adrenalina 0,5 mg intramuscular na coxa, com resolução completa em 10 minutos. Pressão arterial de 118/74 mmHg, sem estridor, SpO₂ de 98%. Não houve necessidade de segunda dose. Ela pergunta o que será feito para evitar uma nova reação nas próximas horas e depois da alta. Qual é a conduta mais adequada?",
+  "alts": [
+   "Prednisona por 5 dias para impedir a reação bifásica",
+   "Observar por horas e prescrever adrenalina autoinjetável",
+   "Alta imediata, sem necessidade de receita de adrenalina",
+   "Internação de 72 horas em UTI pelo risco de reação bifásica",
+   "Anti-histamínico de horário para bloquear a fase tardia da reação"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "AAAAI/ACAAI 2023, atualização do parâmetro de anafilaxia: observação individualizada e contra corticoide ou anti-histamínico para prevenir reação bifásica; WAO 2020",
+  "coment": "A reação bifásica, recorrência sem nova exposição, ocorre em uma minoria dos casos, metade nas primeiras 6 a 12 horas. O parâmetro AAAAI/ACAAI de 2023 propõe observação individualizada e decisão compartilhada: o risco é maior quando a reação inicial foi grave e quando foi necessária mais de uma dose de adrenalina, e esses pacientes merecem observação prolongada. Quem tem resposta pronta, completa e duradoura a uma dose pode receber alta após algumas horas. O mesmo documento sugere contra o uso de corticoide ou anti-histamínico para prevenir a reação bifásica, porque não há benefício demonstrado e porque essa prática pode atrasar a adrenalina numa recorrência. Na alta, toda pessoa com anafilaxia recebe adrenalina autoinjetável (duas unidades, de preferência), treinamento, plano de ação escrito, orientação de evitar o alérgeno e encaminhamento ao alergista.",
+  "porAlt": [
+   "O parâmetro de 2023 sugere contra corticoide ou anti-histamínico como forma de prevenir a reação bifásica, com evidência muito baixa de benefício.",
+   "Correta: com resposta pronta e completa a uma dose, observação individualizada por algumas horas basta, e toda pessoa que teve anafilaxia sai com adrenalina autoinjetável e plano de ação.",
+   "Mesmo com boa resposta, a alta deve incluir prescrição de adrenalina autoinjetável, treino de uso, orientação para evitar o alérgeno e encaminhamento ao alergista.",
+   "Observação prolongada é para reação grave, que exigiu mais de uma dose de adrenalina ou que foi refratária; aqui a resposta foi pronta e completa.",
+   "Anti-histamínico não previne a fase tardia; seu papel é aliviar sintomas cutâneos, e usá-lo como proteção dá falsa segurança."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos, 70 kg, em choque séptico de foco urinário, recebeu 30 mL/kg de cristaloide e está em noradrenalina periférica a 0,2 µg/kg/min. Pressão de 92/50 mmHg, frequência cardíaca de 124 bpm, lactato de 5 mmol/L e SpO₂ de 87% com máscara com reservatório, com rebaixamento progressivo. Será intubada. A via aérea não tem preditores anatômicos de dificuldade. O residente planeja cetamina 2 mg/kg porque ela protegeria a pressão e um bólus de 1 litro de cristaloide imediatamente antes da indução para prevenir colapso. Qual é o ajuste mais adequado ao plano?",
+  "alts": [
+   "Manter a cetamina 2 mg/kg, que causa menos colapso no paciente séptico",
+   "Manter o bólus de 1 litro, que previne o colapso cardiovascular pós-indução",
+   "Etomidato ou cetamina em dose menor, subindo antes a noradrenalina",
+   "Etomidato seguido de hidrocortisona para cobrir a supressão adrenal",
+   "Propofol 1,5 mg/kg com o bloqueador neuromuscular em metade da dose"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "SCCM 2023 de sequência rápida no adulto crítico; ensaios RSI (2025) e PREPARE II (2022); DAS 2025",
+  "coment": "Duas crenças antigas caíram. A primeira, de que a cetamina seria a escolha automática no choque: o ensaio RSI, com 2.365 críticos, não mostrou diferença de mortalidade em 28 dias entre cetamina e etomidato (28,1% e 29,1%), e houve mais colapso cardiovascular com cetamina (22,1% contra 17,0%), maior ainda nos sépticos. A cetamina é simpaticomimética, mas inotrópica negativa direta, e quem já vive das próprias catecolaminas perde pressão. A segunda, de que o bólus preventivo de cristaloide evitaria o colapso: o PREPARE II foi negativo. No paciente fisiologicamente difícil (hipotensão, hipoxemia, índice de choque acima de 0,9), a estratégia é ressuscitar antes de intubar, subir ou deixar conectada a noradrenalina, reduzir o hipnótico, dar bloqueador em dose plena, pré-oxigenar com ventilação não invasiva e usar videolaringoscópio.",
+  "porAlt": [
+   "No RSI, a cetamina teve mais colapso cardiovascular que o etomidato, e a diferença foi maior justamente nos sépticos (30,6% contra 20,9%).",
+   "No PREPARE II, o bólus de cristaloide antes da indução não reduziu o colapso cardiovascular (21,0% contra 18,2%).",
+   "Correta: no ensaio RSI, cetamina e etomidato tiveram mortalidade igual, e qualquer dos dois serve em dose reduzida; o que protege é otimizar o vasopressor antes da indução.",
+   "A SCCM sugere não administrar corticoide após etomidato; a supressão adrenal transitória não se traduziu em pior desfecho.",
+   "Propofol causa vasodilatação e hipotensão, inadequado no choque; e o bloqueador deve ser dado em dose plena para garantir boas condições na primeira tentativa."
+  ]
+ },
+ {
+  "q": "Homem de 34 anos, internado com síndrome de Guillain-Barré há 6 dias, evolui com fraqueza ascendente, capacidade vital de 12 mL/kg, tosse ineficaz e acúmulo de secreção. Será intubado. Pesa 80 kg, não tem preditores de via aérea difícil, a pressão é de 128/80 mmHg e o potássio sérico é de 4,2 mEq/L. A equipe discute qual bloqueador neuromuscular usar na sequência rápida. Qual é a escolha mais adequada?",
+  "alts": [
+   "Succinilcolina 1,5 mg/kg",
+   "Succinilcolina 0,6 mg/kg",
+   "Hipnótico sem bloqueador",
+   "Cisatracúrio 0,1 mg/kg",
+   "Rocurônio 1,2 mg/kg"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "SCCM 2023 de sequência rápida no adulto crítico e bulas de succinilcolina e sugamadex: contraindicações da succinilcolina",
+  "coment": "A succinilcolina despolariza a placa motora e libera potássio, cerca de 0,5 mEq/L no indivíduo normal. Nas condições com receptores de acetilcolina extrajuncionais, a elevação é muito maior e pode causar parada: fase após a lesão aguda de grande queimadura, trauma extenso, desnervação ou lesão de neurônio motor superior (AVC, lesão medular, síndrome de Guillain-Barré), doença neuromuscular progressiva e miopatias. Somam-se suscetibilidade à hipertermia maligna e hipercalemia estabelecida. O risco costuma ser máximo de 7 a 10 dias após a lesão, e muitos serviços evitam a succinilcolina a partir do terceiro dia. Potássio normal não autoriza o uso. A SCCM sugere qualquer dos dois bloqueadores quando não há contraindicação; havendo, o rocurônio de 1,2 a 1,5 mg/kg dá início em cerca de 60 segundos, e o sugamadex 16 mg/kg permite reversão imediata, embora a reversão não seja plano de resgate.",
+  "porAlt": [
+   "A proliferação de receptores de acetilcolina extrajuncionais faz a succinilcolina liberar potássio em grande quantidade, com risco de hipercalemia e parada, mesmo com potássio basal normal.",
+   "Reduzir a dose não elimina o risco de hipercalemia, que depende do número de receptores extrajuncionais, e piora as condições de intubação.",
+   "A SCCM recomenda usar bloqueador sempre que se usa hipnótico na sequência rápida (forte), porque melhora a visão laríngea e o sucesso na primeira tentativa.",
+   "O cisatracúrio nessa dose tem início lento, de vários minutos, inadequado para sequência rápida.",
+   "Correta: a succinilcolina está contraindicada na desnervação por doença neuromuscular, e o rocurônio em dose de sequência rápida oferece início em cerca de 60 segundos sem esse risco."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos, com pneumonia extensa bilateral, está em cateter nasal de alto fluxo a 60 L/min com FiO₂ de 1,0, SpO₂ de 88%, frequência respiratória de 38 irpm e uso de musculatura acessória. A gasometria mostra PaO₂ de 62 mmHg, relação PaO₂/FiO₂ de 62. Será intubado na unidade de terapia intensiva. Está alerta e cooperativo, sem vômitos, sem trauma facial e sem preditores anatômicos de via aérea difícil. Pressão arterial de 118/70 mmHg. Qual é a estratégia de pré-oxigenação mais adequada?",
+  "alts": [
+   "Máscara não reinalante a 15 L/min por 3 minutos antes da indução",
+   "Manter o alto fluxo isolado, que supera a ventilação não invasiva",
+   "Ventilação não invasiva por 3 a 5 minutos e oxigênio nasal na apneia",
+   "Bolsa-válvula-máscara com pressão alta e frequência de 20 por minuto",
+   "Cateter nasal a 5 L/min durante a indução, sem outra pré-oxigenação"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "SCCM 2023 de sequência rápida (VNI se PaO₂/FiO₂ abaixo de 150) e ensaio PREOXI (2024); DAS 2025",
+  "coment": "Na pneumonia extensa, a apneia segura cai para menos de um minuto, porque o sangue que passa por alvéolos sem ventilação não recebe o oxigênio ofertado. A SCCM 2023 sugere ventilação não invasiva para pré-oxigenar quando a relação PaO₂/FiO₂ é menor que 150 e cateter de alto fluxo quando a laringoscopia promete ser difícil. O PREOXI, com 1.301 críticos, comparou ventilação não invasiva com máscara de oxigênio: hipoxemia de 9,1% contra 18,5%, parada cardíaca de 0,2% contra 1,1%, sem diferença de aspiração. A DAS 2025 incorporou o oxigênio contínuo durante todo o manejo: pressão positiva antes, cateter nasal durante a apneia e, no crítico, ventilação suave com bolsa-máscara entre indução e laringoscopia, que no PreVent reduziu hipoxemia grave sem aumentar aspiração. Somam-se cabeceira elevada, videolaringoscópio e bloqueio em dose plena.",
+  "porAlt": [
+   "A máscara a 15 L/min arrasta ar ambiente e não recruta o pulmão com shunt; no PREOXI teve o dobro de hipoxemia que a ventilação não invasiva.",
+   "O alto fluxo é sugerido quando a laringoscopia promete ser difícil; na hipoxemia grave sem esse problema, a pressão positiva da ventilação não invasiva recruta melhor.",
+   "Correta: com relação PaO₂/FiO₂ abaixo de 150, a SCCM sugere pré-oxigenar com ventilação não invasiva, e o PREOXI mostrou metade da hipoxemia em relação à máscara.",
+   "A ventilação com bolsa-máscara entre indução e laringoscopia é aceitável com pressão baixa e volume pequeno; pressão e frequência altas insuflam o estômago.",
+   "Oxigênio nasal na apneia é adjuvante; isolado, a 5 L/min, não substitui a pré-oxigenação com pressão positiva no hipoxêmico grave."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, índice de massa corporal de 38 kg/m², é submetido a sequência rápida com etomidato e rocurônio 1,2 mg/kg por rebaixamento após hemorragia intracraniana. Foram feitas três tentativas otimizadas com videolaringoscópio e uma quarta por operador mais experiente, sem sucesso. Três tentativas com dispositivo supraglótico de segunda geração falharam em ventilar, assim como a ventilação com máscara a duas pessoas com cânula orofaríngea. A SpO₂ caiu para 72% e segue em queda, com frequência cardíaca de 52 bpm. A membrana cricotireóidea não é palpável. Qual é a conduta imediata?",
+  "alts": [
+   "Sugamadex 16 mg/kg e aguardar a respiração",
+   "Cricotireoidostomia por punção com jato de oxigênio",
+   "Quinta laringoscopia com lâmina direta e bougie",
+   "Bisturi, bougie e tubo 6,0 por incisão vertical",
+   "Fibroscopia flexível pela boca com o paciente bloqueado"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Difficult Airway Society 2025, intubação difícil não prevista no adulto: planos A a D e acesso cirúrgico de emergência",
+  "coment": "A DAS 2025 manteve o algoritmo linear em quatro planos, com oxigênio contínuo e limite explícito de tentativas. Plano A: intubação com videolaringoscópio e bloqueio completo, até três tentativas otimizadas mais uma do operador mais experiente. Plano B: supraglótico de segunda geração, até três tentativas. Plano C: máscara facial a duas pessoas com cânula e bloqueio completo. Se nenhum oxigena e a saturação cai, declara-se em voz alta não intubo, não oxigeno e parte-se para o plano D: acesso cirúrgico pela membrana cricotireóidea com bisturi, bougie e tubo com balonete de pequeno calibre. A novidade de 2025 é a incisão vertical padronizada na linha média, que funciona com membrana palpável ou não e permite palpar por dentro; em seguida, incisão transversa da membrana, rotação da lâmina, bougie e tubo, com confirmação por capnografia. O erro mais comum é demorar a declarar a falha.",
+  "porAlt": [
+   "Esperar o retorno da respiração espontânea é tempo sem oxigênio; obstrução, edema e hipnótico continuam lá, e a reversão não é plano de resgate.",
+   "A técnica com cânula foi abandonada por falhar com frequência e não permitir ventilação eficaz; a padrão é bisturi, bougie e tubo.",
+   "O limite de três tentativas mais uma já foi atingido; cada nova laringoscopia soma edema e sangramento e atrasa o acesso que salva.",
+   "Correta: esgotados os planos A, B e C sem oxigenação, declara-se não intubo, não oxigeno e faz-se o acesso cervical com bisturi, bougie e tubo, com a incisão vertical padronizada pela DAS 2025.",
+   "A fibroscopia é técnica eletiva ou pelo supraglótico em paciente que oxigena; com saturação em queda livre não há tempo para ela."
+  ]
+ },
+ {
+  "q": "Homem de 30 anos, asmático, foi intubado há 15 minutos por crise com risco de vida. Peso predito de 70 kg. Está em volume controlado com volume corrente de 560 mL, frequência de 24 irpm, PEEP de 10 cmH₂O e fluxo de 40 L/min. A pressão arterial caiu de 124/76 para 70/40 mmHg. Pressão de pico de 62 cmH₂O e de platô de 37 cmH₂O, e a curva de fluxo expiratório não retorna a zero antes do ciclo seguinte. Há murmúrio diminuído e sibilos difusos bilaterais, sem desvio de traqueia. Qual é a conduta imediata?",
+  "alts": [
+   "Descompressão torácica por punção à direita, de imediato",
+   "Subir a PEEP para 15 cmH₂O para contrabalançar a auto-PEEP",
+   "Desconectar do ventilador por segundos e observar a pressão",
+   "Aumentar a frequência para 30 irpm para lavar o CO₂ retido",
+   "Bólus de noradrenalina mantendo inalterado o ajuste ventilatório"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Recomendações Brasileiras de Ventilação Mecânica AMIB/SBPT 2013 e revisão do Intensive Care Medicine 2020 sobre ventilação no obstrutivo",
+  "coment": "No asmático intubado, o problema é o tempo para expirar: a resistência expiratória alta impede o esvaziamento antes do ciclo seguinte, o ar se acumula (hiperinsuflação dinâmica) e gera auto-PEEP, que reduz o retorno venoso e causa hipotensão e barotrauma. Este paciente recebe 8 mL/kg de peso predito, frequência alta, fluxo baixo e PEEP acima do sugerido, com platô de 37 cmH₂O. O teste é desconectar do ventilador por alguns segundos, com compressão torácica suave se preciso: se a pressão volta, era aprisionamento. Depois, reduzir o volume para 5 a 6 mL/kg de peso predito, a frequência para 10 a 12, aumentar o fluxo inspiratório, manter PEEP baixa e medir platô e auto-PEEP em pausa. A AMIB aceita pH acima de 7,20 com PaCO₂ abaixo de 80 mmHg e platô abaixo de 35 cmH₂O. Se a pressão não voltar com a desconexão, pneumotórax hipertensivo sobe ao topo da lista.",
+  "porAlt": [
+   "O quadro é bilateral, sem desvio de traqueia, e o fluxo expiratório que não zera aponta para aprisionamento; a punção fica para quando a desconexão não restaura a pressão e há sinal de pneumotórax.",
+   "Na asma, a PEEP externa recomendada é baixa, de 3 a 5 cmH₂O; subir a PEEP no paciente passivo pode agravar a hiperinsuflação, e o platô já está acima do limite.",
+   "Correta: hipotensão no obstrutivo ventilado é hiperinsuflação dinâmica até prova em contrário; desconectar alivia o ar aprisionado e confirma o diagnóstico se a pressão volta.",
+   "Aumentar a frequência encurta a expiração e piora o aprisionamento e a hipotensão; a hipercapnia deve ser aceita com pH acima de 7,20.",
+   "O vasopressor trata a consequência e não a causa; sem reduzir volume corrente e frequência, a hiperinsuflação continua e pode evoluir para parada."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos, 1,60 m e 62 kg, está no segundo dia de SDRA moderada por pneumonia, em volume controlado com volume corrente de 310 mL, PEEP de 12 cmH₂O, FiO₂ de 0,6 e frequência de 24 irpm. Está sedada, sem esforço inspiratório. Em pausa inspiratória, a pressão de platô é de 30 cmH₂O. Gasometria: pH 7,33, PaCO₂ de 50 mmHg, PaO₂ de 88 mmHg. Pressão arterial estável sem vasopressor. Qual é o ajuste ventilatório mais adequado?",
+  "alts": [
+   "Manter o ajuste, pois o volume já está em 6 mL/kg",
+   "Manobra de recrutamento com PEEP de 40 por 2 minutos",
+   "Ventilação oscilatória de alta frequência de rotina",
+   "Reduzir o volume para cerca de 5 mL/kg do peso predito",
+   "Subir a PEEP para 18 para abrir alvéolos colapsados"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS 2024 de SDRA, volume corrente de 4 a 8 mL/kg de peso predito com platô abaixo de 30 cmH₂O; pressão de distensão (Amato, 2015)",
+  "coment": "O peso predito da mulher é 45,5 + 0,91 × (160 − 152,4) ≈ 52 kg, e 310 mL correspondem a 6 mL/kg. A pressão de distensão é o platô menos a PEEP, 30 − 12 = 18 cmH₂O, e equivale ao volume corrente dividido pela complacência, ou seja, ao volume corrigido pelo tamanho do pulmão que ainda ventila. Na análise de Amato, reduzir volume ou subir PEEP só trouxe benefício quando reduziu a pressão de distensão, e o alvo prático mais usado é abaixo de 15 cmH₂O. A recomendação forte da ATS 2024 é limitar o volume a 4 a 8 mL/kg e o platô abaixo de 30; com distensão alta, o movimento é descer o volume para 4 a 5 mL/kg (cerca de 260 mL), elevando a frequência se necessário e tolerando hipercapnia com pH acima de 7,20. Recrutamento prolongado e ventilação oscilatória têm recomendação forte contra. A prona entra se a SDRA evoluir para grave.",
+  "porAlt": [
+   "Volume protetor não garante distensão protetora: com pulmão aerado pequeno, 6 mL/kg ainda gera pressão de distensão de 18 cmH₂O, acima do alvo prático de 15.",
+   "A ATS 2024 tem recomendação forte contra manobras prolongadas, com PEEP de 35 cmH₂O ou mais por mais de 60 segundos, que provavelmente aumentam a mortalidade.",
+   "A ventilação oscilatória de alta frequência de rotina tem recomendação forte contra na SDRA moderada a grave, com certeza alta.",
+   "Correta: o peso predito é de cerca de 52 kg, o volume já está em 6 mL/kg, mas a pressão de distensão é de 18 cmH₂O; reduz-se o volume dentro da faixa de 4 a 8 mL/kg, aceitando hipercapnia com pH acima de 7,20.",
+   "Com platô já em 30 cmH₂O, subir a PEEP sem reduzir o volume aumenta o platô e a hiperdistensão, a menos que haja recrutamento, o que não se presume."
+  ]
+ },
+ {
+  "q": "Homem de 44 anos, com SDRA grave por pneumonia viral, intubado há 20 horas. Relação PaO₂/FiO₂ de 82 com FiO₂ de 0,9 e PEEP de 14 cmH₂O, volume corrente de 6 mL/kg de peso predito e platô de 29 cmH₂O, já em posição prona. Apesar de fentanil e propofol com RASS de −5 e de ajustes de fluxo e tempo inspiratório, mantém duplo disparo frequente, com volumes empilhados de até 11 mL/kg. Não há hipertensão intracraniana nem fraqueza prévia. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cisatracúrio em infusão contínua por 7 dias, com desmame lento e gradual",
+   "Reduzir a sedação para RASS 0 antes de considerar o bloqueio",
+   "Bloqueador neuromuscular em bólus intermitentes, por até 48 horas",
+   "Óxido nítrico inalado para melhorar a oxigenação e a sincronia",
+   "Bloqueador sem sedação, para preservar a avaliação neurológica"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS 2024 de SDRA (bloqueio neuromuscular na SDRA grave precoce, condicional) e Surviving Sepsis Campaign 2026 (bólus intermitente em vez de infusão contínua)",
+  "coment": "A ATS 2024 sugere bloqueio neuromuscular na SDRA grave precoce, com relação PaO₂/FiO₂ de 100 ou menos, nas primeiras 48 horas, em quem já está profundamente sedado ou tem assincronia importante. O ACURASYS mostrou benefício comparando bloqueio com sedação profunda; o ROSE, comparando com sedação leve, não. A leitura que concilia os dois é que o bloqueador serve para eliminar esforço inspiratório lesivo e assincronia, como o duplo disparo que empilha dois volumes e dobra a energia entregue ao pulmão. A duração considerada é de até 48 horas, e a SSC 2026 sugere bólus intermitentes em vez de infusão contínua nos pacientes sépticos. Durante o bloqueio: sedação profunda e analgesia, proteção ocular, reavaliação diária e suspensão assim que a indicação acabar, pelo risco de fraqueza adquirida.",
+  "porAlt": [
+   "O benefício foi descrito com bloqueio de até 48 horas; uso prolongado, sobretudo com corticoide, aumenta a fraqueza adquirida na terapia intensiva.",
+   "O ROSE mostrou que, com sedação leve e sincronia, o bloqueio não acrescenta; aqui a assincronia persiste mesmo com sedação profunda e empilha volumes lesivos.",
+   "Correta: na SDRA grave precoce com assincronia apesar de sedação profunda, o bloqueio é sugerido, por até 48 horas, e a SSC 2026 prefere bólus intermitentes à infusão contínua.",
+   "O óxido nítrico melhora a oxigenação sem melhorar desfecho e não corrige o duplo disparo.",
+   "Paciente paralisado e acordado sofre dano grave; o bloqueador exige sedação profunda e analgesia antes e durante o uso."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos, no segundo dia de pós-operatório de laparotomia por obstrução intestinal, segue em ventilação mecânica. Recebe propofol a 30 µg/kg/min, sem analgésico de horário prescrito. A enfermagem relata que ele está agitado, com RASS de +2, morde o tubo e briga com o ventilador, sobretudo na mudança de decúbito. A CPOT é de 6 na mobilização e de 4 em repouso. Pressão de 158/92 mmHg e frequência cardíaca de 112 bpm. O residente propõe associar midazolam em infusão contínua. Qual é a conduta mais adequada?",
+  "alts": [
+   "Associar midazolam contínuo e reavaliar em 6 horas",
+   "Haloperidol 5 mg endovenoso para conter a agitação",
+   "Opioide em bólus e de base antes de ajustar o sedativo",
+   "Subir o propofol até atingir RASS de −4 em repouso",
+   "Contenção mecânica e manutenção do esquema atual"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "PADIS 2018 da SCCM (analgesia primeiro, escalas BPS e CPOT) e atualização focada de 2025",
+  "coment": "Muito do que se lê como agitação no paciente crítico é dor: tubo, drenos, ferida operatória e mudança de decúbito. O PADIS abre com uma declaração de boa prática: avaliar a dor rotineiramente e tratá-la antes de considerar um sedativo. Quando o paciente não consegue relatar, as escalas comportamentais com maior validade são a BPS (acima de 5 sugere dor) e a CPOT (acima de 2 sugere dor). Sinais vitais não medem dor, servem só de gatilho para aplicar a escala. A conduta é analgesia escalonada: opioide de base, bólus antes de procedimentos previsíveis como mobilização e aspiração, e adjuvantes não opioides de horário. Só se o alvo de sedação, em geral RASS de −2 a 0, não for atingido com a dor controlada, ajusta-se o sedativo, preferindo propofol ou dexmedetomidina a benzodiazepínico.",
+  "porAlt": [
+   "Benzodiazepínico aumenta delirium e tempo de ventilação, e o PADIS prefere propofol ou dexmedetomidina; além disso, não trata a dor que causa a agitação.",
+   "O antipsicótico não trata dor e não tem recomendação de rotina para agitação ou delirium na terapia intensiva.",
+   "Correta: CPOT acima de 2 indica dor; o PADIS manda tratar a dor antes de considerar sedativo, com bólus antes da mobilização e analgesia de base.",
+   "Aprofundar o hipnótico produz um paciente imóvel e ainda com dor, contraria o alvo de sedação leve e atrasa o desmame.",
+   "Conter sem analgesia mantém a dor e aumenta o risco de autoextubação e de delirium; a causa da agitação fica sem tratamento."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, intubado por pneumonia comunitária grave, com previsão de 3 a 4 dias de ventilação mecânica. Está hemodinamicamente estável sem vasopressor, frequência cardíaca de 86 bpm, sem bloqueio atrioventricular, e a dor está controlada com fentanil em dose baixa (CPOT de 1). Na internação anterior, teve delirium prolongado após cirurgia. A equipe quer sedação leve, com RASS alvo de −1 a 0, e reduzir o risco de delirium. Segundo a atualização da SCCM de 2025, qual é o sedativo preferencial?",
+  "alts": [
+   "Midazolam contínuo, que reduz o risco de delirium",
+   "Propofol, que reduz o delirium mais que os demais",
+   "Propofol associado a haloperidol para prevenção",
+   "Dexmedetomidina, vigiando bradicardia e hipotensão",
+   "Sedação profunda com RASS −4 nas primeiras 48 h"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Atualização focada da diretriz PADIS da SCCM 2025 (dexmedetomidina em vez de propofol, condicional, certeza moderada) e PADIS 2018",
+  "coment": "Em fevereiro de 2025, a SCCM publicou uma atualização focada do PADIS que respondeu a cinco perguntas. Uma delas: no adulto em ventilação mecânica, quando sedação leve e redução de delirium são as prioridades, sugere-se dexmedetomidina em vez de propofol (condicional, certeza moderada). A base é metanálise com menos delirium e mais tempo no alvo, contra mais bradicardia; não há ganho de mortalidade, e ensaios como SPICE III e MENDS2 foram neutros nesse desfecho. A dexmedetomidina, agonista alfa-2, produz sedação com paciente despertável e drive preservado, mas não serve para sedação profunda nem é anticonvulsivante. A mesma atualização sugere melatonina e mobilização intensificada e deixou o antipsicótico no delirium sem recomendação. Midazolam segue reservado a abstinência alcoólica, estado de mal epiléptico ou intolerância aos demais.",
+  "porAlt": [
+   "Benzodiazepínico é fator de risco modificável de delirium e prolonga a ventilação; o PADIS prefere propofol ou dexmedetomidina.",
+   "Na metanálise de 2025, a dexmedetomidina teve menos delirium e mais tempo no alvo que o propofol; a vantagem não é do propofol.",
+   "O PADIS sugere não usar haloperidol para prevenir delirium em adultos críticos; o REDUCE não mostrou benefício.",
+   "Correta: a atualização de 2025 sugere dexmedetomidina em vez de propofol quando sedação leve e redução de delirium são as prioridades, ao preço de mais bradicardia.",
+   "Sedação profunda sem indicação específica prolonga ventilação e aumenta traqueostomia; o alvo sugerido é leve."
+  ]
+ },
+ {
+  "q": "Homem de 32 anos, vítima de traumatismo cranioencefálico grave, está há 4 dias com propofol a 85 µg/kg/min para controle de hipertensão intracraniana, somado a fentanil. Afebril. Nas últimas 12 horas surgiu acidose metabólica sem explicação aparente: pH 7,21, bicarbonato de 13 mEq/L, lactato de 6,2 mmol/L. Creatinoquinase de 18.000 U/L, potássio de 6,1 mEq/L, triglicerídeos de 640 mg/dL e creatinina subindo de 0,9 para 2,1 mg/dL. O monitor mostra bradicardia de 48 bpm com alargamento do QRS. Não há foco infeccioso identificado. Qual é o diagnóstico e a conduta mais adequada?",
+  "alts": [
+   "Sepse de foco oculto: ampliar o antibiótico e expandir volume",
+   "Síndrome de infusão do propofol: suspender e trocar o sedativo",
+   "Hipertermia maligna: dantrolene endovenoso e resfriamento imediato",
+   "Rabdomiólise por convulsão: hidratar e manter o propofol",
+   "Pancreatite por triglicerídeos: reduzir o propofol à metade"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "PADIS 2018 da SCCM, síndrome de infusão do propofol; diretrizes de sedação da SCCM 2013",
+  "coment": "A síndrome de infusão do propofol é rara e grave. Associa-se a doses altas, acima de cerca de 70 µg/kg/min (por volta de 4 mg/kg/h), e a infusões prolongadas, sobretudo acima de 48 horas; jovens com traumatismo craniano em dose alta para hipertensão intracraniana são o perfil clássico, e catecolaminas e corticoide somam risco. O quadro reúne acidose metabólica que piora sem explicação, hipertrigliceridemia, rabdomiólise com hipercalemia, lesão renal, disfunção hepática, arritmias, bradicardia e colapso circulatório. Diante de acidose metabólica inexplicada em paciente sob propofol, a conduta é suspender imediatamente e trocar o sedativo; creatinoquinase, lactato, potássio e triglicerídeos ajudam a confirmar, mas não devem atrasar a suspensão. Suporte inclui tratar a hipercalemia, marca-passo se bradicardia grave e terapia renal substitutiva quando indicada. Em infusões longas, dosar triglicerídeos periodicamente.",
+  "porAlt": [
+   "Não há febre nem foco, e o conjunto de rabdomiólise, hipertrigliceridemia e bradiarritmia em dose alta de propofol aponta para toxicidade, não infecção.",
+   "Correta: dose acima de cerca de 70 µg/kg/min por mais de 48 horas, com acidose inexplicada, rabdomiólise, hipercalemia, hipertrigliceridemia, lesão renal e bradiarritmia, é síndrome de infusão do propofol; suspende-se de imediato.",
+   "Hipertermia maligna ocorre na exposição a anestésico volátil ou succinilcolina, com hipertermia e hipercapnia; o paciente está afebril.",
+   "Manter o propofol é o erro fatal: a suspensão imediata é a medida que interrompe a síndrome, e não há registro de convulsão.",
+   "Reduzir a dose não basta diante da síndrome instalada; a conduta é suspender e trocar o sedativo, sem esperar exames confirmatórios."
+  ]
+ },
+ {
+  "q": "Mulher de 24 anos, com diabetes tipo 1, chega ao pronto-socorro após 4 dias de vômitos incoercíveis e suspensão da insulina por não conseguir comer. Exames: glicemia de 480 mg/dL, beta-hidroxibutirato de 5,8 mmol/L, sódio de 136 mEq/L, cloro de 88 mEq/L, bicarbonato de 14 mEq/L, potássio de 4,9 mEq/L, albumina de 4,0 g/dL. Gasometria arterial: pH 7,30, PaCO₂ de 29 mmHg. Lactato de 1,6 mmol/L. Qual é a interpretação completa do distúrbio ácido-base?",
+  "alts": [
+   "Cetoacidose com alcalose metabólica associada",
+   "Cetoacidose pura, com compensação adequada",
+   "Cetoacidose com acidose hiperclorêmica somada",
+   "Cetoacidose com acidose respiratória associada",
+   "Cetoacidose com alcalose respiratória primária"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Abordagem do distúrbio ácido-base (fórmula de Winter, ânion gap e delta-delta) e consenso ADA/EASD/JBDS/AACE/DTS de crises hiperglicêmicas 2024",
+  "coment": "O método é sequencial. O pH de 7,30 indica acidemia, e o bicarbonato baixo, distúrbio metabólico primário. A compensação pela fórmula de Winter prevê PaCO₂ de 1,5 × 14 + 8 = 29 ± 2 mmHg, exatamente o medido, sem distúrbio respiratório somado. O ânion gap é 136 − (88 + 14) = 34 mEq/L, elevado, compatível com cetoacidose (beta-hidroxibutirato de 5,8). O delta-delta compara quanto o gap subiu (34 − 12 = 22) com quanto o bicarbonato caiu (24 − 14 = 10): razão de 2,2. Se o gap sobe muito mais do que o bicarbonato cai, o bicarbonato estava alto antes, ou seja, há alcalose metabólica associada, típica de quem vomitou por dias; o cloro baixo reforça a perda gástrica. Se fosse o contrário, haveria acidose hiperclorêmica somada. Na prática, isso explica pH menos baixo do que a gravidade da cetose sugeriria, e exige reposição de cloro e potássio.",
+  "porAlt": [
+   "Correta: o ânion gap subiu 22 (de 12 para 34) enquanto o bicarbonato caiu só 10, razão acima de 2: havia alcalose metabólica pelos vômitos antes da cetoacidose.",
+   "A compensação respiratória é adequada, mas a análise para no primeiro distúrbio; o delta-delta revela o segundo.",
+   "Acidose hiperclorêmica somada faria o bicarbonato cair mais do que o gap subiu, com cloro alto; aqui o cloro está baixo.",
+   "Pela fórmula de Winter, a PaCO₂ esperada é 1,5 × 14 + 8 = 29 ± 2; a PaCO₂ de 29 está dentro, sem acidose respiratória.",
+   "A PaCO₂ está exatamente na faixa esperada para a compensação; não há queda adicional que configure alcalose respiratória."
+  ]
+ },
+ {
+  "q": "Homem de 50 anos, com choque séptico por peritonite, está no pronto-socorro em noradrenalina, aguardando cirurgia. Chegou com frequência respiratória de 36 irpm, que caiu para 22 irpm nas últimas 2 horas, com tiragem e respiração paradoxal; está mais sonolento. Gasometria arterial: pH 7,08, bicarbonato de 8 mEq/L, PaCO₂ de 30 mmHg, PaO₂ de 78 mmHg com máscara. Lactato de 9 mmol/L. Qual é a interpretação e a conduta mais adequada?",
+  "alts": [
+   "Compensação respiratória adequada: manter e reavaliar a gasometria em 1 hora",
+   "Acidose isolada: bicarbonato até pH acima de 7,30 e só depois intubar",
+   "Acidose respiratória: ventilação não invasiva com frequência baixa",
+   "Fadiga respiratória: intubar com frequência de 14 e 6 mL/kg de peso predito",
+   "Acidose respiratória somada por fadiga: intubar com ventilação-minuto alta"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Abordagem do distúrbio ácido-base pela fórmula de Winter; DAS 2025 e SCCM 2023 (via aérea fisiologicamente difícil na acidose metabólica grave)",
+  "coment": "Na acidose metabólica, a PaCO₂ esperada é 1,5 × HCO₃ + 8 ± 2. Com bicarbonato de 8, o esperado seria 20 ± 2 mmHg; a PaCO₂ de 30 indica acidose respiratória somada, isto é, a musculatura não sustenta mais a hiperventilação. A queda da frequência respiratória com tiragem, respiração paradoxal e sonolência confirma fadiga, não melhora. É indicação de via aérea definitiva, e é uma via aérea fisiologicamente difícil: durante a apneia, a PaCO₂ sobe e o pH, já em 7,08, pode despencar, precipitando parada. A estratégia: ressuscitar e manter vasopressor durante a indução, apneia curta, ventilar suavemente entre indução e laringoscopia e, após o tubo, programar ventilação-minuto alta (frequência elevada, ajustada por gasometria precoce) para reproduzir a compensação. Bicarbonato não substitui a ventilação e não deve atrasar a intubação.",
+  "porAlt": [
+   "Com bicarbonato de 8, a compensação adequada levaria a PaCO₂ a 18 a 22 mmHg; 30 mmHg, com frequência caindo e sonolência, é falência ventilatória.",
+   "O bicarbonato não corrige a fadiga e gera CO₂ que o paciente não consegue eliminar; adiar a via aérea agrava a acidemia.",
+   "Sonolência, respiração paradoxal e choque contraindicam a ventilação não invasiva; e frequência baixa pioraria a hipercapnia relativa.",
+   "Intubar está certo, mas um ajuste de rotina com frequência de 14 eleva a PaCO₂ e derruba o pH; quem compensava hiperventilando precisa de ventilação-minuto alta desde o início.",
+   "Correta: a PaCO₂ esperada pela fórmula de Winter seria 20 ± 2; a de 30 revela falha da compensação por fadiga, e a ventilação após o tubo precisa manter a ventilação-minuto alta."
+  ]
+ },
+ {
+  "q": "Mulher de 70 anos, internada na terapia intensiva há 10 dias por pancreatite grave, desnutrida, com albumina de 1,8 g/dL. Hoje está mais taquicárdica e com extremidades frias. Exames: sódio de 138 mEq/L, cloro de 106 mEq/L, bicarbonato de 18 mEq/L, pH 7,32, PaCO₂ de 35 mmHg, lactato de 4,1 mmol/L, ureia e glicemia normais. O residente calculou ânion gap de 14 e concluiu que a acidose é de gap normal, provavelmente pela salina infundida. Qual é a interpretação correta?",
+  "alts": [
+   "Acidose hiperclorêmica de ânion gap normal",
+   "Gap alto mascarado pela hipoalbuminemia",
+   "Acidose mista com alcalose respiratória",
+   "Acidose tubular renal do tipo 4 associada",
+   "Alcalose metabólica com compensação total"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Ânion gap corrigido pela albumina (Figge e colaboradores, Crit Care Med 1998) e compensação esperada pela fórmula de Winter",
+  "coment": "O ânion gap existe porque ânions não medidos, sobretudo a albumina, completam a eletroneutralidade. Na hipoalbuminemia, comum no paciente crítico, o gap basal cai, e uma acidose de gap elevado pode parecer de gap normal. A correção soma 2,5 para cada 1 g/dL de albumina abaixo de 4: gap corrigido = 14 + 2,5 × (4 − 1,8) ≈ 19,5 mEq/L, elevado. O lactato de 4,1 mmol/L explica o achado, e o contexto de taquicardia e extremidades frias sugere hipoperfusão que precisa ser investigada (sepse por necrose infectada, sangramento, síndrome compartimental abdominal). A fórmula de Winter prevê PaCO₂ de 35 ± 2, compatível com compensação adequada. Tomar a acidose como hiperclorêmica pela salina encerraria a investigação no lugar errado.",
+  "porAlt": [
+   "Sem corrigir pela albumina, a acidose láctica passa por hiperclorêmica e a hipoperfusão fica sem investigação.",
+   "Correta: cada 1 g/dL de albumina abaixo de 4 reduz o gap em cerca de 2,5; o gap corrigido é 14 + 2,5 × 2,2 ≈ 19,5, elevado, compatível com acidose láctica.",
+   "Pela fórmula de Winter, a PaCO₂ esperada é 1,5 × 18 + 8 = 35 ± 2; a medida está dentro, sem alcalose respiratória somada.",
+   "Acidose tubular tipo 4 cursa com gap normal e hipercalemia; não explica lactato elevado nem gap corrigido alto.",
+   "O pH é ácido e o bicarbonato está baixo; trata-se de acidose metabólica, não de alcalose."
+  ]
+ }
+]

@@ -1,0 +1,650 @@
+[
+ {
+  "q": "Mulher de 36 anos, 62 kg, em uso de carbonato de lítio de liberação prolongada para transtorno bipolar, chega ao pronto-socorro 50 minutos após ingerir de forma intencional uma quantidade desconhecida dos próprios comprimidos; o marido trouxe a cartela vazia. Está alerta e orientada, com tremor fino de extremidades, pressão de 124/76 mmHg, frequência de 88 bpm e Glasgow 15. Não tem vômitos nem dor abdominal, e os ruídos hidroaéreos estão presentes. O eletrocardiograma é normal e a creatinina é de 0,8 mg/dL; a litemia e o paracetamol sérico já foram colhidos. Além de hidratação venosa e litemias seriadas, qual é a medida de descontaminação mais adequada?",
+  "alts": [
+   "Carvão ativado 50 g em dose única por via oral",
+   "Irrigação intestinal total com polietilenoglicol",
+   "Carvão ativado em doses múltiplas a cada 4 horas",
+   "Lavagem gástrica com sonda orogástrica calibrosa",
+   "Xarope de ipeca seguido de carvão ativado oral"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "SBTox/ABRACIT 2025 (descontaminação e antídotos) e AHA 2023 de intoxicações; EXTRIP para lítio",
+  "coment": "O lítio é um metal alcalino e não é adsorvido pelo carvão ativado, assim como ferro, outros metais e os álcoois tóxicos; dar carvão aqui só acrescenta risco de vômito e aspiração. Na ingestão de formulação de liberação prolongada, com paciente alerta, via aérea preservada, sem íleo nem obstrução, a medida que reduz a absorção é a irrigação intestinal total com solução de polietilenoglicol, indicada justamente para lítio, ferro, liberação prolongada e transportadores de pacotes. A lavagem gástrica deixou de ser rotina porque o risco supera o benefício, e o xarope de ipeca foi abandonado. Hidratação, litemias seriadas (o pico pode ser tardio na liberação prolongada) e hemodiálise pelos critérios do EXTRIP completam o manejo.",
+  "porAlt": [
+   "O lítio não se liga ao carvão ativado; a dose única não reduz a absorção e expõe a vômito e aspiração.",
+   "Correta: o lítio não adsorve no carvão, e a liberação prolongada com via aérea preservada é a indicação clássica da irrigação.",
+   "Doses múltiplas servem a fármacos com circulação êntero-hepática, como carbamazepina e fenobarbital, não ao lítio.",
+   "A lavagem gástrica não é rotina; o risco de aspiração e lesão supera o benefício, e o lítio de liberação prolongada não sai bem pela sonda.",
+   "A ipeca foi abandonada por atrasar outras medidas e causar vômitos prolongados, e o carvão não adsorve lítio."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos, 70 kg, está internado por ingestão intencional de paracetamol com hora conhecida; o nível colhido às 4 horas ficou acima da linha de tratamento do nomograma, e ele recebeu N-acetilcisteína intravenosa no esquema clássico de 21 horas, somando 300 mg/kg. Ao fim da última bolsa está assintomático, alimentando-se, com paracetamol sérico abaixo de 10 µg/mL e RNI de 1,6. A ALT, que era de 48 U/L na admissão, está em 410 U/L agora, sem ter havido medida mais alta antes. Creatinina, glicemia e lactato estão normais, e não há encefalopatia. Qual é a conduta mais adequada em relação ao antídoto?",
+  "alts": [
+   "Suspender, pois o nível sérico já está baixo",
+   "Suspender, pois os 300 mg/kg foram completados",
+   "Manter a última etapa e repetir os exames",
+   "Reiniciar todo o esquema desde a primeira bolsa",
+   "Trocar para acetilcisteína oral por mais 72 horas"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso EUA e Canadá 2023 de intoxicação por paracetamol (Dart et al., JAMA Netw Open) e SBTox/ABRACIT 2025",
+  "coment": "A N-acetilcisteína não termina com a última bolsa. O consenso norte-americano e canadense de 2023 só suspende o antídoto quando o paciente está bem, o paracetamol está abaixo de 10 µg/mL, a RNI está abaixo de 2 e as transaminases estão normais ou já em queda de 25% a 50% em relação ao pico. Aqui a ALT ainda sobe e nenhum pico foi definido: a lesão hepática está em curso. A conduta é manter a infusão na taxa da última etapa e repetir ALT, RNI e paracetamol, em geral a cada 12 horas, até os critérios serem atingidos. Reiniciar o esquema inteiro não acrescenta proteção, e a troca para via oral não é o padrão no paciente internado em uso venoso.",
+  "porAlt": [
+   "Paracetamol baixo é só um dos critérios; com ALT em ascensão, a lesão continua e o antídoto deve seguir.",
+   "Completar a dose total não define o fim do tratamento; o que manda são clínica, nível, RNI e curva de transaminases.",
+   "Correta: ALT ainda subindo, sem pico, impede a suspensão; mantém-se a taxa da última etapa e repetem-se os exames.",
+   "Não há ganho em repetir os bolos iniciais; basta manter a infusão da última etapa até preencher os critérios.",
+   "No internado em uso venoso, a continuidade é feita na mesma via; a troca não acrescenta e atrasa a reavaliação."
+  ]
+ },
+ {
+  "q": "Agricultor de 48 anos, 75 kg, é trazido 1 hora após aplicar organofosforado em lavoura sem equipamento de proteção. Está sonolento, com miose, sialorreia, sibilos difusos, roncos bilaterais e fasciculações em panturrilhas. A saturação é de 86% com máscara com reservatório, a frequência cardíaca é de 52 bpm e a pressão é de 92/58 mmHg. Recebeu atropina 2 mg IV e, 5 minutos depois, 4 mg. Agora a frequência é de 118 bpm e as pupilas continuam mióticas, mas persistem roncos e secreção brônquica abundante na aspiração. A roupa já foi retirada e a pele lavada. A equipe pergunta se a taquicardia obriga a parar a atropina. Qual é a conduta?",
+  "alts": [
+   "Suspender a atropina pela taquicardia sinusal",
+   "Manter 4 mg a cada 5 minutos até a midríase",
+   "Dobrar a atropina até secar a árvore brônquica",
+   "Trocar a atropina por pralidoxima isolada",
+   "Aguardar 30 minutos antes de uma nova dose"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "AHA 2023 de intoxicações (atropina classe 1, nível A) e SBTox/ABRACIT 2025",
+  "coment": "Na crise colinérgica grave, a atropina é dada em 1 a 2 mg IV e dobrada a cada 5 minutos até a atropinização, cujo alvo é pulmão seco, com melhora do broncoespasmo, da bradicardia e da hipotensão (AHA 2023, classe 1, nível A). A taquicardia não impede nova dose enquanto houver broncorreia, porque a hipóxia a explica e só melhora quando a secreção seca; a pupila é o pior parâmetro, pode continuar miótica por horas e não serve de alvo. A próxima dose aqui seria de 8 mg, depois manutenção de 10% a 20% da dose de ataque por hora. A pralidoxima (2a, A) age sobre a fraqueza nicotínica e se soma à atropina, sem substituí-la. Intubação precoce, sem succinilcolina, se o quadro não melhorar.",
+  "porAlt": [
+   "A taquicardia é esperada e não limita a atropina enquanto houver broncorreia; parar mantém a hipóxia.",
+   "Repetir a mesma dose atrasa a atropinização, e a midríase não é alvo: a pupila responde tarde e engana.",
+   "Correta: o alvo é secar a árvore brônquica, dobrando a dose a cada 5 minutos, mesmo com frequência de 118 bpm.",
+   "A oxima trata a fraqueza nicotínica e não controla secreção nem broncoespasmo; ela se soma à atropina.",
+   "Intervalos longos deixam o paciente hipoxêmico; o esquema dobra a dose a cada 5 minutos até o efeito."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos em tratamento de dependência de opioide com metadona é encontrado sonolento em casa. Na chegada, frequência respiratória de 6 irpm, saturação de 82%, pupilas puntiformes, pressão de 110/70 mmHg e glicemia de 104 mg/dL. É ventilado com bolsa-válvula-máscara e recebe naloxona em doses pequenas tituladas, totalizando 0,8 mg, com frequência respiratória de 14 irpm e saturação de 95% em ar ambiente, sem sinais de abstinência. Quarenta minutos depois volta a ter frequência de 7 irpm e sonolência. Confirma ter tomado doses extras de metadona na véspera. Qual é a conduta mais adequada?",
+  "alts": [
+   "Naloxona 2 mg em bolus e alta após 1 hora de observação",
+   "Flumazenil 0,2 mg IV pela sedação associada ao opioide",
+   "Infusão de naloxona com 2/3 da dose eficaz por hora",
+   "Intubação orotraqueal e suspensão da naloxona agora",
+   "Naloxona 0,4 mg IM e alta com orientação familiar"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA 2023 de intoxicações (opioides) e SBTox/ABRACIT 2025",
+  "coment": "A meia-vida da naloxona, de 30 a 90 minutos, é muito menor que a da metadona, e a renarcotização é esperada. A AHA 2023 recomenda observar após a reversão até o risco de recorrência ser baixo (classe 1) e tratar a recorrência com doses pequenas repetidas ou infusão (2a): a infusão usa cerca de dois terços da dose que reverteu a depressão respiratória por hora, aqui perto de 0,5 mg/h, titulada para manter a ventilação sem precipitar abstinência. O objetivo é a respiração, não acordar o paciente. Bolus de 2 mg no usuário crônico precipita abstinência com vômito, agitação e edema pulmonar, e dar alta em poucas horas com metadona em ação é perigoso. O flumazenil não reverte opioide, e a intubação fica para falha da titulação.",
+  "porAlt": [
+   "Dose cheia no dependente precipita abstinência grave, e alta em 1 hora ignora a meia-vida longa da metadona.",
+   "O flumazenil não age em opioide e precipita convulsão no usuário crônico de benzodiazepínico.",
+   "Correta: a recorrência com metadona pede infusão de cerca de dois terços da dose de reversão por hora, com observação prolongada.",
+   "A depressão respondeu à naloxona; a via aérea definitiva fica para falha da titulação ou outra causa de rebaixamento.",
+   "Dose intramuscular única não cobre as muitas horas de ação da metadona, e a alta precoce expõe a nova parada respiratória."
+  ]
+ },
+ {
+  "q": "Mulher de 41 anos é trazida 2 horas após ingerir comprimidos de clonazepam e de amitriptilina, segundo as cartelas encontradas ao lado dela. Usa clonazepam todos os dias há 6 anos. Está com Glasgow 9, frequência respiratória de 12 irpm, saturação de 95% com cateter nasal, pressão de 100/64 mmHg, frequência de 112 bpm, pupilas médias e pele seca. O eletrocardiograma mostra QRS de 128 ms com onda R terminal em aVR. Glicemia de 104 mg/dL. O interno sugere flumazenil para confirmar o diagnóstico e evitar a intubação. Qual é a conduta mais adequada?",
+  "alts": [
+   "Flumazenil 0,2 mg IV, titulado até 1 mg no total",
+   "Bicarbonato de sódio e suporte, sem flumazenil",
+   "Fisostigmina contra a síndrome anticolinérgica",
+   "Flumazenil em infusão contínua após um bolus",
+   "Lavagem gástrica e depois carvão ativado por sonda"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA 2023 de intoxicações (benzodiazepínicos e tricíclicos) e SBTox/ABRACIT 2025",
+  "coment": "Há dois motivos para não usar flumazenil: o uso crônico de benzodiazepínico, em que a reversão precipita abstinência e convulsão, e a associação com tricíclico, que o QRS de 128 ms com R terminal em aVR denuncia e em que o flumazenil desencadeia arritmia e estado de mal. A AHA 2023 aceita o antídoto só na intoxicação pura por benzodiazepínico sem contraindicação, e a SBTox o contraindica como teste diagnóstico. A prioridade é a cardiotoxicidade do tricíclico: bicarbonato de sódio em bolus (classe 1), titulado pelo estreitamento do QRS, com via aérea protegida se o rebaixamento progredir e benzodiazepínico se convulsionar. A fisostigmina é contraindicada pelo risco de assistolia, e a descontaminação gástrica não cabe com via aérea desprotegida.",
+  "porAlt": [
+   "No usuário crônico e com tricíclico associado, o flumazenil precipita convulsão e arritmia.",
+   "Correta: QRS largo com R em aVR pede bicarbonato, e o flumazenil é contraindicado pelo uso crônico e pelo tricíclico.",
+   "Com bloqueio de canal de sódio, a fisostigmina pode causar bradicardia extrema e assistolia.",
+   "Infusão prolonga o risco de convulsão e arritmia sem tratar a cardiotoxicidade, que é o que ameaça a vida.",
+   "Com Glasgow 9 e via aérea desprotegida, a descontaminação gástrica aumenta o risco de aspiração sem benefício provado."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos, 80 kg, ingeriu de forma intencional comprimidos de propranolol há 3 horas. Está intubado, com frequência de 38 bpm, pressão de 70/40 mmHg e extremidades frias. Recebeu 1 litro de cristaloide, três doses de atropina 1 mg, gluconato de cálcio 30 mL, glucagon 5 mg em bolus sem resposta e noradrenalina, hoje em 0,5 µg/kg/min. A glicemia é de 96 mg/dL, o potássio de 3,9 mEq/L e o QRS de 104 ms. A ecocardiografia mostra função sistólica global muito reduzida. Qual é a próxima medida com maior respaldo?",
+  "alts": [
+   "Emulsão lipídica a 20% 1,5 mL/kg em bolus",
+   "Hemodiálise de urgência para remover o fármaco",
+   "Insulina 0,1 U/kg/h, como na cetoacidose",
+   "Insulina 1 U/kg com glicose, depois 1 U/kg/h",
+   "Azul de metileno 2 mg/kg em bolus venoso"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA 2023 de intoxicações (betabloqueador: insulina em dose alta classe 1) e SBTox/ABRACIT 2025",
+  "coment": "No choque por betabloqueador com depressão miocárdica que não respondeu a atropina, cálcio, glucagon e vasopressor, a insulina em dose alta é classe 1 (B-NR) na AHA 2023: melhora a captação de glicose pelo miocárdio em choque e a contratilidade. O esquema da SBTox é bolus de 1 U/kg com glicose 0,5 g/kg quando a glicemia está abaixo de 200 mg/dL (aqui 80 U e 40 g), depois infusão de 1 U/kg/h subindo até 10 U/kg/h conforme a pressão, com glicose 0,5 g/kg/h e potássio de hora em hora mantido entre 3 e 4 mEq/L. A dose da cetoacidose não tem efeito inotrópico. A emulsão lipídica no betabloqueador é classe 3 (sem benefício), o propranolol lipofílico não dialisa e o azul de metileno é reservado à vasoplegia refratária por bloqueador de canal de cálcio.",
+  "porAlt": [
+   "A AHA 2023 classifica a emulsão lipídica no betabloqueador como classe 3, sem benefício.",
+   "O propranolol é lipofílico e muito ligado a proteína; a hemodiálise não o remove em quantidade útil.",
+   "A dose de 0,1 U/kg/h corrige cetose, mas não tem o efeito inotrópico que exige doses de 1 a 10 U/kg/h.",
+   "Correta: insulina em dose alta, com glicose e potássio monitorados, é classe 1 no choque por betabloqueador.",
+   "O azul de metileno é opção 2b na vasoplegia refratária por bloqueador de canal de cálcio, não na depressão miocárdica."
+  ]
+ },
+ {
+  "q": "Mulher de 82 anos, 60 kg, com fibrilação atrial e insuficiência cardíaca, usa digoxina 0,25 mg/dia, furosemida e espironolactona. Há 5 dias tem diarreia e vômitos. Chega confusa, com náusea e visão amarelada, frequência ventricular de 34 bpm com extrassístoles ventriculares bigeminadas e pressão de 84/50 mmHg. Atropina 1 mg não alterou a frequência. Potássio de 6,4 mEq/L, creatinina de 2,6 mg/dL (basal de 1,1) e digoxinemia de 4,0 ng/mL. O eletrocardiograma mostra infradesnivelamento de ST em colher, sem alargamento do QRS. Qual é a conduta mais adequada?",
+  "alts": [
+   "Hemodiálise de urgência para remover a digoxina",
+   "Marca-passo transvenoso como medida definitiva",
+   "Gluconato de cálcio e resina, sem antídoto",
+   "Fab antidigoxina, com dose guiada pela digoxinemia",
+   "Sulfato de magnésio e observação com monitor"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA 2023 de intoxicações (fragmento Fab antidigoxina classe 1) e SBTox/ABRACIT 2025",
+  "coment": "É intoxicação digitálica crônica precipitada por lesão renal aguda e desidratação, com bradiarritmia que não respondeu à atropina, ectopia ventricular, hipotensão e hipercalemia: indicações do fragmento Fab antidigoxina, classe 1 na AHA 2023. Na intoxicação crônica a dose é calculada pela digoxinemia e pelo peso (pela AHA, frascos = nível em ng/mL × peso em kg ÷ 100, aqui cerca de 3 frascos; a SBTox usa metade da neutralização completa, suficiente para a maioria). A hemodiálise é classe 3 porque a digoxina tem grande volume de distribuição. Atropina e marca-passo são pontes (2b) até o antídoto, não tratamento definitivo. A hipercalemia da digoxina reflete a inibição da bomba de sódio e potássio e cede com o Fab; tratá-la isoladamente não corrige a toxicidade.",
+  "porAlt": [
+   "A digoxina tem grande volume de distribuição; a AHA classifica a hemodiálise como classe 3, sem benefício.",
+   "O marca-passo é ponte (2b) e não neutraliza a toxicidade, que também causa ectopia ventricular e hipercalemia.",
+   "Tratar só o potássio não corrige a inibição da bomba; o antídoto resolve a hipercalemia e a arritmia juntas.",
+   "Correta: bradiarritmia refratária, ectopia ventricular e hipercalemia indicam o Fab, calculado pela digoxinemia e pelo peso.",
+   "O magnésio ajuda na ectopia, mas observar uma bradiarritmia com hipotensão e confusão atrasa o antídoto indicado."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos, 70 kg, chega 30 horas após beber destilado clandestino numa festa em que outros convidados também foram internados. Refere visão turva como neve e dor epigástrica; está com Glasgow 14, pressão de 132/80 mmHg e frequência respiratória de 28 irpm. A gasometria mostra pH de 7,12, bicarbonato de 8 mEq/L e ânion gap de 30 mmol/L, com gap osmolar de 28 mOsm/kg e etanol sérico negativo. O hospital não tem fomepizol, e o centro de informação toxicológica informa que o antídoto chega em 10 horas. Há nefrologia de plantão e a dosagem de metanol não está disponível. Qual é a conduta mais adequada?",
+  "alts": [
+   "Bicarbonato e espera pelo fomepizol para bloquear",
+   "Etanol IV, ácido folínico, bicarbonato e diálise já",
+   "Etanol venoso e diálise após dosar o metanol",
+   "Carvão ativado, bicarbonato e etanol por sonda",
+   "Bicarbonato e ácido folínico, sem bloqueio enzimático"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "EXTRIP 2015 (metanol), SBTox/ABRACIT 2025 e Ministério da Saúde 2025 (surto de intoxicação por metanol)",
+  "coment": "Acidose de ânion gap alto com gap osmolar elevado e alteração visual após bebida clandestina, em surto, basta para tratar como metanol sem esperar a dosagem. Na falta de fomepizol, o bloqueio da álcool desidrogenase é feito com etanol venoso (ataque de cerca de 800 mg/kg e manutenção ajustada, com etanolemia-alvo de 100 a 150 mg/dL, aumentada durante a diálise), junto com ácido folínico e bicarbonato para a acidose. O déficit visual novo e o pH de 7,15 ou menos já indicam terapia extracorpórea pelo EXTRIP 2015, sem precisar do nível de metanol; a hemodiálise intermitente remove o metanol e o formato e corrige a acidose. Carvão não adsorve álcoois, e adiar o bloqueio por 10 horas deixa o formato acumular na retina.",
+  "porAlt": [
+   "Esperar 10 horas sem bloquear a enzima permite que o formato continue a se formar e a lesar a retina.",
+   "Correta: etanol como bloqueador na falta de fomepizol, folínico, bicarbonato e hemodiálise pelo déficit visual e pelo pH.",
+   "Pelo EXTRIP, déficit visual e pH de 7,12 já indicam diálise; condicionar ao nível indisponível atrasa o tratamento.",
+   "O carvão não adsorve álcoois tóxicos e acrescenta risco de aspiração; o etanol deve ser venoso e titulado.",
+   "Sem bloquear a álcool desidrogenase, o metanol continua a virar ácido fórmico apesar do bicarbonato."
+  ]
+ },
+ {
+  "q": "Motociclista de 27 anos colide com caminhão e chega pelo serviço pré-hospitalar sem torniquete. Está agitado e gemendo, fala frases curtas, sem estridor nem gorgolejo. Frequência respiratória de 30 irpm, saturação de 91% em ar ambiente, murmúrio presente nos dois hemitórax, frequência de 136 bpm e pressão de 82/50 mmHg. Há amputação traumática parcial da perna direita abaixo do joelho, com sangramento em jato que não para após 1 minuto de compressão direta firme. Pelve estável à inspeção. A equipe tem quatro pessoas. Pelo ATLS 11ª edição, qual é a primeira prioridade?",
+  "alts": [
+   "Intubação em sequência rápida pela agitação",
+   "Torniquete acima da lesão, antes da via aérea",
+   "Dois acessos e 2 litros de cristaloide aquecido",
+   "FAST e radiografia de pelve ainda na sala",
+   "Compressão manual mantida até o centro cirúrgico"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ATLS 11ª edição, 2025 (xABCDE: hemorragia externa exsanguinante antes da via aérea)",
+  "coment": "A 11ª edição do ATLS acrescentou o x ao ABCDE: a hemorragia externa exsanguinante é tratada antes da via aérea, porque mata em minutos. Sangramento de extremidade que não cede à compressão direta, jato arterial e amputação completa ou parcial indicam torniquete, colocado de 5 a 8 cm acima da lesão, sobre a pele e fora de articulação, apertado até parar o sangramento e sumir o pulso distal, com horário anotado. A equipe trabalha em paralelo (alguém já oferece oxigênio e avalia a via aérea), mas o líder raciocina em sequência. A agitação aqui é hipóxia e choque, e intubar um paciente hipotenso antes de controlar o sangramento e reanimar com sangue é a intubação que mata. O fluido do choque hemorrágico é sangue; cristaloide fica em 250 a 500 mL como ponte.",
+  "porAlt": [
+   "Intubar o hipotenso antes de conter o sangramento e reanimar precipita parada; a via aérea está pérvia agora.",
+   "Correta: sangramento exsanguinante de membro que não cede à compressão é o x do xABCDE e pede torniquete já.",
+   "Volume grande de cristaloide dilui fatores e piora a coagulopatia; o fluido é sangue, e o sangramento segue aberto.",
+   "Os adjuntos da avaliação primária vêm depois de controlar a hemorragia que está acontecendo diante da equipe.",
+   "A compressão já falhou; manter só a pressão manual deixa o paciente sangrar durante todo o transporte interno."
+  ]
+ },
+ {
+  "q": "Homem de 34 anos cai de andaime de 6 metros em zona rural e chega ao hospital de referência 4 horas e 10 minutos após a queda, depois de transporte prolongado. Frequência de 128 bpm, pressão de 84/56 mmHg, FAST com líquido no espaço hepatorrenal e pelve estável. Recebeu 500 mL de cristaloide; hemácias O e plasma AB estão sendo infundidos e o centro cirúrgico foi acionado. Não recebeu ácido tranexâmico. O fibrinogênio de Clauss é de 1,9 g/L e o teste viscoelástico não mostra hiperfibrinólise. O residente quer iniciar 1 g de tranexâmico agora. Qual é a conduta mais adequada quanto ao antifibrinolítico?",
+  "alts": [
+   "Não iniciar, pois passou a janela de 3 horas",
+   "Iniciar 1 g em 10 minutos e 1 g em 8 horas",
+   "Iniciar 2 g em dose única pela gravidade",
+   "Iniciar se o lactato passar de 4 mmol/L",
+   "Iniciar após o viscoelástico normalizar"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATLS 11ª edição, 2025, e diretriz europeia de sangramento no trauma, 6ª edição, 2023 (tranexâmico até 3 horas, 1A)",
+  "coment": "O ácido tranexâmico é recomendado o quanto antes e em até 3 horas do trauma: 1 g em 10 minutos e 1 g em 8 horas (diretriz europeia 2023, 1A), ou 2 g em dose única, que o ATLS 11 também aceita. A janela vem do CRASH-2: a redução da morte por sangramento foi maior na primeira hora, persistiu entre 1 e 3 horas e se inverteu depois de 3 horas, quando o tranexâmico pareceu aumentar a mortalidade por sangramento. Por isso o ATLS não recomenda iniciá-lo após 3 horas, salvo hiperfibrinólise documentada, que o viscoelástico aqui não mostra. O tratamento que importa segue: hemocomponentes em proporção alta de plasma, cálcio, aquecimento e controle cirúrgico do sangramento.",
+  "porAlt": [
+   "Correta: passadas 3 horas do trauma e sem hiperfibrinólise, o tranexâmico não é iniciado.",
+   "O esquema do CRASH-2 vale até 3 horas; depois disso o tranexâmico associou-se a mais morte por sangramento.",
+   "A dose única de 2 g também respeita a janela de 3 horas; a gravidade não amplia o prazo.",
+   "O lactato estima hipoperfusão, mas não reabre a janela do antifibrinolítico após 3 horas.",
+   "O viscoelástico sem fibrinólise argumenta contra o antifibrinolítico, e esperar normalizar não define indicação."
+  ]
+ },
+ {
+  "q": "Homem de 45 anos é atropelado e chega com Glasgow de 7 (abertura ocular 1, resposta verbal 2, motora 4) e pupila direita de 6 mm, pouco reativa. Foi intubado com cetamina e rocurônio e está com saturação de 98% e capnografia de 38 mmHg. A pressão é de 88/56 mmHg e a frequência de 122 bpm; o FAST mostra líquido na pelve, e a radiografia mostra fratura do anel pélvico, já com cinta. Hemácias e plasma estão sendo infundidos e a tomografia de crânio está a caminho. O residente sugere manter hipotensão permissiva até o controle do sangramento pélvico. Qual é o alvo pressórico mais adequado?",
+  "alts": [
+   "Sistólica ≥ 100 mmHg, sem hipotensão permissiva",
+   "Sistólica em torno de 80 a 90 mmHg até a hemostasia",
+   "Pressão média de 50 a 60 mmHg até parar de sangrar",
+   "Sistólica acima de 160 mmHg para perfusão cerebral",
+   "Pressão guiada só pela presença de pulso radial"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ATLS 11ª edição, 2025 (alvos no traumatismo craniano) e diretriz europeia de sangramento no trauma, 2023",
+  "coment": "A hipotensão permissiva serve ao sangramento sem lesão cerebral e acaba diante do traumatismo craniano grave: um único episódio de hipotensão ou hipóxia aumenta a mortalidade por lesão secundária. O ATLS 11 fixa sistólica de 100 mmHg ou mais (pressão média acima de 80 mmHg) a partir dos 15 anos, saturação de 94% ou mais e PaCO₂ de 35 a 45 mmHg; a Brain Trauma Foundation pede 110 mmHg ou mais nessa faixa etária. A diretriz europeia de 2023 pede pressão média de 80 mmHg ou mais no traumatismo craniano grave (1C). O caminho é reanimar com sangue, conter a pelve (cinta, angioembolização ou tamponamento pré-peritoneal) e, se preciso, associar noradrenalina, sem baixar a pressão. Hipertensão extrema não tem benefício e pode agravar o sangramento.",
+  "porAlt": [
+   "Correta: com traumatismo craniano grave, a hipotensão permissiva não se aplica e a sistólica-alvo é de 100 mmHg ou mais.",
+   "Essa faixa é a do sangramento sem lesão cerebral; com Glasgow 7 e anisocoria ela agrava a lesão secundária.",
+   "Pressão média de 50 a 60 mmHg reduz a perfusão cerebral num cérebro já ameaçado de herniação.",
+   "Não há benefício em pressão tão alta, que pode aumentar o sangramento pélvico ainda não controlado.",
+   "Pulso radial é guia grosseiro da hipotensão permissiva e não garante a pressão de perfusão cerebral."
+  ]
+ },
+ {
+  "q": "Mulher de 30 anos com ferimento por arma de fogo no abdome está em protocolo de transfusão maciça e, na primeira hora, recebeu 8 concentrados de hemácias, 8 unidades de plasma e 1 dose de plaquetas, enquanto a sala cirúrgica é preparada. A temperatura é de 35,8 °C com manta térmica, a pressão segue em 76/44 mmHg e o eletrocardiograma mostra QTc de 510 ms. Gasometria: pH de 7,24, lactato de 5,1 mmol/L e cálcio iônico de 0,78 mmol/L. Fibrinogênio de 2,1 g/L, plaquetas de 96.000/µL e hemoglobina de 8,6 g/dL. Além da cirurgia imediata, qual é a medida mais adequada agora?",
+  "alts": [
+   "Noradrenalina em dose alta como primeira medida",
+   "Cloreto de cálcio IV e novo cálcio iônico",
+   "Bicarbonato de sódio para corrigir a acidose",
+   "Fator VIIa recombinante em dose única agora",
+   "Mais 2 litros de cristaloide aquecido em bolus"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Diretriz europeia de sangramento maior e coagulopatia após trauma, 6ª edição, 2023 (cálcio ionizado, 1C) e ATLS 11ª edição, 2025",
+  "coment": "O citrato dos hemocomponentes quela o cálcio, e a transfusão maciça produz hipocalcemia ionizada que causa hipotensão refratária, prolongamento do QT e piora da coagulação, já que o cálcio é cofator da cascata. A diretriz europeia de 2023 recomenda medir o cálcio ionizado cedo e repetidamente durante a transfusão maciça e corrigi-lo com cloreto de cálcio (1C); 0,78 mmol/L está muito abaixo do normal. Fibrinogênio acima de 1,5 g/L e plaquetas acima de 50.000/µL estão nos alvos, e a hemoglobina também. Vasopressor não trata choque hemorrágico, bicarbonato não corrige a causa da acidose (hipoperfusão), o fator VIIa recombinante como primeira linha é recomendação contra, e mais cristaloide dilui fatores e esfria a paciente.",
+  "porAlt": [
+   "Vasopressor não trata choque hemorrágico e piora a perfusão; a causa corrigível aqui é a hipocalcemia.",
+   "Correta: cálcio ionizado de 0,78 mmol/L com hipotensão e QT longo pede cloreto de cálcio e nova dosagem.",
+   "A acidose é de hipoperfusão e melhora com hemostasia e reposição de sangue, não com bicarbonato.",
+   "A diretriz europeia recomenda contra o fator VIIa recombinante como primeira linha no sangramento do trauma.",
+   "Cristaloide dilui fatores e plaquetas, esfria a paciente e agrava a tríade letal."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos, hipertenso e dislipidêmico, não fumante, sem diabetes nem doença coronariana conhecida, procura o pronto-socorro por dor retroesternal em aperto, em repouso, que durou 20 minutos e cedeu sozinha 5 horas antes; não irradiou e não teve sudorese. O médico considera a história moderadamente suspeita. O eletrocardiograma mostra sobrecarga ventricular esquerda com alteração de repolarização já presente em traçado de 2024, sem desnível de ST novo. Troponina ultrassensível na chegada e após 1 hora abaixo do percentil 99, sem variação. Exame físico normal. Qual é o escore HEART e a conduta mais adequada?",
+  "alts": [
+   "HEART 3; alta sem exame cardíaco adicional",
+   "HEART 5; teste funcional ou angiotomografia",
+   "HEART 7; coronariografia invasiva em 24 horas",
+   "HEART 4; nova troponina em 3 horas e alta",
+   "HEART 5; coronariografia invasiva hoje"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AHA/ACC 2021 de avaliação da dor torácica (escore HEART e estratificação de risco) e ACC/AHA 2025 de síndromes coronarianas agudas",
+  "coment": "O HEART soma cinco itens de 0 a 2: história moderadamente suspeita (1), eletrocardiograma com alteração inespecífica de repolarização ou sobrecarga ventricular (1), idade de 65 anos ou mais (2), um a dois fatores de risco (1) e troponina normal (0), total de 5. De 0 a 3 é baixo risco, de 4 a 6 intermediário e de 7 a 10 alto. O infarto foi excluído pelo caminho 0/1 hora, mas o risco de eventos em 30 dias não é baixo. A diretriz AHA/ACC de 2021 indica, no risco intermediário sem doença coronariana conhecida, teste funcional ou angiotomografia de coronárias, esta especialmente útil para excluir doença obstrutiva; a angiografia invasiva fica para alto risco ou exame não invasivo alterado. A alta sem exame é para o risco baixo, com eventos abaixo de 1% em 30 dias.",
+  "porAlt": [
+   "A idade de 67 anos já vale 2 pontos e o eletrocardiograma vale 1; o escore não é baixo.",
+   "Correta: HEART 5 é risco intermediário e, sem doença coronariana conhecida, pede teste funcional ou angiotomografia.",
+   "Com troponinas normais e sem variação, o escore não chega a 7 e não há indicação invasiva.",
+   "O infarto já foi excluído pelo caminho 0/1 hora; falta estratificar o risco intermediário, não repetir troponina.",
+   "O escore está certo, mas o risco intermediário vai a exame não invasivo, não a cateterismo imediato."
+  ]
+ },
+ {
+  "q": "Mulher de 59 anos, diabética, chega ao pronto-socorro com dor torácica opressiva que começou 2 horas antes e cedeu durante o transporte. O eletrocardiograma da chegada não mostra isquemia, e o traçado repetido aos 30 minutos é igual. A troponina T ultrassensível é de 21 ng/L na chegada e de 24 ng/L após 1 hora; o percentil 99 do ensaio é de 14 ng/L. Creatinina de 0,9 mg/dL, sem insuficiência cardíaca conhecida. Pelo algoritmo europeu 0/1 hora, qual é a interpretação e a conduta mais adequadas?",
+  "alts": [
+   "Infarto excluído; alta com retorno ambulatorial",
+   "Infarto confirmado; coronariografia em 24 horas",
+   "Lesão crônica; alta sem nova dosagem de troponina",
+   "Infarto excluído pela variação menor que 20%",
+   "Observação; repetir troponina em 3 h e eco"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas (algoritmo 0/1 hora) e ACC/AHA 2025",
+  "coment": "O algoritmo 0/1 hora classifica pela concentração na chegada e pela variação absoluta em 1 hora, com pontos de corte próprios de cada ensaio. A exclusão exige valor muito baixo na chegada em quem tem mais de 3 horas de sintoma, ou valor baixo com variação mínima; a inclusão exige valor alto na chegada ou variação grande. Com 21 ng/L, acima do percentil 99, e variação de 3 ng/L, a paciente não preenche exclusão nem inclusão: fica na zona de observação, que concentra infartos e outras lesões agudas. A conduta é nova troponina em 3 horas, eletrocardiograma seriado e ecocardiograma, mantendo-a monitorizada. Variação percentual não é o critério do algoritmo, e chamar de lesão crônica exige valores estáveis em contexto compatível, como doença renal, o que não é o caso.",
+  "porAlt": [
+   "Valor acima do percentil 99 e sintoma há menos de 3 horas impedem a exclusão.",
+   "Variação de 3 ng/L e valor de 21 ng/L ficam abaixo dos limiares de inclusão do algoritmo.",
+   "Lesão crônica pressupõe valores estáveis por causa compatível, e a dor recente pede nova medida.",
+   "O algoritmo usa variação absoluta em ng/L, não percentual, e o valor inicial já está acima do percentil 99.",
+   "Correta: nem exclusão nem inclusão; a zona de observação pede troponina em 3 horas, ECG seriado e eco."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, hipertenso mal controlado, tem dor torácica súbita, máxima desde o início, descrita como rasgando e irradiada para o dorso, há 50 minutos. Está num hospital sem hemodinâmica, a 3 horas do centro de referência. Pressão de 168/92 mmHg no braço direito e de 128/70 mmHg no esquerdo, sopro diastólico em foco aórtico e pulso radial esquerdo reduzido. O eletrocardiograma mostra supradesnivelamento de ST de 2 mm em DII, DIII e aVF, e a radiografia mostra mediastino alargado. O plantonista prepara tenecteplase. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tenecteplase, AAS e clopidogrel e transferir",
+   "AAS e heparina e transferir para angioplastia",
+   "Nitroprussiato antes do betabloqueador venoso",
+   "Suspender a fibrinólise; angiotomografia de aorta",
+   "D-dímero antes de decidir sobre a imagem de aorta"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACC/AHA 2022 de doença aórtica (escore ADD-RS) e ESC 2024 de doenças arteriais periféricas e aórticas",
+  "coment": "Dor abrupta e lancinante para o dorso, diferença de pressão entre os braços, déficit de pulso e sopro de insuficiência aórtica novo somam três categorias do ADD-RS (risco alto), e o mediastino alargado reforça. A dissecção da aorta ascendente pode ocluir o óstio da coronária direita e produzir supradesnivelamento inferior; fibrinolítico, antiagregante e heparina nesse cenário causam sangramento catastrófico, inclusive tamponamento. A conduta é suspender a fibrinólise e fazer angiotomografia de aorta imediata, iniciando betabloqueador intravenoso antes de qualquer vasodilatador, e contato com a cirurgia cardíaca, porque o tipo A é cirúrgico de emergência. O D-dímero só decide no risco baixo (ADD-RS de 0 ou 1); com risco alto, a imagem é direta.",
+  "porAlt": [
+   "Fibrinolítico e dupla antiagregação numa dissecção que ocluiu a coronária podem ser fatais.",
+   "Anticoagular e antiagregar antes de afastar a dissecção é o erro mais temido da dor torácica.",
+   "O vasodilatador antes do betabloqueio causa taquicardia reflexa e aumenta o cisalhamento na parede aórtica.",
+   "Correta: o quadro preenche risco alto de síndrome aórtica; a fibrinólise para e a angiotomografia é imediata.",
+   "Com ADD-RS de 3 o D-dímero não exclui a dissecção; ele só tem papel no risco baixo."
+  ]
+ },
+ {
+  "q": "Mulher de 63 anos tem TEP bilateral confirmado por angiotomografia e já recebeu enoxaparina. A pressão é de 104/66 mmHg (habitual de 150/90 mmHg), a frequência de 124 bpm, a frequência respiratória de 30 irpm e a saturação de 90% com máscara com reservatório. O lactato é de 3,4 mmol/L e a diurese foi de 15 mL/h nas últimas 3 horas, com creatinina de 0,8 para 1,5 mg/dL. O ecocardiograma mostra razão VD/VE de 1,4 e sinal de McConnell. Não há contraindicação a fibrinolítico. O plantonista propõe intubá-la com propofol e fentanil antes de levá-la à hemodinâmica. Qual é a conduta mais adequada?",
+  "alts": [
+   "Intubação com propofol antes da hemodinâmica",
+   "Dobutamina, equipe de TEP e considerar reperfusão",
+   "Infusão de 2 litros de cristaloide para o VD",
+   "Manter só a enoxaparina, pois está normotensa",
+   "Filtro de veia cava associado à anticoagulação"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ACC 2026 de tromboembolismo pulmonar agudo (categorias A a E)",
+  "coment": "Pela classificação da AHA/ACC 2026, hipotensão relativa à pressão habitual com marcadores de hipoperfusão (lactato acima de 2 mmol/L, oligúria e lesão renal aguda) define choque normotenso, categoria D2, com modificador R pela hipoxemia. Não é paciente estável. A diretriz recomenda equipe multidisciplinar de resposta ao TEP de C a E (classe 1), vasopressor ou inotrópico no choque por TEP (classe 1), com a dobutamina como agente inicial no choque normotenso, e permite considerar a reperfusão, sistêmica ou por cateter, para evitar a deterioração em D1 e D2 (2b). Sedação profunda e ventilação mecânica na disfunção de VD são classe 3 (dano) salvo necessidade clínica, pelo risco de parada na indução. Volume é cauteloso, até 500 mL, e filtro em quem está anticoagulado é classe 3.",
+  "porAlt": [
+   "Sedação e pressão positiva derrubam o retorno venoso e o tônus simpático; na disfunção de VD é classe 3, dano.",
+   "Correta: choque normotenso por TEP (D2R) pede inotrópico, equipe de TEP e avaliação de terapia de reperfusão.",
+   "Sobrecarga de volume dilata ainda mais o VD e desloca o septo; a prova de volume é de no máximo 500 mL.",
+   "A pressão está abaixo da habitual e há hipoperfusão; anticoagulação isolada ignora a pré-falência.",
+   "Filtro em paciente que tolera anticoagulação é classe 3 e não trata a falência de VD."
+  ]
+ },
+ {
+  "q": "Homem de 70 kg, eutrófico, com pneumonia grave e choque séptico, está no segundo dia de ventilação mecânica. A noradrenalina caiu de 0,3 para 0,08 µg/kg/min, o lactato normalizou e o abdome está flácido. Não há calorimetria indireta nem VCO₂ confiável no ventilador. Recebe propofol a 1% a 20 mL/h, cerca de 530 kcal por dia, e soro de manutenção sem glicose. A dieta enteral gástrica contínua foi iniciada hoje. Pela ESPEN 2023, qual é a meta calórica mais adequada para a dieta enteral nesta primeira semana?",
+  "alts": [
+   "Cerca de 1.750 kcal/dia, equivalente a 25 kcal/kg",
+   "De 500 a 700 kcal/dia, descontando o propofol",
+   "Cerca de 2.100 kcal/dia, equivalente a 30 kcal/kg",
+   "Cerca de 1.200 kcal/dia, sem contar o propofol",
+   "Jejum até a retirada completa da noradrenalina"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESPEN 2023 de nutrição clínica na UTI (oferta hipocalórica na fase precoce, R17 e R19) e ASPEN 2022",
+  "coment": "Sem calorimetria, a ESPEN aceita estimar o gasto em 20 a 25 kcal/kg/dia (aqui 1.400 a 1.750 kcal) e manda, na primeira semana, oferta hipocalórica abaixo de 70% do estimado (grau B), porque a produção endógena de energia na fase aguda soma-se à oferta e leva à hiperalimentação. Setenta por cento de 1.750 kcal dão cerca de 1.200 kcal no total, e a ESPEN manda contar as calorias não nutricionais: o propofol a 1% fornece 1,1 kcal/mL, cerca de 530 kcal por dia nessa vazão. Sobram de 500 a 700 kcal para a dieta, progredindo à medida que o propofol cai e a fase aguda passa. A ASPEN 2022 chega a número semelhante com 12 a 25 kcal/kg/dia nos primeiros 7 a 10 dias. O choque controlado não justifica jejum.",
+  "porAlt": [
+   "Oferta plena na primeira semana, somada ao propofol, ultrapassa o gasto e causa hiperalimentação.",
+   "Correta: abaixo de 70% do estimado no total, descontando cerca de 530 kcal do propofol, sobram de 500 a 700 kcal para a dieta.",
+   "30 kcal/kg é meta de recuperação e, com o propofol, quase dobra o permitido na fase aguda.",
+   "O número total está próximo do limite, mas esquecer o propofol transforma a prescrição em hiperalimentação.",
+   "Com choque controlado e vasopressor em queda, a ESPEN indica enteral em dose baixa, não jejum."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos, 65 kg, está no quinto dia de UTI por choque séptico de foco abdominal, já com fonte controlada. O SOFA é de 12 e há lesão renal aguda estágio 3 sem indicação de diálise no momento, com diurese de 0,4 mL/kg/h. A dieta enteral é tolerada e a oferta calórica progride conforme o planejado. O residente propõe fórmula hiperproteica para alcançar 2,2 g/kg/dia de proteína já a partir de hoje, para proteger a massa muscular. Qual é a meta proteica mais adequada?",
+  "alts": [
+   "2,2 g/kg/dia já, para preservar a massa muscular",
+   "0,6 g/kg/dia para adiar a necessidade de diálise",
+   "Progressão até cerca de 1,3 g/kg/dia de proteína",
+   "2,0 g/kg/dia por fórmula hiperproteica exclusiva",
+   "Suspender a proteína até a recuperação renal"
+  ],
+  "gab": 2,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESPEN 2023 de nutrição clínica na UTI (1,3 g/kg/dia de forma progressiva) e ensaio EFFORT Protein, 2023",
+  "coment": "A ESPEN 2023 reescreveu a meta proteica do paciente crítico para 1,3 g/kg/dia de equivalentes proteicos, alcançados de forma progressiva. Três ensaios grandes testaram doses altas e não confirmaram benefício: no EFFORT Protein (Lancet, 2023), 2,2 g/kg/dia ou mais não aumentaram a alta viva em 60 dias e mostraram sinal de dano justamente nos pacientes com lesão renal aguda e SOFA alto; o PRECISe (2024) associou 2,0 g/kg/dia a pior qualidade de vida e mais intolerância digestiva. Na fase aguda há resistência anabólica e o aminoácido excedente vira ureia. Restringir proteína para adiar a diálise, por outro lado, não é recomendado e agrava a sarcopenia; em terapia renal contínua a necessidade sobe para 1,5 a 1,7 g/kg/dia.",
+  "porAlt": [
+   "É o subgrupo em que o EFFORT Protein sugeriu dano: lesão renal aguda e SOFA alto com dose alta precoce.",
+   "Restringir proteína não adia diálise de forma útil e aprofunda a perda de massa magra.",
+   "Correta: a ESPEN 2023 fixa cerca de 1,3 g/kg/dia de forma progressiva, sem forçar doses altas na fase aguda.",
+   "Doses de 2,0 g/kg/dia pioraram qualidade de vida e tolerância no PRECISe, sem ganho funcional.",
+   "Suspender a proteína agrava o catabolismo; a lesão renal não justifica jejum proteico."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, etilista, com índice de massa corporal de 17 kg/m² e 10 dias de ingestão mínima antes da internação, está na UTI por pancreatite aguda grave, em ventilação espontânea com cateter nasal. A dieta enteral nasojejunal foi iniciada com 15 kcal/kg/dia, após tiamina e eletrólitos de base normais. No terceiro dia, o fósforo caiu de 3,4 para 1,4 mg/dL (0,45 mmol/L), o potássio está em 3,1 mEq/L e o magnésio em 1,4 mg/dL. Não há arritmia, a força muscular está preservada e a dieta é tolerada. Qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender a dieta até o fósforo normalizar",
+   "Manter a progressão para a meta plena hoje",
+   "Trocar a via para parenteral plena com fósforo",
+   "Repor fósforo por via oral e dobrar a oferta",
+   "Repor eletrólitos e restringir calorias por 48 h"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESPEN 2023 de nutrição clínica na UTI (R57, hipofosfatemia de realimentação) e consenso ASPEN 2020 de síndrome de realimentação",
+  "coment": "A queda de fósforo acima de 30% dentro de 5 dias do início da nutrição, junto com potássio e magnésio baixos, configura síndrome de realimentação grave pelo consenso da ASPEN 2020. Na UTI, a ESPEN 2023 (R57, grau B) manda restringir a oferta calórica por 48 horas e depois voltar a progredir, sem suspender a nutrição por completo, com reposição venosa de fósforo (a via venosa cabe abaixo de 0,32 mmol/L ou com sintoma, e aqui o valor está perto disso), potássio e magnésio, e dosagens 2 a 3 vezes ao dia. A tiamina continua por 5 a 7 dias. Suspender a dieta prolonga a desnutrição; manter a progressão ou aumentar a oferta, por qualquer via, agrava o deslocamento intracelular dos eletrólitos e o risco de arritmia e falência respiratória.",
+  "porAlt": [
+   "Interromper totalmente a nutrição não é o recomendado; a ESPEN restringe a oferta por 48 horas e retoma a progressão.",
+   "Avançar a meta com fósforo de 0,45 mmol/L aprofunda a hipofosfatemia e o risco de arritmia e insuficiência respiratória.",
+   "A via não muda o problema: a carga de glicose e a insulina deslocam os eletrólitos igualmente na parenteral.",
+   "Aumentar a oferta agrava o deslocamento intracelular, e o fósforo oral é lento para esse grau de queda.",
+   "Correta: repor fósforo, potássio e magnésio e restringir as calorias por 48 horas antes de voltar a progredir."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos, 58 kg, com doença renal crônica estágio 4 não dialítica, chega com fraqueza. O potássio é de 7,1 mEq/L, confirmado em gasometria, e o eletrocardiograma mostra ondas T apiculadas e QRS de 128 ms. Recebeu 30 mL de gluconato de cálcio a 10%, com estreitamento do QRS no traçado repetido. A glicemia capilar antes de qualquer tratamento é de 98 mg/dL. Não usa insulina. Pela diretriz britânica de hipercalemia, qual é o próximo passo mais adequado para deslocar o potássio?",
+  "alts": [
+   "Insulina 10 U isolada, já que a glicemia é normal",
+   "Bicarbonato de sódio a 8,4% como medida principal",
+   "Salbutamol nebulizado em dose alta, como monoterapia",
+   "Insulina 10 U e glicose 25 g, mais glicose a 10%",
+   "Insulina 10 U e glicose 25 g, sem outra infusão depois"
+  ],
+  "gab": 3,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "UK Kidney Association 2020 (tratamento da hipercalemia aguda em adultos)",
+  "coment": "Na hipercalemia grave, a diretriz britânica recomenda insulina regular 10 unidades com 25 g de glicose (1B), depois de proteger o miocárdio com cálcio. A hipoglicemia é a complicação frequente, maior na doença renal avançada, no paciente de baixo peso e com glicemia inicial baixa, e costuma aparecer horas depois. Por isso, quando a glicemia antes do tratamento está abaixo de 7 mmol/L (126 mg/dL), a diretriz sugere infusão de glicose a 10% a 50 mL/h por 5 horas (2D), com glicemia seriada por 12 horas. Salbutamol de 10 a 20 mg é adjuvante, não monoterapia (recomendação contra), e bicarbonato de rotina também é recomendação contra. A remoção do potássio (quelante, diurético ou diálise) vem em seguida.",
+  "porAlt": [
+   "Insulina sem glicose numa glicemia de 98 mg/dL causa hipoglicemia grave em minutos a horas.",
+   "A diretriz recomenda contra o bicarbonato de rotina; ele desloca pouco potássio e sobrecarrega de sódio.",
+   "O salbutamol é adjuvante; como monoterapia na hipercalemia grave é recomendação contra.",
+   "Correta: glicemia inicial abaixo de 126 mg/dL pede glicose a 10% a 50 mL/h por 5 horas após insulina e glicose.",
+   "A dose está correta, mas com glicemia inicial de 98 mg/dL e doença renal avançada falta a infusão preventiva."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos, etilista, internada por diarreia há 6 dias, tem potássio de 2,6 mEq/L que não subiu apesar de 120 mEq de cloreto de potássio venoso e oral nas últimas 24 horas. Usa omeprazol há anos. O magnésio é de 1,0 mg/dL e o cálcio corrigido de 7,9 mg/dL. O eletrocardiograma mostra QTc de 520 ms com ondas U, sem arritmia ventricular no monitor. Está consciente, com fraqueza proximal leve, pressão de 112/70 mmHg e diurese preservada. Qual é a conduta mais adequada para corrigir a hipocalemia?",
+  "alts": [
+   "Dobrar a dose de cloreto de potássio em veia periférica",
+   "Sulfato de magnésio IV antes de seguir com o potássio",
+   "Espironolactona para reduzir a perda renal de potássio",
+   "Bicarbonato de sódio venoso para corrigir o pH sérico",
+   "Amilorida associada a potássio oral em dose dobrada"
+  ],
+  "gab": 1,
+  "tema": "emergencias",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Society for Endocrinology Emergency Guidance 2016 (hipocalcemia e magnésio) e revisão de Kardalas et al., 2018 (hipocalemia)",
+  "coment": "A hipomagnesemia torna a hipocalemia refratária: sem magnésio intracelular, o canal ROMK do néfron distal fica desinibido e o rim continua perdendo potássio, por mais que se reponha. Também explica a hipocalcemia, porque a paratireoide não secreta PTH e o osso resiste a ele. Etilismo, diarreia e inibidor de bomba de prótons são causas clássicas. A conduta é repor magnésio por via venosa (por exemplo, 8 mmol de sulfato de magnésio em 20 minutos antes do potássio, seguido de infusão) e então continuar o potássio, com monitorização pelo QTc longo. Dobrar o potássio periférico eleva o risco de flebite e de hipercalemia de rebote sem resolver a perda, e poupadores de potássio não corrigem o magnésio.",
+  "porAlt": [
+   "Mais potássio sem magnésio continua sendo perdido pelo rim, e altas concentrações em veia periférica causam flebite.",
+   "Correta: o magnésio baixo mantém a perda renal de potássio e precisa ser reposto antes de a reposição funcionar.",
+   "O problema não é hiperaldosteronismo; a perda renal cede com a reposição do magnésio.",
+   "Não há acidose a corrigir, e o bicarbonato desloca potássio para dentro da célula, piorando o nível sérico.",
+   "Poupador de potássio não repõe magnésio, e dobrar a dose oral não vence a perda renal ativa."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, em ventilação mecânica por pneumonia, recebe dieta enteral contínua a 60 mL/h e insulina regular venosa em bomba a 4 U/h, por protocolo, com glicemias entre 150 e 175 mg/dL nas últimas 24 horas. A dieta foi suspensa às 6 horas para traqueostomia programada para as 10 horas. Às 8 horas, a glicemia em sangue arterial é de 92 mg/dL, com a insulina ainda a 4 U/h, e o soro em curso não tem glicose. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a insulina, pois a glicemia está normal",
+   "Aumentar a insulina para alvo de 80 a 110 mg/dL",
+   "Trocar para glargina com a dose diária total",
+   "Manter a insulina e nova glicemia em 6 horas",
+   "Reduzir ou pausar a insulina e iniciar glicose IV"
+  ],
+  "gab": 4,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ADA Standards of Care 2026, seção 16 (alvo de 140 a 180 mg/dL no crítico) e ESPEN 2023 de nutrição na UTI",
+  "coment": "No paciente crítico, a insulina venosa começa com glicemia de 180 mg/dL ou mais e mira 140 a 180 mg/dL (ADA 2026, Surviving Sepsis 2026, ESPEN 2023); 92 mg/dL está abaixo do alvo e caindo, com a fonte de glicose interrompida há 2 horas e a mesma vazão de insulina. Dieta suspensa com insulina correndo é hipoglicemia anunciada, e o protocolo deve prever redução ou pausa da insulina e infusão de glicose sempre que a nutrição parar, com glicemia a cada 1 a 2 horas. O controle intensivo (81 a 108 mg/dL) aumentou mortalidade e hipoglicemia grave no NICE-SUGAR. A glargina não substitui a bomba num paciente instável com oferta variável, e esperar 6 horas para medir é inseguro.",
+  "porAlt": [
+   "92 mg/dL está abaixo da meta de 140 a 180 mg/dL e cai com a dieta suspensa; manter a vazão leva à hipoglicemia.",
+   "O controle intensivo aumentou mortalidade e hipoglicemia grave no NICE-SUGAR.",
+   "Basal subcutânea com dieta interrompida e paciente crítico aumenta o risco de hipoglicemia prolongada.",
+   "O intervalo é longo demais com a fonte de glicose interrompida e a insulina a 4 U/h.",
+   "Correta: sem a dieta, a insulina deve ser reduzida ou pausada, com glicose venosa e glicemias frequentes."
+  ]
+ },
+ {
+  "q": "Recruta de 22 anos, 72 kg, termina marcha de 30 km sob calor e procura o pronto-socorro 10 horas depois por mialgia intensa nas coxas e urina escura. Temperatura de 36,9 °C, pressão de 118/70 mmHg e frequência de 96 bpm. A CK é de 48.000 U/L, a creatinina de 1,4 mg/dL, o potássio de 5,2 mEq/L, o cálcio total de 8,0 mg/dL e o bicarbonato de 21 mEq/L. A fita urinária é positiva para heme, sem hemácias no sedimento. Não há sinais de síndrome compartimental. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cristaloide para diurese de 200 a 300 mL/h",
+   "Bicarbonato venoso para alcalinizar a urina",
+   "Manitol associado ao cristaloide desde o início",
+   "Furosemida para manter diurese acima de 300 mL/h",
+   "Hemodiálise precoce para remover a mioglobina"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "EAST 2022 (diretriz de manejo da rabdomiólise, J Trauma Acute Care Surg)",
+  "coment": "Fita positiva para heme sem hemácias e CK acima de cinco vezes o normal após esforço extremo confirmam rabdomiólise de esforço com lesão renal incipiente. O tratamento que reduz insuficiência renal e diálise é a reposição volêmica precoce e generosa com cristaloide (Ringer lactato ou salina são aceitáveis), titulada para diurese de 1 a 3 mL/kg/h, até cerca de 300 mL/h, vigiando sobrecarga, potássio e cálcio. A diretriz da EAST de 2022 não encontrou benefício do bicarbonato nem do manitol na prevenção da lesão renal, e não recomenda seu uso; diurético para forçar diurese não substitui volume e pode piorar a hipovolemia. Hemodiálise é para as indicações habituais (hipercalemia refratária, sobrecarga, acidose grave, uremia), não para remover mioglobina.",
+  "porAlt": [
+   "Correta: volume precoce com cristaloide para diurese de 1 a 3 mL/kg/h, até cerca de 300 mL/h, é o que protege o rim.",
+   "A EAST 2022 não recomenda bicarbonato, que não reduziu lesão renal nem diálise e pode piorar a hipocalcemia.",
+   "O manitol não mostrou benefício e pode causar hiperosmolaridade e lesão renal; não é recomendado.",
+   "Diurético para forçar diurese não substitui o volume e pode agravar a hipovolemia e a lesão renal.",
+   "A diálise não é indicada para remover mioglobina; reserva-se às indicações clássicas de terapia renal."
+  ]
+ },
+ {
+  "q": "Mulher de 40 anos é encontrada caída em casa após cerca de 18 horas, sem trauma craniano. Na UTI, recebe cristaloide com diurese de 180 mL/h. A CK é de 95.000 U/L, a creatinina de 2,1 mg/dL, o potássio de 5,1 mEq/L, o fósforo de 7,8 mg/dL, o cálcio total de 6,8 mg/dL e o cálcio iônico de 0,92 mmol/L. Não há parestesia, tetania nem convulsão; Chvostek e Trousseau são negativos, e o eletrocardiograma mostra QTc de 450 ms, sem alterações de potássio. O interno quer iniciar gluconato de cálcio em infusão contínua até normalizar o cálcio. Qual é a conduta mais adequada?",
+  "alts": [
+   "Não repor agora; repor se sintoma ou hipercalemia",
+   "Gluconato de cálcio em infusão até normalizar",
+   "Cálcio oral e calcitriol desde a admissão",
+   "Cloreto de cálcio em bolus por acesso central",
+   "Sulfato de magnésio para elevar o cálcio sérico"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Revisão de Bosch, Poch e Grau, NEJM 2009 (rabdomiólise e lesão renal aguda) e EAST 2022",
+  "coment": "Na fase inicial da rabdomiólise, o cálcio se deposita no músculo lesado, junto com o fosfato liberado, e a hipocalcemia é a regra. Repor cálcio na paciente assintomática aumenta essa deposição e expõe, na fase de recuperação, à hipercalcemia de rebote, quando o cálcio sai do músculo e o calcitriol se normaliza. A reposição fica para hipocalcemia sintomática (tetania, convulsão, arritmia) ou para hipercalemia grave com repercussão no eletrocardiograma, em que o cálcio protege o miocárdio. A prioridade segue sendo o volume, com controle seriado de potássio, cálcio, fósforo e diurese. Calcitriol na fase aguda tem o mesmo problema, e magnésio não está indicado sem hipomagnesemia documentada.",
+  "porAlt": [
+   "Correta: hipocalcemia assintomática da rabdomiólise não é reposta; trata-se só se houver sintoma ou hipercalemia grave.",
+   "Normalizar o cálcio na fase aguda aumenta a deposição no músculo e o risco de hipercalcemia na recuperação.",
+   "Calcitriol e cálcio oral precoces favorecem a hipercalcemia de rebote quando o cálcio deixa o músculo.",
+   "Bolus de cálcio fica para sintoma ou hipercalemia com alteração eletrocardiográfica, ausentes aqui.",
+   "Não há hipomagnesemia documentada, e o magnésio não corrige o sequestro de cálcio no músculo."
+  ]
+ },
+ {
+  "q": "Homem de 54 anos, em situação de rua, é encontrado inconsciente numa madrugada fria e chega ao pronto-socorro em fibrilação ventricular, com reanimação iniciada pela equipe de resgate havia 15 minutos. A temperatura esofágica é de 26,5 °C. Na sala, recebeu três desfibrilações sem retorno da circulação espontânea; as compressões são de boa qualidade e a via aérea está protegida. O potássio é de 4,8 mEq/L e não há trauma. Há serviço com circulação extracorpórea a 30 minutos de transporte. Pela diretriz europeia de 2025, qual é a conduta mais adequada?",
+  "alts": [
+   "RCP contínua, sem adrenalina, e transferir para ECLS",
+   "Adrenalina 1 mg a cada 3 a 5 minutos e choques",
+   "Encerrar a reanimação após 20 minutos sem retorno",
+   "Amiodarona 300 mg e choque a cada 2 minutos",
+   "Reaquecimento externo passivo e novos choques"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ERC 2025 (circunstâncias especiais em reanimação: hipotermia acidental)",
+  "coment": "Na parada por hipotermia com temperatura central abaixo de 30 °C, a diretriz europeia de 2025 limita as desfibrilações a três e suspende a adrenalina até o reaquecimento passar de 30 °C, porque o miocárdio frio responde mal e os fármacos se acumulam, chegando juntos e em excesso no reaquecimento. A hipotermia protege o cérebro e permite reanimações longas: quem para por hipotermia, ou tem risco de parada iminente (temperatura abaixo de 28 °C, arritmia ventricular, sistólica abaixo de 90 mmHg), deve ser levado diretamente a um centro com suporte extracorpóreo, mantendo RCP de qualidade, se preciso com compressor mecânico, até o reaquecimento por circulação extracorpórea. O desfecho é melhor na parada testemunhada com RCP contínua. Não se encerra a reanimação de um hipotérmico antes de reaquecê-lo, salvo critérios de futilidade.",
+  "porAlt": [
+   "Correta: abaixo de 30 °C, sem adrenalina e sem mais choques; RCP contínua até o reaquecimento extracorpóreo.",
+   "Abaixo de 30 °C a adrenalina é suspensa, e mais choques além de três não são recomendados até reaquecer.",
+   "O paciente hipotérmico não é declarado morto antes do reaquecimento; a hipotermia protege o cérebro.",
+   "Antiarrítmico e choques repetidos não funcionam no miocárdio a 26,5 °C e não são recomendados.",
+   "Reaquecimento passivo não basta na parada a 26,5 °C; o método indicado é a circulação extracorpórea."
+  ]
+ },
+ {
+  "q": "Corredor de 31 anos desaba no quilômetro 18 de uma meia maratona disputada a 33 °C com umidade alta. No posto médico da prova, está confuso e agitado, com temperatura retal de 41,8 °C, pressão de 96/58 mmHg, frequência de 148 bpm, pele quente e úmida, glicemia de 112 mg/dL e sódio de 138 mEq/L em analisador portátil. A via aérea está pérvia e não há convulsão. O posto tem tanque com água e gelo, e a ambulância está disponível para levá-lo ao hospital a 25 minutos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Imersão em água gelada até retal abaixo de 39 °C",
+   "Dipirona e paracetamol IV com compressas frias sobre a pele",
+   "Dantroleno 2,5 mg/kg IV e transporte imediato ao hospital",
+   "Transporte imediato ao hospital, com soro à temperatura ambiente",
+   "Resfriamento passivo à sombra e hidratação por via oral"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "SCCM 2025 (diretriz de tratamento do golpe de calor, Crit Care Med)",
+  "coment": "Hipertermia acima de 40 °C com disfunção do sistema nervoso central após esforço no calor é golpe de calor por esforço, e o prognóstico depende do tempo em temperatura alta. A diretriz da Society of Critical Care Medicine de 2025 recomenda resfriamento ativo em vez de passivo, com prioridade para a imersão em água gelada (1 a 5 °C) ou fria (9 a 12 °C), que dá a maior velocidade de queda; a meta é temperatura abaixo de 39 °C em até 30 minutos do reconhecimento, com taxa de pelo menos 0,155 °C/min. Por isso, com tanque disponível, resfria-se no local antes de transportar, monitorando a temperatura retal para retirar o paciente perto de 39 °C e evitar hipotermia de rebote. Antitérmicos não agem, porque o hipotálamo não está reprogramado, e a diretriz recomenda contra o dantroleno.",
+  "porAlt": [
+   "Correta: imersão em água gelada no local, com meta abaixo de 39 °C em até 30 minutos, antes do transporte.",
+   "Antitérmicos não baixam a temperatura no golpe de calor, e o paracetamol pode agravar a lesão hepática.",
+   "A diretriz de 2025 recomenda contra o dantroleno no golpe de calor; transportar sem resfriar perde o tempo crítico.",
+   "Transportar 25 minutos sem resfriamento prolonga a exposição à temperatura que causa lesão de órgãos.",
+   "O resfriamento passivo é lento demais, e o paciente confuso não pode receber hidratação oral com segurança."
+  ]
+ },
+ {
+  "q": "Rapaz de 19 anos é retirado do fundo de uma piscina de clube pelo salva-vidas após ficar cerca de 4 minutos submerso. O médico do clube chega com bolsa-válvula-máscara, oxigênio e desfibrilador externo automático. O jovem está inconsciente, não respira e não tem pulso central palpável com segurança em 10 segundos. Não houve mergulho em local raso nem sinais de trauma. Há espuma na boca, que é aspirada. Qual é a primeira ação mais adequada do médico, que é socorrista treinado?",
+  "alts": [
+   "Ventilações de resgate antes das compressões",
+   "Compressões torácicas isoladas até chegar o DEA",
+   "Manobra de Heimlich para retirar a água aspirada",
+   "Colar cervical e prancha antes de qualquer manobra",
+   "Decúbito lateral para drenar a água dos pulmões"
+  ],
+  "gab": 0,
+  "tema": "emergencias",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ILCOR 2025 (afogamento) e AHA/AAP 2024 (atualização focada em circunstâncias especiais: afogamento)",
+  "coment": "No afogamento, a parada é hipóxica: o coração para por falta de oxigênio, e a reanimação só funciona se a oxigenação for restabelecida. O ILCOR 2025 recomenda que profissionais de saúde e socorristas treinados com dever de responder, como salva-vidas, comecem pelas ventilações de resgate antes das compressões (sequência ABC); a atualização da AHA e da AAP de 2024 apoia iniciar com ventilações e depois ciclos de 30 compressões e 2 ventilações. Compressão isolada é desaconselhada no afogamento. A manobra de Heimlich e as tentativas de drenar a água atrasam a ventilação e provocam vômito e aspiração; a água aspirada é pouca e é absorvida. Imobilização cervical de rotina só cabe com mecanismo ou sinais de trauma, como mergulho em água rasa, ausentes aqui.",
+  "porAlt": [
+   "Correta: a parada do afogado é hipóxica, e o socorrista treinado inicia com ventilações de resgate.",
+   "Compressão isolada é a orientação para leigo; no afogamento, o socorrista treinado começa pela ventilação.",
+   "Compressões abdominais não retiram água útil, atrasam a ventilação e provocam vômito e aspiração.",
+   "Sem mergulho em água rasa nem sinais de trauma, imobilizar a coluna só atrasa a reanimação.",
+   "Drenagem postural não tem papel; a água aspirada é pouca e a prioridade é oxigenar."
+  ]
+ }
+]

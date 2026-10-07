@@ -1,0 +1,722 @@
+[
+ {
+  "q": "Homem de 67 anos, diabético e hipertenso, chega ao pronto-socorro com dor precordial em aperto que começou há 3 horas e não cedeu com três doses de nitrato sublingual nem com nitroglicerina intravenosa em titulação. Pressão arterial de 96/60 mmHg, frequência cardíaca de 112 bpm, saturação de 89% em ar ambiente, estertores até o terço médio dos dois campos e sopro sistólico apical novo, 3+/6. O eletrocardiograma mostra infradesnivelamento de ST de 2 mm de V3 a V6, em DI e em aVL, sem supradesnivelamento, inclusive em V7 a V9. Troponina ultrassensível de 210 ng/L. Já recebeu ácido acetilsalicílico e heparina não fracionada. O hospital tem hemodinâmica de plantão. Qual é a conduta quanto à estratégia invasiva?",
+  "alts": [
+   "Coronariografia imediata, em menos de 2 horas",
+   "Coronariografia em até 24 horas, após estabilizar",
+   "Fibrinólise com tenecteplase e cateterismo depois",
+   "Teste de isquemia antes de indicar o cateterismo",
+   "Coronariografia antes da alta, após compensar a IC"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas e ACC/AHA 2025: estratégia invasiva imediata no infarto sem supra de muito alto risco (classe I)",
+  "coment": "No infarto sem supradesnivelamento, a pergunta é quando fazer a coronariografia. A diretriz europeia de 2023 e a americana de 2025 definem um grupo de muito alto risco que vai à hemodinâmica em menos de 2 horas: instabilidade hemodinâmica ou choque, dor recorrente ou refratária apesar do tratamento clínico, arritmia com risco de vida, complicação mecânica, insuficiência cardíaca aguda atribuída à isquemia e infradesnivelamento extenso com supradesnivelamento em aVR. O paciente reúne quatro desses critérios: dor que não cede a nitroglicerina intravenosa, edema pulmonar com hipoxemia, pressão limítrofe e sopro mitral novo, que levanta insuficiência mitral isquêmica. A recomendação é classe I, com nível C, porque esses pacientes foram excluídos dos ensaios. Sem hemodinâmica no serviço, a transferência é imediata. O fibrinolítico não tem lugar sem supradesnivelamento, salvo no infarto posterior verdadeiro.",
+  "porAlt": [
+   "Correta: dor refratária, edema pulmonar, hipotensão e insuficiência mitral nova são critérios de muito alto risco, que pedem estratégia invasiva imediata.",
+   "Janela de 24 horas é para o alto risco estável (troponina em ascensão, GRACE acima de 140); este paciente está instável agora.",
+   "Fibrinolítico no infarto sem supradesnivelamento é classe III: não há benefício e aumenta sangramento, inclusive intracraniano.",
+   "Estratégia seletiva com teste não invasivo serve ao paciente de baixo risco, sem troponina alterada e sem sintoma em curso.",
+   "Esperar compensar a insuficiência cardíaca adia a revascularização de quem tem isquemia em curso e complicação mecânica possível."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos, tabagista, procura o pronto-socorro com dor torácica em repouso que durou 40 minutos e já passou. O eletrocardiograma mostra inversão de onda T de 2 mm de V2 a V5, e a troponina ultrassensível sobe de 18 para 96 ng/L em 1 hora. Pressão arterial de 142/84 mmHg, frequência de 78 bpm, sem congestão, escore GRACE de 128. A hemodinâmica do hospital programa a coronariografia para daqui a 6 horas. Recebeu 300 mg de ácido acetilsalicílico e heparina não fracionada. O plantonista prescreve ticagrelor 180 mg agora, para que ela chegue à sala já com dupla antiagregação. Pela diretriz europeia de 2023, qual é a conduta com o inibidor de P2Y12?",
+  "alts": [
+   "Dar prasugrel 60 mg agora, antes da coronariografia",
+   "Dar ticagrelor e adiar a coronariografia para 48 h",
+   "Dar o ticagrelor agora, como pré-tratamento",
+   "Dar clopidogrel 600 mg agora, no lugar do ticagrelor",
+   "Adiar o P2Y12 até conhecer a anatomia coronária"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas: pré-tratamento de rotina com inibidor de P2Y12 não recomendado quando a coronariografia é precoce (classe III)",
+  "coment": "A paciente tem infarto sem supradesnivelamento com troponina em ascensão e vai à coronariografia em 6 horas. A diretriz europeia de 2023 não recomenda o pré-tratamento de rotina com inibidor de P2Y12 quando a anatomia é desconhecida e a estratégia invasiva precoce, em menos de 24 horas, está programada; o pré-tratamento só pode ser considerado (IIb) quando a angiografia não é esperada nesse prazo. A americana de 2025 chega ao mesmo ponto: pré-tratar é 2b e só se a angiografia passar de 24 horas. O racional vem do ACCOAST, do DUBIUS e do ISAR-REACT 5: carregar o fármaco antes da anatomia não reduziu eventos isquêmicos, aumentou sangramento e, em cerca de 10% dos casos, atrasa a cirurgia de revascularização, que exige suspender ticagrelor por 3 a 5 dias e prasugrel por 7. Ácido acetilsalicílico e anticoagulação parenteral continuam indicados desde a admissão.",
+  "porAlt": [
+   "Prasugrel antes da anatomia aumentou sangramento sem reduzir eventos no ACCOAST; ele é dado depois que se decide pela angioplastia.",
+   "Atrasar a angiografia para justificar o pré-tratamento inverte a lógica e tira do alvo uma paciente com troponina em ascensão.",
+   "É exatamente o pré-tratamento de rotina que a diretriz desaconselha quando a angiografia é precoce: não reduz eventos e atrasa a cirurgia se ela for indicada.",
+   "Trocar o fármaco não resolve: o problema é carregar P2Y12 antes da anatomia, e o clopidogrel também obriga a esperar 5 dias para a cirurgia.",
+   "Correta: com coronariografia prevista em menos de 24 horas, o pré-tratamento de rotina não é recomendado; o P2Y12 é dado na sala, conhecida a anatomia."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, 84 kg, sem antecedente de acidente vascular cerebral ou ataque isquêmico transitório, internado com infarto sem supradesnivelamento do segmento ST, recebeu ácido acetilsalicílico e heparina na admissão, sem pré-tratamento com inibidor de P2Y12. A coronariografia, feita 14 horas depois, mostra lesão de 90% com trombo na circunflexa, e o hemodinamicista vai implantar stent farmacológico. Não usa anticoagulante oral, tem hemoglobina de 14,2 g/dL e filtração glomerular estimada (CKD-EPI 2021) de 88 mL/min/1,73 m². Pela diretriz europeia de 2023, qual inibidor de P2Y12 deve ser considerado preferencialmente?",
+  "alts": [
+   "Prasugrel 60 mg de ataque e 10 mg ao dia",
+   "Clopidogrel 600 mg de ataque e 75 mg ao dia",
+   "Ticagrelor 180 mg de ataque e 90 mg de 12/12 h",
+   "Clopidogrel 300 mg de ataque e 150 mg ao dia",
+   "Prasugrel 60 mg de ataque e 5 mg ao dia"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas: prasugrel preferível ao ticagrelor no infarto sem supra que segue para angioplastia (IIa, B)",
+  "coment": "A diretriz europeia de 2023 mantém a dupla antiagregação com ácido acetilsalicílico e um inibidor potente de P2Y12 por 12 meses como padrão, e acrescenta que o prasugrel deve ser considerado preferencialmente ao ticagrelor nos pacientes com síndrome coronariana aguda que seguem para angioplastia (IIa, B). A base é o ISAR-REACT 5, em que a estratégia com prasugrel reduziu o composto de morte, infarto e AVC em 1 ano sem aumentar sangramento. As condições do paciente favorecem o prasugrel: sem AVC ou ataque isquêmico transitório prévio, que o contraindicam, idade abaixo de 75 anos e peso acima de 60 kg, o que mantém a dose de 10 mg. A diretriz americana de 2025 aceita prasugrel ou ticagrelor no mesmo nível (1, B-R); quando a questão cita a ESC 2023, a preferência pelo prasugrel é o ponto cobrado. O prasugrel é dado depois de conhecida a anatomia, não como pré-tratamento.",
+  "porAlt": [
+   "Correta: no infarto sem supra que segue para angioplastia, a ESC 2023 considera o prasugrel preferível ao ticagrelor (IIa), com base no ISAR-REACT 5.",
+   "Clopidogrel fica para quem não pode receber os potentes ou tem alto risco de sangramento ou anticoagulante oral, o que não é o caso.",
+   "Ticagrelor é opção de classe I, mas a diretriz europeia de 2023 coloca o prasugrel à frente em quem vai à angioplastia, desde que não haja contraindicação.",
+   "Dose dobrada de manutenção do clopidogrel não mostrou benefício consistente e não substitui um inibidor potente de P2Y12.",
+   "A manutenção de 5 mg é para peso abaixo de 60 kg ou idade de 75 anos ou mais; com 84 kg e 61 anos a dose é de 10 mg."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos, 58 kg, com doença renal crônica de filtração de 26 mL/min/1,73 m², hemoglobina de 10,4 g/dL e hemorragia digestiva por angiodisplasia há 8 meses, recebeu stent farmacológico na descendente anterior por infarto sem supradesnivelamento do segmento ST há 5 semanas. Foi para casa com ácido acetilsalicílico 100 mg, clopidogrel 75 mg, atorvastatina 80 mg, pantoprazol e bisoprolol. Retorna ao ambulatório sem angina, sem sangramento e com exames estáveis. Não tem fibrilação atrial nem outra indicação de anticoagulação. Qual é a conduta mais adequada para a antiagregação?",
+  "alts": [
+   "Manter a dupla antiagregação por 12 meses completos",
+   "Trocar o clopidogrel por ticagrelor em monoterapia",
+   "Suspender o AAS e seguir com clopidogrel isolado",
+   "Associar rivaroxabana 2,5 mg de 12/12 h à dupla",
+   "Suspender os dois antiplaquetários pela anemia"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas e ACC/AHA 2025: antiagregação simples após 1 mês de dupla no alto risco de sangramento (IIb)",
+  "coment": "A duração da dupla antiagregação depois da síndrome coronariana aguda virou decisão de risco de sangramento. O padrão é 12 meses, mas a paciente preenche critérios maiores de alto risco de sangramento do Academic Research Consortium: filtração abaixo de 30 mL/min/1,73 m², hemoglobina abaixo de 11 g/dL e sangramento digestivo recente, além da idade. Para esse perfil, a diretriz europeia de 2023 admite suspender um dos antiplaquetários após 1 mês de dupla, ficando com ácido acetilsalicílico ou com inibidor de P2Y12 (IIb, B), e a americana de 2025 traz a mesma opção com classe 2b. Como ela já usa clopidogrel, a saída prática é retirar o ácido acetilsalicílico e manter o clopidogrel, com o inibidor de bomba de prótons. Suspender tudo antes de 1 mês, ou mesmo agora, deixaria o stent sem proteção; acrescentar anticoagulante em dose vascular faria o contrário do que o risco pede.",
+  "porAlt": [
+   "Doze meses é o padrão de quem não tem alto risco de sangramento; aqui há filtração abaixo de 30, anemia e sangramento recente.",
+   "Monoterapia com ticagrelor é desfecho de quem fez a dupla com ticagrelor e não tem alto risco de sangramento; aqui se troca por fármaco mais potente.",
+   "Correta: com alto risco de sangramento, a antiagregação simples após 1 mês de dupla pode ser considerada (IIb), e o inibidor de P2Y12 é uma das opções.",
+   "Rivaroxabana em dose vascular soma sangramento e não cabe em quem tem doença renal avançada e hemorragia digestiva recente.",
+   "Retirar toda antiagregação 5 semanas após stent farmacológico expõe a trombose do stent; o risco de sangramento pede encurtar, não zerar."
+  ]
+ },
+ {
+  "q": "Homem de 72 anos, 80 kg, com fibrilação atrial permanente em uso de apixabana 5 mg de 12 em 12 horas (CHA₂DS₂-VA de 4), é internado com infarto sem supradesnivelamento do segmento ST. A apixabana foi suspensa na admissão; a coronariografia no dia seguinte mostrou lesão grave na coronária direita, tratada com stent farmacológico sem intercorrências. Na sala recebeu ácido acetilsalicílico e clopidogrel 600 mg. Creatinina de 1,1 mg/dL, hemoglobina de 13,5 g/dL, sem sangramento prévio. Qual esquema antitrombótico deve ser prescrito para os meses seguintes, segundo a diretriz europeia de 2023?",
+  "alts": [
+   "AAS e ticagrelor por 12 meses, sem anticoagulante",
+   "Apixabana 2,5 mg com AAS e clopidogrel por 1 ano",
+   "Apixabana, AAS e clopidogrel por 6 meses seguidos",
+   "Apixabana e ticagrelor, sem AAS desde a alta",
+   "Apixabana e clopidogrel, com AAS por até 1 semana"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas: fibrilação atrial e angioplastia, tripla por até 1 semana e depois anticoagulante com clopidogrel até 12 meses (I, A)",
+  "coment": "Quem tem fibrilação atrial com indicação de anticoagulação e sofre síndrome coronariana aguda tratada com angioplastia precisa de proteção contra AVC e contra trombose do stent, e a tripla terapia é o período de maior sangramento. A diretriz europeia de 2023 recomenda, na angioplastia sem complicação, suspender o ácido acetilsalicílico precocemente, em até 1 semana, e manter anticoagulante oral direto com inibidor de P2Y12, de preferência clopidogrel, por até 12 meses (I, A); a tripla pode ir até 1 mês quando o risco isquêmico é alto. Depois de 12 meses, segue o anticoagulante isolado. A americana de 2025 fala em retirar o ácido acetilsalicílico entre 1 e 4 semanas (1, B-R). A dose da apixabana permanece plena, pois o paciente não tem dois dos três critérios de redução (idade de 80 anos ou mais, peso de 60 kg ou menos, creatinina de 1,5 mg/dL ou mais). Inibidor de bomba de prótons acompanha a combinação.",
+  "porAlt": [
+   "Dupla antiagregação não protege contra AVC cardioembólico; com CHA₂DS₂-VA de 4, a anticoagulação é obrigatória.",
+   "Reduzir a apixabana sem preencher critérios de dose reduzida deixa o paciente subanticoagulado, e a tripla por 1 ano é longa demais.",
+   "Tripla prolongada multiplica sangramento sem reduzir eventos isquêmicos de forma proporcional; a diretriz encurta para 1 semana como padrão.",
+   "O P2Y12 de escolha na combinação com anticoagulante é o clopidogrel; ticagrelor e prasugrel aumentam sangramento nesse cenário.",
+   "Correta: tripla por até 1 semana na angioplastia sem complicação e depois anticoagulante com clopidogrel por até 12 meses (I, A)."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos chega com dor torácica há 2 horas. O eletrocardiograma mostra supradesnivelamento de ST de 3 mm em DII, DIII e aVF, maior em DIII que em DII, com infradesnivelamento em DI e aVL. Recebeu ácido acetilsalicílico e, na triagem, dinitrato de isossorbida 5 mg sublingual. Dez minutos depois, a pressão cai de 118/76 para 74/48 mmHg, com frequência de 58 bpm, turgência jugular a 45 graus e ausculta pulmonar limpa. Saturação de 96% em ar ambiente. Em V4R há supradesnivelamento de 1,5 mm. A hemodinâmica fica a 40 minutos. Além de acionar a angioplastia primária, o que fazer agora?",
+  "alts": [
+   "Furosemida intravenosa pela turgência jugular",
+   "Noradrenalina e restrição rigorosa de volume",
+   "Cristaloide em bólus e suspensão do nitrato",
+   "Nitroglicerina intravenosa em dose baixa",
+   "Morfina e oxigênio por cateter nasal"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ACC/AHA 2025 e ESC 2023 de síndromes coronarianas agudas: infarto de ventrículo direito, volume e reperfusão, sem nitrato",
+  "coment": "O infarto inferior com supradesnivelamento maior em DIII que em DII aponta para a coronária direita e obriga a pedir V3R e V4R antes de qualquer nitrato. Supradesnivelamento de 1 mm ou mais em V4R confirma comprometimento do ventrículo direito, presente em até metade dos infartos inferiores. A tríade clássica é hipotensão, turgência jugular e pulmões limpos. Esse ventrículo depende de pré-carga, e o nitrato, ao venodilatar, provoca hipotensão profunda em minutos, como aconteceu. A conduta é reperfundir o quanto antes, suspender nitratos, opioides e diuréticos e expandir com cristaloide em alíquotas, reavaliando a resposta; se a hipotensão persistir, inotrópico como dobutamina. Bradicardia e bloqueio atrioventricular são frequentes e podem exigir atropina ou estimulação temporária, preferindo manter o sincronismo atrioventricular. Perguntar por inibidor de fosfodiesterase-5 também faz parte da avaliação antes do nitrato.",
+  "porAlt": [
+   "A jugular túrgida aqui é falência do ventrículo direito com pulmão limpo; diurético reduz ainda mais a pré-carga e aprofunda o choque.",
+   "Restringir volume é o oposto do necessário; vasopressor ou inotrópico entram se a hipotensão persistir após prova de volume.",
+   "Correta: infarto de ventrículo direito é dependente de pré-carga; a hipotensão após nitrato responde a volume, e o nitrato não deve ser repetido.",
+   "Qualquer nitrato está contraindicado na suspeita de infarto de ventrículo direito e com sistólica abaixo de 90 mmHg.",
+   "Morfina venodilata e piora a hipotensão, e oxigênio com saturação de 96% não traz benefício, sendo classe III de rotina."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos está no terceiro dia de infarto inferolateral com supradesnivelamento do segmento ST, tratado com angioplastia de circunflexa dominante 14 horas após o início dos sintomas. Evoluía bem quando, em poucos minutos, desenvolve dispneia intensa, pressão de 84/52 mmHg, frequência de 118 bpm e saturação de 82% com estertores difusos. Há sopro sistólico apical suave e curto, sem frêmito. A radiografia mostra edema pulmonar bilateral. O ecocardiograma à beira do leito mostra ventrículo esquerdo hiperdinâmico, segmento do folheto mitral posterior móvel, que prolapsa para o átrio, e jato regurgitante excêntrico e grave; o septo interventricular está íntegro. Qual é o diagnóstico?",
+  "alts": [
+   "Insuficiência mitral funcional por dilatação",
+   "Obstrução dinâmica da via de saída do VE",
+   "Ruptura contida da parede livre lateral",
+   "Ruptura de músculo papilar posteromedial",
+   "Comunicação interventricular pós-infarto"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ACC/AHA 2025 de síndromes coronarianas agudas: complicações mecânicas do infarto, ruptura de músculo papilar",
+  "coment": "As complicações mecânicas aparecem sobretudo na primeira semana, são mais frequentes na reperfusão tardia ou ausente e mantêm letalidade alta. A ruptura de músculo papilar acomete em geral o posteromedial, irrigado por uma única artéria (a descendente posterior, ramo da coronária direita ou da circunflexa dominante), enquanto o anterolateral tem dupla irrigação. O quadro é edema pulmonar súbito e choque com sopro que pode ser suave e curto, ou até inaudível, porque a pressão do átrio esquerdo sobe rápido e reduz o gradiente; a ausência de sopro alto não afasta o diagnóstico. O ecocardiograma mostra folheto com segmento solto, jato excêntrico e ventrículo hiperdinâmico. A americana de 2025 recomenda manejo em centro com cirurgia cardíaca (1, C-EO) e considera razoável o suporte circulatório temporário como ponte para a cirurgia (2a); vasodilatador e diurético entram enquanto a pressão permite. O tratamento definitivo é cirúrgico, de urgência.",
+  "porAlt": [
+   "A forma funcional é crônica e progressiva, com ventrículo dilatado e folhetos tracionados, não com segmento solto e piora em minutos.",
+   "A obstrução dinâmica pode ocorrer no infarto apical com base hipercinética, mas daria movimento sistólico anterior, não folheto com segmento solto.",
+   "A ruptura de parede livre se apresenta com derrame pericárdico, tamponamento ou dissociação eletromecânica, não com refluxo mitral grave.",
+   "Correta: edema pulmonar súbito no 3º dia, sopro suave e folheto com segmento solto (flail) definem a ruptura, mais comum no músculo posteromedial, de irrigação única.",
+   "A comunicação interventricular costuma dar sopro holossistólico rude com frêmito paraesternal, e o eco mostraria fluxo pelo septo, que está íntegro."
+  ]
+ },
+ {
+  "q": "Mulher de 56 anos, 68 kg, com infarto anterior extenso e supradesnivelamento de ST de 4 mm de V1 a V5, foi atendida em hospital sem hemodinâmica, a 3 horas do centro de referência. Recebeu tenecteplase 35 mg, ácido acetilsalicílico, clopidogrel 300 mg e enoxaparina 50 minutos após o início da dor. Noventa minutos após o trombolítico, mantém dor 7/10, o supradesnivelamento caiu de 4 para 3 mm na derivação de maior elevação e há salvas de taquicardia ventricular não sustentada. Pressão de 108/70 mmHg, sem congestão. Qual é a conduta?",
+  "alts": [
+   "Aguardar 24 horas e então transferir para cateterismo",
+   "Iniciar nitroglicerina e reavaliar em 6 horas",
+   "Repetir a tenecteplase em dose plena",
+   "Associar tirofibana e manter no hospital de origem",
+   "Transferir já para angioplastia de resgate"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ESC 2023 e ACC/AHA 2025 de síndromes coronarianas agudas: falha de fibrinólise e angioplastia de resgate imediata (classe I)",
+  "coment": "Depois do fibrinolítico, o paciente é reavaliado em 60 a 90 minutos. Falha de reperfusão se reconhece por dor persistente, resolução do supradesnivelamento menor que 50% na derivação de maior elevação e instabilidade hemodinâmica ou elétrica. A paciente tem os três: dor 7/10, queda de 4 para 3 mm (25%) e salvas de taquicardia ventricular. As diretrizes europeia de 2023 e americana de 2025 recomendam angiografia imediata com angioplastia de resgate (classe I), o que obriga a transferir mesmo a 3 horas do centro. Repetir o trombolítico não é recomendado. Se a fibrinólise tivesse funcionado, o caminho seria a estratégia fármaco-invasiva, com coronariografia entre 2 e 24 horas. A dose de tenecteplase foi correta para 68 kg (35 mg na faixa de 60 a 69 kg), e o clopidogrel de 300 mg é o ataque de quem tem até 75 anos e recebeu trombolítico.",
+  "porAlt": [
+   "A janela de 2 a 24 horas é para a fibrinólise bem-sucedida; com falha, esperar mantém a artéria ocluída e o miocárdio em risco.",
+   "Tratar a dor com nitrato e observar perde o tempo em que o resgate ainda salva miocárdio num infarto anterior extenso.",
+   "Nova fibrinólise não melhorou desfechos nos ensaios e aumenta sangramento; a falha do trombolítico é indicação de hemodinâmica.",
+   "Inibidor de glicoproteína IIb/IIIa após trombolítico aumenta sangramento e não substitui a reabertura mecânica da artéria.",
+   "Correta: dor persistente, resolução do supra abaixo de 50% e arritmia em 60 a 90 minutos definem falha de reperfusão, com indicação de resgate imediato."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos chega com infarto anterior com supradesnivelamento do segmento ST há 4 horas, pressão de 78/50 mmHg em noradrenalina, extremidades frias, lactato de 5,1 mmol/L e diurese de 15 mL/h. Está acordado e orientado. A coronariografia mostra oclusão trombótica do terço proximal da descendente anterior, lesão de 85% na coronária direita média e de 80% na circunflexa. A descendente anterior é tratada com stent, com fluxo final TIMI 3. O hemodinamicista pergunta se trata também as outras duas lesões no mesmo procedimento. Qual é a resposta mais adequada?",
+  "alts": [
+   "Tratar a coronária direita agora e a circunflexa depois",
+   "Tratar só a culpada agora e reavaliar as demais",
+   "Encaminhar à cirurgia de urgência para as outras duas",
+   "Fazer FFR das duas e tratar no mesmo procedimento",
+   "Tratar as três artérias agora, no mesmo tempo"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2023 e ACC/AHA 2025 de síndromes coronarianas agudas: choque cardiogênico, angioplastia só da artéria culpada (CULPRIT-SHOCK)",
+  "coment": "No infarto com supradesnivelamento estável e doença multiarterial, a revascularização completa passou a ser padrão: a ESC 2023 a recomenda no procedimento índice ou em até 45 dias (I, A), e a americana de 2025 também dá classe 1. O choque cardiogênico é a exceção. No CULPRIT-SHOCK, a angioplastia imediata de todas as lesões aumentou o composto de morte ou insuficiência renal com terapia substitutiva em 30 dias, comparada a tratar só a artéria culpada, com revascularização estagiada depois se necessário. Por isso, angioplastia de rotina das não culpadas no mesmo tempo é classe III (dano, B-R na americana). Para este paciente, desperto e em choque grave, a americana de 2025 considera razoável a bomba de fluxo microaxial (2a, DanGer-SHOCK), enquanto o balão intra-aórtico de rotina não é recomendado. As lesões restantes serão reavaliadas depois da estabilização.",
+  "porAlt": [
+   "Tratar uma não culpada no mesmo tempo repete o erro, com mais contraste e tempo de procedimento num rim já hipoperfundido.",
+   "Correta: no choque cardiogênico, a angioplastia de rotina das não culpadas no mesmo tempo é classe III (dano), pelo CULPRIT-SHOCK.",
+   "Cirurgia de urgência das lesões não culpadas num paciente em choque já reperfundido acrescenta risco sem benefício demonstrado.",
+   "Avaliação fisiológica é pouco confiável no choque, com microcirculação alterada, e não muda a regra de tratar só a culpada agora.",
+   "Abrir tudo no choque aumentou morte e insuficiência renal com terapia substitutiva em 30 dias no CULPRIT-SHOCK."
+  ]
+ },
+ {
+  "q": "Homem de 54 anos, dislipidêmico, procura o pronto-socorro com dor torácica em aperto há 70 minutos, com sudorese. Pressão de 132/80 mmHg nos dois braços, pulsos simétricos. O eletrocardiograma de 12 derivações mostra infradesnivelamento horizontal de ST de 2 mm de V1 a V3, com onda R ampla em V2 e onda T positiva, sem supradesnivelamento nas demais derivações. Nas derivações V7 a V9 há supradesnivelamento de 1 mm. A troponina ultrassensível inicial é de 9 ng/L. O hospital tem hemodinâmica disponível em 30 minutos. Como classificar e conduzir?",
+  "alts": [
+   "Isquemia subendocárdica: repetir troponina em 1 hora",
+   "Infarto posterior com supra: angioplastia primária",
+   "Sem supra de muito alto risco: fibrinólise imediata",
+   "Sem supra de alto risco: cateterismo em 24 horas",
+   "Dissecção de aorta provável: angiotomografia antes"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "ESC 2023 e ACC/AHA 2025 de síndromes coronarianas agudas: infarto posterior isolado, derivações V7 a V9 e reperfusão imediata",
+  "coment": "Infradesnivelamento isolado de V1 a V3 com onda R ampla e onda T positiva é a imagem especular de um supradesnivelamento posterior, em geral por oclusão da circunflexa. O passo seguinte são as derivações V7 a V9: supradesnivelamento de 0,5 mm ou mais (1 mm em homens abaixo de 40 anos) confirma infarto posterior com supradesnivelamento, que as diretrizes europeia de 2023 e americana de 2025 tratam como equivalente de supra, com reperfusão imediata. Com hemodinâmica em 30 minutos, a angioplastia primária é a escolha, com meta de até 90 minutos do primeiro contato. A troponina inicial normal não muda a conduta, porque a apresentação é precoce e a reperfusão não depende do marcador. O infarto posterior é a única situação em que infra de ST não contraindica fibrinolítico, o que importaria se a hemodinâmica estivesse distante. Ler esse traçado como sem supra leva à espera de 24 horas por uma artéria ocluída.",
+  "porAlt": [
+   "A troponina não entra na decisão de reperfusão quando há supradesnivelamento; esperar o segundo valor perde miocárdio.",
+   "Correta: supradesnivelamento de 0,5 mm ou mais em V7 a V9 reclassifica o quadro como infarto com supra, com reperfusão imediata.",
+   "Com hemodinâmica em 30 minutos, a reperfusão é a angioplastia; e o rótulo de sem supra não combina com fibrinólise.",
+   "O infra de V1 a V3 com R ampla é o espelho do supra posterior; tratá-lo como sem supra adia a reperfusão de uma artéria ocluída.",
+   "Pressão e pulsos simétricos e eletrocardiograma típico de oclusão coronária não sustentam adiar a reperfusão por dissecção."
+  ]
+ },
+ {
+  "q": "Homem de 79 anos, 72 kg, hipertenso, chega a um hospital sem hemodinâmica 2 horas após o início de dor torácica, com supradesnivelamento de ST de 3 mm em DII, DIII e aVF. Pressão de 146/88 mmHg, Killip I, sem contraindicação a trombolítico. A transferência para angioplastia primária levaria cerca de 150 minutos. Filtração glomerular estimada (CKD-EPI 2021) de 52 mL/min/1,73 m². Já recebeu ácido acetilsalicílico 300 mg mastigado. Qual é a combinação mais adequada para a reperfusão?",
+  "alts": [
+   "Tenecteplase em meia dose e ticagrelor 180 mg",
+   "Tenecteplase em meia dose e clopidogrel 75 mg",
+   "Alteplase acelerada e prasugrel 60 mg de ataque",
+   "Tenecteplase plena e clopidogrel 300 mg de ataque",
+   "Transferir para angioplastia, sem trombolítico"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2023 de síndromes coronarianas agudas: tenecteplase em meia dose a partir de 75 anos (IIa, B); clopidogrel sem ataque acima de 75 anos (ACC/AHA 2025)",
+  "coment": "Com sintomas há 2 horas e atraso previsto de 150 minutos até a angioplastia primária, a fibrinólise é a escolha, seguida de transferência para coronariografia em 2 a 24 horas se funcionar ou imediata se falhar. No idoso, o ajuste de dose é o que reduz hemorragia intracraniana. Com base no STREAM, que reduziu a dose da tenecteplase à metade nos pacientes com 75 anos ou mais e eliminou o excesso de sangramento intracraniano, a diretriz europeia de 2023 recomenda considerar meia dose nessa faixa (IIa, B): para 72 kg, 20 mg em vez de 40 mg. O clopidogrel com trombolítico é dado sem ataque acima de 75 anos, 75 mg, enquanto até 75 anos o ataque é de 300 mg. A enoxaparina também muda: sem bólus intravenoso e 0,75 mg/kg de 12 em 12 horas, com teto de 75 mg nas duas primeiras doses. Prasugrel e ticagrelor não são recomendados com fibrinolítico.",
+  "porAlt": [
+   "Com fibrinolítico, o P2Y12 recomendado é o clopidogrel; os potentes não têm respaldo na fase aguda do idoso trombolisado.",
+   "Correta: a partir de 75 anos, meia dose de tenecteplase (IIa, B) e clopidogrel sem dose de ataque, 75 mg, para reduzir hemorragia intracraniana.",
+   "Prasugrel não é usado com fibrinolítico e exige cautela a partir de 75 anos; a tenecteplase em bólus é a opção prática.",
+   "Dose plena e ataque de clopidogrel aumentam hemorragia intracraniana no idoso; o ataque de 300 mg vale até 75 anos.",
+   "Com atraso previsto acima de 120 minutos e sintomas há 2 horas, a fibrinólise é a escolha; esperar 150 minutos prolonga a isquemia."
+  ]
+ },
+ {
+  "q": "Homem de 49 anos teve diagnóstico de miocardiopatia dilatada não isquêmica há 14 meses, com fração de ejeção de 26%, ressonância sem realce tardio e coronárias normais. Usa sacubitril-valsartana 97/103 mg de 12 em 12 horas, bisoprolol 10 mg, espironolactona 25 mg e dapagliflozina 10 mg. Está assintomático, corre 5 km três vezes por semana, pressão de 112/70 mmHg, frequência de 58 bpm. O ecocardiograma atual mostra fração de ejeção de 54% e diâmetros normais; NT-proBNP de 90 pg/mL. Pede para suspender os remédios, pois se considera curado. Qual é a orientação mais adequada?",
+  "alts": [
+   "Manter os quatro fármacos nas doses atuais",
+   "Manter só o betabloqueador e suspender os demais",
+   "Suspender tudo e repetir o ecocardiograma em 6 meses",
+   "Manter só a dapagliflozina, pelo efeito renal",
+   "Retirar os quatro fármacos de forma escalonada"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "AHA/ACC/HFSA 2022 e ESC 2021/2023 de insuficiência cardíaca (mantido na ESC 2026): fração de ejeção melhorada, manter a terapia (TRED-HF)",
+  "coment": "A fração de ejeção melhorada é definida pela diretriz americana de 2022 como fração previamente de 40% ou menos que, em medida posterior, passa de 40%. O prognóstico é melhor, mas a recuperação é remissão, não cura: a estrutura miocárdica continua vulnerável. No TRED-HF, pacientes com miocardiopatia dilatada e fração recuperada que tiveram a terapia retirada de forma gradual recaíram em cerca de 40% em 6 meses. Por isso, a americana de 2022 recomenda manter a terapia medicamentosa orientada por diretriz na fração melhorada (1, B-R), e as diretrizes europeias seguem a mesma linha, reforçada na de 2026, que recomenda manter a terapia fundamental na maior dose tolerada mesmo em quem ficou assintomático ou melhorou a fração. O paciente continua no estágio C, pois teve sintomas. A pressão e a frequência atuais não impedem a manutenção das doses.",
+  "porAlt": [
+   "Correta: na fração de ejeção melhorada, a terapia deve ser mantida para evitar recaída (AHA 2022, classe 1); no TRED-HF, 40% recaíram em 6 meses após a retirada.",
+   "Não há evidência de que um único fármaco sustente a remissão; a recaída no TRED-HF ocorreu com a retirada parcial e total.",
+   "Esperar a fração cair para retomar o tratamento expõe o paciente a nova disfunção e a eventos que a terapia preveniria.",
+   "O inibidor de SGLT2 não substitui o bloqueio neuro-hormonal que remodelou o ventrículo; a remissão depende do conjunto.",
+   "A retirada escalonada foi exatamente o braço do TRED-HF que teve recaída em cerca de 40% dos pacientes em 6 meses."
+  ]
+ },
+ {
+  "q": "Mulher de 63 anos com diabetes tipo 2 há 15 anos, sem insuficiência cardíaca, tem filtração glomerular de 48 mL/min/1,73 m² e relação albumina-creatinina urinária de 420 mg/g em duas amostras. Usa metformina 1 g de 12 em 12 horas, losartana 100 mg, anlodipino 5 mg, empagliflozina 10 mg e rosuvastatina 20 mg. Pressão de 128/76 mmHg, potássio de 4,5 mEq/L, hemoglobina glicada de 7,0%. Ecocardiograma sem alterações. Pela atualização europeia de 2023 da diretriz de insuficiência cardíaca, que acréscimo reduz o risco de internação por insuficiência cardíaca nessa paciente?",
+  "alts": [
+   "Espironolactona 50 mg uma vez ao dia",
+   "Associar enalapril à losartana",
+   "Finerenona 10 mg, titulada para 20 mg",
+   "Trocar losartana por sacubitril-valsartana",
+   "Trocar empagliflozina por sitagliptina"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2023, atualização focada de insuficiência cardíaca: finerenona no diabetes tipo 2 com doença renal crônica para prevenir internação (I, A)",
+  "coment": "A atualização focada europeia de 2023 trouxe uma recomendação de prevenção: no diabetes tipo 2 com doença renal crônica, inibidor de SGLT2 e finerenona reduzem o risco de internação por insuficiência cardíaca, ambos com classe I, nível A. A finerenona, antagonista mineralocorticoide não esteroidal, reduziu o composto cardiovascular, puxado pela internação por insuficiência cardíaca, no FIDELIO-DKD e no FIGARO-DKD, em pacientes já com bloqueio do sistema renina-angiotensina em dose máxima, albuminúria e potássio de até 5,0 mEq/L. A dose inicial depende da filtração: 10 mg entre 25 e 60 mL/min/1,73 m² e 20 mg acima de 60, com meta de 20 mg e potássio checado em 4 semanas. A paciente já tem losartana em dose máxima e empagliflozina, e a finerenona é o próximo acréscimo; a diretriz europeia de 2026 manteve essa indicação no estágio A. Duplo bloqueio com IECA e BRA continua proibido.",
+  "porAlt": [
+   "A espironolactona não foi testada para prevenir insuficiência cardíaca nesse perfil e causa mais hiperpotassemia; a evidência é da finerenona.",
+   "IECA com BRA é contraindicado: mais hiperpotassemia e lesão renal aguda sem ganho de desfecho (ONTARGET, VA NEPHRON-D).",
+   "Correta: no diabetes tipo 2 com doença renal crônica, a finerenona reduz internação por insuficiência cardíaca (I, A); com filtração de 25 a 60, inicia com 10 mg.",
+   "Sacubitril-valsartana é tratamento da insuficiência cardíaca de fração reduzida, não prevenção no diabético com doença renal.",
+   "Retirar o inibidor de SGLT2 perde a proteção cardiorrenal; inibidores da DPP-4 são neutros para insuficiência cardíaca."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos com insuficiência cardíaca de fração reduzida (fração de ejeção de 30%) usa furosemida 40 mg ao dia por via oral, sacubitril-valsartana, carvedilol, espironolactona e dapagliflozina. É internado com ortopneia, edema até a raiz das coxas e ganho de 7 kg; pressão de 124/78 mmHg, extremidades quentes, lactato de 1,2 mmol/L, creatinina de 1,4 mg/dL. Recebeu furosemida 80 mg intravenosa. Seis horas depois, a diurese total foi de 300 mL, e o sódio urinário colhido na segunda hora foi de 38 mmol/L. Qual é o próximo passo?",
+  "alts": [
+   "Repetir 80 mg e reavaliar em 12 horas",
+   "Indicar ultrafiltração como próxima etapa",
+   "Suspender sacubitril-valsartana pela creatinina",
+   "Dobrar a dose intravenosa da furosemida",
+   "Iniciar dobutamina para melhorar a diurese"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2021 de insuficiência cardíaca e atualização de 2023 (mantido na ESC 2026): resposta diurética guiada por natriurese e diurese nas primeiras horas",
+  "coment": "O paciente é quente e úmido: congesto, bem perfundido e com pressão preservada. A diretriz europeia de 2021 propôs avaliar cedo a resposta ao diurético de alça: sódio urinário na amostra de 2 horas abaixo de 50 a 70 mmol/L, ou diurese abaixo de 100 a 150 mL/h nas primeiras 6 horas, indicam resposta insuficiente. Ele teve 38 mmol/L e cerca de 50 mL/h. O passo seguinte é dobrar a dose intravenosa, até 400 a 600 mg/dia de furosemida, e reavaliar; persistindo a resposta ruim, associar outro diurético, como acetazolamida (ADVOR) ou tiazídico (CLOROTIC), o que a diretriz de 2026 classifica como IIa para quem já usava diurético de alça. A dose inicial, de 1 a 2 vezes a dose oral diária por via intravenosa, foi correta. Sacubitril-valsartana, betabloqueador, espironolactona e inibidor de SGLT2 são mantidos, e elevação discreta da creatinina durante a descongestão eficaz não piora o prognóstico.",
+  "porAlt": [
+   "Manter a dose que já falhou atrasa a descongestão; a resposta inadequada pede escalonar, não repetir.",
+   "Ultrafiltração fica para a falha de diurético em dose alta associado a outro diurético, não para a primeira resposta insuficiente.",
+   "Creatinina de 1,4 mg/dL num congesto quente não justifica retirar a terapia fundamental, que se mantém salvo hipoperfusão ou instabilidade.",
+   "Correta: sódio urinário abaixo de 50 a 70 mmol/L em 2 horas e diurese abaixo de 100 mL/h em 6 horas indicam resposta insuficiente; dobra-se a dose.",
+   "Inotrópico é para hipoperfusão com pressão baixa; este paciente está quente e com pressão de 124/78 mmHg."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos com insuficiência cardíaca de fração de ejeção de 32%, classe funcional II, usa enalapril 10 mg de 12 em 12 horas, carvedilol 25 mg de 12 em 12 horas, espironolactona 25 mg e dapagliflozina 10 mg. Pressão de 118/72 mmHg, potássio de 4,7 mEq/L, filtração glomerular de 58 mL/min/1,73 m², sem antecedente de angioedema. A equipe decide trocar o enalapril por sacubitril-valsartana. A última dose de enalapril foi às 8 horas de hoje. Como fazer a troca?",
+  "alts": [
+   "Suspender o enalapril e esperar 7 dias para iniciar",
+   "Iniciar sacubitril-valsartana hoje à noite, no lugar do enalapril",
+   "Iniciar sacubitril-valsartana 12 horas após o enalapril",
+   "Iniciar sacubitril-valsartana 36 horas após o enalapril",
+   "Associar sacubitril-valsartana ao enalapril por 1 semana"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2021/2023 e AHA/ACC/HFSA 2022 de insuficiência cardíaca: intervalo de 36 horas entre o último IECA e o sacubitril-valsartana",
+  "coment": "Trocar o inibidor da enzima conversora por sacubitril-valsartana em quem segue sintomático é recomendação classe I nas diretrizes europeias e na americana de 2022, com base no PARADIGM-HF, em que o sacubitril-valsartana reduziu morte cardiovascular ou internação em 20% em relação ao enalapril. A troca exige intervalo de pelo menos 36 horas após a última dose do IECA: a neprilisina e a enzima conversora degradam a bradicinina, e a inibição simultânea das duas aumenta muito o risco de angioedema. A diretriz americana classifica como dano (3: dano) dar sacubitril-valsartana junto ou em até 36 horas do IECA, e o fármaco é contraindicado em quem já teve angioedema. Na prática, a última dose foi às 8 horas de hoje, e a primeira do sacubitril-valsartana fica para depois das 20 horas de amanhã, com 49/51 mg de 12 em 12 horas (24/26 mg se pressão baixa ou filtração reduzida) e controle de potássio e creatinina em 1 a 2 semanas.",
+  "porAlt": [
+   "Uma semana sem bloqueio do sistema renina-angiotensina expõe a descompensação sem ganho de segurança além das 36 horas.",
+   "Iniciar 12 horas após o IECA sobrepõe os efeitos sobre a bradicinina e aumenta o risco de angioedema; é classe 3 de dano na americana.",
+   "Doze horas não bastam para eliminar o efeito do enalapril; o intervalo exigido é de pelo menos 36 horas.",
+   "Correta: o intervalo mínimo de 36 horas após a última dose de IECA reduz o risco de angioedema, pela soma da inibição da neprilisina e da ECA.",
+   "A associação é contraindicada pelo risco de angioedema grave; a troca é substituição, nunca sobreposição."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos com insuficiência cardíaca de fração de ejeção de 34%, classe funcional III, mantém cansaço apesar de oito meses de sacubitril-valsartana, succinato de metoprolol, espironolactona e empagliflozina em doses-alvo. Hemoglobina de 13,6 g/dL, volume corpuscular médio de 88 fL, ferritina de 240 ng/mL, saturação de transferrina de 13%, proteína C reativa normal, filtração de 61 mL/min/1,73 m². Endoscopia e colonoscopia recentes sem lesões. O residente conclui que, com ferritina normal e sem anemia, não há o que fazer quanto ao ferro. Qual é a conduta mais adequada?",
+  "alts": [
+   "Sulfato ferroso oral por 3 meses",
+   "Não repor ferro, pois a ferritina é normal",
+   "Alfaepoetina para elevar a hemoglobina",
+   "Carboximaltose férrica intravenosa",
+   "Transfusão para hemoglobina acima de 14"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2021 e atualização de 2023 de insuficiência cardíaca: deficiência de ferro com ferritina de 100 a 299 e saturação abaixo de 20%, ferro intravenoso (ESC 2026 mantém pela saturação)",
+  "coment": "Na insuficiência cardíaca, deficiência de ferro é definida por ferritina abaixo de 100 ng/mL, ou ferritina de 100 a 299 ng/mL com saturação de transferrina abaixo de 20%, independentemente da hemoglobina. A ferritina é reagente de fase aguda e fica falsamente tranquilizadora num estado inflamatório crônico como a insuficiência cardíaca; a saturação de 13% revela o ferro indisponível. A diretriz europeia de 2021 e a atualização de 2023 recomendam ferro intravenoso (carboximaltose ou derisomaltose férrica) na fração reduzida sintomática com deficiência, para melhorar sintomas e qualidade de vida (I, A na atualização) e considerado para reduzir internação (IIa). A diretriz de 2026 passou a apoiar a saturação abaixo de 20% como critério principal, o que este paciente também preenche. Ferro oral não funciona nesse contexto (IRONOUT-HF), e eritropoetina deve ser evitada. A investigação de perda digestiva, já feita, é parte da conduta.",
+  "porAlt": [
+   "Ferro oral não repõe os estoques nem melhora a capacidade funcional na insuficiência cardíaca (IRONOUT-HF).",
+   "Na insuficiência cardíaca, a ferritina sobe por inflamação; com saturação de 13%, há deficiência funcional apesar da ferritina normal.",
+   "Eritropoetina não reduziu eventos e aumentou trombose no RED-HF, e o paciente nem tem anemia.",
+   "Correta: ferritina de 100 a 299 com saturação abaixo de 20% define deficiência de ferro na insuficiência cardíaca, com ou sem anemia, e o ferro é intravenoso.",
+   "Transfundir paciente sem anemia não trata a deficiência de ferro tecidual e acrescenta risco de congestão."
+  ]
+ },
+ {
+  "q": "Homem de 59 anos teve infarto anterior extenso há 18 dias, tratado com angioplastia primária da descendente anterior 6 horas após o início da dor. Ecocardiograma antes da alta: fração de ejeção de 30%, acinesia anterosseptal e apical, sem trombo. Está em classe funcional II e usa ácido acetilsalicílico, ticagrelor, atorvastatina 80 mg, sacubitril-valsartana 24/26 mg, bisoprolol 2,5 mg, espironolactona 25 mg e dapagliflozina. Holter sem arritmia ventricular sustentada, sem síncope. A família pede o cardiodesfibrilador já, por medo de morte súbita. Qual é a conduta?",
+  "alts": [
+   "Titular a terapia e reavaliar a fração após 3 meses",
+   "Implantar desfibrilador subcutâneo já, pelo menor risco",
+   "Implantar cardiodesfibrilador antes da alta hospitalar",
+   "Implantar ressincronizador com desfibrilador agora",
+   "Indicar amiodarona profilática por 6 meses"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ESC 2021 de insuficiência cardíaca e ESC 2022 de arritmias ventriculares: desfibrilador de prevenção primária não indicado nos primeiros 40 dias após infarto (III)",
+  "coment": "O cardiodesfibrilador de prevenção primária na miocardiopatia isquêmica é indicado com fração de ejeção de 35% ou menos, classe funcional II ou III, após pelo menos 3 meses de terapia otimizada e fora dos 40 dias após o infarto. Implantá-lo nos primeiros 40 dias é classe III na diretriz europeia de 2021 de insuficiência cardíaca: no DINAMIT e no IRIS, o dispositivo precoce reduziu morte arrítmica, mas a mortalidade não arrítmica aumentou e a total não mudou. Além disso, a fração de ejeção costuma melhorar com a reperfusão e a terapia fundamental, e parte dos pacientes sai da indicação. A conduta é titular sacubitril-valsartana e betabloqueador, que estão em doses baixas, e repetir o ecocardiograma após 40 dias e 3 meses de terapia otimizada. O colete desfibrilador nesse intervalo tem utilidade incerta (2b na americana de 2025). Arritmia ventricular sustentada após 48 horas mudaria a discussão para prevenção secundária.",
+  "porAlt": [
+   "Correta: CDI de prevenção primária antes de 40 dias do infarto é classe III; a indicação se decide com fração de 35% ou menos após 3 meses de terapia otimizada.",
+   "Trocar o tipo de dispositivo não muda a evidência: a prevenção primária precoce após infarto não reduziu mortalidade total.",
+   "No DINAMIT e no IRIS, o CDI precoce após infarto reduziu morte arrítmica mas não a mortalidade total, daí a classe III antes de 40 dias.",
+   "Não há bloqueio de ramo esquerdo com QRS largo descrito, e o momento do desfibrilador é o mesmo problema: cedo demais.",
+   "Amiodarona profilática não reduz mortalidade na disfunção ventricular pós-infarto e soma toxicidade."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos com miocardiopatia isquêmica, fração de ejeção de 36% e classe funcional II, em uso de sacubitril-valsartana, carvedilol, espironolactona e dapagliflozina, é internada com tonturas e pré-síncope. O eletrocardiograma mostra bloqueio atrioventricular total com escape de QRS largo a 38 bpm, persistente após 72 horas, sem causa reversível: amiodarona e outros bradicardizantes foram afastados, o carvedilol foi suspenso na admissão e o potássio está normal. O ecocardiograma confirma a fração de 36%. Qual é o dispositivo mais adequado?",
+  "alts": [
+   "Marca-passo temporário até a fração passar de 40%",
+   "Marca-passo bicameral convencional no ventrículo direito",
+   "Ressincronizador, no lugar de marca-passo no ventrículo direito",
+   "Cardiodesfibrilador unicameral, sem estimulação ventricular",
+   "Marca-passo unicameral ventricular com frequência de 60"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ESC 2021 de insuficiência cardíaca (classe I) e ESC 2026 (IIa): ressincronização em vez de estimulação do ventrículo direito no bloqueio atrioventricular de alto grau com fração reduzida",
+  "coment": "A paciente tem bloqueio atrioventricular total persistente, sem causa reversível, e precisará de estimulação ventricular quase contínua. A estimulação crônica do ventrículo direito produz ativação semelhante ao bloqueio de ramo esquerdo e, em quem já tem fração reduzida, acelera a piora da função. No BLOCK-HF, com fração de 50% ou menos e bloqueio atrioventricular, a ressincronização reduziu o composto de morte, eventos de insuficiência cardíaca e aumento do volume sistólico em comparação com a estimulação do ventrículo direito. A diretriz europeia de 2021 recomendou ressincronização em vez de estimulação do ventrículo direito na fração reduzida com indicação de estimulação por bloqueio de alto grau, independentemente da classe funcional e da largura do QRS (classe I); a de 2026 manteve a recomendação, rebaixada para IIa. Como a fração é de 36%, acima do corte de 35% para desfibrilador, o dispositivo é o ressincronizador sem desfibrilador. O carvedilol pode ser retomado após o implante.",
+  "porAlt": [
+   "O bloqueio é persistente e sem causa reversível; manter marca-passo temporário expõe a infecção e deslocamento sem perspectiva de recuperação.",
+   "A estimulação crônica do ventrículo direito cria dissincronia e piora a função de quem já tem fração de 36% (BLOCK-HF).",
+   "Correta: com fração reduzida e necessidade de estimulação ventricular por bloqueio de alto grau, a ressincronização é preferível à estimulação do ventrículo direito.",
+   "O problema dominante é o bloqueio total, que exige estimulação; com fração de 36%, o desfibrilador de prevenção primária nem está indicado.",
+   "Além da dissincronia do ventrículo direito, perde o sincronismo atrioventricular de uma paciente em ritmo sinusal."
+  ]
+ },
+ {
+  "q": "Homem de 57 anos, autodeclarado negro, tem insuficiência cardíaca de fração de ejeção de 25% por miocardiopatia hipertensiva e mantém dispneia aos pequenos esforços (classe funcional III) apesar de seis meses de sacubitril-valsartana 97/103 mg de 12 em 12 horas, succinato de metoprolol 200 mg, espironolactona 25 mg e dapagliflozina 10 mg. Pressão de 126/80 mmHg, frequência de 64 bpm em ritmo sinusal, QRS de 104 ms, potássio de 4,6 mEq/L. Sem internação no último ano. Pela diretriz americana de 2022, qual acréscimo tem recomendação classe 1?",
+  "alts": [
+   "Ivabradina 5 mg de 12 em 12 horas",
+   "Digoxina com nível sérico abaixo de 1,2",
+   "Vericiguate titulado até 10 mg ao dia",
+   "Hidralazina com dinitrato de isossorbida",
+   "Terapia de ressincronização cardíaca"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ACC/HFSA 2022 de insuficiência cardíaca: hidralazina com dinitrato em negros autodeclarados em classe III a IV com terapia otimizada (1, A)",
+  "coment": "O paciente está com os quatro pilares em doses-alvo e continua em classe funcional III. A diretriz americana de 2022 recomenda, para pacientes autodeclarados afro-americanos com fração reduzida em classe III ou IV apesar de terapia otimizada, o acréscimo de hidralazina com dinitrato de isossorbida para melhorar sintomas e reduzir morbidade e mortalidade (1, A). A base é o A-HeFT, que mostrou redução de 43% na mortalidade e de internações nessa população, somando o fármaco à terapia da época. A diretriz europeia trata a associação com classe IIa, e a de 2026 a mantém em IIa para negros autodeclarados com fração de 40% ou menos. Fora desse grupo, a americana dá 2b à associação apenas para quem não tolera IECA, BRA ou sacubitril-valsartana. As demais opções não se aplicam: frequência abaixo de 70 bpm afasta ivabradina, QRS estreito afasta ressincronização e vericiguate pede evento recente de piora.",
+  "porAlt": [
+   "Ivabradina exige frequência de repouso de 70 bpm ou mais em ritmo sinusal com betabloqueador máximo; com 64 bpm não há indicação.",
+   "Digoxina na diretriz americana é 2b, para reduzir internação, e não alcança a classe 1 deste caso.",
+   "Vericiguate é 2b e se destina a quem teve piora recente, com internação ou diurético intravenoso, o que não ocorreu.",
+   "Correta: em negros autodeclarados em classe III ou IV com terapia otimizada, a associação reduz morbidade e mortalidade (1, A, A-HeFT).",
+   "Com QRS de 104 ms, a ressincronização não traz benefício e é contraindicada abaixo de 130 ms sem indicação de estimulação."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos, hipertensa há 20 anos e diabética, assintomática, caminha 40 minutos por dia sem dispneia. Usa losartana, anlodipino e metformina. Exame físico sem estase jugular, edema ou terceira bulha. O ecocardiograma, pedido por um sopro sistólico, mostra hipertrofia concêntrica do ventrículo esquerdo (índice de massa de 118 g/m²), átrio esquerdo de 38 mL/m², E/e' médio de 14 e fração de ejeção de 62%. NT-proBNP de 310 pg/mL. Pela classificação da diretriz americana de 2022, em que estágio ela se encontra?",
+  "alts": [
+   "Estágio B, pré-insuficiência cardíaca",
+   "Estágio C, insuficiência de fração levemente reduzida",
+   "Estágio C, insuficiência de fração preservada",
+   "Estágio D, com disfunção diastólica avançada",
+   "Estágio A, em risco de insuficiência cardíaca"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AHA/ACC/HFSA 2022 de insuficiência cardíaca: estágios A a D, pré-insuficiência cardíaca no estágio B",
+  "coment": "A diretriz americana de 2022 reformulou os estágios da insuficiência cardíaca. Estágio A, em risco: hipertensão, diabetes, obesidade, aterosclerose ou exposição a cardiotóxicos, sem sintomas, sem alteração estrutural e sem biomarcador elevado. Estágio B, pré-insuficiência: sem sintomas atuais ou prévios, mas com doença estrutural (hipertrofia, aumento de câmaras, alteração segmentar, disfunção sistólica ou valvopatia), evidência de pressão de enchimento elevada, ou fatores de risco com peptídeo natriurético ou troponina persistentemente elevados. Estágio C: sintomas atuais ou prévios. Estágio D: sintomas avançados que interferem na vida diária e internações recorrentes apesar de terapia otimizada. A paciente tem hipertrofia concêntrica, átrio esquerdo dilatado, E/e' de 14 e NT-proBNP elevado, sem nenhum sintoma: estágio B. A conduta é impedir a progressão: pressão abaixo de 130/80 mmHg e inibidor de SGLT2 pelo diabetes. A diretriz europeia de 2026 adotou o mesmo estadiamento.",
+  "porAlt": [
+   "Correta: doença estrutural e sinais de pressão de enchimento elevada, sem sintomas atuais ou prévios, definem o estágio B.",
+   "Além de não ter sintomas, a fração de 62% está na faixa preservada, não entre 41% e 49%.",
+   "O estágio C exige sintomas ou sinais atuais ou prévios de insuficiência cardíaca, e ela é assintomática e sem congestão.",
+   "O estágio D é a insuficiência avançada, com sintomas refratários à terapia otimizada, o oposto deste quadro.",
+   "O estágio A tem fatores de risco sem alteração estrutural nem biomarcador elevado; a hipertrofia e o átrio dilatado já a tiram desse estágio."
+  ]
+ },
+ {
+  "q": "Homem de 78 anos com insuficiência cardíaca de fração de ejeção de 35% foi internado há 5 dias por congestão e recebeu furosemida 80 mg intravenosa de 8 em 8 horas, com perda de 9 kg. Hoje está sonolento, com pressão de 86/54 mmHg (era 128/76 na admissão), frequência de 104 bpm, extremidades frias, mucosas secas, jugulares colabadas a 45 graus, pulmões limpos e sem edema. A creatinina subiu de 1,3 para 2,6 mg/dL, o sódio é de 131 mEq/L e o lactato de 2,6 mmol/L. O ultrassom mostra veia cava inferior de 0,9 cm com colapso inspiratório total. Qual é a conduta?",
+  "alts": [
+   "Associar hidroclorotiazida para vencer a resistência",
+   "Iniciar dobutamina e manter a furosemida",
+   "Iniciar noradrenalina e manter o diurético",
+   "Indicar hemodiálise pela piora da creatinina",
+   "Suspender o diurético e repor volume com cautela"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "ESC 2021 de insuficiência cardíaca aguda e AHA/ACC/HFSA 2022: perfis hemodinâmicos, frio e seco por hipovolemia após descongestão excessiva",
+  "coment": "A classificação à beira do leito combina perfusão (quente ou frio) e congestão (úmido ou seco). O paciente chegou quente e úmido e, após 5 dias de diurético intravenoso em dose alta e 9 kg perdidos, passou a frio e seco: hipotensão, extremidades frias, sonolência, lactato elevado, jugulares colabadas, pulmões limpos e veia cava pequena e colapsável. A piora da creatinina e a hiponatremia acompanham a contração de volume. A conduta é suspender o diurético e repor volume em pequenas alíquotas, com reavaliação clínica e ultrassonográfica entre elas, já que o ventrículo tem fração de 35% e a margem para congestão é estreita. Os fármacos que baixam pressão, como sacubitril-valsartana e betabloqueador, devem ser reduzidos ou pausados enquanto houver hipoperfusão, e retomados depois. Inotrópico fica para a hipoperfusão que persiste com volemia adequada. O caso ilustra por que a descongestão é guiada por metas diárias de peso e balanço, e não por dose fixa.",
+  "porAlt": [
+   "Não há congestão a vencer; acrescentar diurético aprofunda a hipovolemia, a lesão renal e a hiponatremia.",
+   "Inotrópico com diurético num paciente sem congestão trata o débito baixo pela via errada e mantém a perda de volume.",
+   "Vasopressor sem corrigir a hipovolemia aumenta a pós-carga de um ventrículo doente e não restaura a pré-carga perdida.",
+   "A lesão renal é pré-renal, por hipoperfusão; sem hiperpotassemia grave, acidose ou congestão refratária, não há indicação de diálise.",
+   "Correta: perfil frio e seco por hipovolemia após descongestão excessiva; a hipoperfusão responde a suspender o diurético e repor volume em alíquotas."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos, índice de massa corporal de 41 kg/m², hipertensa e diabética, refere dispneia aos médios esforços há 8 meses e edema vespertino de tornozelos. Pressão de 148/86 mmHg, frequência de 82 bpm em ritmo sinusal. NT-proBNP de 110 pg/mL. O ecocardiograma mostra fração de ejeção de 64%, átrio esquerdo de 42 mL/m², E/e' médio de 15, velocidade de regurgitação tricúspide de 3,0 m/s e hipertrofia concêntrica. Espirometria e tomografia de tórax normais; hemoglobina de 13 g/dL, TSH normal. O residente descarta insuficiência cardíaca pelo peptídeo. Qual é a interpretação mais adequada?",
+  "alts": [
+   "Fração preservada exige NT-proBNP acima de 900",
+   "Insuficiência descartada pelo NT-proBNP abaixo de 125",
+   "Dispneia por obesidade, sem doença cardíaca associada",
+   "Fração preservada provável; obesidade baixa o peptídeo",
+   "Hipertensão pulmonar primária pela velocidade tricúspide"
+  ],
+  "gab": 3,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ESC 2021 de insuficiência cardíaca e consenso HFA-PEFF de 2019: fração preservada no obeso com peptídeo natriurético falsamente baixo",
+  "coment": "O diagnóstico de insuficiência cardíaca de fração preservada exige sintomas ou sinais, fração de ejeção de 50% ou mais e evidência objetiva de alteração estrutural ou funcional compatível com disfunção diastólica ou pressão de enchimento elevada. O peptídeo natriurético apoia, mas tem uma armadilha conhecida: a obesidade reduz seus níveis, por maior depuração pelo tecido adiposo e menor produção, e valores abaixo do corte são frequentes em obesos com a doença. A paciente tem átrio esquerdo de 42 mL/m² (acima de 34 em ritmo sinusal), E/e' de 15 (pressão de enchimento elevada), velocidade de regurgitação tricúspide acima de 2,8 m/s e hipertrofia, com espirometria, tomografia, hemoglobina e TSH normais. O consenso HFA-PEFF e o escore H2FPEF (obesidade, hipertensão, idade, pressão pulmonar e E/e') dão alta probabilidade. Na dúvida, teste de esforço diastólico ou hemodinâmica invasiva confirmam. O tratamento inclui inibidor de SGLT2 (ESC 2023, I, A) e controle de peso e pressão.",
+  "porAlt": [
+   "Esse valor é corte da emergência por faixa etária; no ambulatório, e sobretudo no obeso, o diagnóstico se apoia no ecocardiograma.",
+   "O valor abaixo do corte tem menor valor preditivo negativo no obeso; com alterações estruturais e de enchimento, o peptídeo não exclui.",
+   "Atribuir a dispneia ao peso ignora três critérios ecocardiográficos de pressão de enchimento elevada e a hipertrofia.",
+   "Correta: obesidade reduz o NT-proBNP, e átrio dilatado, E/e' elevado e pressão pulmonar alta sustentam insuficiência de fração preservada.",
+   "A pressão pulmonar elevada com átrio esquerdo grande e E/e' alto aponta para causa pós-capilar, do coração esquerdo."
+  ]
+ },
+ {
+  "q": "Homem de 72 anos, independente e sem fragilidade, hipertenso e com doença arterial coronariana estável, usa losartana 100 mg e anlodipino 5 mg. Na consulta, a pressão é de 136/82 mmHg, média de duas medidas corretas; a monitorização residencial de 7 dias mostra média de 134/83 mmHg. Sem hipotensão ortostática, frequência de 70 bpm, filtração de 68 mL/min/1,73 m², potássio de 4,3 mEq/L. Ele pergunta se a pressão está boa, pois um colega disse que, na idade dele, abaixo de 140 é o ideal. Pela diretriz brasileira de 2025, qual é a conduta?",
+  "alts": [
+   "Intensificar o tratamento até menos de 130/80",
+   "Manter o esquema, pois está abaixo de 140/90",
+   "Reduzir o anlodipino, pela idade acima de 70",
+   "Manter o esquema e repetir a MRPA em 1 ano",
+   "Manter, pois a meta do idoso é abaixo de 150/90"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025 (SBC/SBH/SBN): meta abaixo de 130/80 mmHg para todo hipertenso, inclusive o idoso não frágil",
+  "coment": "A diretriz brasileira de 2025 simplificou as metas: abaixo de 130/80 mmHg para todo hipertenso, qualquer que seja o risco, com recomendação forte e certeza alta, e confirmação do controle por MAPA ou MRPA. A régua escalonada por idade ou risco acabou, e o documento afirma não haver evidência consistente de curva J até 120/70 mmHg; na doença coronariana, reduzir até esse valor não aumenta risco. O que permanece individualizado é a tolerância: no frágil, no muito idoso, na hipotensão ortostática sintomática e com expectativa de vida curta, busca-se o menor valor tolerado. O paciente tem 72 anos, é independente, não tem ortostatismo e a MRPA mostra 134/83 mmHg, acima do corte de 130/80 que define controle inadequado no tratado. A intensificação pode ser aumentar o anlodipino para 10 mg ou acrescentar um tiazídico similar, completando a combinação de três classes. A diretriz europeia de 2024 vai na mesma direção, com sistólica de 120 a 129 mmHg se tolerada.",
+  "porAlt": [
+   "Correta: a meta da diretriz brasileira de 2025 é abaixo de 130/80 mmHg para todo hipertenso, inclusive o idoso não frágil, confirmada fora do consultório.",
+   "Abaixo de 140/90 é o limiar de diagnóstico no consultório, não a meta do tratado; a MRPA de 134/83 está acima do alvo.",
+   "Idade não justifica desintensificar em quem é independente e tolera a pressão; a exceção é o frágil ou com ortostatismo.",
+   "Esperar 1 ano com a pressão fora da meta é inércia terapêutica, causa frequente de controle insuficiente.",
+   "Metas de 150/90 para idosos foram abandonadas; a diretriz de 2025 usa meta única, ajustada só pela tolerância."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos, sem diabetes, ex-tabagista, tem pressão de consultório de 136/86 mmHg em três visitas e média de 133/84 mmHg na monitorização residencial. O ecocardiograma mostra hipertrofia ventricular esquerda concêntrica (índice de massa de 124 g/m²), e o eletrocardiograma tem critério de Sokolow-Lyon. Filtração de 82 mL/min/1,73 m², relação albumina-creatinina de 18 mg/g, LDL de 96 mg/dL. Seguiu por 3 meses dieta com menos sódio, perdeu 4 kg e passou a fazer atividade física regular, sem queda adicional da pressão. Pela diretriz brasileira de 2025, qual é a conduta?",
+  "alts": [
+   "Iniciar um anti-hipertensivo, com meta abaixo de 130/80",
+   "Manter medidas não medicamentosas e reavaliar em 1 ano",
+   "Iniciar dois fármacos em comprimido único, meta de 120/70",
+   "Manter medidas e iniciar fármaco só acima de 140/90",
+   "Repetir a MAPA e decidir só se passar de 140/90"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025: pré-hipertensão de alto risco, fármaco após 3 meses de medidas não medicamentosas, em monoterapia",
+  "coment": "Pela diretriz brasileira de 2025, pressão de 120 a 139 e/ou 80 a 89 mmHg é pré-hipertensão; a antiga faixa de pressão normal foi absorvida por ela. Medidas não medicamentosas são indicadas a todos a partir de 120/80 mmHg, e o que decide o fármaco nessa faixa é o risco: na pressão de 130 a 139 e/ou 80 a 89 mmHg com alto risco, o tratamento medicamentoso começa após 3 meses de medidas não medicamentosas (forte, alta), com meta abaixo de 130/80 mmHg. Lesão de órgão-alvo, doença renal crônica estágio 3 ou diabetes já classificam a pré-hipertensão como alto risco, e a hipertrofia ventricular esquerda confirmada pelo ecocardiograma e pelo eletrocardiograma é lesão de órgão-alvo. Nesse cenário a diretriz aceita monoterapia, em vez da dupla inicial reservada à hipertensão a partir de 140/90 mmHg; um bloqueador do sistema renina-angiotensina favorece a regressão da hipertrofia. Pela diretriz americana de 2025, essa pressão já seria estágio 1.",
+  "porAlt": [
+   "Correta: pré-hipertensão com lesão de órgão-alvo é de alto risco; após 3 meses de medidas, inicia-se fármaco, em monoterapia, com meta abaixo de 130/80.",
+   "A conduta só com medidas vale para a pré-hipertensão de risco baixo ou moderado; a hipertrofia ventricular muda o estrato.",
+   "A dupla inicial é para hipertensão a partir de 140/90; na pré-hipertensão de alto risco a diretriz indica monoterapia.",
+   "Essa regra deixaria sem tratamento um paciente com lesão de órgão-alvo instalada, que é exatamente quem a diretriz quer tratar.",
+   "A MRPA já confirmou a faixa; esperar 140/90 ignora que, no alto risco, o gatilho é o risco, não o número."
+  ]
+ },
+ {
+  "q": "Mulher de 84 anos, viúva, mora sozinha e faz as próprias compras, sem quedas. Tem pressão de consultório de 156/82 mmHg em duas visitas, confirmada por MRPA com média de 148/80 mmHg. Pressão em pé após 3 minutos de 150/80 mmHg. Tem osteoartrose de joelhos, filtração de 54 mL/min/1,73 m², potássio de 4,4 mEq/L e eletrocardiograma normal. Não usa medicamentos além de paracetamol eventual. Pela diretriz brasileira de 2025, como iniciar o tratamento?",
+  "alts": [
+   "Medidas não medicamentosas por 6 meses, pela idade",
+   "Betabloqueador como primeira escolha no idoso",
+   "Monoterapia em dose baixa, titulada pela tolerância",
+   "Dois fármacos em dose baixa, em comprimido único",
+   "Três fármacos em dose baixa, para meta em 4 semanas"
+  ],
+  "gab": 2,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025: monoterapia inicial a partir de 80 anos, no frágil e na hipotensão ortostática; a ESC 2024 usa exceção semelhante",
+  "coment": "A diretriz brasileira de 2025 recomenda iniciar o tratamento com dois fármacos em doses baixas, de preferência em comprimido único, para a maioria dos hipertensos, porque a dupla controla mais e com menos efeitos adversos do que a monoterapia em dose máxima. As exceções, em que a monoterapia é aceita, são a pré-hipertensão de alto risco, o estágio 1 de baixo risco a critério médico, os frágeis, os pacientes com 80 anos ou mais e a hipotensão ortostática sintomática. A paciente tem 84 anos e estágio 1 confirmado por MRPA, sem ortostatismo, e se beneficia do tratamento, como mostrou o HYVET em maiores de 80 anos. Começa-se com um fármaco de classe preferencial (bloqueador de cálcio di-hidropiridínico, IECA ou BRA, ou tiazídico similar em dose baixa), com titulação lenta, medida em pé a cada retorno e controle de função renal e eletrólitos. A meta segue abaixo de 130/80 mmHg se tolerada; se não, o menor valor tolerado. A diretriz europeia de 2024 traz exceção semelhante, a partir de 85 anos ou na fragilidade.",
+  "porAlt": [
+   "Estágio 1 confirmado num octogenário tem benefício comprovado do tratamento (HYVET); adiar 6 meses não se justifica.",
+   "Betabloqueador não é classe preferencial na hipertensão sem indicação específica e protege menos contra AVC no idoso.",
+   "Correta: a partir de 80 anos, a diretriz aceita monoterapia inicial, com titulação lenta e medida em pé, buscando a meta que for tolerada.",
+   "A dupla inicial é a regra geral, mas idade de 80 anos ou mais é uma das exceções em que a monoterapia é preferível.",
+   "Tripla inicial num octogenário multiplica o risco de hipotensão, queda e lesão renal sem necessidade."
+  ]
+ },
+ {
+  "q": "Homem de 61 anos, hipertenso há 12 anos, usa losartana 100 mg, anlodipino 10 mg e hidroclorotiazida 25 mg há 4 meses. A contagem de comprimidos e o registro da farmácia confirmam boa adesão, e o manguito é adequado à circunferência do braço. Não usa anti-inflamatório nem descongestionante e não abusa de álcool. A MAPA de 24 horas mostra média de 141/86 mmHg, com descenso noturno preservado. Potássio de 4,0 mEq/L, filtração de 74 mL/min/1,73 m², sem roncos ou sonolência diurna. Pela diretriz brasileira de 2025, qual é o próximo passo?",
+  "alts": [
+   "Acrescentar atenolol 50 mg ao esquema",
+   "Trocar a hidroclorotiazida por clortalidona",
+   "Trocar a losartana por enalapril 20 mg 12/12 h",
+   "Indicar denervação simpática renal",
+   "Acrescentar espironolactona 25 mg ao esquema"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025: na tripla sem controle, trocar hidroclorotiazida por clortalidona ou indapamida antes de rotular resistência",
+  "coment": "O paciente usa as três classes preferenciais (BRA, bloqueador de cálcio e tiazídico), tem adesão confirmada, técnica de medida adequada, sem interferentes, e a MAPA confirma pressão acima da meta. Antes de rotular hipertensão resistente, a diretriz brasileira de 2025 manda otimizar o trio: se o tiazídico for hidroclorotiazida, trocá-la por clortalidona ou indapamida, uma das trocas de maior rendimento, porque os tiazídicos similares são mais potentes e têm meia-vida longa, cobrindo as 24 horas. A hidroclorotiazida de 25 mg também não é a dose máxima. A definição de resistente exige pressão acima da meta com três classes em doses máximas preconizadas ou toleradas por 30 a 60 dias, afastada a pseudorresistência; só então entra a espironolactona como quarto fármaco (forte, alta), além do rastreio de causas secundárias como hiperaldosteronismo e apneia do sono. Refratária é a hipertensão não controlada com cinco ou mais fármacos, incluindo antagonista mineralocorticoide.",
+  "porAlt": [
+   "Betabloqueador não é o quarto fármaco preferencial sem indicação específica, e o atenolol protege menos contra AVC.",
+   "Correta: na tripla que não controla, trocar a hidroclorotiazida por clortalidona ou indapamida, mais potentes e de ação longa, vem antes de rotular resistência.",
+   "Trocar BRA por IECA não acrescenta potência anti-hipertensiva; a classe já está em dose máxima.",
+   "Denervação renal é reservada a casos selecionados de hipertensão resistente em centros especializados, longe de ser o próximo passo aqui.",
+   "Espironolactona é o quarto fármaco da hipertensão resistente, que exige as três classes em doses máximas; a troca do tiazídico vem antes."
+  ]
+ },
+ {
+  "q": "Homem de 69 anos chega ao pronto-socorro 90 minutos após o início de hemiparesia esquerda e disartria, NIHSS de 9. A tomografia de crânio não mostra hemorragia. Glicemia de 132 mg/dL, sem uso de anticoagulante, plaquetas normais. A pressão arterial, medida três vezes com 5 minutos de intervalo, está em 198/112 mmHg. A equipe é favorável à trombólise. Pela diretriz brasileira de hipertensão de 2025, qual é a conduta pressórica?",
+  "alts": [
+   "Baixar a menos de 185/110 e só então trombolisar",
+   "Baixar a menos de 140/90 antes do trombolítico",
+   "Contraindicar a trombólise pela pressão de chegada",
+   "Reduzir 15% em 24 horas e trombolisar depois",
+   "Trombolisar já e tratar a pressão acima de 220/120"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025, emergências hipertensivas: AVC isquêmico com trombólise, menos de 185/110 antes e de 180/105 por 24 horas",
+  "coment": "No AVC isquêmico agudo, a pressão alta costuma ser resposta compensatória para manter a perfusão da penumbra, e reduzi-la sem critério amplia o infarto. A exceção é o candidato a trombólise, porque pressão elevada aumenta a transformação hemorrágica. A diretriz brasileira de 2025 recomenda manter a pressão abaixo de 185/110 mmHg antes do trombolítico e abaixo de 180/105 mmHg nas 24 horas seguintes, e não trombolisar com pressão de 185/110 ou mais (forte, moderada). Sem trombólise, trata-se apenas a partir de 220/120 mmHg, com redução de cerca de 15% em 24 horas. O paciente tem 198/112 mmHg; a pressão deve ser reduzida com fármaco intravenoso titulável e, ao ficar abaixo de 185/110, a trombólise prossegue. Como labetalol e nicardipina não estão disponíveis no Brasil, usam-se metoprolol intravenoso ou nitroprussiato em doses baixas, com medidas frequentes. Se a pressão não baixar, a trombólise fica contraindicada.",
+  "porAlt": [
+   "Correta: com trombólise, a pressão deve ficar abaixo de 185/110 antes do trombolítico e abaixo de 180/105 nas 24 horas seguintes.",
+   "Redução agressiva compromete a penumbra isquêmica, dependente da pressão de perfusão; o alvo pré-trombólise é 185/110.",
+   "A pressão acima de 185/110 contraindica trombolisar enquanto não for reduzida; tratada, a trombólise segue indicada.",
+   "Reduzir 15% em 24 horas é a conduta sem trombolítico; esperar 24 horas perde a janela da trombólise.",
+   "O corte de 220/120 é para o AVC isquêmico que não recebe trombolítico; com trombólise, o limite é bem mais baixo."
+  ]
+ },
+ {
+  "q": "Mulher de 38 anos é trazida com cefaleia intensa, palpitações e sudorese profusa iniciadas há 1 hora, após anestesia local para extração dentária. Relata crises semelhantes e mais curtas nos últimos 6 meses. Pressão de 236/128 mmHg, frequência de 132 bpm, saturação de 90% com estertores em bases, tremor e palidez. Eletrocardiograma com taquicardia sinusal e infradesnivelamento difuso de 1 mm; troponina de 64 ng/L. Nega cocaína e anfetamina, e a triagem toxicológica é negativa. Tomografia prévia mostrava nódulo adrenal de 4 cm não investigado. Qual é a conduta inicial?",
+  "alts": [
+   "Metoprolol intravenoso para controlar a taquicardia",
+   "Furosemida intravenosa como primeira medida",
+   "Esmolol isolado em infusão contínua, com alvo de FC",
+   "Captopril sublingual e observação por 30 minutos",
+   "Nitroprussiato intravenoso, sem betabloqueador por ora"
+  ],
+  "gab": 4,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025, emergências hipertensivas: crise catecolaminérgica com sistólica abaixo de 140 na primeira hora; betabloqueador só após bloqueio alfa",
+  "coment": "Crises paroxísticas de cefaleia, palpitações e sudorese com nódulo adrenal de 4 cm sugerem feocromocitoma, e a manipulação com anestésico (muitas vezes associado a vasoconstritor) pode desencadear a crise. Há lesão de órgão-alvo aguda: edema pulmonar e lesão miocárdica, o que configura emergência hipertensiva. Para a crise catecolaminérgica e o edema agudo de pulmão, a diretriz brasileira de 2025 pede sistólica abaixo de 140 mmHg já na primeira hora, com fármaco intravenoso titulável em UTI; o nitroprussiato é a opção disponível no país, e a fentolamina, bloqueador alfa, é a clássica onde existe. O betabloqueador não deve ser usado antes do bloqueio alfa: bloquear a vasodilatação beta-2 com o receptor alfa livre agrava a vasoconstrição e o espasmo coronariano. Ele entra depois, para controlar a taquicardia. Na sequência, bloqueio alfa oral (doxazosina), expansão volêmica e confirmação com metanefrinas, antes da adrenalectomia.",
+  "porAlt": [
+   "Betabloqueador antes do bloqueio alfa deixa a vasoconstrição alfa sem oposição e pode precipitar crise hipertensiva maior e edema pulmonar.",
+   "No feocromocitoma há contração de volume; o edema é por vasoconstrição e pós-carga, e o diurético isolado agrava a hipovolemia.",
+   "Mesmo de ação ultracurta, o esmolol isolado bloqueia a vasodilatação beta-2 com o receptor alfa livre; o problema persiste.",
+   "Observação e via oral servem à elevação sem lesão de órgão; aqui há edema pulmonar e lesão miocárdica, uma emergência.",
+   "Correta: crise catecolaminérgica com edema pulmonar pede vasodilatador intravenoso titulável, alvo de sistólica abaixo de 140 na 1ª hora, e betabloqueador só após bloqueio alfa."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, hipertensa em uso regular de losartana 50 mg e clortalidona 12,5 mg, procura o pronto-socorro com cólica renal à esquerda há 3 horas, dor 9/10, náuseas e muita ansiedade. Pressão de 192/108 mmHg, frequência de 104 bpm. Exame neurológico normal, sem dor torácica nem dispneia, fundo de olho sem hemorragias ou papiledema. Eletrocardiograma sem alterações, troponina normal, creatinina de 0,9 mg/dL e urina com hematúria, sem proteinúria. O interno prescreve captopril 25 mg sublingual. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tratar a dor e reavaliar a pressão em ambiente calmo",
+   "Clonidina oral já, com alvo de 120/80 em 1 hora",
+   "Captopril 25 mg sublingual e repetir em 30 minutos",
+   "Nifedipina de liberação rápida para queda imediata",
+   "Nitroprussiato intravenoso com internação em UTI"
+  ],
+  "gab": 0,
+  "tema": "cardio",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025: pseudocrise e elevação importante da pressão sem lesão de órgão-alvo, tratar o desencadeante e observar",
+  "coment": "O que separa emergência de elevação sem lesão de órgão é a presença de lesão de órgão-alvo aguda e progressiva, não o número. Aqui não há déficit neurológico, dor torácica, dispneia, alteração de fundo de olho, eletrocardiograma ou troponina, e a função renal é normal. A diretriz brasileira de 2025 propõe aposentar o termo urgência hipertensiva, substituído por elevação importante da pressão sem lesão progressiva de órgão-alvo, e descreve a pseudocrise: pressão alta desencadeada por dor, ansiedade ou pânico. A conduta é tratar a causa (analgesia e antiemético na cólica renal), observar cerca de 30 minutos em ambiente calmo e medir de novo; persistindo a elevação, clonidina ou captopril por via oral, com alvo abaixo de 160/100 mmHg e reavaliação em 1 a 7 dias. Captopril sublingual e nifedipina de liberação rápida são proscritos, e a americana de 2025 classifica como dano o anti-hipertensivo intermitente no internado sem lesão de órgão.",
+  "porAlt": [
+   "Correta: é pseudocrise, pressão alta desencadeada por dor e ansiedade sem lesão de órgão-alvo; trata-se o desencadeante e se reavalia.",
+   "Mesmo quando se usa fármaco oral sem lesão de órgão, o alvo é abaixo de 160/100 em horas a dias, não normalizar em 1 hora.",
+   "A via sublingual causa queda imprevisível, e a diretriz desaconselha tratar agudamente a pressão sem lesão de órgão antes de tratar a causa.",
+   "Nifedipina de liberação rápida é proscrita: queda abrupta e imprevisível com risco de isquemia cerebral e coronariana.",
+   "Fármaco intravenoso e UTI são para emergência, com lesão de órgão-alvo aguda e progressiva, ausente neste caso."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos, hipertenso sem tratamento há 2 anos, é levado à UTI com cefaleia intensa há 2 dias, vômitos, confusão progressiva e uma crise convulsiva tônico-clônica. Pressão de 228/134 mmHg (pressão arterial média de 165 mmHg). Fundo de olho com papiledema bilateral. A tomografia não mostra hemorragia, e a ressonância evidencia edema vasogênico simétrico nas regiões parieto-occipitais, sem infarto agudo. Creatinina de 1,3 mg/dL, troponina normal, sem dor torácica. Foi iniciado nitroprussiato. Qual deve ser o alvo pressórico?",
+  "alts": [
+   "Menos de 140/90 na 1ª hora, para reverter o edema",
+   "Até 25% de queda na 1ª hora; 160/100 em 2 a 6 horas",
+   "Queda de 15% em 24 horas, como no AVC isquêmico",
+   "Sistólica de 90 a 120 em 20 minutos",
+   "Menos de 120/80 em 6 horas, pela encefalopatia"
+  ],
+  "gab": 1,
+  "tema": "cardio",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "Diretriz Brasileira de Hipertensão Arterial 2025, emergências hipertensivas: até 25% na primeira hora, 160/100 em 2 a 6 horas e normal em 24 a 48 horas",
+  "coment": "Cefaleia, vômitos, confusão, convulsão e papiledema com edema vasogênico parieto-occipital na ressonância, sem infarto ou hemorragia, configuram encefalopatia hipertensiva com síndrome da encefalopatia posterior reversível. É emergência hipertensiva e exige fármaco intravenoso titulável em UTI, como o nitroprussiato. O hipertenso crônico tem a curva de autorregulação cerebral desviada para a direita, e reduzir a pressão até a normalidade em pouco tempo provoca isquemia. Por isso a diretriz brasileira de 2025 recomenda reduzir até 25% na primeira hora; se estável, chegar a 160/100 mmHg em 2 a 6 horas; e normalizar em 24 a 48 horas. Para este paciente, a pressão média de 165 mmHg deve ficar em torno de 124 mmHg ao fim da primeira hora. As exceções têm alvos próprios: dissecção de aorta (sistólica de 90 a 120 mmHg e frequência abaixo de 60 bpm em 20 minutos), edema agudo de pulmão e crise catecolaminérgica (sistólica abaixo de 140 na primeira hora) e AVC.",
+  "porAlt": [
+   "Queda até a normalidade na 1ª hora ultrapassa a autorregulação cerebral desviada e provoca isquemia; a sistólica abaixo de 140 em 1 hora é para edema pulmonar e crise catecolaminérgica.",
+   "Correta: na encefalopatia hipertensiva, reduz-se a pressão média em até 25% na 1ª hora e, se estável, para 160/100 em 2 a 6 horas, normalizando em 24 a 48 horas.",
+   "Redução de 15% em 24 horas é a regra do AVC isquêmico sem trombólise, e é lenta demais para a encefalopatia com convulsão.",
+   "Esse alvo rápido e baixo é exclusivo da dissecção aguda de aorta, com frequência abaixo de 60 bpm.",
+   "Normalizar em poucas horas expõe cérebro, rim e coração à hipoperfusão; a normalização é feita em 24 a 48 horas."
+  ]
+ }
+]
