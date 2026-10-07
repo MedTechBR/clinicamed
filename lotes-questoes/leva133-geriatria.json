@@ -1,0 +1,362 @@
+[
+ {
+  "q": "Mulher de 79 anos, hipertensa e com osteoartrite de joelhos, comparece à consulta de rotina na unidade básica. Perguntada ativamente, conta que há 2 meses tropeçou no quintal à noite, caiu e ficou cerca de 90 minutos no chão até a vizinha chegar, sem fratura nem perda de consciência. Desde então sai menos de casa por medo de cair. Usa losartana 50 mg, hidroclorotiazida 25 mg, clonazepam 0,5 mg à noite há 6 anos e paracetamol. Pressão arterial de 138/80 mmHg deitada e 132/78 mmHg em pé aos 3 minutos. Velocidade de marcha de 0,9 m/s e Timed Up and Go de 13 segundos. Acuidade visual de 20/40 bilateral, com catarata. 25-hidroxivitamina D de 31 ng/mL. Pela diretriz mundial de quedas, qual é a conduta mais adequada?",
+  "alts": [
+   "Risco baixo pela marcha normal; orientação e reavaliação em 1 ano",
+   "Risco intermediário; exercício de força e equilíbrio isolado",
+   "Alto risco; colecalciferol 2.000 UI/dia como medida central",
+   "Risco intermediário; restringir saídas e indicar andador fixo",
+   "Alto risco; avaliação multifatorial com intervenção multidomínio"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "World Guidelines for Falls Prevention and Management for Older Adults, 2022: estratificação de risco e avaliação multifatorial",
+  "coment": "Pela diretriz mundial de quedas de 2022, ficar uma hora ou mais no chão sem conseguir levantar coloca o idoso no grupo de alto risco, mesmo com velocidade de marcha e Timed Up and Go normais; os demais critérios são lesão que exigiu tratamento, duas ou mais quedas no ano, fragilidade e suspeita de perda de consciência. O alto risco recebe avaliação multifatorial multiprofissional (medicamentos com ferramenta estruturada, pressão deitado e em pé, cognição, medo de cair, visão, pés, ambiente) e intervenção multidomínio guiada por ela (forte, 1B). Aqui já aparecem alvos: o clonazepam, que pede desmame gradual, a catarata, cuja cirurgia do primeiro olho reduz quedas, o medo de cair e o ambiente doméstico. O exercício com desafio de equilíbrio entra como componente. Vitamina D não reduz quedas em quem vive na comunidade sem deficiência, e o nível aqui é adequado. Ensinar a levantar do chão e garantir meio de pedir ajuda completam o plano.",
+  "porAlt": [
+   "A marcha normal não rebaixa o risco: ficar mais de uma hora no chão já define alto risco pela diretriz de 2022.",
+   "Exercício isolado é a conduta do risco intermediário; o alto risco precisa da avaliação multifatorial que orienta várias intervenções.",
+   "Com 31 ng/mL e vida na comunidade, a vitamina D não reduz quedas e não substitui a intervenção multidomínio.",
+   "Restringir a marcha para evitar quedas é iatrogenia, acelera sarcopenia e medo de cair, e o risco aqui é alto.",
+   "Correta: tempo prolongado no chão define alto risco, que pede avaliação multifatorial e intervenção em cada fator encontrado."
+  ]
+ },
+ {
+  "q": "Homem de 83 anos está internado há 4 dias na enfermaria de clínica médica por pneumonia, em melhora com ceftriaxona. Tem hiperplasia prostática em uso de doxazosina 4 mg à noite, levanta 3 vezes por noite para urinar e usa óculos, que ficaram em casa. Recebe zolpidem 10 mg à noite desde a admissão, a pedido do filho. Pressão arterial de 128/74 mmHg deitado e 104/66 mmHg em pé aos 3 minutos, com tontura. O escore de Morse foi de 35, classificado como risco moderado pelo protocolo local, e a enfermagem propõe alarme de leito, meia antiderrapante e grades elevadas. Qual é o plano de prevenção de quedas mais adequado?",
+  "alts": [
+   "Aplicar o protocolo de risco moderado, com alarme e grades elevadas",
+   "Suspender o zolpidem, tratar a ortostase e programar idas ao banheiro",
+   "Contenção leve no leito à noite enquanto estiver em uso do zolpidem",
+   "Repetir o escore de Morse a cada turno e intensificar se ele subir",
+   "Alarme de leito e meia antiderrapante, mantendo o hipnótico prescrito"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "World Guidelines for Falls Prevention, 2022 (hospital) e NICE NG249 de quedas, 2025: sem escore de risco, intervenção por fator",
+  "coment": "As duas diretrizes vigentes contrariam a prática de muitos serviços: no hospital não se usa escore de predição, como o de Morse, para decidir quem recebe prevenção (diretriz mundial de 2022, 2B; NICE NG249, 2025). Todo idoso internado é de risco e recebe avaliação multifatorial, educação (1A) e estratégias personalizadas dirigidas aos fatores encontrados (1C no agudo). Este paciente tem quatro fatores modificáveis: zolpidem, que está entre os fármacos a evitar pelos critérios de Beers 2023; hipotensão ortostática sintomática, com queda de 24 mmHg, para a qual a doxazosina contribui e deve ser revista; noctúria, que pede idas programadas e ajuda para levantar à noite; e óculos ausentes. Alarme de leito ou cadeira, meia antiderrapante e contenção não têm evidência para prevenir queda no hospital, e a grade elevada conta como contenção, porque o idoso confuso pula por cima dela.",
+  "porAlt": [
+   "O escore não deve decidir a intensidade da prevenção, e alarme e grades não têm evidência de reduzir quedas no hospital.",
+   "Correta: cada fator encontrado recebe uma ação: tirar o hipnótico, tratar a ortostase revendo a doxazosina e cuidar da noctúria.",
+   "Contenção não previne queda, aumenta agitação e lesão, e o problema do zolpidem se resolve suspendendo o fármaco.",
+   "Repetir o escore mantém a lógica que as diretrizes abandonaram; o que reduz queda é agir sobre os fatores do paciente.",
+   "Manter o hipnótico preserva um fator de risco evitável, e alarme e meia antiderrapante não mostraram benefício."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, com doença de Parkinson há 5 anos em uso de levodopa com carbidopa, refere turvação visual e dor na nuca e nos ombros ao ficar de pé há 3 meses, com uma queda sem pródromo. Após 5 minutos deitado, a pressão arterial é de 152/88 mmHg e a frequência cardíaca de 68 bpm; aos 3 minutos em pé, 108/70 mmHg e 72 bpm. Sódio de 139 mEq/L, hemoglobina de 13,8 g/dL, sem diarreia, vômitos ou uso de diurético. Qual é a interpretação mais adequada?",
+  "alts": [
+   "Hipotensão ortostática neurogênica, pela resposta cronotrópica mínima",
+   "Hipotensão ortostática por hipovolemia, pela queda diastólica de 18",
+   "Resposta normal ao ortostatismo, já que a frequência cardíaca subiu",
+   "Síndrome postural taquicardizante, pela queda pressórica sintomática",
+   "Hipotensão pós-prandial, que dispensa avaliação autonômica adicional"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "World Guidelines for Falls Prevention, 2022 e ESC 2018 de síncope: definição e diferenciação da hipotensão ortostática",
+  "coment": "Hipotensão ortostática é a queda sustentada de 20 mmHg ou mais na sistólica ou de 10 mmHg ou mais na diastólica nos 3 primeiros minutos em pé; com hipertensão supina, como aqui, usa-se queda sistólica de 30 mmHg, e a queda de 44 mmHg preenche os dois critérios. O dado que separa as causas é a frequência cardíaca. Na forma não neurogênica (desidratação, sangramento, fármacos, repouso prolongado), ela sobe de forma vigorosa. Na neurogênica, quase não sobe: aumento menor que 0,5 batimento por mmHg de queda sistólica sugere falência autonômica. Aqui a razão é de 4 para 44, cerca de 0,1, num paciente com sinucleinopatia, em que a disautonomia é parte da doença. A dor em cabide e a queda sem pródromo são típicas. A levodopa pode agravar o quadro e deve ser revista em horário e dose, junto com medidas não farmacológicas antes de pensar em midodrina ou fludrocortisona.",
+  "porAlt": [
+   "Correta: a queda pressórica com aumento de apenas 4 bpm, razão bem abaixo de 0,5 bpm/mmHg, indica falência autonômica.",
+   "Na hipovolemia a frequência cardíaca sobe de forma marcada, e os dados não sugerem perda de volume.",
+   "A queda de 44 mmHg na sistólica é hipotensão ortostática, e o discreto aumento da frequência é justamente o achado anormal.",
+   "A síndrome postural taquicardizante tem aumento de 30 bpm ou mais sem hipotensão, o oposto deste caso.",
+   "A medida foi feita em ortostatismo, não após refeição, e a resposta cronotrópica exige pensar em disautonomia."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos, hipertensa e com osteoporose, usa omeprazol 40 mg ao dia há 4 anos, iniciado por pirose que melhorou em poucas semanas; nunca tentou reduzir. Nega disfagia, perda de peso, vômitos ou sangramento. Endoscopia feita na época mostrou esofagite erosiva grau A de Los Angeles, sem esôfago de Barrett. Não usa anti-inflamatório, antiagregante ou corticoide. Hemoglobina de 12,9 g/dL e magnésio de 1,7 mg/dL. Está assintomática há mais de 3 anos e quer tomar menos remédios. Qual é a conduta mais adequada em relação ao omeprazol?",
+  "alts": [
+   "Manter 40 mg ao dia, pela esofagite erosiva documentada",
+   "Reduzir para 20 mg ao dia ou passar a uso sob demanda",
+   "Nova endoscopia obrigatória antes de qualquer redução",
+   "Trocar por pantoprazol 40 mg, com menor risco de fratura",
+   "Suspender e iniciar sucralfato contínuo como substituto"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Critérios de Beers da AGS 2023 e diretriz de desprescrição de inibidor de bomba de prótons do deprescribing.org, 2017",
+  "coment": "Os critérios de Beers 2023 mandam evitar o inibidor de bomba de prótons programado por mais de 8 semanas, salvo alto risco (corticoide oral ou anti-inflamatório crônico), esofagite erosiva grave, Barrett, estado hipersecretor ou necessidade demonstrada por falha de retirada (forte), pela associação com infecção por Clostridioides difficile, perda óssea e fratura, relevante nesta paciente com osteoporose. A diretriz canadense de desprescrição recomenda, no adulto que completou ao menos 4 semanas por sintoma digestivo alto e está sem sintomas, reduzir a dose diária ou suspender e passar a uso sob demanda (forte, baixa). Ela não se aplica a Barrett, esofagite grau C ou D ou úlcera sangrante; esofagite grau A não impede. Não há esquema testado: de dose alta para baixa, de diário para dias alternados. Reavaliar em 4 e 12 semanas; se o sintoma voltar, uso sob demanda, antagonista H2 ou antiácido.",
+  "porAlt": [
+   "Esofagite grau A curada não justifica dose plena indefinida; só Barrett e esofagite C ou D excluem a desprescrição.",
+   "Correta: sintoma resolvido após mais de 4 semanas pede reduzir a dose ou passar a uso sob demanda, com reavaliação.",
+   "Sem sinais de alarme, a desprescrição não depende de nova endoscopia; a diretriz parte da resposta clínica.",
+   "Trocar por outro inibidor da mesma classe não reduz o risco e mantém o uso prolongado sem indicação.",
+   "Substituir por outro fármaco contínuo troca uma prescrição desnecessária por outra, sem indicação estabelecida."
+  ]
+ },
+ {
+  "q": "Mulher de 84 anos, com doença de Alzheimer moderada, mora com a filha. Há 6 meses, por agitação e agressividade noturnas, iniciou risperidona, hoje em 1 mg à noite. Os sintomas estão controlados há 5 meses, sem novos episódios. Nesse período teve duas quedas, surgiu rigidez leve e a marcha ficou mais lenta. Sem dor, constipação ou retenção urinária, urina tipo 1 normal. Não há psicose anterior à demência nem sintoma grave atual. A filha concorda em tentar retirar o remédio. Qual é a conduta mais adequada em relação à risperidona?",
+  "alts": [
+   "Manter a dose, porque a estabilidade já indica eficácia clínica",
+   "Suspender de imediato, sem desmame, pela ocorrência das quedas",
+   "Trocar por haloperidol 0,5 mg, que teria menor ação extrapiramidal",
+   "Associar biperideno para a rigidez e não mexer na risperidona",
+   "Reduzir 25% a 50% da dose a cada 1 a 2 semanas até suspender"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Diretriz de desprescrição de antipsicóticos do deprescribing.org, 2018; Critérios de Beers 2023 e STOPP/START versão 3, 2023",
+  "coment": "Antipsicótico na demência aumenta AVC, declínio cognitivo, quedas e mortalidade, e os critérios de Beers 2023 e o STOPP versão 3 (D5: dose inalterada por mais de 3 meses sem revisão) pedem revisão periódica. A diretriz canadense recomenda, nos sintomas comportamentais da demência controlados há 3 meses ou sem resposta, reduzir e suspender devagar com paciente e cuidador, por exemplo 25% a 50% da dose a cada 1 a 2 semanas (forte, moderada); nos ensaios de retirada, os sintomas não pioraram frente a quem continuou. A suspensão sem desmame fica para o antipsicótico usado só para insônia. Aqui há ainda parkinsonismo e quedas, efeitos do próprio fármaco. Tratar a rigidez com biperideno seria cascata de prescrição e acrescentaria carga anticolinérgica. Se a agitação voltar, procurar dor, infecção, constipação e retenção antes de reintroduzir, com plano não farmacológico pronto.",
+  "porAlt": [
+   "Estabilidade de 5 meses é justamente o momento de tentar a retirada, e o fármaco já causa quedas e rigidez.",
+   "Nos sintomas comportamentais da demência a retirada é gradual; suspender sem desmame é o caminho do uso para insônia.",
+   "Haloperidol tem mais efeito extrapiramidal, não menos, e trocar mantém o antipsicótico sem indicação atual.",
+   "Biperideno para o parkinsonismo do antipsicótico é cascata de prescrição e soma carga anticolinérgica na demência.",
+   "Correta: sintomas controlados há mais de 3 meses permitem reduzir 25% a 50% a cada 1 a 2 semanas até parar."
+  ]
+ },
+ {
+  "q": "Mulher de 72 anos usa denosumabe 60 mg subcutâneo a cada 6 meses há 5 anos por osteoporose pós-menopausa, sem fraturas no período. A densitometria atual mostra T-escore de -2,0 no colo femoral (era -2,8). Clearance de creatinina de 62 mL/min, cálcio e 25-hidroxivitamina D normais. Ela pergunta se pode tirar férias do remédio, como fez uma amiga que usava alendronato. Qual é a orientação mais adequada?",
+  "alts": [
+   "Suspender o denosumabe e repetir a densitometria em 2 anos",
+   "Suspender só com bisfosfonato na sequência, pelo risco de rebote",
+   "Suspender e manter apenas cálcio e vitamina D a partir de agora",
+   "Espaçar as doses para cada 12 meses como forma de desmame",
+   "Suspender e iniciar teriparatida, que mantém a massa óssea ganha"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "STOPP/START versão 3, 2023 (START H6: antirreabsortivo após suspender denosumabe); ASBMR 2016 sobre férias de bisfosfonato",
+  "coment": "As férias terapêuticas valem para o bisfosfonato, que se incorpora ao osso e mantém efeito residual: a força-tarefa da ASBMR de 2016 sugere reavaliar após 5 anos de uso oral e, sem alto risco, pausar por 2 a 3 anos. O denosumabe é diferente: não tem efeito residual, e sua suspensão provoca rebote de reabsorção, com perda rápida da massa ganha e fraturas vertebrais, às vezes múltiplas. Por isso o START versão 3 (H6) aponta como omissão não prescrever antirreabsortivo depois de suspender o denosumabe. A paciente pode parar, desde que um bisfosfonato, em geral zoledronato ou alendronato, comece quando seria a próxima aplicação, com seguimento densitométrico. Espaçar as doses não é desmame e expõe ao mesmo rebote, e a teriparatida logo após o denosumabe se associa a perda transitória de massa óssea.",
+  "porAlt": [
+   "Suspender sem cobertura expõe a paciente ao rebote de reabsorção e a fraturas vertebrais nos meses seguintes.",
+   "Correta: o denosumabe não admite férias; parar exige bisfosfonato na sequência, como pede o START H6.",
+   "Cálcio e vitamina D não contêm o rebote de reabsorção que segue a suspensão do denosumabe.",
+   "O denosumabe não tem efeito residual, e atrasar as aplicações produz o mesmo rebote da suspensão.",
+   "A teriparatida logo após o denosumabe se associa a perda transitória de massa óssea, sobretudo no quadril."
+  ]
+ },
+ {
+  "q": "Homem de 80 anos, 74 kg, com diabetes tipo 2 em metformina (glicada de 7,2%) e fibrilação atrial em apixabana 5 mg de 12 em 12 horas, recebe alta após 8 dias de internação por pielonefrite, afebril e com urocultura sensível a ciprofloxacino. Na prescrição hospitalar constam insulina regular em escala conforme glicemia capilar, sem basal; omeprazol 40 mg para profilaxia de úlcera de estresse; zolpidem 10 mg à noite; haloperidol 1 mg à noite, iniciado por delirium no segundo dia e resolvido no quarto; e ciprofloxacino com término previsto em 3 dias. Apixabana e metformina foram suspensas na admissão, sem registro do motivo. Creatinina de 1,1 mg/dL e clearance de 56 mL/min. Qual é a prescrição de alta mais adequada?",
+  "alts": [
+   "Manter a escala de insulina e o omeprazol; reintroduzir só a apixabana",
+   "Reintroduzir apixabana e metformina, completar o antibiótico e suspender o resto",
+   "Manter o haloperidol por 3 meses para evitar a recorrência do delirium",
+   "Manter o zolpidem até o retorno ambulatorial e suspender a apixabana",
+   "Levar toda a prescrição hospitalar e revisar na consulta de retorno"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "Critérios de Beers da AGS 2023 e STOPP/START versão 3, 2023, aplicados à reconciliação medicamentosa na alta",
+  "coment": "A alta é o ponto em que a medicação temporária vira crônica sem que ninguém tenha decidido. A reconciliação compara a lista hospitalar com a de uso habitual e justifica cada diferença. Não seguem para casa: insulina em escala móvel sem basal (Beers 2023, evitar, forte), o inibidor de bomba de prótons de profilaxia sem indicação ambulatorial, o hipnótico iniciado no hospital (Beers, evitar zolpidem pelo risco de queda, fratura e delirium) e o antipsicótico de um delirium já resolvido, que não previne recorrência. Precisam voltar a apixabana, cuja omissão na fibrilação atrial é falha apontada pelo START versão 3 (C1), em dose plena porque ele tem só um critério de redução (idade de 80 anos), e a metformina, compatível com a função renal e a glicada. O antibiótico tem data de término escrita. A lista final, com o que parou, mudou ou começou e o motivo, vai para o paciente e para a atenção primária.",
+  "porAlt": [
+   "Escala móvel sem basal é critério de Beers, e o inibidor de bomba de prótons de profilaxia não tem indicação em casa.",
+   "Correta: retomar o que foi suspenso sem motivo, terminar o antibiótico e não levar os fármacos que eram só do hospital.",
+   "Antipsicótico não previne delirium e não deve seguir após a resolução do quadro, pelos riscos de queda, AVC e morte.",
+   "Zolpidem é fármaco a evitar no idoso, e suspender o anticoagulante na fibrilação atrial é omissão grave.",
+   "Transferir a revisão para o retorno perpetua a prescrição hospitalar e é a causa mais comum dessa cascata."
+  ]
+ },
+ {
+  "q": "Mulher de 86 anos é internada pela ortopedia com fratura transtrocantérica de fêmur após queda em casa, com cirurgia marcada para o dia seguinte. Tem comprometimento cognitivo leve, usa aparelho auditivo e óculos, e mora com o marido. No momento está orientada, com 4AT de 0, dor de 8 em 10 em repouso apesar de dipirona, sódio de 136 mEq/L e eletrocardiograma com QTc de 450 ms. O ortopedista pede uma conduta para prevenir confusão no pós-operatório e sugere haloperidol 0,5 mg à noite. Qual é a conduta mais adequada?",
+  "alts": [
+   "Haloperidol 0,5 mg à noite, como sugerido, por 5 dias após a cirurgia",
+   "Donepezila no perioperatório pelo comprometimento cognitivo prévio",
+   "Pacote multicomponente, bloqueio regional e óculos e aparelho em uso",
+   "Lorazepam 0,5 mg à noite para garantir o sono no pós-operatório",
+   "Quetiapina 12,5 mg à noite, por ter menos efeito extrapiramidal"
+  ],
+  "gab": 2,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "NICE CG103 de delirium, atualizada em 2023; AGS 2015 de delirium pós-operatório no idoso",
+  "coment": "A paciente tem três fatores de risco do NICE (65 anos ou mais, comprometimento cognitivo e fratura de quadril atual), o que pede avaliação dos fatores contribuintes nas primeiras 24 horas e pacote multicomponente individualizado: reorientação, óculos e aparelho auditivo em uso, hidratação, mobilização precoce, sono protegido, revisão de fármacos e tratamento da dor. A prevenção é o que funciona: no ensaio do HELP o delirium caiu de 15,0% para 9,9%. A dor não controlada é precipitante importante, e a AGS 2015 recomenda otimizar a analgesia, preferindo não opioides (forte), e sugere anestesia regional (fraca); o bloqueio regional no quadril poupa opioide. Antipsicótico profilático não tem evidência suficiente, típico ou atípico. A AGS recomenda fortemente não iniciar inibidor da colinesterase para prevenir delirium e evitar benzodiazepínico, que o provoca.",
+  "porAlt": [
+   "Antipsicótico profilático não tem evidência, acrescenta risco de QT e de sedação e não substitui as medidas que funcionam.",
+   "A AGS 2015 recomenda fortemente não iniciar inibidor da colinesterase para prevenir ou tratar delirium perioperatório.",
+   "Correta: a prevenção multicomponente e o controle da dor com bloqueio regional são as medidas com evidência neste cenário.",
+   "Benzodiazepínico está entre os fármacos que induzem delirium e deve ser evitado no idoso operado.",
+   "Trocar o antipsicótico não muda o problema: nenhum antipsicótico tem evidência suficiente na profilaxia."
+  ]
+ },
+ {
+  "q": "Mulher de 88 anos, residente em instituição de longa permanência, com demência leve, é trazida por sonolência e desatenção há 2 dias, alternando com períodos de agitação. Há 10 dias iniciou tramadol 50 mg de 8 em 8 horas por dor lombar. Temperatura de 36,9 °C, pressão arterial de 132/78 mmHg, frequência cardíaca de 88 bpm, saturação de 96% em ar ambiente e pulmões limpos. Abdome distendido, com fezes endurecidas na ampola ao toque retal; última evacuação há 6 dias. O ultrassom de bexiga à beira do leito mostra 520 mL. Urina tipo 1 com 15 leucócitos por campo e urocultura com mais de 100 mil UFC/mL de Escherichia coli; a cuidadora nega disúria ou febre. Sódio de 134 mEq/L e glicemia de 112 mg/dL. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tratar a cistite com nitrofurantoína e reavaliar a cognição em 48 horas",
+   "Ceftriaxona venosa por pielonefrite atípica, mantendo o tramadol",
+   "Haloperidol 0,5 mg e tomografia de crânio antes de outras medidas",
+   "Trocar o tramadol por morfina e tratar a bacteriúria por 7 dias",
+   "Desimpactar, esvaziar a bexiga e rever o tramadol, sem antibiótico"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "IDSA 2019 de bacteriúria assintomática (idoso com delirium sem sinais sistêmicos) e NICE CG103 de delirium, atualizada em 2023",
+  "coment": "O quadro é de delirium, com início agudo, flutuação e desatenção, e os precipitantes estão à vista: fecaloma e retenção urinária de 520 mL, ambos favorecidos pelo opioide iniciado há 10 dias, que no idoso também pode causar hiponatremia e efeito serotoninérgico. A bacteriúria é achado comum em quem vive em instituição e, sem sintoma urinário, febre ou instabilidade, não explica a confusão. A IDSA 2019 recomenda, no idoso com comprometimento funcional ou cognitivo, bacteriúria e delirium sem sintomas geniturinários ou sinais sistêmicos, procurar outras causas e observar em vez de tratar (forte, baixa). Leucocitúria não muda isso. Tratar a urocultura e parar a investigação é o erro clássico. A conduta é desimpactar, aliviar a retenção por cateterismo, rever o tramadol com analgesia regular por paracetamol e laxante, e aplicar as medidas não farmacológicas do NICE, reavaliando a cognição a cada dia.",
+  "porAlt": [
+   "Bacteriúria com leucocitúria sem sintoma urinário não é cistite, e tratar deixa passar o fecaloma e a retenção.",
+   "Não há febre, dor lombar nem instabilidade que sustentem pielonefrite, e manter o tramadol preserva a causa.",
+   "Antipsicótico não trata causa, e não há déficit focal ou trauma que justifique imagem antes de corrigir o óbvio.",
+   "Outro opioide mantém constipação e retenção, e a bacteriúria sem sintomas não precisa de antibiótico.",
+   "Correta: fecaloma e retenção causados pelo opioide explicam o delirium; a bacteriúria assintomática não se trata."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos, com 3 partos vaginais, refere perda de pequenos volumes de urina ao tossir, rir e carregar sacolas há 2 anos, sem urgência, noctúria ou sensação de esvaziamento incompleto. Mora sozinha, é independente e cognitivamente íntegra. IMC de 29 kg/m². Ao exame, há perda urinária sincrônica à tosse com bexiga cheia, sem prolapso além do hímen, e contração voluntária fraca do assoalho pélvico. Urina tipo 1 normal, glicemia de jejum de 98 mg/dL e resíduo pós-miccional de 30 mL. O diário miccional de 3 dias mostra 6 micções diurnas e nenhuma noturna. Qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "Oxibutinina 5 mg ao dia, com reavaliação em 4 a 8 semanas",
+   "Treino supervisionado do assoalho pélvico por ao menos 3 meses",
+   "Mirabegrona 25 mg ao dia, por não ter carga anticolinérgica",
+   "Sling de uretra média, pela baixa resposta do tratamento clínico",
+   "Urodinâmica antes de qualquer tratamento, para definir o tipo"
+  ],
+  "gab": 1,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "NICE NG123 de incontinência urinária e prolapso em mulheres, 2019; AUA/SUFU 2024 para avaliação inicial sem urodinâmica de rotina",
+  "coment": "Perda aos esforços, sem urgência e com resíduo baixo, confirmada pela perda sincrônica à tosse, define incontinência de esforço, por hipermobilidade uretral ou deficiência esfincteriana. Antes de classificar, afastaram-se as causas transitórias: infecção, poliúria, fármacos, impactação e restrição de mobilidade. O NICE NG123 recomenda como primeira linha um programa supervisionado de treino da musculatura do assoalho pélvico por pelo menos 3 meses, com ao menos oito contrações três vezes ao dia, mantido se houver benefício; a perda de peso é medida adjuvante útil com IMC acima de 25 kg/m². A avaliação inicial é clínica, e a urodinâmica não é rotina antes do tratamento conservador. Antimuscarínico e agonista beta-3 tratam hiperatividade do detrusor, não o esforço, e a oxibutinina ainda tem alta carga anticolinérgica (Beers 2023). A cirurgia fica para falha do tratamento conservador.",
+  "porAlt": [
+   "Antimuscarínico trata urgência, não esforço, e a oxibutinina tem alta carga anticolinérgica no idoso.",
+   "Correta: na incontinência de esforço, o treino supervisionado do assoalho pélvico por 3 meses ou mais é a primeira linha.",
+   "Agonista beta-3 age na hiperatividade do detrusor e não corrige o mecanismo da perda aos esforços.",
+   "A cirurgia é reservada à falha do tratamento conservador, que tem boa taxa de melhora quando supervisionado.",
+   "A avaliação inicial é clínica, e o tipo já está definido pela história, pelo exame e pelo resíduo baixo."
+  ]
+ },
+ {
+  "q": "Homem de 78 anos, IMC de 31 kg/m², hipertenso e com diabetes tipo 2, refere dificuldade para subir escadas e levantar da cadeira há 1 ano. SARC-F de 5 pontos. Força de preensão palmar de 23 kg (melhor de 3 medidas, mão dominante). Levantar 5 vezes da cadeira em 17 segundos. Densitometria de corpo inteiro com massa muscular esquelética apendicular de 18,5 kg e índice de 6,4 kg/m². Velocidade de marcha de 1,0 m/s e SPPB de 10 pontos. Sem doença neurológica, depressão ou doença arterial periférica. Clearance de creatinina de 70 mL/min. Pelo consenso europeu revisado, qual é a classificação e a conduta?",
+  "alts": [
+   "Sem sarcopenia pelo IMC elevado; dieta hipocalórica isolada",
+   "Sarcopenia provável apenas; repetir a DXA em 1 ano sem tratar",
+   "Sarcopenia grave; testosterona associada a treino resistido",
+   "Fragilidade pelo SARC-F; vitamina D em dose alta como base",
+   "Sarcopenia confirmada, não grave; treino resistido e proteína"
+  ],
+  "gab": 4,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "EWGSOP2, 2019 (definição e diagnóstico de sarcopenia) e ICFSR 2018 de sarcopenia (tratamento)",
+  "coment": "O EWGSOP2 pôs a força no centro. Preensão abaixo de 27 kg no homem e levantar 5 vezes da cadeira em mais de 15 segundos indicam força baixa, o que torna a sarcopenia provável e já autoriza intervir. A massa baixa confirma: massa apendicular abaixo de 20 kg ou índice abaixo de 7,0 kg/m² no homem, ambos presentes aqui. O desempenho baixo define a forma grave (marcha de 0,8 m/s ou menos, SPPB de 8 ou menos, Timed Up and Go de 20 segundos ou mais), ausente neste paciente. Trata-se de obesidade sarcopênica, em que o IMC alto esconde a perda muscular. A ICFSR 2018 faz recomendação forte para treino resistido e condicional para suplementação ou dieta rica em proteína, com 1,0 a 1,2 g/kg/dia, ou 1,2 a 1,5 na doença crônica, sem doença renal avançada. Não recomenda vitamina D fora da deficiência nem hormônio anabólico, e não há fármaco aprovado.",
+  "porAlt": [
+   "IMC alto não afasta sarcopenia, e restrição calórica sem treino e sem proteína acelera a perda muscular.",
+   "A massa apendicular baixa já confirma o diagnóstico, e a sarcopenia provável também deveria ser tratada.",
+   "Marcha de 1,0 m/s e SPPB de 10 afastam a forma grave, e hormônio anabólico não é recomendado pela ICFSR.",
+   "SARC-F é rastreio de sarcopenia, não critério de fragilidade, e vitamina D só se usa havendo deficiência.",
+   "Correta: força e massa baixas com desempenho preservado definem sarcopenia confirmada não grave, tratada com treino e proteína."
+  ]
+ },
+ {
+  "q": "Homem de 69 anos, com adenocarcinoma de pâncreas metastático em cuidados paliativos exclusivos, usa morfina de liberação prolongada 60 mg de 12 em 12 horas, sem resgates nos últimos 3 dias e com dor de 2 em 10. Há 10 dias mantém náusea intensa e contínua, sem resposta a metoclopramida e depois a haloperidol em dose baixa, sem vômitos fecaloides, distensão ou cólica. Evacua a cada 2 dias com laxante. Cálcio corrigido de 9,4 mg/dL, sódio de 138 mEq/L e taxa de filtração glomerular de 95 mL/min/1,73 m² pela CKD-EPI 2021. A equipe decide rodar o opioide para oxicodona oral. Qual é o esquema inicial mais adequado?",
+  "alts": [
+   "Oxicodona de liberação prolongada 20 mg de 12/12 h, resgate de 5 mg",
+   "Oxicodona de liberação prolongada 40 mg de 12/12 h, resgate de 10 mg",
+   "Oxicodona de liberação prolongada 60 mg de 12/12 h, resgate de 15 mg",
+   "Oxicodona de liberação prolongada 10 mg de 12/12 h, resgate de 2,5 mg",
+   "Oxicodona de liberação prolongada 80 mg de 12/12 h, resgate de 20 mg"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ASCO 2023 de opioides na dor oncológica; CDC 2022 e Fine e Portenoy 2009 para equianalgesia e rotação de opioide",
+  "coment": "A náusea por opioide costuma ceder em dias; quando persiste apesar de antiemético e sem outra causa (hipercalcemia, uremia, obstrução), rodar o opioide é conduta reconhecida. O passo a passo: somar a dose diária (120 mg de morfina oral, sem resgates), converter pela tabela e reduzir a dose calculada pela tolerância cruzada incompleta. Com o fator de 1,5, 120 mg de morfina equivalem a 80 mg de oxicodona; a redução de 25% a 50% leva a 40 a 60 mg por dia, e o painel de Fine e Portenoy sugere ficar perto de 50% quando a dose é alta ou o paciente é idoso. Pela razão da bula, de 1 para 2, chega-se a 30 a 45 mg. Os 40 mg diários atendem aos dois cálculos, em duas tomadas, com resgate de 10% a 15% da dose diária, cerca de 5 mg. A dose se reavalia em 24 horas, somando os resgates.",
+  "porAlt": [
+   "Correta: 120 mg de morfina viram 80 mg de oxicodona, reduzidos em cerca de 50%, com resgate de 10% a 15%.",
+   "Oitenta miligramas diários é a conversão sem redução, o que expõe à sobredose pela tolerância cruzada incompleta.",
+   "Cento e vinte miligramas diários trata a oxicodona como equipotente à morfina e ainda dispensa a redução obrigatória.",
+   "Vinte miligramas diários é redução de 75%, própria da conversão para metadona, e deixaria o paciente com dor.",
+   "Cento e sessenta miligramas diários multiplica em vez de dividir pelo fator, com risco de sedação e depressão respiratória."
+  ]
+ },
+ {
+  "q": "Mulher de 81 anos, 50 kg, com câncer de pulmão metastático para fígado e ossos e escala de desempenho paliativo de 20%, está nos últimos dias de vida, internada. Há 36 horas tem delirium agitado com sofrimento evidente, sem resposta a haloperidol subcutâneo titulado até 10 mg por dia, depois de aliviada a retenção urinária e revistos os fármacos; a equipe especializada em cuidados paliativos confirmou a refratariedade. Usa morfina subcutânea contínua com dor controlada. Albumina de 2,1 g/dL. Em conversa registrada no prontuário, a filha, representante designada pela paciente, concorda com sedação paliativa contínua. Qual é o esquema de manutenção mais adequado?",
+  "alts": [
+   "Midazolam subcutâneo a 0,5 mg/h, com ajustes a cada 6 a 8 horas",
+   "Midazolam subcutâneo a 1 mg/h, com ajustes a cada 1 a 2 horas",
+   "Dobrar a morfina contínua até que a paciente adormeça",
+   "Propofol em infusão contínua como fármaco de primeira escolha",
+   "Levomepromazina isolada, suspendendo a morfina em curso"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Revised EAPC framework on palliative sedation, 2024 (Surges et al., Palliat Med 2024)",
+  "coment": "A EAPC de 2024 define sedação paliativa como redução intencional e proporcional da consciência para aliviar sofrimento refratário e intolerável, com confirmação da refratariedade por especialista, decisão compartilhada e registro, como neste caso. O midazolam é o fármaco de escolha. A manutenção habitual começa em 1 mg/h, titulada a cada 1 a 2 horas, mas o documento pede metade da dose e intervalos de 6 a 8 horas para subir em quem tem mais de 60 anos, menos de 60 kg, falência renal ou hepática ou albumina muito baixa; esta paciente tem três desses fatores. Acima de 10 mg/h, associa-se levomepromazina, e o propofol fica como último recurso com anestesista. O opioide não é sedativo: mantém-se pela dor, mas subir a morfina para sedar produz neurotoxicidade antes de sedar. A intenção de aliviar, a dose titulada ao sintoma e o resultado esperado distinguem a sedação da eutanásia.",
+  "porAlt": [
+   "Correta: idade acima de 60 anos, peso abaixo de 60 kg e albumina baixa pedem metade da dose e titulação lenta.",
+   "É o esquema para quem não tem fatores de acúmulo; nesta paciente favorece sedação excessiva e prolongada.",
+   "Opioide não é sedativo, e aumentá-lo para sedar causa mioclonia e agitação antes de reduzir a consciência.",
+   "Propofol é reserva para refratariedade ao midazolam associado à levomepromazina, com anestesista.",
+   "A levomepromazina é associada ao midazolam em doses altas, e suspender a morfina traria dor e abstinência."
+  ]
+ },
+ {
+  "q": "Homem de 77 anos, lúcido e capaz de decidir, internado para investigar perda de peso, tem o resultado da biópsia hepática: adenocarcinoma metastático, provavelmente de origem pancreática. Antes da conversa, os dois filhos procuram o médico e pedem que nada seja dito ao pai, porque ele não aguentaria. O paciente não tem transtorno psiquiátrico nem ideação suicida, e já perguntou duas vezes à enfermagem o que a biópsia mostrou. Qual é a conduta mais adequada?",
+  "alts": [
+   "Perguntar ao paciente o que ele já sabe e o quanto deseja saber",
+   "Atender aos filhos, pois cabe à família decidir o que ele deve saber",
+   "Informar o diagnóstico completo de imediato, na presença dos filhos",
+   "Comunicar só aos filhos e registrar o pedido da família no prontuário",
+   "Adiar a conversa até a alta para não prejudicar a investigação"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Código de Ética Médica, Resolução CFM 2.217/2018, art. 34; protocolo SPIKES (Baile et al., 2000)",
+  "coment": "O artigo 34 do Código de Ética Médica veda deixar de informar ao paciente diagnóstico, prognóstico, riscos e objetivos do tratamento, salvo quando a comunicação direta puder lhe causar dano, caso em que se informa o representante legal. O pedido da família, sozinho, não configura essa exceção, e aqui não há indício de dano: o paciente é capaz e está perguntando. O caminho é o protocolo SPIKES: preparar o ambiente, descobrir o que ele já sabe (P), descobrir o quanto e com quem quer saber (I), informar em blocos curtos com aviso prévio, acolher a emoção em silêncio e combinar o próximo passo. Há quem queira todos os detalhes e quem prefira que a família ouça primeiro, e as duas posições são legítimas se vierem dele. Os filhos merecem acolhimento: o pedido costuma nascer do medo, e explicar por que o pai tem direito à verdade desfaz a chamada conspiração do silêncio.",
+  "porAlt": [
+   "Correta: o SPIKES começa por saber o que o paciente sabe e o quanto deseja saber, e quem decide é ele.",
+   "O paciente capaz é o titular da informação, e o pedido da família não autoriza omitir o diagnóstico.",
+   "Despejar a informação sem saber o que ele sabe e com quem quer ouvir é o erro mais comum na má notícia.",
+   "Informar só a família viola o art. 34, já que não há risco de dano que justifique a exceção.",
+   "Adiar mantém a conspiração do silêncio, nega o direito do paciente e impede decisões sobre o próprio cuidado."
+  ]
+ },
+ {
+  "q": "Mulher de 74 anos, com doença pulmonar obstrutiva crônica grave (VEF1 de 28% do previsto) em oxigênio domiciliar, lúcida e capaz, diz ao médico da unidade básica que não aceita intubação nem reanimação se piorar e que quer que a sobrinha, com quem mora, fale por ela. Os três filhos moram em outro estado. Ela pergunta o que precisa fazer para que essa vontade seja respeitada. Pela Resolução CFM 1.995/2012, qual é a orientação mais adequada?",
+  "alts": [
+   "Registrar no prontuário a diretiva e a representante designada",
+   "Lavrar escritura pública em cartório, sem a qual o médico não segue",
+   "Obter a concordância por escrito dos filhos, que decidem em 1º lugar",
+   "Pedir autorização judicial prévia, por recusar suporte de vida",
+   "Assinar termo com duas testemunhas, condição para que tenha validade"
+  ],
+  "gab": 0,
+  "tema": "geriatria",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "Resolução CFM 1.995/2012 (diretivas antecipadas de vontade); Resolução CFM 2.232/2019 (recusa terapêutica)",
+  "coment": "As diretivas antecipadas de vontade são os desejos, prévia e expressamente manifestados, sobre cuidados que o paciente quer ou não receber quando estiver incapaz de se expressar. Pela Resolução CFM 1.995/2012, o médico as registra no prontuário, considera as informações do representante designado pelo paciente e só deixa de segui-las se contrariarem o Código de Ética Médica. Elas prevalecem sobre qualquer parecer não médico, inclusive o desejo dos familiares, de modo que os filhos não precisam concordar. Não se exige cartório, testemunha nem autorização judicial. A exigência de forma escrita com duas testemunhas é da Resolução 2.232/2019, para a recusa terapêutica atual que expõe a perigo de morte, e mesmo ali é preferencial. Enquanto a paciente for capaz, a vontade atual prevalece sobre o registro, que deve ser revisto a cada transição e combinado com o plano de controle da dispneia.",
+  "porAlt": [
+   "Correta: basta o registro em prontuário da diretiva e da representante, que prevalecem sobre a vontade dos familiares.",
+   "A resolução não exige cartório: o registro no prontuário tem validade e vincula a equipe.",
+   "As diretivas prevalecem sobre o desejo dos familiares, que não precisam concordar nem decidem antes da paciente.",
+   "Não é preciso autorização judicial; limitar suporte em doença terminal é decisão médica registrada.",
+   "Testemunhas não são requisito das diretivas; a forma escrita com testemunhas é preferência da norma de recusa terapêutica."
+  ]
+ }
+]

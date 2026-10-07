@@ -27649,6 +27649,2166 @@ window.BANCO=[
 ]
 },
 {
+"q": "Mulher de 34 anos tem asma desde a infância, confirmada por espirometria com aumento de 17% e 340 mL do VEF₁ após broncodilatador. Usa fluticasona-salmeterol 250/50 mcg, 1 inalação de 12 em 12 horas, e salbutamol de alívio. Nas últimas 4 semanas teve sintomas diurnos 4 vezes por semana, acordou 2 vezes à noite por asma e usou salbutamol quase todos os dias; precisou de prednisona por 5 dias há 2 meses. A técnica inalatória foi demonstrada e está correta, a dispensação na farmácia confirma a adesão, não fuma e a rinite está controlada com corticoide nasal. VEF₁ de 74% do previsto. Ela pergunta se pode usar budesonida-formoterol quando a falta de ar apertar, como faz uma amiga. Qual é a conduta mais adequada?",
+"alts": [
+"Manter fluticasona-salmeterol e usar budesonida-formoterol no alívio",
+"Passar a fluticasona-salmeterol para 500/50 mcg em duas tomadas diárias",
+"Trocar tudo por budesonida-formoterol em MART na dose média",
+"Associar tiotrópio à fluticasona-salmeterol e manter o salbutamol",
+"Encaminhar para omalizumabe por asma grave não controlada"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "GINA 2026, trilha 1 com ICS-formoterol em MART na etapa 4",
+"coment": "A asma está não controlada (três dos quatro itens de controle) e com risco futuro alto, apesar de técnica e adesão conferidas, que é o que se exige antes de subir etapa. Ela está na etapa 4 da trilha 2: propionato de fluticasona 500 mcg/dia é dose média, com LABA e SABA de alívio. O GINA 2026 mantém a trilha 1 como preferencial: ICS-formoterol como manutenção e alívio, que na etapa 4 é budesonida-formoterol 160/4,5 mcg, 2 inalações de 12 em 12 horas e 1 inalação sempre que precisar, procurando atendimento se passar de 12 inalações em 24 horas. Nos ensaios, o MART reduziu crises graves em 32% contra a mesma dose de ICS-LABA e em 23% contra dose maior. O que não existe é misturar: formoterol como alívio sobre manutenção com salmeterol. LAMA, azitromicina e biológicos ficam para a etapa 5.",
+"porAlt": [
+"O GINA não recomenda ICS-formoterol como alívio de quem mantém outro LABA na manutenção, por falta de evidência e risco de efeitos somados.",
+"Dobrar o ICS-LABA com SABA protege menos de crise grave que o MART, e a dose alta acrescenta efeito adverso com pouco ganho.",
+"Correta: o MART com budesonida-formoterol na etapa 4 reduz crises graves em relação ao ICS-LABA com SABA, com um único inalador para manutenção e alívio.",
+"O antimuscarínico de longa ação pertence à etapa 5, depois de otimizar a etapa 4, e reduz crises bem menos que a troca para o MART.",
+"Ela não preenche asma grave: ainda não falhou com ICS-LABA em dose alta otimizada, e o biológico vem depois da fenotipagem."
+]
+},
+{
+"q": "Homem de 46 anos, lavrador no interior da Bahia, tem asma de início aos 38 anos e polipose nasal operada duas vezes. Usa budesonida-formoterol 160/4,5 mcg em MART, 2 inalações de 12 em 12 horas, mais tiotrópio, com técnica conferida e adesão comprovada, e precisou de 3 cursos de prednisona no último ano. Eosinófilos de 820/µL em dois hemogramas colhidos fora de corticoide, FeNO de 46 ppb, IgE total de 310 UI/mL e teste cutâneo negativo para aeroalérgenos. Trabalha descalço na lavoura e refere episódios de dor epigástrica e diarreia. Sem sinais de vasculite, neuropatia ou lesão renal. A equipe decidiu iniciar um anti-IL-5. Antes da primeira dose, qual é a medida mais adequada?",
+"alts": [
+"Repetir os eosinófilos após um novo curso de prednisona",
+"Biópsia de mucosa nasal para afastar granulomatose eosinofílica",
+"Trocar o MART por fluticasona-salmeterol em dose alta",
+"Suspender o tiotrópio para medir o efeito isolado do biológico",
+"Pesquisar estrongiloidíase e tratar com ivermectina se positiva"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "GINA 2026, avaliação antes de corticoide ou biológico na asma grave eosinofílica",
+"coment": "É asma grave eosinofílica de início adulto com polipose, perfil com boa resposta esperada a anti-IL-5, anti-IL-5Rα ou anti-IL-4Rα. O GINA 2026 manda, diante de eosinófilos de 300/µL ou mais, pesquisar e tratar estrongiloidíase antes de iniciar corticoide ou biológico, porque a imunomodulação pode precipitar hiperinfecção e disseminação, quadro frequentemente fatal. Aqui a pista é dupla: eosinofilia alta e epidemiologia de contato com solo, com queixas digestivas. Os eosinófilos acima de 1.500/µL levariam a pensar em granulomatose eosinofílica com poliangiite. A fenotipagem deve ser feita fora do corticoide oral, que suprime os marcadores, como foi o caso. Iniciado o biológico, a resposta é julgada após pelo menos 4 meses, mantendo o MART, e o primeiro a ser reduzido é o corticoide oral.",
+"porAlt": [
+"O corticoide oral suprime os eosinófilos e falsearia a fenotipagem, além de expor o paciente à hiperinfecção se houver Strongyloides.",
+"Granulomatose eosinofílica entra na suspeita com eosinófilos acima de 1.500/µL ou sinais sistêmicos, ausentes aqui.",
+"Quem usa MART não deve ser trocado para ICS-LABA com SABA, e trocar de esquema não resolve a asma grave eosinofílica.",
+"Não há motivo para retirar o tiotrópio, que reduz crises na etapa 5 e é mantido junto com o biológico.",
+"Correta: com eosinófilos acima de 300/µL e epidemiologia sugestiva, a estrongiloidíase deve ser pesquisada e tratada antes de corticoide ou biológico, pelo risco de disseminação."
+]
+},
+{
+"q": "Mulher de 27 anos procura o pronto-socorro com crise de asma há 2 dias, após resfriado. Usava apenas salbutamol, cerca de 1 frasco a cada 2 meses, e nunca recebeu corticoide inalatório. Na chegada falava frases curtas, FR 26 irpm, SpO₂ 93% em ar ambiente e PFE de 52% do previsto. Recebeu salbutamol com ipratrópio 3 vezes e prednisolona 50 mg por via oral. Duas horas após a última nebulização está confortável, deitada, FR 18 irpm, SpO₂ 96% em ar ambiente e PFE de 78% do previsto. Mora com o marido e consegue consulta com o clínico em 5 dias. Qual é a prescrição de alta mais adequada?",
+"alts": [
+"Budesonida-formoterol em MART e prednisolona por 5 a 7 dias",
+"Salbutamol de alívio e prednisolona 40 mg/dia por 10 dias com desmame",
+"Budesonida 200 mcg de 12/12 h, salbutamol e sem corticoide oral",
+"Fluticasona-salmeterol, salbutamol e prednisolona por 3 dias",
+"Budesonida-formoterol só no alívio e prednisolona por 5 dias"
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "GINA 2026, critérios de alta e tratamento após crise de asma no pronto-socorro",
+"coment": "A crise foi moderada e ela preenche os critérios de alta do GINA 2026: padrão de crise leve mantido 1 a 2 horas após o último broncodilatador, SpO₂ de pelo menos 92% em ar ambiente, PFE acima de 70% do previsto e condições em casa. O que se prescreve na saída decide a próxima crise. Corticoide inalatório é obrigatório, e a preferência é o MART começando na etapa 4, que reduziu crises no ano seguinte em 32% em comparação com ICS-LABA na mesma dose com SABA. O corticoide oral é prednisolona equivalente a 40 a 50 mg/dia por 5 a 7 dias, sem desmame. Somam-se revisão da técnica, plano de ação escrito e retorno em 2 a 7 dias. Ela estava só com SABA, o que por si é marcador de risco de asma fatal.",
+"porAlt": [
+"Correta: a alta sai com corticoide inalatório, de preferência MART começando na etapa 4, e prednisolona de 40 a 50 mg/dia por 5 a 7 dias, sem desmame.",
+"Alta com SABA isolado mantém o principal fator de risco de nova crise e de morte, e o curso de corticoide não precisa de 10 dias nem de desmame.",
+"Depois de uma crise moderada o corticoide oral é indicado, e corticoide em dose baixa com SABA protege menos que o MART.",
+"Três dias de prednisolona ficam abaixo do curso recomendado, e o ICS-LABA com SABA reduz menos crises no ano seguinte que o MART.",
+"Após apresentação em crise o GINA orienta começar a manutenção em MART na dose média, e não apenas o alívio anti-inflamatório."
+]
+},
+{
+"q": "Homem de 31 anos usa budesonida 200 mcg de 12 em 12 horas há 2 anos, prescrita num pronto-atendimento após um episódio de tosse e chiado durante resfriado. Nunca fez espirometria. Está assintomático há 6 meses, sem despertares e sem uso de alívio. A espirometria de hoje, feita com o salbutamol suspenso há 8 horas, mostra VEF₁/CVF de 0,82, VEF₁ de 94% do previsto e aumento de 4% e 90 mL após broncodilatador. Ele quer saber se tem mesmo asma. Pelo GINA 2026, qual é a conduta mais adequada?",
+"alts": [
+"Suspender o corticoide de vez e dar alta do acompanhamento",
+"Descartar asma pela prova broncodilatadora negativa",
+"Subir para budesonida-formoterol em MART e reavaliar a função em 3 meses",
+"Dosar FeNO, que abaixo de 25 ppb exclui asma e libera parar",
+"Reduzir o corticoide e reavaliar sintomas e função em 2 a 4 semanas"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "GINA 2026, confirmação do diagnóstico de asma em quem já usa corticoide inalatório",
+"coment": "O GINA insiste em testar antes de tratar, porque semanas de corticoide inalatório apagam a variabilidade que confirma a asma; em adultos com diagnóstico prévio, um terço não teve asma confirmada após testes repetidos. Para quem já usa corticoide e não tem variabilidade documentada, a estratégia é repetir a prova após suspender o broncodilatador ou durante sintomas. Se o VEF₁ passa de 70% do previsto, reduz-se o corticoide inalatório e reavalia-se em 2 a 4 semanas, procurando a variabilidade que surge com a redução; se fica abaixo de 70%, sobe-se o corticoide por 1 a 2 meses e reavalia-se. Prova broncodilatadora negativa e FeNO baixo não excluem asma, e a retirada completa e abrupta do corticoide aumenta o risco de crise. A redução deve ser feita fora de infecção respiratória, com plano de ação.",
+"porAlt": [
+"Suspender o corticoide inalatório de uma vez aumenta muito o risco de crise caso a asma exista, e a alta encerra a investigação cedo demais.",
+"Prova broncodilatadora negativa em quem usa corticoide não exclui asma, porque o tratamento apaga a variabilidade.",
+"Subir etapa num paciente controlado e sem diagnóstico confirmado expõe a mais corticoide sem indicação.",
+"FeNO baixo não exclui asma, ainda mais em uso de corticoide inalatório, que reduz o marcador.",
+"Correta: com VEF₁ acima de 70% do previsto e sem variabilidade documentada, o GINA orienta reduzir o corticoide inalatório e repetir a avaliação em 2 a 4 semanas."
+]
+},
+{
+"q": "Homem de 64 anos, ex-tabagista de 45 maços-ano, tem dispneia ao subir um lance de escada. Espirometria com VEF₁/CVF pós-broncodilatador de 0,58 e VEF₁ de 61% do previsto. CAAT de 14 e mMRC 2. Há 5 meses teve uma exacerbação tratada no posto com prednisona e amoxicilina com clavulanato, sem internação, e nenhuma outra no último ano. Nunca usou medicação de manutenção, só salbutamol eventual. Eosinófilos de 180/µL, sem história de asma, IMC de 26 kg/m². Pelo GOLD 2026, qual é o tratamento inicial mais adequado?",
+"alts": [
+"LAMA isolado, com reavaliação em 3 meses",
+"LABA com LAMA, de preferência num inalador",
+"LABA associado a corticoide inalatório",
+"Tripla terapia em inalador único",
+"LABA e LAMA associados a roflumilaste oral"
+],
+"gab": 1,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "GOLD 2026, ferramenta ABE e tratamento inicial do grupo E",
+"coment": "A ferramenta ABE vale para o paciente virgem de manutenção e cruza sintomas com exacerbações; o VEF₁ não entra. A mudança do GOLD 2026 é que uma única exacerbação moderada ou grave no ano já define o grupo E; até 2025 eram necessárias duas moderadas ou uma com internação. Exacerbação moderada é a tratada com corticoide e/ou antibiótico sem internação, exatamente a deste paciente. No grupo E começa-se com LABA e LAMA, de preferência em inalador único, e considera-se tripla se os eosinófilos forem de 300/µL ou mais. Com 180/µL, fica a dupla. LABA com corticoide inalatório não é incentivado. O roflumilaste e a azitromicina pertencem ao algoritmo de seguimento de quem continua exacerbando. Somam-se vacinas, reabilitação e revisão da técnica inalatória.",
+"porAlt": [
+"Monoterapia é a opção do grupo A; com exacerbação no ano e sintomas relevantes, a dupla broncodilatação é o ponto de partida.",
+"Correta: uma exacerbação moderada já define o grupo E no GOLD 2026, e com eosinófilos abaixo de 300/µL o início é LABA com LAMA.",
+"O GOLD não incentiva LABA com corticoide inalatório; havendo indicação de corticoide, a tripla é superior.",
+"A tripla inicial é considerada no grupo E quando os eosinófilos chegam a 300/µL, o que não é o caso.",
+"O roflumilaste entra no seguimento de quem segue exacerbando com VEF₁ abaixo de 50% e bronquite crônica."
+]
+},
+{
+"q": "Homem de 69 anos, ex-tabagista há 8 anos, com DPOC e VEF₁ de 42% do previsto, tem tosse produtiva na maior parte dos dias há mais de 3 anos. Usa tripla terapia em inalador único com técnica e adesão conferidas, fez reabilitação pulmonar e está vacinado. No último ano teve duas exacerbações moderadas tratadas com prednisona. Eosinófilos de 410/µL e 380/µL em duas dosagens. IMC de 19 kg/m², com perda de 4 kg no ano, e depressão em tratamento com citalopram; eletrocardiograma com QTc de 510 ms. Pelo GOLD 2026, qual é o próximo passo mais adequado?",
+"alts": [
+"Dupilumabe 300 mg subcutâneo a cada 2 semanas",
+"Roflumilaste 500 µg/dia após 4 semanas de 250 µg",
+"Azitromicina 250 mg/dia por um ano",
+"Retirar o corticoide inalatório da tripla",
+"Prednisona 5 mg/dia de manutenção"
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "GOLD 2026, biológicos na via das exacerbações (BOREAS e NOTUS)",
+"coment": "O paciente segue exacerbando apesar de tripla terapia otimizada, o que leva ao algoritmo de seguimento do GOLD 2026 pela via das exacerbações. Com eosinófilos de 300/µL ou mais e duas exacerbações moderadas ou uma grave em tripla, entram os biológicos: o dupilumabe 300 mg a cada 2 semanas foi testado em quem tem bronquite crônica (BOREAS e NOTUS, cerca de 30% menos exacerbações e ganho de VEF₁), e o mepolizumabe em eosinófilos de 300/µL ou mais, com ou sem bronquite crônica. As outras saídas do algoritmo, azitromicina e roflumilaste, esbarram aqui em contraindicações relativas: QTc longo em uso de outro fármaco que o prolonga, e baixo peso com perda ponderal e depressão. Retirar o corticoide com eosinófilos altos aumenta exacerbações, e corticoide oral contínuo só traz dano.",
+"porAlt": [
+"Correta: em tripla, com bronquite crônica, duas exacerbações moderadas e eosinófilos de 300/µL ou mais, o GOLD 2026 indica biológico, e o dupilumabe é o testado nesse perfil.",
+"O roflumilaste causa perda de peso e insônia e exige cautela na depressão, ruins para um paciente com IMC de 19 e emagrecendo.",
+"A azitromicina prolonga o QTc, já de 510 ms em uso de citalopram, e o risco de arritmia supera o benefício.",
+"Com eosinófilos acima de 300/µL a retirada do corticoide inalatório aumenta exacerbações e não está indicada.",
+"Corticoide oral de manutenção não tem papel na DPOC, pelos efeitos adversos sem benefício."
+]
+},
+{
+"q": "Mulher de 71 anos com DPOC em LABA e LAMA chega à UPA com piora da dispneia há 3 dias e aumento do volume do escarro, que ficou amarelo-esverdeado, sem febre. Dispneia de 6 na escala de 0 a 10, FR 25 irpm, FC 98 bpm, SpO₂ de 90% em ar ambiente (habitual de 93%) e proteína C reativa de 34 mg/L. Radiografia sem consolidação ou pneumotórax, eletrocardiograma em ritmo sinusal e NT-proBNP normal. Gasometria arterial com pH 7,38, PaCO₂ de 46 mmHg e PaO₂ de 62 mmHg. Melhora após broncodilatadores, tolera via oral e a filha cuida dela. Não tem alergias nem culturas de escarro prévias. Qual é a prescrição mais adequada além do broncodilatador?",
+"alts": [
+"Prednisona 40 mg por 5 dias, sem antibiótico",
+"Prednisona 40 mg por 14 dias e amoxicilina-clavulanato por 10",
+"Prednisona 40 mg e amoxicilina-clavulanato, ambos por 5 dias",
+"Antibiótico só se a procalcitonina vier acima de 0,25 ng/mL",
+"Levofloxacino por 7 dias e prednisona com desmame em 3 semanas"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "GOLD 2026, gravidade de Roma e tratamento da exacerbação",
+"coment": "Pela proposta de Roma, adotada no GOLD 2026, a exacerbação é moderada quando preenche pelo menos três de cinco critérios: dispneia de 5 ou mais em 10, FR de 24 ou mais, FC de 95 ou mais, SaO₂ abaixo de 92% ou queda acima de 3% e PCR de 10 mg/L ou mais. Ela preenche os cinco. Não é grave, porque a PaO₂ está acima de 60 mmHg e não há acidose. Os imitadores foram afastados. O tratamento é broncodilatador de curta ação, prednisona 40 mg por 5 dias e, havendo escarro purulento com mais um sintoma cardinal, antibiótico por 5 dias: aminopenicilina com clavulanato, macrolídeo ou tetraciclina conforme a resistência local. Pode ser conduzida fora do hospital, com plano de ação, reinício do broncodilatador de longa ação e retorno precoce.",
+"porAlt": [
+"Purulência do escarro com aumento da dispneia e do volume é critério de antibiótico, que reduz falha terapêutica nesse perfil.",
+"No REDUCE, 5 dias de prednisona foram não inferiores a 14, e o GOLD 2026 fixou o antibiótico em 5 dias.",
+"Correta: exacerbação moderada com escarro purulento recebe prednisona 40 mg por 5 dias e antibiótico por 5 dias, aqui uma aminopenicilina com clavulanato.",
+"O GOLD não recomenda guiar o antibiótico da exacerbação pela procalcitonina; a purulência decide.",
+"Quinolona fica para selecionados, e o corticoide não precisa de curso longo nem de desmame."
+]
+},
+{
+"q": "Homem de 67 anos com DPOC grave foi internado por exacerbação com acidose respiratória (pH 7,26 e PaCO₂ de 78 mmHg) e recebeu ventilação não invasiva por 3 dias, com boa resposta. No sétimo dia está em ar ambiente com SpO₂ de 90%, sem dispneia em repouso, e a gasometria mostra pH 7,40, PaCO₂ de 56 mmHg e bicarbonato de 34 mEq/L. Foi a segunda internação por exacerbação neste ano. A equipe discute prescrever ventilação não invasiva domiciliar já na alta. Qual é a conduta mais adequada?",
+"alts": [
+"Iniciar VNI domiciliar na alta pela PaCO₂ acima de 53 mmHg",
+"Prescrever oxigênio domiciliar contínuo isolado",
+"Manter internado até a PaCO₂ normalizar",
+"Alta sem VNI e nova gasometria estável em 2 a 4 semanas",
+"CPAP domiciliar com pressão fixa de 10 cmH₂O"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "ATS 2020 de ventilação não invasiva crônica na DPOC hipercápnica e GOLD 2026",
+"coment": "A ventilação não invasiva domiciliar melhora a sobrevida livre de readmissão na DPOC com hipercapnia persistente. No HOT-HMV, acrescentar VNI ao oxigênio em quem mantinha PaCO₂ acima de 53 mmHg de 2 a 4 semanas após o episódio de acidose levou a mediana até readmissão ou morte de 1,4 para 4,3 meses, com pressões inspiratórias altas. O ponto que a ATS 2020 explicitou é o momento: parte dos pacientes reduz a PaCO₂ espontaneamente após a exacerbação, por isso a recomendação condicional é não iniciar VNI crônica na própria internação e reavaliar a gasometria em 2 a 4 semanas, rastreando apneia do sono antes de iniciar. Se a hipercapnia persistir, a VNI é ajustada para normalizar a PaCO₂. Ele também merece revisão da manutenção, reabilitação após a alta e plano de ação.",
+"porAlt": [
+"Parte da hipercapnia da alta se resolve nas semanas seguintes; o critério do HOT-HMV é a PaCO₂ acima de 53 mmHg medida 2 a 4 semanas depois.",
+"SpO₂ de 90% em ar ambiente não preenche critério de oxigênio domiciliar, e oxigênio sem ventilação não corrige a hipercapnia.",
+"A PaCO₂ crônica alta, compensada pelo bicarbonato, não precisa normalizar antes da alta; a reavaliação é ambulatorial.",
+"Correta: a ATS sugere não iniciar VNI crônica durante a internação por hipercapnia aguda sobre crônica e reavaliar a PaCO₂ em 2 a 4 semanas, quando a decisão é tomada.",
+"O CPAP é o tratamento da sobreposição com apneia obstrutiva, não da hipercapnia da DPOC sem apneia documentada."
+]
+},
+{
+"q": "Homem de 29 anos, previamente hígido, sem comorbidades e sem uso recente de antibiótico, tem febre de 38,6 °C, mialgia, tosse seca e dor pleurítica leve há 2 dias, em julho, durante surto de influenza na cidade. FR 20 irpm, FC 96 bpm, PA 122/76 mmHg, SpO₂ de 95% em ar ambiente e orientado. Radiografia com consolidação discreta no lobo inferior esquerdo. Ureia de 28 mg/dL. Teste molecular rápido em swab nasofaríngeo positivo para influenza A. Tolera via oral e mora com a esposa. Pela ATS 2025, qual é a conduta mais adequada?",
+"alts": [
+"Oseltamivir e amoxicilina 1 g de 8 em 8 horas",
+"Amoxicilina isolada, pois o antiviral perde efeito após 48 horas",
+"Internar para ceftriaxona e azitromicina venosas",
+"Levofloxacino 750 mg/dia isolado por 5 dias",
+"Oseltamivir, sem antibiótico, com reavaliação em 48 horas"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATS 2025 de pneumonia adquirida na comunidade (teste viral positivo) e ATS/IDSA 2019 (antiviral)",
+"coment": "A ATS 2025 reabriu a pergunta do antibiótico quando o teste para vírus respiratório vem positivo. Em 2019, todo paciente com influenza e pneumonia clínica e radiológica recebia antibiótico padrão. Em 2025 a recomendação foi estratificada pelo risco de coinfecção bacteriana: no paciente ambulatorial sem comorbidade, sugere-se não prescrever antibiótico empírico; no ambulatorial com comorbidade e em todo internado, grave ou não, prescreve-se. As recomendações são condicionais, com certeza muito baixa, e pressupõem reavaliação, porque a pneumonia bacteriana secundária à influenza aparece como piora após alguns dias de melhora, classicamente por pneumococo ou estafilococo. O oseltamivir é indicado na pneumonia com influenza confirmada, 75 mg de 12 em 12 horas por 5 dias, e este paciente ainda está nas primeiras 48 horas de sintomas, quando o benefício é maior.",
+"porAlt": [
+"O antibiótico empírico com vírus detectado fica para quem tem comorbidade ou está internado, pelo risco maior de coinfecção bacteriana.",
+"Ele está dentro de 48 horas de sintomas, quando o oseltamivir rende mais, e a diretriz indica antiviral na pneumonia por influenza mesmo fora da janela.",
+"CURB-65 zero, sem hipoxemia e com via oral e suporte em casa: não há indicação de internação.",
+"Quinolona não é escolha para o jovem saudável, pelos efeitos adversos graves e pela seleção de resistência.",
+"Correta: no ambulatorial sem comorbidade com teste positivo para vírus respiratório, a ATS 2025 sugere não prescrever antibiótico empírico, tratando a influenza e reavaliando."
+]
+},
+{
+"q": "Mulher de 58 anos, hipertensa, é admitida na UTI com pneumonia adquirida na comunidade: consolidação nos dois lobos inferiores, FR 34 irpm, PaO₂/FiO₂ de 160 em cateter nasal de alto fluxo com FiO₂ de 60%, confusão leve e ureia de 68 mg/dL. Pressão arterial de 104/66 mmHg sem vasopressor e lactato de 1,8 mmol/L. PCR de amostra respiratória positivo para influenza A; antígeno urinário de pneumococo negativo. Não usa corticoide, não tem asma ou DPOC e a glicemia é de 132 mg/dL. Hemoculturas e cultura de secreção foram colhidas. Qual é o esquema mais adequado?",
+"alts": [
+"Ceftriaxona, azitromicina e hidrocortisona 200 mg/dia",
+"Ceftriaxona, azitromicina, oseltamivir e hidrocortisona",
+"Oseltamivir isolado, pois o agente já foi identificado",
+"Ceftriaxona, azitromicina e oseltamivir, sem corticoide",
+"Levofloxacino isolado e metilprednisolona por 5 dias"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "uti",
+"comp": "urg",
+"nivel": "tit",
+"base": "ATS 2025 de pneumonia adquirida na comunidade (corticoide na pneumonia grave) e ATS/IDSA 2019",
+"coment": "É pneumonia grave: três ou mais critérios menores (FR de 30 ou mais, PaO₂/FiO₂ até 250, infiltrado multilobar, confusão e uremia). O esquema é betalactâmico combinado, de preferência com macrolídeo, e no internado com influenza confirmada acrescenta-se oseltamivir independentemente do tempo de doença. A ATS 2025 mantém antibiótico mesmo com vírus detectado no internado grave, pela coinfecção bacteriana. O corticoide passou a ser sugerido na pneumonia grave, sustentado sobretudo pelo CAPE COD, que reduziu mortalidade com hidrocortisona 200 mg/dia, mas a recomendação exclui explicitamente a pneumonia por influenza: estudos observacionais sugeriram mais mortalidade com corticoide nesse grupo, e o próprio CAPE COD excluiu a influenza. Corticoide indicado por outra doença de base, como asma ou DPOC exacerbada, não é afetado por essa exclusão.",
+"porAlt": [
+"Falta o antiviral na influenza confirmada em paciente grave, e o corticoide não se aplica à pneumonia por influenza.",
+"O esquema antimicrobiano está certo, mas o corticoide foi associado a maior mortalidade na influenza e está fora da recomendação.",
+"No internado com pneumonia e vírus detectado a ATS 2025 sugere antibiótico, pela coinfecção bacteriana frequente nesse grupo.",
+"Correta: pneumonia grave pede betalactâmico com macrolídeo, influenza confirmada pede oseltamivir, e a ATS 2025 exclui a pneumonia por influenza da sugestão de corticoide.",
+"Monoterapia não serve na pneumonia grave, e o corticoide não é indicado na pneumonia por influenza."
+]
+},
+{
+"q": "Homem de 66 anos, diabético, foi internado em enfermaria com pneumonia adquirida na comunidade no lobo médio, CURB-65 de 2 (idade e ureia de 58 mg/dL), sem critérios de pneumonia grave, e recebe ceftriaxona e azitromicina. Hoje completou o terceiro dia de tratamento: está afebril há 48 horas, FC 84 bpm, FR 18 irpm, PA 132/80 mmHg, SpO₂ de 95% em ar ambiente, orientado e comendo bem. A proteína C reativa caiu de 180 para 96 mg/L e a radiografia ainda mostra a consolidação. Hemoculturas negativas, sem derrame pleural ou cavitação. Pela ATS 2025, qual é a conduta antimicrobiana mais adequada?",
+"alts": [
+"Completar 5 dias, mínimo exigido em qualquer pneumonia",
+"Manter até a proteína C reativa normalizar",
+"Manter até a consolidação regredir na radiografia",
+"Trocar para amoxicilina oral e completar 10 dias",
+"Encerrar o antibiótico hoje, ao completar 3 dias"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATS 2025 de pneumonia adquirida na comunidade, duração do antibiótico após estabilidade clínica",
+"coment": "Os critérios de estabilidade são de beira de leito: temperatura até 37,8 °C, FC até 100 bpm, FR até 24 irpm, SpO₂ de pelo menos 90% em ar ambiente, sistólica de pelo menos 90 mmHg, estado mental normal e ingestão oral. Ele preenche todos. A ATS 2025 sugere, no paciente ambulatorial e no internado com pneumonia não grave que atingiu a estabilidade, duração menor que 5 dias, com mínimo de 3, apoiada no ensaio PTC: suspender o betalactâmico no terceiro dia em quem estava estável foi não inferior a completar 8 dias, com menos efeito adverso. A gravidade da apresentação define o piso: na pneumonia grave são 5 dias ou mais, com recomendação forte. Proteína C reativa e radiografia não guiam a duração. Ficam fora da regra curta MRSA, Pseudomonas, empiema, abscesso e bacteremia por S. aureus.",
+"porAlt": [
+"O piso de 5 dias vale para a pneumonia grave; na não grave estável a diretriz de 2025 aceita encerrar a partir do terceiro dia.",
+"A duração é guiada pelos critérios clínicos de estabilidade, não por marcador inflamatório, que cai mais devagar.",
+"A imagem melhora semanas depois da cura clínica e não serve para medir a duração do tratamento.",
+"Dez dias por hábito acrescentam efeito adverso e Clostridioides difficile sem benefício para quem já está estável.",
+"Correta: no internado não grave que atingiu estabilidade, a ATS 2025 sugere menos de 5 dias, com mínimo de 3, e ele cumpre os dois requisitos."
+]
+},
+{
+"q": "Mulher de 72 anos com DPOC moderada foi internada há 7 semanas por celulite e recebeu piperacilina-tazobactam venosa por 6 dias. Agora volta com pneumonia adquirida na comunidade no lobo inferior direito: FR 24 irpm, PA 124/72 mmHg, SpO₂ de 92% em ar ambiente, orientada e sem critérios de pneumonia grave. Nunca teve MRSA ou Pseudomonas isolados em secreção respiratória. O hospital validou localmente a internação com antibiótico venoso nos últimos 90 dias como fator de risco para esses agentes. Pela ATS/IDSA 2019, qual é a conduta inicial mais adequada?",
+"alts": [
+"Vancomicina e cefepima empíricas desde a admissão",
+"Esquema padrão com culturas, ampliando só se positivas",
+"Meropeném isolado pela internação recente",
+"Esquema padrão sem culturas, por não ser grave",
+"Ceftriaxona com metronidazol pelo risco de broncoaspiração"
+],
+"gab": 1,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "ATS/IDSA 2019 de pneumonia adquirida na comunidade, cobertura de MRSA e Pseudomonas",
+"coment": "A diretriz de 2019 abandonou a pneumonia associada a cuidados de saúde e passou a guiar a cobertura de MRSA e Pseudomonas por dois fatores validados: isolamento respiratório prévio do agente e internação com antibiótico venoso nos últimos 90 dias. Com isolamento prévio, cobre-se o agente em qualquer gravidade. Com internação e antibiótico venoso recentes, a gravidade decide: na pneumonia grave, cobertura empírica imediata com descalonamento por culturas e PCR nasal; na não grave, esquema padrão (aqui betalactâmico com macrolídeo, ou quinolona respiratória), culturas de secreção e hemoculturas, PCR nasal para MRSA, e ampliação só se positivos. O PCR nasal negativo tem alto valor preditivo negativo para MRSA. Cobertura anaeróbia de rotina na suspeita de aspiração também não é recomendada.",
+"porAlt": [
+"Cobrir MRSA e Pseudomonas de início com esse fator de risco é a conduta da pneumonia grave, não da não grave.",
+"Correta: na pneumonia não grave com internação e antibiótico venoso recentes, colhem-se culturas e PCR nasal para MRSA e só se amplia a cobertura se vierem positivos.",
+"Carbapenêmico isolado não cobre MRSA nem atípicos e amplia o espectro sem indicação.",
+"Quem tem fator de risco validado precisa de culturas, que são justamente o que decide se a cobertura será ampliada.",
+"Cobertura anaeróbia de rotina não é recomendada; fica para abscesso ou empiema."
+]
+},
+{
+"q": "Mulher de 45 anos teve trombose venosa profunda femoral esquerda há 6 semanas, sem fator desencadeante, e usa rivaroxabana 20 mg ao dia com o jantar, com boa adesão. Procura o pronto-socorro com dor pleurítica à direita e dispneia há 1 dia. FC 104 bpm, PA 128/78 mmHg, SpO₂ de 94% em ar ambiente, sem hemoptise, perna esquerda com edema residual discreto e estável. Radiografia de tórax normal. Wells de 3 pontos (taquicardia e trombose prévia). D-dímero de 380 µg/L em unidades equivalentes de fibrinogênio. Creatinina de 0,8 mg/dL. Qual é a conduta diagnóstica mais adequada?",
+"alts": [
+"TEP excluído pelo D-dímero abaixo de 500 µg/L",
+"Ecocardiograma à beira do leito para confirmar ou afastar",
+"Angiotomografia de tórax, apesar do D-dímero baixo",
+"Aplicar o PERC e dispensar exames se negativo",
+"Cintilografia V/Q como exame inicial preferencial"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "AHA/ACC 2026 de embolia pulmonar aguda, uso do D-dímero e escolha da imagem",
+"coment": "Para a AHA/ACC 2026, o TEP é improvável sem imagem quando três condições coexistem: D-dímero abaixo do limiar, probabilidade clínica baixa ou intermediária e paciente não anticoagulado. A terceira é a que se esquece: quase todos os estudos de validação, inclusive o YEARS, excluíram quem estava em anticoagulação terapêutica, que reduz o D-dímero. Esta paciente está em rivaroxabana e tem quadro sugestivo de embolia, o que levanta também a hipótese de recorrência em vigência de anticoagulação. A angiotomografia é recomendada em preferência à cintilografia (classe 1), e o ecocardiograma não serve para diagnosticar. Se confirmado, recorrência sob anticoagulação pede investigar adesão, interação e absorção (rivaroxabana de 15 e 20 mg precisa ser tomada com alimento) antes de concluir falha do fármaco.",
+"porAlt": [
+"O D-dímero abaixo do limiar só exclui TEP em quem não está anticoagulado, condição esquecida e decisiva.",
+"O ecocardiograma não confirma nem afasta TEP: a maioria não tem disfunção de ventrículo direito.",
+"Correta: as estratégias com D-dímero foram validadas fora da anticoagulação, que reduz o marcador; em quem está anticoagulado, a suspeita se resolve com imagem.",
+"O PERC só se aplica com probabilidade clínica abaixo de 15%, e ela tem trombose prévia e taquicardia.",
+"A angiotomografia é preferida à cintilografia, que fica para quando a tomografia não pode ser feita."
+]
+},
+{
+"q": "Mulher de 33 anos teve TEP segmentar bilateral 12 dias após cesariana de urgência, sem instabilidade, tratada com enoxaparina e depois com varfarina, por estar amamentando. Completou 3 meses de anticoagulação com INR na faixa, sem sangramento. Está assintomática, caminha 5 km por dia, não tem câncer, doença autoimune ou trombose prévia e não usa estrogênio. A mãe teve trombose venosa em uso de anticoncepcional. Pela AHA/ACC 2026, qual é a conduta mais adequada agora?",
+"alts": [
+"Manter a varfarina por tempo indeterminado pela história familiar",
+"Trocar por apixabana 2,5 mg de 12/12 horas estendida",
+"Suspender a anticoagulação ao fim da fase inicial",
+"Pesquisar trombofilia antes de decidir a suspensão",
+"Manter até completar 12 meses e repetir a angiotomografia"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHA/ACC 2026 de embolia pulmonar aguda, duração da anticoagulação",
+"coment": "A decisão sobre a duração se toma ao fim da fase inicial e depende do fator de risco. Cesariana está entre os fatores maiores reversíveis, ao lado de cirurgia com anestesia geral de 30 minutos ou mais, internação de 72 horas ou mais no leito, fratura de membro inferior e trauma com mobilidade reduzida. Com fator maior reversível, a recorrência anualizada fica abaixo de 1% e é a mesma com 3 a 6 ou com 24 meses de tratamento, e a AHA/ACC 2026 recomenda parar (classe 1). Fator menor reversível, como estrogênio, leva a decisão compartilhada; fator persistente ou nenhum fator levam à fase estendida. Na amamentação, heparina ou varfarina são preferidas ao anticoagulante oral direto. Em futura gestação ela merecerá discussão de profilaxia, mas isso não muda a suspensão agora.",
+"porAlt": [
+"História familiar não transforma um evento provocado por fator maior em indicação de anticoagulação estendida.",
+"A meia dose estendida é para quem tem indicação de continuar, como o TEP sem fator maior reversível; além disso, ela amamenta.",
+"Correta: cesariana é fator maior reversível, e a diretriz recomenda parar ao fim da fase inicial de 3 a 6 meses (classe 1).",
+"O resultado da pesquisa de trombofilia raramente muda a conduta após evento provocado por fator maior, e não é pré-requisito para suspender.",
+"Prolongar até 12 meses não reduz recorrência após fator maior reversível, e imagem de controle não decide a duração."
+]
+},
+{
+"q": "Mulher de 39 anos teve TEP lobar não provocado há 4 meses e está em uso de rivaroxabana 20 mg ao dia, sem sangramento. Tem história de 2 perdas gestacionais após a 10ª semana e livedo reticular. Anticoagulante lúpico, anticardiolipina IgG em título alto e anti-beta-2-glicoproteína I IgG vieram positivos em duas dosagens com 12 semanas de intervalo, a primeira colhida antes da anticoagulação. Função renal e hepática normais, plaquetas de 160 mil. Não deseja engravidar no momento e usa DIU de cobre. Qual é a conduta anticoagulante mais adequada?",
+"alts": [
+"Manter a rivaroxabana 20 mg ao dia, agora por tempo indefinido",
+"Reduzir a rivaroxabana para 10 mg ao dia na fase estendida",
+"Trocar para apixabana 2,5 mg de 12 em 12 horas",
+"Suspender ao completar 6 meses de tratamento",
+"Trocar para varfarina com INR de 2 a 3, sem data para parar"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA/ACC 2026 de embolia pulmonar aguda, anticoagulação na síndrome antifosfolípide",
+"coment": "Ela preenche síndrome antifosfolípide: trombose venosa, morbidade gestacional e anticorpos persistentemente positivos em duas dosagens com 12 semanas de intervalo, com perfil triplo positivo, o de maior risco. A AHA/ACC 2026 consolidou a recomendação classe 1, nível A, de antagonista da vitamina K em preferência ao anticoagulante oral direto na síndrome antifosfolípide trombótica estabelecida, porque os ensaios com rivaroxabana mostraram excesso de eventos arteriais, como AVC e infarto. O INR alvo habitual após trombose venosa é de 2 a 3. Como o fator é persistente, a anticoagulação segue na fase estendida, sem data para terminar, com reavaliação periódica do risco e do benefício. A varfarina é teratogênica, por isso a contracepção eficaz e o planejamento de uma futura gestação, com troca para heparina, entram na mesma consulta.",
+"porAlt": [
+"Os ensaios com rivaroxabana na síndrome antifosfolípide, sobretudo triplo positiva, mostraram excesso de eventos trombóticos arteriais.",
+"A meia dose de oral direto vale para o TEP não provocado sem síndrome antifosfolípide; aqui o problema é a classe do fármaco.",
+"Trocar um oral direto por outro, ainda em meia dose, não resolve a inferioridade dessa classe na síndrome antifosfolípide.",
+"TEP não provocado em portadora de síndrome antifosfolípide é fator persistente: parar aos 6 meses expõe a recorrência alta.",
+"Correta: na síndrome antifosfolípide trombótica estabelecida o antagonista da vitamina K é preferido ao oral direto (classe 1, nível A), e o evento não provocado pede anticoagulação estendida."
+]
+},
+{
+"q": "Homem de 56 anos, etilista, internado há 3 dias com pneumonia no lobo inferior esquerdo em ceftriaxona e azitromicina, mantém febre de 38,5 °C. O ultrassom mostra derrame moderado com septações finas. Toracocentese guiada: líquido turvo, não purulento, pH de 7,08 (seringa heparinizada processada no gasômetro), glicose de 32 mg/dL, DHL de 1.900 U/L e 85% de neutrófilos, com Gram sem bactérias. Plaquetas de 210 mil e INR de 1,2. Não tem contraindicação a procedimentos. Qual é a conduta mais adequada?",
+"alts": [
+"Dreno de 28 F, pelo líquido espesso e septado",
+"Manter o antibiótico e repetir a punção em 48 horas",
+"Alteplase intrapleural isolada pela agulha da punção",
+"Dreno fino de até 14 F e cobertura anaeróbia no antibiótico",
+"Decorticação por videotoracoscopia logo como primeira medida"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "BTS 2023 de doença pleural, drenagem da infecção pleural",
+"coment": "Derrame parapneumônico com pH abaixo de 7,2, glicose baixa, DHL alta ou septações é complicado e precisa de drenagem, mesmo sem pus. O pH vale porque foi colhido do jeito certo: seringa heparinizada, sem ar e processada no gasômetro. A diretriz britânica de 2023 orienta iniciar a drenagem da infecção pleural com dreno de pequeno calibre, 14 F ou menor, porque drenos maiores doem mais sem drenar melhor. Se a drenagem parar com líquido residual e septações, o passo seguinte é alteplase com dornase intrapleurais combinadas, que no MIST-2 reduziram o encaminhamento cirúrgico de 16% para 4%; isoladas não funcionaram. O antibiótico da infecção pleural cobre anaeróbios, com betalactâmico com inibidor de betalactamase ou associação com metronidazol, e é prolongado conforme a evolução. O escore RAPID ajuda a antecipar a conversa com a cirurgia.",
+"porAlt": [
+"Drenos calibrosos doem mais e não drenam melhor; o que resolve septação é fibrinolítico com dornase, não diâmetro.",
+"Derrame complicado não se resolve com antibiótico e punções; adiar a drenagem deixa a coleção se organizar.",
+"No MIST-2 a alteplase isolada não diferiu do placebo; o fibrinolítico só funciona combinado à dornase, pelo dreno.",
+"Correta: pH abaixo de 7,2 define derrame complicado, que se drena com dreno de pequeno calibre, e a infecção pleural exige antibiótico com cobertura anaeróbia.",
+"A cirurgia fica para quem falha a drenagem com fibrinolítico, não é a primeira medida neste caso."
+]
+},
+{
+"q": "Mulher de 64 anos com adenocarcinoma de mama metastático tem derrame pleural direito recidivante com citologia positiva. Está na terceira toracocentese em 5 semanas: após retirar 1,3 L guiada por ultrassom, a dispneia melhorou muito, mas a radiografia de controle mostra que o pulmão não reexpandiu, com hidropneumotórax ex vacuo e sem desvio do mediastino. ECOG 1, em quimioterapia, deseja passar o mínimo de tempo internada. Plaquetas de 190 mil e INR de 1,0. Qual é a conduta mais adequada?",
+"alts": [
+"Cateter pleural de longa permanência",
+"Pleurodese com talco por dreno torácico",
+"Toracocentese de repetição a cada recidiva sintomática",
+"Dreno torácico em selo d'água para tratar o pneumotórax",
+"Pleurectomia com decorticação"
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATS/STS/STR 2018 de derrame pleural maligno e BTS 2023 de doença pleural",
+"coment": "O derrame neoplásico sintomático e recidivante se trata para aliviar sintoma, e a pergunta que decide a técnica não é laboratorial: o pulmão reexpande após a drenagem? Se reexpande, pleurodese com talco e cateter de longa permanência são opções legítimas, escolhidas com o paciente. Se não reexpande, como aqui, as pleuras não se encostam e a pleurodese não tem como funcionar. O hidropneumotórax ex vacuo depois da drenagem é justamente o sinal que denuncia o encarceramento, não uma complicação. A diretriz ATS/STS/STR de 2018 recomenda, no pulmão não expansível ou após falha de pleurodese, o cateter pleural de longa permanência, com drenagem intermitente em casa. Combina com o desejo da paciente: no TIME2, a mediana de internação inicial foi de zero dia com o cateter contra 4 com o talco. Infecção do cateter se trata com antibiótico, sem retirá-lo.",
+"porAlt": [
+"Correta: no pulmão não expansível a ATS/STS/STR recomenda o cateter pleural de longa permanência, que alivia a dispneia com drenagem domiciliar e quase sem internação.",
+"A pleurodese depende do contato entre as pleuras; com o pulmão encarcerado o talco não produz sínfise e o procedimento falha.",
+"Punções repetidas expõem a riscos a cada sessão e não resolvem um derrame que recidiva em poucas semanas.",
+"O hidropneumotórax ex vacuo é sinal de encarceramento, não pneumotórax por lesão pulmonar que precise de dreno.",
+"Cirurgia de grande porte não é indicada para tratamento paliativo de derrame neoplásico em pulmão encarcerado."
+]
+},
+{
+"q": "Homem de 62 anos, ex-tabagista, com artrite reumatoide soropositiva há 15 anos e nódulos subcutâneos nos cotovelos, tem derrame pleural esquerdo pequeno a moderado há 2 meses, com dispneia leve aos esforços. Afebril, sem perda de peso, leucócitos de 7.800/µL e PCR de 22 mg/L. Líquido amarelo-turvo, sem odor: proteína de 5,1 g/dL (soro 7,0), DHL de 1.400 U/L (limite sérico 240), glicose de 12 mg/dL (glicemia 98), pH 7,10, 65% de linfócitos, ADA de 62 U/L, Gram e cultura negativos, triglicerídeos de 40 mg/dL. A citologia mostra macrófagos alongados, células gigantes multinucleadas e fundo granular necrótico, sem células neoplásicas. Qual é a interpretação mais provável?",
+"alts": [
+"Tuberculose pleural, pela ADA acima de 40 U/L e linfocitose",
+"Pleurite reumatoide, com ADA elevada como falso-positivo",
+"Empiema, pelo pH e pela glicose muito baixos",
+"Pseudoquilotórax de derrame crônico",
+"Transudato, corrigido pelo gradiente de proteína"
+],
+"gab": 1,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "BTS 2023 de doença pleural, análise do líquido pleural e diagnóstico diferencial do exsudato",
+"coment": "Pelos critérios de Light o líquido é exsudato (relações de proteína e DHL acima de 0,5 e 0,6). A combinação de glicose muito baixa, pH baixo e DHL muito alta tem diferencial curto: empiema, artrite reumatoide, tuberculose e neoplasia avançada. Num homem com artrite reumatoide soropositiva e nodular, sem sepse, com Gram e cultura negativos, o quadro é de pleurite reumatoide, e a citologia com macrófagos alongados, células gigantes multinucleadas e fundo necrótico é característica. A armadilha é a ADA: empiema, linfoma e artrite reumatoide também a elevam, e os três podem cursar com glicose baixa. Num país de alta prevalência, persistindo dúvida sobre tuberculose, a biópsia pleural com histologia e cultura resolve. O tratamento é o da doença de base, com drenagem se o derrame for volumoso ou sintomático.",
+"porAlt": [
+"A artrite reumatoide está entre as causas de ADA falsamente elevada, e a glicose quase zerada com essa citologia aponta outra doença.",
+"Correta: glicose muito baixa, pH baixo e DHL alta em artrite reumatoide nodular, com a citologia típica de macrófagos alongados e células gigantes, definem pleurite reumatoide.",
+"O perfil bioquímico imita empiema, mas não há febre, leucocitose, pus nem germe no Gram e na cultura.",
+"Pseudoquilotórax é leitoso, com colesterol alto e cristais; aqui o líquido é turvo e os triglicerídeos são baixos.",
+"Pelos critérios de Light é exsudato inequívoco, e o gradiente não se usa para reclassificar este perfil."
+]
+},
+{
+"q": "Homem de 26 anos, sem comorbidades e com teste rápido para HIV negativo, tem febre vespertina, sudorese noturna, dor pleurítica à direita e perda de 4 kg há 4 semanas. Radiografia com derrame moderado à direita, sem lesão parenquimatosa. Líquido pleural: exsudato pelos critérios de Light, 88% de linfócitos, células mesoteliais raras, glicose de 74 mg/dL e ADA de 86 U/L; baciloscopia e teste rápido molecular negativos no líquido, cultura em andamento. Pesa 64 kg e tem função hepática e renal normais. Qual é a conduta mais adequada?",
+"alts": [
+"Aguardar a cultura do líquido antes de tratar",
+"RHZE com 4 comprimidos por 6 meses, sem corticoide",
+"Esquema básico com RHZE, 4 comprimidos, e prednisona",
+"2RHZE/4RH com 4 comprimidos na fase intensiva",
+"Drenagem torácica com dreno fino antes do esquema"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, e BTS 2023",
+"coment": "Tuberculose pleural é a causa infecciosa mais frequente de exsudato linfocítico no Brasil, típica do adulto jovem com febre, emagrecimento e dor pleurítica. O líquido é paucibacilar: baciloscopia positiva em menos de 5% e cultura em menos de 15%, por isso a ADA tem papel central. Acima de 40 U/L, sobretudo abaixo de 45 anos e com predomínio linfocítico, o Manual do Ministério da Saúde aceita a ADA como critério para tratar. O esquema é o básico, 2 meses de rifampicina, isoniazida, pirazinamida e etambutol e 4 meses de rifampicina e isoniazida; com 64 kg são 4 comprimidos de RHZE na fase intensiva. O corticoide não é rotina, e a drenagem não é necessária. Completam a conduta cultura de escarro induzido, notificação, avaliação de contatos e biópsia pleural se houver sinal de linfoma.",
+"porAlt": [
+"Baciloscopia e cultura do líquido rendem pouco na forma pleural; esperar a cultura atrasa o tratamento sem ganho diagnóstico.",
+"O esquema é de 2 meses de RHZE seguidos de 4 meses de RH; manter os quatro fármacos por 6 meses não faz parte do esquema básico.",
+"Corticoide não é rotina na tuberculose pleural, sem benefício funcional demonstrado e com mais efeitos adversos.",
+"Correta: exsudato linfocítico com ADA acima de 40 U/L em jovem autoriza tratar tuberculose pleural com o esquema básico de 6 meses, 4 comprimidos de RHZE na faixa de 51 a 70 kg.",
+"O derrame da tuberculose pleural costuma reabsorver com o tratamento e não precisa de drenagem de rotina."
+]
+},
+{
+"q": "Homem de 72 anos com fibrose pulmonar idiopática diagnosticada há 2 anos, em uso de nintedanibe, chega com piora da dispneia há 9 dias e SpO₂ de 84% em ar ambiente, que sobe para 92% com máscara de Venturi a 40%. Afebril, PA 128/76 mmHg. Tomografia com vidro fosco bilateral novo sobreposto ao faveolamento basal; angiotomografia sem TEP; NT-proBNP normal e ecocardiograma sem disfunção ventricular. Procalcitonina baixa, painel viral negativo e culturas colhidas. Não é candidato a transplante e discutiu com a família os limites do suporte. Qual é a conduta mais adequada?",
+"alts": [
+"Corticoide com pulsos de ciclofosfamida",
+"Suspender o nintedanibe durante a exacerbação",
+"Suporte, corticoide e manter o nintedanibe",
+"Anticoagulação plena com heparina não fracionada",
+"Intubação precoce para proteger o pulmão"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Grupo internacional de 2016 de exacerbação aguda de FPI, ensaio EXAFIP 2022 e ATS/ERS/JRS/ALAT 2022",
+"coment": "A definição de 2016 de exacerbação aguda de fibrose pulmonar idiopática exige diagnóstico prévio ou simultâneo, piora respiratória em menos de um mês, vidro fosco ou consolidação bilateral nova sobre o padrão usual e quadro não explicado totalmente por insuficiência cardíaca ou hipervolemia. Embolia, pneumotórax e congestão foram afastados. O tratamento é de suporte, com oxigênio e antibiótico enquanto a infecção não é excluída. O corticoide é prática comum com evidência muito fraca, sem ensaio positivo. O único ensaio grande, o EXAFIP, mostrou que a ciclofosfamida associada aumenta a mortalidade, e no mesmo estudo o uso de antifibrótico associou-se a menor mortalidade, por isso o nintedanibe é mantido. A ventilação mecânica tem prognóstico ruim e, fora da ponte para transplante, a conversa sobre limites de suporte deve preceder a crise.",
+"porAlt": [
+"No EXAFIP, somar ciclofosfamida ao corticoide aumentou a mortalidade em 3 meses (45% contra 31%).",
+"Estar em antifibrótico associou-se a menor mortalidade na exacerbação, e não há razão para suspendê-lo.",
+"Correta: a exacerbação aguda se trata com oxigênio e suporte, antibiótico enquanto infecção não é excluída e corticoide com evidência fraca, mantendo o antifibrótico.",
+"TEP foi afastado pela angiotomografia, e anticoagulação sem outra indicação é contraindicada na fibrose pulmonar idiopática.",
+"A ventilação mecânica tem desfecho ruim na exacerbação e fica reservada, em geral, a candidatos a transplante."
+]
+},
+{
+"q": "Homem de 59 anos, ex-tabagista, recebeu há 1 mês o diagnóstico de fibrose pulmonar idiopática por discussão multidisciplinar, com padrão de pneumonia intersticial usual na tomografia, sem exposição ou colagenose. CVF de 76% do previsto, DLCO de 48%, SpO₂ de 95% em repouso e 91% no fim da caminhada de 6 minutos (420 m). Iniciou pirfenidona. IMC de 27 kg/m², sem cardiopatia ou câncer, e mora a 200 km de um centro de transplante pulmonar. Ele pergunta quando deve ser avaliado para transplante. Qual é a orientação mais adequada?",
+"alts": [
+"Encaminhar se a CVF cair 10% em 6 meses",
+"Encaminhar quando precisar de oxigênio contínuo",
+"Não encaminhar enquanto houver resposta ao antifibrótico",
+"Encaminhar já ao centro de transplante, ainda no início",
+"Encaminhar só depois de uma exacerbação aguda"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Consenso ISHLT 2021 de seleção de candidatos a transplante pulmonar e ATS/ERS/JRS/ALAT 2022",
+"coment": "O transplante é o único tratamento que prolonga muito a sobrevida na fibrose pulmonar avançada, e o erro clássico é encaminhar tarde. O consenso da Sociedade Internacional de Transplante de Coração e Pulmão de 2021 separa encaminhar de listar. Encaminhar é cedo: padrão de pneumonia intersticial usual ou usual provável na tomografia já ao diagnóstico, mesmo iniciando tratamento, CVF abaixo de 80% ou DLCO abaixo de 40%, queda funcional em 2 anos ou qualquer necessidade de oxigênio, mesmo só ao esforço. O tempo serve para resolver barreiras como obesidade e descondicionamento. Listar exige progressão em 6 meses apesar do tratamento, dessaturação abaixo de 88% ou caminhada abaixo de 250 m, hipertensão pulmonar ou internação por piora respiratória. Este paciente tem padrão usual e CVF abaixo de 80%: deve ser encaminhado agora.",
+"porAlt": [
+"Queda de mais de 10% da CVF em 6 meses é critério para listar, etapa posterior ao encaminhamento.",
+"Esperar o oxigênio contínuo é o erro clássico que leva o paciente tarde demais ao centro de transplante.",
+"O antifibrótico desacelera, mas não interrompe a doença, e o encaminhamento é feito junto com o tratamento.",
+"Correta: o consenso de 2021 recomenda encaminhar já ao diagnóstico quem tem padrão usual na tomografia, e a CVF abaixo de 80% reforça a indicação.",
+"A exacerbação aguda tem alta mortalidade e pode tirar a chance de transplante de quem não foi avaliado antes."
+]
+},
+{
+"q": "Mulher de 68 anos com fibrose pulmonar idiopática confirmada há 4 meses, com padrão usual na tomografia, sorologias negativas e sem exposição, recebeu de outro serviço prednisona 20 mg/dia, azatioprina e N-acetilcisteína. Usa varfarina por prótese valvar mecânica mitral, com INR estável, e tem síndrome do intestino irritável com diarreia frequente. CVF de 70% do previsto e DLCO de 46%. Trabalha em escritório e evita exposição ao sol. Qual é a conduta mais adequada?",
+"alts": [
+"Manter a tríplice e associar sildenafila",
+"Manter só a N-acetilcisteína em dose alta",
+"Associar ambrisentana à tríplice que ela já usa",
+"Trocar a azatioprina por micofenolato",
+"Suspender a tríplice e iniciar pirfenidona"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ATS/ERS/JRS/ALAT 2015 e 2022 de tratamento da FPI, SBPT 2020 e ensaio PANTHER-IPF",
+"coment": "A patogenia da fibrose pulmonar idiopática é de lesão epitelial repetida com reparo aberrante, não de inflamação. No PANTHER-IPF, a combinação de prednisona, azatioprina e N-acetilcisteína teve mais mortes (8 contra 1) e mais internações que o placebo, e o braço foi interrompido; desde 2015 a recomendação é forte contra. O tratamento são os antifibróticos, nintedanibe ou pirfenidona, ambos com recomendação condicional e sem superioridade entre si, escolhidos por efeito adverso e comorbidade. Nesta paciente, o nintedanibe pede cautela com anticoagulação plena e tem diarreia como efeito mais comum, o que pesa contra ele. A pirfenidona, 801 mg três vezes ao dia com as refeições após escalonamento, causa náusea e fotossensibilidade, contornável com a rotina dela, e exige transaminases periódicas. N-acetilcisteína, sildenafila e antagonistas de endotelina não têm lugar.",
+"porAlt": [
+"Manter a tríplice expõe ao excesso de mortes do PANTHER, e a sildenafila não é recomendada na fibrose idiopática.",
+"A N-acetilcisteína isolada recebeu recomendação contrária e não substitui o antifibrótico.",
+"Antagonistas de endotelina receberam recomendação forte contra na fibrose idiopática, e a tríplice deve sair.",
+"Imunossupressão não trata fibrose pulmonar idiopática, cuja patogenia é de reparo epitelial aberrante.",
+"Correta: a tríplice aumentou mortalidade na fibrose idiopática, e a pirfenidona é antifibrótico que se ajusta a quem usa varfarina e tem diarreia crônica."
+]
+},
+{
+"q": "Mulher de 61 anos, nunca fumou, fez tomografia de tórax para investigar tosse após infecção viral e foi encontrado nódulo parcialmente sólido de 14 mm no lobo superior direito, único, com componente sólido de 4 mm. A tomografia de controle após 4 meses mostra o nódulo inalterado, sem linfonodos aumentados. Não tem câncer prévio e não está em programa de rastreamento. Pela Fleischner 2017, qual é o seguimento mais adequado?",
+"alts": [
+"Alta do seguimento, pela estabilidade no exame de controle após 4 meses",
+"PET-CT e biópsia percutânea já nesta etapa",
+"Tomografia a cada 2 anos até completar 5 anos",
+"Tomografia anual por 5 anos, se o sólido seguir abaixo de 6 mm",
+"Lobectomia por videotoracoscopia nesta etapa"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Fleischner Society 2017 de nódulos pulmonares incidentais",
+"coment": "Os nódulos subsólidos têm regras próprias porque o adenocarcinoma de crescimento lento se apresenta assim, e o seguimento é mais longo que o do nódulo sólido. Pela Fleischner 2017, o nódulo parcialmente sólido único de 6 mm ou mais pede tomografia em 3 a 6 meses para confirmar persistência, porque parte deles é inflamatória e desaparece. Persistindo e com componente sólido abaixo de 6 mm, segue-se com tomografia anual por 5 anos. Componente sólido de 6 mm ou mais torna o nódulo altamente suspeito, com indicação de PET-CT, biópsia ou ressecção, e o mesmo vale para crescimento do componente sólido. Já o vidro fosco puro de 6 mm ou mais é seguido a cada 2 anos até 5 anos. A diretriz vale para achado incidental em adultos acima de 35 anos fora de rastreamento e sem câncer conhecido.",
+"porAlt": [
+"A persistência após 3 a 6 meses afasta processo inflamatório transitório e é justamente o que exige seguimento longo.",
+"Com componente sólido de 4 mm o PET-CT rende pouco, e a abordagem invasiva fica para sólido de 6 mm ou mais ou crescimento.",
+"Tomografia a cada 2 anos é o seguimento do nódulo em vidro fosco puro de 6 mm ou mais, não do parcialmente sólido.",
+"Correta: nódulo parcialmente sólido persistente com componente sólido abaixo de 6 mm segue com tomografia anual por 5 anos pela Fleischner 2017.",
+"Ressecção é considerada quando o componente sólido cresce ou chega a 6 mm, o que não ocorreu."
+]
+},
+{
+"q": "Homem de 63 anos, fumante de 1 maço por dia há 42 anos, entra em programa estruturado de rastreamento de câncer de pulmão após decisão compartilhada e aceita o encaminhamento para cessação do tabagismo. A primeira tomografia de baixa dose mostra nódulo sólido de 10 mm de diâmetro médio no lobo inferior esquerdo, de contornos regulares, sem calcificação ou gordura, sem outras alterações. Não há exames anteriores para comparação. Qual é a classificação e a conduta mais adequadas?",
+"alts": [
+"Lung-RADS 3: tomografia de baixa dose em 6 meses",
+"Lung-RADS 2: manter a tomografia anual",
+"Lung-RADS 4B: biópsia percutânea imediata",
+"Fleischner: tomografia em 6 a 12 meses",
+"Lung-RADS 4A: tomografia em 3 meses ou PET-TC"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "ACR Lung-RADS versão 2022 e recomendação SBCT/SBPT/CBR 2024 de rastreamento de câncer de pulmão",
+"coment": "Ele é elegível para rastreamento (50 a 80 anos, 20 maços-ano ou mais, fumante atual), e a recomendação brasileira de 2024 exige decisão compartilhada, laudo pelo Lung-RADS, cessação do tabagismo acoplada e acesso a biópsia e cirurgia. O Lung-RADS 2022 classifica o exame pelo nódulo mais suspeito. Na tomografia de base, nódulo sólido abaixo de 6 mm é categoria 2 (controle anual), de 6 a menos de 8 mm é categoria 3 (controle em 6 meses), de 8 a menos de 15 mm é categoria 4A (tomografia em 3 meses, com PET-TC considerado se houver componente sólido de 8 mm ou mais) e de 15 mm ou mais é 4B. As categorias 3 e 4 são rastreio positivo. O nódulo incidental fora do programa segue a Fleischner, não o Lung-RADS. A cessação do tabagismo é a intervenção de maior impacto na mesma pessoa.",
+"porAlt": [
+"Lung-RADS 3 é o nódulo sólido de base de 6 a menos de 8 mm; com 10 mm a categoria sobe.",
+"Lung-RADS 2 é o nódulo sólido de base abaixo de 6 mm, que mantém o intervalo anual.",
+"Lung-RADS 4B começa em 15 mm ou em nódulo novo ou crescente de 8 mm ou mais.",
+"No rastreamento o laudo segue o Lung-RADS; a Fleischner é para o nódulo incidental fora do programa.",
+"Correta: no exame de base, nódulo sólido de 8 a menos de 15 mm é Lung-RADS 4A, com tomografia em 3 meses e PET-TC como opção quando o componente sólido tem 8 mm ou mais."
+]
+},
+{
+"q": "Homem de 41 anos, 68 kg, caso novo de tuberculose pulmonar cavitária com baciloscopia inicial 3+ e teste rápido molecular detectado sem resistência à rifampicina, está no fim do segundo mês do esquema básico, com tomadas observadas em todos os dias úteis e sem faltas. Melhorou da febre e ganhou 3 kg, mas a baciloscopia de controle do segundo mês é positiva (1+). A cultura não foi colhida no diagnóstico. HIV negativo, glicemia normal e função hepática normal. Qual é a conduta mais adequada?",
+"alts": [
+"Cultura com TS e estender a fase intensiva por mais 30 dias",
+"Declarar falência e encaminhar para esquema de resistência",
+"Iniciar a manutenção com RH como planejado",
+"Repetir o teste rápido molecular e usá-lo para decidir a evolução",
+"Acrescentar levofloxacino ao RHZE até sair a cultura"
+],
+"gab": 0,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, seguimento do esquema básico",
+"coment": "O controle do tratamento da tuberculose pulmonar é feito com baciloscopia mensal; o teste rápido molecular não serve para isso, porque amplifica DNA de bacilo morto. Baciloscopia positiva ao fim do segundo mês muda a conduta pelo Manual do Ministério da Saúde: pede-se cultura com teste de sensibilidade, teste rápido para rastrear resistência à rifampicina, e prolonga-se a fase intensiva por mais 30 dias. Se o teste de sensibilidade mostrar sensibilidade, ou ainda não tiver saído e a evolução for boa, segue-se para a manutenção; evolução ruim vai à referência. Na doença multicavitária com baciloscopia positiva no fim do segundo mês, a manutenção pode ser estendida de 4 para 7 meses. Falência tem definição própria e não se aplica aqui. O tratamento diretamente observado sem faltas afasta má adesão como explicação.",
+"porAlt": [
+"Correta: baciloscopia positiva no fim do segundo mês pede cultura com teste de sensibilidade, teste rápido para rastrear resistência e prolongamento da fase intensiva por 30 dias.",
+"Falência exige baciloscopia positiva no final do tratamento ou persistência fortemente positiva até o quarto mês, o que não ocorreu.",
+"Passar para a manutenção sem investigar ignora a possibilidade de resistência e de doença mais extensa, que o manual manda checar.",
+"O teste rápido detecta DNA de bacilo morto e não serve para controle de tratamento; aqui ele só rastreia resistência.",
+"Acrescentar um único fármaco a um esquema possivelmente falhando é monoterapia disfarçada e seleciona resistência."
+]
+},
+{
+"q": "Mulher de 35 anos tratou tuberculose pulmonar há 3 anos e abandonou o esquema no quarto mês. Há 6 semanas tem tosse produtiva, febre baixa vespertina e perda de 5 kg. A radiografia mostra consolidação com cavidade no lobo superior esquerdo, além de retrações apicais antigas. HIV negativo. Ela retorna à unidade de saúde que a acompanhou. Qual é a investigação bacteriológica mais adequada neste retratamento?",
+"alts": [
+"Teste rápido molecular isolado, que confirma a doença ativa",
+"Prova tuberculínica e IGRA para confirmar a reativação",
+"Baciloscopia isolada, sem cultura, por já ser um caso conhecido",
+"Baciloscopia e cultura com TS, e teste rápido só para resistência",
+"Tomografia de tórax, que dispensa o exame de escarro"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, diagnóstico no retratamento",
+"coment": "Retorno após abandono com doença ativa é retratamento, assim como a recidiva após cura. Nessa situação o teste rápido molecular perde o papel diagnóstico que tem no caso novo: ele detecta DNA do complexo Mycobacterium tuberculosis, inclusive de bacilos mortos, e pode permanecer positivo por resíduo do tratamento anterior. Por isso o Manual do Ministério da Saúde manda pedir juntos baciloscopia, teste rápido, cultura e teste de sensibilidade, usando baciloscopia e cultura para o diagnóstico e o teste rápido para rastrear resistência à rifampicina. Baciloscopia positiva com teste rápido não detectado é tuberculose provável e recebe esquema básico, com a cultura afastando micobactéria não tuberculosa; baciloscopia negativa com teste rápido detectado vai à referência. O retratamento sensível usa o mesmo esquema básico, com tratamento diretamente observado e abordagem das causas do abandono.",
+"porAlt": [
+"O teste rápido amplifica DNA de bacilo morto e pode vir positivo por resíduo do tratamento anterior, sem confirmar doença ativa.",
+"Prova tuberculínica e IGRA indicam infecção, não doença ativa, e já seriam positivos em quem teve tuberculose.",
+"Retorno após abandono é grupo de risco para resistência, e a cultura com teste de sensibilidade é obrigatória.",
+"Correta: no retratamento o diagnóstico se faz por baciloscopia e cultura com teste de sensibilidade, e o teste rápido molecular entra para rastrear resistência à rifampicina.",
+"A imagem sugere, mas não confirma tuberculose; o diagnóstico laboratorial deve ser oferecido em todo caso."
+]
+},
+{
+"q": "Homem de 66 anos tem insuficiência cardíaca com fração de ejeção de 28%, em sacubitril-valsartana, bisoprolol, espironolactona e dapagliflozina em doses otimizadas, classe funcional II. Tem sono fragmentado, e a esposa observa respiração que aumenta e diminui, com pausas. Polissonografia: índice de apneia-hipopneia de 36 eventos por hora, 85% de eventos centrais, padrão de Cheyne-Stokes e sem hipoventilação. Epworth de 9. O médico do sono propõe servoventilação adaptativa. Qual é a conduta mais adequada?",
+"alts": [
+"Servoventilação adaptativa para reduzir mortalidade cardiovascular",
+"Zolpidem para consolidar o sono",
+"Aparelho intraoral de avanço mandibular",
+"Não usar servoventilação; CPAP ou oxigênio noturno",
+"Repetir com poligrafia domiciliar antes de tratar"
+],
+"gab": 3,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "ESC 2026 de insuficiência cardíaca (servoventilação) e ensaio SERVE-HF",
+"coment": "Cerca de 40% dos homens com insuficiência cardíaca sistólica têm apneia central, e a respiração de Cheyne-Stokes, com ciclos em crescendo e decrescendo, sinaliza débito baixo e tempo de circulação longo. O tratamento começa pela otimização da insuficiência cardíaca, já feita aqui; CPAP e oxigênio noturno de baixo fluxo são as opções seguintes. O SERVE-HF randomizou 1.325 pacientes com fração de ejeção de até 45% e apneia central predominante: a servoventilação adaptativa não mudou o desfecho primário e aumentou a mortalidade total (razão de risco 1,28) e cardiovascular (1,34). A ESC 2026 manteve a recomendação classe III, nível A, contra a servoventilação nesse perfil, e só a considera (IIb) quando a apneia predominante é obstrutiva. O diagnóstico de apneia central exige polissonografia, porque a poligrafia domiciliar não foi validada para ela.",
+"porAlt": [
+"No SERVE-HF a servoventilação aumentou a mortalidade total e cardiovascular nesse perfil exato.",
+"Hipnótico não trata apneia central e pode piorar a fragmentação respiratória do sono.",
+"O aparelho intraoral age sobre o colapso da via aérea superior, mecanismo da apneia obstrutiva, não da central.",
+"Correta: na fração reduzida com apneia central predominante a servoventilação é contraindicada (ESC 2026, III, A), e CPAP ou oxigênio noturno são as alternativas após otimizar a insuficiência cardíaca.",
+"A poligrafia domiciliar não foi validada para apneia central; a polissonografia já feita é o exame adequado."
+]
+},
+{
+"q": "Homem de 48 anos, motorista de caminhão, IMC de 36 kg/m², circunferência cervical de 45 cm, hipertensão em uso de 3 fármacos, ronco alto com pausas observadas pela esposa e Epworth de 15. Já cochilou ao volante. Não tem DPOC, insuficiência cardíaca, doença neuromuscular ou uso de opioide. Fez poligrafia domiciliar tipo 3 com 4 horas de registro válido e índice de apneia-hipopneia de 4 eventos por hora, com períodos de perda do sinal de oximetria. Qual é a conduta mais adequada?",
+"alts": [
+"Excluir apneia e investigar narcolepsia",
+"CPAP empírico pela alta probabilidade clínica",
+"Oximetria noturna para confirmar o resultado",
+"Repetir o STOP-Bang em 3 meses",
+"Polissonografia no laboratório"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "AASM 2017 de diagnóstico da apneia obstrutiva e consenso SBPT 2022 de distúrbios respiratórios do sono",
+"coment": "A probabilidade pré-teste é alta: sonolência, ronco alto com pausas presenciadas, hipertensão resistente, obesidade e pescoço largo. A poligrafia domiciliar tipo 3 é adequada para o paciente sem comorbidade importante com suspeita de apneia moderada a grave, mas tem um limite estrutural: mede tempo de registro, não de sono, e subestima o índice de apneia-hipopneia, ainda mais com registro curto e perda de sinal. A AASM recomenda, com força, que poligrafia única negativa, inconclusiva ou tecnicamente inadequada seja seguida de polissonografia, e que questionários não sejam usados para diagnosticar. Por ser motorista profissional, a Resolução CONTRAN 927/2022 prevê avaliação de apneia nas categorias C, D e E, e ele deve ser orientado a não dirigir com sonolência importante até o tratamento funcionar.",
+"porAlt": [
+"A poligrafia mede tempo de registro, não de sono, e subestima o índice; um exame negativo e limitado não exclui apneia.",
+"O tratamento exige diagnóstico objetivo, e a gravidade medida orienta a indicação e o seguimento.",
+"A oximetria isolada não diagnostica apneia e não resolve a dúvida deixada por um exame domiciliar inadequado.",
+"Questionários servem para triar e não diagnosticam nem excluem apneia obstrutiva.",
+"Correta: poligrafia negativa, inconclusiva ou tecnicamente inadequada em paciente com suspeita alta deve ser seguida de polissonografia (AASM, recomendação forte)."
+]
+},
+{
+"q": "Mulher de 52 anos é encaminhada com diagnóstico de asma grave por dispneia aos esforços e ruído respiratório há 5 meses, sem resposta a budesonida-formoterol em dose média. Fez tireoidectomia total por bócio há 6 meses e desde então tem voz fraca e soprosa. Espirometria: VEF₁/CVF de 0,80, VEF₁ de 82% e CVF de 90% do previsto, sem resposta ao broncodilatador; alça expiratória normal e alça inspiratória achatada em platô, com FIF₅₀/FEF₅₀ de 0,4. Qual é a hipótese mais provável?",
+"alts": [
+"Obstrução fixa por estenose traqueal",
+"Obstrução variável intratorácica por traqueomalácia",
+"Obstrução variável extratorácica por paralisia de pregas vocais",
+"Asma grave com obstrução de pequenas vias aéreas",
+"Restrição extraparenquimatosa por fraqueza diafragmática bilateral"
+],
+"gab": 2,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "tit",
+"base": "ERS/ATS 2022 de interpretação das provas de função pulmonar e SBPT 2024 de espirometria",
+"coment": "A forma da curva fluxo-volume localiza a obstrução de via aérea central, que a espirometria comum pode não denunciar, porque VEF₁ e CVF ficam normais no início. Na lesão variável extratorácica, a pressão intraluminal negativa da inspiração forçada colapsa o segmento acometido e achata a alça inspiratória, enquanto a expiração o abre: FIF₅₀/FEF₅₀ fica abaixo de 1. Na lesão variável intratorácica ocorre o contrário, e na fixa as duas alças ficam em platô, com relação próxima de 1. Paralisia bilateral de pregas vocais após tireoidectomia, com voz alterada desde a cirurgia, é a causa típica. A norma ERS/ATS de 2022 lembra que olhar a alça inspiratória é obrigatório na asma que não responde ao tratamento. O próximo passo é laringoscopia, e não escalonar a terapia da asma.",
+"porAlt": [
+"A lesão fixa achata as duas alças e deixa FIF₅₀/FEF₅₀ perto de 1, o que não ocorre aqui.",
+"Na lesão variável intratorácica o platô aparece na alça expiratória, com FIF₅₀/FEF₅₀ acima de 1.",
+"Correta: platô só na alça inspiratória, com FIF₅₀/FEF₅₀ abaixo de 1, indica lesão variável extratorácica, aqui a paralisia de pregas vocais após tireoidectomia.",
+"A relação VEF₁/CVF é normal e não há resposta ao broncodilatador, e a alça expiratória não mostra concavidade.",
+"VEF₁ e CVF estão normais e não há o pico rombo da fraqueza muscular; o achado é a alça inspiratória."
+]
+},
+{
+"q": "Homem de 70 anos, ex-tabagista de 60 maços-ano, faz espirometria com VEF₁/CVF pós-broncodilatador de 0,48, abaixo do limite inferior, VEF₁ de 32% e CVF de 62% do previsto, ambos abaixo do limite inferior. O exame é aceitável e repetível. Não há medida de volumes pulmonares disponível no serviço. O laudo anterior, de outro laboratório, chamou o exame de distúrbio ventilatório misto. Pelas recomendações da SBPT de 2024, qual é a interpretação mais adequada?",
+"alts": [
+"Distúrbio misto, pela CVF abaixo do limite inferior da normalidade",
+"Restrição associada, a confirmar pela difusão",
+"Padrão inespecífico, pela CVF reduzida",
+"Exame inválido, pela CVF desproporcional",
+"Obstrução com CVF baixa por provável aprisionamento aéreo"
+],
+"gab": 4,
+"tema": "pneumo",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "SBPT 2024 de espirometria e ERS/ATS 2022 de interpretação das provas de função pulmonar",
+"coment": "A espirometria mede fluxos e capacidade vital, mas não o volume residual nem a capacidade pulmonar total, que define restrição. Por isso chamar de misto toda obstrução com CVF baixa é erro frequente: no obstruído grave, o ar aprisionado aumenta o volume residual e rouba capacidade vital, sem que o pulmão seja pequeno. A norma ERS/ATS de 2022 manda medir a capacidade pulmonar total diante de obstrução com CVF abaixo do limite inferior. Quando ela não está disponível, a SBPT de 2024 oferece um atalho: CVF em porcentagem do previsto menos VEF₁ em porcentagem do previsto igual ou maior que 25 indica, com alto grau de certeza, aprisionamento aéreo; abaixo de 25, medir a capacidade pulmonar total. Aqui a diferença é 62 menos 32, ou seja, 30. Distúrbio misto exige relação e capacidade pulmonar total ambas abaixo do limite inferior.",
+"porAlt": [
+"Misto exige CPT abaixo do limite inferior, que a espirometria não mede, e quase sempre a CVF baixa do obstruído é aprisionamento.",
+"Restrição se define pela capacidade pulmonar total, não pela difusão, que avalia troca gasosa.",
+"O padrão inespecífico tem relação VEF₁/CVF normal, e aqui ela está claramente reduzida.",
+"O exame foi aceitável e repetível, e CVF baixa é esperada na obstrução grave com hiperinsuflação.",
+"Correta: na obstrução com CVF baixa, diferença entre CVF% e VEF₁% de 25 pontos ou mais indica com alto grau de certeza aprisionamento aéreo, e aqui ela é de 30."
+]
+},
+{
+"q": "Homem de 67 anos, diabético tipo 2 há 18 anos, com retinopatia e hipertensão, é acompanhado na atenção primária. A taxa de filtração glomerular estimada pela CKD-EPI 2021 é de 34 mL/min/1,73 m² (era 36 há 1 ano) e a relação albumina/creatinina urinária é de 900 mg/g em duas amostras separadas por 4 meses. Usa losartana 100 mg/dia, dapagliflozina 10 mg/dia e insulina. Pressão arterial de 128/76 mmHg, potássio de 4,9 mEq/L, bicarbonato de 22 mEq/L e hemoglobina de 12,1 g/dL. Não tem sintomas urêmicos. A equação de risco de falência renal (KFRE, quatro variáveis) calcula 14% em 2 anos e 38% em 5 anos. Qual é a conduta mais adequada?",
+"alts": [
+"Manter o seguimento na atenção primária até a filtração cair abaixo de 30",
+"Encaminhar e já indicar fístula arteriovenosa e inscrição para transplante",
+"Encaminhar ao nefrologista e iniciar cuidado multiprofissional, sem fístula agora",
+"Encaminhar ao nefrologista só quando o risco em 2 anos passar de 40%",
+"Manter na atenção primária, porque a KFRE não se aplica ao paciente com diabetes tipo 2"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "KDIGO 2024 de doença renal crônica, risco de falência renal pela KFRE e encaminhamento",
+"coment": "O KDIGO 2024 recomenda, em G3 a G5, calcular o risco absoluto de falência renal com equação validada (1A), e a KFRE de quatro variáveis usa idade, sexo, filtração e albuminúria. Três limiares orientam a conduta: risco em 5 anos de 3% a 5% pode definir o encaminhamento ao nefrologista; risco em 2 anos acima de 10%, o início do cuidado multiprofissional; e risco em 2 anos acima de 40%, a educação sobre modalidades, o preparo do acesso vascular e o encaminhamento para transplante. Este paciente, G3bA3, tem 38% em 5 anos e 14% em 2 anos: encaminhamento e equipe multiprofissional já, fístula ainda não. A nefroproteção está otimizada com bloqueador do receptor de angiotensina em dose máxima e inibidor de SGLT2, e a finerenona pode ser discutida com potássio normal.",
+"porAlt": [
+"Esperar a filtração cair abaixo de 30 ignora que o KDIGO 2024 também encaminha pelo risco absoluto, aqui muito acima do limiar.",
+"Fístula e inscrição em lista são planejadas com risco acima de 40% em 2 anos ou filtração abaixo de 15 a 20, o que ainda não é o caso.",
+"Correta: risco em 5 anos muito acima de 3% a 5% encaminha, e risco em 2 anos acima de 10% define o cuidado multiprofissional; o acesso fica para risco acima de 40% em 2 anos.",
+"O limiar de 40% em 2 anos decide o preparo do acesso e do transplante, não o encaminhamento, que já está indicado.",
+"A KFRE foi validada em coortes com e sem diabetes; o diabetes não invalida a estimativa nem dispensa o encaminhamento."
+]
+},
+{
+"q": "Mulher de 59 anos, sem diabetes, tem doença renal crônica por nefroesclerose hipertensiva com relação albumina/creatinina de 650 mg/g. Usa losartana 100 mg/dia e dapagliflozina 10 mg/dia há 2 anos, sem efeitos adversos. Em 12 meses, a filtração estimada pela CKD-EPI 2021 caiu de 24 para 18 mL/min/1,73 m². Está assintomática, com pressão de 124/72 mmHg, potássio de 5,0 mEq/L e bicarbonato de 21 mEq/L, sem infecção genital, sem cirurgia programada e sem jejum prolongado. Qual é a conduta em relação à dapagliflozina?",
+"alts": [
+"Suspender a dapagliflozina, porque a filtração ficou abaixo de 20",
+"Manter a dapagliflozina até o início da terapia renal substitutiva",
+"Reduzir a dapagliflozina para 5 mg/dia pela filtração abaixo de 20",
+"Trocar a dapagliflozina por finerenona, que não depende da filtração",
+"Suspender, porque sem efeito glicêmico não resta benefício renal"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO 2024 de doença renal crônica, inibidor de SGLT2 mantido com filtração abaixo de 20",
+"coment": "O inibidor de SGLT2 leva sódio à mácula densa e contrai a arteríola aferente, reduzindo a pressão intraglomerular de modo complementar ao bloqueio do sistema renina-angiotensina. O KDIGO 2024 recomenda iniciá-lo em adultos com doença renal crônica e filtração de 20 mL/min/1,73 m² ou mais quando há albuminúria de 200 mg/g ou mais, com ou sem diabetes (1A). O ponto de prática acrescenta que, uma vez iniciado, o fármaco é mantido mesmo com a filtração abaixo de 20, salvo intolerância ou início da terapia renal substitutiva. A suspensão temporária cabe no jejum prolongado, na cirurgia e na doença aguda grave, pelo risco de cetose. DAPA-CKD e EMPA-KIDNEY incluíram muitos pacientes sem diabetes e mostraram benefício renal independente do controle glicêmico.",
+"porAlt": [
+"O corte de 20 vale para iniciar o fármaco; quem já o usa não deve suspendê-lo pela queda da filtração.",
+"Correta: o KDIGO 2024 inicia o inibidor de SGLT2 com filtração de 20 ou mais e o mantém abaixo disso até a diálise ou o transplante.",
+"Não existe redução de dose da dapagliflozina pela função renal; a proteção renal e cardíaca é obtida com a dose habitual.",
+"A finerenona tem indicação no diabetes tipo 2 com filtração acima de 25, o que esta paciente sem diabetes e com filtração de 18 não tem.",
+"O efeito glicêmico some com filtração baixa, mas o efeito hemodinâmico renal e o benefício cardíaco persistem."
+]
+},
+{
+"q": "Homem de 63 anos, diabético tipo 2, tem doença renal crônica com filtração de 48 mL/min/1,73 m² pela CKD-EPI 2021 e relação albumina/creatinina de 520 mg/g, em uso de losartana 100 mg/dia e empagliflozina 10 mg/dia. Há 1 mês iniciou finerenona 10 mg/dia, com potássio basal de 4,6 mEq/L. No retorno, o potássio é de 5,8 mEq/L, confirmado em nova amostra sem hemólise. O eletrocardiograma é normal, não usa anti-inflamatório, suplemento nem substituto de sal e o bicarbonato é de 23 mEq/L. Qual é a conduta mais adequada em relação à finerenona?",
+"alts": [
+"Manter 10 mg/dia e repetir o potássio somente dentro de 4 meses",
+"Aumentar a finerenona para 20 mg/dia, conforme o plano de titulação",
+"Suspender e reiniciar 10 mg/dia quando o potássio voltar a 5,0 mEq/L ou menos",
+"Trocar a finerenona por espironolactona 25 mg/dia, mais barata e de igual eficácia",
+"Suspender a losartana e manter a finerenona na mesma dose diária de 10 mg"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO 2024 de doença renal crônica, monitorização do potássio com finerenona",
+"coment": "O KDIGO 2024 sugere antagonista mineralocorticoide não esteroide com benefício comprovado, como a finerenona, para adultos com diabetes tipo 2, filtração acima de 25, potássio normal e albuminúria acima de 30 mg/g apesar da dose máxima tolerada de IECA ou BRA (2A). A figura de monitorização define condutas por faixa de potássio: até 4,8 mEq/L, iniciar 10 mg se a filtração estiver entre 25 e 59 e titular para 20 mg; de 4,9 a 5,5, manter a dose e dosar a cada 4 meses; acima de 5,5, suspender, revisar dieta e fármacos e reiniciar 10 mg quando o potássio voltar a 5,0 ou menos. O bloqueio do sistema renina-angiotensina e o inibidor de SGLT2 permanecem.",
+"porAlt": [
+"Manter a dose com controle a cada 4 meses é a conduta da faixa de 4,9 a 5,5 mEq/L, e não acima de 5,5.",
+"A titulação para 20 mg só ocorre com potássio de até 4,8 mEq/L; aqui ela agravaria a hipercalemia.",
+"Correta: pelo algoritmo do KDIGO 2024, potássio acima de 5,5 mEq/L suspende a finerenona, que volta em 10 mg quando o potássio chega a 5,0 ou menos.",
+"A espironolactona causa mais hipercalemia que a finerenona e não tem o benefício renal demonstrado no diabetes tipo 2.",
+"Retirar o bloqueador do receptor de angiotensina é o último recurso, e manter a finerenona com potássio acima de 5,5 contraria o algoritmo."
+]
+},
+{
+"q": "Homem de 56 anos tem doença renal crônica por nefroesclerose hipertensiva, com filtração de 38 mL/min/1,73 m² pela CKD-EPI 2021 e relação albumina/creatinina de 420 mg/g. É independente, sem quedas, sem hipotensão postural e sem diabetes. Usa losartana 100 mg/dia e dapagliflozina 10 mg/dia. Na consulta, a pressão medida com técnica padronizada (5 minutos de repouso, manguito adequado, média de três leituras, sem conversa) é de 134/82 mmHg, semelhante à da visita anterior. Potássio de 4,7 mEq/L. Qual é a conduta mais adequada pelo KDIGO?",
+"alts": [
+"Manter o esquema, porque sistólica abaixo de 140 mmHg já é a meta",
+"Associar anlodipino, buscando sistólica abaixo de 120 mmHg se tolerada",
+"Associar enalapril à losartana, buscando sistólica abaixo de 120 mmHg",
+"Aumentar a losartana para 200 mg/dia, buscando sistólica abaixo de 120",
+"Associar espironolactona 25 mg/dia como terceiro fármaco anti-hipertensivo"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2021 de pressão arterial na doença renal crônica, reafirmado no KDIGO 2024",
+"coment": "O KDIGO de pressão arterial de 2021, reafirmado no KDIGO 2024 de doença renal crônica, sugere sistólica abaixo de 120 mmHg em adultos com doença renal e hipertensão, quando tolerada (2B). O alvo vem do SPRINT e só vale com medida padronizada de consultório: aplicado à leitura casual, leva a supertratamento. Alvos menos intensivos cabem na fragilidade, no risco de queda, na expectativa de vida limitada e na hipotensão postural, nada disso presente aqui. O paciente já tem bloqueador do receptor de angiotensina em dose máxima e inibidor de SGLT2; o próximo passo é acrescentar outra classe, como bloqueador de canal de cálcio diidropiridínico ou diurético tiazídico, evitando o duplo bloqueio do sistema renina-angiotensina. A diretriz brasileira de 2025 usa 130/80 mmHg para a maioria.",
+"porAlt": [
+"A meta de 140 mmHg é antiga; o KDIGO de 2021, reafirmado em 2024, sugere sistólica abaixo de 120 mmHg em quem tolera.",
+"Correta: com medida padronizada, a meta do KDIGO é sistólica abaixo de 120 mmHg quando tolerada, e o anlodipino soma efeito sem risco de hipercalemia.",
+"A combinação de IECA com BRA é contraindicada (1B contra): aumenta hipercalemia e lesão renal aguda sem benefício.",
+"A losartana já está na maior dose aprovada; ultrapassá-la não é conduta recomendada e não substitui um segundo mecanismo.",
+"A espironolactona fica para a hipertensão resistente, com quatro fármacos, e aumenta a hipercalemia na filtração reduzida."
+]
+},
+{
+"q": "Mulher de 66 anos, diabética, tem doença renal crônica G4 (filtração de 22 mL/min/1,73 m² pela CKD-EPI 2021), fora de diálise. Queixa-se de cansaço. Hemoglobina de 9,4 g/dL, volume corpuscular médio de 86 fL, reticulócitos baixos, ferritina de 85 ng/mL e saturação de transferrina de 34%. Vitamina B12, folato e proteína C reativa normais, pesquisa de sangue oculto negativa e colonoscopia de 2 anos atrás normal. Nunca recebeu ferro nem agente estimulador da eritropoese. Qual é a conduta inicial mais adequada?",
+"alts": [
+"Repor ferro e reavaliar a hemoglobina antes de pensar em estimulador",
+"Iniciar agente estimulador, pois saturação acima de 30% afasta ferropenia",
+"Iniciar agente estimulador da eritropoese com alvo de hemoglobina de 12 g/dL",
+"Iniciar inibidor de HIF-prolil-hidroxilase como primeira linha do tratamento",
+"Transfundir concentrado de hemácias até hemoglobina acima de 10 g/dL"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2026 de anemia na doença renal crônica, limiares de ferro fora da hemodiálise",
+"coment": "A anemia da doença renal crônica é multifatorial: deficiência relativa de eritropoetina, ferropenia absoluta ou funcional pela hepcidina alta, perdas e inflamação. A KDIGO 2026 de anemia substituiu a de 2012 e separou os limiares de ferro por cenário. Fora da hemodiálise, repõe-se ferro, oral ou venoso, com ferritina abaixo de 100 ng/mL e saturação abaixo de 40%, ou com ferritina de 100 a 300 ng/mL e saturação abaixo de 25%; na hemodiálise, com ferritina de até 500 e saturação de até 30%. Em qualquer cenário, suspende-se com ferritina acima de 700 ou saturação de 40% ou mais. Só depois de repor o ferro, persistindo anemia sintomática, entra o agente estimulador, sem manter hemoglobina de 11,5 g/dL ou mais.",
+"porAlt": [
+"Correta: fora da hemodiálise, a KDIGO 2026 indica ferro com ferritina abaixo de 100 ng/mL e saturação abaixo de 40%, antes de qualquer estimulador.",
+"O limite de saturação de 30% vinha da diretriz de 2012; fora da hemodiálise, a KDIGO 2026 repõe ferro com ferritina abaixo de 100 e saturação abaixo de 40%.",
+"O estimulador não deve manter hemoglobina de 11,5 g/dL ou mais, porque alvos altos aumentaram AVC, trombose e eventos cardiovasculares.",
+"O inibidor de HIF-prolil-hidroxilase é alternativa na hiporresposta, intolerância ou impossibilidade do injetável, não primeira linha.",
+"A transfusão é restritiva e não trata a causa, além de aloimunizar quem pode vir a ser candidato a transplante."
+]
+},
+{
+"q": "Homem de 70 anos, com doença renal crônica G4 (creatinina basal de 2,6 mg/dL), recebeu há 3 meses calcitriol 0,5 µg/dia e carbonato de cálcio 1 g junto às refeições porque o paratormônio estava em 180 pg/mL, com fósforo normal. É internado com náusea, poliúria, constipação e sonolência leve. Cálcio total de 12,4 mg/dL com albumina de 4,0 g/dL, fósforo de 3,6 mg/dL, creatinina de 3,9 mg/dL, bicarbonato de 26 mEq/L e paratormônio de 35 pg/mL. Eletroforese de proteínas normal, sem lesões ósseas e sem uso de tiazídico ou lítio. Além da hidratação com salina, qual é a conduta mais adequada?",
+"alts": [
+"Manter o calcitriol em dose reduzida e associar ácido zoledrônico por via venosa",
+"Associar cinacalcete, mantendo o calcitriol e o carbonato de cálcio",
+"Suspender calcitriol e carbonato, e usar quelante sem cálcio se o fósforo subir",
+"Furosemida venosa em dose alta antes de completar a expansão de volume",
+"Manter os dois fármacos e iniciar denosumabe 120 mg por via subcutânea"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2017 de distúrbio mineral e ósseo da doença renal crônica, calcitriol e quelante à base de cálcio",
+"coment": "O quadro é de hipercalcemia iatrogênica com lesão renal aguda: calcitriol aumenta a absorção intestinal de cálcio, e o carbonato de cálcio soma carga; o paratormônio caiu, o que confirma a supressão. A hipercalcemia contrai a arteríola aferente e causa diabetes insípido nefrogênico, e a desidratação piora a excreção de cálcio. O KDIGO 2017 de distúrbio mineral e ósseo, ainda vigente, sugere não usar calcitriol nem análogo de rotina em G3a a G5 fora da diálise, reservando-os para G4 e G5 com hiperparatireoidismo grave e progressivo (2C), recomenda evitar hipercalcemia (2C) e restringir a dose de quelante à base de cálcio (2B). Paratormônio de 180 pg/mL em G4 pedia antes corrigir fósforo, ingestão e deficiência de vitamina D, acompanhando a tendência.",
+"porAlt": [
+"Manter a causa e acrescentar bisfosfonato venoso, que exige ajuste na filtração reduzida, inverte a lógica de retirar o agente.",
+"O cinacalcete não está indicado fora da diálise, e manter calcitriol e carbonato perpetua a hipercalcemia.",
+"Correta: a hipercalcemia é iatrogênica, e o KDIGO 2017 desaconselha calcitriol de rotina fora da diálise e restringe o quelante à base de cálcio.",
+"O diurético de alça antes de repor volume agrava a desidratação que reduz a excreção de cálcio.",
+"Antirreabsortivo não trata hipercalcemia por excesso de calcitriol e carga de cálcio, e o denosumabe causa hipocalcemia na doença renal."
+]
+},
+{
+"q": "Homem de 54 anos apresenta edema há 4 meses. Proteinúria de 9,2 g/24 h, albumina de 2,0 g/dL, creatinina de 1,5 mg/dL, com filtração de 52 mL/min/1,73 m² pela CKD-EPI 2021 (era 78 há 4 meses). Anti-PLA2R de 210 RU/mL. A biópsia renal confirmou nefropatia membranosa PLA2R positiva, sem crescentes e com fibrose intersticial de 10%. FAN, complemento, sorologias para hepatites B e C, HIV e sífilis negativos; tomografia de tórax, colonoscopia e antígeno prostático normais. Já usa losartana em dose máxima, furosemida e enoxaparina profilática. Qual é o tratamento mais adequado?",
+"alts": [
+"Manter só o suporte por 6 meses, aguardando a remissão espontânea",
+"Prednisona isolada 1 mg/kg/dia por até 16 semanas, com redução lenta",
+"Azatioprina associada a prednisona em dose moderada por 12 meses",
+"Rituximabe, com nova dosagem do anti-PLA2R aos 6 meses",
+"Plasmaférese seriada até a negativação do anti-PLA2R no soro"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2021 de doenças glomerulares, nefropatia membranosa tratada pelo risco de progressão",
+"coment": "A nefropatia membranosa primária tem curso variável: cerca de um terço remite espontaneamente, e por isso a KDIGO 2021 trata pelo risco. Não se imunossuprime quem tem função preservada sem fator de risco, mas este paciente reúne vários marcadores de risco alto: filtração abaixo de 60 e em queda, albumina abaixo de 2,5 g/dL, proteinúria muito alta e anti-PLA2R acima de 50 RU/mL. Para quem tem pelo menos um fator de risco, recomenda-se rituximabe, ciclofosfamida alternada com corticoide por 6 meses ou esquema com inibidor de calcineurina, escolhido pelo nível de risco (1B). O rituximabe foi superior à ciclosporina no MENTOR. O anti-PLA2R aos 6 meses avalia a resposta imunológica, que antecede a queda da proteinúria. A anticoagulação profilática se justifica pela albumina baixa.",
+"porAlt": [
+"A espera por 6 meses vale só para quem não tem fator de risco nem complicação grave; aqui a filtração já está caindo.",
+"Corticoide isolado não induz remissão na nefropatia membranosa e expõe à toxicidade sem benefício.",
+"Azatioprina não faz parte dos esquemas recomendados; as opções são rituximabe, ciclofosfamida com corticoide ou inibidor de calcineurina.",
+"Correta: há fatores de risco de progressão (filtração abaixo de 60 e em queda, albumina baixa, anti-PLA2R acima de 50), e a KDIGO 2021 recomenda rituximabe ou ciclofosfamida com corticoide (1B).",
+"A plasmaférese não tem papel no tratamento da nefropatia membranosa; o anticorpo cai com a depleção de linfócitos B."
+]
+},
+{
+"q": "Homem de 29 anos teve diagnóstico de nefropatia por IgA em biópsia há 4 meses (Oxford M1 E0 S1 T0 C0, sem crescentes). Desde então usa losartana 100 mg/dia, dose máxima tolerada, e dapagliflozina 10 mg/dia, com sal abaixo de 2 g/dia. Pressão arterial de 118/70 mmHg. A proteinúria caiu de 1,8 para 1,3 g/24 h, a filtração pela CKD-EPI 2021 é de 72 mL/min/1,73 m² e não houve hematúria macroscópica. Não tem diabetes, obesidade, úlcera ou infecção latente. A budesonida de liberação entérica está disponível. Qual é a conduta mais adequada?",
+"alts": [
+"Manter só o suporte por mais 3 meses antes de qualquer imunossupressão",
+"Associar sparsentana à losartana, que segue em dose máxima tolerada",
+"Micofenolato de mofetila por 12 meses para reduzir a proteinúria",
+"Indicar tonsilectomia para reduzir os episódios de ativação imune",
+"Budesonida de liberação entérica por 9 meses, mantendo a losartana"
+],
+"gab": 4,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2025 de nefropatia por IgA e vasculite por IgA, budesonida de liberação entérica",
+"coment": "A KDIGO 2025 de nefropatia por IgA mudou o tratamento: proteinúria de 0,5 g/dia ou mais, com ou sem tratamento, define risco de progressão, e a meta é proteinúria abaixo de 0,5 g/dia, idealmente abaixo de 0,3, com perda de filtração inferior a 1 mL/min por ano. A diretriz manda tratar juntos a formação de imunocomplexos e a perda de néfrons. O suporte inclui sal abaixo de 2 g/dia, pressão até 120/70 mmHg, IECA ou BRA em dose máxima (1B) e inibidor de SGLT2 (2B), já em uso. Para o eixo imune, sugere-se budesonida de liberação entérica por 9 meses (2B), ou corticoide sistêmico em dose reduzida com profilaxia quando ela não existe. Sparsentana é alternativa ao BRA, nunca somada a ele.",
+"porAlt": [
+"Aguardar meses de suporte era a lógica de 2021; desde 2025 o eixo imune e a perda de néfrons são tratados ao mesmo tempo.",
+"A sparsentana já bloqueia o receptor de angiotensina e não deve ser associada a IECA ou BRA.",
+"O micofenolato tem evidência apenas em populações chinesas e não é recomendado de rotina.",
+"A tonsilectomia tem dados só em japoneses e não é recomendada fora desse contexto.",
+"Correta: proteinúria de 0,5 g/dia ou mais define risco de progressão, e a KDIGO 2025 sugere budesonida entérica por 9 meses (2B) junto ao suporte."
+]
+},
+{
+"q": "Mulher de 27 anos, com lúpus eritematoso sistêmico, teve nefrite lúpica classe IV na biópsia (índice de atividade 9/24, cronicidade 1/12). Recebeu pulso de metilprednisolona e segue com prednisona em redução, micofenolato de mofetila 3 g/dia, hidroxicloroquina 400 mg/dia e losartana. Após 6 meses, a relação proteína/creatinina urinária passou de 3,2 para 2,9 g/g, a creatinina segue em 0,9 mg/dL, o C3 continua baixo e o anti-DNA, alto. A farmácia registra retiradas irregulares do micofenolato, e o nível sanguíneo de hidroxicloroquina está baixo. Qual é a conduta mais adequada?",
+"alts": [
+"Manter o esquema atual, porque a resposta só é avaliada aos 12 meses",
+"Elevar a prednisona a 1 mg/kg/dia por mais 6 meses, sem outras mudanças",
+"Suspender o micofenolato e manter só a hidroxicloroquina e a losartana",
+"Abordar a adesão e mudar o esquema, pela resposta abaixo do marco esperado",
+"Manter o esquema e repetir a biópsia somente se a creatinina dobrar"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2024 e ACR 2024 de nefrite lúpica, marcos de resposta ao tratamento",
+"coment": "Na nefrite lúpica proliferativa, as diretrizes de 2024 (KDIGO e ACR) definem marcos de resposta: queda da proteinúria de pelo menos 25% em 3 meses, de 50% em 6 meses e relação proteína/creatinina abaixo de 0,7 g/g em 12 meses, com função renal estável. Esta paciente caiu cerca de 9% em 6 meses, com sorologia ativa. Antes de rotular refratariedade, verifica-se a adesão, a causa mais comum de falha, e aqui as pistas são concretas: retiradas irregulares e nível baixo de hidroxicloroquina. Depois, revisa-se a histologia se necessário e troca-se ou intensifica-se o esquema, como a terapia combinada com belimumabe ou inibidor de calcineurina, ou a mudança para ciclofosfamida. Hidroxicloroquina, bloqueio do sistema renina-angiotensina e controle pressórico seguem para todos.",
+"porAlt": [
+"Há marcos intermediários: queda de 25% em 3 meses e de 50% em 6 meses; esperar 12 meses perde tempo de néfron.",
+"Corticoide em dose alta prolongada aumenta toxicidade e não corrige a falha de adesão nem a escolha do esquema.",
+"Retirar o imunossupressor de uma nefrite classe IV ativa expõe à progressão para doença renal crônica.",
+"Correta: a proteinúria deveria ter caído pelo menos 50% em 6 meses; sem esse marco, checa-se adesão e troca-se ou intensifica-se o tratamento.",
+"Aguardar a creatinina dobrar é tolerar dano irreversível; a falha de resposta já pede revisão da conduta agora."
+]
+},
+{
+"q": "Homem de 66 anos tem há 3 semanas febre baixa, artralgias e perda de 4 kg. A creatinina subiu de 1,0 para 4,6 mg/dL em 4 meses. Urina com hematúria dismórfica e cilindros hemáticos, proteinúria de 1,4 g/g. Anti-MPO de 120 UI/mL, anti-membrana basal glomerular negativo, C3 e C4 normais. Sem hemoptise, saturação de 97% em ar ambiente e tomografia de tórax sem hemorragia alveolar. Diurese preservada, potássio de 5,1 mEq/L e sem indicação de diálise. A biópsia renal mostra glomerulonefrite pauci-imune com crescentes celulares em 60% dos glomérulos. Qual é a indução mais adequada?",
+"alts": [
+"Rituximabe isolado, sem corticoide, para reduzir as infecções",
+"Corticoide e azatioprina, deixando a ciclofosfamida para a falha terapêutica",
+"Corticoide com ciclofosfamida, considerando a plasmaférese",
+"Pulso de corticoide isolado, sem imunossupressor associado",
+"Plasmaférese isolada, adiando o corticoide para depois da diálise"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "tit",
+"base": "KDIGO 2024 de vasculite associada ao ANCA, indução conforme a creatinina",
+"coment": "Glomerulonefrite rapidamente progressiva com anti-MPO e biópsia pauci-imune com crescentes é vasculite associada ao ANCA com acometimento renal grave. O KDIGO 2024 recomenda indução com corticoide associado a ciclofosfamida ou rituximabe (1B), mas, com creatinina acima de cerca de 4 mg/dL, prefere a ciclofosfamida, pela escassez de dados com rituximabe isolado. Desde o PEXIVAS, o corticoide é usado em dose reduzida, e o avacopan pode poupá-lo. A plasmaférese pode ser considerada com creatinina acima de 3,4 mg/dL, diálise ou creatinina em ascensão rápida, e na hemorragia alveolar com hipoxemia. A manutenção é feita com rituximabe, ou azatioprina com corticoide em dose baixa, por 24 a 48 meses. Profilaxia de Pneumocystis acompanha a indução.",
+"porAlt": [
+"A indução sempre associa corticoide; o que se reduz é a dose, ou se usa avacopan para poupá-lo, e o rituximabe tem poucos dados nessa faixa de creatinina.",
+"Azatioprina é fármaco de manutenção, não de indução, e atrasa o controle de uma glomerulonefrite rapidamente progressiva.",
+"Correta: com creatinina acima de cerca de 4 mg/dL, o KDIGO 2024 prefere ciclofosfamida, e acima de 3,4 mg/dL a plasmaférese pode ser considerada.",
+"Corticoide isolado deixa de induzir remissão sustentada e permite a progressão para falência renal.",
+"A plasmaférese é adjuvante e não substitui corticoide e ciclofosfamida, que não esperam diálise."
+]
+},
+{
+"q": "Homem de 38 anos, com índice de massa corporal de 43 kg/m² e hipertensão, sem diabetes (hemoglobina glicada de 5,6%), tem edema discreto de membros inferiores. Proteinúria de 4,6 g/24 h, albumina sérica de 3,8 g/dL, creatinina de 1,2 mg/dL (filtração de 76 mL/min/1,73 m² pela CKD-EPI 2021) e sedimento sem hemácias dismórficas. HIV e hepatites negativos, sem história familiar de doença renal e sem uso de fármacos. A biópsia mostra glomeruloesclerose segmentar e focal, variante peri-hilar, com glomerulomegalia e fusão apenas segmentar dos pedicelos. Qual é a conduta mais adequada?",
+"alts": [
+"IECA ou BRA em dose máxima, inibidor de SGLT2 e perda de peso, sem imunossupressão",
+"Prednisona 1 mg/kg/dia por até 16 semanas, com redução lenta",
+"Ciclosporina por 6 meses como primeira linha do tratamento",
+"Rituximabe pela podocitopatia, além do bloqueio do sistema renina-angiotensina",
+"Prednisona em dias alternados associada a estatina e diurético"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2021 de doenças glomerulares, glomeruloesclerose segmentar e focal secundária",
+"coment": "A KDIGO 2021 divide a glomeruloesclerose segmentar e focal em primária, genética, secundária e de causa indeterminada, e só a primária recebe imunossupressão. A pista clínica é a albumina: proteinúria nefrótica com albumina sérica acima de 3,0 g/dL indica hiperfiltração e forma secundária. A histologia reforça: variante peri-hilar, glomerulomegalia e fusão segmentar dos pedicelos são marcas da forma adaptativa, aqui pela obesidade grave. O tratamento é o suporte: bloqueio do sistema renina-angiotensina em dose máxima, inibidor de SGLT2, que o KDIGO 2024 recomenda com albuminúria elevada (1A), controle pressórico, restrição de sódio e perda de peso, inclusive por cirurgia bariátrica, que reduz a proteinúria. Corticoide e inibidor de calcineurina ficam para a forma primária.",
+"porAlt": [
+"Correta: albumina normal com proteinúria nefrótica, variante peri-hilar e fusão segmentar apontam GESF adaptativa, que não se imunossuprime.",
+"Corticoide em dose alta é a primeira linha só da GESF primária, com síndrome nefrótica completa e fusão difusa dos pedicelos.",
+"Inibidor de calcineurina é a opção da GESF primária resistente ao corticoide, não da forma secundária.",
+"Não há podocitopatia por fator circulante aqui; rituximabe não tem lugar na forma adaptativa.",
+"Qualquer esquema de corticoide expõe a toxicidade sem benefício na GESF secundária à obesidade."
+]
+},
+{
+"q": "Homem de 52 anos, etilista, bebe cerca de 6 litros de cerveja por dia e quase não se alimenta há 3 semanas. Chega com náusea, cefaleia e confusão leve, sem vômito, convulsão ou sonolência profunda. Sódio de 112 mEq/L, potássio de 2,9 mEq/L, glicemia de 90 mg/dL, osmolalidade sérica de 236 mOsm/kg, osmolalidade urinária de 68 mOsm/kg e sódio urinário de 12 mEq/L. Sem edema, pressão de 118/74 mmHg. Recebeu 150 mL de salina a 3% em 20 minutos e reposição de potássio; os sintomas melhoraram e o sódio, 1 hora depois, é de 116 mEq/L. Qual é o plano mais adequado para as próximas 24 horas?",
+"alts": [
+"Manter salina a 3% em infusão contínua, subindo 1 mEq/L por hora até 130",
+"Salina a 0,9% em volume com potássio, mirando alta de 12 mEq/L nas primeiras 24 horas",
+"Teto de 8 mEq/L em 24 h, com sódio a cada 2 horas pela diurese aquosa previsível",
+"Restrição hídrica de 500 mL/dia associada a ureia oral, como na SIADH",
+"Tolvaptana 15 mg para acelerar a excreção de água livre e subir o sódio"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "tit",
+"base": "Diretriz europeia de hiponatremia (ESE, ESICM e ERA 2014) e padrão de tratamento de 2024",
+"coment": "Osmolalidade urinária abaixo de 100 mOsm/kg com sódio urinário baixo indica ingestão de água desproporcional ao soluto: o bebedor de cerveja que não come excreta pouca água livre. O quadro com náusea, cefaleia e confusão é moderadamente grave, e a melhora após o bólus encerra a fase hipertônica. O risco agora é a hipercorreção: ao receber soluto e potássio, que também elevam o sódio, o rim produz grande diurese aquosa e o sódio sobe mais do que qualquer fórmula prevê. Pela diretriz europeia, o limite é de 10 mEq/L nas primeiras 24 horas e 8 a cada 24 horas seguintes; com alcoolismo, desnutrição e hipocalemia, o teto prático é 8 em 24 horas, com dosagem frequente e água livre ou desmopressina se o limite for ultrapassado.",
+"porAlt": [
+"A infusão contínua é para quem não melhora após os bólus; aqui os sintomas cederam e mais hipertônica só aumenta o risco de hipercorreção.",
+"Doze em 24 horas ultrapassa o limite, e volume com potássio eleva o sódio por duas vias ao mesmo tempo.",
+"Correta: o paciente tem alto risco de desmielinização (álcool, desnutrição, hipocalemia, sódio muito baixo) e urina diluída que vai gerar diurese aquosa abundante.",
+"Com osmolalidade urinária abaixo de 100, o hormônio antidiurético está suprimido; o problema é pouco soluto, não SIADH.",
+"A tolvaptana não tem lugar quando o hormônio antidiurético já está suprimido e eleva ainda mais o risco de correção rápida."
+]
+},
+{
+"q": "Mulher de 49 anos está no sexto dia após clipagem de aneurisma roto com hemorragia subaracnóidea, em uso de nimodipino. Em 3 dias, o sódio caiu de 139 para 127 mEq/L. Diurese de 4,2 L/24 h com balanço hídrico negativo de 2 litros, perda de 2 kg, pressão de 102/60 mmHg, frequência cardíaca de 112 bpm e veia cava inferior colapsável no ultrassom. Sódio urinário de 160 mEq/L e osmolalidade urinária de 520 mOsm/kg. Cortisol e TSH normais, sem diurético. Está alerta, sem cefaleia nova nem convulsão. Qual é a conduta mais adequada?",
+"alts": [
+"Restrição hídrica de 800 mL/dia, pela hipótese de SIADH",
+"Tolvaptana para elevar o sódio sem administrar volume",
+"Furosemida com cloreto de sódio oral, como na SIADH",
+"Repor volume e sódio com salina isotônica, sem restringir água",
+"Desmopressina para conter a diurese elevada e o sódio"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "Diretriz europeia de hiponatremia (ESE, ESICM e ERA 2014) e padrão de tratamento de 2024",
+"coment": "A distinção entre SIADH e perda cerebral de sal está na volemia. Na SIADH, a paciente é euvolêmica, com diurese normal ou baixa; na perda cerebral de sal, há hipovolemia, diurese alta, natriurese muito acima de 30 mEq/L, taquicardia, hipotensão e veia cava colapsada, como aqui. A diretriz europeia de 2014 coloca o extracelular contraído com sódio urinário alto no ramo da perda renal de sal e recomenda repor volume com salina isotônica ou cristaloide balanceado. Na hemorragia subaracnóidea, a hipovolemia é especialmente perigosa porque favorece isquemia cerebral tardia, e por isso a restrição hídrica é contraindicada. A fludrocortisona pode ser associada para reduzir a natriurese, e a salina hipertônica fica para sintomas graves.",
+"porAlt": [
+"Restringir água na perda cerebral de sal agrava a hipovolemia e aumenta o risco de isquemia por vasoespasmo.",
+"A tolvaptana aumenta a perda de água em quem já está contraído e não está indicada nesse cenário.",
+"O diurético de alça aprofunda a contração de volume de uma paciente que já perde sódio na urina.",
+"Correta: hipovolemia com natriurese intensa após hemorragia subaracnóidea é perda cerebral de sal, que se trata repondo sal e volume.",
+"A desmopressina retém água livre e baixaria ainda mais o sódio, sem corrigir o déficit de sal."
+]
+},
+{
+"q": "Homem de 74 anos, internado na terapia intensiva após AVC isquêmico com disfagia, recebe dieta enteral hiperproteica (2,0 g/kg/dia de proteína) com suplemento proteico, sem água livre adicional. No oitavo dia, o sódio é de 156 mEq/L, a ureia de 148 mg/dL, a creatinina de 1,1 mg/dL (estável) e a glicemia de 140 mg/dL. Diurese de 3,4 L/24 h, osmolalidade urinária de 640 mOsm/kg, sódio urinário de 30 mEq/L e potássio urinário de 25 mEq/L. Não recebe manitol nem diurético. Qual é a interpretação e a conduta mais adequadas?",
+"alts": [
+"Diabetes insípido central; desmopressina 1 µg por via endovenosa",
+"Diabetes insípido nefrogênico; tiazídico e restrição de sódio",
+"Perda extrarrenal de água; cristaloide isotônico em bólus repetidos",
+"Diurese osmótica pela ureia; dar água livre e reduzir a carga proteica",
+"Glicosúria pela hiperglicemia; insulina regular em infusão venosa contínua"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "dx",
+"nivel": "tit",
+"base": "Fisiologia da hipernatremia e coortes de correção (Chauhan 2019, Feigin 2023)",
+"coment": "Diante da hipernatremia, a urina indica a causa. Pouca e concentrada aponta perda extrarrenal; abundante e diluída, diabetes insípido; abundante e não diluída, diurese osmótica. Aqui a osmolalidade urinária é de 640 mOsm/kg, mas os eletrólitos explicam pouco dela: o dobro de sódio mais potássio urinários é 110 mOsm/kg, e o restante é ureia. A dieta hiperproteica, sem água livre, gera ureia que arrasta água na urina e eleva o sódio, e a ureia sérica alta com creatinina estável reforça o diagnóstico. A conduta é repor água livre pela sonda e adequar a proteína. No adulto, coortes como a de Feigin, em 2023, associaram a correção lenta demais a maior mortalidade, sem complicação neurológica atribuída à correção mais rápida.",
+"porAlt": [
+"No diabetes insípido a urina é diluída; osmolalidade urinária de 640 mOsm/kg afasta falta ou resistência ao hormônio antidiurético.",
+"O diabetes insípido nefrogênico também produz urina diluída, e restringir sódio não corrige a carga de ureia.",
+"Perda extrarrenal produz urina escassa e concentrada, e não diurese de 3,4 litros por dia.",
+"Correta: urina abundante e concentrada, com eletrólitos urinários baixos, mostra que o soluto é a ureia gerada pela proteína da dieta.",
+"Glicemia de 140 mg/dL fica abaixo do limiar renal de glicose e não explica a diurese osmótica."
+]
+},
+{
+"q": "Mulher de 24 anos, com diabetes tipo 1, suspendeu a insulina e há 4 dias tem vômitos incoercíveis. Glicemia de 486 mg/dL, beta-hidroxibutirato de 5,8 mmol/L, sódio de 138 mEq/L, potássio de 4,8 mEq/L, cloro de 88 mEq/L, bicarbonato de 16 mEq/L, pH de 7,32, PaCO2 de 30 mmHg, albumina de 4,0 g/dL e lactato de 1,6 mmol/L. Qual é a interpretação ácido-base mais adequada?",
+"alts": [
+"Cetoacidose com alcalose metabólica somada, pelos vômitos",
+"Cetoacidose isolada, com compensação respiratória adequada",
+"Cetoacidose com acidose hiperclorêmica associada à cetonúria",
+"Cetoacidose com acidose respiratória associada, por hipoventilação",
+"Cetoacidose com alcalose respiratória primária associada"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "Análise ácido-base por compensação, ânion gap e delta-delta (Hamilton e colaboradores, 2017)",
+"coment": "O método começa pelo pH: acidemia leve, com bicarbonato baixo, ou seja, acidose metabólica. A compensação pela fórmula de Winter prevê PaCO2 de 1,5 vezes 16 mais 8, igual a 32 mais ou menos 2 mmHg; a medida de 30 está dentro, sem distúrbio respiratório. O ânion gap é de 138 menos 104, igual a 34, com albumina normal, por cetoácidos. O delta-delta compara a elevação do gap, 22 acima de 12, com a queda do bicarbonato, de 24 para 16, ou seja, 8. A razão, perto de 2,8, mostra que o bicarbonato estava acima do normal antes da cetoacidose: alcalose metabólica pelos vômitos, compatível com o cloro baixo. O pH quase normal subestima a gravidade da cetoacidose.",
+"porAlt": [
+"Correta: o ânion gap subiu 22 enquanto o bicarbonato caiu só 8; havia bicarbonato a mais, gerado pela perda gástrica de ácido.",
+"A compensação está adequada, mas a razão delta-delta perto de 2,8 denuncia um segundo distúrbio metabólico.",
+"Na acidose hiperclorêmica somada, o bicarbonato cairia mais do que o gap subiu, o oposto do que se vê aqui.",
+"A PaCO2 esperada pela fórmula de Winter é de 32 mais ou menos 2; 30 mmHg está dentro, sem retenção de CO2.",
+"PaCO2 de 30 mmHg está na faixa prevista pela fórmula de Winter, sem alcalose respiratória adicional."
+]
+},
+{
+"q": "Mulher de 78 anos, 45 kg, desnutrida, está internada há 10 dias por artrite séptica de joelho, já controlada com antibiótico. Recebe paracetamol 1 g de 6 em 6 horas desde a admissão. Hoje está confusa e taquipneica. pH de 7,21, bicarbonato de 9 mEq/L, PaCO2 de 22 mmHg, sódio de 140 mEq/L, cloro de 106 mEq/L, albumina de 2,8 g/dL, lactato de 1,4 mmol/L, cetonas séricas negativas, glicemia de 98 mg/dL, ureia de 52 mg/dL e creatinina de 1,3 mg/dL. Osmolalidade medida de 292 mOsm/kg, salicilato indetectável. Qual é o diagnóstico mais provável?",
+"alts": [
+"Acidose por ácido piroglutâmico ligada ao paracetamol contínuo",
+"Acidose láctica tipo B pela sepse de foco articular",
+"Cetoacidose de jejum pela desnutrição prolongada",
+"Acidose tubular renal distal pela doença renal",
+"Acidose urêmica pela queda da filtração glomerular"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "Abordagem da acidose de ânion gap elevado e gap osmolar (Hamilton e colaboradores, 2017)",
+"coment": "A acidose é metabólica e compensada: a PaCO2 esperada é de 1,5 vezes 9 mais 8, cerca de 21,5, e a medida é de 22. O ânion gap é de 140 menos 115, igual a 25, e corrigido pela albumina, cerca de 28. As causas habituais foram afastadas: lactato normal, cetonas negativas, ureia pouco elevada e gap osmolar desprezível, pois a osmolalidade calculada (duas vezes o sódio mais glicose sobre 18 mais ureia sobre 6) é de cerca de 294 mOsm/kg. Restam as causas que a rotina não mede, entre elas o ácido piroglutâmico. O paracetamol contínuo consome glutationa, e desnutrição, sexo feminino, sepse e doença renal favorecem o acúmulo de 5-oxoprolina. A conduta é suspender o paracetamol; a acetilcisteína repõe glutationa.",
+"porAlt": [
+"Correta: ânion gap alto sem lactato, cetonas, uremia ou gap osmolar, em idosa desnutrida com paracetamol diário, sugere 5-oxoprolina.",
+"O lactato é de 1,4 mmol/L e a infecção está controlada; não há acidose láctica que explique um gap tão alto.",
+"As cetonas séricas são negativas, o que afasta cetoacidose de jejum como causa do gap.",
+"A acidose tubular distal tem ânion gap normal, hiperclorêmica, e aqui o gap corrigido passa de 25.",
+"Ureia de 52 mg/dL e creatinina de 1,3 mg/dL não produzem acidose urêmica dessa magnitude."
+]
+},
+{
+"q": "Homem de 68 anos, com DPOC grave, tem no ambulatório PaCO2 habitual de 58 mmHg e bicarbonato de 34 mEq/L. Foi intubado por exacerbação com pH de 7,18, PaCO2 de 92 mmHg e bicarbonato de 34 mEq/L. Seis horas depois, com frequência respiratória de 24 incursões por minuto e volume corrente de 7 mL/kg, a gasometria mostra pH de 7,58, PaCO2 de 38 mmHg e bicarbonato de 35 mEq/L. Surgiram mioclonias e extrassístoles ventriculares. Potássio de 3,6 mEq/L e cloro de 92 mEq/L. Qual é a conduta mais adequada?",
+"alts": [
+"Aumentar a frequência respiratória para eliminar mais CO2",
+"Manter a ventilação, pois o rim corrige o pH em poucas horas",
+"Iniciar furosemida para eliminar o bicarbonato acumulado",
+"Manter a PaCO2 em 40 mmHg e infundir salina com potássio",
+"Reduzir a ventilação minuto, mirando a PaCO2 habitual dele"
+],
+"gab": 4,
+"tema": "nefro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "Análise ácido-base e alcalose pós-hipercápnica (Hamilton e colaboradores, 2017)",
+"coment": "No DPOC hipercápnico crônico, o rim retém bicarbonato ao longo de dias para compensar a acidose respiratória: PaCO2 de 58 com bicarbonato de 34 é compatível com compensação crônica, cerca de 3,5 mEq/L por 10 mmHg de CO2. Ao ventilar até PaCO2 normal, remove-se o CO2 em minutos, mas o bicarbonato permanece, e o resultado é alcalose metabólica pós-hipercápnica com pH elevado, que causa mioclonia, convulsão, arritmia e desvio da curva de dissociação da hemoglobina. A prevenção e o tratamento consistem em ajustar o ventilador para a PaCO2 habitual do paciente, e não para o valor normal. Repor cloro e potássio facilita a excreção renal do bicarbonato ao longo dos dias seguintes, como adjuvante.",
+"porAlt": [
+"Lavar ainda mais CO2 aprofunda a alcalemia que já causa mioclonia e arritmia.",
+"O rim leva dias para excretar o bicarbonato compensatório; esperar com pH de 7,58 expõe a convulsão e arritmia.",
+"O diurético de alça contrai o volume e perde cloro e potássio, o que mantém a alcalose metabólica.",
+"Salina e potássio ajudam o rim a perder bicarbonato, mas não resolvem a alcalemia imediata criada pela PaCO2 normalizada.",
+"Correta: é alcalose pós-hipercápnica: o bicarbonato retido em dias não sai em horas, e ventilar até a PaCO2 de base evita a alcalemia."
+]
+},
+{
+"q": "Mulher de 71 anos, com osteoporose, toma por conta própria carbonato de cálcio 1.500 mg três vezes ao dia, bicarbonato de sódio para dispepsia e colecalciferol 1.000 UI/dia. Há 5 dias tem vômitos, poliúria e confusão. Pressão de 108/64 mmHg, mucosas secas. Cálcio total de 14,2 mg/dL com albumina de 4,0 g/dL, fósforo de 4,1 mg/dL, bicarbonato de 34 mEq/L, creatinina de 2,6 mg/dL (basal de 0,9), paratormônio de 8 pg/mL, PTHrP indetectável, 25-hidroxivitamina D de 38 ng/mL, eletroforese de proteínas normal e tomografia de tórax sem lesões. Além de suspender os suplementos, qual é a conduta mais adequada?",
+"alts": [
+"Ácido zoledrônico 4 mg venoso, como se faz em toda hipercalcemia grave",
+"Furosemida em dose alta já, antes da expansão do volume extracelular",
+"Salina isotônica e controle seriado do cálcio, sem bisfosfonato",
+"Denosumabe 120 mg subcutâneo para bloquear a reabsorção óssea",
+"Prednisona 40 mg/dia pela suspeita de produção de calcitriol"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Síndrome leite-álcali: série de Picolos e colaboradores (2005) e revisão de Medarov (2009)",
+"coment": "A tríade de hipercalcemia, alcalose metabólica e lesão renal aguda, com paratormônio e PTHrP suprimidos, em quem ingere muito carbonato de cálcio e álcali, define a síndrome leite-álcali, hoje uma das causas frequentes de hipercalcemia no internado. O ciclo se autoalimenta: a hipercalcemia causa natriurese e contração de volume, a contração mantém a alcalose, e a alcalose aumenta a reabsorção tubular de cálcio. O tratamento é suspender cálcio, álcali e vitamina D e repor volume com salina, com furosemida apenas se houver sobrecarga. Em séries de casos, os pacientes tratados com bisfosfonato evoluíram com hipocalcemia, porque a absorção intestinal cessa ao retirar o suplemento e o osso segue captando cálcio; por isso o antirreabsortivo fica reservado para casos selecionados.",
+"porAlt": [
+"A reabsorção óssea não é o mecanismo, e nas séries de casos o bisfosfonato causou hipocalcemia na maioria dos tratados.",
+"Diurético antes de repor volume agrava a desidratação, a lesão renal e a própria alcalose.",
+"Correta: na síndrome leite-álcali, hidratar e retirar a fonte de cálcio e álcali bastam, e o bisfosfonato provoca hipocalcemia de rebote.",
+"O antirreabsortivo potente não trata a absorção intestinal de cálcio e aumenta o risco de hipocalcemia tardia.",
+"Não há granulomatose nem linfoma; a vitamina D está normal e a causa é a ingestão de cálcio com álcali."
+]
+},
+{
+"q": "Mulher de 45 anos, com doença de Crohn e ressecção ileal de 80 cm há 6 anos, tem diarreia crônica com esteatorreia e três cálculos de oxalato de cálcio em 2 anos, confirmados por espectroscopia no infravermelho. Evita laticínios por conta própria. A urina de 24 horas, colhida em casa 3 meses após o último episódio, mostra volume de 1,1 L, oxalato de 78 mg, citrato de 180 mg, cálcio de 90 mg e pH de 5,4. Creatinina normal. Qual é a medida preventiva mais adequada?",
+"alts": [
+"Hidroclorotiazida para reduzir a excreção urinária de cálcio",
+"Restringir ainda mais o cálcio da dieta para conter os cálculos",
+"Alopurinol para reduzir a nucleação de cristais de oxalato",
+"Lumasirana pela hipótese de hiperoxalúria primária do tipo 1",
+"Cálcio nas refeições, menos gordura e oxalato, mais líquido e citrato"
+],
+"gab": 4,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "EAU 2026 de urolitíase, hiperoxalúria entérica e prevenção pela composição do cálculo",
+"coment": "A ressecção ileal causa má absorção de gordura, que sequestra o cálcio no lúmen; o oxalato fica livre e é absorvido no cólon, produzindo hiperoxalúria entérica. A diarreia acrescenta volume urinário baixo e hipocitratúria, e o pH ácido completa o quadro. A diretriz europeia de urolitíase de 2026 recomenda cálcio junto das refeições para ligar o oxalato no intestino (forte), dieta pobre em gordura e em oxalato, e sugere hidratação e citrato alcalino (fraca), meta de diurese de 2,0 a 2,5 L/dia. Evitar laticínios, como esta paciente fez, é o erro mais comum, porque aumenta a absorção de oxalato. Tiazídico serve à hipercalciúria; lumasirana e piridoxina, à hiperoxalúria primária.",
+"porAlt": [
+"O cálcio urinário está baixo; tiazídico não corrige o defeito, que é a absorção de oxalato no cólon.",
+"Restringir cálcio deixa mais oxalato livre no intestino, aumenta sua absorção e piora os cálculos.",
+"O ácido úrico não é o problema aqui; o alopurinol só tem papel na hiperuricosúria com cálculo de oxalato.",
+"A hiperoxalúria primária começa na infância; aqui a causa é a má absorção de gordura após a ressecção ileal.",
+"Correta: na hiperoxalúria entérica, o cálcio junto da refeição liga o oxalato no intestino, e a diarreia exige mais líquido e citrato pela hipocitratúria."
+]
+},
+{
+"q": "Homem de 22 anos tem o terceiro episódio de cólica renal em 4 anos, com cálculos múltiplos e bilaterais, pouco radiopacos. O pai também forma cálculos. O sedimento urinário mostra cristais hexagonais. A urina de 24 horas tem cistina de 4,2 mmol/dia, pH de 6,0 e volume de 1,8 L, com função renal normal. Qual é o esquema preventivo mais adequado?",
+"alts": [
+"Diurese de 2 L/dia, tiazídico e restrição do cálcio da dieta",
+"Acidificar a urina com cloreto de amônio e metionina oral",
+"Alopurinol e alcalinização mirando pH urinário entre 6,0 e 6,5",
+"Diurese acima de 3 L/dia, pH urinário acima de 7,5 e tiopronina",
+"Litotripsia extracorpórea anual dos cálculos, sem mudança de dieta"
+],
+"gab": 3,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "EAU 2026 de urolitíase, tratamento da cistinúria",
+"coment": "A cistinúria é defeito autossômico recessivo do transportador proximal de aminoácidos dibásicos; só a cistina importa, por ser pouco solúvel no pH urinário habitual. Os cristais hexagonais no sedimento são diagnósticos, e os cálculos são múltiplos, recorrentes, de início na juventude e pouco opacos. A diretriz europeia de 2026 recomenda volume urinário acima de 3 L/dia, o que exige beber também à noite, e alcalinização para pH acima de 7,5 com citrato de potássio, ambos com força forte, além de menos sal e menos proteína animal. Quando a excreção de cistina é de 3 mmol/dia ou mais, ou os cálculos recorrem apesar disso, acrescenta-se tiopronina, que forma com a cistina um dissulfeto solúvel. A litotripsia extracorpórea funciona mal nesses cálculos.",
+"porAlt": [
+"Esse esquema é o da hipercalciúria; a cistina depende de diluição e pH alto, e restringir cálcio não ajuda.",
+"Acidificar reduz ainda mais a solubilidade da cistina, que só aumenta em urina alcalina.",
+"O alopurinol não atua na cistina, e pH de 6,0 a 6,5 é insuficiente para solubilizá-la.",
+"Correta: na cistinúria, a EAU 2026 pede diurese acima de 3 L/dia e pH acima de 7,5, e tiopronina com cistina de 3 mmol/dia ou mais.",
+"Os cálculos de cistina respondem mal à litotripsia extracorpórea, e a prevenção clínica é o que evita a recorrência."
+]
+},
+{
+"q": "Homem de 58 anos, em diálise peritoneal ambulatorial contínua há 2 anos, procura o pronto-socorro do hospital onde é acompanhado por dor abdominal difusa e efluente turvo há 12 horas. Temperatura de 37,9 °C, pressão de 132/80 mmHg, frequência cardíaca de 96 bpm, abdome doloroso sem defesa localizada. O efluente tem 1.250 leucócitos/µL com 82% de neutrófilos. Óstio e túnel do cateter sem secreção. Celularidade, Gram e cultura em frasco de hemocultura foram colhidos. Não tem alergias. Qual é a conduta mais adequada?",
+"alts": [
+"Aguardar o Gram e a cultura do efluente para escolher o antibiótico mais adequado",
+"Antibiótico intraperitoneal para Gram-positivos e negativos, com antifúngico",
+"Vancomicina venosa isolada até a identificação do germe na cultura",
+"Retirar o cateter peritoneal e transferir para a hemodiálise",
+"Tomografia e laparotomia exploradora antes de qualquer antibiótico"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "ISPD 2022 de peritonite na diálise peritoneal, prevenção e tratamento",
+"coment": "Pela ISPD 2022, o diagnóstico de peritonite exige dois de três critérios: dor abdominal ou efluente turvo, leucócitos acima de 100/µL com mais de 50% de neutrófilos após permanência de pelo menos 2 horas, e cultura positiva. Este paciente preenche os dois primeiros. Recomenda-se iniciar antibiótico empírico o quanto antes após a coleta (1B), cobrindo Gram-positivos com cefalosporina de primeira geração ou vancomicina e Gram-negativos com cefalosporina de terceira geração ou aminoglicosídeo (1B), com cefepima isolada como alternativa. A via intraperitoneal é preferida, salvo sepse sistêmica (1B), e a profilaxia antifúngica acompanha todo curso de antibiótico (1B). O cateter é retirado na forma refratária, na fúngica e a considerar nas recidivantes.",
+"porAlt": [
+"Cada hora de atraso no antibiótico aumenta o risco de falha da técnica ou morte; a cultura orienta o ajuste, não o início.",
+"Correta: peritonite confirmada pede início imediato de cobertura dupla, de preferência intraperitoneal, com profilaxia antifúngica pela ISPD 2022.",
+"A cobertura empírica precisa incluir Gram-negativos, e a via intraperitoneal é preferida sem sepse sistêmica.",
+"A retirada do cateter fica para peritonite refratária após 5 dias, fúngica ou recidivante, não para o primeiro dia.",
+"Sem flora mista nem sinal de perfuração, o quadro é de peritonite da diálise, não de abdome cirúrgico."
+]
+},
+{
+"q": "Mulher de 46 anos, transplantada renal de doador falecido há 3 anos, usa tacrolimo (último nível de 6,1 ng/mL), micofenolato de sódio 720 mg de 12 em 12 horas e prednisona 5 mg/dia, com creatinina basal de 1,2 mg/dL. Há 6 dias recebeu claritromicina 500 mg de 12 em 12 horas numa unidade de pronto atendimento por pneumonia comunitária. Agora tem tremor e cefaleia. Creatinina de 1,9 mg/dL, potássio de 5,8 mEq/L, magnésio de 1,3 mg/dL e glicemia de 210 mg/dL. Doppler do enxerto normal, sem hidronefrose, urina sem leucocitúria. Qual é a conduta mais adequada?",
+"alts": [
+"Dosar o tacrolimo e trocar a claritromicina por azitromicina, ajustando a dose",
+"Pulso de metilprednisolona pela suspeita de rejeição celular aguda",
+"Biópsia do enxerto antes de qualquer ajuste na prescrição imunossupressora atual",
+"Aumentar a dose do tacrolimo pela suspeita de rejeição aguda",
+"Trocar o tacrolimo por ciclosporina, mantendo a claritromicina"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2009 de cuidado do receptor de transplante renal, interações dos inibidores de calcineurina",
+"coment": "Tacrolimo, ciclosporina e inibidores de mTOR são metabolizados pelo citocromo P450 3A4 e pela glicoproteína P. Inibidores como claritromicina, azólicos, diltiazem, verapamil e ritonavir elevam o nível e causam nefrotoxicidade por vasoconstrição da arteríola aferente, além de tremor, hipercalemia, hipomagnesemia e hiperglicemia, exatamente o quadro desta paciente. Indutores como rifampicina e carbamazepina fazem o oposto e provocam rejeição. A conduta é dosar o tacrolimo, suspender o inibidor, trocar por azitromicina, o macrolídeo habitual no transplantado, e ajustar a dose pelo nível. Se a creatinina não voltar com nível adequado, investiga-se rejeição, BK e outras causas, com biópsia lida pelos critérios de Banff, que o KDIGO 2009 manda fazer antes de tratar rejeição.",
+"porAlt": [
+"Correta: a claritromicina inibe o CYP3A4 e eleva o tacrolimo, que causa nefrotoxicidade, tremor, hipercalemia, hipomagnesemia e hiperglicemia.",
+"O quadro tem explicação farmacológica evidente; tratar rejeição sem biópsia e sem nível do fármaco expõe a imunossupressão desnecessária.",
+"A biópsia fica para quando o nível e a retirada da interação não explicarem a disfunção do enxerto.",
+"Aumentar o tacrolimo agravaria a toxicidade de um nível que provavelmente já está alto.",
+"A ciclosporina também depende do CYP3A4 e sofreria a mesma interação com a claritromicina."
+]
+},
+{
+"q": "Homem de 63 anos faz hemodiálise por cateter tunelizado em jugular interna direita há 4 meses, enquanto a fístula arteriovenosa amadurece. Teve calafrios durante a sessão e febre de 38,9 °C. As hemoculturas pareadas, do cateter e periférica, cresceram Staphylococcus aureus sensível à oxacilina em 14 horas. Recebeu vancomicina empírica após a sessão. Pressão de 118/70 mmHg, sem sopro cardíaco novo e óstio sem secreção. Qual é a conduta mais adequada?",
+"alts": [
+"Manter o cateter com selo de antibiótico por 14 dias de tratamento",
+"Retirar o cateter, temporário em outro sítio, e trocar para cefazolina",
+"Trocar o cateter por fio-guia no mesmo sítio e manter vancomicina",
+"Manter o cateter e a vancomicina por 7 dias, com hemocultura ao término",
+"Retirar o cateter e suspender o antibiótico 72 horas após a retirada"
+],
+"gab": 1,
+"tema": "nefro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "r3",
+"base": "IDSA 2009 de infecção relacionada a cateter intravascular, cateter de hemodiálise",
+"coment": "Febre ou calafrio durante a hemodiálise em quem tem cateter é infecção de corrente sanguínea relacionada ao cateter até prova em contrário. A diretriz da IDSA de 2009 manda retirar o cateter quando o agente é Staphylococcus aureus, Pseudomonas ou Candida, colocando cateter temporário em outro sítio (AII). Para o S. aureus sensível à oxacilina, troca-se a vancomicina por cefazolina 20 mg/kg após cada sessão (AII), porque os betalactâmicos são superiores no germe sensível. A duração é de 4 a 6 semanas se a bacteremia persistir mais de 72 horas após a retirada ou se houver endocardite ou tromboflebite supurativa, o que exige ecocardiograma. Para outros germes, com resposta em 2 a 3 dias, aceita-se troca por fio-guia ou selo de antibiótico.",
+"porAlt": [
+"Selo de antibiótico é opção para outros germes com boa resposta, não para S. aureus.",
+"Correta: bacteremia por S. aureus exige retirar o cateter, e o germe sensível é tratado com cefazolina após cada sessão.",
+"A troca por fio-guia no mesmo sítio não se aplica ao S. aureus, e vancomicina é inferior à cefazolina no germe sensível.",
+"Manter o cateter na bacteremia por S. aureus aumenta recidiva, endocardite e infecção metastática.",
+"A bacteremia por S. aureus exige curso completo, de 4 a 6 semanas se persistir após 72 horas ou houver endocardite."
+]
+},
+{
+"q": "Mulher de 83 anos, com fibrilação atrial não valvar e alto risco tromboembólico, vai iniciar rivaroxabana. Pesa 49 kg, mede 1,53 m (superfície corporal de 1,44 m²) e tem creatinina estável de 1,0 mg/dL, com filtração estimada pela CKD-EPI 2021 de 56 mL/min/1,73 m². Não usa fármacos que interajam com a rivaroxabana, não tem sangramento prévio e a hemoglobina é normal. Qual é a dose mais adequada?",
+"alts": [
+"15 mg/dia, pela filtração desindexada de cerca de 47 mL/min",
+"20 mg/dia, pela filtração indexada de 56 mL/min/1,73 m² da paciente",
+"10 mg/dia, pela idade acima de 80 anos e pelo baixo peso",
+"Contraindicada, pela idade e pelo peso abaixo de 50 kg",
+"15 mg de 12 em 12 horas nas três primeiras semanas"
+],
+"gab": 0,
+"tema": "nefro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "KDIGO 2024 de doença renal crônica (ponto de prática 4.2.4) e ESC 2024 de fibrilação atrial",
+"coment": "A filtração estimada pela CKD-EPI 2021 é a régua do KDIGO 2024 para estadiar e, na maioria das situações, para ajustar dose. A unidade mL/min/1,73 m² serve para comparar rins; a depuração do fármaco acompanha a filtração absoluta. Por isso, nos extremos de tamanho corporal e com fármacos de janela estreita, como os anticoagulantes diretos, o ponto de prática 4.2.4 manda desindexar: filtração indexada vezes superfície corporal, dividida por 1,73. Nesta paciente, 56 vira cerca de 47 mL/min, abaixo do corte de 50 da rivaroxabana, cuja dose na fibrilação atrial cai de 20 para 15 mg/dia com depuração de 15 a 49. Trocar de fórmula não é a solução: a régua continua a mesma, apenas expressa em valor absoluto.",
+"porAlt": [
+"Correta: em quem está longe de 1,73 m² e usa fármaco de janela estreita, o KDIGO 2024 desindexa a filtração: 56 vezes 1,44 dividido por 1,73 dá cerca de 47 mL/min, faixa de 15 mg.",
+"O valor indexado superestima a filtração absoluta da paciente pequena e levaria à dose plena acima do corte de 50 mL/min.",
+"Não há dose de 10 mg/dia para fibrilação atrial; idade e peso não reduzem a rivaroxabana por si.",
+"Idade e baixo peso não contraindicam o anticoagulante direto; subdosar ou negar por medo do rim aumenta AVC.",
+"Esse esquema de ataque é o do tromboembolismo venoso, não o da prevenção de AVC na fibrilação atrial."
+]
+},
+{
+"q": "Homem de 76 anos, com doença renal crônica G4 (filtração de 19 mL/min/1,73 m² pela CKD-EPI 2021), está internado por fratura de colo de fêmur, aguardando cirurgia. Recebe morfina 5 mg por via subcutânea de 4 em 4 horas há 3 dias. Nos primeiros 2 dias estava bem; hoje está sonolento, com mioclonias, miose e frequência respiratória de 10 por minuto. Naloxona 0,04 mg melhorou o nível de consciência, mas a sonolência voltou em 1 hora. Glicemia e sódio normais. Qual é a conduta analgésica mais adequada?",
+"alts": [
+"Reduzir a morfina à metade e manter o mesmo intervalo",
+"Trocar a morfina por tramadol de liberação prolongada",
+"Suspender a morfina e passar a fentanil em dose baixa",
+"Trocar a morfina por codeína associada ao paracetamol",
+"Trocar a morfina por meperidina em dose baixa e espaçada"
+],
+"gab": 2,
+"tema": "nefro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "KDIGO 2024 de doença renal crônica (ajuste de fármacos) e critérios de Beers 2023",
+"coment": "Morfina e codeína são metabolizadas no fígado em glicuronídeos ativos, de excreção renal. No renal crônico, eles acumulam ao longo dos dias, e o quadro típico é o do paciente que vai bem nas primeiras doses e fica sonolento, com mioclonia, miose e depressão respiratória, no terceiro dia. A naloxona reverte, mas o metabólito dura mais que ela, e a depressão retorna; muitas vezes é preciso infusão enquanto o metabólito é eliminado. A solução definitiva é trocar o opioide. O KDIGO 2024 orienta ajustar fármacos pela filtração estimada pela CKD-EPI 2021, e o Beers 2023 lista os opioides a reduzir ou evitar; fentanil, buprenorfina e metadona são os preferidos na doença renal avançada. Meperidina e codeína devem ser evitadas.",
+"porAlt": [
+"Reduzir a dose ainda deixa o metabólito ativo acumular, e a toxicidade volta nos dias seguintes.",
+"O tramadol de liberação prolongada deve ser evitado com depuração abaixo de 30 mL/min, pelo acúmulo e pelo risco de convulsão.",
+"Correta: os glicuronídeos da morfina acumulam na filtração baixa, e o fentanil não tem metabólito ativo de excreção renal relevante.",
+"A codeína é convertida em morfina e compartilha os mesmos metabólitos que acumulam no renal crônico.",
+"A normeperidina acumula, causa convulsão e não é revertida pela naloxona."
+]
+},
+{
+"q": "Homem de 63 anos, hipertenso, contador, chega ao pronto-socorro 2 horas após início súbito de dormência na face e no braço esquerdos. Força preservada nos quatro membros, marcha normal sem apoio, linguagem e campos visuais normais, sem negligência. NIHSS de 1 pelo item sensitivo. Pressão arterial de 168/94 mmHg, glicemia capilar de 124 mg/dL. Tomografia de crânio sem hemorragia, ASPECTS 10; angiotomografia sem oclusão de grande vaso. Eletrocardiograma em ritmo sinusal. Não usa antitrombóticos e afirma que, se o quadro persistir como está, voltará ao trabalho normalmente. Qual é a conduta mais adequada?",
+"alts": [
+"Tenecteplase 0,25 mg/kg, pois está dentro de 4,5 horas",
+"Aspirina e clopidogrel com dose de ataque, por 21 dias",
+"Aspirina isolada, iniciada após 24 horas de observação",
+"Alteplase 0,9 mg/kg, já que a pressão está abaixo de 185/110",
+"Heparina não fracionada plena por 5 dias, depois aspirina"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHA/ASA 2026 de AVC isquêmico agudo: déficit leve não incapacitante sem trombólise e dupla antiagregação por 21 dias",
+"coment": "A diretriz AHA/ASA de 2026 tirou a decisão de trombolisar do número do NIHSS e a colocou na pergunta sobre incapacidade. Perda hemissensitiva isolada, com marcha, linguagem e visão preservadas, é o exemplo típico de déficit não incapacitante. Nesses pacientes, até 4,5 horas, a trombólise é classe 3 (sem benefício): no PRISMS a alteplase não superou a aspirina, e em 2023 a dupla antiagregação foi não inferior à alteplase, com menos sangramento. A conduta classe 1, nível A, para AVC menor não cardioembólico (NIHSS de até 3) sem trombólise é aspirina com clopidogrel, com dose de ataque, iniciada em até 24 horas e mantida por 21 dias, seguida de antiagregante único. O ritmo sinusal e a ausência de oclusão sustentam o mecanismo não cardioembólico. Anticoagulação precoce para prevenir piora não tem benefício.",
+"porAlt": [
+"Estar dentro da janela não basta: déficit leve não incapacitante não se tromboliza, por ausência de benefício e risco de sangramento.",
+"Correta: AVC menor não cardioembólico sem trombólise recebe aspirina com clopidogrel, com ataque em até 24 horas, por 21 dias.",
+"A aspirina isolada perde a redução de recorrência precoce da dupla antiagregação, e adiar 24 horas desperdiça o período de maior risco.",
+"A pressão controlada é pré-requisito, não indicação; o que falta aqui é déficit incapacitante, e sem ele a trombólise é classe 3.",
+"Anticoagulação plena precoce para evitar piora ou recorrência é classe 3, sem benefício, e aumenta o risco de transformação hemorrágica."
+]
+},
+{
+"q": "Mulher de 58 anos, hipertensa controlada, está internada no quarto dia de um AVC isquêmico com hemiparesia esquerda leve, já em melhora. A ressonância mostra infarto cortical único frontal direito, não lacunar. Angiotomografia de vasos cervicais e intracranianos sem estenose ou placa acima de 50%. Ecocardiogramas transtorácico e transesofágico normais, sem forame oval patente, trombo ou dilatação atrial. Holter de 24 horas em ritmo sinusal, sem extrassístoles frequentes. LDL de 92 mg/dL, hemoglobina glicada de 5,6%, sem trombofilia na história. Qual é a estratégia antitrombótica e de investigação mais adequada?",
+"alts": [
+"Antiagregante e monitorização prolongada do ritmo cardíaco",
+"Rivaroxabana empírica, pelo padrão embólico do infarto",
+"Varfarina com RNI entre 2 e 3, mantida por tempo indeterminado",
+"Aspirina e clopidogrel por 90 dias, sem nova investigação",
+"Fechamento percutâneo do septo como prevenção secundária"
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "tit",
+"base": "AHA/ASA 2021 de prevenção secundária após AVC ou AIT: AVC embólico de fonte indeterminada sem anticoagulante empírico e monitorização prolongada do ritmo",
+"coment": "Infarto cortical não lacunar sem estenose relevante, sem fonte cardíaca no ecocardiograma e com Holter normal define o AVC embólico de fonte indeterminada. A intuição de anticoagular foi testada e falhou: nos ensaios com rivaroxabana e dabigatrana o anticoagulante direto não reduziu recorrência e aumentou sangramento, e a diretriz AHA/ASA de 2021 classifica o anticoagulante empírico nessa situação como classe 3, sem benefício. O tratamento é antiagregante, aspirina ou clopidogrel, com estatina e controle pressórico. A grande pergunta pendente é fibrilação atrial paroxística, que um Holter de 24 horas detecta mal; por isso a monitorização prolongada do ritmo, com monitor implantável ou de longa duração, é classe 2a. Se a fibrilação aparecer, aí sim o anticoagulante direto entra. O fechamento percutâneo exige forame oval de alto risco, ausente neste caso.",
+"porAlt": [
+"Correta: o tratamento é antiagregante, e a monitorização prolongada procura a fibrilação atrial paroxística que mudaria a conduta.",
+"Anticoagulante direto empírico no AVC embólico de fonte indeterminada não reduziu recorrência e aumentou sangramento: classe 3.",
+"A varfarina sem fonte cardioembólica comprovada só acrescenta risco hemorrágico, sem benefício demonstrado nessa população.",
+"A dupla antiagregação prolongada tem indicação na estenose intracraniana grave, e abandonar a busca de fibrilação atrial é erro.",
+"O fechamento percutâneo pressupõe forame oval patente de alto risco, e o ecocardiograma transesofágico não mostrou forame."
+]
+},
+{
+"q": "Mulher de 76 anos, hipertensa e diabética, 64 kg, creatinina de 0,9 mg/dL, chega 6 horas após início de disartria leve e perda de destreza da mão direita, que não a impede de se alimentar nem de andar. NIHSS de 2. Tomografia sem hemorragia; ressonância com infarto cortical frontal esquerdo de 1 cm, sem transformação hemorrágica. Angiotomografia sem oclusão ou estenose carotídea. O eletrocardiograma mostra fibrilação atrial não diagnosticada antes. Pressão arterial de 152/84 mmHg. Não usa antitrombóticos e não tem história de sangramento. Qual é o esquema antitrombótico mais adequado?",
+"alts": [
+"Aspirina e clopidogrel por 21 dias, seguidos de apixabana",
+"Apixabana nas primeiras 48 horas, sem dupla antiagregação",
+"Aspirina por 14 dias antes de iniciar a apixabana",
+"Heparina não fracionada plena imediata, seguida de varfarina",
+"Varfarina com alvo de RNI entre 2 e 3, iniciada hoje"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "prev",
+"nivel": "tit",
+"base": "AHA/ASA 2026 de AVC isquêmico agudo (anticoagulante precoce na fibrilação atrial com AVC leve) e AHA/ASA 2021 de prevenção secundária",
+"coment": "O NIHSS baixo tenta o candidato a prescrever a dupla antiagregação do AVC menor, mas ela foi estudada em mecanismo não cardioembólico; com fibrilação atrial o tratamento é anticoagulação. A dúvida passa a ser quando começar. A diretriz de 2021 aceitava esperar de 2 a 14 dias, mas os ensaios ELAN, OPTIMAS e TIMING mostraram que iniciar o anticoagulante direto em até 48 horas a 4 dias no AVC leve a moderado é tão seguro quanto o início tardio, e a AHA/ASA de 2026 considera razoável o início precoce nesses pacientes (classe 2a, nível A). Entre os anticoagulantes, os diretos são preferidos à varfarina (classe 1). Heparina plena precoce com o objetivo de evitar piora ou recorrência não tem benefício e aumenta a transformação hemorrágica. Neste infarto pequeno, apixabana nas primeiras 48 horas.",
+"porAlt": [
+"A dupla antiagregação foi testada em AVC não cardioembólico; na fibrilação atrial ela atrasa o anticoagulante e soma sangramento.",
+"Correta: fibrilação atrial com AVC leve pede anticoagulante direto, que pode começar nas primeiras 48 horas com segurança.",
+"Esperar 14 dias era aceitável em 2021, mas no infarto pequeno o início precoce é seguro e reduz a exposição ao risco embólico.",
+"Heparina plena imediata para prevenir piora ou recorrência é classe 3, sem benefício, e aumenta a hemorragia no infarto.",
+"Os anticoagulantes diretos são preferidos à varfarina na fibrilação atrial não valvar, com menos hemorragia intracraniana."
+]
+},
+{
+"q": "Homem de 69 anos com oclusão de M1 direita recebeu tenecteplase e, a seguir, trombectomia com reperfusão eTICI 3, concluída há 2 horas. O NIHSS caiu de 17 para 5. Na unidade de terapia intensiva, pressão arterial de 172/96 mmHg, frequência cardíaca de 84 bpm, sem dor torácica, sem sinais de insuficiência cardíaca e sem dissecção de aorta. Tomografia de controle sem hemorragia. Glicemia de 158 mg/dL. O residente propõe iniciar nicardipina para manter a sistólica abaixo de 130 mmHg nas próximas 72 horas, para proteger contra sangramento. Qual é a conduta pressórica mais adequada?",
+"alts": [
+"Nicardipina para sistólica abaixo de 120 mmHg por 72 horas",
+"Manter até 180/105 mmHg, sem buscar sistólica abaixo de 140",
+"Labetalol para manter a sistólica entre 130 e 140 por 24 horas",
+"Noradrenalina para sistólica acima de 180, pela penumbra",
+"Alvo de 140/90 mmHg, como na hemorragia intracerebral"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA/ASA 2026 de AVC isquêmico agudo: alvo pressórico após trombólise e após trombectomia com reperfusão",
+"coment": "Depois do trombolítico, a pressão deve ficar abaixo de 180/105 mmHg por pelo menos 24 horas (classe 1), e durante e após a trombectomia é razoável o mesmo teto (2a). A intuição de que a artéria aberta autoriza normotensão foi testada e se mostrou danosa. O ENCHANTED2/MT, com sistólica abaixo de 120 mmHg por 72 horas, aumentou deterioração precoce e incapacidade; o OPTIMAL-BP, abaixo de 140 mmHg por 24 horas, reduziu a independência funcional; o BP-TARGET, abaixo de 130 mmHg, não reduziu hemorragia. Por isso a AHA/ASA de 2026 classifica a sistólica abaixo de 140 mmHg nas primeiras 72 horas após reperfusão de oclusão anterior como classe 3, dano, nível A. Com 172/96 mmHg e sem comorbidade que exija redução, não há o que baixar; vigiar e tratar só se ultrapassar 180/105 mmHg.",
+"porAlt": [
+"Alvo abaixo de 120 mmHg por 72 horas foi o braço intensivo do ENCHANTED2/MT, que aumentou deterioração precoce e incapacidade.",
+"Correta: após trombólise e trombectomia o teto é 180/105 mmHg, e sistólica abaixo de 140 mmHg nas primeiras 72 horas é dano.",
+"Mesmo a meta de 130 a 140 mmHg piorou a independência funcional no OPTIMAL-BP e não reduziu sangramento no BP-TARGET.",
+"Elevar a pressão com vasopressor após reperfusão completa não tem indicação e aumenta o risco de hemorragia no leito reperfundido.",
+"A meta de 140 mmHg vem da hemorragia intracerebral; no isquêmico reperfundido ela fica abaixo do limiar considerado seguro."
+]
+},
+{
+"q": "Homem de 71 anos, com doença coronariana estável em uso de aspirina 100 mg/dia, é trazido 90 minutos após hemiparesia direita e afasia súbitas. Glasgow 14, pressão arterial de 198/108 mmHg, frequência cardíaca de 76 bpm. Tomografia: hematoma putaminal esquerdo de 14 mL, sem inundação ventricular e sem hidrocefalia. Plaquetas de 210.000/mm³, RNI de 1,0 e TTPa normal. Não usa anticoagulante. A neurocirurgia avaliou e não vê indicação cirúrgica. A família pergunta se a aspirina deve ser neutralizada. Qual é a conduta mais adequada nas primeiras horas?",
+"alts": [
+"Transfundir plaquetas e baixar a sistólica para cerca de 140 mmHg",
+"Baixar a sistólica para menos de 120 mmHg na primeira hora",
+"Manter a aspirina e tolerar até 180 mmHg, pela perfusão cerebral",
+"Fenitoína profilática e dexametasona para conter o edema",
+"Suspender a aspirina, sem plaquetas, e sistólica perto de 140 mmHg"
+],
+"gab": 4,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "tit",
+"base": "AHA/ASA 2022 de hemorragia intracerebral espontânea: pressão arterial, antiagregante e medidas sem benefício",
+"coment": "A hemorragia intracerebral mata pela expansão do hematoma nas primeiras horas, favorecida pela pressão alta. Pela AHA/ASA de 2022, na hemorragia leve a moderada com sistólica de 150 a 220 mmHg, o alvo é cerca de 140 mmHg, mantendo entre 130 e 150, começando em até 2 horas e atingindo-o em 1 hora, com titulação suave; abaixo de 130 mmHg é dano. Sobre o antiagregante, o reflexo de transfundir plaquetas foi testado no PATCH: no usuário de aspirina que não vai à cirurgia, a transfusão aumentou morte e dependência, e a diretriz a classifica como classe 3, dano. A aspirina é suspensa e não neutralizada. Anticonvulsivante profilático sem crise e corticoide para o edema não têm benefício. Plaquetas e coagulograma normais reforçam que não há coagulopatia a corrigir.",
+"porAlt": [
+"No usuário de aspirina que não vai operar, a transfusão de plaquetas aumentou morte e dependência no PATCH: classe 3, dano.",
+"Baixar a sistólica para menos de 130 mmHg não reduz expansão e aumenta eventos renais, sendo classificado como dano.",
+"Tolerar 180 mmHg favorece a expansão do hematoma; o alvo recomendado é perto de 140 mmHg, atingido em 1 hora.",
+"Anticonvulsivante profilático sem crise e corticoide para o edema não têm benefício na hemorragia intracerebral.",
+"Correta: suspende-se a aspirina sem transfundir plaquetas, e a sistólica é levada para perto de 140 mmHg, entre 130 e 150."
+]
+},
+{
+"q": "Homem de 82 anos, independente e sem diretiva antecipada, chega 6 horas após rebaixamento súbito. Glasgow 9, pressão arterial de 186/100 mmHg. Tomografia: hematoma talâmico direito de 34 mL com inundação ventricular, sem hidrocefalia significativa; RNI e plaquetas normais. Escore ICH de 4. Recebeu controle pressórico e está em ventilação espontânea com via aérea protegida. Na primeira noite, o plantonista, citando a mortalidade prevista pelo escore, propõe à família registrar ordem de não reanimar e retirar todo o suporte, inclusive a monitorização. Qual é a conduta mais adequada?",
+"alts": [
+"Manter suporte pleno e adiar a decisão até o segundo dia completo",
+"Retirar o suporte hoje, pela mortalidade prevista no escore",
+"Registrar não reanimar e suspender também a derivação, se surgir",
+"Recalcular o escore em 12 horas e retirar o suporte se mantido",
+"Cuidado paliativo exclusivo, sem controle pressórico, desde já"
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA/ASA 2022 de hemorragia intracerebral espontânea: escore de gravidade e momento das decisões de limitação de suporte",
+"coment": "O escore ICH de Hemphill soma Glasgow, volume de 30 mL ou mais, inundação ventricular, origem infratentorial e idade de 80 anos ou mais, e medir a gravidade na admissão é recomendado. O problema é usá-lo como sentença: as coortes que geraram as mortalidades incluíam pacientes que tiveram suporte retirado precocemente, e decidir por ele cria uma profecia autorrealizável. A AHA/ASA de 2022 diz que o escore não deve ser a única base do prognóstico individual (classe 3, sem benefício) e que, sem diretiva prévia, é razoável adiar nova ordem de não reanimar ou retirada de suporte até pelo menos o segundo dia completo de tratamento agressivo (2a). Também é dano limitar outros tratamentos só porque existe ordem de não reanimar. Até lá, suporte pleno, comunicação franca com a família e reavaliação diária.",
+"porAlt": [
+"Correta: sem diretiva prévia, é razoável manter tratamento pleno e adiar a limitação de suporte até pelo menos o segundo dia completo.",
+"O escore ICH não pode ser a única base do prognóstico individual; usá-lo para retirar suporte na primeira noite é profecia autorrealizável.",
+"A ordem de não reanimar não autoriza suspender outros tratamentos, como a derivação ventricular; fazer isso é classificado como dano.",
+"Doze horas ainda estão dentro do período em que a diretriz pede tratamento agressivo antes de decidir limitação de suporte.",
+"Abandonar o controle pressórico no primeiro dia equivale a retirar suporte precocemente, sem diretiva e sem tempo de reavaliação."
+]
+},
+{
+"q": "Mulher de 52 anos, tabagista, chega 5 horas após cefaleia súbita, máxima em segundos, durante esforço. Está sonolenta mas orientada, com rigidez de nuca e sem déficit focal. Pressão arterial de 158/88 mmHg. Tomografia: hemorragia subaracnóidea difusa nas cisternas basais, sem hidrocefalia. Angiotomografia: aneurisma de 6 mm da comunicante anterior, que neurocirurgia e neurorradiologia consideram igualmente tratável por embolização ou clipagem. Sódio de 139 mEq/L, plaquetas e RNI normais, sem uso de anticoagulante. Qual é a conduta mais adequada?",
+"alts": [
+"Nimodipino enteral e embolização do aneurisma em até 24 horas",
+"Ácido tranexâmico até a clipagem eletiva no décimo dia",
+"Nimodipino e clipagem após o período de maior vasoespasmo",
+"Hipervolemia e hipertensão induzida profiláticas, com nimodipino",
+"Fenitoína profilática e embolização do aneurisma em até 24 horas"
+],
+"gab": 0,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHA/ASA 2023 de hemorragia subaracnóidea aneurismática: tratamento precoce do aneurisma, embolização e nimodipino",
+"coment": "O ressangramento é precoce e é a complicação que mais mata nos primeiros dias, por isso a AHA/ASA de 2023 manda tratar o aneurisma roto o mais cedo possível, de preferência em até 24 horas (classe 1). No aneurisma de circulação anterior, em paciente de bom grau e igualmente tratável pelos dois métodos, a embolização é preferida à clipagem (1, A), herança do ISAT. O nimodipino enteral, 60 mg a cada 4 horas, é o único fármaco que reduz isquemia cerebral tardia e melhora o desfecho (1, A). O ácido tranexâmico de rotina não melhorou o desfecho no ULTRA (3, sem benefício). A antiga terapia do triplo H morreu: aumento profilático de volume ou pressão é dano, e o que se busca é euvolemia. A fenitoína profilática também é classificada como dano.",
+"porAlt": [
+"Correta: tratamento do aneurisma em até 24 horas, com embolização no bom grau de circulação anterior, somado ao nimodipino enteral.",
+"O antifibrinolítico de rotina não melhorou o desfecho no ULTRA, e adiar o tratamento do aneurisma expõe ao ressangramento precoce.",
+"Esperar passar o vasoespasmo deixa o aneurisma exposto ao ressangramento; a diretriz pede tratamento nas primeiras 24 horas.",
+"Aumentar volume ou pressão de forma profilática é classe 3, dano; a meta é euvolemia, reservando a hipertensão ao déficit tardio.",
+"O momento do tratamento está certo, mas a fenitoína profilática se associou a pior desfecho e é classificada como dano."
+]
+},
+{
+"q": "Homem de 47 anos, no sexto dia de hemorragia subaracnóidea aneurismática, com aneurisma embolizado no primeiro dia, em uso de nimodipino enteral. Está lúcido e sem déficit novo. O sódio caiu de 138 para 127 mEq/L em 48 horas. Diurese de 4,2 L/dia, sódio urinário de 140 mEq/L, balanço hídrico negativo de 1,5 L em 2 dias, ureia em ascensão e veia cava inferior colabada ao ultrassom. Glicemia, TSH e cortisol normais. Doppler transcraniano com velocidades em elevação na cerebral média esquerda. Qual é a conduta mais adequada para o sódio?",
+"alts": [
+"Restrição hídrica de 800 mL/dia, como na secreção inapropriada",
+"Tolvaptana oral para elevar o sódio nas próximas 24 horas",
+"Hipervolemia induzida com coloide para prevenir vasoespasmo",
+"Fludrocortisona e reposição salina para manter euvolemia",
+"Suspender o nimodipino e observar o sódio por 48 horas"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "AHA/ASA 2023 de hemorragia subaracnóidea aneurismática: hiponatremia por natriurese, mineralocorticoide e euvolemia",
+"coment": "Hiponatremia com poliúria, sódio urinário alto, balanço negativo, ureia subindo e veia cava colabada é perda renal de sal com hipovolemia, a forma que importa na hemorragia subaracnóidea. O momento agrava o risco: entre o terceiro e o décimo quarto dia corre a janela da isquemia cerebral tardia, e o Doppler já sugere vasoespasmo. Hipovolemia nessa fase reduz a perfusão do território em espasmo. Por isso não se restringe água, conduta que serve à secreção inapropriada euvolêmica e aqui pioraria o volume. A AHA/ASA de 2023 considera razoável usar mineralocorticoide para conter a natriurese (classe 2a), com reposição de sódio para manter euvolemia, e classifica como dano induzir hipervolemia. O nimodipino deve ser mantido, porque suas interrupções se associam a mais isquemia tardia. Aquarético eleva o sódio à custa de mais perda de volume.",
+"porAlt": [
+"Restringir água num paciente que já perde sódio e volume agrava a hipovolemia justamente na janela de isquemia tardia.",
+"O aquarético corrige o sódio eliminando água livre e aprofunda a contração de volume que está na origem do risco isquêmico.",
+"Induzir hipervolemia é classe 3, dano, na hemorragia subaracnóidea; a meta recomendada é euvolemia, não volume acima do normal.",
+"Correta: mineralocorticoide para conter a natriurese e reposição de sódio para manter euvolemia durante a janela de vasoespasmo.",
+"O nimodipino não causa a natriurese, e interromper sua administração se associa a mais isquemia cerebral tardia."
+]
+},
+{
+"q": "Puérpera de 33 anos, 8 dias após parto vaginal sem anestesia neuraxial, procura o pronto-socorro pela terceira cefaleia em trovoada em 4 dias, todas no banho ou ao evacuar, com pico em segundos e alívio parcial em horas. Usa descongestionante nasal com pseudoefedrina há 1 semana e sertralina desde a gestação. Pressão arterial de 132/84 mmHg, sem proteinúria, plaquetas e enzimas hepáticas normais. Exame neurológico e fundo de olho normais. Tomografia e líquor sem sangue; angiorressonância com estreitamentos segmentares multifocais nas cerebrais médias e posteriores. Qual é a conduta mais adequada?",
+"alts": [
+"Pulso de metilprednisolona pela hipótese de vasculite primária",
+"Sumatriptano subcutâneo nas crises, mantendo os demais fármacos",
+"Suspender os gatilhos vasoativos e usar bloqueador de cálcio oral",
+"Anticoagulação plena, pela associação entre puerpério e trombose",
+"Biópsia cerebral e leptomeníngea antes de iniciar o tratamento"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHA/ASA 2023 de hemorragia subaracnóidea (investigação da trovoada) e escore RCVS2 (Neurology 2019) da vasoconstrição cerebral reversível",
+"coment": "Excluída a hemorragia subaracnóidea, trovoadas recorrentes ao longo de dias, desencadeadas por banho e Valsalva, no puerpério e com fármacos vasoativos, apontam para síndrome de vasoconstrição cerebral reversível. O escore RCVS2 soma trovoada recorrente (5), gatilho vasoconstritor (3) e sexo feminino (1), total 9; acima de 5 a especificidade é de 99%. A pressão normal, a ausência de proteinúria e as enzimas normais afastam pré-eclâmpsia pós-parto. A conduta é suspender o gatilho (descongestionante e, se possível, o inibidor de recaptação de serotonina), analgesia, bloqueador de canal de cálcio oral e vigilância, porque hemorragia de convexidade e infarto podem surgir nos dias seguintes. O erro clássico é tratar como angiíte primária: o corticoide piora o desfecho na vasoconstrição reversível. Triptano é vasoconstritor e também é gatilho.",
+"porAlt": [
+"Corticoide piora o desfecho na vasoconstrição reversível; a angiíte primária, que se trata com corticoide, não tem esse perfil clínico.",
+"O triptano é vasoconstritor e está entre os gatilhos da síndrome, além de manter a pseudoefedrina e a sertralina em uso.",
+"Correta: retirar os gatilhos vasoativos e usar bloqueador de canal de cálcio oral é a conduta, com vigilância de complicações.",
+"Os estreitamentos são arteriais e não há trombose venosa; anticoagular não trata a vasoconstrição e expõe a sangramento de convexidade.",
+"A biópsia fica para a suspeita de angiíte primária; com escore RCVS2 de 9, o diagnóstico de vasoconstrição reversível é muito provável."
+]
+},
+{
+"q": "Mulher de 44 anos, com laqueadura tubária, tem enxaqueca sem aura desde a adolescência. O diário de 3 meses mostra 18 dias de cefaleia por mês, 10 deles com características de enxaqueca que respondem a triptano. Usa naproxeno em 4 dias e sumatriptano em 3 dias por mês. Tem asma persistente moderada, nefrolitíase recorrente, índice de massa corporal de 34 kg/m² e esteatose hepática com ALT de 2 vezes o limite superior. Pressão arterial de 124/78 mmHg, exame neurológico e fundo de olho normais. Deseja prevenção. Qual é a opção mais adequada?",
+"alts": [
+"Propranolol 40 mg de 12 em 12 horas, com titulação",
+"Topiramato 25 mg/dia, titulado até 100 mg/dia",
+"Flunarizina 10 mg à noite, pela boa tolerância",
+"Anticorpo anti-CGRP mensal, reavaliado em 3 meses",
+"Valproato 500 mg/dia, titulado conforme resposta"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "AHS 2024 (terapias contra o CGRP como primeira linha), AAN/AHS 2026 de profilaxia farmacológica da enxaqueca e ICHD-3",
+"coment": "Cefaleia em 15 ou mais dias por mês há mais de 3 meses, com 8 ou mais dias de enxaqueca, define enxaqueca crônica. O uso de medicação aguda não preenche uso excessivo: 7 dias por mês somando as duas classes, abaixo do limiar de 10 dias. A profilaxia está indicada. A escolha é por comorbidade: o betabloqueador piora a asma, o topiramato aumenta o risco de nefrolitíase, a flunarizina e o valproato engordam e o valproato agride o fígado com esteatose. Em 2024 a AHS passou a considerar as terapias contra o CGRP primeira linha, sem exigir falha prévia de preventivos orais, e a AAN/AHS de 2026 deu confiança alta ao fremanezumabe e ao galcanezumabe na forma crônica. O anticorpo mensal é julgado após pelo menos 3 meses.",
+"porAlt": [
+"O betabloqueador não seletivo pode desencadear broncoespasmo grave em quem tem asma persistente e deve ser evitado.",
+"O topiramato aumenta o risco de cálculo renal, e a nefrolitíase recorrente torna essa escolha inadequada para ela.",
+"A flunarizina engorda e pode causar depressão e parkinsonismo, efeitos ruins para quem já tem obesidade.",
+"Correta: o anti-CGRP é primeira linha sem exigir falha de orais, não colide com as comorbidades e é julgado após 3 meses.",
+"O valproato provoca ganho de peso e hepatotoxicidade, inadequado diante de obesidade e esteatose com transaminase elevada."
+]
+},
+{
+"q": "Homem de 81 anos, internado há 3 dias por pneumonia, era independente: administrava as próprias finanças e, segundo a filha, nunca esqueceu compromissos. Desde a noite anterior está confuso, arranca o acesso venoso, alterna sonolência durante o dia com agitação à noite e não consegue dizer os meses do ano de trás para frente. Recebe prometazina e diazepam para dormir desde a admissão. Temperatura de 37,8 °C, saturação de 92% em ar ambiente, sódio de 131 mEq/L. O mini exame do estado mental hoje é de 17. A filha pede que se inicie remédio para Alzheimer. Qual é a interpretação e a conduta?",
+"alts": [
+"Demência de Alzheimer: iniciar donepezila 5 mg/dia já na internação",
+"Delirium: tratar causas, retirar sedativos e reavaliar após a alta",
+"Demência com corpos de Lewy, pela flutuação: iniciar rivastigmina",
+"Demência vascular: ressonância de crânio e dupla antiagregação",
+"Delirium: haloperidol fixo de 8 em 8 horas até o dia da alta"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "PCDT da Doença de Alzheimer 2025 e NICE NG97 (demência) e CG103 (delirium, atualizado em 2023)",
+"coment": "Instalação aguda, flutuação ao longo do dia, desatenção (meses do ano ao contrário) e alteração do nível de consciência definem delirium. As causas estão à vista: infecção com hipoxemia, hiponatremia e dois fármacos deliriogênicos, a prometazina anticolinérgica e o benzodiazepínico. O PCDT de Alzheimer de 2025 e a NICE NG97 definem demência como declínio que não se explica por delirium e exigem afastá-lo antes do diagnóstico; um mini exame do estado mental aplicado durante o delirium não mede a cognição de base. A conduta é tratar a pneumonia e a hipoxemia, corrigir o sódio, suspender prometazina e diazepam, reorientar e envolver a família, e reavaliar a cognição semanas após a alta. Antipsicótico, se necessário, fica para sofrimento ou risco, na menor dose e por poucos dias, nunca em horário fixo até a alta.",
+"porAlt": [
+"Demência não se diagnostica durante delirium, e o inibidor de colinesterase não trata delirium nem tem indicação nessa fase.",
+"Correta: quadro agudo, flutuante e com desatenção é delirium, e demência só pode ser avaliada semanas depois de resolvida a causa.",
+"A flutuação da demência com corpos de Lewy é crônica e acompanha declínio prévio, que a história de independência total afasta.",
+"Não há déficit focal nem história de declínio em degraus, e dupla antiagregação não trata confusão aguda de causa clínica.",
+"Antipsicótico em horário fixo prolongado não encurta o delirium; se usado, é na menor dose, por pouco tempo e para risco ou sofrimento."
+]
+},
+{
+"q": "Mulher de 72 anos, com doença de Alzheimer leve, amiloide confirmado em líquor e genótipo APOE ε3/ε4, recebe lecanemabe a cada 2 semanas há 10 semanas. É trazida 90 minutos após início de cefaleia, confusão e hemiparesia esquerda leve que a impede de andar sem apoio. NIHSS de 5. Glicemia de 118 mg/dL, pressão arterial de 164/90 mmHg, ritmo sinusal. Não usa anticoagulante. Tomografia de crânio sem hemorragia e sem hipodensidade franca. A equipe de AVC discute trombólise, já que o déficit é incapacitante. Qual é a conduta mais adequada?",
+"alts": [
+"Tenecteplase já, pois o déficit é incapacitante e a TC é normal",
+"Alteplase depois de a angiotomografia excluir oclusão de grande vaso",
+"Sem trombolítico; ressonância com FLAIR e T2* e suspender o anticorpo",
+"Tenecteplase em meia dose, pelo risco de hemorragia com o anticorpo",
+"Dexametasona e manter a próxima infusão de lecanemabe no prazo"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "urg",
+"nivel": "r3",
+"base": "AHA/ASA 2026 de AVC isquêmico agudo: ARIA e imunoterapia antiamiloide entre as contraindicações absolutas à trombólise",
+"coment": "Os anticorpos antiamiloide causam ARIA, anormalidade de imagem relacionada ao amiloide: edema vasogênico ou efusão sulcal (ARIA-E) e micro-hemorragia ou siderose superficial (ARIA-H). Ela predomina nas primeiras 24 semanas, é mais frequente em portadores do alelo ε4 e, quando sintomática, dá cefaleia, confusão, crises e déficit focal que imita AVC. A tomografia não a exclui. A diretriz AHA/ASA de 2026 inclui ARIA e imunoterapia antiamiloide entre as contraindicações absolutas ao trombolítico, por relatos de hemorragias graves e fatais. Por isso a imagem vem antes: ressonância com FLAIR, para o edema, e sequência sensível a sangue, para micro-hemorragias e siderose. Confirmada a ARIA sintomática, suspende-se o anticorpo e a decisão sobre corticoide e retomada depende da gravidade. Se a angiotomografia mostrar oclusão de grande vaso, a trombectomia é discutida à parte.",
+"porAlt": [
+"Déficit incapacitante não basta: em uso de antiamiloide a trombólise é contraindicação absoluta pela diretriz de 2026.",
+"A ausência de oclusão não remove a contraindicação; o risco hemorrágico vem do anticorpo e da possível ARIA, não do vaso.",
+"Correta: sem trombolítico, a ressonância com FLAIR e T2* define a ARIA, e o anticorpo é suspenso até a avaliação.",
+"Não existe dose reduzida validada que torne segura a trombólise em quem recebe imunoterapia antiamiloide.",
+"Manter a infusão diante de quadro compatível com ARIA sintomática agrava o edema e o risco de hemorragia."
+]
+},
+{
+"q": "Homem de 74 anos, com doença de Parkinson há 9 anos, em levodopa com carbidopa 600 mg/dia de levodopa, apresenta há 6 semanas alucinações visuais diárias de pessoas na sala e delírio de ciúme, com agressividade contra a esposa. Há 3 semanas o neurologista retirou amantadina e pramipexol, sem melhora; uma redução da levodopa piorou rigidez e quedas e foi revertida. Sem febre, sem infecção urinária ou pulmonar, eletrólitos e função renal normais, mini exame do estado mental de 26. Neutrófilos de 4.200/mm³, QTc de 430 ms. Qual é a conduta mais adequada?",
+"alts": [
+"Haloperidol 1 mg à noite, pelo controle rápido da agressividade",
+"Risperidona 0,5 mg à noite, com aumento semanal",
+"Olanzapina 2,5 mg à noite, pela menor sedação",
+"Suspender toda a levodopa e observar por 2 semanas",
+"Clozapina 12,5 mg à noite, com hemograma seriado"
+],
+"gab": 4,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "PCDT da Doença de Parkinson 2025 e revisão de evidências da Movement Disorder Society para sintomas não motores, 2019",
+"coment": "A psicose da doença de Parkinson se aborda em etapas. Primeiro, afastar delirium por infecção, distúrbio metabólico ou fármaco novo, como foi feito. Depois, retirar o que dá pouco benefício motor e muito risco psiquiátrico, na ordem anticolinérgico, amantadina, inibidor da MAO-B, agonista e inibidor da COMT; a levodopa é a última a ser reduzida, e aqui a redução não foi tolerada. Persistindo a psicose, o antipsicótico precisa não bloquear o receptor D2 de forma relevante. A revisão da MDS de 2019 considera a clozapina clinicamente útil, sem piorar o parkinsonismo, e o PCDT de 2025 a elege como tratamento de escolha no SUS, começando com 12,5 mg e subindo devagar, com hemograma seriado pelo risco de agranulocitose. Típicos são contraindicados, e risperidona e olanzapina são desaconselhadas.",
+"porAlt": [
+"Antipsicótico típico bloqueia o receptor D2 e piora gravemente o parkinsonismo; o PCDT de 2025 o contraindica.",
+"A risperidona tem bloqueio dopaminérgico relevante, piora rigidez e quedas e é desaconselhada pelo PCDT de 2025.",
+"A olanzapina piorou a função motora nos ensaios e foi classificada pela MDS como não útil, com risco inaceitável.",
+"A retirada completa da levodopa precipita rigidez grave e risco de hiperpirexia, e a redução já se mostrou intolerável.",
+"Correta: persistindo a psicose após retirar amantadina e agonista, a clozapina em dose baixa é a escolha, com hemograma seriado."
+]
+},
+{
+"q": "Mulher de 68 anos, com doença de Parkinson há 12 anos em levodopa com benserazida cinco vezes ao dia, foi operada há 3 dias por obstrução intestinal. Desde a cirurgia está em jejum, com sonda nasogástrica aberta drenando e íleo, e a levodopa não foi prescrita. Hoje apresenta temperatura de 39,4 °C, rigidez generalizada intensa, sonolência, pressão arterial oscilando entre 90/60 e 170/100 mmHg, frequência cardíaca de 118 bpm, creatinoquinase de 6.800 U/L e creatinina de 1,6 mg/dL. Recebeu apenas dipirona e ondansetrona, sem antipsicótico. A ferida operatória está limpa. Qual é a medida mais importante?",
+"alts": [
+"Dantroleno intravenoso, mantendo a pausa dos dopaminérgicos",
+"Antibiótico de amplo espectro e levodopa só quando houver dieta",
+"Ciproeptadina por sonda, pela hipótese de síndrome serotoninérgica",
+"Repor estímulo dopaminérgico já, por adesivo de rotigotina",
+"Hidratação e aguardar o trânsito intestinal para retomar a levodopa"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "urg",
+"nivel": "tit",
+"base": "NICE NG71 2017 (Parkinson no adulto): não retirar abruptamente nem deixar de absorver os antiparkinsonianos, pelo risco de acinesia aguda e síndrome neuroléptica maligna",
+"coment": "Febre, rigidez intensa, rebaixamento, disautonomia e creatinoquinase alta em parkinsoniano sem levodopa há 3 dias é a síndrome de hiperpirexia-parkinsonismo, equivalente da síndrome neuroléptica maligna provocado pela retirada abrupta do dopaminérgico. Jejum cirúrgico, sonda e prescrição esquecida são as causas clássicas, e o risco é rabdomiólise, lesão renal e morte. O tratamento central é repor o estímulo dopaminérgico imediatamente. Com íleo e sonda aberta drenando, a via enteral não garante absorção, e entram a rotigotina transdérmica ou a apomorfina, somadas a resfriamento, hidratação e suporte intensivo. Infecção deve ser investigada, mas não explica a rigidez nem substitui a reposição. A lição de prevenção é a regra hospitalar: nunca suspender a levodopa e dar as doses no horário. Ondansetrona e domperidona são os antieméticos seguros nesse paciente.",
+"porAlt": [
+"O dantroleno pode ajudar na rigidez, mas sem repor o dopaminérgico a causa da síndrome continua ativa e o quadro progride.",
+"Investigar infecção é razoável, mas adiar a levodopa até a dieta mantém a privação dopaminérgica que causou o quadro.",
+"Não houve fármaco serotoninérgico capaz de explicar o quadro, e a rigidez extrema com creatinoquinase alta aponta para retirada de levodopa.",
+"Correta: a síndrome de hiperpirexia-parkinsonismo se trata repondo o dopaminérgico já, por via transdérmica quando a enteral falha.",
+"Hidratar é necessário, mas esperar o trânsito intestinal mantém o paciente sem dopaminérgico e expõe a rabdomiólise e morte."
+]
+},
+{
+"q": "Mulher de 36 anos tem miastenia generalizada com anticorpo anti-MuSK positivo e antirreceptor de acetilcolina negativo. Predominam disartria, disfagia, fraqueza cervical e atrofia de língua. A piridostigmina causou cãibras e fasciculações sem ganho de força e foi reduzida. Usa prednisona 40 mg/dia e azatioprina 150 mg/dia há 10 meses e teve 2 internações com plasmaférese no último ano, com boa resposta transitória. Tomografia de tórax com timo de aspecto normal para a idade. Função renal e hepática normais. Qual é a próxima opção terapêutica mais adequada?",
+"alts": [
+"Timectomia videoassistida, por ter menos de 50 anos",
+"Rituximabe, pela boa resposta na miastenia anti-MuSK",
+"Eculizumabe, após vacinação contra meningococo",
+"Aumentar a piridostigmina para 120 mg de 4 em 4 horas",
+"Prednisona 1 mg/kg/dia mantida por tempo indefinido"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "r3",
+"base": "International Consensus Guidance for Management of Myasthenia Gravis, atualização de 2020",
+"coment": "A miastenia anti-MuSK é outra doença do ponto de vista terapêutico. O anticorpo é IgG4, que não fixa complemento, e a apresentação é bulbar, facial e cervical, com atrofia de língua e crises frequentes. A resposta à piridostigmina é pobre, com efeitos colinérgicos exagerados; a plasmaférese funciona bem, e o rituximabe tem as melhores séries. O consenso internacional de 2020 recomenda considerar rituximabe precocemente no anti-MuSK com resposta insatisfatória à imunoterapia inicial, situação desta paciente, dependente de corticoide em dose moderada e com internações repetidas. A timectomia, apoiada pelo MGTX, vale para a forma antirreceptor positiva de 18 a 50 anos e não mostrou benefício no anti-MuSK. Os inibidores do complemento só funcionam na forma antirreceptor positiva. Corticoide em dose alta indefinida troca a doença por efeitos adversos graves.",
+"porAlt": [
+"A timectomia beneficia a miastenia antirreceptor positiva e não mostrou ganho no anti-MuSK, em que o timo não participa da doença.",
+"Correta: no anti-MuSK com resposta insatisfatória à imunoterapia inicial, o consenso de 2020 indica rituximabe precoce.",
+"Inibidores do complemento atuam na miastenia antirreceptor positiva; o anticorpo IgG4 do anti-MuSK não fixa complemento.",
+"No anti-MuSK a piridostigmina rende pouco e provoca efeitos colinérgicos exagerados, já observados nesta paciente.",
+"Corticoide em dose alta sem prazo acumula osteoporose, diabetes e infecção sem resolver a refratariedade da doença."
+]
+},
+{
+"q": "Homem de 66 anos teve diarreia há 3 semanas e, 10 dias depois, fraqueza ascendente com arreflexia. Foi internado no terceiro dia de fraqueza, sem conseguir andar, e recebeu imunoglobulina 0,4 g/kg/dia por 5 dias. Hoje, no 14º dia de doença, continua tetraparético, com escore MRC somado de 28, sem andar, mas sem piora desde o 10º dia. Capacidade vital forçada estável em 24 mL/kg, sem disfagia, sem arritmias. O escore mEGOS indica alta chance de não andar sem ajuda em 6 meses. A equipe propõe repetir a imunoglobulina ou associar metilprednisolona. Qual é a conduta mais adequada?",
+"alts": [
+"Segundo ciclo de imunoglobulina, pelo prognóstico ruim no mEGOS",
+"Metilprednisolona 500 mg/dia por 5 dias, associada à imunoglobulina",
+"Suporte, tromboprofilaxia e reabilitação, sem repetir imunoglobulina",
+"Plasmaférese imediata, por falha da imunoglobulina em 14 dias",
+"Rever o diagnóstico para forma crônica e iniciar prednisona oral"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "EAN/PNS 2023 de diagnóstico e tratamento da síndrome de Guillain-Barré",
+"coment": "Guillain-Barré pós-diarreico, axonal provável, em idoso com escore MRC baixo tem prognóstico funcional ruim, e o mEGOS apenas o confirma. A tentação de intensificar foi testada. No ensaio SID-GBS, a segunda dose de imunoglobulina em pacientes de mau prognóstico não melhorou o desfecho e teve mais eventos adversos graves, e a diretriz EAN/PNS de 2023 recomenda contra ela. O corticoide falhou em oito ensaios, e a diretriz também recomenda contra, oral ou intravenoso. Plasmaférese logo após a imunoglobulina não soma efeito e lava o fármaco recém-infundido. Cerca de 40% dos pacientes não melhoram nas primeiras 4 semanas, o que não significa falha. Pensar em forma crônica de início agudo só se houver progressão após 8 semanas ou três flutuações. Fica o suporte: tromboprofilaxia enquanto não anda, vigilância respiratória e autonômica, dor e reabilitação precoce.",
+"porAlt": [
+"No SID-GBS a segunda dose de imunoglobulina não melhorou o desfecho dos pacientes de mau prognóstico e aumentou eventos adversos.",
+"O corticoide não funcionou em oito ensaios no Guillain-Barré, e a diretriz europeia de 2023 recomenda contra seu uso.",
+"Correta: sem benefício de repetir imunoglobulina ou de corticoide, a conduta é suporte, tromboprofilaxia e reabilitação precoce.",
+"Ausência de melhora em 2 semanas não é falha, e plasmaférese após imunoglobulina não soma benefício e remove o fármaco.",
+"A forma crônica de início agudo exige progressão após 8 semanas ou flutuações repetidas, o que não ocorre no 14º dia."
+]
+},
+{
+"q": "Homem de 64 anos, hipertenso e tabagista, teve dois episódios de tontura com visão dupla nos últimos 3 dias. Foi visto bem às 8h30 e encontrado caído às 9h15. Chega às 10h30 com Glasgow 7 (abertura ocular 1, verbal 2, motor 4), pupilas de 3 mm pouco reativas, desvio vertical dos olhos, resposta extensora à direita e Babinski bilateral. Glicemia de 132 mg/dL, pressão arterial de 182/98 mmHg, ritmo sinusal, saturação de 91% em ar ambiente. Sem trauma aparente, sem frascos ou drogas no local. Tomografia sem contraste sem hemorragia e sem hipodensidade. Qual é o próximo passo mais adequado?",
+"alts": [
+"Eletroencefalograma, pela hipótese de estado de mal não convulsivo",
+"Punção lombar, já que a tomografia não mostrou sangramento",
+"Intubar e fazer angiotomografia em busca de oclusão da basilar",
+"Manitol e hiperventilação para a hipertensão intracraniana",
+"Naloxona e flumazenil pela hipótese de intoxicação exógena"
+],
+"gab": 2,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "AHA/ASA 2026 de AVC isquêmico agudo (imagem vascular e trombectomia na oclusão basilar) e abordagem do coma",
+"coment": "Coma de instalação súbita, precedido de tontura e diplopia, com desvio vertical dos olhos, alteração pupilar e sinais motores assimétricos, é estrutural de tronco até prova em contrário. A tomografia normal não tranquiliza: a isquemia da oclusão basilar ainda não aparece nas primeiras horas, e esse é o erro clássico de chamar o quadro de metabólico. Com Glasgow 7 e hipoxemia, a via aérea vem primeiro. Em seguida, angiotomografia: a AHA/ASA de 2026 indica imagem de vasos intracranianos na suspeita de oclusão de grande vaso, e a trombectomia na oclusão basilar com NIHSS de 10 ou mais e Rankin prévio de 0 a 1 é classe 1 até 24 horas. Com 2 horas desde o último momento visto bem, a trombólise também entra na decisão. Flumazenil no coma de causa desconhecida arrisca convulsão.",
+"porAlt": [
+"Estado de mal não convulsivo entra no diferencial, mas assimetria de tronco com tomografia normal pede imagem vascular antes.",
+"Não há febre nem meningismo, e a punção lombar atrasaria o diagnóstico de uma causa vascular tratável por reperfusão.",
+"Correta: coma súbito com sinais de tronco e tomografia normal é oclusão basilar até prova em contrário, após proteger a via aérea.",
+"Não há lesão expansiva na tomografia nem sinal de herniação que justifique osmoterapia e hiperventilação empíricas.",
+"Pupilas de 3 mm e sinais focais não sugerem opioide, e flumazenil às cegas no coma desconhecido arrisca convulsões."
+]
+},
+{
+"q": "Homem de 28 anos com traumatismo cranioencefálico grave por acidente de moto, com contusões bifrontais pequenas e sem lesão cirúrgica, está intubado no segundo dia, com cateter ventricular. Recebe cabeceira a 30 graus, propofol e fentanil em dose plena, PaCO₂ de 36 mmHg, bólus de salina hipertônica e drenagem de liquor. Mesmo assim a pressão intracraniana se mantém entre 27 e 29 mmHg há 1 hora. Pressão arterial média de 88 mmHg, temperatura de 37,2 °C, sódio de 152 mEq/L, osmolalidade de 312 mOsm/kg. A tomografia repetida não mostra lesão nova. Qual é a próxima medida mais adequada?",
+"alts": [
+"Dexametasona 10 mg de 6 em 6 horas para o edema",
+"Hiperventilação leve, com PaCO₂ entre 32 e 35 mmHg",
+"Hiperventilação com PaCO₂ de 25 mmHg por 48 horas",
+"Hipotermia induzida a 33 °C, mantida por 72 horas",
+"Craniectomia descompressiva bifrontal imediata"
+],
+"gab": 1,
+"tema": "neuro",
+"cenario": "uti",
+"comp": "tto",
+"nivel": "r3",
+"base": "Consenso SIBICC 2019 e Brain Trauma Foundation, 4ª edição (2016) com atualização da craniectomia de 2020",
+"coment": "A pressão intracraniana acima de 22 mmHg se trata (Brain Trauma Foundation, nível IIB), e o consenso SIBICC organiza o tratamento em camadas. Este paciente já esgotou a camada 1: sedação, PaCO₂ de 35 a 38 mmHg, osmoterapia em bólus e drenagem de liquor, com sódio e osmolalidade perto dos limites de 155 mEq/L e 320 mOsm/kg. Depois de reexaminar e repetir a tomografia sem lesão cirúrgica, sobe-se para a camada 2: hiperventilação leve com PaCO₂ de 32 a 35 mmHg, bloqueio neuromuscular se testado e eficaz, e desafio de pressão arterial média. Hipotermia, barbitúrico e craniectomia ficam na camada 3. A craniectomia precoce piorou o desfecho funcional no DECRA. Corticoide aumentou a mortalidade no CRASH, e hiperventilação profunda prolongada reduz o fluxo cerebral e é desaconselhada.",
+"porAlt": [
+"Corticoide no traumatismo craniano aumentou a mortalidade no CRASH e é contraindicado, nível I de evidência.",
+"Correta: esgotada a camada 1 e sem lesão cirúrgica nova, a camada 2 admite hiperventilação leve, com PaCO₂ de 32 a 35 mmHg.",
+"PaCO₂ de 25 mmHg prolongada causa vasoconstrição e isquemia; abaixo de 30 mmHg só como ponte de minutos na herniação.",
+"Hipotermia abaixo de 35 °C é desaconselhada pelo SIBICC, e a de 35 a 36 °C pertence à camada 3, ainda não alcançada.",
+"Craniectomia bifrontal precoce piorou o desfecho funcional no DECRA; ela é medida de camada 3, na hipertensão refratária tardia."
+]
+},
+{
+"q": "Homem de 67 anos, diabético e hipertenso, chega 14 horas após início de vertigem contínua, vômitos e zumbido à direita. Está tonto e com nistagmo no exame: nistagmo horizontal de direção fixa, batendo para a esquerda, que não muda com o olhar; impulso cefálico com sacada de correção ao girar a cabeça para a direita; sem desvio vertical no teste de cobertura alternada. À fricção dos dedos não ouve à direita, perda que não tinha antes. Anda com apoio. Sem déficit motor, dismetria ou disartria. Tomografia de crânio normal. Qual é a interpretação mais adequada?",
+"alts": [
+"Neurite vestibular direita: corticoide oral e alta",
+"Labirintite viral direita: vestibulossupressor e alta",
+"Doença de Ménière: betaistina e audiometria ambulatorial",
+"Padrão central pela surdez nova; ressonância com difusão",
+"Vertigem posicional paroxística: manobra de Epley já"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "emg",
+"comp": "dx",
+"nivel": "tit",
+"base": "GRACE-3 (Society for Academic Emergency Medicine, 2023) e HINTS plus (Newman-Toker, 2013; metanálise de Tarnutzer, 2023)",
+"coment": "Na síndrome vestibular aguda com nistagmo, o HINTS isolado parece periférico: impulso cefálico anormal, nistagmo de direção fixa e ausência de desvio vertical. O quinto componente muda tudo. A GRACE-3 manda somar ao HINTS o teste de audição à beira do leito, porque a perda auditiva nova é a pista do infarto da artéria cerebelar anteroinferior. Seu ramo, a artéria auditiva interna, irriga o labirinto; o infarto lesa labirinto e tronco ao mesmo tempo, o impulso cefálico sai anormal e o exame imita a neurite. Na metanálise de 2023 a sensibilidade do HINTS cai para 84% nesse território, perda resgatada pela audição. Vertigem aguda com surdez nova em paciente vascular é infarto até prova em contrário. A tomografia não exclui isquemia de fossa posterior; a ressonância com difusão confirma, e negativa nas primeiras 48 horas não autoriza alta.",
+"porAlt": [
+"A neurite vestibular não tem sintoma auditivo; surdez nova junto da vertigem afasta esse diagnóstico e aponta para isquemia.",
+"Rotular de labirintite e dar alta é o erro que perde o infarto da cerebelar anteroinferior, cujo exame imita o periférico.",
+"Ménière dá crises de 20 minutos a 12 horas, não vertigem contínua por 14 horas, e o primeiro episódio exige afastar AVC.",
+"Correta: perda auditiva nova torna o HINTS plus central e sugere infarto da cerebelar anteroinferior; ressonância com difusão.",
+"A vertigem posicional dura segundos e é desencadeada por movimento; aqui a vertigem é contínua e espontânea, com nistagmo."
+]
+},
+{
+"q": "Homem de 24 anos, estudante, procura o ambulatório por formigamento nos pés e nas mãos há 2 meses e instabilidade ao andar no escuro, com duas quedas. Conta uso recreativo de óxido nitroso em balões várias vezes por semana há 6 meses. Exame: perda de vibração e de propriocepção nos pés, Romberg positivo, aquileus abolidos, patelares vivos e Babinski bilateral, sem nível sensitivo. Hemoglobina de 13,8 g/dL, volume corpuscular médio de 92 fL, vitamina B12 sérica de 310 pg/mL, homocisteína de 48 µmol/L e ácido metilmalônico elevados. Ressonância com hiperintensidade em T2 nos cordões posteriores de C3 a C7. Qual é a conduta mais adequada?",
+"alts": [
+"Ácido fólico oral isolado, pela homocisteína elevada",
+"Imunoglobulina intravenosa, pela hipótese de polirradiculoneuropatia",
+"Pulso de metilprednisolona, pela hipótese de mielite",
+"Suspender o óxido nitroso e repor B12 por via intramuscular",
+"Observar, já que a B12 sérica normal afasta deficiência"
+],
+"gab": 3,
+"tema": "neuro",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "AAN 2009 de investigação da polineuropatia simétrica distal (B12 com metabólitos) e ADA 2026, seção 12, causas não diabéticas de neuropatia",
+"coment": "Ataxia sensitiva com Romberg, perda de vibração, aquileus abolidos com Babinski e hiperintensidade dos cordões posteriores é a degeneração combinada subaguda da medula, com neuropatia associada. O óxido nitroso oxida o cobalto da cobalamina e a inativa: a B12 sérica pode vir normal enquanto a vitamina funcional falta, o que os metabólitos revelam. A revisão da AAN de 2009 incluiu a B12 com ácido metilmalônico, com ou sem homocisteína, entre os exames de maior rendimento na polineuropatia justamente por isso. Anemia e macrocitose podem estar ausentes. A conduta é cessar a exposição e repor B12 por via intramuscular. O erro grave é dar folato isolado, que corrige o hemograma e deixa a lesão neurológica avançar. Não há dissociação proteinocitológica nem quadro inflamatório que justifique imunoterapia.",
+"porAlt": [
+"Folato isolado na deficiência funcional de B12 corrige o hemograma e deixa a degeneração medular progredir.",
+"Babinski e patelares vivos indicam lesão medular associada, e o quadro subagudo com metabólitos alterados não é polirradiculoneuropatia.",
+"A lesão restrita aos cordões posteriores com metabólitos elevados é deficiência de B12, não mielite inflamatória para corticoide.",
+"Correta: o óxido nitroso inativa a B12; suspender a exposição e repor B12 por via intramuscular trata a degeneração combinada.",
+"A B12 sérica não reflete a inativação pelo óxido nitroso; ácido metilmalônico e homocisteína altos confirmam a deficiência funcional."
+]
+},
+{
+"q": "Mulher de 79 anos, hipertensa e com osteoartrite de joelhos, comparece à consulta de rotina na unidade básica. Perguntada ativamente, conta que há 2 meses tropeçou no quintal à noite, caiu e ficou cerca de 90 minutos no chão até a vizinha chegar, sem fratura nem perda de consciência. Desde então sai menos de casa por medo de cair. Usa losartana 50 mg, hidroclorotiazida 25 mg, clonazepam 0,5 mg à noite há 6 anos e paracetamol. Pressão arterial de 138/80 mmHg deitada e 132/78 mmHg em pé aos 3 minutos. Velocidade de marcha de 0,9 m/s e Timed Up and Go de 13 segundos. Acuidade visual de 20/40 bilateral, com catarata. 25-hidroxivitamina D de 31 ng/mL. Pela diretriz mundial de quedas, qual é a conduta mais adequada?",
+"alts": [
+"Risco baixo pela marcha normal; orientação e reavaliação em 1 ano",
+"Risco intermediário; exercício de força e equilíbrio isolado",
+"Alto risco; colecalciferol 2.000 UI/dia como medida central",
+"Risco intermediário; restringir saídas e indicar andador fixo",
+"Alto risco; avaliação multifatorial com intervenção multidomínio"
+],
+"gab": 4,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "tit",
+"base": "World Guidelines for Falls Prevention and Management for Older Adults, 2022: estratificação de risco e avaliação multifatorial",
+"coment": "Pela diretriz mundial de quedas de 2022, ficar uma hora ou mais no chão sem conseguir levantar coloca o idoso no grupo de alto risco, mesmo com velocidade de marcha e Timed Up and Go normais; os demais critérios são lesão que exigiu tratamento, duas ou mais quedas no ano, fragilidade e suspeita de perda de consciência. O alto risco recebe avaliação multifatorial multiprofissional (medicamentos com ferramenta estruturada, pressão deitado e em pé, cognição, medo de cair, visão, pés, ambiente) e intervenção multidomínio guiada por ela (forte, 1B). Aqui já aparecem alvos: o clonazepam, que pede desmame gradual, a catarata, cuja cirurgia do primeiro olho reduz quedas, o medo de cair e o ambiente doméstico. O exercício com desafio de equilíbrio entra como componente. Vitamina D não reduz quedas em quem vive na comunidade sem deficiência, e o nível aqui é adequado. Ensinar a levantar do chão e garantir meio de pedir ajuda completam o plano.",
+"porAlt": [
+"A marcha normal não rebaixa o risco: ficar mais de uma hora no chão já define alto risco pela diretriz de 2022.",
+"Exercício isolado é a conduta do risco intermediário; o alto risco precisa da avaliação multifatorial que orienta várias intervenções.",
+"Com 31 ng/mL e vida na comunidade, a vitamina D não reduz quedas e não substitui a intervenção multidomínio.",
+"Restringir a marcha para evitar quedas é iatrogenia, acelera sarcopenia e medo de cair, e o risco aqui é alto.",
+"Correta: tempo prolongado no chão define alto risco, que pede avaliação multifatorial e intervenção em cada fator encontrado."
+]
+},
+{
+"q": "Homem de 83 anos está internado há 4 dias na enfermaria de clínica médica por pneumonia, em melhora com ceftriaxona. Tem hiperplasia prostática em uso de doxazosina 4 mg à noite, levanta 3 vezes por noite para urinar e usa óculos, que ficaram em casa. Recebe zolpidem 10 mg à noite desde a admissão, a pedido do filho. Pressão arterial de 128/74 mmHg deitado e 104/66 mmHg em pé aos 3 minutos, com tontura. O escore de Morse foi de 35, classificado como risco moderado pelo protocolo local, e a enfermagem propõe alarme de leito, meia antiderrapante e grades elevadas. Qual é o plano de prevenção de quedas mais adequado?",
+"alts": [
+"Aplicar o protocolo de risco moderado, com alarme e grades elevadas",
+"Suspender o zolpidem, tratar a ortostase e programar idas ao banheiro",
+"Contenção leve no leito à noite enquanto estiver em uso do zolpidem",
+"Repetir o escore de Morse a cada turno e intensificar se ele subir",
+"Alarme de leito e meia antiderrapante, mantendo o hipnótico prescrito"
+],
+"gab": 1,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "tit",
+"base": "World Guidelines for Falls Prevention, 2022 (hospital) e NICE NG249 de quedas, 2025: sem escore de risco, intervenção por fator",
+"coment": "As duas diretrizes vigentes contrariam a prática de muitos serviços: no hospital não se usa escore de predição, como o de Morse, para decidir quem recebe prevenção (diretriz mundial de 2022, 2B; NICE NG249, 2025). Todo idoso internado é de risco e recebe avaliação multifatorial, educação (1A) e estratégias personalizadas dirigidas aos fatores encontrados (1C no agudo). Este paciente tem quatro fatores modificáveis: zolpidem, que está entre os fármacos a evitar pelos critérios de Beers 2023; hipotensão ortostática sintomática, com queda de 24 mmHg, para a qual a doxazosina contribui e deve ser revista; noctúria, que pede idas programadas e ajuda para levantar à noite; e óculos ausentes. Alarme de leito ou cadeira, meia antiderrapante e contenção não têm evidência para prevenir queda no hospital, e a grade elevada conta como contenção, porque o idoso confuso pula por cima dela.",
+"porAlt": [
+"O escore não deve decidir a intensidade da prevenção, e alarme e grades não têm evidência de reduzir quedas no hospital.",
+"Correta: cada fator encontrado recebe uma ação: tirar o hipnótico, tratar a ortostase revendo a doxazosina e cuidar da noctúria.",
+"Contenção não previne queda, aumenta agitação e lesão, e o problema do zolpidem se resolve suspendendo o fármaco.",
+"Repetir o escore mantém a lógica que as diretrizes abandonaram; o que reduz queda é agir sobre os fatores do paciente.",
+"Manter o hipnótico preserva um fator de risco evitável, e alarme e meia antiderrapante não mostraram benefício."
+]
+},
+{
+"q": "Homem de 74 anos, com doença de Parkinson há 5 anos em uso de levodopa com carbidopa, refere turvação visual e dor na nuca e nos ombros ao ficar de pé há 3 meses, com uma queda sem pródromo. Após 5 minutos deitado, a pressão arterial é de 152/88 mmHg e a frequência cardíaca de 68 bpm; aos 3 minutos em pé, 108/70 mmHg e 72 bpm. Sódio de 139 mEq/L, hemoglobina de 13,8 g/dL, sem diarreia, vômitos ou uso de diurético. Qual é a interpretação mais adequada?",
+"alts": [
+"Hipotensão ortostática neurogênica, pela resposta cronotrópica mínima",
+"Hipotensão ortostática por hipovolemia, pela queda diastólica de 18",
+"Resposta normal ao ortostatismo, já que a frequência cardíaca subiu",
+"Síndrome postural taquicardizante, pela queda pressórica sintomática",
+"Hipotensão pós-prandial, que dispensa avaliação autonômica adicional"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "World Guidelines for Falls Prevention, 2022 e ESC 2018 de síncope: definição e diferenciação da hipotensão ortostática",
+"coment": "Hipotensão ortostática é a queda sustentada de 20 mmHg ou mais na sistólica ou de 10 mmHg ou mais na diastólica nos 3 primeiros minutos em pé; com hipertensão supina, como aqui, usa-se queda sistólica de 30 mmHg, e a queda de 44 mmHg preenche os dois critérios. O dado que separa as causas é a frequência cardíaca. Na forma não neurogênica (desidratação, sangramento, fármacos, repouso prolongado), ela sobe de forma vigorosa. Na neurogênica, quase não sobe: aumento menor que 0,5 batimento por mmHg de queda sistólica sugere falência autonômica. Aqui a razão é de 4 para 44, cerca de 0,1, num paciente com sinucleinopatia, em que a disautonomia é parte da doença. A dor em cabide e a queda sem pródromo são típicas. A levodopa pode agravar o quadro e deve ser revista em horário e dose, junto com medidas não farmacológicas antes de pensar em midodrina ou fludrocortisona.",
+"porAlt": [
+"Correta: a queda pressórica com aumento de apenas 4 bpm, razão bem abaixo de 0,5 bpm/mmHg, indica falência autonômica.",
+"Na hipovolemia a frequência cardíaca sobe de forma marcada, e os dados não sugerem perda de volume.",
+"A queda de 44 mmHg na sistólica é hipotensão ortostática, e o discreto aumento da frequência é justamente o achado anormal.",
+"A síndrome postural taquicardizante tem aumento de 30 bpm ou mais sem hipotensão, o oposto deste caso.",
+"A medida foi feita em ortostatismo, não após refeição, e a resposta cronotrópica exige pensar em disautonomia."
+]
+},
+{
+"q": "Mulher de 76 anos, hipertensa e com osteoporose, usa omeprazol 40 mg ao dia há 4 anos, iniciado por pirose que melhorou em poucas semanas; nunca tentou reduzir. Nega disfagia, perda de peso, vômitos ou sangramento. Endoscopia feita na época mostrou esofagite erosiva grau A de Los Angeles, sem esôfago de Barrett. Não usa anti-inflamatório, antiagregante ou corticoide. Hemoglobina de 12,9 g/dL e magnésio de 1,7 mg/dL. Está assintomática há mais de 3 anos e quer tomar menos remédios. Qual é a conduta mais adequada em relação ao omeprazol?",
+"alts": [
+"Manter 40 mg ao dia, pela esofagite erosiva documentada",
+"Reduzir para 20 mg ao dia ou passar a uso sob demanda",
+"Nova endoscopia obrigatória antes de qualquer redução",
+"Trocar por pantoprazol 40 mg, com menor risco de fratura",
+"Suspender e iniciar sucralfato contínuo como substituto"
+],
+"gab": 1,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Critérios de Beers da AGS 2023 e diretriz de desprescrição de inibidor de bomba de prótons do deprescribing.org, 2017",
+"coment": "Os critérios de Beers 2023 mandam evitar o inibidor de bomba de prótons programado por mais de 8 semanas, salvo alto risco (corticoide oral ou anti-inflamatório crônico), esofagite erosiva grave, Barrett, estado hipersecretor ou necessidade demonstrada por falha de retirada (forte), pela associação com infecção por Clostridioides difficile, perda óssea e fratura, relevante nesta paciente com osteoporose. A diretriz canadense de desprescrição recomenda, no adulto que completou ao menos 4 semanas por sintoma digestivo alto e está sem sintomas, reduzir a dose diária ou suspender e passar a uso sob demanda (forte, baixa). Ela não se aplica a Barrett, esofagite grau C ou D ou úlcera sangrante; esofagite grau A não impede. Não há esquema testado: de dose alta para baixa, de diário para dias alternados. Reavaliar em 4 e 12 semanas; se o sintoma voltar, uso sob demanda, antagonista H2 ou antiácido.",
+"porAlt": [
+"Esofagite grau A curada não justifica dose plena indefinida; só Barrett e esofagite C ou D excluem a desprescrição.",
+"Correta: sintoma resolvido após mais de 4 semanas pede reduzir a dose ou passar a uso sob demanda, com reavaliação.",
+"Sem sinais de alarme, a desprescrição não depende de nova endoscopia; a diretriz parte da resposta clínica.",
+"Trocar por outro inibidor da mesma classe não reduz o risco e mantém o uso prolongado sem indicação.",
+"Substituir por outro fármaco contínuo troca uma prescrição desnecessária por outra, sem indicação estabelecida."
+]
+},
+{
+"q": "Mulher de 84 anos, com doença de Alzheimer moderada, mora com a filha. Há 6 meses, por agitação e agressividade noturnas, iniciou risperidona, hoje em 1 mg à noite. Os sintomas estão controlados há 5 meses, sem novos episódios. Nesse período teve duas quedas, surgiu rigidez leve e a marcha ficou mais lenta. Sem dor, constipação ou retenção urinária, urina tipo 1 normal. Não há psicose anterior à demência nem sintoma grave atual. A filha concorda em tentar retirar o remédio. Qual é a conduta mais adequada em relação à risperidona?",
+"alts": [
+"Manter a dose, porque a estabilidade já indica eficácia clínica",
+"Suspender de imediato, sem desmame, pela ocorrência das quedas",
+"Trocar por haloperidol 0,5 mg, que teria menor ação extrapiramidal",
+"Associar biperideno para a rigidez e não mexer na risperidona",
+"Reduzir 25% a 50% da dose a cada 1 a 2 semanas até suspender"
+],
+"gab": 4,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "Diretriz de desprescrição de antipsicóticos do deprescribing.org, 2018; Critérios de Beers 2023 e STOPP/START versão 3, 2023",
+"coment": "Antipsicótico na demência aumenta AVC, declínio cognitivo, quedas e mortalidade, e os critérios de Beers 2023 e o STOPP versão 3 (D5: dose inalterada por mais de 3 meses sem revisão) pedem revisão periódica. A diretriz canadense recomenda, nos sintomas comportamentais da demência controlados há 3 meses ou sem resposta, reduzir e suspender devagar com paciente e cuidador, por exemplo 25% a 50% da dose a cada 1 a 2 semanas (forte, moderada); nos ensaios de retirada, os sintomas não pioraram frente a quem continuou. A suspensão sem desmame fica para o antipsicótico usado só para insônia. Aqui há ainda parkinsonismo e quedas, efeitos do próprio fármaco. Tratar a rigidez com biperideno seria cascata de prescrição e acrescentaria carga anticolinérgica. Se a agitação voltar, procurar dor, infecção, constipação e retenção antes de reintroduzir, com plano não farmacológico pronto.",
+"porAlt": [
+"Estabilidade de 5 meses é justamente o momento de tentar a retirada, e o fármaco já causa quedas e rigidez.",
+"Nos sintomas comportamentais da demência a retirada é gradual; suspender sem desmame é o caminho do uso para insônia.",
+"Haloperidol tem mais efeito extrapiramidal, não menos, e trocar mantém o antipsicótico sem indicação atual.",
+"Biperideno para o parkinsonismo do antipsicótico é cascata de prescrição e soma carga anticolinérgica na demência.",
+"Correta: sintomas controlados há mais de 3 meses permitem reduzir 25% a 50% a cada 1 a 2 semanas até parar."
+]
+},
+{
+"q": "Mulher de 72 anos usa denosumabe 60 mg subcutâneo a cada 6 meses há 5 anos por osteoporose pós-menopausa, sem fraturas no período. A densitometria atual mostra T-escore de -2,0 no colo femoral (era -2,8). Clearance de creatinina de 62 mL/min, cálcio e 25-hidroxivitamina D normais. Ela pergunta se pode tirar férias do remédio, como fez uma amiga que usava alendronato. Qual é a orientação mais adequada?",
+"alts": [
+"Suspender o denosumabe e repetir a densitometria em 2 anos",
+"Suspender só com bisfosfonato na sequência, pelo risco de rebote",
+"Suspender e manter apenas cálcio e vitamina D a partir de agora",
+"Espaçar as doses para cada 12 meses como forma de desmame",
+"Suspender e iniciar teriparatida, que mantém a massa óssea ganha"
+],
+"gab": 1,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "STOPP/START versão 3, 2023 (START H6: antirreabsortivo após suspender denosumabe); ASBMR 2016 sobre férias de bisfosfonato",
+"coment": "As férias terapêuticas valem para o bisfosfonato, que se incorpora ao osso e mantém efeito residual: a força-tarefa da ASBMR de 2016 sugere reavaliar após 5 anos de uso oral e, sem alto risco, pausar por 2 a 3 anos. O denosumabe é diferente: não tem efeito residual, e sua suspensão provoca rebote de reabsorção, com perda rápida da massa ganha e fraturas vertebrais, às vezes múltiplas. Por isso o START versão 3 (H6) aponta como omissão não prescrever antirreabsortivo depois de suspender o denosumabe. A paciente pode parar, desde que um bisfosfonato, em geral zoledronato ou alendronato, comece quando seria a próxima aplicação, com seguimento densitométrico. Espaçar as doses não é desmame e expõe ao mesmo rebote, e a teriparatida logo após o denosumabe se associa a perda transitória de massa óssea.",
+"porAlt": [
+"Suspender sem cobertura expõe a paciente ao rebote de reabsorção e a fraturas vertebrais nos meses seguintes.",
+"Correta: o denosumabe não admite férias; parar exige bisfosfonato na sequência, como pede o START H6.",
+"Cálcio e vitamina D não contêm o rebote de reabsorção que segue a suspensão do denosumabe.",
+"O denosumabe não tem efeito residual, e atrasar as aplicações produz o mesmo rebote da suspensão.",
+"A teriparatida logo após o denosumabe se associa a perda transitória de massa óssea, sobretudo no quadril."
+]
+},
+{
+"q": "Homem de 80 anos, 74 kg, com diabetes tipo 2 em metformina (glicada de 7,2%) e fibrilação atrial em apixabana 5 mg de 12 em 12 horas, recebe alta após 8 dias de internação por pielonefrite, afebril e com urocultura sensível a ciprofloxacino. Na prescrição hospitalar constam insulina regular em escala conforme glicemia capilar, sem basal; omeprazol 40 mg para profilaxia de úlcera de estresse; zolpidem 10 mg à noite; haloperidol 1 mg à noite, iniciado por delirium no segundo dia e resolvido no quarto; e ciprofloxacino com término previsto em 3 dias. Apixabana e metformina foram suspensas na admissão, sem registro do motivo. Creatinina de 1,1 mg/dL e clearance de 56 mL/min. Qual é a prescrição de alta mais adequada?",
+"alts": [
+"Manter a escala de insulina e o omeprazol; reintroduzir só a apixabana",
+"Reintroduzir apixabana e metformina, completar o antibiótico e suspender o resto",
+"Manter o haloperidol por 3 meses para evitar a recorrência do delirium",
+"Manter o zolpidem até o retorno ambulatorial e suspender a apixabana",
+"Levar toda a prescrição hospitalar e revisar na consulta de retorno"
+],
+"gab": 1,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "tit",
+"base": "Critérios de Beers da AGS 2023 e STOPP/START versão 3, 2023, aplicados à reconciliação medicamentosa na alta",
+"coment": "A alta é o ponto em que a medicação temporária vira crônica sem que ninguém tenha decidido. A reconciliação compara a lista hospitalar com a de uso habitual e justifica cada diferença. Não seguem para casa: insulina em escala móvel sem basal (Beers 2023, evitar, forte), o inibidor de bomba de prótons de profilaxia sem indicação ambulatorial, o hipnótico iniciado no hospital (Beers, evitar zolpidem pelo risco de queda, fratura e delirium) e o antipsicótico de um delirium já resolvido, que não previne recorrência. Precisam voltar a apixabana, cuja omissão na fibrilação atrial é falha apontada pelo START versão 3 (C1), em dose plena porque ele tem só um critério de redução (idade de 80 anos), e a metformina, compatível com a função renal e a glicada. O antibiótico tem data de término escrita. A lista final, com o que parou, mudou ou começou e o motivo, vai para o paciente e para a atenção primária.",
+"porAlt": [
+"Escala móvel sem basal é critério de Beers, e o inibidor de bomba de prótons de profilaxia não tem indicação em casa.",
+"Correta: retomar o que foi suspenso sem motivo, terminar o antibiótico e não levar os fármacos que eram só do hospital.",
+"Antipsicótico não previne delirium e não deve seguir após a resolução do quadro, pelos riscos de queda, AVC e morte.",
+"Zolpidem é fármaco a evitar no idoso, e suspender o anticoagulante na fibrilação atrial é omissão grave.",
+"Transferir a revisão para o retorno perpetua a prescrição hospitalar e é a causa mais comum dessa cascata."
+]
+},
+{
+"q": "Mulher de 86 anos é internada pela ortopedia com fratura transtrocantérica de fêmur após queda em casa, com cirurgia marcada para o dia seguinte. Tem comprometimento cognitivo leve, usa aparelho auditivo e óculos, e mora com o marido. No momento está orientada, com 4AT de 0, dor de 8 em 10 em repouso apesar de dipirona, sódio de 136 mEq/L e eletrocardiograma com QTc de 450 ms. O ortopedista pede uma conduta para prevenir confusão no pós-operatório e sugere haloperidol 0,5 mg à noite. Qual é a conduta mais adequada?",
+"alts": [
+"Haloperidol 0,5 mg à noite, como sugerido, por 5 dias após a cirurgia",
+"Donepezila no perioperatório pelo comprometimento cognitivo prévio",
+"Pacote multicomponente, bloqueio regional e óculos e aparelho em uso",
+"Lorazepam 0,5 mg à noite para garantir o sono no pós-operatório",
+"Quetiapina 12,5 mg à noite, por ter menos efeito extrapiramidal"
+],
+"gab": 2,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "prev",
+"nivel": "tit",
+"base": "NICE CG103 de delirium, atualizada em 2023; AGS 2015 de delirium pós-operatório no idoso",
+"coment": "A paciente tem três fatores de risco do NICE (65 anos ou mais, comprometimento cognitivo e fratura de quadril atual), o que pede avaliação dos fatores contribuintes nas primeiras 24 horas e pacote multicomponente individualizado: reorientação, óculos e aparelho auditivo em uso, hidratação, mobilização precoce, sono protegido, revisão de fármacos e tratamento da dor. A prevenção é o que funciona: no ensaio do HELP o delirium caiu de 15,0% para 9,9%. A dor não controlada é precipitante importante, e a AGS 2015 recomenda otimizar a analgesia, preferindo não opioides (forte), e sugere anestesia regional (fraca); o bloqueio regional no quadril poupa opioide. Antipsicótico profilático não tem evidência suficiente, típico ou atípico. A AGS recomenda fortemente não iniciar inibidor da colinesterase para prevenir delirium e evitar benzodiazepínico, que o provoca.",
+"porAlt": [
+"Antipsicótico profilático não tem evidência, acrescenta risco de QT e de sedação e não substitui as medidas que funcionam.",
+"A AGS 2015 recomenda fortemente não iniciar inibidor da colinesterase para prevenir ou tratar delirium perioperatório.",
+"Correta: a prevenção multicomponente e o controle da dor com bloqueio regional são as medidas com evidência neste cenário.",
+"Benzodiazepínico está entre os fármacos que induzem delirium e deve ser evitado no idoso operado.",
+"Trocar o antipsicótico não muda o problema: nenhum antipsicótico tem evidência suficiente na profilaxia."
+]
+},
+{
+"q": "Mulher de 88 anos, residente em instituição de longa permanência, com demência leve, é trazida por sonolência e desatenção há 2 dias, alternando com períodos de agitação. Há 10 dias iniciou tramadol 50 mg de 8 em 8 horas por dor lombar. Temperatura de 36,9 °C, pressão arterial de 132/78 mmHg, frequência cardíaca de 88 bpm, saturação de 96% em ar ambiente e pulmões limpos. Abdome distendido, com fezes endurecidas na ampola ao toque retal; última evacuação há 6 dias. O ultrassom de bexiga à beira do leito mostra 520 mL. Urina tipo 1 com 15 leucócitos por campo e urocultura com mais de 100 mil UFC/mL de Escherichia coli; a cuidadora nega disúria ou febre. Sódio de 134 mEq/L e glicemia de 112 mg/dL. Qual é a conduta mais adequada?",
+"alts": [
+"Tratar a cistite com nitrofurantoína e reavaliar a cognição em 48 horas",
+"Ceftriaxona venosa por pielonefrite atípica, mantendo o tramadol",
+"Haloperidol 0,5 mg e tomografia de crânio antes de outras medidas",
+"Trocar o tramadol por morfina e tratar a bacteriúria por 7 dias",
+"Desimpactar, esvaziar a bexiga e rever o tramadol, sem antibiótico"
+],
+"gab": 4,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "dx",
+"nivel": "tit",
+"base": "IDSA 2019 de bacteriúria assintomática (idoso com delirium sem sinais sistêmicos) e NICE CG103 de delirium, atualizada em 2023",
+"coment": "O quadro é de delirium, com início agudo, flutuação e desatenção, e os precipitantes estão à vista: fecaloma e retenção urinária de 520 mL, ambos favorecidos pelo opioide iniciado há 10 dias, que no idoso também pode causar hiponatremia e efeito serotoninérgico. A bacteriúria é achado comum em quem vive em instituição e, sem sintoma urinário, febre ou instabilidade, não explica a confusão. A IDSA 2019 recomenda, no idoso com comprometimento funcional ou cognitivo, bacteriúria e delirium sem sintomas geniturinários ou sinais sistêmicos, procurar outras causas e observar em vez de tratar (forte, baixa). Leucocitúria não muda isso. Tratar a urocultura e parar a investigação é o erro clássico. A conduta é desimpactar, aliviar a retenção por cateterismo, rever o tramadol com analgesia regular por paracetamol e laxante, e aplicar as medidas não farmacológicas do NICE, reavaliando a cognição a cada dia.",
+"porAlt": [
+"Bacteriúria com leucocitúria sem sintoma urinário não é cistite, e tratar deixa passar o fecaloma e a retenção.",
+"Não há febre, dor lombar nem instabilidade que sustentem pielonefrite, e manter o tramadol preserva a causa.",
+"Antipsicótico não trata causa, e não há déficit focal ou trauma que justifique imagem antes de corrigir o óbvio.",
+"Outro opioide mantém constipação e retenção, e a bacteriúria sem sintomas não precisa de antibiótico.",
+"Correta: fecaloma e retenção causados pelo opioide explicam o delirium; a bacteriúria assintomática não se trata."
+]
+},
+{
+"q": "Mulher de 71 anos, com 3 partos vaginais, refere perda de pequenos volumes de urina ao tossir, rir e carregar sacolas há 2 anos, sem urgência, noctúria ou sensação de esvaziamento incompleto. Mora sozinha, é independente e cognitivamente íntegra. IMC de 29 kg/m². Ao exame, há perda urinária sincrônica à tosse com bexiga cheia, sem prolapso além do hímen, e contração voluntária fraca do assoalho pélvico. Urina tipo 1 normal, glicemia de jejum de 98 mg/dL e resíduo pós-miccional de 30 mL. O diário miccional de 3 dias mostra 6 micções diurnas e nenhuma noturna. Qual é o tratamento inicial mais adequado?",
+"alts": [
+"Oxibutinina 5 mg ao dia, com reavaliação em 4 a 8 semanas",
+"Treino supervisionado do assoalho pélvico por ao menos 3 meses",
+"Mirabegrona 25 mg ao dia, por não ter carga anticolinérgica",
+"Sling de uretra média, pela baixa resposta do tratamento clínico",
+"Urodinâmica antes de qualquer tratamento, para definir o tipo"
+],
+"gab": 1,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "tto",
+"nivel": "tit",
+"base": "NICE NG123 de incontinência urinária e prolapso em mulheres, 2019; AUA/SUFU 2024 para avaliação inicial sem urodinâmica de rotina",
+"coment": "Perda aos esforços, sem urgência e com resíduo baixo, confirmada pela perda sincrônica à tosse, define incontinência de esforço, por hipermobilidade uretral ou deficiência esfincteriana. Antes de classificar, afastaram-se as causas transitórias: infecção, poliúria, fármacos, impactação e restrição de mobilidade. O NICE NG123 recomenda como primeira linha um programa supervisionado de treino da musculatura do assoalho pélvico por pelo menos 3 meses, com ao menos oito contrações três vezes ao dia, mantido se houver benefício; a perda de peso é medida adjuvante útil com IMC acima de 25 kg/m². A avaliação inicial é clínica, e a urodinâmica não é rotina antes do tratamento conservador. Antimuscarínico e agonista beta-3 tratam hiperatividade do detrusor, não o esforço, e a oxibutinina ainda tem alta carga anticolinérgica (Beers 2023). A cirurgia fica para falha do tratamento conservador.",
+"porAlt": [
+"Antimuscarínico trata urgência, não esforço, e a oxibutinina tem alta carga anticolinérgica no idoso.",
+"Correta: na incontinência de esforço, o treino supervisionado do assoalho pélvico por 3 meses ou mais é a primeira linha.",
+"Agonista beta-3 age na hiperatividade do detrusor e não corrige o mecanismo da perda aos esforços.",
+"A cirurgia é reservada à falha do tratamento conservador, que tem boa taxa de melhora quando supervisionado.",
+"A avaliação inicial é clínica, e o tipo já está definido pela história, pelo exame e pelo resíduo baixo."
+]
+},
+{
+"q": "Homem de 78 anos, IMC de 31 kg/m², hipertenso e com diabetes tipo 2, refere dificuldade para subir escadas e levantar da cadeira há 1 ano. SARC-F de 5 pontos. Força de preensão palmar de 23 kg (melhor de 3 medidas, mão dominante). Levantar 5 vezes da cadeira em 17 segundos. Densitometria de corpo inteiro com massa muscular esquelética apendicular de 18,5 kg e índice de 6,4 kg/m². Velocidade de marcha de 1,0 m/s e SPPB de 10 pontos. Sem doença neurológica, depressão ou doença arterial periférica. Clearance de creatinina de 70 mL/min. Pelo consenso europeu revisado, qual é a classificação e a conduta?",
+"alts": [
+"Sem sarcopenia pelo IMC elevado; dieta hipocalórica isolada",
+"Sarcopenia provável apenas; repetir a DXA em 1 ano sem tratar",
+"Sarcopenia grave; testosterona associada a treino resistido",
+"Fragilidade pelo SARC-F; vitamina D em dose alta como base",
+"Sarcopenia confirmada, não grave; treino resistido e proteína"
+],
+"gab": 4,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "dx",
+"nivel": "r3",
+"base": "EWGSOP2, 2019 (definição e diagnóstico de sarcopenia) e ICFSR 2018 de sarcopenia (tratamento)",
+"coment": "O EWGSOP2 pôs a força no centro. Preensão abaixo de 27 kg no homem e levantar 5 vezes da cadeira em mais de 15 segundos indicam força baixa, o que torna a sarcopenia provável e já autoriza intervir. A massa baixa confirma: massa apendicular abaixo de 20 kg ou índice abaixo de 7,0 kg/m² no homem, ambos presentes aqui. O desempenho baixo define a forma grave (marcha de 0,8 m/s ou menos, SPPB de 8 ou menos, Timed Up and Go de 20 segundos ou mais), ausente neste paciente. Trata-se de obesidade sarcopênica, em que o IMC alto esconde a perda muscular. A ICFSR 2018 faz recomendação forte para treino resistido e condicional para suplementação ou dieta rica em proteína, com 1,0 a 1,2 g/kg/dia, ou 1,2 a 1,5 na doença crônica, sem doença renal avançada. Não recomenda vitamina D fora da deficiência nem hormônio anabólico, e não há fármaco aprovado.",
+"porAlt": [
+"IMC alto não afasta sarcopenia, e restrição calórica sem treino e sem proteína acelera a perda muscular.",
+"A massa apendicular baixa já confirma o diagnóstico, e a sarcopenia provável também deveria ser tratada.",
+"Marcha de 1,0 m/s e SPPB de 10 afastam a forma grave, e hormônio anabólico não é recomendado pela ICFSR.",
+"SARC-F é rastreio de sarcopenia, não critério de fragilidade, e vitamina D só se usa havendo deficiência.",
+"Correta: força e massa baixas com desempenho preservado definem sarcopenia confirmada não grave, tratada com treino e proteína."
+]
+},
+{
+"q": "Homem de 69 anos, com adenocarcinoma de pâncreas metastático em cuidados paliativos exclusivos, usa morfina de liberação prolongada 60 mg de 12 em 12 horas, sem resgates nos últimos 3 dias e com dor de 2 em 10. Há 10 dias mantém náusea intensa e contínua, sem resposta a metoclopramida e depois a haloperidol em dose baixa, sem vômitos fecaloides, distensão ou cólica. Evacua a cada 2 dias com laxante. Cálcio corrigido de 9,4 mg/dL, sódio de 138 mEq/L e taxa de filtração glomerular de 95 mL/min/1,73 m² pela CKD-EPI 2021. A equipe decide rodar o opioide para oxicodona oral. Qual é o esquema inicial mais adequado?",
+"alts": [
+"Oxicodona de liberação prolongada 20 mg de 12/12 h, resgate de 5 mg",
+"Oxicodona de liberação prolongada 40 mg de 12/12 h, resgate de 10 mg",
+"Oxicodona de liberação prolongada 60 mg de 12/12 h, resgate de 15 mg",
+"Oxicodona de liberação prolongada 10 mg de 12/12 h, resgate de 2,5 mg",
+"Oxicodona de liberação prolongada 80 mg de 12/12 h, resgate de 20 mg"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "ASCO 2023 de opioides na dor oncológica; CDC 2022 e Fine e Portenoy 2009 para equianalgesia e rotação de opioide",
+"coment": "A náusea por opioide costuma ceder em dias; quando persiste apesar de antiemético e sem outra causa (hipercalcemia, uremia, obstrução), rodar o opioide é conduta reconhecida. O passo a passo: somar a dose diária (120 mg de morfina oral, sem resgates), converter pela tabela e reduzir a dose calculada pela tolerância cruzada incompleta. Com o fator de 1,5, 120 mg de morfina equivalem a 80 mg de oxicodona; a redução de 25% a 50% leva a 40 a 60 mg por dia, e o painel de Fine e Portenoy sugere ficar perto de 50% quando a dose é alta ou o paciente é idoso. Pela razão da bula, de 1 para 2, chega-se a 30 a 45 mg. Os 40 mg diários atendem aos dois cálculos, em duas tomadas, com resgate de 10% a 15% da dose diária, cerca de 5 mg. A dose se reavalia em 24 horas, somando os resgates.",
+"porAlt": [
+"Correta: 120 mg de morfina viram 80 mg de oxicodona, reduzidos em cerca de 50%, com resgate de 10% a 15%.",
+"Oitenta miligramas diários é a conversão sem redução, o que expõe à sobredose pela tolerância cruzada incompleta.",
+"Cento e vinte miligramas diários trata a oxicodona como equipotente à morfina e ainda dispensa a redução obrigatória.",
+"Vinte miligramas diários é redução de 75%, própria da conversão para metadona, e deixaria o paciente com dor.",
+"Cento e sessenta miligramas diários multiplica em vez de dividir pelo fator, com risco de sedação e depressão respiratória."
+]
+},
+{
+"q": "Mulher de 81 anos, 50 kg, com câncer de pulmão metastático para fígado e ossos e escala de desempenho paliativo de 20%, está nos últimos dias de vida, internada. Há 36 horas tem delirium agitado com sofrimento evidente, sem resposta a haloperidol subcutâneo titulado até 10 mg por dia, depois de aliviada a retenção urinária e revistos os fármacos; a equipe especializada em cuidados paliativos confirmou a refratariedade. Usa morfina subcutânea contínua com dor controlada. Albumina de 2,1 g/dL. Em conversa registrada no prontuário, a filha, representante designada pela paciente, concorda com sedação paliativa contínua. Qual é o esquema de manutenção mais adequado?",
+"alts": [
+"Midazolam subcutâneo a 0,5 mg/h, com ajustes a cada 6 a 8 horas",
+"Midazolam subcutâneo a 1 mg/h, com ajustes a cada 1 a 2 horas",
+"Dobrar a morfina contínua até que a paciente adormeça",
+"Propofol em infusão contínua como fármaco de primeira escolha",
+"Levomepromazina isolada, suspendendo a morfina em curso"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "tit",
+"base": "Revised EAPC framework on palliative sedation, 2024 (Surges et al., Palliat Med 2024)",
+"coment": "A EAPC de 2024 define sedação paliativa como redução intencional e proporcional da consciência para aliviar sofrimento refratário e intolerável, com confirmação da refratariedade por especialista, decisão compartilhada e registro, como neste caso. O midazolam é o fármaco de escolha. A manutenção habitual começa em 1 mg/h, titulada a cada 1 a 2 horas, mas o documento pede metade da dose e intervalos de 6 a 8 horas para subir em quem tem mais de 60 anos, menos de 60 kg, falência renal ou hepática ou albumina muito baixa; esta paciente tem três desses fatores. Acima de 10 mg/h, associa-se levomepromazina, e o propofol fica como último recurso com anestesista. O opioide não é sedativo: mantém-se pela dor, mas subir a morfina para sedar produz neurotoxicidade antes de sedar. A intenção de aliviar, a dose titulada ao sintoma e o resultado esperado distinguem a sedação da eutanásia.",
+"porAlt": [
+"Correta: idade acima de 60 anos, peso abaixo de 60 kg e albumina baixa pedem metade da dose e titulação lenta.",
+"É o esquema para quem não tem fatores de acúmulo; nesta paciente favorece sedação excessiva e prolongada.",
+"Opioide não é sedativo, e aumentá-lo para sedar causa mioclonia e agitação antes de reduzir a consciência.",
+"Propofol é reserva para refratariedade ao midazolam associado à levomepromazina, com anestesista.",
+"A levomepromazina é associada ao midazolam em doses altas, e suspender a morfina traria dor e abstinência."
+]
+},
+{
+"q": "Homem de 77 anos, lúcido e capaz de decidir, internado para investigar perda de peso, tem o resultado da biópsia hepática: adenocarcinoma metastático, provavelmente de origem pancreática. Antes da conversa, os dois filhos procuram o médico e pedem que nada seja dito ao pai, porque ele não aguentaria. O paciente não tem transtorno psiquiátrico nem ideação suicida, e já perguntou duas vezes à enfermagem o que a biópsia mostrou. Qual é a conduta mais adequada?",
+"alts": [
+"Perguntar ao paciente o que ele já sabe e o quanto deseja saber",
+"Atender aos filhos, pois cabe à família decidir o que ele deve saber",
+"Informar o diagnóstico completo de imediato, na presença dos filhos",
+"Comunicar só aos filhos e registrar o pedido da família no prontuário",
+"Adiar a conversa até a alta para não prejudicar a investigação"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "enf",
+"comp": "tto",
+"nivel": "r3",
+"base": "Código de Ética Médica, Resolução CFM 2.217/2018, art. 34; protocolo SPIKES (Baile et al., 2000)",
+"coment": "O artigo 34 do Código de Ética Médica veda deixar de informar ao paciente diagnóstico, prognóstico, riscos e objetivos do tratamento, salvo quando a comunicação direta puder lhe causar dano, caso em que se informa o representante legal. O pedido da família, sozinho, não configura essa exceção, e aqui não há indício de dano: o paciente é capaz e está perguntando. O caminho é o protocolo SPIKES: preparar o ambiente, descobrir o que ele já sabe (P), descobrir o quanto e com quem quer saber (I), informar em blocos curtos com aviso prévio, acolher a emoção em silêncio e combinar o próximo passo. Há quem queira todos os detalhes e quem prefira que a família ouça primeiro, e as duas posições são legítimas se vierem dele. Os filhos merecem acolhimento: o pedido costuma nascer do medo, e explicar por que o pai tem direito à verdade desfaz a chamada conspiração do silêncio.",
+"porAlt": [
+"Correta: o SPIKES começa por saber o que o paciente sabe e o quanto deseja saber, e quem decide é ele.",
+"O paciente capaz é o titular da informação, e o pedido da família não autoriza omitir o diagnóstico.",
+"Despejar a informação sem saber o que ele sabe e com quem quer ouvir é o erro mais comum na má notícia.",
+"Informar só a família viola o art. 34, já que não há risco de dano que justifique a exceção.",
+"Adiar mantém a conspiração do silêncio, nega o direito do paciente e impede decisões sobre o próprio cuidado."
+]
+},
+{
+"q": "Mulher de 74 anos, com doença pulmonar obstrutiva crônica grave (VEF1 de 28% do previsto) em oxigênio domiciliar, lúcida e capaz, diz ao médico da unidade básica que não aceita intubação nem reanimação se piorar e que quer que a sobrinha, com quem mora, fale por ela. Os três filhos moram em outro estado. Ela pergunta o que precisa fazer para que essa vontade seja respeitada. Pela Resolução CFM 1.995/2012, qual é a orientação mais adequada?",
+"alts": [
+"Registrar no prontuário a diretiva e a representante designada",
+"Lavrar escritura pública em cartório, sem a qual o médico não segue",
+"Obter a concordância por escrito dos filhos, que decidem em 1º lugar",
+"Pedir autorização judicial prévia, por recusar suporte de vida",
+"Assinar termo com duas testemunhas, condição para que tenha validade"
+],
+"gab": 0,
+"tema": "geriatria",
+"cenario": "amb",
+"comp": "prev",
+"nivel": "r3",
+"base": "Resolução CFM 1.995/2012 (diretivas antecipadas de vontade); Resolução CFM 2.232/2019 (recusa terapêutica)",
+"coment": "As diretivas antecipadas de vontade são os desejos, prévia e expressamente manifestados, sobre cuidados que o paciente quer ou não receber quando estiver incapaz de se expressar. Pela Resolução CFM 1.995/2012, o médico as registra no prontuário, considera as informações do representante designado pelo paciente e só deixa de segui-las se contrariarem o Código de Ética Médica. Elas prevalecem sobre qualquer parecer não médico, inclusive o desejo dos familiares, de modo que os filhos não precisam concordar. Não se exige cartório, testemunha nem autorização judicial. A exigência de forma escrita com duas testemunhas é da Resolução 2.232/2019, para a recusa terapêutica atual que expõe a perigo de morte, e mesmo ali é preferencial. Enquanto a paciente for capaz, a vontade atual prevalece sobre o registro, que deve ser revisto a cada transição e combinado com o plano de controle da dispneia.",
+"porAlt": [
+"Correta: basta o registro em prontuário da diretiva e da representante, que prevalecem sobre a vontade dos familiares.",
+"A resolução não exige cartório: o registro no prontuário tem validade e vincula a equipe.",
+"As diretivas prevalecem sobre o desejo dos familiares, que não precisam concordar nem decidem antes da paciente.",
+"Não é preciso autorização judicial; limitar suporte em doença terminal é decisão médica registrada.",
+"Testemunhas não são requisito das diretivas; a forma escrita com testemunhas é preferência da norma de recusa terapêutica."
+]
+},
+{
 "q": "Homem de 62 anos com diabetes tem há 24 horas dor intensa em perna direita, desproporcional ao eritema discreto, com edema tenso, bolhas violáceas e crepitação ao toque. Febre de 39 °C, pressão de 88/52 mmHg após 2 litros de cristaloide, lactato de 4,5 mmol/L, creatinina de 2,1 mg/dL, sódio de 128 mEq/L, glicemia de 420 mg/dL. Sem trauma importante. Pesa 90 kg e não tem alergias. Qual é a conduta mais adequada?",
 "alts": [
 "Ressonância antes de acionar a cirurgia",

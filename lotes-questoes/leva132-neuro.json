@@ -1,0 +1,482 @@
+[
+ {
+  "q": "Homem de 63 anos, hipertenso, contador, chega ao pronto-socorro 2 horas após início súbito de dormência na face e no braço esquerdos. Força preservada nos quatro membros, marcha normal sem apoio, linguagem e campos visuais normais, sem negligência. NIHSS de 1 pelo item sensitivo. Pressão arterial de 168/94 mmHg, glicemia capilar de 124 mg/dL. Tomografia de crânio sem hemorragia, ASPECTS 10; angiotomografia sem oclusão de grande vaso. Eletrocardiograma em ritmo sinusal. Não usa antitrombóticos e afirma que, se o quadro persistir como está, voltará ao trabalho normalmente. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tenecteplase 0,25 mg/kg, pois está dentro de 4,5 horas",
+   "Aspirina e clopidogrel com dose de ataque, por 21 dias",
+   "Aspirina isolada, iniciada após 24 horas de observação",
+   "Alteplase 0,9 mg/kg, já que a pressão está abaixo de 185/110",
+   "Heparina não fracionada plena por 5 dias, depois aspirina"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ASA 2026 de AVC isquêmico agudo: déficit leve não incapacitante sem trombólise e dupla antiagregação por 21 dias",
+  "coment": "A diretriz AHA/ASA de 2026 tirou a decisão de trombolisar do número do NIHSS e a colocou na pergunta sobre incapacidade. Perda hemissensitiva isolada, com marcha, linguagem e visão preservadas, é o exemplo típico de déficit não incapacitante. Nesses pacientes, até 4,5 horas, a trombólise é classe 3 (sem benefício): no PRISMS a alteplase não superou a aspirina, e em 2023 a dupla antiagregação foi não inferior à alteplase, com menos sangramento. A conduta classe 1, nível A, para AVC menor não cardioembólico (NIHSS de até 3) sem trombólise é aspirina com clopidogrel, com dose de ataque, iniciada em até 24 horas e mantida por 21 dias, seguida de antiagregante único. O ritmo sinusal e a ausência de oclusão sustentam o mecanismo não cardioembólico. Anticoagulação precoce para prevenir piora não tem benefício.",
+  "porAlt": [
+   "Estar dentro da janela não basta: déficit leve não incapacitante não se tromboliza, por ausência de benefício e risco de sangramento.",
+   "Correta: AVC menor não cardioembólico sem trombólise recebe aspirina com clopidogrel, com ataque em até 24 horas, por 21 dias.",
+   "A aspirina isolada perde a redução de recorrência precoce da dupla antiagregação, e adiar 24 horas desperdiça o período de maior risco.",
+   "A pressão controlada é pré-requisito, não indicação; o que falta aqui é déficit incapacitante, e sem ele a trombólise é classe 3.",
+   "Anticoagulação plena precoce para evitar piora ou recorrência é classe 3, sem benefício, e aumenta o risco de transformação hemorrágica."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos, hipertensa controlada, está internada no quarto dia de um AVC isquêmico com hemiparesia esquerda leve, já em melhora. A ressonância mostra infarto cortical único frontal direito, não lacunar. Angiotomografia de vasos cervicais e intracranianos sem estenose ou placa acima de 50%. Ecocardiogramas transtorácico e transesofágico normais, sem forame oval patente, trombo ou dilatação atrial. Holter de 24 horas em ritmo sinusal, sem extrassístoles frequentes. LDL de 92 mg/dL, hemoglobina glicada de 5,6%, sem trombofilia na história. Qual é a estratégia antitrombótica e de investigação mais adequada?",
+  "alts": [
+   "Antiagregante e monitorização prolongada do ritmo cardíaco",
+   "Rivaroxabana empírica, pelo padrão embólico do infarto",
+   "Varfarina com RNI entre 2 e 3, mantida por tempo indeterminado",
+   "Aspirina e clopidogrel por 90 dias, sem nova investigação",
+   "Fechamento percutâneo do septo como prevenção secundária"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "AHA/ASA 2021 de prevenção secundária após AVC ou AIT: AVC embólico de fonte indeterminada sem anticoagulante empírico e monitorização prolongada do ritmo",
+  "coment": "Infarto cortical não lacunar sem estenose relevante, sem fonte cardíaca no ecocardiograma e com Holter normal define o AVC embólico de fonte indeterminada. A intuição de anticoagular foi testada e falhou: nos ensaios com rivaroxabana e dabigatrana o anticoagulante direto não reduziu recorrência e aumentou sangramento, e a diretriz AHA/ASA de 2021 classifica o anticoagulante empírico nessa situação como classe 3, sem benefício. O tratamento é antiagregante, aspirina ou clopidogrel, com estatina e controle pressórico. A grande pergunta pendente é fibrilação atrial paroxística, que um Holter de 24 horas detecta mal; por isso a monitorização prolongada do ritmo, com monitor implantável ou de longa duração, é classe 2a. Se a fibrilação aparecer, aí sim o anticoagulante direto entra. O fechamento percutâneo exige forame oval de alto risco, ausente neste caso.",
+  "porAlt": [
+   "Correta: o tratamento é antiagregante, e a monitorização prolongada procura a fibrilação atrial paroxística que mudaria a conduta.",
+   "Anticoagulante direto empírico no AVC embólico de fonte indeterminada não reduziu recorrência e aumentou sangramento: classe 3.",
+   "A varfarina sem fonte cardioembólica comprovada só acrescenta risco hemorrágico, sem benefício demonstrado nessa população.",
+   "A dupla antiagregação prolongada tem indicação na estenose intracraniana grave, e abandonar a busca de fibrilação atrial é erro.",
+   "O fechamento percutâneo pressupõe forame oval patente de alto risco, e o ecocardiograma transesofágico não mostrou forame."
+  ]
+ },
+ {
+  "q": "Mulher de 76 anos, hipertensa e diabética, 64 kg, creatinina de 0,9 mg/dL, chega 6 horas após início de disartria leve e perda de destreza da mão direita, que não a impede de se alimentar nem de andar. NIHSS de 2. Tomografia sem hemorragia; ressonância com infarto cortical frontal esquerdo de 1 cm, sem transformação hemorrágica. Angiotomografia sem oclusão ou estenose carotídea. O eletrocardiograma mostra fibrilação atrial não diagnosticada antes. Pressão arterial de 152/84 mmHg. Não usa antitrombóticos e não tem história de sangramento. Qual é o esquema antitrombótico mais adequado?",
+  "alts": [
+   "Aspirina e clopidogrel por 21 dias, seguidos de apixabana",
+   "Apixabana nas primeiras 48 horas, sem dupla antiagregação",
+   "Aspirina por 14 dias antes de iniciar a apixabana",
+   "Heparina não fracionada plena imediata, seguida de varfarina",
+   "Varfarina com alvo de RNI entre 2 e 3, iniciada hoje"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "AHA/ASA 2026 de AVC isquêmico agudo (anticoagulante precoce na fibrilação atrial com AVC leve) e AHA/ASA 2021 de prevenção secundária",
+  "coment": "O NIHSS baixo tenta o candidato a prescrever a dupla antiagregação do AVC menor, mas ela foi estudada em mecanismo não cardioembólico; com fibrilação atrial o tratamento é anticoagulação. A dúvida passa a ser quando começar. A diretriz de 2021 aceitava esperar de 2 a 14 dias, mas os ensaios ELAN, OPTIMAS e TIMING mostraram que iniciar o anticoagulante direto em até 48 horas a 4 dias no AVC leve a moderado é tão seguro quanto o início tardio, e a AHA/ASA de 2026 considera razoável o início precoce nesses pacientes (classe 2a, nível A). Entre os anticoagulantes, os diretos são preferidos à varfarina (classe 1). Heparina plena precoce com o objetivo de evitar piora ou recorrência não tem benefício e aumenta a transformação hemorrágica. Neste infarto pequeno, apixabana nas primeiras 48 horas.",
+  "porAlt": [
+   "A dupla antiagregação foi testada em AVC não cardioembólico; na fibrilação atrial ela atrasa o anticoagulante e soma sangramento.",
+   "Correta: fibrilação atrial com AVC leve pede anticoagulante direto, que pode começar nas primeiras 48 horas com segurança.",
+   "Esperar 14 dias era aceitável em 2021, mas no infarto pequeno o início precoce é seguro e reduz a exposição ao risco embólico.",
+   "Heparina plena imediata para prevenir piora ou recorrência é classe 3, sem benefício, e aumenta a hemorragia no infarto.",
+   "Os anticoagulantes diretos são preferidos à varfarina na fibrilação atrial não valvar, com menos hemorragia intracraniana."
+  ]
+ },
+ {
+  "q": "Homem de 69 anos com oclusão de M1 direita recebeu tenecteplase e, a seguir, trombectomia com reperfusão eTICI 3, concluída há 2 horas. O NIHSS caiu de 17 para 5. Na unidade de terapia intensiva, pressão arterial de 172/96 mmHg, frequência cardíaca de 84 bpm, sem dor torácica, sem sinais de insuficiência cardíaca e sem dissecção de aorta. Tomografia de controle sem hemorragia. Glicemia de 158 mg/dL. O residente propõe iniciar nicardipina para manter a sistólica abaixo de 130 mmHg nas próximas 72 horas, para proteger contra sangramento. Qual é a conduta pressórica mais adequada?",
+  "alts": [
+   "Nicardipina para sistólica abaixo de 120 mmHg por 72 horas",
+   "Manter até 180/105 mmHg, sem buscar sistólica abaixo de 140",
+   "Labetalol para manter a sistólica entre 130 e 140 por 24 horas",
+   "Noradrenalina para sistólica acima de 180, pela penumbra",
+   "Alvo de 140/90 mmHg, como na hemorragia intracerebral"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA/ASA 2026 de AVC isquêmico agudo: alvo pressórico após trombólise e após trombectomia com reperfusão",
+  "coment": "Depois do trombolítico, a pressão deve ficar abaixo de 180/105 mmHg por pelo menos 24 horas (classe 1), e durante e após a trombectomia é razoável o mesmo teto (2a). A intuição de que a artéria aberta autoriza normotensão foi testada e se mostrou danosa. O ENCHANTED2/MT, com sistólica abaixo de 120 mmHg por 72 horas, aumentou deterioração precoce e incapacidade; o OPTIMAL-BP, abaixo de 140 mmHg por 24 horas, reduziu a independência funcional; o BP-TARGET, abaixo de 130 mmHg, não reduziu hemorragia. Por isso a AHA/ASA de 2026 classifica a sistólica abaixo de 140 mmHg nas primeiras 72 horas após reperfusão de oclusão anterior como classe 3, dano, nível A. Com 172/96 mmHg e sem comorbidade que exija redução, não há o que baixar; vigiar e tratar só se ultrapassar 180/105 mmHg.",
+  "porAlt": [
+   "Alvo abaixo de 120 mmHg por 72 horas foi o braço intensivo do ENCHANTED2/MT, que aumentou deterioração precoce e incapacidade.",
+   "Correta: após trombólise e trombectomia o teto é 180/105 mmHg, e sistólica abaixo de 140 mmHg nas primeiras 72 horas é dano.",
+   "Mesmo a meta de 130 a 140 mmHg piorou a independência funcional no OPTIMAL-BP e não reduziu sangramento no BP-TARGET.",
+   "Elevar a pressão com vasopressor após reperfusão completa não tem indicação e aumenta o risco de hemorragia no leito reperfundido.",
+   "A meta de 140 mmHg vem da hemorragia intracerebral; no isquêmico reperfundido ela fica abaixo do limiar considerado seguro."
+  ]
+ },
+ {
+  "q": "Homem de 71 anos, com doença coronariana estável em uso de aspirina 100 mg/dia, é trazido 90 minutos após hemiparesia direita e afasia súbitas. Glasgow 14, pressão arterial de 198/108 mmHg, frequência cardíaca de 76 bpm. Tomografia: hematoma putaminal esquerdo de 14 mL, sem inundação ventricular e sem hidrocefalia. Plaquetas de 210.000/mm³, RNI de 1,0 e TTPa normal. Não usa anticoagulante. A neurocirurgia avaliou e não vê indicação cirúrgica. A família pergunta se a aspirina deve ser neutralizada. Qual é a conduta mais adequada nas primeiras horas?",
+  "alts": [
+   "Transfundir plaquetas e baixar a sistólica para cerca de 140 mmHg",
+   "Baixar a sistólica para menos de 120 mmHg na primeira hora",
+   "Manter a aspirina e tolerar até 180 mmHg, pela perfusão cerebral",
+   "Fenitoína profilática e dexametasona para conter o edema",
+   "Suspender a aspirina, sem plaquetas, e sistólica perto de 140 mmHg"
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "AHA/ASA 2022 de hemorragia intracerebral espontânea: pressão arterial, antiagregante e medidas sem benefício",
+  "coment": "A hemorragia intracerebral mata pela expansão do hematoma nas primeiras horas, favorecida pela pressão alta. Pela AHA/ASA de 2022, na hemorragia leve a moderada com sistólica de 150 a 220 mmHg, o alvo é cerca de 140 mmHg, mantendo entre 130 e 150, começando em até 2 horas e atingindo-o em 1 hora, com titulação suave; abaixo de 130 mmHg é dano. Sobre o antiagregante, o reflexo de transfundir plaquetas foi testado no PATCH: no usuário de aspirina que não vai à cirurgia, a transfusão aumentou morte e dependência, e a diretriz a classifica como classe 3, dano. A aspirina é suspensa e não neutralizada. Anticonvulsivante profilático sem crise e corticoide para o edema não têm benefício. Plaquetas e coagulograma normais reforçam que não há coagulopatia a corrigir.",
+  "porAlt": [
+   "No usuário de aspirina que não vai operar, a transfusão de plaquetas aumentou morte e dependência no PATCH: classe 3, dano.",
+   "Baixar a sistólica para menos de 130 mmHg não reduz expansão e aumenta eventos renais, sendo classificado como dano.",
+   "Tolerar 180 mmHg favorece a expansão do hematoma; o alvo recomendado é perto de 140 mmHg, atingido em 1 hora.",
+   "Anticonvulsivante profilático sem crise e corticoide para o edema não têm benefício na hemorragia intracerebral.",
+   "Correta: suspende-se a aspirina sem transfundir plaquetas, e a sistólica é levada para perto de 140 mmHg, entre 130 e 150."
+  ]
+ },
+ {
+  "q": "Homem de 82 anos, independente e sem diretiva antecipada, chega 6 horas após rebaixamento súbito. Glasgow 9, pressão arterial de 186/100 mmHg. Tomografia: hematoma talâmico direito de 34 mL com inundação ventricular, sem hidrocefalia significativa; RNI e plaquetas normais. Escore ICH de 4. Recebeu controle pressórico e está em ventilação espontânea com via aérea protegida. Na primeira noite, o plantonista, citando a mortalidade prevista pelo escore, propõe à família registrar ordem de não reanimar e retirar todo o suporte, inclusive a monitorização. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter suporte pleno e adiar a decisão até o segundo dia completo",
+   "Retirar o suporte hoje, pela mortalidade prevista no escore",
+   "Registrar não reanimar e suspender também a derivação, se surgir",
+   "Recalcular o escore em 12 horas e retirar o suporte se mantido",
+   "Cuidado paliativo exclusivo, sem controle pressórico, desde já"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA/ASA 2022 de hemorragia intracerebral espontânea: escore de gravidade e momento das decisões de limitação de suporte",
+  "coment": "O escore ICH de Hemphill soma Glasgow, volume de 30 mL ou mais, inundação ventricular, origem infratentorial e idade de 80 anos ou mais, e medir a gravidade na admissão é recomendado. O problema é usá-lo como sentença: as coortes que geraram as mortalidades incluíam pacientes que tiveram suporte retirado precocemente, e decidir por ele cria uma profecia autorrealizável. A AHA/ASA de 2022 diz que o escore não deve ser a única base do prognóstico individual (classe 3, sem benefício) e que, sem diretiva prévia, é razoável adiar nova ordem de não reanimar ou retirada de suporte até pelo menos o segundo dia completo de tratamento agressivo (2a). Também é dano limitar outros tratamentos só porque existe ordem de não reanimar. Até lá, suporte pleno, comunicação franca com a família e reavaliação diária.",
+  "porAlt": [
+   "Correta: sem diretiva prévia, é razoável manter tratamento pleno e adiar a limitação de suporte até pelo menos o segundo dia completo.",
+   "O escore ICH não pode ser a única base do prognóstico individual; usá-lo para retirar suporte na primeira noite é profecia autorrealizável.",
+   "A ordem de não reanimar não autoriza suspender outros tratamentos, como a derivação ventricular; fazer isso é classificado como dano.",
+   "Doze horas ainda estão dentro do período em que a diretriz pede tratamento agressivo antes de decidir limitação de suporte.",
+   "Abandonar o controle pressórico no primeiro dia equivale a retirar suporte precocemente, sem diretiva e sem tempo de reavaliação."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos, tabagista, chega 5 horas após cefaleia súbita, máxima em segundos, durante esforço. Está sonolenta mas orientada, com rigidez de nuca e sem déficit focal. Pressão arterial de 158/88 mmHg. Tomografia: hemorragia subaracnóidea difusa nas cisternas basais, sem hidrocefalia. Angiotomografia: aneurisma de 6 mm da comunicante anterior, que neurocirurgia e neurorradiologia consideram igualmente tratável por embolização ou clipagem. Sódio de 139 mEq/L, plaquetas e RNI normais, sem uso de anticoagulante. Qual é a conduta mais adequada?",
+  "alts": [
+   "Nimodipino enteral e embolização do aneurisma em até 24 horas",
+   "Ácido tranexâmico até a clipagem eletiva no décimo dia",
+   "Nimodipino e clipagem após o período de maior vasoespasmo",
+   "Hipervolemia e hipertensão induzida profiláticas, com nimodipino",
+   "Fenitoína profilática e embolização do aneurisma em até 24 horas"
+  ],
+  "gab": 0,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ASA 2023 de hemorragia subaracnóidea aneurismática: tratamento precoce do aneurisma, embolização e nimodipino",
+  "coment": "O ressangramento é precoce e é a complicação que mais mata nos primeiros dias, por isso a AHA/ASA de 2023 manda tratar o aneurisma roto o mais cedo possível, de preferência em até 24 horas (classe 1). No aneurisma de circulação anterior, em paciente de bom grau e igualmente tratável pelos dois métodos, a embolização é preferida à clipagem (1, A), herança do ISAT. O nimodipino enteral, 60 mg a cada 4 horas, é o único fármaco que reduz isquemia cerebral tardia e melhora o desfecho (1, A). O ácido tranexâmico de rotina não melhorou o desfecho no ULTRA (3, sem benefício). A antiga terapia do triplo H morreu: aumento profilático de volume ou pressão é dano, e o que se busca é euvolemia. A fenitoína profilática também é classificada como dano.",
+  "porAlt": [
+   "Correta: tratamento do aneurisma em até 24 horas, com embolização no bom grau de circulação anterior, somado ao nimodipino enteral.",
+   "O antifibrinolítico de rotina não melhorou o desfecho no ULTRA, e adiar o tratamento do aneurisma expõe ao ressangramento precoce.",
+   "Esperar passar o vasoespasmo deixa o aneurisma exposto ao ressangramento; a diretriz pede tratamento nas primeiras 24 horas.",
+   "Aumentar volume ou pressão de forma profilática é classe 3, dano; a meta é euvolemia, reservando a hipertensão ao déficit tardio.",
+   "O momento do tratamento está certo, mas a fenitoína profilática se associou a pior desfecho e é classificada como dano."
+  ]
+ },
+ {
+  "q": "Homem de 47 anos, no sexto dia de hemorragia subaracnóidea aneurismática, com aneurisma embolizado no primeiro dia, em uso de nimodipino enteral. Está lúcido e sem déficit novo. O sódio caiu de 138 para 127 mEq/L em 48 horas. Diurese de 4,2 L/dia, sódio urinário de 140 mEq/L, balanço hídrico negativo de 1,5 L em 2 dias, ureia em ascensão e veia cava inferior colabada ao ultrassom. Glicemia, TSH e cortisol normais. Doppler transcraniano com velocidades em elevação na cerebral média esquerda. Qual é a conduta mais adequada para o sódio?",
+  "alts": [
+   "Restrição hídrica de 800 mL/dia, como na secreção inapropriada",
+   "Tolvaptana oral para elevar o sódio nas próximas 24 horas",
+   "Hipervolemia induzida com coloide para prevenir vasoespasmo",
+   "Fludrocortisona e reposição salina para manter euvolemia",
+   "Suspender o nimodipino e observar o sódio por 48 horas"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA/ASA 2023 de hemorragia subaracnóidea aneurismática: hiponatremia por natriurese, mineralocorticoide e euvolemia",
+  "coment": "Hiponatremia com poliúria, sódio urinário alto, balanço negativo, ureia subindo e veia cava colabada é perda renal de sal com hipovolemia, a forma que importa na hemorragia subaracnóidea. O momento agrava o risco: entre o terceiro e o décimo quarto dia corre a janela da isquemia cerebral tardia, e o Doppler já sugere vasoespasmo. Hipovolemia nessa fase reduz a perfusão do território em espasmo. Por isso não se restringe água, conduta que serve à secreção inapropriada euvolêmica e aqui pioraria o volume. A AHA/ASA de 2023 considera razoável usar mineralocorticoide para conter a natriurese (classe 2a), com reposição de sódio para manter euvolemia, e classifica como dano induzir hipervolemia. O nimodipino deve ser mantido, porque suas interrupções se associam a mais isquemia tardia. Aquarético eleva o sódio à custa de mais perda de volume.",
+  "porAlt": [
+   "Restringir água num paciente que já perde sódio e volume agrava a hipovolemia justamente na janela de isquemia tardia.",
+   "O aquarético corrige o sódio eliminando água livre e aprofunda a contração de volume que está na origem do risco isquêmico.",
+   "Induzir hipervolemia é classe 3, dano, na hemorragia subaracnóidea; a meta recomendada é euvolemia, não volume acima do normal.",
+   "Correta: mineralocorticoide para conter a natriurese e reposição de sódio para manter euvolemia durante a janela de vasoespasmo.",
+   "O nimodipino não causa a natriurese, e interromper sua administração se associa a mais isquemia cerebral tardia."
+  ]
+ },
+ {
+  "q": "Puérpera de 33 anos, 8 dias após parto vaginal sem anestesia neuraxial, procura o pronto-socorro pela terceira cefaleia em trovoada em 4 dias, todas no banho ou ao evacuar, com pico em segundos e alívio parcial em horas. Usa descongestionante nasal com pseudoefedrina há 1 semana e sertralina desde a gestação. Pressão arterial de 132/84 mmHg, sem proteinúria, plaquetas e enzimas hepáticas normais. Exame neurológico e fundo de olho normais. Tomografia e líquor sem sangue; angiorressonância com estreitamentos segmentares multifocais nas cerebrais médias e posteriores. Qual é a conduta mais adequada?",
+  "alts": [
+   "Pulso de metilprednisolona pela hipótese de vasculite primária",
+   "Sumatriptano subcutâneo nas crises, mantendo os demais fármacos",
+   "Suspender os gatilhos vasoativos e usar bloqueador de cálcio oral",
+   "Anticoagulação plena, pela associação entre puerpério e trombose",
+   "Biópsia cerebral e leptomeníngea antes de iniciar o tratamento"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ASA 2023 de hemorragia subaracnóidea (investigação da trovoada) e escore RCVS2 (Neurology 2019) da vasoconstrição cerebral reversível",
+  "coment": "Excluída a hemorragia subaracnóidea, trovoadas recorrentes ao longo de dias, desencadeadas por banho e Valsalva, no puerpério e com fármacos vasoativos, apontam para síndrome de vasoconstrição cerebral reversível. O escore RCVS2 soma trovoada recorrente (5), gatilho vasoconstritor (3) e sexo feminino (1), total 9; acima de 5 a especificidade é de 99%. A pressão normal, a ausência de proteinúria e as enzimas normais afastam pré-eclâmpsia pós-parto. A conduta é suspender o gatilho (descongestionante e, se possível, o inibidor de recaptação de serotonina), analgesia, bloqueador de canal de cálcio oral e vigilância, porque hemorragia de convexidade e infarto podem surgir nos dias seguintes. O erro clássico é tratar como angiíte primária: o corticoide piora o desfecho na vasoconstrição reversível. Triptano é vasoconstritor e também é gatilho.",
+  "porAlt": [
+   "Corticoide piora o desfecho na vasoconstrição reversível; a angiíte primária, que se trata com corticoide, não tem esse perfil clínico.",
+   "O triptano é vasoconstritor e está entre os gatilhos da síndrome, além de manter a pseudoefedrina e a sertralina em uso.",
+   "Correta: retirar os gatilhos vasoativos e usar bloqueador de canal de cálcio oral é a conduta, com vigilância de complicações.",
+   "Os estreitamentos são arteriais e não há trombose venosa; anticoagular não trata a vasoconstrição e expõe a sangramento de convexidade.",
+   "A biópsia fica para a suspeita de angiíte primária; com escore RCVS2 de 9, o diagnóstico de vasoconstrição reversível é muito provável."
+  ]
+ },
+ {
+  "q": "Mulher de 44 anos, com laqueadura tubária, tem enxaqueca sem aura desde a adolescência. O diário de 3 meses mostra 18 dias de cefaleia por mês, 10 deles com características de enxaqueca que respondem a triptano. Usa naproxeno em 4 dias e sumatriptano em 3 dias por mês. Tem asma persistente moderada, nefrolitíase recorrente, índice de massa corporal de 34 kg/m² e esteatose hepática com ALT de 2 vezes o limite superior. Pressão arterial de 124/78 mmHg, exame neurológico e fundo de olho normais. Deseja prevenção. Qual é a opção mais adequada?",
+  "alts": [
+   "Propranolol 40 mg de 12 em 12 horas, com titulação",
+   "Topiramato 25 mg/dia, titulado até 100 mg/dia",
+   "Flunarizina 10 mg à noite, pela boa tolerância",
+   "Anticorpo anti-CGRP mensal, reavaliado em 3 meses",
+   "Valproato 500 mg/dia, titulado conforme resposta"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHS 2024 (terapias contra o CGRP como primeira linha), AAN/AHS 2026 de profilaxia farmacológica da enxaqueca e ICHD-3",
+  "coment": "Cefaleia em 15 ou mais dias por mês há mais de 3 meses, com 8 ou mais dias de enxaqueca, define enxaqueca crônica. O uso de medicação aguda não preenche uso excessivo: 7 dias por mês somando as duas classes, abaixo do limiar de 10 dias. A profilaxia está indicada. A escolha é por comorbidade: o betabloqueador piora a asma, o topiramato aumenta o risco de nefrolitíase, a flunarizina e o valproato engordam e o valproato agride o fígado com esteatose. Em 2024 a AHS passou a considerar as terapias contra o CGRP primeira linha, sem exigir falha prévia de preventivos orais, e a AAN/AHS de 2026 deu confiança alta ao fremanezumabe e ao galcanezumabe na forma crônica. O anticorpo mensal é julgado após pelo menos 3 meses.",
+  "porAlt": [
+   "O betabloqueador não seletivo pode desencadear broncoespasmo grave em quem tem asma persistente e deve ser evitado.",
+   "O topiramato aumenta o risco de cálculo renal, e a nefrolitíase recorrente torna essa escolha inadequada para ela.",
+   "A flunarizina engorda e pode causar depressão e parkinsonismo, efeitos ruins para quem já tem obesidade.",
+   "Correta: o anti-CGRP é primeira linha sem exigir falha de orais, não colide com as comorbidades e é julgado após 3 meses.",
+   "O valproato provoca ganho de peso e hepatotoxicidade, inadequado diante de obesidade e esteatose com transaminase elevada."
+  ]
+ },
+ {
+  "q": "Homem de 81 anos, internado há 3 dias por pneumonia, era independente: administrava as próprias finanças e, segundo a filha, nunca esqueceu compromissos. Desde a noite anterior está confuso, arranca o acesso venoso, alterna sonolência durante o dia com agitação à noite e não consegue dizer os meses do ano de trás para frente. Recebe prometazina e diazepam para dormir desde a admissão. Temperatura de 37,8 °C, saturação de 92% em ar ambiente, sódio de 131 mEq/L. O mini exame do estado mental hoje é de 17. A filha pede que se inicie remédio para Alzheimer. Qual é a interpretação e a conduta?",
+  "alts": [
+   "Demência de Alzheimer: iniciar donepezila 5 mg/dia já na internação",
+   "Delirium: tratar causas, retirar sedativos e reavaliar após a alta",
+   "Demência com corpos de Lewy, pela flutuação: iniciar rivastigmina",
+   "Demência vascular: ressonância de crânio e dupla antiagregação",
+   "Delirium: haloperidol fixo de 8 em 8 horas até o dia da alta"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "PCDT da Doença de Alzheimer 2025 e NICE NG97 (demência) e CG103 (delirium, atualizado em 2023)",
+  "coment": "Instalação aguda, flutuação ao longo do dia, desatenção (meses do ano ao contrário) e alteração do nível de consciência definem delirium. As causas estão à vista: infecção com hipoxemia, hiponatremia e dois fármacos deliriogênicos, a prometazina anticolinérgica e o benzodiazepínico. O PCDT de Alzheimer de 2025 e a NICE NG97 definem demência como declínio que não se explica por delirium e exigem afastá-lo antes do diagnóstico; um mini exame do estado mental aplicado durante o delirium não mede a cognição de base. A conduta é tratar a pneumonia e a hipoxemia, corrigir o sódio, suspender prometazina e diazepam, reorientar e envolver a família, e reavaliar a cognição semanas após a alta. Antipsicótico, se necessário, fica para sofrimento ou risco, na menor dose e por poucos dias, nunca em horário fixo até a alta.",
+  "porAlt": [
+   "Demência não se diagnostica durante delirium, e o inibidor de colinesterase não trata delirium nem tem indicação nessa fase.",
+   "Correta: quadro agudo, flutuante e com desatenção é delirium, e demência só pode ser avaliada semanas depois de resolvida a causa.",
+   "A flutuação da demência com corpos de Lewy é crônica e acompanha declínio prévio, que a história de independência total afasta.",
+   "Não há déficit focal nem história de declínio em degraus, e dupla antiagregação não trata confusão aguda de causa clínica.",
+   "Antipsicótico em horário fixo prolongado não encurta o delirium; se usado, é na menor dose, por pouco tempo e para risco ou sofrimento."
+  ]
+ },
+ {
+  "q": "Mulher de 72 anos, com doença de Alzheimer leve, amiloide confirmado em líquor e genótipo APOE ε3/ε4, recebe lecanemabe a cada 2 semanas há 10 semanas. É trazida 90 minutos após início de cefaleia, confusão e hemiparesia esquerda leve que a impede de andar sem apoio. NIHSS de 5. Glicemia de 118 mg/dL, pressão arterial de 164/90 mmHg, ritmo sinusal. Não usa anticoagulante. Tomografia de crânio sem hemorragia e sem hipodensidade franca. A equipe de AVC discute trombólise, já que o déficit é incapacitante. Qual é a conduta mais adequada?",
+  "alts": [
+   "Tenecteplase já, pois o déficit é incapacitante e a TC é normal",
+   "Alteplase depois de a angiotomografia excluir oclusão de grande vaso",
+   "Sem trombolítico; ressonância com FLAIR e T2* e suspender o anticorpo",
+   "Tenecteplase em meia dose, pelo risco de hemorragia com o anticorpo",
+   "Dexametasona e manter a próxima infusão de lecanemabe no prazo"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "r3",
+  "base": "AHA/ASA 2026 de AVC isquêmico agudo: ARIA e imunoterapia antiamiloide entre as contraindicações absolutas à trombólise",
+  "coment": "Os anticorpos antiamiloide causam ARIA, anormalidade de imagem relacionada ao amiloide: edema vasogênico ou efusão sulcal (ARIA-E) e micro-hemorragia ou siderose superficial (ARIA-H). Ela predomina nas primeiras 24 semanas, é mais frequente em portadores do alelo ε4 e, quando sintomática, dá cefaleia, confusão, crises e déficit focal que imita AVC. A tomografia não a exclui. A diretriz AHA/ASA de 2026 inclui ARIA e imunoterapia antiamiloide entre as contraindicações absolutas ao trombolítico, por relatos de hemorragias graves e fatais. Por isso a imagem vem antes: ressonância com FLAIR, para o edema, e sequência sensível a sangue, para micro-hemorragias e siderose. Confirmada a ARIA sintomática, suspende-se o anticorpo e a decisão sobre corticoide e retomada depende da gravidade. Se a angiotomografia mostrar oclusão de grande vaso, a trombectomia é discutida à parte.",
+  "porAlt": [
+   "Déficit incapacitante não basta: em uso de antiamiloide a trombólise é contraindicação absoluta pela diretriz de 2026.",
+   "A ausência de oclusão não remove a contraindicação; o risco hemorrágico vem do anticorpo e da possível ARIA, não do vaso.",
+   "Correta: sem trombolítico, a ressonância com FLAIR e T2* define a ARIA, e o anticorpo é suspenso até a avaliação.",
+   "Não existe dose reduzida validada que torne segura a trombólise em quem recebe imunoterapia antiamiloide.",
+   "Manter a infusão diante de quadro compatível com ARIA sintomática agrava o edema e o risco de hemorragia."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, com doença de Parkinson há 9 anos, em levodopa com carbidopa 600 mg/dia de levodopa, apresenta há 6 semanas alucinações visuais diárias de pessoas na sala e delírio de ciúme, com agressividade contra a esposa. Há 3 semanas o neurologista retirou amantadina e pramipexol, sem melhora; uma redução da levodopa piorou rigidez e quedas e foi revertida. Sem febre, sem infecção urinária ou pulmonar, eletrólitos e função renal normais, mini exame do estado mental de 26. Neutrófilos de 4.200/mm³, QTc de 430 ms. Qual é a conduta mais adequada?",
+  "alts": [
+   "Haloperidol 1 mg à noite, pelo controle rápido da agressividade",
+   "Risperidona 0,5 mg à noite, com aumento semanal",
+   "Olanzapina 2,5 mg à noite, pela menor sedação",
+   "Suspender toda a levodopa e observar por 2 semanas",
+   "Clozapina 12,5 mg à noite, com hemograma seriado"
+  ],
+  "gab": 4,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "PCDT da Doença de Parkinson 2025 e revisão de evidências da Movement Disorder Society para sintomas não motores, 2019",
+  "coment": "A psicose da doença de Parkinson se aborda em etapas. Primeiro, afastar delirium por infecção, distúrbio metabólico ou fármaco novo, como foi feito. Depois, retirar o que dá pouco benefício motor e muito risco psiquiátrico, na ordem anticolinérgico, amantadina, inibidor da MAO-B, agonista e inibidor da COMT; a levodopa é a última a ser reduzida, e aqui a redução não foi tolerada. Persistindo a psicose, o antipsicótico precisa não bloquear o receptor D2 de forma relevante. A revisão da MDS de 2019 considera a clozapina clinicamente útil, sem piorar o parkinsonismo, e o PCDT de 2025 a elege como tratamento de escolha no SUS, começando com 12,5 mg e subindo devagar, com hemograma seriado pelo risco de agranulocitose. Típicos são contraindicados, e risperidona e olanzapina são desaconselhadas.",
+  "porAlt": [
+   "Antipsicótico típico bloqueia o receptor D2 e piora gravemente o parkinsonismo; o PCDT de 2025 o contraindica.",
+   "A risperidona tem bloqueio dopaminérgico relevante, piora rigidez e quedas e é desaconselhada pelo PCDT de 2025.",
+   "A olanzapina piorou a função motora nos ensaios e foi classificada pela MDS como não útil, com risco inaceitável.",
+   "A retirada completa da levodopa precipita rigidez grave e risco de hiperpirexia, e a redução já se mostrou intolerável.",
+   "Correta: persistindo a psicose após retirar amantadina e agonista, a clozapina em dose baixa é a escolha, com hemograma seriado."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos, com doença de Parkinson há 12 anos em levodopa com benserazida cinco vezes ao dia, foi operada há 3 dias por obstrução intestinal. Desde a cirurgia está em jejum, com sonda nasogástrica aberta drenando e íleo, e a levodopa não foi prescrita. Hoje apresenta temperatura de 39,4 °C, rigidez generalizada intensa, sonolência, pressão arterial oscilando entre 90/60 e 170/100 mmHg, frequência cardíaca de 118 bpm, creatinoquinase de 6.800 U/L e creatinina de 1,6 mg/dL. Recebeu apenas dipirona e ondansetrona, sem antipsicótico. A ferida operatória está limpa. Qual é a medida mais importante?",
+  "alts": [
+   "Dantroleno intravenoso, mantendo a pausa dos dopaminérgicos",
+   "Antibiótico de amplo espectro e levodopa só quando houver dieta",
+   "Ciproeptadina por sonda, pela hipótese de síndrome serotoninérgica",
+   "Repor estímulo dopaminérgico já, por adesivo de rotigotina",
+   "Hidratação e aguardar o trânsito intestinal para retomar a levodopa"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "NICE NG71 2017 (Parkinson no adulto): não retirar abruptamente nem deixar de absorver os antiparkinsonianos, pelo risco de acinesia aguda e síndrome neuroléptica maligna",
+  "coment": "Febre, rigidez intensa, rebaixamento, disautonomia e creatinoquinase alta em parkinsoniano sem levodopa há 3 dias é a síndrome de hiperpirexia-parkinsonismo, equivalente da síndrome neuroléptica maligna provocado pela retirada abrupta do dopaminérgico. Jejum cirúrgico, sonda e prescrição esquecida são as causas clássicas, e o risco é rabdomiólise, lesão renal e morte. O tratamento central é repor o estímulo dopaminérgico imediatamente. Com íleo e sonda aberta drenando, a via enteral não garante absorção, e entram a rotigotina transdérmica ou a apomorfina, somadas a resfriamento, hidratação e suporte intensivo. Infecção deve ser investigada, mas não explica a rigidez nem substitui a reposição. A lição de prevenção é a regra hospitalar: nunca suspender a levodopa e dar as doses no horário. Ondansetrona e domperidona são os antieméticos seguros nesse paciente.",
+  "porAlt": [
+   "O dantroleno pode ajudar na rigidez, mas sem repor o dopaminérgico a causa da síndrome continua ativa e o quadro progride.",
+   "Investigar infecção é razoável, mas adiar a levodopa até a dieta mantém a privação dopaminérgica que causou o quadro.",
+   "Não houve fármaco serotoninérgico capaz de explicar o quadro, e a rigidez extrema com creatinoquinase alta aponta para retirada de levodopa.",
+   "Correta: a síndrome de hiperpirexia-parkinsonismo se trata repondo o dopaminérgico já, por via transdérmica quando a enteral falha.",
+   "Hidratar é necessário, mas esperar o trânsito intestinal mantém o paciente sem dopaminérgico e expõe a rabdomiólise e morte."
+  ]
+ },
+ {
+  "q": "Mulher de 36 anos tem miastenia generalizada com anticorpo anti-MuSK positivo e antirreceptor de acetilcolina negativo. Predominam disartria, disfagia, fraqueza cervical e atrofia de língua. A piridostigmina causou cãibras e fasciculações sem ganho de força e foi reduzida. Usa prednisona 40 mg/dia e azatioprina 150 mg/dia há 10 meses e teve 2 internações com plasmaférese no último ano, com boa resposta transitória. Tomografia de tórax com timo de aspecto normal para a idade. Função renal e hepática normais. Qual é a próxima opção terapêutica mais adequada?",
+  "alts": [
+   "Timectomia videoassistida, por ter menos de 50 anos",
+   "Rituximabe, pela boa resposta na miastenia anti-MuSK",
+   "Eculizumabe, após vacinação contra meningococo",
+   "Aumentar a piridostigmina para 120 mg de 4 em 4 horas",
+   "Prednisona 1 mg/kg/dia mantida por tempo indefinido"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "International Consensus Guidance for Management of Myasthenia Gravis, atualização de 2020",
+  "coment": "A miastenia anti-MuSK é outra doença do ponto de vista terapêutico. O anticorpo é IgG4, que não fixa complemento, e a apresentação é bulbar, facial e cervical, com atrofia de língua e crises frequentes. A resposta à piridostigmina é pobre, com efeitos colinérgicos exagerados; a plasmaférese funciona bem, e o rituximabe tem as melhores séries. O consenso internacional de 2020 recomenda considerar rituximabe precocemente no anti-MuSK com resposta insatisfatória à imunoterapia inicial, situação desta paciente, dependente de corticoide em dose moderada e com internações repetidas. A timectomia, apoiada pelo MGTX, vale para a forma antirreceptor positiva de 18 a 50 anos e não mostrou benefício no anti-MuSK. Os inibidores do complemento só funcionam na forma antirreceptor positiva. Corticoide em dose alta indefinida troca a doença por efeitos adversos graves.",
+  "porAlt": [
+   "A timectomia beneficia a miastenia antirreceptor positiva e não mostrou ganho no anti-MuSK, em que o timo não participa da doença.",
+   "Correta: no anti-MuSK com resposta insatisfatória à imunoterapia inicial, o consenso de 2020 indica rituximabe precoce.",
+   "Inibidores do complemento atuam na miastenia antirreceptor positiva; o anticorpo IgG4 do anti-MuSK não fixa complemento.",
+   "No anti-MuSK a piridostigmina rende pouco e provoca efeitos colinérgicos exagerados, já observados nesta paciente.",
+   "Corticoide em dose alta sem prazo acumula osteoporose, diabetes e infecção sem resolver a refratariedade da doença."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos teve diarreia há 3 semanas e, 10 dias depois, fraqueza ascendente com arreflexia. Foi internado no terceiro dia de fraqueza, sem conseguir andar, e recebeu imunoglobulina 0,4 g/kg/dia por 5 dias. Hoje, no 14º dia de doença, continua tetraparético, com escore MRC somado de 28, sem andar, mas sem piora desde o 10º dia. Capacidade vital forçada estável em 24 mL/kg, sem disfagia, sem arritmias. O escore mEGOS indica alta chance de não andar sem ajuda em 6 meses. A equipe propõe repetir a imunoglobulina ou associar metilprednisolona. Qual é a conduta mais adequada?",
+  "alts": [
+   "Segundo ciclo de imunoglobulina, pelo prognóstico ruim no mEGOS",
+   "Metilprednisolona 500 mg/dia por 5 dias, associada à imunoglobulina",
+   "Suporte, tromboprofilaxia e reabilitação, sem repetir imunoglobulina",
+   "Plasmaférese imediata, por falha da imunoglobulina em 14 dias",
+   "Rever o diagnóstico para forma crônica e iniciar prednisona oral"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "EAN/PNS 2023 de diagnóstico e tratamento da síndrome de Guillain-Barré",
+  "coment": "Guillain-Barré pós-diarreico, axonal provável, em idoso com escore MRC baixo tem prognóstico funcional ruim, e o mEGOS apenas o confirma. A tentação de intensificar foi testada. No ensaio SID-GBS, a segunda dose de imunoglobulina em pacientes de mau prognóstico não melhorou o desfecho e teve mais eventos adversos graves, e a diretriz EAN/PNS de 2023 recomenda contra ela. O corticoide falhou em oito ensaios, e a diretriz também recomenda contra, oral ou intravenoso. Plasmaférese logo após a imunoglobulina não soma efeito e lava o fármaco recém-infundido. Cerca de 40% dos pacientes não melhoram nas primeiras 4 semanas, o que não significa falha. Pensar em forma crônica de início agudo só se houver progressão após 8 semanas ou três flutuações. Fica o suporte: tromboprofilaxia enquanto não anda, vigilância respiratória e autonômica, dor e reabilitação precoce.",
+  "porAlt": [
+   "No SID-GBS a segunda dose de imunoglobulina não melhorou o desfecho dos pacientes de mau prognóstico e aumentou eventos adversos.",
+   "O corticoide não funcionou em oito ensaios no Guillain-Barré, e a diretriz europeia de 2023 recomenda contra seu uso.",
+   "Correta: sem benefício de repetir imunoglobulina ou de corticoide, a conduta é suporte, tromboprofilaxia e reabilitação precoce.",
+   "Ausência de melhora em 2 semanas não é falha, e plasmaférese após imunoglobulina não soma benefício e remove o fármaco.",
+   "A forma crônica de início agudo exige progressão após 8 semanas ou flutuações repetidas, o que não ocorre no 14º dia."
+  ]
+ },
+ {
+  "q": "Homem de 64 anos, hipertenso e tabagista, teve dois episódios de tontura com visão dupla nos últimos 3 dias. Foi visto bem às 8h30 e encontrado caído às 9h15. Chega às 10h30 com Glasgow 7 (abertura ocular 1, verbal 2, motor 4), pupilas de 3 mm pouco reativas, desvio vertical dos olhos, resposta extensora à direita e Babinski bilateral. Glicemia de 132 mg/dL, pressão arterial de 182/98 mmHg, ritmo sinusal, saturação de 91% em ar ambiente. Sem trauma aparente, sem frascos ou drogas no local. Tomografia sem contraste sem hemorragia e sem hipodensidade. Qual é o próximo passo mais adequado?",
+  "alts": [
+   "Eletroencefalograma, pela hipótese de estado de mal não convulsivo",
+   "Punção lombar, já que a tomografia não mostrou sangramento",
+   "Intubar e fazer angiotomografia em busca de oclusão da basilar",
+   "Manitol e hiperventilação para a hipertensão intracraniana",
+   "Naloxona e flumazenil pela hipótese de intoxicação exógena"
+  ],
+  "gab": 2,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AHA/ASA 2026 de AVC isquêmico agudo (imagem vascular e trombectomia na oclusão basilar) e abordagem do coma",
+  "coment": "Coma de instalação súbita, precedido de tontura e diplopia, com desvio vertical dos olhos, alteração pupilar e sinais motores assimétricos, é estrutural de tronco até prova em contrário. A tomografia normal não tranquiliza: a isquemia da oclusão basilar ainda não aparece nas primeiras horas, e esse é o erro clássico de chamar o quadro de metabólico. Com Glasgow 7 e hipoxemia, a via aérea vem primeiro. Em seguida, angiotomografia: a AHA/ASA de 2026 indica imagem de vasos intracranianos na suspeita de oclusão de grande vaso, e a trombectomia na oclusão basilar com NIHSS de 10 ou mais e Rankin prévio de 0 a 1 é classe 1 até 24 horas. Com 2 horas desde o último momento visto bem, a trombólise também entra na decisão. Flumazenil no coma de causa desconhecida arrisca convulsão.",
+  "porAlt": [
+   "Estado de mal não convulsivo entra no diferencial, mas assimetria de tronco com tomografia normal pede imagem vascular antes.",
+   "Não há febre nem meningismo, e a punção lombar atrasaria o diagnóstico de uma causa vascular tratável por reperfusão.",
+   "Correta: coma súbito com sinais de tronco e tomografia normal é oclusão basilar até prova em contrário, após proteger a via aérea.",
+   "Não há lesão expansiva na tomografia nem sinal de herniação que justifique osmoterapia e hiperventilação empíricas.",
+   "Pupilas de 3 mm e sinais focais não sugerem opioide, e flumazenil às cegas no coma desconhecido arrisca convulsões."
+  ]
+ },
+ {
+  "q": "Homem de 28 anos com traumatismo cranioencefálico grave por acidente de moto, com contusões bifrontais pequenas e sem lesão cirúrgica, está intubado no segundo dia, com cateter ventricular. Recebe cabeceira a 30 graus, propofol e fentanil em dose plena, PaCO₂ de 36 mmHg, bólus de salina hipertônica e drenagem de liquor. Mesmo assim a pressão intracraniana se mantém entre 27 e 29 mmHg há 1 hora. Pressão arterial média de 88 mmHg, temperatura de 37,2 °C, sódio de 152 mEq/L, osmolalidade de 312 mOsm/kg. A tomografia repetida não mostra lesão nova. Qual é a próxima medida mais adequada?",
+  "alts": [
+   "Dexametasona 10 mg de 6 em 6 horas para o edema",
+   "Hiperventilação leve, com PaCO₂ entre 32 e 35 mmHg",
+   "Hiperventilação com PaCO₂ de 25 mmHg por 48 horas",
+   "Hipotermia induzida a 33 °C, mantida por 72 horas",
+   "Craniectomia descompressiva bifrontal imediata"
+  ],
+  "gab": 1,
+  "tema": "neuro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Consenso SIBICC 2019 e Brain Trauma Foundation, 4ª edição (2016) com atualização da craniectomia de 2020",
+  "coment": "A pressão intracraniana acima de 22 mmHg se trata (Brain Trauma Foundation, nível IIB), e o consenso SIBICC organiza o tratamento em camadas. Este paciente já esgotou a camada 1: sedação, PaCO₂ de 35 a 38 mmHg, osmoterapia em bólus e drenagem de liquor, com sódio e osmolalidade perto dos limites de 155 mEq/L e 320 mOsm/kg. Depois de reexaminar e repetir a tomografia sem lesão cirúrgica, sobe-se para a camada 2: hiperventilação leve com PaCO₂ de 32 a 35 mmHg, bloqueio neuromuscular se testado e eficaz, e desafio de pressão arterial média. Hipotermia, barbitúrico e craniectomia ficam na camada 3. A craniectomia precoce piorou o desfecho funcional no DECRA. Corticoide aumentou a mortalidade no CRASH, e hiperventilação profunda prolongada reduz o fluxo cerebral e é desaconselhada.",
+  "porAlt": [
+   "Corticoide no traumatismo craniano aumentou a mortalidade no CRASH e é contraindicado, nível I de evidência.",
+   "Correta: esgotada a camada 1 e sem lesão cirúrgica nova, a camada 2 admite hiperventilação leve, com PaCO₂ de 32 a 35 mmHg.",
+   "PaCO₂ de 25 mmHg prolongada causa vasoconstrição e isquemia; abaixo de 30 mmHg só como ponte de minutos na herniação.",
+   "Hipotermia abaixo de 35 °C é desaconselhada pelo SIBICC, e a de 35 a 36 °C pertence à camada 3, ainda não alcançada.",
+   "Craniectomia bifrontal precoce piorou o desfecho funcional no DECRA; ela é medida de camada 3, na hipertensão refratária tardia."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos, diabético e hipertenso, chega 14 horas após início de vertigem contínua, vômitos e zumbido à direita. Está tonto e com nistagmo no exame: nistagmo horizontal de direção fixa, batendo para a esquerda, que não muda com o olhar; impulso cefálico com sacada de correção ao girar a cabeça para a direita; sem desvio vertical no teste de cobertura alternada. À fricção dos dedos não ouve à direita, perda que não tinha antes. Anda com apoio. Sem déficit motor, dismetria ou disartria. Tomografia de crânio normal. Qual é a interpretação mais adequada?",
+  "alts": [
+   "Neurite vestibular direita: corticoide oral e alta",
+   "Labirintite viral direita: vestibulossupressor e alta",
+   "Doença de Ménière: betaistina e audiometria ambulatorial",
+   "Padrão central pela surdez nova; ressonância com difusão",
+   "Vertigem posicional paroxística: manobra de Epley já"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "GRACE-3 (Society for Academic Emergency Medicine, 2023) e HINTS plus (Newman-Toker, 2013; metanálise de Tarnutzer, 2023)",
+  "coment": "Na síndrome vestibular aguda com nistagmo, o HINTS isolado parece periférico: impulso cefálico anormal, nistagmo de direção fixa e ausência de desvio vertical. O quinto componente muda tudo. A GRACE-3 manda somar ao HINTS o teste de audição à beira do leito, porque a perda auditiva nova é a pista do infarto da artéria cerebelar anteroinferior. Seu ramo, a artéria auditiva interna, irriga o labirinto; o infarto lesa labirinto e tronco ao mesmo tempo, o impulso cefálico sai anormal e o exame imita a neurite. Na metanálise de 2023 a sensibilidade do HINTS cai para 84% nesse território, perda resgatada pela audição. Vertigem aguda com surdez nova em paciente vascular é infarto até prova em contrário. A tomografia não exclui isquemia de fossa posterior; a ressonância com difusão confirma, e negativa nas primeiras 48 horas não autoriza alta.",
+  "porAlt": [
+   "A neurite vestibular não tem sintoma auditivo; surdez nova junto da vertigem afasta esse diagnóstico e aponta para isquemia.",
+   "Rotular de labirintite e dar alta é o erro que perde o infarto da cerebelar anteroinferior, cujo exame imita o periférico.",
+   "Ménière dá crises de 20 minutos a 12 horas, não vertigem contínua por 14 horas, e o primeiro episódio exige afastar AVC.",
+   "Correta: perda auditiva nova torna o HINTS plus central e sugere infarto da cerebelar anteroinferior; ressonância com difusão.",
+   "A vertigem posicional dura segundos e é desencadeada por movimento; aqui a vertigem é contínua e espontânea, com nistagmo."
+  ]
+ },
+ {
+  "q": "Homem de 24 anos, estudante, procura o ambulatório por formigamento nos pés e nas mãos há 2 meses e instabilidade ao andar no escuro, com duas quedas. Conta uso recreativo de óxido nitroso em balões várias vezes por semana há 6 meses. Exame: perda de vibração e de propriocepção nos pés, Romberg positivo, aquileus abolidos, patelares vivos e Babinski bilateral, sem nível sensitivo. Hemoglobina de 13,8 g/dL, volume corpuscular médio de 92 fL, vitamina B12 sérica de 310 pg/mL, homocisteína de 48 µmol/L e ácido metilmalônico elevados. Ressonância com hiperintensidade em T2 nos cordões posteriores de C3 a C7. Qual é a conduta mais adequada?",
+  "alts": [
+   "Ácido fólico oral isolado, pela homocisteína elevada",
+   "Imunoglobulina intravenosa, pela hipótese de polirradiculoneuropatia",
+   "Pulso de metilprednisolona, pela hipótese de mielite",
+   "Suspender o óxido nitroso e repor B12 por via intramuscular",
+   "Observar, já que a B12 sérica normal afasta deficiência"
+  ],
+  "gab": 3,
+  "tema": "neuro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AAN 2009 de investigação da polineuropatia simétrica distal (B12 com metabólitos) e ADA 2026, seção 12, causas não diabéticas de neuropatia",
+  "coment": "Ataxia sensitiva com Romberg, perda de vibração, aquileus abolidos com Babinski e hiperintensidade dos cordões posteriores é a degeneração combinada subaguda da medula, com neuropatia associada. O óxido nitroso oxida o cobalto da cobalamina e a inativa: a B12 sérica pode vir normal enquanto a vitamina funcional falta, o que os metabólitos revelam. A revisão da AAN de 2009 incluiu a B12 com ácido metilmalônico, com ou sem homocisteína, entre os exames de maior rendimento na polineuropatia justamente por isso. Anemia e macrocitose podem estar ausentes. A conduta é cessar a exposição e repor B12 por via intramuscular. O erro grave é dar folato isolado, que corrige o hemograma e deixa a lesão neurológica avançar. Não há dissociação proteinocitológica nem quadro inflamatório que justifique imunoterapia.",
+  "porAlt": [
+   "Folato isolado na deficiência funcional de B12 corrige o hemograma e deixa a degeneração medular progredir.",
+   "Babinski e patelares vivos indicam lesão medular associada, e o quadro subagudo com metabólitos alterados não é polirradiculoneuropatia.",
+   "A lesão restrita aos cordões posteriores com metabólitos elevados é deficiência de B12, não mielite inflamatória para corticoide.",
+   "Correta: o óxido nitroso inativa a B12; suspender a exposição e repor B12 por via intramuscular trata a degeneração combinada.",
+   "A B12 sérica não reflete a inativação pelo óxido nitroso; ácido metilmalônico e homocisteína altos confirmam a deficiência funcional."
+  ]
+ }
+]

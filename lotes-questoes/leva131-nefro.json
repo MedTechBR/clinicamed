@@ -1,0 +1,602 @@
+[
+ {
+  "q": "Homem de 67 anos, diabético tipo 2 há 18 anos, com retinopatia e hipertensão, é acompanhado na atenção primária. A taxa de filtração glomerular estimada pela CKD-EPI 2021 é de 34 mL/min/1,73 m² (era 36 há 1 ano) e a relação albumina/creatinina urinária é de 900 mg/g em duas amostras separadas por 4 meses. Usa losartana 100 mg/dia, dapagliflozina 10 mg/dia e insulina. Pressão arterial de 128/76 mmHg, potássio de 4,9 mEq/L, bicarbonato de 22 mEq/L e hemoglobina de 12,1 g/dL. Não tem sintomas urêmicos. A equação de risco de falência renal (KFRE, quatro variáveis) calcula 14% em 2 anos e 38% em 5 anos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter o seguimento na atenção primária até a filtração cair abaixo de 30",
+   "Encaminhar e já indicar fístula arteriovenosa e inscrição para transplante",
+   "Encaminhar ao nefrologista e iniciar cuidado multiprofissional, sem fístula agora",
+   "Encaminhar ao nefrologista só quando o risco em 2 anos passar de 40%",
+   "Manter na atenção primária, porque a KFRE não se aplica ao paciente com diabetes tipo 2"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "KDIGO 2024 de doença renal crônica, risco de falência renal pela KFRE e encaminhamento",
+  "coment": "O KDIGO 2024 recomenda, em G3 a G5, calcular o risco absoluto de falência renal com equação validada (1A), e a KFRE de quatro variáveis usa idade, sexo, filtração e albuminúria. Três limiares orientam a conduta: risco em 5 anos de 3% a 5% pode definir o encaminhamento ao nefrologista; risco em 2 anos acima de 10%, o início do cuidado multiprofissional; e risco em 2 anos acima de 40%, a educação sobre modalidades, o preparo do acesso vascular e o encaminhamento para transplante. Este paciente, G3bA3, tem 38% em 5 anos e 14% em 2 anos: encaminhamento e equipe multiprofissional já, fístula ainda não. A nefroproteção está otimizada com bloqueador do receptor de angiotensina em dose máxima e inibidor de SGLT2, e a finerenona pode ser discutida com potássio normal.",
+  "porAlt": [
+   "Esperar a filtração cair abaixo de 30 ignora que o KDIGO 2024 também encaminha pelo risco absoluto, aqui muito acima do limiar.",
+   "Fístula e inscrição em lista são planejadas com risco acima de 40% em 2 anos ou filtração abaixo de 15 a 20, o que ainda não é o caso.",
+   "Correta: risco em 5 anos muito acima de 3% a 5% encaminha, e risco em 2 anos acima de 10% define o cuidado multiprofissional; o acesso fica para risco acima de 40% em 2 anos.",
+   "O limiar de 40% em 2 anos decide o preparo do acesso e do transplante, não o encaminhamento, que já está indicado.",
+   "A KFRE foi validada em coortes com e sem diabetes; o diabetes não invalida a estimativa nem dispensa o encaminhamento."
+  ]
+ },
+ {
+  "q": "Mulher de 59 anos, sem diabetes, tem doença renal crônica por nefroesclerose hipertensiva com relação albumina/creatinina de 650 mg/g. Usa losartana 100 mg/dia e dapagliflozina 10 mg/dia há 2 anos, sem efeitos adversos. Em 12 meses, a filtração estimada pela CKD-EPI 2021 caiu de 24 para 18 mL/min/1,73 m². Está assintomática, com pressão de 124/72 mmHg, potássio de 5,0 mEq/L e bicarbonato de 21 mEq/L, sem infecção genital, sem cirurgia programada e sem jejum prolongado. Qual é a conduta em relação à dapagliflozina?",
+  "alts": [
+   "Suspender a dapagliflozina, porque a filtração ficou abaixo de 20",
+   "Manter a dapagliflozina até o início da terapia renal substitutiva",
+   "Reduzir a dapagliflozina para 5 mg/dia pela filtração abaixo de 20",
+   "Trocar a dapagliflozina por finerenona, que não depende da filtração",
+   "Suspender, porque sem efeito glicêmico não resta benefício renal"
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO 2024 de doença renal crônica, inibidor de SGLT2 mantido com filtração abaixo de 20",
+  "coment": "O inibidor de SGLT2 leva sódio à mácula densa e contrai a arteríola aferente, reduzindo a pressão intraglomerular de modo complementar ao bloqueio do sistema renina-angiotensina. O KDIGO 2024 recomenda iniciá-lo em adultos com doença renal crônica e filtração de 20 mL/min/1,73 m² ou mais quando há albuminúria de 200 mg/g ou mais, com ou sem diabetes (1A). O ponto de prática acrescenta que, uma vez iniciado, o fármaco é mantido mesmo com a filtração abaixo de 20, salvo intolerância ou início da terapia renal substitutiva. A suspensão temporária cabe no jejum prolongado, na cirurgia e na doença aguda grave, pelo risco de cetose. DAPA-CKD e EMPA-KIDNEY incluíram muitos pacientes sem diabetes e mostraram benefício renal independente do controle glicêmico.",
+  "porAlt": [
+   "O corte de 20 vale para iniciar o fármaco; quem já o usa não deve suspendê-lo pela queda da filtração.",
+   "Correta: o KDIGO 2024 inicia o inibidor de SGLT2 com filtração de 20 ou mais e o mantém abaixo disso até a diálise ou o transplante.",
+   "Não existe redução de dose da dapagliflozina pela função renal; a proteção renal e cardíaca é obtida com a dose habitual.",
+   "A finerenona tem indicação no diabetes tipo 2 com filtração acima de 25, o que esta paciente sem diabetes e com filtração de 18 não tem.",
+   "O efeito glicêmico some com filtração baixa, mas o efeito hemodinâmico renal e o benefício cardíaco persistem."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos, diabético tipo 2, tem doença renal crônica com filtração de 48 mL/min/1,73 m² pela CKD-EPI 2021 e relação albumina/creatinina de 520 mg/g, em uso de losartana 100 mg/dia e empagliflozina 10 mg/dia. Há 1 mês iniciou finerenona 10 mg/dia, com potássio basal de 4,6 mEq/L. No retorno, o potássio é de 5,8 mEq/L, confirmado em nova amostra sem hemólise. O eletrocardiograma é normal, não usa anti-inflamatório, suplemento nem substituto de sal e o bicarbonato é de 23 mEq/L. Qual é a conduta mais adequada em relação à finerenona?",
+  "alts": [
+   "Manter 10 mg/dia e repetir o potássio somente dentro de 4 meses",
+   "Aumentar a finerenona para 20 mg/dia, conforme o plano de titulação",
+   "Suspender e reiniciar 10 mg/dia quando o potássio voltar a 5,0 mEq/L ou menos",
+   "Trocar a finerenona por espironolactona 25 mg/dia, mais barata e de igual eficácia",
+   "Suspender a losartana e manter a finerenona na mesma dose diária de 10 mg"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO 2024 de doença renal crônica, monitorização do potássio com finerenona",
+  "coment": "O KDIGO 2024 sugere antagonista mineralocorticoide não esteroide com benefício comprovado, como a finerenona, para adultos com diabetes tipo 2, filtração acima de 25, potássio normal e albuminúria acima de 30 mg/g apesar da dose máxima tolerada de IECA ou BRA (2A). A figura de monitorização define condutas por faixa de potássio: até 4,8 mEq/L, iniciar 10 mg se a filtração estiver entre 25 e 59 e titular para 20 mg; de 4,9 a 5,5, manter a dose e dosar a cada 4 meses; acima de 5,5, suspender, revisar dieta e fármacos e reiniciar 10 mg quando o potássio voltar a 5,0 ou menos. O bloqueio do sistema renina-angiotensina e o inibidor de SGLT2 permanecem.",
+  "porAlt": [
+   "Manter a dose com controle a cada 4 meses é a conduta da faixa de 4,9 a 5,5 mEq/L, e não acima de 5,5.",
+   "A titulação para 20 mg só ocorre com potássio de até 4,8 mEq/L; aqui ela agravaria a hipercalemia.",
+   "Correta: pelo algoritmo do KDIGO 2024, potássio acima de 5,5 mEq/L suspende a finerenona, que volta em 10 mg quando o potássio chega a 5,0 ou menos.",
+   "A espironolactona causa mais hipercalemia que a finerenona e não tem o benefício renal demonstrado no diabetes tipo 2.",
+   "Retirar o bloqueador do receptor de angiotensina é o último recurso, e manter a finerenona com potássio acima de 5,5 contraria o algoritmo."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos tem doença renal crônica por nefroesclerose hipertensiva, com filtração de 38 mL/min/1,73 m² pela CKD-EPI 2021 e relação albumina/creatinina de 420 mg/g. É independente, sem quedas, sem hipotensão postural e sem diabetes. Usa losartana 100 mg/dia e dapagliflozina 10 mg/dia. Na consulta, a pressão medida com técnica padronizada (5 minutos de repouso, manguito adequado, média de três leituras, sem conversa) é de 134/82 mmHg, semelhante à da visita anterior. Potássio de 4,7 mEq/L. Qual é a conduta mais adequada pelo KDIGO?",
+  "alts": [
+   "Manter o esquema, porque sistólica abaixo de 140 mmHg já é a meta",
+   "Associar anlodipino, buscando sistólica abaixo de 120 mmHg se tolerada",
+   "Associar enalapril à losartana, buscando sistólica abaixo de 120 mmHg",
+   "Aumentar a losartana para 200 mg/dia, buscando sistólica abaixo de 120",
+   "Associar espironolactona 25 mg/dia como terceiro fármaco anti-hipertensivo"
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2021 de pressão arterial na doença renal crônica, reafirmado no KDIGO 2024",
+  "coment": "O KDIGO de pressão arterial de 2021, reafirmado no KDIGO 2024 de doença renal crônica, sugere sistólica abaixo de 120 mmHg em adultos com doença renal e hipertensão, quando tolerada (2B). O alvo vem do SPRINT e só vale com medida padronizada de consultório: aplicado à leitura casual, leva a supertratamento. Alvos menos intensivos cabem na fragilidade, no risco de queda, na expectativa de vida limitada e na hipotensão postural, nada disso presente aqui. O paciente já tem bloqueador do receptor de angiotensina em dose máxima e inibidor de SGLT2; o próximo passo é acrescentar outra classe, como bloqueador de canal de cálcio diidropiridínico ou diurético tiazídico, evitando o duplo bloqueio do sistema renina-angiotensina. A diretriz brasileira de 2025 usa 130/80 mmHg para a maioria.",
+  "porAlt": [
+   "A meta de 140 mmHg é antiga; o KDIGO de 2021, reafirmado em 2024, sugere sistólica abaixo de 120 mmHg em quem tolera.",
+   "Correta: com medida padronizada, a meta do KDIGO é sistólica abaixo de 120 mmHg quando tolerada, e o anlodipino soma efeito sem risco de hipercalemia.",
+   "A combinação de IECA com BRA é contraindicada (1B contra): aumenta hipercalemia e lesão renal aguda sem benefício.",
+   "A losartana já está na maior dose aprovada; ultrapassá-la não é conduta recomendada e não substitui um segundo mecanismo.",
+   "A espironolactona fica para a hipertensão resistente, com quatro fármacos, e aumenta a hipercalemia na filtração reduzida."
+  ]
+ },
+ {
+  "q": "Mulher de 66 anos, diabética, tem doença renal crônica G4 (filtração de 22 mL/min/1,73 m² pela CKD-EPI 2021), fora de diálise. Queixa-se de cansaço. Hemoglobina de 9,4 g/dL, volume corpuscular médio de 86 fL, reticulócitos baixos, ferritina de 85 ng/mL e saturação de transferrina de 34%. Vitamina B12, folato e proteína C reativa normais, pesquisa de sangue oculto negativa e colonoscopia de 2 anos atrás normal. Nunca recebeu ferro nem agente estimulador da eritropoese. Qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Repor ferro e reavaliar a hemoglobina antes de pensar em estimulador",
+   "Iniciar agente estimulador, pois saturação acima de 30% afasta ferropenia",
+   "Iniciar agente estimulador da eritropoese com alvo de hemoglobina de 12 g/dL",
+   "Iniciar inibidor de HIF-prolil-hidroxilase como primeira linha do tratamento",
+   "Transfundir concentrado de hemácias até hemoglobina acima de 10 g/dL"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2026 de anemia na doença renal crônica, limiares de ferro fora da hemodiálise",
+  "coment": "A anemia da doença renal crônica é multifatorial: deficiência relativa de eritropoetina, ferropenia absoluta ou funcional pela hepcidina alta, perdas e inflamação. A KDIGO 2026 de anemia substituiu a de 2012 e separou os limiares de ferro por cenário. Fora da hemodiálise, repõe-se ferro, oral ou venoso, com ferritina abaixo de 100 ng/mL e saturação abaixo de 40%, ou com ferritina de 100 a 300 ng/mL e saturação abaixo de 25%; na hemodiálise, com ferritina de até 500 e saturação de até 30%. Em qualquer cenário, suspende-se com ferritina acima de 700 ou saturação de 40% ou mais. Só depois de repor o ferro, persistindo anemia sintomática, entra o agente estimulador, sem manter hemoglobina de 11,5 g/dL ou mais.",
+  "porAlt": [
+   "Correta: fora da hemodiálise, a KDIGO 2026 indica ferro com ferritina abaixo de 100 ng/mL e saturação abaixo de 40%, antes de qualquer estimulador.",
+   "O limite de saturação de 30% vinha da diretriz de 2012; fora da hemodiálise, a KDIGO 2026 repõe ferro com ferritina abaixo de 100 e saturação abaixo de 40%.",
+   "O estimulador não deve manter hemoglobina de 11,5 g/dL ou mais, porque alvos altos aumentaram AVC, trombose e eventos cardiovasculares.",
+   "O inibidor de HIF-prolil-hidroxilase é alternativa na hiporresposta, intolerância ou impossibilidade do injetável, não primeira linha.",
+   "A transfusão é restritiva e não trata a causa, além de aloimunizar quem pode vir a ser candidato a transplante."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, com doença renal crônica G4 (creatinina basal de 2,6 mg/dL), recebeu há 3 meses calcitriol 0,5 µg/dia e carbonato de cálcio 1 g junto às refeições porque o paratormônio estava em 180 pg/mL, com fósforo normal. É internado com náusea, poliúria, constipação e sonolência leve. Cálcio total de 12,4 mg/dL com albumina de 4,0 g/dL, fósforo de 3,6 mg/dL, creatinina de 3,9 mg/dL, bicarbonato de 26 mEq/L e paratormônio de 35 pg/mL. Eletroforese de proteínas normal, sem lesões ósseas e sem uso de tiazídico ou lítio. Além da hidratação com salina, qual é a conduta mais adequada?",
+  "alts": [
+   "Manter o calcitriol em dose reduzida e associar ácido zoledrônico por via venosa",
+   "Associar cinacalcete, mantendo o calcitriol e o carbonato de cálcio",
+   "Suspender calcitriol e carbonato, e usar quelante sem cálcio se o fósforo subir",
+   "Furosemida venosa em dose alta antes de completar a expansão de volume",
+   "Manter os dois fármacos e iniciar denosumabe 120 mg por via subcutânea"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2017 de distúrbio mineral e ósseo da doença renal crônica, calcitriol e quelante à base de cálcio",
+  "coment": "O quadro é de hipercalcemia iatrogênica com lesão renal aguda: calcitriol aumenta a absorção intestinal de cálcio, e o carbonato de cálcio soma carga; o paratormônio caiu, o que confirma a supressão. A hipercalcemia contrai a arteríola aferente e causa diabetes insípido nefrogênico, e a desidratação piora a excreção de cálcio. O KDIGO 2017 de distúrbio mineral e ósseo, ainda vigente, sugere não usar calcitriol nem análogo de rotina em G3a a G5 fora da diálise, reservando-os para G4 e G5 com hiperparatireoidismo grave e progressivo (2C), recomenda evitar hipercalcemia (2C) e restringir a dose de quelante à base de cálcio (2B). Paratormônio de 180 pg/mL em G4 pedia antes corrigir fósforo, ingestão e deficiência de vitamina D, acompanhando a tendência.",
+  "porAlt": [
+   "Manter a causa e acrescentar bisfosfonato venoso, que exige ajuste na filtração reduzida, inverte a lógica de retirar o agente.",
+   "O cinacalcete não está indicado fora da diálise, e manter calcitriol e carbonato perpetua a hipercalcemia.",
+   "Correta: a hipercalcemia é iatrogênica, e o KDIGO 2017 desaconselha calcitriol de rotina fora da diálise e restringe o quelante à base de cálcio.",
+   "O diurético de alça antes de repor volume agrava a desidratação que reduz a excreção de cálcio.",
+   "Antirreabsortivo não trata hipercalcemia por excesso de calcitriol e carga de cálcio, e o denosumabe causa hipocalcemia na doença renal."
+  ]
+ },
+ {
+  "q": "Homem de 54 anos apresenta edema há 4 meses. Proteinúria de 9,2 g/24 h, albumina de 2,0 g/dL, creatinina de 1,5 mg/dL, com filtração de 52 mL/min/1,73 m² pela CKD-EPI 2021 (era 78 há 4 meses). Anti-PLA2R de 210 RU/mL. A biópsia renal confirmou nefropatia membranosa PLA2R positiva, sem crescentes e com fibrose intersticial de 10%. FAN, complemento, sorologias para hepatites B e C, HIV e sífilis negativos; tomografia de tórax, colonoscopia e antígeno prostático normais. Já usa losartana em dose máxima, furosemida e enoxaparina profilática. Qual é o tratamento mais adequado?",
+  "alts": [
+   "Manter só o suporte por 6 meses, aguardando a remissão espontânea",
+   "Prednisona isolada 1 mg/kg/dia por até 16 semanas, com redução lenta",
+   "Azatioprina associada a prednisona em dose moderada por 12 meses",
+   "Rituximabe, com nova dosagem do anti-PLA2R aos 6 meses",
+   "Plasmaférese seriada até a negativação do anti-PLA2R no soro"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2021 de doenças glomerulares, nefropatia membranosa tratada pelo risco de progressão",
+  "coment": "A nefropatia membranosa primária tem curso variável: cerca de um terço remite espontaneamente, e por isso a KDIGO 2021 trata pelo risco. Não se imunossuprime quem tem função preservada sem fator de risco, mas este paciente reúne vários marcadores de risco alto: filtração abaixo de 60 e em queda, albumina abaixo de 2,5 g/dL, proteinúria muito alta e anti-PLA2R acima de 50 RU/mL. Para quem tem pelo menos um fator de risco, recomenda-se rituximabe, ciclofosfamida alternada com corticoide por 6 meses ou esquema com inibidor de calcineurina, escolhido pelo nível de risco (1B). O rituximabe foi superior à ciclosporina no MENTOR. O anti-PLA2R aos 6 meses avalia a resposta imunológica, que antecede a queda da proteinúria. A anticoagulação profilática se justifica pela albumina baixa.",
+  "porAlt": [
+   "A espera por 6 meses vale só para quem não tem fator de risco nem complicação grave; aqui a filtração já está caindo.",
+   "Corticoide isolado não induz remissão na nefropatia membranosa e expõe à toxicidade sem benefício.",
+   "Azatioprina não faz parte dos esquemas recomendados; as opções são rituximabe, ciclofosfamida com corticoide ou inibidor de calcineurina.",
+   "Correta: há fatores de risco de progressão (filtração abaixo de 60 e em queda, albumina baixa, anti-PLA2R acima de 50), e a KDIGO 2021 recomenda rituximabe ou ciclofosfamida com corticoide (1B).",
+   "A plasmaférese não tem papel no tratamento da nefropatia membranosa; o anticorpo cai com a depleção de linfócitos B."
+  ]
+ },
+ {
+  "q": "Homem de 29 anos teve diagnóstico de nefropatia por IgA em biópsia há 4 meses (Oxford M1 E0 S1 T0 C0, sem crescentes). Desde então usa losartana 100 mg/dia, dose máxima tolerada, e dapagliflozina 10 mg/dia, com sal abaixo de 2 g/dia. Pressão arterial de 118/70 mmHg. A proteinúria caiu de 1,8 para 1,3 g/24 h, a filtração pela CKD-EPI 2021 é de 72 mL/min/1,73 m² e não houve hematúria macroscópica. Não tem diabetes, obesidade, úlcera ou infecção latente. A budesonida de liberação entérica está disponível. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter só o suporte por mais 3 meses antes de qualquer imunossupressão",
+   "Associar sparsentana à losartana, que segue em dose máxima tolerada",
+   "Micofenolato de mofetila por 12 meses para reduzir a proteinúria",
+   "Indicar tonsilectomia para reduzir os episódios de ativação imune",
+   "Budesonida de liberação entérica por 9 meses, mantendo a losartana"
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2025 de nefropatia por IgA e vasculite por IgA, budesonida de liberação entérica",
+  "coment": "A KDIGO 2025 de nefropatia por IgA mudou o tratamento: proteinúria de 0,5 g/dia ou mais, com ou sem tratamento, define risco de progressão, e a meta é proteinúria abaixo de 0,5 g/dia, idealmente abaixo de 0,3, com perda de filtração inferior a 1 mL/min por ano. A diretriz manda tratar juntos a formação de imunocomplexos e a perda de néfrons. O suporte inclui sal abaixo de 2 g/dia, pressão até 120/70 mmHg, IECA ou BRA em dose máxima (1B) e inibidor de SGLT2 (2B), já em uso. Para o eixo imune, sugere-se budesonida de liberação entérica por 9 meses (2B), ou corticoide sistêmico em dose reduzida com profilaxia quando ela não existe. Sparsentana é alternativa ao BRA, nunca somada a ele.",
+  "porAlt": [
+   "Aguardar meses de suporte era a lógica de 2021; desde 2025 o eixo imune e a perda de néfrons são tratados ao mesmo tempo.",
+   "A sparsentana já bloqueia o receptor de angiotensina e não deve ser associada a IECA ou BRA.",
+   "O micofenolato tem evidência apenas em populações chinesas e não é recomendado de rotina.",
+   "A tonsilectomia tem dados só em japoneses e não é recomendada fora desse contexto.",
+   "Correta: proteinúria de 0,5 g/dia ou mais define risco de progressão, e a KDIGO 2025 sugere budesonida entérica por 9 meses (2B) junto ao suporte."
+  ]
+ },
+ {
+  "q": "Mulher de 27 anos, com lúpus eritematoso sistêmico, teve nefrite lúpica classe IV na biópsia (índice de atividade 9/24, cronicidade 1/12). Recebeu pulso de metilprednisolona e segue com prednisona em redução, micofenolato de mofetila 3 g/dia, hidroxicloroquina 400 mg/dia e losartana. Após 6 meses, a relação proteína/creatinina urinária passou de 3,2 para 2,9 g/g, a creatinina segue em 0,9 mg/dL, o C3 continua baixo e o anti-DNA, alto. A farmácia registra retiradas irregulares do micofenolato, e o nível sanguíneo de hidroxicloroquina está baixo. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter o esquema atual, porque a resposta só é avaliada aos 12 meses",
+   "Elevar a prednisona a 1 mg/kg/dia por mais 6 meses, sem outras mudanças",
+   "Suspender o micofenolato e manter só a hidroxicloroquina e a losartana",
+   "Abordar a adesão e mudar o esquema, pela resposta abaixo do marco esperado",
+   "Manter o esquema e repetir a biópsia somente se a creatinina dobrar"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2024 e ACR 2024 de nefrite lúpica, marcos de resposta ao tratamento",
+  "coment": "Na nefrite lúpica proliferativa, as diretrizes de 2024 (KDIGO e ACR) definem marcos de resposta: queda da proteinúria de pelo menos 25% em 3 meses, de 50% em 6 meses e relação proteína/creatinina abaixo de 0,7 g/g em 12 meses, com função renal estável. Esta paciente caiu cerca de 9% em 6 meses, com sorologia ativa. Antes de rotular refratariedade, verifica-se a adesão, a causa mais comum de falha, e aqui as pistas são concretas: retiradas irregulares e nível baixo de hidroxicloroquina. Depois, revisa-se a histologia se necessário e troca-se ou intensifica-se o esquema, como a terapia combinada com belimumabe ou inibidor de calcineurina, ou a mudança para ciclofosfamida. Hidroxicloroquina, bloqueio do sistema renina-angiotensina e controle pressórico seguem para todos.",
+  "porAlt": [
+   "Há marcos intermediários: queda de 25% em 3 meses e de 50% em 6 meses; esperar 12 meses perde tempo de néfron.",
+   "Corticoide em dose alta prolongada aumenta toxicidade e não corrige a falha de adesão nem a escolha do esquema.",
+   "Retirar o imunossupressor de uma nefrite classe IV ativa expõe à progressão para doença renal crônica.",
+   "Correta: a proteinúria deveria ter caído pelo menos 50% em 6 meses; sem esse marco, checa-se adesão e troca-se ou intensifica-se o tratamento.",
+   "Aguardar a creatinina dobrar é tolerar dano irreversível; a falha de resposta já pede revisão da conduta agora."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos tem há 3 semanas febre baixa, artralgias e perda de 4 kg. A creatinina subiu de 1,0 para 4,6 mg/dL em 4 meses. Urina com hematúria dismórfica e cilindros hemáticos, proteinúria de 1,4 g/g. Anti-MPO de 120 UI/mL, anti-membrana basal glomerular negativo, C3 e C4 normais. Sem hemoptise, saturação de 97% em ar ambiente e tomografia de tórax sem hemorragia alveolar. Diurese preservada, potássio de 5,1 mEq/L e sem indicação de diálise. A biópsia renal mostra glomerulonefrite pauci-imune com crescentes celulares em 60% dos glomérulos. Qual é a indução mais adequada?",
+  "alts": [
+   "Rituximabe isolado, sem corticoide, para reduzir as infecções",
+   "Corticoide e azatioprina, deixando a ciclofosfamida para a falha terapêutica",
+   "Corticoide com ciclofosfamida, considerando a plasmaférese",
+   "Pulso de corticoide isolado, sem imunossupressor associado",
+   "Plasmaférese isolada, adiando o corticoide para depois da diálise"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "KDIGO 2024 de vasculite associada ao ANCA, indução conforme a creatinina",
+  "coment": "Glomerulonefrite rapidamente progressiva com anti-MPO e biópsia pauci-imune com crescentes é vasculite associada ao ANCA com acometimento renal grave. O KDIGO 2024 recomenda indução com corticoide associado a ciclofosfamida ou rituximabe (1B), mas, com creatinina acima de cerca de 4 mg/dL, prefere a ciclofosfamida, pela escassez de dados com rituximabe isolado. Desde o PEXIVAS, o corticoide é usado em dose reduzida, e o avacopan pode poupá-lo. A plasmaférese pode ser considerada com creatinina acima de 3,4 mg/dL, diálise ou creatinina em ascensão rápida, e na hemorragia alveolar com hipoxemia. A manutenção é feita com rituximabe, ou azatioprina com corticoide em dose baixa, por 24 a 48 meses. Profilaxia de Pneumocystis acompanha a indução.",
+  "porAlt": [
+   "A indução sempre associa corticoide; o que se reduz é a dose, ou se usa avacopan para poupá-lo, e o rituximabe tem poucos dados nessa faixa de creatinina.",
+   "Azatioprina é fármaco de manutenção, não de indução, e atrasa o controle de uma glomerulonefrite rapidamente progressiva.",
+   "Correta: com creatinina acima de cerca de 4 mg/dL, o KDIGO 2024 prefere ciclofosfamida, e acima de 3,4 mg/dL a plasmaférese pode ser considerada.",
+   "Corticoide isolado deixa de induzir remissão sustentada e permite a progressão para falência renal.",
+   "A plasmaférese é adjuvante e não substitui corticoide e ciclofosfamida, que não esperam diálise."
+  ]
+ },
+ {
+  "q": "Homem de 38 anos, com índice de massa corporal de 43 kg/m² e hipertensão, sem diabetes (hemoglobina glicada de 5,6%), tem edema discreto de membros inferiores. Proteinúria de 4,6 g/24 h, albumina sérica de 3,8 g/dL, creatinina de 1,2 mg/dL (filtração de 76 mL/min/1,73 m² pela CKD-EPI 2021) e sedimento sem hemácias dismórficas. HIV e hepatites negativos, sem história familiar de doença renal e sem uso de fármacos. A biópsia mostra glomeruloesclerose segmentar e focal, variante peri-hilar, com glomerulomegalia e fusão apenas segmentar dos pedicelos. Qual é a conduta mais adequada?",
+  "alts": [
+   "IECA ou BRA em dose máxima, inibidor de SGLT2 e perda de peso, sem imunossupressão",
+   "Prednisona 1 mg/kg/dia por até 16 semanas, com redução lenta",
+   "Ciclosporina por 6 meses como primeira linha do tratamento",
+   "Rituximabe pela podocitopatia, além do bloqueio do sistema renina-angiotensina",
+   "Prednisona em dias alternados associada a estatina e diurético"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2021 de doenças glomerulares, glomeruloesclerose segmentar e focal secundária",
+  "coment": "A KDIGO 2021 divide a glomeruloesclerose segmentar e focal em primária, genética, secundária e de causa indeterminada, e só a primária recebe imunossupressão. A pista clínica é a albumina: proteinúria nefrótica com albumina sérica acima de 3,0 g/dL indica hiperfiltração e forma secundária. A histologia reforça: variante peri-hilar, glomerulomegalia e fusão segmentar dos pedicelos são marcas da forma adaptativa, aqui pela obesidade grave. O tratamento é o suporte: bloqueio do sistema renina-angiotensina em dose máxima, inibidor de SGLT2, que o KDIGO 2024 recomenda com albuminúria elevada (1A), controle pressórico, restrição de sódio e perda de peso, inclusive por cirurgia bariátrica, que reduz a proteinúria. Corticoide e inibidor de calcineurina ficam para a forma primária.",
+  "porAlt": [
+   "Correta: albumina normal com proteinúria nefrótica, variante peri-hilar e fusão segmentar apontam GESF adaptativa, que não se imunossuprime.",
+   "Corticoide em dose alta é a primeira linha só da GESF primária, com síndrome nefrótica completa e fusão difusa dos pedicelos.",
+   "Inibidor de calcineurina é a opção da GESF primária resistente ao corticoide, não da forma secundária.",
+   "Não há podocitopatia por fator circulante aqui; rituximabe não tem lugar na forma adaptativa.",
+   "Qualquer esquema de corticoide expõe a toxicidade sem benefício na GESF secundária à obesidade."
+  ]
+ },
+ {
+  "q": "Homem de 52 anos, etilista, bebe cerca de 6 litros de cerveja por dia e quase não se alimenta há 3 semanas. Chega com náusea, cefaleia e confusão leve, sem vômito, convulsão ou sonolência profunda. Sódio de 112 mEq/L, potássio de 2,9 mEq/L, glicemia de 90 mg/dL, osmolalidade sérica de 236 mOsm/kg, osmolalidade urinária de 68 mOsm/kg e sódio urinário de 12 mEq/L. Sem edema, pressão de 118/74 mmHg. Recebeu 150 mL de salina a 3% em 20 minutos e reposição de potássio; os sintomas melhoraram e o sódio, 1 hora depois, é de 116 mEq/L. Qual é o plano mais adequado para as próximas 24 horas?",
+  "alts": [
+   "Manter salina a 3% em infusão contínua, subindo 1 mEq/L por hora até 130",
+   "Salina a 0,9% em volume com potássio, mirando alta de 12 mEq/L nas primeiras 24 horas",
+   "Teto de 8 mEq/L em 24 h, com sódio a cada 2 horas pela diurese aquosa previsível",
+   "Restrição hídrica de 500 mL/dia associada a ureia oral, como na SIADH",
+   "Tolvaptana 15 mg para acelerar a excreção de água livre e subir o sódio"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "Diretriz europeia de hiponatremia (ESE, ESICM e ERA 2014) e padrão de tratamento de 2024",
+  "coment": "Osmolalidade urinária abaixo de 100 mOsm/kg com sódio urinário baixo indica ingestão de água desproporcional ao soluto: o bebedor de cerveja que não come excreta pouca água livre. O quadro com náusea, cefaleia e confusão é moderadamente grave, e a melhora após o bólus encerra a fase hipertônica. O risco agora é a hipercorreção: ao receber soluto e potássio, que também elevam o sódio, o rim produz grande diurese aquosa e o sódio sobe mais do que qualquer fórmula prevê. Pela diretriz europeia, o limite é de 10 mEq/L nas primeiras 24 horas e 8 a cada 24 horas seguintes; com alcoolismo, desnutrição e hipocalemia, o teto prático é 8 em 24 horas, com dosagem frequente e água livre ou desmopressina se o limite for ultrapassado.",
+  "porAlt": [
+   "A infusão contínua é para quem não melhora após os bólus; aqui os sintomas cederam e mais hipertônica só aumenta o risco de hipercorreção.",
+   "Doze em 24 horas ultrapassa o limite, e volume com potássio eleva o sódio por duas vias ao mesmo tempo.",
+   "Correta: o paciente tem alto risco de desmielinização (álcool, desnutrição, hipocalemia, sódio muito baixo) e urina diluída que vai gerar diurese aquosa abundante.",
+   "Com osmolalidade urinária abaixo de 100, o hormônio antidiurético está suprimido; o problema é pouco soluto, não SIADH.",
+   "A tolvaptana não tem lugar quando o hormônio antidiurético já está suprimido e eleva ainda mais o risco de correção rápida."
+  ]
+ },
+ {
+  "q": "Mulher de 49 anos está no sexto dia após clipagem de aneurisma roto com hemorragia subaracnóidea, em uso de nimodipino. Em 3 dias, o sódio caiu de 139 para 127 mEq/L. Diurese de 4,2 L/24 h com balanço hídrico negativo de 2 litros, perda de 2 kg, pressão de 102/60 mmHg, frequência cardíaca de 112 bpm e veia cava inferior colapsável no ultrassom. Sódio urinário de 160 mEq/L e osmolalidade urinária de 520 mOsm/kg. Cortisol e TSH normais, sem diurético. Está alerta, sem cefaleia nova nem convulsão. Qual é a conduta mais adequada?",
+  "alts": [
+   "Restrição hídrica de 800 mL/dia, pela hipótese de SIADH",
+   "Tolvaptana para elevar o sódio sem administrar volume",
+   "Furosemida com cloreto de sódio oral, como na SIADH",
+   "Repor volume e sódio com salina isotônica, sem restringir água",
+   "Desmopressina para conter a diurese elevada e o sódio"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Diretriz europeia de hiponatremia (ESE, ESICM e ERA 2014) e padrão de tratamento de 2024",
+  "coment": "A distinção entre SIADH e perda cerebral de sal está na volemia. Na SIADH, a paciente é euvolêmica, com diurese normal ou baixa; na perda cerebral de sal, há hipovolemia, diurese alta, natriurese muito acima de 30 mEq/L, taquicardia, hipotensão e veia cava colapsada, como aqui. A diretriz europeia de 2014 coloca o extracelular contraído com sódio urinário alto no ramo da perda renal de sal e recomenda repor volume com salina isotônica ou cristaloide balanceado. Na hemorragia subaracnóidea, a hipovolemia é especialmente perigosa porque favorece isquemia cerebral tardia, e por isso a restrição hídrica é contraindicada. A fludrocortisona pode ser associada para reduzir a natriurese, e a salina hipertônica fica para sintomas graves.",
+  "porAlt": [
+   "Restringir água na perda cerebral de sal agrava a hipovolemia e aumenta o risco de isquemia por vasoespasmo.",
+   "A tolvaptana aumenta a perda de água em quem já está contraído e não está indicada nesse cenário.",
+   "O diurético de alça aprofunda a contração de volume de uma paciente que já perde sódio na urina.",
+   "Correta: hipovolemia com natriurese intensa após hemorragia subaracnóidea é perda cerebral de sal, que se trata repondo sal e volume.",
+   "A desmopressina retém água livre e baixaria ainda mais o sódio, sem corrigir o déficit de sal."
+  ]
+ },
+ {
+  "q": "Homem de 74 anos, internado na terapia intensiva após AVC isquêmico com disfagia, recebe dieta enteral hiperproteica (2,0 g/kg/dia de proteína) com suplemento proteico, sem água livre adicional. No oitavo dia, o sódio é de 156 mEq/L, a ureia de 148 mg/dL, a creatinina de 1,1 mg/dL (estável) e a glicemia de 140 mg/dL. Diurese de 3,4 L/24 h, osmolalidade urinária de 640 mOsm/kg, sódio urinário de 30 mEq/L e potássio urinário de 25 mEq/L. Não recebe manitol nem diurético. Qual é a interpretação e a conduta mais adequadas?",
+  "alts": [
+   "Diabetes insípido central; desmopressina 1 µg por via endovenosa",
+   "Diabetes insípido nefrogênico; tiazídico e restrição de sódio",
+   "Perda extrarrenal de água; cristaloide isotônico em bólus repetidos",
+   "Diurese osmótica pela ureia; dar água livre e reduzir a carga proteica",
+   "Glicosúria pela hiperglicemia; insulina regular em infusão venosa contínua"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Fisiologia da hipernatremia e coortes de correção (Chauhan 2019, Feigin 2023)",
+  "coment": "Diante da hipernatremia, a urina indica a causa. Pouca e concentrada aponta perda extrarrenal; abundante e diluída, diabetes insípido; abundante e não diluída, diurese osmótica. Aqui a osmolalidade urinária é de 640 mOsm/kg, mas os eletrólitos explicam pouco dela: o dobro de sódio mais potássio urinários é 110 mOsm/kg, e o restante é ureia. A dieta hiperproteica, sem água livre, gera ureia que arrasta água na urina e eleva o sódio, e a ureia sérica alta com creatinina estável reforça o diagnóstico. A conduta é repor água livre pela sonda e adequar a proteína. No adulto, coortes como a de Feigin, em 2023, associaram a correção lenta demais a maior mortalidade, sem complicação neurológica atribuída à correção mais rápida.",
+  "porAlt": [
+   "No diabetes insípido a urina é diluída; osmolalidade urinária de 640 mOsm/kg afasta falta ou resistência ao hormônio antidiurético.",
+   "O diabetes insípido nefrogênico também produz urina diluída, e restringir sódio não corrige a carga de ureia.",
+   "Perda extrarrenal produz urina escassa e concentrada, e não diurese de 3,4 litros por dia.",
+   "Correta: urina abundante e concentrada, com eletrólitos urinários baixos, mostra que o soluto é a ureia gerada pela proteína da dieta.",
+   "Glicemia de 140 mg/dL fica abaixo do limiar renal de glicose e não explica a diurese osmótica."
+  ]
+ },
+ {
+  "q": "Mulher de 24 anos, com diabetes tipo 1, suspendeu a insulina e há 4 dias tem vômitos incoercíveis. Glicemia de 486 mg/dL, beta-hidroxibutirato de 5,8 mmol/L, sódio de 138 mEq/L, potássio de 4,8 mEq/L, cloro de 88 mEq/L, bicarbonato de 16 mEq/L, pH de 7,32, PaCO2 de 30 mmHg, albumina de 4,0 g/dL e lactato de 1,6 mmol/L. Qual é a interpretação ácido-base mais adequada?",
+  "alts": [
+   "Cetoacidose com alcalose metabólica somada, pelos vômitos",
+   "Cetoacidose isolada, com compensação respiratória adequada",
+   "Cetoacidose com acidose hiperclorêmica associada à cetonúria",
+   "Cetoacidose com acidose respiratória associada, por hipoventilação",
+   "Cetoacidose com alcalose respiratória primária associada"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Análise ácido-base por compensação, ânion gap e delta-delta (Hamilton e colaboradores, 2017)",
+  "coment": "O método começa pelo pH: acidemia leve, com bicarbonato baixo, ou seja, acidose metabólica. A compensação pela fórmula de Winter prevê PaCO2 de 1,5 vezes 16 mais 8, igual a 32 mais ou menos 2 mmHg; a medida de 30 está dentro, sem distúrbio respiratório. O ânion gap é de 138 menos 104, igual a 34, com albumina normal, por cetoácidos. O delta-delta compara a elevação do gap, 22 acima de 12, com a queda do bicarbonato, de 24 para 16, ou seja, 8. A razão, perto de 2,8, mostra que o bicarbonato estava acima do normal antes da cetoacidose: alcalose metabólica pelos vômitos, compatível com o cloro baixo. O pH quase normal subestima a gravidade da cetoacidose.",
+  "porAlt": [
+   "Correta: o ânion gap subiu 22 enquanto o bicarbonato caiu só 8; havia bicarbonato a mais, gerado pela perda gástrica de ácido.",
+   "A compensação está adequada, mas a razão delta-delta perto de 2,8 denuncia um segundo distúrbio metabólico.",
+   "Na acidose hiperclorêmica somada, o bicarbonato cairia mais do que o gap subiu, o oposto do que se vê aqui.",
+   "A PaCO2 esperada pela fórmula de Winter é de 32 mais ou menos 2; 30 mmHg está dentro, sem retenção de CO2.",
+   "PaCO2 de 30 mmHg está na faixa prevista pela fórmula de Winter, sem alcalose respiratória adicional."
+  ]
+ },
+ {
+  "q": "Mulher de 78 anos, 45 kg, desnutrida, está internada há 10 dias por artrite séptica de joelho, já controlada com antibiótico. Recebe paracetamol 1 g de 6 em 6 horas desde a admissão. Hoje está confusa e taquipneica. pH de 7,21, bicarbonato de 9 mEq/L, PaCO2 de 22 mmHg, sódio de 140 mEq/L, cloro de 106 mEq/L, albumina de 2,8 g/dL, lactato de 1,4 mmol/L, cetonas séricas negativas, glicemia de 98 mg/dL, ureia de 52 mg/dL e creatinina de 1,3 mg/dL. Osmolalidade medida de 292 mOsm/kg, salicilato indetectável. Qual é o diagnóstico mais provável?",
+  "alts": [
+   "Acidose por ácido piroglutâmico ligada ao paracetamol contínuo",
+   "Acidose láctica tipo B pela sepse de foco articular",
+   "Cetoacidose de jejum pela desnutrição prolongada",
+   "Acidose tubular renal distal pela doença renal",
+   "Acidose urêmica pela queda da filtração glomerular"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "Abordagem da acidose de ânion gap elevado e gap osmolar (Hamilton e colaboradores, 2017)",
+  "coment": "A acidose é metabólica e compensada: a PaCO2 esperada é de 1,5 vezes 9 mais 8, cerca de 21,5, e a medida é de 22. O ânion gap é de 140 menos 115, igual a 25, e corrigido pela albumina, cerca de 28. As causas habituais foram afastadas: lactato normal, cetonas negativas, ureia pouco elevada e gap osmolar desprezível, pois a osmolalidade calculada (duas vezes o sódio mais glicose sobre 18 mais ureia sobre 6) é de cerca de 294 mOsm/kg. Restam as causas que a rotina não mede, entre elas o ácido piroglutâmico. O paracetamol contínuo consome glutationa, e desnutrição, sexo feminino, sepse e doença renal favorecem o acúmulo de 5-oxoprolina. A conduta é suspender o paracetamol; a acetilcisteína repõe glutationa.",
+  "porAlt": [
+   "Correta: ânion gap alto sem lactato, cetonas, uremia ou gap osmolar, em idosa desnutrida com paracetamol diário, sugere 5-oxoprolina.",
+   "O lactato é de 1,4 mmol/L e a infecção está controlada; não há acidose láctica que explique um gap tão alto.",
+   "As cetonas séricas são negativas, o que afasta cetoacidose de jejum como causa do gap.",
+   "A acidose tubular distal tem ânion gap normal, hiperclorêmica, e aqui o gap corrigido passa de 25.",
+   "Ureia de 52 mg/dL e creatinina de 1,3 mg/dL não produzem acidose urêmica dessa magnitude."
+  ]
+ },
+ {
+  "q": "Homem de 68 anos, com DPOC grave, tem no ambulatório PaCO2 habitual de 58 mmHg e bicarbonato de 34 mEq/L. Foi intubado por exacerbação com pH de 7,18, PaCO2 de 92 mmHg e bicarbonato de 34 mEq/L. Seis horas depois, com frequência respiratória de 24 incursões por minuto e volume corrente de 7 mL/kg, a gasometria mostra pH de 7,58, PaCO2 de 38 mmHg e bicarbonato de 35 mEq/L. Surgiram mioclonias e extrassístoles ventriculares. Potássio de 3,6 mEq/L e cloro de 92 mEq/L. Qual é a conduta mais adequada?",
+  "alts": [
+   "Aumentar a frequência respiratória para eliminar mais CO2",
+   "Manter a ventilação, pois o rim corrige o pH em poucas horas",
+   "Iniciar furosemida para eliminar o bicarbonato acumulado",
+   "Manter a PaCO2 em 40 mmHg e infundir salina com potássio",
+   "Reduzir a ventilação minuto, mirando a PaCO2 habitual dele"
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "uti",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "Análise ácido-base e alcalose pós-hipercápnica (Hamilton e colaboradores, 2017)",
+  "coment": "No DPOC hipercápnico crônico, o rim retém bicarbonato ao longo de dias para compensar a acidose respiratória: PaCO2 de 58 com bicarbonato de 34 é compatível com compensação crônica, cerca de 3,5 mEq/L por 10 mmHg de CO2. Ao ventilar até PaCO2 normal, remove-se o CO2 em minutos, mas o bicarbonato permanece, e o resultado é alcalose metabólica pós-hipercápnica com pH elevado, que causa mioclonia, convulsão, arritmia e desvio da curva de dissociação da hemoglobina. A prevenção e o tratamento consistem em ajustar o ventilador para a PaCO2 habitual do paciente, e não para o valor normal. Repor cloro e potássio facilita a excreção renal do bicarbonato ao longo dos dias seguintes, como adjuvante.",
+  "porAlt": [
+   "Lavar ainda mais CO2 aprofunda a alcalemia que já causa mioclonia e arritmia.",
+   "O rim leva dias para excretar o bicarbonato compensatório; esperar com pH de 7,58 expõe a convulsão e arritmia.",
+   "O diurético de alça contrai o volume e perde cloro e potássio, o que mantém a alcalose metabólica.",
+   "Salina e potássio ajudam o rim a perder bicarbonato, mas não resolvem a alcalemia imediata criada pela PaCO2 normalizada.",
+   "Correta: é alcalose pós-hipercápnica: o bicarbonato retido em dias não sai em horas, e ventilar até a PaCO2 de base evita a alcalemia."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos, com osteoporose, toma por conta própria carbonato de cálcio 1.500 mg três vezes ao dia, bicarbonato de sódio para dispepsia e colecalciferol 1.000 UI/dia. Há 5 dias tem vômitos, poliúria e confusão. Pressão de 108/64 mmHg, mucosas secas. Cálcio total de 14,2 mg/dL com albumina de 4,0 g/dL, fósforo de 4,1 mg/dL, bicarbonato de 34 mEq/L, creatinina de 2,6 mg/dL (basal de 0,9), paratormônio de 8 pg/mL, PTHrP indetectável, 25-hidroxivitamina D de 38 ng/mL, eletroforese de proteínas normal e tomografia de tórax sem lesões. Além de suspender os suplementos, qual é a conduta mais adequada?",
+  "alts": [
+   "Ácido zoledrônico 4 mg venoso, como se faz em toda hipercalcemia grave",
+   "Furosemida em dose alta já, antes da expansão do volume extracelular",
+   "Salina isotônica e controle seriado do cálcio, sem bisfosfonato",
+   "Denosumabe 120 mg subcutâneo para bloquear a reabsorção óssea",
+   "Prednisona 40 mg/dia pela suspeita de produção de calcitriol"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Síndrome leite-álcali: série de Picolos e colaboradores (2005) e revisão de Medarov (2009)",
+  "coment": "A tríade de hipercalcemia, alcalose metabólica e lesão renal aguda, com paratormônio e PTHrP suprimidos, em quem ingere muito carbonato de cálcio e álcali, define a síndrome leite-álcali, hoje uma das causas frequentes de hipercalcemia no internado. O ciclo se autoalimenta: a hipercalcemia causa natriurese e contração de volume, a contração mantém a alcalose, e a alcalose aumenta a reabsorção tubular de cálcio. O tratamento é suspender cálcio, álcali e vitamina D e repor volume com salina, com furosemida apenas se houver sobrecarga. Em séries de casos, os pacientes tratados com bisfosfonato evoluíram com hipocalcemia, porque a absorção intestinal cessa ao retirar o suplemento e o osso segue captando cálcio; por isso o antirreabsortivo fica reservado para casos selecionados.",
+  "porAlt": [
+   "A reabsorção óssea não é o mecanismo, e nas séries de casos o bisfosfonato causou hipocalcemia na maioria dos tratados.",
+   "Diurético antes de repor volume agrava a desidratação, a lesão renal e a própria alcalose.",
+   "Correta: na síndrome leite-álcali, hidratar e retirar a fonte de cálcio e álcali bastam, e o bisfosfonato provoca hipocalcemia de rebote.",
+   "O antirreabsortivo potente não trata a absorção intestinal de cálcio e aumenta o risco de hipocalcemia tardia.",
+   "Não há granulomatose nem linfoma; a vitamina D está normal e a causa é a ingestão de cálcio com álcali."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos, com doença de Crohn e ressecção ileal de 80 cm há 6 anos, tem diarreia crônica com esteatorreia e três cálculos de oxalato de cálcio em 2 anos, confirmados por espectroscopia no infravermelho. Evita laticínios por conta própria. A urina de 24 horas, colhida em casa 3 meses após o último episódio, mostra volume de 1,1 L, oxalato de 78 mg, citrato de 180 mg, cálcio de 90 mg e pH de 5,4. Creatinina normal. Qual é a medida preventiva mais adequada?",
+  "alts": [
+   "Hidroclorotiazida para reduzir a excreção urinária de cálcio",
+   "Restringir ainda mais o cálcio da dieta para conter os cálculos",
+   "Alopurinol para reduzir a nucleação de cristais de oxalato",
+   "Lumasirana pela hipótese de hiperoxalúria primária do tipo 1",
+   "Cálcio nas refeições, menos gordura e oxalato, mais líquido e citrato"
+  ],
+  "gab": 4,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "EAU 2026 de urolitíase, hiperoxalúria entérica e prevenção pela composição do cálculo",
+  "coment": "A ressecção ileal causa má absorção de gordura, que sequestra o cálcio no lúmen; o oxalato fica livre e é absorvido no cólon, produzindo hiperoxalúria entérica. A diarreia acrescenta volume urinário baixo e hipocitratúria, e o pH ácido completa o quadro. A diretriz europeia de urolitíase de 2026 recomenda cálcio junto das refeições para ligar o oxalato no intestino (forte), dieta pobre em gordura e em oxalato, e sugere hidratação e citrato alcalino (fraca), meta de diurese de 2,0 a 2,5 L/dia. Evitar laticínios, como esta paciente fez, é o erro mais comum, porque aumenta a absorção de oxalato. Tiazídico serve à hipercalciúria; lumasirana e piridoxina, à hiperoxalúria primária.",
+  "porAlt": [
+   "O cálcio urinário está baixo; tiazídico não corrige o defeito, que é a absorção de oxalato no cólon.",
+   "Restringir cálcio deixa mais oxalato livre no intestino, aumenta sua absorção e piora os cálculos.",
+   "O ácido úrico não é o problema aqui; o alopurinol só tem papel na hiperuricosúria com cálculo de oxalato.",
+   "A hiperoxalúria primária começa na infância; aqui a causa é a má absorção de gordura após a ressecção ileal.",
+   "Correta: na hiperoxalúria entérica, o cálcio junto da refeição liga o oxalato no intestino, e a diarreia exige mais líquido e citrato pela hipocitratúria."
+  ]
+ },
+ {
+  "q": "Homem de 22 anos tem o terceiro episódio de cólica renal em 4 anos, com cálculos múltiplos e bilaterais, pouco radiopacos. O pai também forma cálculos. O sedimento urinário mostra cristais hexagonais. A urina de 24 horas tem cistina de 4,2 mmol/dia, pH de 6,0 e volume de 1,8 L, com função renal normal. Qual é o esquema preventivo mais adequado?",
+  "alts": [
+   "Diurese de 2 L/dia, tiazídico e restrição do cálcio da dieta",
+   "Acidificar a urina com cloreto de amônio e metionina oral",
+   "Alopurinol e alcalinização mirando pH urinário entre 6,0 e 6,5",
+   "Diurese acima de 3 L/dia, pH urinário acima de 7,5 e tiopronina",
+   "Litotripsia extracorpórea anual dos cálculos, sem mudança de dieta"
+  ],
+  "gab": 3,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "r3",
+  "base": "EAU 2026 de urolitíase, tratamento da cistinúria",
+  "coment": "A cistinúria é defeito autossômico recessivo do transportador proximal de aminoácidos dibásicos; só a cistina importa, por ser pouco solúvel no pH urinário habitual. Os cristais hexagonais no sedimento são diagnósticos, e os cálculos são múltiplos, recorrentes, de início na juventude e pouco opacos. A diretriz europeia de 2026 recomenda volume urinário acima de 3 L/dia, o que exige beber também à noite, e alcalinização para pH acima de 7,5 com citrato de potássio, ambos com força forte, além de menos sal e menos proteína animal. Quando a excreção de cistina é de 3 mmol/dia ou mais, ou os cálculos recorrem apesar disso, acrescenta-se tiopronina, que forma com a cistina um dissulfeto solúvel. A litotripsia extracorpórea funciona mal nesses cálculos.",
+  "porAlt": [
+   "Esse esquema é o da hipercalciúria; a cistina depende de diluição e pH alto, e restringir cálcio não ajuda.",
+   "Acidificar reduz ainda mais a solubilidade da cistina, que só aumenta em urina alcalina.",
+   "O alopurinol não atua na cistina, e pH de 6,0 a 6,5 é insuficiente para solubilizá-la.",
+   "Correta: na cistinúria, a EAU 2026 pede diurese acima de 3 L/dia e pH acima de 7,5, e tiopronina com cistina de 3 mmol/dia ou mais.",
+   "Os cálculos de cistina respondem mal à litotripsia extracorpórea, e a prevenção clínica é o que evita a recorrência."
+  ]
+ },
+ {
+  "q": "Homem de 58 anos, em diálise peritoneal ambulatorial contínua há 2 anos, procura o pronto-socorro do hospital onde é acompanhado por dor abdominal difusa e efluente turvo há 12 horas. Temperatura de 37,9 °C, pressão de 132/80 mmHg, frequência cardíaca de 96 bpm, abdome doloroso sem defesa localizada. O efluente tem 1.250 leucócitos/µL com 82% de neutrófilos. Óstio e túnel do cateter sem secreção. Celularidade, Gram e cultura em frasco de hemocultura foram colhidos. Não tem alergias. Qual é a conduta mais adequada?",
+  "alts": [
+   "Aguardar o Gram e a cultura do efluente para escolher o antibiótico mais adequado",
+   "Antibiótico intraperitoneal para Gram-positivos e negativos, com antifúngico",
+   "Vancomicina venosa isolada até a identificação do germe na cultura",
+   "Retirar o cateter peritoneal e transferir para a hemodiálise",
+   "Tomografia e laparotomia exploradora antes de qualquer antibiótico"
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ISPD 2022 de peritonite na diálise peritoneal, prevenção e tratamento",
+  "coment": "Pela ISPD 2022, o diagnóstico de peritonite exige dois de três critérios: dor abdominal ou efluente turvo, leucócitos acima de 100/µL com mais de 50% de neutrófilos após permanência de pelo menos 2 horas, e cultura positiva. Este paciente preenche os dois primeiros. Recomenda-se iniciar antibiótico empírico o quanto antes após a coleta (1B), cobrindo Gram-positivos com cefalosporina de primeira geração ou vancomicina e Gram-negativos com cefalosporina de terceira geração ou aminoglicosídeo (1B), com cefepima isolada como alternativa. A via intraperitoneal é preferida, salvo sepse sistêmica (1B), e a profilaxia antifúngica acompanha todo curso de antibiótico (1B). O cateter é retirado na forma refratária, na fúngica e a considerar nas recidivantes.",
+  "porAlt": [
+   "Cada hora de atraso no antibiótico aumenta o risco de falha da técnica ou morte; a cultura orienta o ajuste, não o início.",
+   "Correta: peritonite confirmada pede início imediato de cobertura dupla, de preferência intraperitoneal, com profilaxia antifúngica pela ISPD 2022.",
+   "A cobertura empírica precisa incluir Gram-negativos, e a via intraperitoneal é preferida sem sepse sistêmica.",
+   "A retirada do cateter fica para peritonite refratária após 5 dias, fúngica ou recidivante, não para o primeiro dia.",
+   "Sem flora mista nem sinal de perfuração, o quadro é de peritonite da diálise, não de abdome cirúrgico."
+  ]
+ },
+ {
+  "q": "Mulher de 46 anos, transplantada renal de doador falecido há 3 anos, usa tacrolimo (último nível de 6,1 ng/mL), micofenolato de sódio 720 mg de 12 em 12 horas e prednisona 5 mg/dia, com creatinina basal de 1,2 mg/dL. Há 6 dias recebeu claritromicina 500 mg de 12 em 12 horas numa unidade de pronto atendimento por pneumonia comunitária. Agora tem tremor e cefaleia. Creatinina de 1,9 mg/dL, potássio de 5,8 mEq/L, magnésio de 1,3 mg/dL e glicemia de 210 mg/dL. Doppler do enxerto normal, sem hidronefrose, urina sem leucocitúria. Qual é a conduta mais adequada?",
+  "alts": [
+   "Dosar o tacrolimo e trocar a claritromicina por azitromicina, ajustando a dose",
+   "Pulso de metilprednisolona pela suspeita de rejeição celular aguda",
+   "Biópsia do enxerto antes de qualquer ajuste na prescrição imunossupressora atual",
+   "Aumentar a dose do tacrolimo pela suspeita de rejeição aguda",
+   "Trocar o tacrolimo por ciclosporina, mantendo a claritromicina"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2009 de cuidado do receptor de transplante renal, interações dos inibidores de calcineurina",
+  "coment": "Tacrolimo, ciclosporina e inibidores de mTOR são metabolizados pelo citocromo P450 3A4 e pela glicoproteína P. Inibidores como claritromicina, azólicos, diltiazem, verapamil e ritonavir elevam o nível e causam nefrotoxicidade por vasoconstrição da arteríola aferente, além de tremor, hipercalemia, hipomagnesemia e hiperglicemia, exatamente o quadro desta paciente. Indutores como rifampicina e carbamazepina fazem o oposto e provocam rejeição. A conduta é dosar o tacrolimo, suspender o inibidor, trocar por azitromicina, o macrolídeo habitual no transplantado, e ajustar a dose pelo nível. Se a creatinina não voltar com nível adequado, investiga-se rejeição, BK e outras causas, com biópsia lida pelos critérios de Banff, que o KDIGO 2009 manda fazer antes de tratar rejeição.",
+  "porAlt": [
+   "Correta: a claritromicina inibe o CYP3A4 e eleva o tacrolimo, que causa nefrotoxicidade, tremor, hipercalemia, hipomagnesemia e hiperglicemia.",
+   "O quadro tem explicação farmacológica evidente; tratar rejeição sem biópsia e sem nível do fármaco expõe a imunossupressão desnecessária.",
+   "A biópsia fica para quando o nível e a retirada da interação não explicarem a disfunção do enxerto.",
+   "Aumentar o tacrolimo agravaria a toxicidade de um nível que provavelmente já está alto.",
+   "A ciclosporina também depende do CYP3A4 e sofreria a mesma interação com a claritromicina."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos faz hemodiálise por cateter tunelizado em jugular interna direita há 4 meses, enquanto a fístula arteriovenosa amadurece. Teve calafrios durante a sessão e febre de 38,9 °C. As hemoculturas pareadas, do cateter e periférica, cresceram Staphylococcus aureus sensível à oxacilina em 14 horas. Recebeu vancomicina empírica após a sessão. Pressão de 118/70 mmHg, sem sopro cardíaco novo e óstio sem secreção. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter o cateter com selo de antibiótico por 14 dias de tratamento",
+   "Retirar o cateter, temporário em outro sítio, e trocar para cefazolina",
+   "Trocar o cateter por fio-guia no mesmo sítio e manter vancomicina",
+   "Manter o cateter e a vancomicina por 7 dias, com hemocultura ao término",
+   "Retirar o cateter e suspender o antibiótico 72 horas após a retirada"
+  ],
+  "gab": 1,
+  "tema": "nefro",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "IDSA 2009 de infecção relacionada a cateter intravascular, cateter de hemodiálise",
+  "coment": "Febre ou calafrio durante a hemodiálise em quem tem cateter é infecção de corrente sanguínea relacionada ao cateter até prova em contrário. A diretriz da IDSA de 2009 manda retirar o cateter quando o agente é Staphylococcus aureus, Pseudomonas ou Candida, colocando cateter temporário em outro sítio (AII). Para o S. aureus sensível à oxacilina, troca-se a vancomicina por cefazolina 20 mg/kg após cada sessão (AII), porque os betalactâmicos são superiores no germe sensível. A duração é de 4 a 6 semanas se a bacteremia persistir mais de 72 horas após a retirada ou se houver endocardite ou tromboflebite supurativa, o que exige ecocardiograma. Para outros germes, com resposta em 2 a 3 dias, aceita-se troca por fio-guia ou selo de antibiótico.",
+  "porAlt": [
+   "Selo de antibiótico é opção para outros germes com boa resposta, não para S. aureus.",
+   "Correta: bacteremia por S. aureus exige retirar o cateter, e o germe sensível é tratado com cefazolina após cada sessão.",
+   "A troca por fio-guia no mesmo sítio não se aplica ao S. aureus, e vancomicina é inferior à cefazolina no germe sensível.",
+   "Manter o cateter na bacteremia por S. aureus aumenta recidiva, endocardite e infecção metastática.",
+   "A bacteremia por S. aureus exige curso completo, de 4 a 6 semanas se persistir após 72 horas ou houver endocardite."
+  ]
+ },
+ {
+  "q": "Mulher de 83 anos, com fibrilação atrial não valvar e alto risco tromboembólico, vai iniciar rivaroxabana. Pesa 49 kg, mede 1,53 m (superfície corporal de 1,44 m²) e tem creatinina estável de 1,0 mg/dL, com filtração estimada pela CKD-EPI 2021 de 56 mL/min/1,73 m². Não usa fármacos que interajam com a rivaroxabana, não tem sangramento prévio e a hemoglobina é normal. Qual é a dose mais adequada?",
+  "alts": [
+   "15 mg/dia, pela filtração desindexada de cerca de 47 mL/min",
+   "20 mg/dia, pela filtração indexada de 56 mL/min/1,73 m² da paciente",
+   "10 mg/dia, pela idade acima de 80 anos e pelo baixo peso",
+   "Contraindicada, pela idade e pelo peso abaixo de 50 kg",
+   "15 mg de 12 em 12 horas nas três primeiras semanas"
+  ],
+  "gab": 0,
+  "tema": "nefro",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "KDIGO 2024 de doença renal crônica (ponto de prática 4.2.4) e ESC 2024 de fibrilação atrial",
+  "coment": "A filtração estimada pela CKD-EPI 2021 é a régua do KDIGO 2024 para estadiar e, na maioria das situações, para ajustar dose. A unidade mL/min/1,73 m² serve para comparar rins; a depuração do fármaco acompanha a filtração absoluta. Por isso, nos extremos de tamanho corporal e com fármacos de janela estreita, como os anticoagulantes diretos, o ponto de prática 4.2.4 manda desindexar: filtração indexada vezes superfície corporal, dividida por 1,73. Nesta paciente, 56 vira cerca de 47 mL/min, abaixo do corte de 50 da rivaroxabana, cuja dose na fibrilação atrial cai de 20 para 15 mg/dia com depuração de 15 a 49. Trocar de fórmula não é a solução: a régua continua a mesma, apenas expressa em valor absoluto.",
+  "porAlt": [
+   "Correta: em quem está longe de 1,73 m² e usa fármaco de janela estreita, o KDIGO 2024 desindexa a filtração: 56 vezes 1,44 dividido por 1,73 dá cerca de 47 mL/min, faixa de 15 mg.",
+   "O valor indexado superestima a filtração absoluta da paciente pequena e levaria à dose plena acima do corte de 50 mL/min.",
+   "Não há dose de 10 mg/dia para fibrilação atrial; idade e peso não reduzem a rivaroxabana por si.",
+   "Idade e baixo peso não contraindicam o anticoagulante direto; subdosar ou negar por medo do rim aumenta AVC.",
+   "Esse esquema de ataque é o do tromboembolismo venoso, não o da prevenção de AVC na fibrilação atrial."
+  ]
+ },
+ {
+  "q": "Homem de 76 anos, com doença renal crônica G4 (filtração de 19 mL/min/1,73 m² pela CKD-EPI 2021), está internado por fratura de colo de fêmur, aguardando cirurgia. Recebe morfina 5 mg por via subcutânea de 4 em 4 horas há 3 dias. Nos primeiros 2 dias estava bem; hoje está sonolento, com mioclonias, miose e frequência respiratória de 10 por minuto. Naloxona 0,04 mg melhorou o nível de consciência, mas a sonolência voltou em 1 hora. Glicemia e sódio normais. Qual é a conduta analgésica mais adequada?",
+  "alts": [
+   "Reduzir a morfina à metade e manter o mesmo intervalo",
+   "Trocar a morfina por tramadol de liberação prolongada",
+   "Suspender a morfina e passar a fentanil em dose baixa",
+   "Trocar a morfina por codeína associada ao paracetamol",
+   "Trocar a morfina por meperidina em dose baixa e espaçada"
+  ],
+  "gab": 2,
+  "tema": "nefro",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "KDIGO 2024 de doença renal crônica (ajuste de fármacos) e critérios de Beers 2023",
+  "coment": "Morfina e codeína são metabolizadas no fígado em glicuronídeos ativos, de excreção renal. No renal crônico, eles acumulam ao longo dos dias, e o quadro típico é o do paciente que vai bem nas primeiras doses e fica sonolento, com mioclonia, miose e depressão respiratória, no terceiro dia. A naloxona reverte, mas o metabólito dura mais que ela, e a depressão retorna; muitas vezes é preciso infusão enquanto o metabólito é eliminado. A solução definitiva é trocar o opioide. O KDIGO 2024 orienta ajustar fármacos pela filtração estimada pela CKD-EPI 2021, e o Beers 2023 lista os opioides a reduzir ou evitar; fentanil, buprenorfina e metadona são os preferidos na doença renal avançada. Meperidina e codeína devem ser evitadas.",
+  "porAlt": [
+   "Reduzir a dose ainda deixa o metabólito ativo acumular, e a toxicidade volta nos dias seguintes.",
+   "O tramadol de liberação prolongada deve ser evitado com depuração abaixo de 30 mL/min, pelo acúmulo e pelo risco de convulsão.",
+   "Correta: os glicuronídeos da morfina acumulam na filtração baixa, e o fentanil não tem metabólito ativo de excreção renal relevante.",
+   "A codeína é convertida em morfina e compartilha os mesmos metabólitos que acumulam no renal crônico.",
+   "A normeperidina acumula, causa convulsão e não é revertida pela naloxona."
+  ]
+ }
+]

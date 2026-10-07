@@ -1,0 +1,722 @@
+[
+ {
+  "q": "Mulher de 34 anos tem asma desde a infância, confirmada por espirometria com aumento de 17% e 340 mL do VEF₁ após broncodilatador. Usa fluticasona-salmeterol 250/50 mcg, 1 inalação de 12 em 12 horas, e salbutamol de alívio. Nas últimas 4 semanas teve sintomas diurnos 4 vezes por semana, acordou 2 vezes à noite por asma e usou salbutamol quase todos os dias; precisou de prednisona por 5 dias há 2 meses. A técnica inalatória foi demonstrada e está correta, a dispensação na farmácia confirma a adesão, não fuma e a rinite está controlada com corticoide nasal. VEF₁ de 74% do previsto. Ela pergunta se pode usar budesonida-formoterol quando a falta de ar apertar, como faz uma amiga. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter fluticasona-salmeterol e usar budesonida-formoterol no alívio",
+   "Passar a fluticasona-salmeterol para 500/50 mcg em duas tomadas diárias",
+   "Trocar tudo por budesonida-formoterol em MART na dose média",
+   "Associar tiotrópio à fluticasona-salmeterol e manter o salbutamol",
+   "Encaminhar para omalizumabe por asma grave não controlada"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "GINA 2026, trilha 1 com ICS-formoterol em MART na etapa 4",
+  "coment": "A asma está não controlada (três dos quatro itens de controle) e com risco futuro alto, apesar de técnica e adesão conferidas, que é o que se exige antes de subir etapa. Ela está na etapa 4 da trilha 2: propionato de fluticasona 500 mcg/dia é dose média, com LABA e SABA de alívio. O GINA 2026 mantém a trilha 1 como preferencial: ICS-formoterol como manutenção e alívio, que na etapa 4 é budesonida-formoterol 160/4,5 mcg, 2 inalações de 12 em 12 horas e 1 inalação sempre que precisar, procurando atendimento se passar de 12 inalações em 24 horas. Nos ensaios, o MART reduziu crises graves em 32% contra a mesma dose de ICS-LABA e em 23% contra dose maior. O que não existe é misturar: formoterol como alívio sobre manutenção com salmeterol. LAMA, azitromicina e biológicos ficam para a etapa 5.",
+  "porAlt": [
+   "O GINA não recomenda ICS-formoterol como alívio de quem mantém outro LABA na manutenção, por falta de evidência e risco de efeitos somados.",
+   "Dobrar o ICS-LABA com SABA protege menos de crise grave que o MART, e a dose alta acrescenta efeito adverso com pouco ganho.",
+   "Correta: o MART com budesonida-formoterol na etapa 4 reduz crises graves em relação ao ICS-LABA com SABA, com um único inalador para manutenção e alívio.",
+   "O antimuscarínico de longa ação pertence à etapa 5, depois de otimizar a etapa 4, e reduz crises bem menos que a troca para o MART.",
+   "Ela não preenche asma grave: ainda não falhou com ICS-LABA em dose alta otimizada, e o biológico vem depois da fenotipagem."
+  ]
+ },
+ {
+  "q": "Homem de 46 anos, lavrador no interior da Bahia, tem asma de início aos 38 anos e polipose nasal operada duas vezes. Usa budesonida-formoterol 160/4,5 mcg em MART, 2 inalações de 12 em 12 horas, mais tiotrópio, com técnica conferida e adesão comprovada, e precisou de 3 cursos de prednisona no último ano. Eosinófilos de 820/µL em dois hemogramas colhidos fora de corticoide, FeNO de 46 ppb, IgE total de 310 UI/mL e teste cutâneo negativo para aeroalérgenos. Trabalha descalço na lavoura e refere episódios de dor epigástrica e diarreia. Sem sinais de vasculite, neuropatia ou lesão renal. A equipe decidiu iniciar um anti-IL-5. Antes da primeira dose, qual é a medida mais adequada?",
+  "alts": [
+   "Repetir os eosinófilos após um novo curso de prednisona",
+   "Biópsia de mucosa nasal para afastar granulomatose eosinofílica",
+   "Trocar o MART por fluticasona-salmeterol em dose alta",
+   "Suspender o tiotrópio para medir o efeito isolado do biológico",
+   "Pesquisar estrongiloidíase e tratar com ivermectina se positiva"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "GINA 2026, avaliação antes de corticoide ou biológico na asma grave eosinofílica",
+  "coment": "É asma grave eosinofílica de início adulto com polipose, perfil com boa resposta esperada a anti-IL-5, anti-IL-5Rα ou anti-IL-4Rα. O GINA 2026 manda, diante de eosinófilos de 300/µL ou mais, pesquisar e tratar estrongiloidíase antes de iniciar corticoide ou biológico, porque a imunomodulação pode precipitar hiperinfecção e disseminação, quadro frequentemente fatal. Aqui a pista é dupla: eosinofilia alta e epidemiologia de contato com solo, com queixas digestivas. Os eosinófilos acima de 1.500/µL levariam a pensar em granulomatose eosinofílica com poliangiite. A fenotipagem deve ser feita fora do corticoide oral, que suprime os marcadores, como foi o caso. Iniciado o biológico, a resposta é julgada após pelo menos 4 meses, mantendo o MART, e o primeiro a ser reduzido é o corticoide oral.",
+  "porAlt": [
+   "O corticoide oral suprime os eosinófilos e falsearia a fenotipagem, além de expor o paciente à hiperinfecção se houver Strongyloides.",
+   "Granulomatose eosinofílica entra na suspeita com eosinófilos acima de 1.500/µL ou sinais sistêmicos, ausentes aqui.",
+   "Quem usa MART não deve ser trocado para ICS-LABA com SABA, e trocar de esquema não resolve a asma grave eosinofílica.",
+   "Não há motivo para retirar o tiotrópio, que reduz crises na etapa 5 e é mantido junto com o biológico.",
+   "Correta: com eosinófilos acima de 300/µL e epidemiologia sugestiva, a estrongiloidíase deve ser pesquisada e tratada antes de corticoide ou biológico, pelo risco de disseminação."
+  ]
+ },
+ {
+  "q": "Mulher de 27 anos procura o pronto-socorro com crise de asma há 2 dias, após resfriado. Usava apenas salbutamol, cerca de 1 frasco a cada 2 meses, e nunca recebeu corticoide inalatório. Na chegada falava frases curtas, FR 26 irpm, SpO₂ 93% em ar ambiente e PFE de 52% do previsto. Recebeu salbutamol com ipratrópio 3 vezes e prednisolona 50 mg por via oral. Duas horas após a última nebulização está confortável, deitada, FR 18 irpm, SpO₂ 96% em ar ambiente e PFE de 78% do previsto. Mora com o marido e consegue consulta com o clínico em 5 dias. Qual é a prescrição de alta mais adequada?",
+  "alts": [
+   "Budesonida-formoterol em MART e prednisolona por 5 a 7 dias",
+   "Salbutamol de alívio e prednisolona 40 mg/dia por 10 dias com desmame",
+   "Budesonida 200 mcg de 12/12 h, salbutamol e sem corticoide oral",
+   "Fluticasona-salmeterol, salbutamol e prednisolona por 3 dias",
+   "Budesonida-formoterol só no alívio e prednisolona por 5 dias"
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "GINA 2026, critérios de alta e tratamento após crise de asma no pronto-socorro",
+  "coment": "A crise foi moderada e ela preenche os critérios de alta do GINA 2026: padrão de crise leve mantido 1 a 2 horas após o último broncodilatador, SpO₂ de pelo menos 92% em ar ambiente, PFE acima de 70% do previsto e condições em casa. O que se prescreve na saída decide a próxima crise. Corticoide inalatório é obrigatório, e a preferência é o MART começando na etapa 4, que reduziu crises no ano seguinte em 32% em comparação com ICS-LABA na mesma dose com SABA. O corticoide oral é prednisolona equivalente a 40 a 50 mg/dia por 5 a 7 dias, sem desmame. Somam-se revisão da técnica, plano de ação escrito e retorno em 2 a 7 dias. Ela estava só com SABA, o que por si é marcador de risco de asma fatal.",
+  "porAlt": [
+   "Correta: a alta sai com corticoide inalatório, de preferência MART começando na etapa 4, e prednisolona de 40 a 50 mg/dia por 5 a 7 dias, sem desmame.",
+   "Alta com SABA isolado mantém o principal fator de risco de nova crise e de morte, e o curso de corticoide não precisa de 10 dias nem de desmame.",
+   "Depois de uma crise moderada o corticoide oral é indicado, e corticoide em dose baixa com SABA protege menos que o MART.",
+   "Três dias de prednisolona ficam abaixo do curso recomendado, e o ICS-LABA com SABA reduz menos crises no ano seguinte que o MART.",
+   "Após apresentação em crise o GINA orienta começar a manutenção em MART na dose média, e não apenas o alívio anti-inflamatório."
+  ]
+ },
+ {
+  "q": "Homem de 31 anos usa budesonida 200 mcg de 12 em 12 horas há 2 anos, prescrita num pronto-atendimento após um episódio de tosse e chiado durante resfriado. Nunca fez espirometria. Está assintomático há 6 meses, sem despertares e sem uso de alívio. A espirometria de hoje, feita com o salbutamol suspenso há 8 horas, mostra VEF₁/CVF de 0,82, VEF₁ de 94% do previsto e aumento de 4% e 90 mL após broncodilatador. Ele quer saber se tem mesmo asma. Pelo GINA 2026, qual é a conduta mais adequada?",
+  "alts": [
+   "Suspender o corticoide de vez e dar alta do acompanhamento",
+   "Descartar asma pela prova broncodilatadora negativa",
+   "Subir para budesonida-formoterol em MART e reavaliar a função em 3 meses",
+   "Dosar FeNO, que abaixo de 25 ppb exclui asma e libera parar",
+   "Reduzir o corticoide e reavaliar sintomas e função em 2 a 4 semanas"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "GINA 2026, confirmação do diagnóstico de asma em quem já usa corticoide inalatório",
+  "coment": "O GINA insiste em testar antes de tratar, porque semanas de corticoide inalatório apagam a variabilidade que confirma a asma; em adultos com diagnóstico prévio, um terço não teve asma confirmada após testes repetidos. Para quem já usa corticoide e não tem variabilidade documentada, a estratégia é repetir a prova após suspender o broncodilatador ou durante sintomas. Se o VEF₁ passa de 70% do previsto, reduz-se o corticoide inalatório e reavalia-se em 2 a 4 semanas, procurando a variabilidade que surge com a redução; se fica abaixo de 70%, sobe-se o corticoide por 1 a 2 meses e reavalia-se. Prova broncodilatadora negativa e FeNO baixo não excluem asma, e a retirada completa e abrupta do corticoide aumenta o risco de crise. A redução deve ser feita fora de infecção respiratória, com plano de ação.",
+  "porAlt": [
+   "Suspender o corticoide inalatório de uma vez aumenta muito o risco de crise caso a asma exista, e a alta encerra a investigação cedo demais.",
+   "Prova broncodilatadora negativa em quem usa corticoide não exclui asma, porque o tratamento apaga a variabilidade.",
+   "Subir etapa num paciente controlado e sem diagnóstico confirmado expõe a mais corticoide sem indicação.",
+   "FeNO baixo não exclui asma, ainda mais em uso de corticoide inalatório, que reduz o marcador.",
+   "Correta: com VEF₁ acima de 70% do previsto e sem variabilidade documentada, o GINA orienta reduzir o corticoide inalatório e repetir a avaliação em 2 a 4 semanas."
+  ]
+ },
+ {
+  "q": "Homem de 64 anos, ex-tabagista de 45 maços-ano, tem dispneia ao subir um lance de escada. Espirometria com VEF₁/CVF pós-broncodilatador de 0,58 e VEF₁ de 61% do previsto. CAAT de 14 e mMRC 2. Há 5 meses teve uma exacerbação tratada no posto com prednisona e amoxicilina com clavulanato, sem internação, e nenhuma outra no último ano. Nunca usou medicação de manutenção, só salbutamol eventual. Eosinófilos de 180/µL, sem história de asma, IMC de 26 kg/m². Pelo GOLD 2026, qual é o tratamento inicial mais adequado?",
+  "alts": [
+   "LAMA isolado, com reavaliação em 3 meses",
+   "LABA com LAMA, de preferência num inalador",
+   "LABA associado a corticoide inalatório",
+   "Tripla terapia em inalador único",
+   "LABA e LAMA associados a roflumilaste oral"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "GOLD 2026, ferramenta ABE e tratamento inicial do grupo E",
+  "coment": "A ferramenta ABE vale para o paciente virgem de manutenção e cruza sintomas com exacerbações; o VEF₁ não entra. A mudança do GOLD 2026 é que uma única exacerbação moderada ou grave no ano já define o grupo E; até 2025 eram necessárias duas moderadas ou uma com internação. Exacerbação moderada é a tratada com corticoide e/ou antibiótico sem internação, exatamente a deste paciente. No grupo E começa-se com LABA e LAMA, de preferência em inalador único, e considera-se tripla se os eosinófilos forem de 300/µL ou mais. Com 180/µL, fica a dupla. LABA com corticoide inalatório não é incentivado. O roflumilaste e a azitromicina pertencem ao algoritmo de seguimento de quem continua exacerbando. Somam-se vacinas, reabilitação e revisão da técnica inalatória.",
+  "porAlt": [
+   "Monoterapia é a opção do grupo A; com exacerbação no ano e sintomas relevantes, a dupla broncodilatação é o ponto de partida.",
+   "Correta: uma exacerbação moderada já define o grupo E no GOLD 2026, e com eosinófilos abaixo de 300/µL o início é LABA com LAMA.",
+   "O GOLD não incentiva LABA com corticoide inalatório; havendo indicação de corticoide, a tripla é superior.",
+   "A tripla inicial é considerada no grupo E quando os eosinófilos chegam a 300/µL, o que não é o caso.",
+   "O roflumilaste entra no seguimento de quem segue exacerbando com VEF₁ abaixo de 50% e bronquite crônica."
+  ]
+ },
+ {
+  "q": "Homem de 69 anos, ex-tabagista há 8 anos, com DPOC e VEF₁ de 42% do previsto, tem tosse produtiva na maior parte dos dias há mais de 3 anos. Usa tripla terapia em inalador único com técnica e adesão conferidas, fez reabilitação pulmonar e está vacinado. No último ano teve duas exacerbações moderadas tratadas com prednisona. Eosinófilos de 410/µL e 380/µL em duas dosagens. IMC de 19 kg/m², com perda de 4 kg no ano, e depressão em tratamento com citalopram; eletrocardiograma com QTc de 510 ms. Pelo GOLD 2026, qual é o próximo passo mais adequado?",
+  "alts": [
+   "Dupilumabe 300 mg subcutâneo a cada 2 semanas",
+   "Roflumilaste 500 µg/dia após 4 semanas de 250 µg",
+   "Azitromicina 250 mg/dia por um ano",
+   "Retirar o corticoide inalatório da tripla",
+   "Prednisona 5 mg/dia de manutenção"
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "GOLD 2026, biológicos na via das exacerbações (BOREAS e NOTUS)",
+  "coment": "O paciente segue exacerbando apesar de tripla terapia otimizada, o que leva ao algoritmo de seguimento do GOLD 2026 pela via das exacerbações. Com eosinófilos de 300/µL ou mais e duas exacerbações moderadas ou uma grave em tripla, entram os biológicos: o dupilumabe 300 mg a cada 2 semanas foi testado em quem tem bronquite crônica (BOREAS e NOTUS, cerca de 30% menos exacerbações e ganho de VEF₁), e o mepolizumabe em eosinófilos de 300/µL ou mais, com ou sem bronquite crônica. As outras saídas do algoritmo, azitromicina e roflumilaste, esbarram aqui em contraindicações relativas: QTc longo em uso de outro fármaco que o prolonga, e baixo peso com perda ponderal e depressão. Retirar o corticoide com eosinófilos altos aumenta exacerbações, e corticoide oral contínuo só traz dano.",
+  "porAlt": [
+   "Correta: em tripla, com bronquite crônica, duas exacerbações moderadas e eosinófilos de 300/µL ou mais, o GOLD 2026 indica biológico, e o dupilumabe é o testado nesse perfil.",
+   "O roflumilaste causa perda de peso e insônia e exige cautela na depressão, ruins para um paciente com IMC de 19 e emagrecendo.",
+   "A azitromicina prolonga o QTc, já de 510 ms em uso de citalopram, e o risco de arritmia supera o benefício.",
+   "Com eosinófilos acima de 300/µL a retirada do corticoide inalatório aumenta exacerbações e não está indicada.",
+   "Corticoide oral de manutenção não tem papel na DPOC, pelos efeitos adversos sem benefício."
+  ]
+ },
+ {
+  "q": "Mulher de 71 anos com DPOC em LABA e LAMA chega à UPA com piora da dispneia há 3 dias e aumento do volume do escarro, que ficou amarelo-esverdeado, sem febre. Dispneia de 6 na escala de 0 a 10, FR 25 irpm, FC 98 bpm, SpO₂ de 90% em ar ambiente (habitual de 93%) e proteína C reativa de 34 mg/L. Radiografia sem consolidação ou pneumotórax, eletrocardiograma em ritmo sinusal e NT-proBNP normal. Gasometria arterial com pH 7,38, PaCO₂ de 46 mmHg e PaO₂ de 62 mmHg. Melhora após broncodilatadores, tolera via oral e a filha cuida dela. Não tem alergias nem culturas de escarro prévias. Qual é a prescrição mais adequada além do broncodilatador?",
+  "alts": [
+   "Prednisona 40 mg por 5 dias, sem antibiótico",
+   "Prednisona 40 mg por 14 dias e amoxicilina-clavulanato por 10",
+   "Prednisona 40 mg e amoxicilina-clavulanato, ambos por 5 dias",
+   "Antibiótico só se a procalcitonina vier acima de 0,25 ng/mL",
+   "Levofloxacino por 7 dias e prednisona com desmame em 3 semanas"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "GOLD 2026, gravidade de Roma e tratamento da exacerbação",
+  "coment": "Pela proposta de Roma, adotada no GOLD 2026, a exacerbação é moderada quando preenche pelo menos três de cinco critérios: dispneia de 5 ou mais em 10, FR de 24 ou mais, FC de 95 ou mais, SaO₂ abaixo de 92% ou queda acima de 3% e PCR de 10 mg/L ou mais. Ela preenche os cinco. Não é grave, porque a PaO₂ está acima de 60 mmHg e não há acidose. Os imitadores foram afastados. O tratamento é broncodilatador de curta ação, prednisona 40 mg por 5 dias e, havendo escarro purulento com mais um sintoma cardinal, antibiótico por 5 dias: aminopenicilina com clavulanato, macrolídeo ou tetraciclina conforme a resistência local. Pode ser conduzida fora do hospital, com plano de ação, reinício do broncodilatador de longa ação e retorno precoce.",
+  "porAlt": [
+   "Purulência do escarro com aumento da dispneia e do volume é critério de antibiótico, que reduz falha terapêutica nesse perfil.",
+   "No REDUCE, 5 dias de prednisona foram não inferiores a 14, e o GOLD 2026 fixou o antibiótico em 5 dias.",
+   "Correta: exacerbação moderada com escarro purulento recebe prednisona 40 mg por 5 dias e antibiótico por 5 dias, aqui uma aminopenicilina com clavulanato.",
+   "O GOLD não recomenda guiar o antibiótico da exacerbação pela procalcitonina; a purulência decide.",
+   "Quinolona fica para selecionados, e o corticoide não precisa de curso longo nem de desmame."
+  ]
+ },
+ {
+  "q": "Homem de 67 anos com DPOC grave foi internado por exacerbação com acidose respiratória (pH 7,26 e PaCO₂ de 78 mmHg) e recebeu ventilação não invasiva por 3 dias, com boa resposta. No sétimo dia está em ar ambiente com SpO₂ de 90%, sem dispneia em repouso, e a gasometria mostra pH 7,40, PaCO₂ de 56 mmHg e bicarbonato de 34 mEq/L. Foi a segunda internação por exacerbação neste ano. A equipe discute prescrever ventilação não invasiva domiciliar já na alta. Qual é a conduta mais adequada?",
+  "alts": [
+   "Iniciar VNI domiciliar na alta pela PaCO₂ acima de 53 mmHg",
+   "Prescrever oxigênio domiciliar contínuo isolado",
+   "Manter internado até a PaCO₂ normalizar",
+   "Alta sem VNI e nova gasometria estável em 2 a 4 semanas",
+   "CPAP domiciliar com pressão fixa de 10 cmH₂O"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ATS 2020 de ventilação não invasiva crônica na DPOC hipercápnica e GOLD 2026",
+  "coment": "A ventilação não invasiva domiciliar melhora a sobrevida livre de readmissão na DPOC com hipercapnia persistente. No HOT-HMV, acrescentar VNI ao oxigênio em quem mantinha PaCO₂ acima de 53 mmHg de 2 a 4 semanas após o episódio de acidose levou a mediana até readmissão ou morte de 1,4 para 4,3 meses, com pressões inspiratórias altas. O ponto que a ATS 2020 explicitou é o momento: parte dos pacientes reduz a PaCO₂ espontaneamente após a exacerbação, por isso a recomendação condicional é não iniciar VNI crônica na própria internação e reavaliar a gasometria em 2 a 4 semanas, rastreando apneia do sono antes de iniciar. Se a hipercapnia persistir, a VNI é ajustada para normalizar a PaCO₂. Ele também merece revisão da manutenção, reabilitação após a alta e plano de ação.",
+  "porAlt": [
+   "Parte da hipercapnia da alta se resolve nas semanas seguintes; o critério do HOT-HMV é a PaCO₂ acima de 53 mmHg medida 2 a 4 semanas depois.",
+   "SpO₂ de 90% em ar ambiente não preenche critério de oxigênio domiciliar, e oxigênio sem ventilação não corrige a hipercapnia.",
+   "A PaCO₂ crônica alta, compensada pelo bicarbonato, não precisa normalizar antes da alta; a reavaliação é ambulatorial.",
+   "Correta: a ATS sugere não iniciar VNI crônica durante a internação por hipercapnia aguda sobre crônica e reavaliar a PaCO₂ em 2 a 4 semanas, quando a decisão é tomada.",
+   "O CPAP é o tratamento da sobreposição com apneia obstrutiva, não da hipercapnia da DPOC sem apneia documentada."
+  ]
+ },
+ {
+  "q": "Homem de 29 anos, previamente hígido, sem comorbidades e sem uso recente de antibiótico, tem febre de 38,6 °C, mialgia, tosse seca e dor pleurítica leve há 2 dias, em julho, durante surto de influenza na cidade. FR 20 irpm, FC 96 bpm, PA 122/76 mmHg, SpO₂ de 95% em ar ambiente e orientado. Radiografia com consolidação discreta no lobo inferior esquerdo. Ureia de 28 mg/dL. Teste molecular rápido em swab nasofaríngeo positivo para influenza A. Tolera via oral e mora com a esposa. Pela ATS 2025, qual é a conduta mais adequada?",
+  "alts": [
+   "Oseltamivir e amoxicilina 1 g de 8 em 8 horas",
+   "Amoxicilina isolada, pois o antiviral perde efeito após 48 horas",
+   "Internar para ceftriaxona e azitromicina venosas",
+   "Levofloxacino 750 mg/dia isolado por 5 dias",
+   "Oseltamivir, sem antibiótico, com reavaliação em 48 horas"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS 2025 de pneumonia adquirida na comunidade (teste viral positivo) e ATS/IDSA 2019 (antiviral)",
+  "coment": "A ATS 2025 reabriu a pergunta do antibiótico quando o teste para vírus respiratório vem positivo. Em 2019, todo paciente com influenza e pneumonia clínica e radiológica recebia antibiótico padrão. Em 2025 a recomendação foi estratificada pelo risco de coinfecção bacteriana: no paciente ambulatorial sem comorbidade, sugere-se não prescrever antibiótico empírico; no ambulatorial com comorbidade e em todo internado, grave ou não, prescreve-se. As recomendações são condicionais, com certeza muito baixa, e pressupõem reavaliação, porque a pneumonia bacteriana secundária à influenza aparece como piora após alguns dias de melhora, classicamente por pneumococo ou estafilococo. O oseltamivir é indicado na pneumonia com influenza confirmada, 75 mg de 12 em 12 horas por 5 dias, e este paciente ainda está nas primeiras 48 horas de sintomas, quando o benefício é maior.",
+  "porAlt": [
+   "O antibiótico empírico com vírus detectado fica para quem tem comorbidade ou está internado, pelo risco maior de coinfecção bacteriana.",
+   "Ele está dentro de 48 horas de sintomas, quando o oseltamivir rende mais, e a diretriz indica antiviral na pneumonia por influenza mesmo fora da janela.",
+   "CURB-65 zero, sem hipoxemia e com via oral e suporte em casa: não há indicação de internação.",
+   "Quinolona não é escolha para o jovem saudável, pelos efeitos adversos graves e pela seleção de resistência.",
+   "Correta: no ambulatorial sem comorbidade com teste positivo para vírus respiratório, a ATS 2025 sugere não prescrever antibiótico empírico, tratando a influenza e reavaliando."
+  ]
+ },
+ {
+  "q": "Mulher de 58 anos, hipertensa, é admitida na UTI com pneumonia adquirida na comunidade: consolidação nos dois lobos inferiores, FR 34 irpm, PaO₂/FiO₂ de 160 em cateter nasal de alto fluxo com FiO₂ de 60%, confusão leve e ureia de 68 mg/dL. Pressão arterial de 104/66 mmHg sem vasopressor e lactato de 1,8 mmol/L. PCR de amostra respiratória positivo para influenza A; antígeno urinário de pneumococo negativo. Não usa corticoide, não tem asma ou DPOC e a glicemia é de 132 mg/dL. Hemoculturas e cultura de secreção foram colhidas. Qual é o esquema mais adequado?",
+  "alts": [
+   "Ceftriaxona, azitromicina e hidrocortisona 200 mg/dia",
+   "Ceftriaxona, azitromicina, oseltamivir e hidrocortisona",
+   "Oseltamivir isolado, pois o agente já foi identificado",
+   "Ceftriaxona, azitromicina e oseltamivir, sem corticoide",
+   "Levofloxacino isolado e metilprednisolona por 5 dias"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "uti",
+  "comp": "urg",
+  "nivel": "tit",
+  "base": "ATS 2025 de pneumonia adquirida na comunidade (corticoide na pneumonia grave) e ATS/IDSA 2019",
+  "coment": "É pneumonia grave: três ou mais critérios menores (FR de 30 ou mais, PaO₂/FiO₂ até 250, infiltrado multilobar, confusão e uremia). O esquema é betalactâmico combinado, de preferência com macrolídeo, e no internado com influenza confirmada acrescenta-se oseltamivir independentemente do tempo de doença. A ATS 2025 mantém antibiótico mesmo com vírus detectado no internado grave, pela coinfecção bacteriana. O corticoide passou a ser sugerido na pneumonia grave, sustentado sobretudo pelo CAPE COD, que reduziu mortalidade com hidrocortisona 200 mg/dia, mas a recomendação exclui explicitamente a pneumonia por influenza: estudos observacionais sugeriram mais mortalidade com corticoide nesse grupo, e o próprio CAPE COD excluiu a influenza. Corticoide indicado por outra doença de base, como asma ou DPOC exacerbada, não é afetado por essa exclusão.",
+  "porAlt": [
+   "Falta o antiviral na influenza confirmada em paciente grave, e o corticoide não se aplica à pneumonia por influenza.",
+   "O esquema antimicrobiano está certo, mas o corticoide foi associado a maior mortalidade na influenza e está fora da recomendação.",
+   "No internado com pneumonia e vírus detectado a ATS 2025 sugere antibiótico, pela coinfecção bacteriana frequente nesse grupo.",
+   "Correta: pneumonia grave pede betalactâmico com macrolídeo, influenza confirmada pede oseltamivir, e a ATS 2025 exclui a pneumonia por influenza da sugestão de corticoide.",
+   "Monoterapia não serve na pneumonia grave, e o corticoide não é indicado na pneumonia por influenza."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos, diabético, foi internado em enfermaria com pneumonia adquirida na comunidade no lobo médio, CURB-65 de 2 (idade e ureia de 58 mg/dL), sem critérios de pneumonia grave, e recebe ceftriaxona e azitromicina. Hoje completou o terceiro dia de tratamento: está afebril há 48 horas, FC 84 bpm, FR 18 irpm, PA 132/80 mmHg, SpO₂ de 95% em ar ambiente, orientado e comendo bem. A proteína C reativa caiu de 180 para 96 mg/L e a radiografia ainda mostra a consolidação. Hemoculturas negativas, sem derrame pleural ou cavitação. Pela ATS 2025, qual é a conduta antimicrobiana mais adequada?",
+  "alts": [
+   "Completar 5 dias, mínimo exigido em qualquer pneumonia",
+   "Manter até a proteína C reativa normalizar",
+   "Manter até a consolidação regredir na radiografia",
+   "Trocar para amoxicilina oral e completar 10 dias",
+   "Encerrar o antibiótico hoje, ao completar 3 dias"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS 2025 de pneumonia adquirida na comunidade, duração do antibiótico após estabilidade clínica",
+  "coment": "Os critérios de estabilidade são de beira de leito: temperatura até 37,8 °C, FC até 100 bpm, FR até 24 irpm, SpO₂ de pelo menos 90% em ar ambiente, sistólica de pelo menos 90 mmHg, estado mental normal e ingestão oral. Ele preenche todos. A ATS 2025 sugere, no paciente ambulatorial e no internado com pneumonia não grave que atingiu a estabilidade, duração menor que 5 dias, com mínimo de 3, apoiada no ensaio PTC: suspender o betalactâmico no terceiro dia em quem estava estável foi não inferior a completar 8 dias, com menos efeito adverso. A gravidade da apresentação define o piso: na pneumonia grave são 5 dias ou mais, com recomendação forte. Proteína C reativa e radiografia não guiam a duração. Ficam fora da regra curta MRSA, Pseudomonas, empiema, abscesso e bacteremia por S. aureus.",
+  "porAlt": [
+   "O piso de 5 dias vale para a pneumonia grave; na não grave estável a diretriz de 2025 aceita encerrar a partir do terceiro dia.",
+   "A duração é guiada pelos critérios clínicos de estabilidade, não por marcador inflamatório, que cai mais devagar.",
+   "A imagem melhora semanas depois da cura clínica e não serve para medir a duração do tratamento.",
+   "Dez dias por hábito acrescentam efeito adverso e Clostridioides difficile sem benefício para quem já está estável.",
+   "Correta: no internado não grave que atingiu estabilidade, a ATS 2025 sugere menos de 5 dias, com mínimo de 3, e ele cumpre os dois requisitos."
+  ]
+ },
+ {
+  "q": "Mulher de 72 anos com DPOC moderada foi internada há 7 semanas por celulite e recebeu piperacilina-tazobactam venosa por 6 dias. Agora volta com pneumonia adquirida na comunidade no lobo inferior direito: FR 24 irpm, PA 124/72 mmHg, SpO₂ de 92% em ar ambiente, orientada e sem critérios de pneumonia grave. Nunca teve MRSA ou Pseudomonas isolados em secreção respiratória. O hospital validou localmente a internação com antibiótico venoso nos últimos 90 dias como fator de risco para esses agentes. Pela ATS/IDSA 2019, qual é a conduta inicial mais adequada?",
+  "alts": [
+   "Vancomicina e cefepima empíricas desde a admissão",
+   "Esquema padrão com culturas, ampliando só se positivas",
+   "Meropeném isolado pela internação recente",
+   "Esquema padrão sem culturas, por não ser grave",
+   "Ceftriaxona com metronidazol pelo risco de broncoaspiração"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "ATS/IDSA 2019 de pneumonia adquirida na comunidade, cobertura de MRSA e Pseudomonas",
+  "coment": "A diretriz de 2019 abandonou a pneumonia associada a cuidados de saúde e passou a guiar a cobertura de MRSA e Pseudomonas por dois fatores validados: isolamento respiratório prévio do agente e internação com antibiótico venoso nos últimos 90 dias. Com isolamento prévio, cobre-se o agente em qualquer gravidade. Com internação e antibiótico venoso recentes, a gravidade decide: na pneumonia grave, cobertura empírica imediata com descalonamento por culturas e PCR nasal; na não grave, esquema padrão (aqui betalactâmico com macrolídeo, ou quinolona respiratória), culturas de secreção e hemoculturas, PCR nasal para MRSA, e ampliação só se positivos. O PCR nasal negativo tem alto valor preditivo negativo para MRSA. Cobertura anaeróbia de rotina na suspeita de aspiração também não é recomendada.",
+  "porAlt": [
+   "Cobrir MRSA e Pseudomonas de início com esse fator de risco é a conduta da pneumonia grave, não da não grave.",
+   "Correta: na pneumonia não grave com internação e antibiótico venoso recentes, colhem-se culturas e PCR nasal para MRSA e só se amplia a cobertura se vierem positivos.",
+   "Carbapenêmico isolado não cobre MRSA nem atípicos e amplia o espectro sem indicação.",
+   "Quem tem fator de risco validado precisa de culturas, que são justamente o que decide se a cobertura será ampliada.",
+   "Cobertura anaeróbia de rotina não é recomendada; fica para abscesso ou empiema."
+  ]
+ },
+ {
+  "q": "Mulher de 45 anos teve trombose venosa profunda femoral esquerda há 6 semanas, sem fator desencadeante, e usa rivaroxabana 20 mg ao dia com o jantar, com boa adesão. Procura o pronto-socorro com dor pleurítica à direita e dispneia há 1 dia. FC 104 bpm, PA 128/78 mmHg, SpO₂ de 94% em ar ambiente, sem hemoptise, perna esquerda com edema residual discreto e estável. Radiografia de tórax normal. Wells de 3 pontos (taquicardia e trombose prévia). D-dímero de 380 µg/L em unidades equivalentes de fibrinogênio. Creatinina de 0,8 mg/dL. Qual é a conduta diagnóstica mais adequada?",
+  "alts": [
+   "TEP excluído pelo D-dímero abaixo de 500 µg/L",
+   "Ecocardiograma à beira do leito para confirmar ou afastar",
+   "Angiotomografia de tórax, apesar do D-dímero baixo",
+   "Aplicar o PERC e dispensar exames se negativo",
+   "Cintilografia V/Q como exame inicial preferencial"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "emg",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AHA/ACC 2026 de embolia pulmonar aguda, uso do D-dímero e escolha da imagem",
+  "coment": "Para a AHA/ACC 2026, o TEP é improvável sem imagem quando três condições coexistem: D-dímero abaixo do limiar, probabilidade clínica baixa ou intermediária e paciente não anticoagulado. A terceira é a que se esquece: quase todos os estudos de validação, inclusive o YEARS, excluíram quem estava em anticoagulação terapêutica, que reduz o D-dímero. Esta paciente está em rivaroxabana e tem quadro sugestivo de embolia, o que levanta também a hipótese de recorrência em vigência de anticoagulação. A angiotomografia é recomendada em preferência à cintilografia (classe 1), e o ecocardiograma não serve para diagnosticar. Se confirmado, recorrência sob anticoagulação pede investigar adesão, interação e absorção (rivaroxabana de 15 e 20 mg precisa ser tomada com alimento) antes de concluir falha do fármaco.",
+  "porAlt": [
+   "O D-dímero abaixo do limiar só exclui TEP em quem não está anticoagulado, condição esquecida e decisiva.",
+   "O ecocardiograma não confirma nem afasta TEP: a maioria não tem disfunção de ventrículo direito.",
+   "Correta: as estratégias com D-dímero foram validadas fora da anticoagulação, que reduz o marcador; em quem está anticoagulado, a suspeita se resolve com imagem.",
+   "O PERC só se aplica com probabilidade clínica abaixo de 15%, e ela tem trombose prévia e taquicardia.",
+   "A angiotomografia é preferida à cintilografia, que fica para quando a tomografia não pode ser feita."
+  ]
+ },
+ {
+  "q": "Mulher de 33 anos teve TEP segmentar bilateral 12 dias após cesariana de urgência, sem instabilidade, tratada com enoxaparina e depois com varfarina, por estar amamentando. Completou 3 meses de anticoagulação com INR na faixa, sem sangramento. Está assintomática, caminha 5 km por dia, não tem câncer, doença autoimune ou trombose prévia e não usa estrogênio. A mãe teve trombose venosa em uso de anticoncepcional. Pela AHA/ACC 2026, qual é a conduta mais adequada agora?",
+  "alts": [
+   "Manter a varfarina por tempo indeterminado pela história familiar",
+   "Trocar por apixabana 2,5 mg de 12/12 horas estendida",
+   "Suspender a anticoagulação ao fim da fase inicial",
+   "Pesquisar trombofilia antes de decidir a suspensão",
+   "Manter até completar 12 meses e repetir a angiotomografia"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "AHA/ACC 2026 de embolia pulmonar aguda, duração da anticoagulação",
+  "coment": "A decisão sobre a duração se toma ao fim da fase inicial e depende do fator de risco. Cesariana está entre os fatores maiores reversíveis, ao lado de cirurgia com anestesia geral de 30 minutos ou mais, internação de 72 horas ou mais no leito, fratura de membro inferior e trauma com mobilidade reduzida. Com fator maior reversível, a recorrência anualizada fica abaixo de 1% e é a mesma com 3 a 6 ou com 24 meses de tratamento, e a AHA/ACC 2026 recomenda parar (classe 1). Fator menor reversível, como estrogênio, leva a decisão compartilhada; fator persistente ou nenhum fator levam à fase estendida. Na amamentação, heparina ou varfarina são preferidas ao anticoagulante oral direto. Em futura gestação ela merecerá discussão de profilaxia, mas isso não muda a suspensão agora.",
+  "porAlt": [
+   "História familiar não transforma um evento provocado por fator maior em indicação de anticoagulação estendida.",
+   "A meia dose estendida é para quem tem indicação de continuar, como o TEP sem fator maior reversível; além disso, ela amamenta.",
+   "Correta: cesariana é fator maior reversível, e a diretriz recomenda parar ao fim da fase inicial de 3 a 6 meses (classe 1).",
+   "O resultado da pesquisa de trombofilia raramente muda a conduta após evento provocado por fator maior, e não é pré-requisito para suspender.",
+   "Prolongar até 12 meses não reduz recorrência após fator maior reversível, e imagem de controle não decide a duração."
+  ]
+ },
+ {
+  "q": "Mulher de 39 anos teve TEP lobar não provocado há 4 meses e está em uso de rivaroxabana 20 mg ao dia, sem sangramento. Tem história de 2 perdas gestacionais após a 10ª semana e livedo reticular. Anticoagulante lúpico, anticardiolipina IgG em título alto e anti-beta-2-glicoproteína I IgG vieram positivos em duas dosagens com 12 semanas de intervalo, a primeira colhida antes da anticoagulação. Função renal e hepática normais, plaquetas de 160 mil. Não deseja engravidar no momento e usa DIU de cobre. Qual é a conduta anticoagulante mais adequada?",
+  "alts": [
+   "Manter a rivaroxabana 20 mg ao dia, agora por tempo indefinido",
+   "Reduzir a rivaroxabana para 10 mg ao dia na fase estendida",
+   "Trocar para apixabana 2,5 mg de 12 em 12 horas",
+   "Suspender ao completar 6 meses de tratamento",
+   "Trocar para varfarina com INR de 2 a 3, sem data para parar"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "r3",
+  "base": "AHA/ACC 2026 de embolia pulmonar aguda, anticoagulação na síndrome antifosfolípide",
+  "coment": "Ela preenche síndrome antifosfolípide: trombose venosa, morbidade gestacional e anticorpos persistentemente positivos em duas dosagens com 12 semanas de intervalo, com perfil triplo positivo, o de maior risco. A AHA/ACC 2026 consolidou a recomendação classe 1, nível A, de antagonista da vitamina K em preferência ao anticoagulante oral direto na síndrome antifosfolípide trombótica estabelecida, porque os ensaios com rivaroxabana mostraram excesso de eventos arteriais, como AVC e infarto. O INR alvo habitual após trombose venosa é de 2 a 3. Como o fator é persistente, a anticoagulação segue na fase estendida, sem data para terminar, com reavaliação periódica do risco e do benefício. A varfarina é teratogênica, por isso a contracepção eficaz e o planejamento de uma futura gestação, com troca para heparina, entram na mesma consulta.",
+  "porAlt": [
+   "Os ensaios com rivaroxabana na síndrome antifosfolípide, sobretudo triplo positiva, mostraram excesso de eventos trombóticos arteriais.",
+   "A meia dose de oral direto vale para o TEP não provocado sem síndrome antifosfolípide; aqui o problema é a classe do fármaco.",
+   "Trocar um oral direto por outro, ainda em meia dose, não resolve a inferioridade dessa classe na síndrome antifosfolípide.",
+   "TEP não provocado em portadora de síndrome antifosfolípide é fator persistente: parar aos 6 meses expõe a recorrência alta.",
+   "Correta: na síndrome antifosfolípide trombótica estabelecida o antagonista da vitamina K é preferido ao oral direto (classe 1, nível A), e o evento não provocado pede anticoagulação estendida."
+  ]
+ },
+ {
+  "q": "Homem de 56 anos, etilista, internado há 3 dias com pneumonia no lobo inferior esquerdo em ceftriaxona e azitromicina, mantém febre de 38,5 °C. O ultrassom mostra derrame moderado com septações finas. Toracocentese guiada: líquido turvo, não purulento, pH de 7,08 (seringa heparinizada processada no gasômetro), glicose de 32 mg/dL, DHL de 1.900 U/L e 85% de neutrófilos, com Gram sem bactérias. Plaquetas de 210 mil e INR de 1,2. Não tem contraindicação a procedimentos. Qual é a conduta mais adequada?",
+  "alts": [
+   "Dreno de 28 F, pelo líquido espesso e septado",
+   "Manter o antibiótico e repetir a punção em 48 horas",
+   "Alteplase intrapleural isolada pela agulha da punção",
+   "Dreno fino de até 14 F e cobertura anaeróbia no antibiótico",
+   "Decorticação por videotoracoscopia logo como primeira medida"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "BTS 2023 de doença pleural, drenagem da infecção pleural",
+  "coment": "Derrame parapneumônico com pH abaixo de 7,2, glicose baixa, DHL alta ou septações é complicado e precisa de drenagem, mesmo sem pus. O pH vale porque foi colhido do jeito certo: seringa heparinizada, sem ar e processada no gasômetro. A diretriz britânica de 2023 orienta iniciar a drenagem da infecção pleural com dreno de pequeno calibre, 14 F ou menor, porque drenos maiores doem mais sem drenar melhor. Se a drenagem parar com líquido residual e septações, o passo seguinte é alteplase com dornase intrapleurais combinadas, que no MIST-2 reduziram o encaminhamento cirúrgico de 16% para 4%; isoladas não funcionaram. O antibiótico da infecção pleural cobre anaeróbios, com betalactâmico com inibidor de betalactamase ou associação com metronidazol, e é prolongado conforme a evolução. O escore RAPID ajuda a antecipar a conversa com a cirurgia.",
+  "porAlt": [
+   "Drenos calibrosos doem mais e não drenam melhor; o que resolve septação é fibrinolítico com dornase, não diâmetro.",
+   "Derrame complicado não se resolve com antibiótico e punções; adiar a drenagem deixa a coleção se organizar.",
+   "No MIST-2 a alteplase isolada não diferiu do placebo; o fibrinolítico só funciona combinado à dornase, pelo dreno.",
+   "Correta: pH abaixo de 7,2 define derrame complicado, que se drena com dreno de pequeno calibre, e a infecção pleural exige antibiótico com cobertura anaeróbia.",
+   "A cirurgia fica para quem falha a drenagem com fibrinolítico, não é a primeira medida neste caso."
+  ]
+ },
+ {
+  "q": "Mulher de 64 anos com adenocarcinoma de mama metastático tem derrame pleural direito recidivante com citologia positiva. Está na terceira toracocentese em 5 semanas: após retirar 1,3 L guiada por ultrassom, a dispneia melhorou muito, mas a radiografia de controle mostra que o pulmão não reexpandiu, com hidropneumotórax ex vacuo e sem desvio do mediastino. ECOG 1, em quimioterapia, deseja passar o mínimo de tempo internada. Plaquetas de 190 mil e INR de 1,0. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cateter pleural de longa permanência",
+   "Pleurodese com talco por dreno torácico",
+   "Toracocentese de repetição a cada recidiva sintomática",
+   "Dreno torácico em selo d'água para tratar o pneumotórax",
+   "Pleurectomia com decorticação"
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS/STS/STR 2018 de derrame pleural maligno e BTS 2023 de doença pleural",
+  "coment": "O derrame neoplásico sintomático e recidivante se trata para aliviar sintoma, e a pergunta que decide a técnica não é laboratorial: o pulmão reexpande após a drenagem? Se reexpande, pleurodese com talco e cateter de longa permanência são opções legítimas, escolhidas com o paciente. Se não reexpande, como aqui, as pleuras não se encostam e a pleurodese não tem como funcionar. O hidropneumotórax ex vacuo depois da drenagem é justamente o sinal que denuncia o encarceramento, não uma complicação. A diretriz ATS/STS/STR de 2018 recomenda, no pulmão não expansível ou após falha de pleurodese, o cateter pleural de longa permanência, com drenagem intermitente em casa. Combina com o desejo da paciente: no TIME2, a mediana de internação inicial foi de zero dia com o cateter contra 4 com o talco. Infecção do cateter se trata com antibiótico, sem retirá-lo.",
+  "porAlt": [
+   "Correta: no pulmão não expansível a ATS/STS/STR recomenda o cateter pleural de longa permanência, que alivia a dispneia com drenagem domiciliar e quase sem internação.",
+   "A pleurodese depende do contato entre as pleuras; com o pulmão encarcerado o talco não produz sínfise e o procedimento falha.",
+   "Punções repetidas expõem a riscos a cada sessão e não resolvem um derrame que recidiva em poucas semanas.",
+   "O hidropneumotórax ex vacuo é sinal de encarceramento, não pneumotórax por lesão pulmonar que precise de dreno.",
+   "Cirurgia de grande porte não é indicada para tratamento paliativo de derrame neoplásico em pulmão encarcerado."
+  ]
+ },
+ {
+  "q": "Homem de 62 anos, ex-tabagista, com artrite reumatoide soropositiva há 15 anos e nódulos subcutâneos nos cotovelos, tem derrame pleural esquerdo pequeno a moderado há 2 meses, com dispneia leve aos esforços. Afebril, sem perda de peso, leucócitos de 7.800/µL e PCR de 22 mg/L. Líquido amarelo-turvo, sem odor: proteína de 5,1 g/dL (soro 7,0), DHL de 1.400 U/L (limite sérico 240), glicose de 12 mg/dL (glicemia 98), pH 7,10, 65% de linfócitos, ADA de 62 U/L, Gram e cultura negativos, triglicerídeos de 40 mg/dL. A citologia mostra macrófagos alongados, células gigantes multinucleadas e fundo granular necrótico, sem células neoplásicas. Qual é a interpretação mais provável?",
+  "alts": [
+   "Tuberculose pleural, pela ADA acima de 40 U/L e linfocitose",
+   "Pleurite reumatoide, com ADA elevada como falso-positivo",
+   "Empiema, pelo pH e pela glicose muito baixos",
+   "Pseudoquilotórax de derrame crônico",
+   "Transudato, corrigido pelo gradiente de proteína"
+  ],
+  "gab": 1,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "BTS 2023 de doença pleural, análise do líquido pleural e diagnóstico diferencial do exsudato",
+  "coment": "Pelos critérios de Light o líquido é exsudato (relações de proteína e DHL acima de 0,5 e 0,6). A combinação de glicose muito baixa, pH baixo e DHL muito alta tem diferencial curto: empiema, artrite reumatoide, tuberculose e neoplasia avançada. Num homem com artrite reumatoide soropositiva e nodular, sem sepse, com Gram e cultura negativos, o quadro é de pleurite reumatoide, e a citologia com macrófagos alongados, células gigantes multinucleadas e fundo necrótico é característica. A armadilha é a ADA: empiema, linfoma e artrite reumatoide também a elevam, e os três podem cursar com glicose baixa. Num país de alta prevalência, persistindo dúvida sobre tuberculose, a biópsia pleural com histologia e cultura resolve. O tratamento é o da doença de base, com drenagem se o derrame for volumoso ou sintomático.",
+  "porAlt": [
+   "A artrite reumatoide está entre as causas de ADA falsamente elevada, e a glicose quase zerada com essa citologia aponta outra doença.",
+   "Correta: glicose muito baixa, pH baixo e DHL alta em artrite reumatoide nodular, com a citologia típica de macrófagos alongados e células gigantes, definem pleurite reumatoide.",
+   "O perfil bioquímico imita empiema, mas não há febre, leucocitose, pus nem germe no Gram e na cultura.",
+   "Pseudoquilotórax é leitoso, com colesterol alto e cristais; aqui o líquido é turvo e os triglicerídeos são baixos.",
+   "Pelos critérios de Light é exsudato inequívoco, e o gradiente não se usa para reclassificar este perfil."
+  ]
+ },
+ {
+  "q": "Homem de 26 anos, sem comorbidades e com teste rápido para HIV negativo, tem febre vespertina, sudorese noturna, dor pleurítica à direita e perda de 4 kg há 4 semanas. Radiografia com derrame moderado à direita, sem lesão parenquimatosa. Líquido pleural: exsudato pelos critérios de Light, 88% de linfócitos, células mesoteliais raras, glicose de 74 mg/dL e ADA de 86 U/L; baciloscopia e teste rápido molecular negativos no líquido, cultura em andamento. Pesa 64 kg e tem função hepática e renal normais. Qual é a conduta mais adequada?",
+  "alts": [
+   "Aguardar a cultura do líquido antes de tratar",
+   "RHZE com 4 comprimidos por 6 meses, sem corticoide",
+   "Esquema básico com RHZE, 4 comprimidos, e prednisona",
+   "2RHZE/4RH com 4 comprimidos na fase intensiva",
+   "Drenagem torácica com dreno fino antes do esquema"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, e BTS 2023",
+  "coment": "Tuberculose pleural é a causa infecciosa mais frequente de exsudato linfocítico no Brasil, típica do adulto jovem com febre, emagrecimento e dor pleurítica. O líquido é paucibacilar: baciloscopia positiva em menos de 5% e cultura em menos de 15%, por isso a ADA tem papel central. Acima de 40 U/L, sobretudo abaixo de 45 anos e com predomínio linfocítico, o Manual do Ministério da Saúde aceita a ADA como critério para tratar. O esquema é o básico, 2 meses de rifampicina, isoniazida, pirazinamida e etambutol e 4 meses de rifampicina e isoniazida; com 64 kg são 4 comprimidos de RHZE na fase intensiva. O corticoide não é rotina, e a drenagem não é necessária. Completam a conduta cultura de escarro induzido, notificação, avaliação de contatos e biópsia pleural se houver sinal de linfoma.",
+  "porAlt": [
+   "Baciloscopia e cultura do líquido rendem pouco na forma pleural; esperar a cultura atrasa o tratamento sem ganho diagnóstico.",
+   "O esquema é de 2 meses de RHZE seguidos de 4 meses de RH; manter os quatro fármacos por 6 meses não faz parte do esquema básico.",
+   "Corticoide não é rotina na tuberculose pleural, sem benefício funcional demonstrado e com mais efeitos adversos.",
+   "Correta: exsudato linfocítico com ADA acima de 40 U/L em jovem autoriza tratar tuberculose pleural com o esquema básico de 6 meses, 4 comprimidos de RHZE na faixa de 51 a 70 kg.",
+   "O derrame da tuberculose pleural costuma reabsorver com o tratamento e não precisa de drenagem de rotina."
+  ]
+ },
+ {
+  "q": "Homem de 72 anos com fibrose pulmonar idiopática diagnosticada há 2 anos, em uso de nintedanibe, chega com piora da dispneia há 9 dias e SpO₂ de 84% em ar ambiente, que sobe para 92% com máscara de Venturi a 40%. Afebril, PA 128/76 mmHg. Tomografia com vidro fosco bilateral novo sobreposto ao faveolamento basal; angiotomografia sem TEP; NT-proBNP normal e ecocardiograma sem disfunção ventricular. Procalcitonina baixa, painel viral negativo e culturas colhidas. Não é candidato a transplante e discutiu com a família os limites do suporte. Qual é a conduta mais adequada?",
+  "alts": [
+   "Corticoide com pulsos de ciclofosfamida",
+   "Suspender o nintedanibe durante a exacerbação",
+   "Suporte, corticoide e manter o nintedanibe",
+   "Anticoagulação plena com heparina não fracionada",
+   "Intubação precoce para proteger o pulmão"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "enf",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Grupo internacional de 2016 de exacerbação aguda de FPI, ensaio EXAFIP 2022 e ATS/ERS/JRS/ALAT 2022",
+  "coment": "A definição de 2016 de exacerbação aguda de fibrose pulmonar idiopática exige diagnóstico prévio ou simultâneo, piora respiratória em menos de um mês, vidro fosco ou consolidação bilateral nova sobre o padrão usual e quadro não explicado totalmente por insuficiência cardíaca ou hipervolemia. Embolia, pneumotórax e congestão foram afastados. O tratamento é de suporte, com oxigênio e antibiótico enquanto a infecção não é excluída. O corticoide é prática comum com evidência muito fraca, sem ensaio positivo. O único ensaio grande, o EXAFIP, mostrou que a ciclofosfamida associada aumenta a mortalidade, e no mesmo estudo o uso de antifibrótico associou-se a menor mortalidade, por isso o nintedanibe é mantido. A ventilação mecânica tem prognóstico ruim e, fora da ponte para transplante, a conversa sobre limites de suporte deve preceder a crise.",
+  "porAlt": [
+   "No EXAFIP, somar ciclofosfamida ao corticoide aumentou a mortalidade em 3 meses (45% contra 31%).",
+   "Estar em antifibrótico associou-se a menor mortalidade na exacerbação, e não há razão para suspendê-lo.",
+   "Correta: a exacerbação aguda se trata com oxigênio e suporte, antibiótico enquanto infecção não é excluída e corticoide com evidência fraca, mantendo o antifibrótico.",
+   "TEP foi afastado pela angiotomografia, e anticoagulação sem outra indicação é contraindicada na fibrose pulmonar idiopática.",
+   "A ventilação mecânica tem desfecho ruim na exacerbação e fica reservada, em geral, a candidatos a transplante."
+  ]
+ },
+ {
+  "q": "Homem de 59 anos, ex-tabagista, recebeu há 1 mês o diagnóstico de fibrose pulmonar idiopática por discussão multidisciplinar, com padrão de pneumonia intersticial usual na tomografia, sem exposição ou colagenose. CVF de 76% do previsto, DLCO de 48%, SpO₂ de 95% em repouso e 91% no fim da caminhada de 6 minutos (420 m). Iniciou pirfenidona. IMC de 27 kg/m², sem cardiopatia ou câncer, e mora a 200 km de um centro de transplante pulmonar. Ele pergunta quando deve ser avaliado para transplante. Qual é a orientação mais adequada?",
+  "alts": [
+   "Encaminhar se a CVF cair 10% em 6 meses",
+   "Encaminhar quando precisar de oxigênio contínuo",
+   "Não encaminhar enquanto houver resposta ao antifibrótico",
+   "Encaminhar já ao centro de transplante, ainda no início",
+   "Encaminhar só depois de uma exacerbação aguda"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Consenso ISHLT 2021 de seleção de candidatos a transplante pulmonar e ATS/ERS/JRS/ALAT 2022",
+  "coment": "O transplante é o único tratamento que prolonga muito a sobrevida na fibrose pulmonar avançada, e o erro clássico é encaminhar tarde. O consenso da Sociedade Internacional de Transplante de Coração e Pulmão de 2021 separa encaminhar de listar. Encaminhar é cedo: padrão de pneumonia intersticial usual ou usual provável na tomografia já ao diagnóstico, mesmo iniciando tratamento, CVF abaixo de 80% ou DLCO abaixo de 40%, queda funcional em 2 anos ou qualquer necessidade de oxigênio, mesmo só ao esforço. O tempo serve para resolver barreiras como obesidade e descondicionamento. Listar exige progressão em 6 meses apesar do tratamento, dessaturação abaixo de 88% ou caminhada abaixo de 250 m, hipertensão pulmonar ou internação por piora respiratória. Este paciente tem padrão usual e CVF abaixo de 80%: deve ser encaminhado agora.",
+  "porAlt": [
+   "Queda de mais de 10% da CVF em 6 meses é critério para listar, etapa posterior ao encaminhamento.",
+   "Esperar o oxigênio contínuo é o erro clássico que leva o paciente tarde demais ao centro de transplante.",
+   "O antifibrótico desacelera, mas não interrompe a doença, e o encaminhamento é feito junto com o tratamento.",
+   "Correta: o consenso de 2021 recomenda encaminhar já ao diagnóstico quem tem padrão usual na tomografia, e a CVF abaixo de 80% reforça a indicação.",
+   "A exacerbação aguda tem alta mortalidade e pode tirar a chance de transplante de quem não foi avaliado antes."
+  ]
+ },
+ {
+  "q": "Mulher de 68 anos com fibrose pulmonar idiopática confirmada há 4 meses, com padrão usual na tomografia, sorologias negativas e sem exposição, recebeu de outro serviço prednisona 20 mg/dia, azatioprina e N-acetilcisteína. Usa varfarina por prótese valvar mecânica mitral, com INR estável, e tem síndrome do intestino irritável com diarreia frequente. CVF de 70% do previsto e DLCO de 46%. Trabalha em escritório e evita exposição ao sol. Qual é a conduta mais adequada?",
+  "alts": [
+   "Manter a tríplice e associar sildenafila",
+   "Manter só a N-acetilcisteína em dose alta",
+   "Associar ambrisentana à tríplice que ela já usa",
+   "Trocar a azatioprina por micofenolato",
+   "Suspender a tríplice e iniciar pirfenidona"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ATS/ERS/JRS/ALAT 2015 e 2022 de tratamento da FPI, SBPT 2020 e ensaio PANTHER-IPF",
+  "coment": "A patogenia da fibrose pulmonar idiopática é de lesão epitelial repetida com reparo aberrante, não de inflamação. No PANTHER-IPF, a combinação de prednisona, azatioprina e N-acetilcisteína teve mais mortes (8 contra 1) e mais internações que o placebo, e o braço foi interrompido; desde 2015 a recomendação é forte contra. O tratamento são os antifibróticos, nintedanibe ou pirfenidona, ambos com recomendação condicional e sem superioridade entre si, escolhidos por efeito adverso e comorbidade. Nesta paciente, o nintedanibe pede cautela com anticoagulação plena e tem diarreia como efeito mais comum, o que pesa contra ele. A pirfenidona, 801 mg três vezes ao dia com as refeições após escalonamento, causa náusea e fotossensibilidade, contornável com a rotina dela, e exige transaminases periódicas. N-acetilcisteína, sildenafila e antagonistas de endotelina não têm lugar.",
+  "porAlt": [
+   "Manter a tríplice expõe ao excesso de mortes do PANTHER, e a sildenafila não é recomendada na fibrose idiopática.",
+   "A N-acetilcisteína isolada recebeu recomendação contrária e não substitui o antifibrótico.",
+   "Antagonistas de endotelina receberam recomendação forte contra na fibrose idiopática, e a tríplice deve sair.",
+   "Imunossupressão não trata fibrose pulmonar idiopática, cuja patogenia é de reparo epitelial aberrante.",
+   "Correta: a tríplice aumentou mortalidade na fibrose idiopática, e a pirfenidona é antifibrótico que se ajusta a quem usa varfarina e tem diarreia crônica."
+  ]
+ },
+ {
+  "q": "Mulher de 61 anos, nunca fumou, fez tomografia de tórax para investigar tosse após infecção viral e foi encontrado nódulo parcialmente sólido de 14 mm no lobo superior direito, único, com componente sólido de 4 mm. A tomografia de controle após 4 meses mostra o nódulo inalterado, sem linfonodos aumentados. Não tem câncer prévio e não está em programa de rastreamento. Pela Fleischner 2017, qual é o seguimento mais adequado?",
+  "alts": [
+   "Alta do seguimento, pela estabilidade no exame de controle após 4 meses",
+   "PET-CT e biópsia percutânea já nesta etapa",
+   "Tomografia a cada 2 anos até completar 5 anos",
+   "Tomografia anual por 5 anos, se o sólido seguir abaixo de 6 mm",
+   "Lobectomia por videotoracoscopia nesta etapa"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Fleischner Society 2017 de nódulos pulmonares incidentais",
+  "coment": "Os nódulos subsólidos têm regras próprias porque o adenocarcinoma de crescimento lento se apresenta assim, e o seguimento é mais longo que o do nódulo sólido. Pela Fleischner 2017, o nódulo parcialmente sólido único de 6 mm ou mais pede tomografia em 3 a 6 meses para confirmar persistência, porque parte deles é inflamatória e desaparece. Persistindo e com componente sólido abaixo de 6 mm, segue-se com tomografia anual por 5 anos. Componente sólido de 6 mm ou mais torna o nódulo altamente suspeito, com indicação de PET-CT, biópsia ou ressecção, e o mesmo vale para crescimento do componente sólido. Já o vidro fosco puro de 6 mm ou mais é seguido a cada 2 anos até 5 anos. A diretriz vale para achado incidental em adultos acima de 35 anos fora de rastreamento e sem câncer conhecido.",
+  "porAlt": [
+   "A persistência após 3 a 6 meses afasta processo inflamatório transitório e é justamente o que exige seguimento longo.",
+   "Com componente sólido de 4 mm o PET-CT rende pouco, e a abordagem invasiva fica para sólido de 6 mm ou mais ou crescimento.",
+   "Tomografia a cada 2 anos é o seguimento do nódulo em vidro fosco puro de 6 mm ou mais, não do parcialmente sólido.",
+   "Correta: nódulo parcialmente sólido persistente com componente sólido abaixo de 6 mm segue com tomografia anual por 5 anos pela Fleischner 2017.",
+   "Ressecção é considerada quando o componente sólido cresce ou chega a 6 mm, o que não ocorreu."
+  ]
+ },
+ {
+  "q": "Homem de 63 anos, fumante de 1 maço por dia há 42 anos, entra em programa estruturado de rastreamento de câncer de pulmão após decisão compartilhada e aceita o encaminhamento para cessação do tabagismo. A primeira tomografia de baixa dose mostra nódulo sólido de 10 mm de diâmetro médio no lobo inferior esquerdo, de contornos regulares, sem calcificação ou gordura, sem outras alterações. Não há exames anteriores para comparação. Qual é a classificação e a conduta mais adequadas?",
+  "alts": [
+   "Lung-RADS 3: tomografia de baixa dose em 6 meses",
+   "Lung-RADS 2: manter a tomografia anual",
+   "Lung-RADS 4B: biópsia percutânea imediata",
+   "Fleischner: tomografia em 6 a 12 meses",
+   "Lung-RADS 4A: tomografia em 3 meses ou PET-TC"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "prev",
+  "nivel": "tit",
+  "base": "ACR Lung-RADS versão 2022 e recomendação SBCT/SBPT/CBR 2024 de rastreamento de câncer de pulmão",
+  "coment": "Ele é elegível para rastreamento (50 a 80 anos, 20 maços-ano ou mais, fumante atual), e a recomendação brasileira de 2024 exige decisão compartilhada, laudo pelo Lung-RADS, cessação do tabagismo acoplada e acesso a biópsia e cirurgia. O Lung-RADS 2022 classifica o exame pelo nódulo mais suspeito. Na tomografia de base, nódulo sólido abaixo de 6 mm é categoria 2 (controle anual), de 6 a menos de 8 mm é categoria 3 (controle em 6 meses), de 8 a menos de 15 mm é categoria 4A (tomografia em 3 meses, com PET-TC considerado se houver componente sólido de 8 mm ou mais) e de 15 mm ou mais é 4B. As categorias 3 e 4 são rastreio positivo. O nódulo incidental fora do programa segue a Fleischner, não o Lung-RADS. A cessação do tabagismo é a intervenção de maior impacto na mesma pessoa.",
+  "porAlt": [
+   "Lung-RADS 3 é o nódulo sólido de base de 6 a menos de 8 mm; com 10 mm a categoria sobe.",
+   "Lung-RADS 2 é o nódulo sólido de base abaixo de 6 mm, que mantém o intervalo anual.",
+   "Lung-RADS 4B começa em 15 mm ou em nódulo novo ou crescente de 8 mm ou mais.",
+   "No rastreamento o laudo segue o Lung-RADS; a Fleischner é para o nódulo incidental fora do programa.",
+   "Correta: no exame de base, nódulo sólido de 8 a menos de 15 mm é Lung-RADS 4A, com tomografia em 3 meses e PET-TC como opção quando o componente sólido tem 8 mm ou mais."
+  ]
+ },
+ {
+  "q": "Homem de 41 anos, 68 kg, caso novo de tuberculose pulmonar cavitária com baciloscopia inicial 3+ e teste rápido molecular detectado sem resistência à rifampicina, está no fim do segundo mês do esquema básico, com tomadas observadas em todos os dias úteis e sem faltas. Melhorou da febre e ganhou 3 kg, mas a baciloscopia de controle do segundo mês é positiva (1+). A cultura não foi colhida no diagnóstico. HIV negativo, glicemia normal e função hepática normal. Qual é a conduta mais adequada?",
+  "alts": [
+   "Cultura com TS e estender a fase intensiva por mais 30 dias",
+   "Declarar falência e encaminhar para esquema de resistência",
+   "Iniciar a manutenção com RH como planejado",
+   "Repetir o teste rápido molecular e usá-lo para decidir a evolução",
+   "Acrescentar levofloxacino ao RHZE até sair a cultura"
+  ],
+  "gab": 0,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, seguimento do esquema básico",
+  "coment": "O controle do tratamento da tuberculose pulmonar é feito com baciloscopia mensal; o teste rápido molecular não serve para isso, porque amplifica DNA de bacilo morto. Baciloscopia positiva ao fim do segundo mês muda a conduta pelo Manual do Ministério da Saúde: pede-se cultura com teste de sensibilidade, teste rápido para rastrear resistência à rifampicina, e prolonga-se a fase intensiva por mais 30 dias. Se o teste de sensibilidade mostrar sensibilidade, ou ainda não tiver saído e a evolução for boa, segue-se para a manutenção; evolução ruim vai à referência. Na doença multicavitária com baciloscopia positiva no fim do segundo mês, a manutenção pode ser estendida de 4 para 7 meses. Falência tem definição própria e não se aplica aqui. O tratamento diretamente observado sem faltas afasta má adesão como explicação.",
+  "porAlt": [
+   "Correta: baciloscopia positiva no fim do segundo mês pede cultura com teste de sensibilidade, teste rápido para rastrear resistência e prolongamento da fase intensiva por 30 dias.",
+   "Falência exige baciloscopia positiva no final do tratamento ou persistência fortemente positiva até o quarto mês, o que não ocorreu.",
+   "Passar para a manutenção sem investigar ignora a possibilidade de resistência e de doença mais extensa, que o manual manda checar.",
+   "O teste rápido detecta DNA de bacilo morto e não serve para controle de tratamento; aqui ele só rastreia resistência.",
+   "Acrescentar um único fármaco a um esquema possivelmente falhando é monoterapia disfarçada e seleciona resistência."
+  ]
+ },
+ {
+  "q": "Mulher de 35 anos tratou tuberculose pulmonar há 3 anos e abandonou o esquema no quarto mês. Há 6 semanas tem tosse produtiva, febre baixa vespertina e perda de 5 kg. A radiografia mostra consolidação com cavidade no lobo superior esquerdo, além de retrações apicais antigas. HIV negativo. Ela retorna à unidade de saúde que a acompanhou. Qual é a investigação bacteriológica mais adequada neste retratamento?",
+  "alts": [
+   "Teste rápido molecular isolado, que confirma a doença ativa",
+   "Prova tuberculínica e IGRA para confirmar a reativação",
+   "Baciloscopia isolada, sem cultura, por já ser um caso conhecido",
+   "Baciloscopia e cultura com TS, e teste rápido só para resistência",
+   "Tomografia de tórax, que dispensa o exame de escarro"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "Manual de Recomendações para o Controle da Tuberculose do Ministério da Saúde, 2019, diagnóstico no retratamento",
+  "coment": "Retorno após abandono com doença ativa é retratamento, assim como a recidiva após cura. Nessa situação o teste rápido molecular perde o papel diagnóstico que tem no caso novo: ele detecta DNA do complexo Mycobacterium tuberculosis, inclusive de bacilos mortos, e pode permanecer positivo por resíduo do tratamento anterior. Por isso o Manual do Ministério da Saúde manda pedir juntos baciloscopia, teste rápido, cultura e teste de sensibilidade, usando baciloscopia e cultura para o diagnóstico e o teste rápido para rastrear resistência à rifampicina. Baciloscopia positiva com teste rápido não detectado é tuberculose provável e recebe esquema básico, com a cultura afastando micobactéria não tuberculosa; baciloscopia negativa com teste rápido detectado vai à referência. O retratamento sensível usa o mesmo esquema básico, com tratamento diretamente observado e abordagem das causas do abandono.",
+  "porAlt": [
+   "O teste rápido amplifica DNA de bacilo morto e pode vir positivo por resíduo do tratamento anterior, sem confirmar doença ativa.",
+   "Prova tuberculínica e IGRA indicam infecção, não doença ativa, e já seriam positivos em quem teve tuberculose.",
+   "Retorno após abandono é grupo de risco para resistência, e a cultura com teste de sensibilidade é obrigatória.",
+   "Correta: no retratamento o diagnóstico se faz por baciloscopia e cultura com teste de sensibilidade, e o teste rápido molecular entra para rastrear resistência à rifampicina.",
+   "A imagem sugere, mas não confirma tuberculose; o diagnóstico laboratorial deve ser oferecido em todo caso."
+  ]
+ },
+ {
+  "q": "Homem de 66 anos tem insuficiência cardíaca com fração de ejeção de 28%, em sacubitril-valsartana, bisoprolol, espironolactona e dapagliflozina em doses otimizadas, classe funcional II. Tem sono fragmentado, e a esposa observa respiração que aumenta e diminui, com pausas. Polissonografia: índice de apneia-hipopneia de 36 eventos por hora, 85% de eventos centrais, padrão de Cheyne-Stokes e sem hipoventilação. Epworth de 9. O médico do sono propõe servoventilação adaptativa. Qual é a conduta mais adequada?",
+  "alts": [
+   "Servoventilação adaptativa para reduzir mortalidade cardiovascular",
+   "Zolpidem para consolidar o sono",
+   "Aparelho intraoral de avanço mandibular",
+   "Não usar servoventilação; CPAP ou oxigênio noturno",
+   "Repetir com poligrafia domiciliar antes de tratar"
+  ],
+  "gab": 3,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "tto",
+  "nivel": "tit",
+  "base": "ESC 2026 de insuficiência cardíaca (servoventilação) e ensaio SERVE-HF",
+  "coment": "Cerca de 40% dos homens com insuficiência cardíaca sistólica têm apneia central, e a respiração de Cheyne-Stokes, com ciclos em crescendo e decrescendo, sinaliza débito baixo e tempo de circulação longo. O tratamento começa pela otimização da insuficiência cardíaca, já feita aqui; CPAP e oxigênio noturno de baixo fluxo são as opções seguintes. O SERVE-HF randomizou 1.325 pacientes com fração de ejeção de até 45% e apneia central predominante: a servoventilação adaptativa não mudou o desfecho primário e aumentou a mortalidade total (razão de risco 1,28) e cardiovascular (1,34). A ESC 2026 manteve a recomendação classe III, nível A, contra a servoventilação nesse perfil, e só a considera (IIb) quando a apneia predominante é obstrutiva. O diagnóstico de apneia central exige polissonografia, porque a poligrafia domiciliar não foi validada para ela.",
+  "porAlt": [
+   "No SERVE-HF a servoventilação aumentou a mortalidade total e cardiovascular nesse perfil exato.",
+   "Hipnótico não trata apneia central e pode piorar a fragmentação respiratória do sono.",
+   "O aparelho intraoral age sobre o colapso da via aérea superior, mecanismo da apneia obstrutiva, não da central.",
+   "Correta: na fração reduzida com apneia central predominante a servoventilação é contraindicada (ESC 2026, III, A), e CPAP ou oxigênio noturno são as alternativas após otimizar a insuficiência cardíaca.",
+   "A poligrafia domiciliar não foi validada para apneia central; a polissonografia já feita é o exame adequado."
+  ]
+ },
+ {
+  "q": "Homem de 48 anos, motorista de caminhão, IMC de 36 kg/m², circunferência cervical de 45 cm, hipertensão em uso de 3 fármacos, ronco alto com pausas observadas pela esposa e Epworth de 15. Já cochilou ao volante. Não tem DPOC, insuficiência cardíaca, doença neuromuscular ou uso de opioide. Fez poligrafia domiciliar tipo 3 com 4 horas de registro válido e índice de apneia-hipopneia de 4 eventos por hora, com períodos de perda do sinal de oximetria. Qual é a conduta mais adequada?",
+  "alts": [
+   "Excluir apneia e investigar narcolepsia",
+   "CPAP empírico pela alta probabilidade clínica",
+   "Oximetria noturna para confirmar o resultado",
+   "Repetir o STOP-Bang em 3 meses",
+   "Polissonografia no laboratório"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "AASM 2017 de diagnóstico da apneia obstrutiva e consenso SBPT 2022 de distúrbios respiratórios do sono",
+  "coment": "A probabilidade pré-teste é alta: sonolência, ronco alto com pausas presenciadas, hipertensão resistente, obesidade e pescoço largo. A poligrafia domiciliar tipo 3 é adequada para o paciente sem comorbidade importante com suspeita de apneia moderada a grave, mas tem um limite estrutural: mede tempo de registro, não de sono, e subestima o índice de apneia-hipopneia, ainda mais com registro curto e perda de sinal. A AASM recomenda, com força, que poligrafia única negativa, inconclusiva ou tecnicamente inadequada seja seguida de polissonografia, e que questionários não sejam usados para diagnosticar. Por ser motorista profissional, a Resolução CONTRAN 927/2022 prevê avaliação de apneia nas categorias C, D e E, e ele deve ser orientado a não dirigir com sonolência importante até o tratamento funcionar.",
+  "porAlt": [
+   "A poligrafia mede tempo de registro, não de sono, e subestima o índice; um exame negativo e limitado não exclui apneia.",
+   "O tratamento exige diagnóstico objetivo, e a gravidade medida orienta a indicação e o seguimento.",
+   "A oximetria isolada não diagnostica apneia e não resolve a dúvida deixada por um exame domiciliar inadequado.",
+   "Questionários servem para triar e não diagnosticam nem excluem apneia obstrutiva.",
+   "Correta: poligrafia negativa, inconclusiva ou tecnicamente inadequada em paciente com suspeita alta deve ser seguida de polissonografia (AASM, recomendação forte)."
+  ]
+ },
+ {
+  "q": "Mulher de 52 anos é encaminhada com diagnóstico de asma grave por dispneia aos esforços e ruído respiratório há 5 meses, sem resposta a budesonida-formoterol em dose média. Fez tireoidectomia total por bócio há 6 meses e desde então tem voz fraca e soprosa. Espirometria: VEF₁/CVF de 0,80, VEF₁ de 82% e CVF de 90% do previsto, sem resposta ao broncodilatador; alça expiratória normal e alça inspiratória achatada em platô, com FIF₅₀/FEF₅₀ de 0,4. Qual é a hipótese mais provável?",
+  "alts": [
+   "Obstrução fixa por estenose traqueal",
+   "Obstrução variável intratorácica por traqueomalácia",
+   "Obstrução variável extratorácica por paralisia de pregas vocais",
+   "Asma grave com obstrução de pequenas vias aéreas",
+   "Restrição extraparenquimatosa por fraqueza diafragmática bilateral"
+  ],
+  "gab": 2,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "tit",
+  "base": "ERS/ATS 2022 de interpretação das provas de função pulmonar e SBPT 2024 de espirometria",
+  "coment": "A forma da curva fluxo-volume localiza a obstrução de via aérea central, que a espirometria comum pode não denunciar, porque VEF₁ e CVF ficam normais no início. Na lesão variável extratorácica, a pressão intraluminal negativa da inspiração forçada colapsa o segmento acometido e achata a alça inspiratória, enquanto a expiração o abre: FIF₅₀/FEF₅₀ fica abaixo de 1. Na lesão variável intratorácica ocorre o contrário, e na fixa as duas alças ficam em platô, com relação próxima de 1. Paralisia bilateral de pregas vocais após tireoidectomia, com voz alterada desde a cirurgia, é a causa típica. A norma ERS/ATS de 2022 lembra que olhar a alça inspiratória é obrigatório na asma que não responde ao tratamento. O próximo passo é laringoscopia, e não escalonar a terapia da asma.",
+  "porAlt": [
+   "A lesão fixa achata as duas alças e deixa FIF₅₀/FEF₅₀ perto de 1, o que não ocorre aqui.",
+   "Na lesão variável intratorácica o platô aparece na alça expiratória, com FIF₅₀/FEF₅₀ acima de 1.",
+   "Correta: platô só na alça inspiratória, com FIF₅₀/FEF₅₀ abaixo de 1, indica lesão variável extratorácica, aqui a paralisia de pregas vocais após tireoidectomia.",
+   "A relação VEF₁/CVF é normal e não há resposta ao broncodilatador, e a alça expiratória não mostra concavidade.",
+   "VEF₁ e CVF estão normais e não há o pico rombo da fraqueza muscular; o achado é a alça inspiratória."
+  ]
+ },
+ {
+  "q": "Homem de 70 anos, ex-tabagista de 60 maços-ano, faz espirometria com VEF₁/CVF pós-broncodilatador de 0,48, abaixo do limite inferior, VEF₁ de 32% e CVF de 62% do previsto, ambos abaixo do limite inferior. O exame é aceitável e repetível. Não há medida de volumes pulmonares disponível no serviço. O laudo anterior, de outro laboratório, chamou o exame de distúrbio ventilatório misto. Pelas recomendações da SBPT de 2024, qual é a interpretação mais adequada?",
+  "alts": [
+   "Distúrbio misto, pela CVF abaixo do limite inferior da normalidade",
+   "Restrição associada, a confirmar pela difusão",
+   "Padrão inespecífico, pela CVF reduzida",
+   "Exame inválido, pela CVF desproporcional",
+   "Obstrução com CVF baixa por provável aprisionamento aéreo"
+  ],
+  "gab": 4,
+  "tema": "pneumo",
+  "cenario": "amb",
+  "comp": "dx",
+  "nivel": "r3",
+  "base": "SBPT 2024 de espirometria e ERS/ATS 2022 de interpretação das provas de função pulmonar",
+  "coment": "A espirometria mede fluxos e capacidade vital, mas não o volume residual nem a capacidade pulmonar total, que define restrição. Por isso chamar de misto toda obstrução com CVF baixa é erro frequente: no obstruído grave, o ar aprisionado aumenta o volume residual e rouba capacidade vital, sem que o pulmão seja pequeno. A norma ERS/ATS de 2022 manda medir a capacidade pulmonar total diante de obstrução com CVF abaixo do limite inferior. Quando ela não está disponível, a SBPT de 2024 oferece um atalho: CVF em porcentagem do previsto menos VEF₁ em porcentagem do previsto igual ou maior que 25 indica, com alto grau de certeza, aprisionamento aéreo; abaixo de 25, medir a capacidade pulmonar total. Aqui a diferença é 62 menos 32, ou seja, 30. Distúrbio misto exige relação e capacidade pulmonar total ambas abaixo do limite inferior.",
+  "porAlt": [
+   "Misto exige CPT abaixo do limite inferior, que a espirometria não mede, e quase sempre a CVF baixa do obstruído é aprisionamento.",
+   "Restrição se define pela capacidade pulmonar total, não pela difusão, que avalia troca gasosa.",
+   "O padrão inespecífico tem relação VEF₁/CVF normal, e aqui ela está claramente reduzida.",
+   "O exame foi aceitável e repetível, e CVF baixa é esperada na obstrução grave com hiperinsuflação.",
+   "Correta: na obstrução com CVF baixa, diferença entre CVF% e VEF₁% de 25 pontos ou mais indica com alto grau de certeza aprisionamento aéreo, e aqui ela é de 30."
+  ]
+ }
+]
