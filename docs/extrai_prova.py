@@ -4,16 +4,47 @@
 Uso: python3 extrai.py <id> <arquivo_raw.txt> <estilo: revalida|enare>
 Saída: parsed/<id>.json — lista de {n, q, alts, avisos}.
 O texto da banca não é reescrito: só junta linhas quebradas e tira cabeçalho/rodapé de página.
+
+Número de página: só sai o número solto que é a ÚLTIMA linha não vazia da página (o `colunas_pdf.py`
+imprime o rodapé por último) e cabe no total de páginas. Até 07/10/2026 o LIXO apagava TODA linha
+que fosse só um número, e isso comia dado no meio do texto e das tabelas ("de 55 anos" virou
+"de anos"; a célula "PTH 125" sumiu). Número solto no meio da página é conteúdo: fica.
 """
 import json, re, sys, pathlib
 
 LIXO = [
-    r"^ÁREA LIVRE$", r"^RASCUNHO$", r"^\d{4}$", r"^\d{1,2}$", r"^Página \d+", r".*Página \d+ de \d+",
+    r"^ÁREA LIVRE$", r"^RASCUNHO$", r"^Página \d+", r".*Página \d+ de \d+",
     r"^Residência Médica$", r"^FGV Conhecimento$", r"^Clínica Médica$", r"^Tipo \d.*Página \d+$",
     r"^Pré-Requisito - .*", r"^Ano Adicional - .*", r"^Acesso Direto.*", r"^\*$", r"^REVALIDA.*", r"^Revalida.*",
-    r"^INEP.*", r"^#+$", r"^PRÉ-REQUISITO\b.*", r"^FGV CONHECIMENTO$", r"^Tipo \d - .*", r"^Realização$", r"^Processo Seletivo.*", r"^PROCESSO SELETIVO.*", r".*(PRIMEIRA|SEGUNDA) EDIÇÃO.*", r"^\d{4}\s+.*EDIÇÃO.*", r"^\(?\d+\)?$", r"^PROVA OBJETIVA.*", r"^CADERNO \d+.*", r"^EDIÇÃO.*",
+    r"^INEP.*", r"^#+$", r"^PRÉ-REQUISITO\b.*", r"^FGV CONHECIMENTO$", r"^Tipo \d - .*", r"^Realização$", r"^Processo Seletivo.*", r"^PROCESSO SELETIVO.*", r".*(PRIMEIRA|SEGUNDA) EDIÇÃO.*", r"^\d{4}\s+.*EDIÇÃO.*", r"^PROVA OBJETIVA.*", r"^CADERNO \d+.*", r"^EDIÇÃO.*",
 ]
 LIXO = [re.compile(p) for p in LIXO]
+
+NUM_PAGINA = re.compile(r"^\(?\d{1,3}\)?$")
+
+def tira_numero_de_pagina(texto):
+    """Apaga o número de página pela POSIÇÃO e pela SEQUÊNCIA: o número solto que é a última linha não
+    vazia da página (separada por \\f) E segue a numeração do próprio caderno (índice da página +
+    deslocamento constante, visto em pelo menos 3 páginas). Caderno sem número de página (Revalida
+    2023.2) não perde nada, nem uma célula de tabela que por acaso feche a página."""
+    import collections
+    paginas = [pg.split("\n") for pg in texto.split("\f")]
+    ultima = {}
+    for ip, ls in enumerate(paginas):
+        for i in range(len(ls) - 1, -1, -1):
+            s = ls[i].strip()
+            if s:
+                if NUM_PAGINA.match(s):
+                    ultima[ip] = (i, int(s.strip("()")))
+                break
+    desl = collections.Counter(v - ip for ip, (_, v) in ultima.items())
+    if not desl or desl.most_common(1)[0][1] < 3:
+        return texto
+    d = desl.most_common(1)[0][0]
+    for ip, (i, v) in ultima.items():
+        if v - ip == d:
+            paginas[ip][i] = ""
+    return "\f".join("\n".join(ls) for ls in paginas)
 
 def limpa(linhas):
     out = []
@@ -129,7 +160,7 @@ def main():
     global NALT
     ident, arq, estilo = sys.argv[1:4]
     NALT = 4 if estilo in ("revalida", "usp") else 5
-    texto = pathlib.Path(arq).read_text(encoding="utf-8", errors="replace")
+    texto = tira_numero_de_pagina(pathlib.Path(arq).read_text(encoding="utf-8", errors="replace"))
     b = blocos(texto, estilo)
     out = []
     for n in sorted(b):

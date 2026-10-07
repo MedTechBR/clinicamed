@@ -8463,7 +8463,7 @@ window.BANCO=[
 }
 },
 {
-"q": "Um homem de 52 anos de idade procura atendimento médico em nível ambulatorial após 7 dias de uma internação hospitalar de 72 horas para correção de uma hérnia inguinal, na qual permaneceu 24 horas com sonda vesical de demora. O paciente encontra-se em bom estado de saúde, queixando-se de leve dor no local da cirurgia e de disúria, iniciada há 3 dias, além de polaciúria. Ao exame, a ferida operatória encontra-se limpa e apresenta dor à palpação profunda do hipogástrio. No mais, o exame físico é completamente normal. Possui comorbidades, pois é diabético e portador de epilepsia em uso de topiramato para essa última condição. O médico assistente solicitou uma urocultura, cujo resultado segue abaixo. Urina Material da amostra Positiva 100 000 UFC Resultado da cultura E. coli Concentração Antibiograma Inibitória Mínima Amicacina Resistente ≥ 32 Ampicilina Resistente ≥ 32 Ampicilina/Sulbactan Resistente ≥ 32 Cefepime Resistente ≥ 64 Ceftazidima Resistente Ceftriaxona Resistente ≥ 64 Cefoxitina Sensível ≤ 2 Cefuroxima Resistente ≥ 64 Ciprofloxacina Resistente ≥ 16 Ertapenem Sensível ≤ 0,5 Gentamicina Resistente ≥ 16 Imipenem Sensível ≤ 0,5 Piperacilina/Tazobactan Resistente ≥ 64 Sulfametoxazol/Trimetoprim Sensível ≤ 0,5 Nesse caso, a conduta do médico deve ser",
+"q": "Um homem de 52 anos de idade procura atendimento médico em nível ambulatorial após 7 dias de uma internação hospitalar de 72 horas para correção de uma hérnia inguinal, na qual permaneceu 24 horas com sonda vesical de demora. O paciente encontra-se em bom estado de saúde, queixando-se de leve dor no local da cirurgia e de disúria, iniciada há 3 dias, além de polaciúria. Ao exame, a ferida operatória encontra-se limpa e apresenta dor à palpação profunda do hipogástrio. No mais, o exame físico é completamente normal. Possui comorbidades, pois é diabético e portador de epilepsia em uso de topiramato para essa última condição. O médico assistente solicitou uma urocultura, cujo resultado segue abaixo. Urina Material da amostra Positiva 100 000 UFC Resultado da cultura E. coli Concentração Antibiograma Inibitória Mínima Amicacina Resistente ≥ 32 Ampicilina Resistente ≥ 32 Ampicilina/Sulbactan Resistente ≥ 32 Cefepime Resistente ≥ 64 Ceftazidima Resistente 16 Ceftriaxona Resistente ≥ 64 Cefoxitina Sensível ≤ 2 Cefuroxima Resistente ≥ 64 Ciprofloxacina Resistente ≥ 16 Ertapenem Sensível ≤ 0,5 Gentamicina Resistente ≥ 16 Imipenem Sensível ≤ 0,5 Piperacilina/Tazobactan Resistente ≥ 64 Sulfametoxazol/Trimetoprim Sensível ≤ 0,5 Nesse caso, a conduta do médico deve ser",
 "alts": [
 "prescrever um sintomático como a fenazopiridina.",
 "internar o paciente para administração de cefoxitina.",
@@ -17109,7 +17109,7 @@ window.BANCO=[
 "parecer à cirurgia vascular para colocação de filtro de veia cava;",
 "início de apixabana 10 mg (2 vezes ao dia) durante 7 dias seguido de 5 mg (2 vezes ao dia) enquanto atividade de neoplasia ou até aumento do risco de sangramento;",
 "dabigatrana 150 mg (2 vezes ao dia) indefinidamente devido à neoplasia metastática em atividade;",
-"enoxaparina 1 mg/kg de peso (1 vez ao dia) corrigido pela plaquetopenia por dias. O tratamento seguirá ambulatorialmente com rivaroxabana 20 mg por dia nas três primeiras semanas; posteriormente, rivaroxaban 15 mg (1 vez ao dia) por pelo menos 6 meses ou até cessar fator provocador da trombose."
+"enoxaparina 1 mg/kg de peso (1 vez ao dia) corrigido pela plaquetopenia por 5 dias. O tratamento seguirá ambulatorialmente com rivaroxabana 20 mg por dia nas três primeiras semanas; posteriormente, rivaroxaban 15 mg (1 vez ao dia) por pelo menos 6 meses ou até cessar fator provocador da trombose."
 ],
 "gab": 2,
 "tema": "hemato",
@@ -19249,7 +19249,7 @@ window.BANCO=[
 }
 },
 {
-"q": "Maria, 28 anos, professora, procurou atendimento médico queixando-se de fadiga progressiva há quatro meses, associada à palidez cutâneo-mucosa, dispneia aos esforços e palpitações. Referia menorragia desde a menarca, com ciclos menstruais regulares de 28 dias, porém com fluxo intenso durando oito dias. Negava melena, hematoquezia ou outras perdas sanguíneas. Relatava alimentação variada, sem restrições dietéticas. Ao exame físico, apresentava palidez cutâneo-mucosa 2+/4+, frequência cardíaca de bpm, pressão arterial de 110 x 70 mmHg e sopro sistólico 2+/6+ no foco mitral. O restante do exame físico não apresentava alterações. Foram solicitados exames complementares para investigação diagnóstica. Os parâmetros laboratoriais que caracterizam adequadamente o diagnóstico de anemia ferropriva, nessa paciente, compreendem",
+"q": "Maria, 28 anos, professora, procurou atendimento médico queixando-se de fadiga progressiva há quatro meses, associada à palidez cutâneo-mucosa, dispneia aos esforços e palpitações. Referia menorragia desde a menarca, com ciclos menstruais regulares de 28 dias, porém com fluxo intenso durando oito dias. Negava melena, hematoquezia ou outras perdas sanguíneas. Relatava alimentação variada, sem restrições dietéticas. Ao exame físico, apresentava palidez cutâneo-mucosa 2+/4+, frequência cardíaca de 102 bpm, pressão arterial de 110 x 70 mmHg e sopro sistólico 2+/6+ no foco mitral. O restante do exame físico não apresentava alterações. Foram solicitados exames complementares para investigação diagnóstica. Os parâmetros laboratoriais que caracterizam adequadamente o diagnóstico de anemia ferropriva, nessa paciente, compreendem",
 "alts": [
 "hemoglobina 8,5 g/dL, VCM 68 fL, HCM 22 pg, CHCM 28 g/dL, ferritina 8 ng/mL, ferro sérico 45 μg/dL, TIBC 420 μg/dL, índice de saturação de transferrina 11%, taxa de reticulócitos corrigido 0,8%.",
 "hemoglobina 9,2 g/dL, VCM 105 fL, HCM 35 pg, CHCM 33 g/dL, ferritina 180 ng/mL, ferro sérico 65 μg/dL, TIBC 280 μg/dL, índice de saturação de transferrina 23%, taxa de reticulócitos corrigido 8,5%.",
@@ -21847,7 +21847,7 @@ window.BANCO=[
 }
 },
 {
-"q": "Homem, 35 anos de idade, é admitido confuso e sonolento na sala de emergência. Ao exame clínico, apresentou vias aéreas pérvias, FR de ipm, SpO2 de 95%, PA de 100x60 mmHg, FC de 130 bpm, temperatura axilar 41°C. Midríase bilateral com pouca reatividade pupilar. Não há lesões de pele nem rigidez de nuca. Exames laboratoriais: pH 7,20, HCO3- 15 mmHg, PaCO₂ 30 mmHg, lactato de 25 mg/dL, Na+ 148 mEq/L. Segundo sua acompanhante, o paciente é hígido e, até três horas atrás, não estava sentindo nada. O dado adicional de história mais provável de ser encontrado na conversa com sua acompanhante é:",
+"q": "Homem, 35 anos de idade, é admitido confuso e sonolento na sala de emergência. Ao exame clínico, apresentou vias aéreas pérvias, FR de 36 ipm, SpO2 de 95%, PA de 100x60 mmHg, FC de 130 bpm, temperatura axilar 41°C. Midríase bilateral com pouca reatividade pupilar. Não há lesões de pele nem rigidez de nuca. Exames laboratoriais: pH 7,20, HCO3- 15 mmHg, PaCO₂ 30 mmHg, lactato de 25 mg/dL, Na+ 148 mEq/L. Segundo sua acompanhante, o paciente é hígido e, até três horas atrás, não estava sentindo nada. O dado adicional de história mais provável de ser encontrado na conversa com sua acompanhante é:",
 "alts": [
 "Uso regular recreativo de cocaína.",
 "Treino para triatlo em um dia muito quente.",
@@ -22549,7 +22549,7 @@ window.BANCO=[
 }
 },
 {
-"q": "Mulher, 55 anos de idade, é atendida no ambulatório para avaliação pré-operatória de cirurgia bariátrica com derivação em Y de Roux com duração prevista de três horas. É obesa, hipertensa e diabética tipo 2. Relata dispneia aos moderados a grandes esforços. Nega outras queixas. Está em uso de losartana mg/dia, hidroclorotiazida mg/dia, metformina 2.000 mg/dia, dapagliflozina 10 mg/dia e sitagliptina 100 mg/dia. Peso 112 kg, altura 1,58 m, IMC 44,9 kg/m². O exame clínico, os exames laboratoriais e o eletrocardiograma estão normais. Em relação à profilaxia de tromboembolismo venoso, a conduta mais adequada é:",
+"q": "Mulher, 55 anos de idade, é atendida no ambulatório para avaliação pré-operatória de cirurgia bariátrica com derivação em Y de Roux com duração prevista de três horas. É obesa, hipertensa e diabética tipo 2. Relata dispneia aos moderados a grandes esforços. Nega outras queixas. Está em uso de losartana 100 mg/dia, hidroclorotiazida 25 mg/dia, metformina 2.000 mg/dia, dapagliflozina 10 mg/dia e sitagliptina 100 mg/dia. Peso 112 kg, altura 1,58 m, IMC 44,9 kg/m². O exame clínico, os exames laboratoriais e o eletrocardiograma estão normais. Em relação à profilaxia de tromboembolismo venoso, a conduta mais adequada é:",
 "alts": [
 "Enoxaparina 40 mg de 12/12 horas por 10 dias.",
 "Enoxaparina 40 mg 1vez ao dia por 28 dias.",

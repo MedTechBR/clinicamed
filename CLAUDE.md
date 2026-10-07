@@ -637,6 +637,15 @@ figura, texto truncado, dupla resposta e ~15 com gabarito contrário à diretriz
 "2025/2026"...), e o filtro Procedência lista cada banca. ENARE 2023/24 (AOCP) ficou fora: o caderno só
 saiu na área logada do candidato.
 
+**07/10/2026 — o extrator comia números.** `docs/extrai_prova.py` apagava TODA linha que fosse só um
+número (padrões `^\d{1,2}$`, `^\d{4}$`, `^\(?\d+\)?$` no LIXO), e no texto por coluna o número de
+idade, dose, FC ou célula de tabela muitas vezes cai sozinho na linha ("de 55 anos" → "de anos"). Agora
+só sai o número que é a ÚLTIMA linha não vazia da página E segue a numeração do caderno (índice da página
++ deslocamento constante em ≥3 páginas); caderno sem número de página não perde nada. Auditoria das 869
+candidatas: 17 afetadas, 11 no banco, 6 já restauradas à mão pelos agentes em 23/09 e 5 corrigidas
+conferindo no PDF (en24 cardio 13, en25 cardio 15, Revalida 2021 31, USP 2025 50 e 86); 4 chaves mudaram.
+Re-extraiu prova? Rodar o extrator novo e diferir palavra a palavra contra o antigo antes de usar.
+
 **monta_banco.py × aplica_lote.py (23/09):** as reescritas de set/2026 tinham ido só para o `banco.js`, e o
 montador (que gera o banco A PARTIR das levas) reverteria 946 questões. Levas sincronizadas e o
 `aplica_lote.py` passou a gravar também nas levas. Nunca editar o `banco.js` sem refletir nas levas.
