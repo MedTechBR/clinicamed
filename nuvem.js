@@ -194,6 +194,9 @@ function boot(){
     /* primeiro contato da versão nova num aparelho que tinha outra conta aberta (a chave
        mt_clinicamed_<uid> do login antigo diz de quem era): não herda o progresso alheio */
     aoEntrar(u){
+      /* compra: confere se a conta tem acesso ao clinicamed (planos.json + claims mt). Sem checkout no
+         catálogo libera tudo; falha de rede/servidor não trava. Sem acesso, cobre o app com a tela de assinatura. */
+      if(window.MTAcesso)MTAcesso.verificar({appId:"clinicamed",user:u,signOut:()=>MTS.sair()}).catch(()=>{});
       leCoord().then(()=>{if((ST.cfg||{}).aba==="ajustes")pintaAjustes()});
       if(typeof TURMA!=="undefined")TURMA.boot();
       pintaChip();
