@@ -550,7 +550,7 @@ ao e-mail do MedTech para ele e o Claude avaliarem.
   aparece na barra da leitura aberta.
 - O modal tem motivos **diferentes por tipo** (questão × leitura), texto obrigatório com pelo menos 10
   caracteres e e-mail de contato opcional.
-- Envio por `mailto:` para **medtechbr1@gmail.com**, com o conteúdo INTEIRO no corpo — enunciado, as
+- Envio por `mailto:` para **contato@medtechbr.com.br**, com o conteúdo INTEIRO no corpo — enunciado, as
   cinco alternativas com o gabarito marcado, comentário, âncora, procedência e versão do app. Quem
   revisa não precisa abrir o app para entender o caso.
 - **Cópia local sempre**: a contestação é gravada em `ST.contest` (chave `cm_contest`) antes de abrir
