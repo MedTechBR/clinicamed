@@ -13,6 +13,25 @@ App pessoal do Matheus, três públicos no mesmo banco: **título de especialist
 residência**. Herda a arquitetura do TráfegoTítulo/RadioTítulo e o cronograma vivo do
 quiz-enare-farmacia.
 
+## Erratas da administração (10/10/2026, cm-v179) — `mterrata.js`
+
+A administração corrige ou tira do ar uma questão sinalizada no painel (admin.html → Sinalizações) e responde a
+quem sinalizou. `mterrata.js` (fonte única em `~/Documents/Claude/_mterrata/`, igual nos 6 apps de estudo) busca
+as erratas na função `mtSinal` (op pública `erratas`), guarda em `localStorage["mterr:clinicamed"]` e o app aplica
+ANTES de desenhar (`aplicaErratas` no início do script principal). Também mostra a resposta da administração
+(op `meusAvisos`) num aviso fechável.
+- `BANCO_BASE` = `window.BANCO` intacto; `BANCO`/`QIDX` = vista das VISÍVEIS (a oculta age como "saiu do banco").
+  A chave `_ch` é calculada pelo enunciado ORIGINAL, antes da errata: corrigir o enunciado não solta o progresso.
+- Campos corrigidos trocam no objeto com o original guardado (`MTErrata.aplicaCampos`); desfazer a errata volta
+  ao banco. Gabarito corrigido: `okH(q,h)` reavalia respostas antigas na EXIBIÇÃO (h.alt = índice no banco);
+  o histórico salvo não muda. `cadaResposta`/`nVistas`/`nErros` contam sem as ocultas.
+- `ordemQuestoes` preserva as chaves ocultas na ordem salva. Simulado EM CURSO com questão que saiu do ar: ela
+  sai da prova em curso (mesmo caminho de "saiu do banco"), a chave fica em `s.tiradas` e a resposta dada em `s.res`.
+- Gabarito -1 = anulada pela revisão: `acerta(q,j)` dá ponto a qualquer resposta; `ordemAlts` mostra a ordem do banco.
+  Contagens derivadas (`NREAIS`, `BANCAS`, `NQ_AREA`) são refeitas por `recontaBanco()` quando chega errata nova.
+- Errata é remendo: a correção definitiva vai para as levas (`lotes-questoes/`) e depois se desfaz a errata no
+  painel ("Erratas ativas" → Desfazer). Mudar o enunciado na leva muda a chave (ver armadilha 2).
+
 ## Camada "viva" (23/09/2026, cm-v97) — a direção visual VIGENTE
 
 Quinta rodada de layout. Pedido: "muito quadrado, tudo da mesma cor e pouco dinâmico". A camada está no
