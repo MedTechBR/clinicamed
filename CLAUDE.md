@@ -6,7 +6,7 @@
 > (`mtsync.js`; ler o README de lá): um documento por item em `users/{uid}/apps/<app>/sync/`, fila offline
 > do Firestore, recebimento em tempo real, migração única do formato antigo. Sem exportar/importar/restaurar
 > backup na interface. Mexeu no motor: `node _mtsync/teste.js` e copiar para os quatro apps.
-> Aqui: `nuvem.js` virou só a configuração (coleções, resumo da coordenação, migração); `turma.js` chama a função `clinicamed` por HTTP (`MTS.chamar`). `teste_nuvem.js` foi apagado.
+> Aqui: `nuvem.js` virou só a configuração (coleções e migração). A aba Turma e o resumo da coordenação SAÍRAM em 14/10/2026 (ver "Contas e coordenação"). `teste_nuvem.js` foi apagado.
 
 App pessoal do Matheus, três públicos no mesmo banco: **título de especialista (TECM)**,
 **provas de acesso a subespecialidades clínicas (R+)** e **o residente estudando durante a
@@ -37,7 +37,7 @@ ANTES de desenhar (`aplicaErratas` no início do script principal). Também most
 Quinta rodada de layout. Pedido: "muito quadrado, tudo da mesma cor e pouco dinâmico". A camada está no
 FIM do `<style>` (bloco "camada viva") e sobrescreve as anteriores; as de cima ficaram como base.
 - **Cor por seção:** `body[data-aba]` define `--ac` (Início índigo, Questões azul, Simulado laranja, Prática
-  verde, Leituras violeta, Cartões âmbar, Desempenho ciano, Turma rosa, Ajustes cinza). Botões, anel,
+  verde, Leituras violeta, Cartões âmbar, Desempenho ciano, Ajustes cinza). Botões, anel,
   barras, aba ativa e selo do título usam `--ac`. Barra lateral clara com o ícone de cada aba em círculo
   da sua cor (`--c` no botão, via `COR_ABA` em `montaAbas`). Leituras e áreas usam `corArea()`.
 - **Forma:** cartões de 22–28 px, botões e filtros em pílula, letras das alternativas e ícones em círculo.
@@ -99,8 +99,7 @@ gravando o índice ORIGINAL. Qualquer tela nova de alternativas tem de usar `ord
   no fallback e servia o `index.html` DENTRO do iframe — corrigido. **BUMPAR a constante `CACHE` do sw.js a CADA deploy**
   (cm-v1, cm-v2…). Estáticos em stale-while-revalidate; HTML network-first. Testar SW em **aba nova**.
 - Os dados vivem no aparelho (localStorage + espelho IndexedDB), prefixo `cm_` na constante `PREF`,
-  e sincronizam com a conta. **Login é OBRIGATÓRIO** (`nuvem.js`) desde 07/09/2026: a coordenação
-  acompanha os residentes e quem estuda sem conta não aparece. Ver "Contas e coordenação" abaixo.
+  e sincronizam com a conta. **Login é OBRIGATÓRIO** (`mtsync.js`), como em todos os apps de estudo.
 
 ## Abas
 Questões · Simulado · Prática · Leituras · Cartões · Painel · Ajustes
@@ -572,6 +571,14 @@ O Matheus deu acesso a `~/Documents/Livros/` — diretrizes em PDF e livros. O c
 - Quando houver PDF da diretriz, **ler o PDF em vez de confiar em busca web**: a diretriz brasileira
   de hipertensão de 2025 mostrou que a busca dava a régua americana (dupla acima de 150/90) enquanto
   a fonte primária recomenda dupla para a **maioria** dos pacientes, com meta única de <130/80.
+
+## Contas e coordenação: REMOVIDO em 14/10/2026
+Pedido do Matheus: "acabe com aquela função de coordenador do clinicamed, os outros apps de estudo não tem e
+quero que todos sejam padronizados". Saíram a aba Turma (`turma.js` apagado), a publicação do resumo
+(`users/{uid}/apps/clinicamed_resumo`) e o aviso de acompanhamento (`clinicamed_coord`). Os documentos que já
+existiam no Firestore NÃO foram apagados (dados dele); a função `clinicamed` do backend ficou sem chamador e
+pode ser retirada numa limpeza do backend. Não reintroduzir recurso exclusivo de um app de estudo.
+O texto abaixo é histórico.
 
 ## Contas e coordenação (06–07/09/2026, cm-v44)
 

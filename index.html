@@ -20,7 +20,7 @@ if(t==="claro"||t==="escuro")document.documentElement.setAttribute("data-tema",t
 </script>
 <!-- conta + sincronização (cópia de ~/Documents/Claude/_mtsync/mtsync.js). Síncrono no <head>:
      o portão cobre a tela antes do primeiro pixel do app e só sai com a conta confirmada. -->
-<script src="mtsync.js?v=184"></script>
+<script src="mtsync.js?v=185"></script>
 <!-- gramática visual do ecossistema: tokens da raiz do site + ícones Tabler (nunca emoji) -->
 <link rel="stylesheet" href="/_mttokens.css?v=2">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
@@ -89,7 +89,7 @@ nav.abas button{white-space:nowrap;background:transparent;border:0;border-bottom
 nav.abas button .ti{display:none}
 nav.abas button:hover{color:var(--ink)}
 nav.abas button[aria-selected="true"]{border-bottom-color:var(--ink);color:var(--ink);font-weight:600}
-/* a regra de display acima vence o [hidden] do navegador — sem isto a aba Turma apareceria para todos */
+/* a regra de display acima vence o [hidden] do navegador */
 nav.abas button[hidden]{display:none!important}
 @media(min-width:641px){nav.abas button[data-aba="mais"]{display:none!important}}
 
@@ -804,7 +804,6 @@ body[data-aba="pratica"]{--ac:var(--c-verde)}
 body[data-aba="leituras"]{--ac:var(--c-violeta)}
 body[data-aba="cartoes"]{--ac:var(--c-ambar)}
 body[data-aba="painel"]{--ac:var(--c-ciano)}
-body[data-aba="turma"]{--ac:var(--c-rosa)}
 body[data-aba="ajustes"]{--ac:var(--c-cinza)}
 body[data-aba]{--acSup:color-mix(in srgb,var(--ac) 12%,var(--sup));--acInk:color-mix(in srgb,var(--ac) 80%,var(--ink))}
 :root[data-tema="escuro"] body[data-aba]{--acSup:color-mix(in srgb,var(--ac) 20%,var(--sup));--acInk:color-mix(in srgb,var(--ac) 70%,#fff)}
@@ -1114,24 +1113,22 @@ label.cmp:has(>.mtt-btn){min-width:min(260px,100%);max-width:100%}
  <section id="sec-leituras" hidden></section>
  <section id="sec-cartoes" hidden></section>
  <section id="sec-painel" hidden></section>
- <section id="sec-turma" hidden></section>
  <section id="sec-ajustes" hidden></section>
 </main>
 <div class="faixas" id="faixas"></div>
 
-<script src="taxonomia.js?v=184"></script>
-<script src="provas.js?v=184"></script>
-<script src="banco.js?v=184"></script>
-<script src="flash.js?v=184"></script>
-<script src="pratica.js?v=184"></script>
-<script src="leituras.js?v=184"></script>
-<script src="indice-leituras.js?v=184"></script>
+<script src="taxonomia.js?v=185"></script>
+<script src="provas.js?v=185"></script>
+<script src="banco.js?v=185"></script>
+<script src="flash.js?v=185"></script>
+<script src="pratica.js?v=185"></script>
+<script src="leituras.js?v=185"></script>
+<script src="indice-leituras.js?v=185"></script>
 <script src="/_mtacesso.js?v=1"></script>   <!-- acesso por produto comprado (raiz do site); sem checkout no planos.json, libera tudo -->
-<script src="nuvem.js?v=184"></script>
-<script src="turma.js?v=184"></script>
-<script src="mtfiltro.js?v=184"></script>
-<script src="mtsinal.js?v=184"></script>
-<script src="mterrata.js?v=184"></script>
+<script src="nuvem.js?v=185"></script>
+<script src="mtfiltro.js?v=185"></script>
+<script src="mtsinal.js?v=185"></script>
+<script src="mterrata.js?v=185"></script>
 <script>
 "use strict";
 const V="1.0.0", PREF="cm_";
@@ -1361,18 +1358,16 @@ function espalhaTemas(lista){
 /* ================= navegação ================= */
 const ABAS=[["inicio","Início","layout-dashboard"],["questoes","Questões","list-check"],["simulado","Simulado","stopwatch"],["pratica","Prática","stethoscope"],
             ["leituras","Leituras","book"],["cartoes","Cartões","cards"],["painel","Desempenho","chart-bar"],
-            ["turma","Turma","users"],["ajustes","Ajustes","settings"]];
-/* A aba Turma nasce escondida e só é revelada quando o backend confirma que este e-mail
-   é da coordenação. Esconder o botão é conveniência: a permissão é conferida na função,
-   a cada chamada — mexer no DOM daqui não dá acesso a nada. */
-const ABAS_RESTRITAS=["turma"];
+            ["ajustes","Ajustes","settings"]];
+/* 14/10/2026: a aba Turma (acompanhamento pela coordenação) saiu; os apps de estudo são padronizados. */
+const ABAS_RESTRITAS=[];
 /* no celular só estas quatro ficam na barra; o resto entra pela folha "Mais" */
 const ABAS_PRIM=["inicio","questoes","leituras","cartoes"];
 /* Resolvido na hora da chamada: cada aba é declarada num bloco <script> posterior a este,
    então referenciar a função aqui na criação do objeto quebraria o boot inteiro. */
 const PINTA={inicio:()=>pintaInicio(),questoes:()=>pintaQuestoes(),simulado:()=>pintaSimulado(),pratica:()=>pintaPratica(),
              leituras:()=>pintaLeituras(),cartoes:()=>pintaCartoes(),
-             painel:()=>pintaPainel(),turma:()=>TURMA.chefe?TURMA.carrega():TURMA.pintaTurma(),ajustes:()=>pintaAjustes()};
+             painel:()=>pintaPainel(),ajustes:()=>pintaAjustes()};
 /* a barra inferior do celular é uma grade: precisa saber quantas abas estão visíveis */
 function ajustaNav(){const n=$$("#abas button").filter(b=>!b.hidden).length;
   document.documentElement.style.setProperty("--nAbas",n)}
@@ -1402,7 +1397,7 @@ document.addEventListener("click",e=>{
 });
 function montaAbas(){
   const GRUPO={inicio:"Estudo",painel:"Acompanhamento"};
-  const COR_ABA={inicio:"indigo",questoes:"azul",simulado:"laranja",pratica:"verde",leituras:"violeta",cartoes:"ambar",painel:"ciano",turma:"rosa",ajustes:"cinza"};
+  const COR_ABA={inicio:"indigo",questoes:"azul",simulado:"laranja",pratica:"verde",leituras:"violeta",cartoes:"ambar",painel:"ciano",ajustes:"cinza"};
   $("#abas").innerHTML=ABAS.map(([id,n,ic])=>(GRUPO[id]?`<div class="navGrupo">${GRUPO[id]}</div>`:"")+
     `<button role="tab" aria-label="${esc(n)}" title="${esc(n)}" data-aba="${id}" style="--c:var(--c-${COR_ABA[id]||"indigo"})" aria-selected="false"${ABAS_RESTRITAS.includes(id)?" hidden":""}${ABAS_PRIM.includes(id)?" data-prim":""}><i class="ti ti-${ic}" aria-hidden="true"></i><span>${n}</span></button>`).join("")
     +`<button data-aba="mais" aria-selected="false" hidden style="--c:var(--c-cinza)"><i class="ti ti-dots" aria-hidden="true"></i><span>Mais</span></button>`;
@@ -1421,7 +1416,6 @@ const TITULOS={
   leituras:()=>["Leituras","Textos de referência por área, com sumário e progresso."],
   cartoes:()=>["Cartões","Revisão espaçada: o que vence hoje aparece primeiro."],
   painel:()=>["Desempenho","Acerto por área, pela matriz do edital e fila de erros."],
-  turma:()=>["Turma","Acompanhamento dos residentes."],
   ajustes:()=>["Ajustes","Conta, tema, uso sem internet e dados."]
 };
 /* o título da página já está no topo: um h2/h3 igual logo no começo da seção vira ruído */

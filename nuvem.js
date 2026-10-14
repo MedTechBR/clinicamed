@@ -6,7 +6,6 @@
    offline do próprio Firestore e recebimento em tempo real. Aqui ficam só as coisas do
    ClínicaMed:
      - quais chaves sincronizam e de que tipo são;
-     - o resumo que a coordenação lê (users/{uid}/apps/clinicamed_resumo);
      - a migração, uma vez por conta, do formato antigo (um pacote só em apps/clinicamed);
      - o chip do cabeçalho e o bloco "Conta" de Ajustes.
 
@@ -26,7 +25,6 @@ const COLECOES={
   contest:{tipo:"lista",id:"quando",teto:60,ordena:(a,b)=>String(b.quando).localeCompare(String(a.quando))}
 };
 
-let coord=null, ultimoResumo="", resumoT=null;
 
 /* ---------- erros derivados de resp (mesma regra do registraResposta) ---------- */
 function derivaErros(resp){
@@ -38,49 +36,6 @@ function derivaErros(resp){
     if(n<2)out.push(ch);
   });
   return out;
-}
-
-/* ---------- resumo para a coordenação ----------------------------------
-   Calculado no aparelho (só aqui a chave da resposta vira área do edital) e publicado num
-   doc pequeno e separado. A coordenação lê esse doc, nunca o caderno de respostas. */
-function resumo(){
-  const resp=ST.resp||{}, porArea={};
-  let tentativas=0, unicas=0, acertos=0;
-  Object.keys(resp).forEach(ch=>{
-    const h=((resp[ch]||{}).hist)||[]; if(!h.length)return;
-    unicas++; tentativas+=h.length;
-    const certa=!!h[h.length-1].ok; if(certa)acertos++;
-    const q=(typeof QIDX!=="undefined")&&QIDX.get(ch); if(!q)return;
-    const a=porArea[q.tema]||(porArea[q.tema]={n:0,ok:0}); a.n++; if(certa)a.ok++;
-  });
-  const dias=Object.keys(ST.atividade||{}).sort();
-  const corte=new Date(Date.now()-7*864e5).toISOString().slice(0,10);
-  const ultimos7=dias.filter(d=>d>corte).reduce((s,d)=>s+(+ST.atividade[d]||0),0);
-  const sims=Array.isArray(ST.sim)?ST.sim:[];
-  return {respondidas:tentativas, unicas, acertos,
-    leituras:Object.keys(ST.lidas||{}).length, cartoes:Object.keys(ST.flash||{}).length,
-    simulados:sims.length,
-    notaMedia:sims.length?Math.round(sims.reduce((s,x)=>s+(+x.nota||0),0)/sims.length*100)/100:0,
-    diasAtivos:dias.length, ultimos7, ultimaAtividade:dias[dias.length-1]||"",
-    porArea, versao:(typeof V!=="undefined")?V:""};
-}
-function agendaResumo(){ clearTimeout(resumoT); resumoT=setTimeout(publicaResumo,4000) }
-async function publicaResumo(){
-  const u=MTS.usuario; if(!u||!MTS.db)return;
-  const r=resumo(), s=JSON.stringify(r);
-  if(s===ultimoResumo)return;
-  try{
-    await MTS.db.collection("users").doc(u.uid).collection("apps").doc("clinicamed_resumo")
-      .set({json:s, atualizadoEm:new Date().toISOString(), nome:u.displayName||"", email:u.email||""},{merge:true});
-    ultimoResumo=s;
-  }catch(e){ console.warn("nuvem: resumo não publicado",e) }
-}
-/* A pessoa tem de PODER SABER que é acompanhada: a coordenação grava este doc na área dela. */
-async function leCoord(){
-  const u=MTS.usuario; if(!u||!MTS.db){coord=null;return}
-  try{ const s=await MTS.db.collection("users").doc(u.uid).collection("apps").doc("clinicamed_coord").get();
-    coord=s.exists?s.data():null;
-  }catch(e){ coord=null }
 }
 
 /* ---------- migração do formato antigo (uma vez por conta) ----------
@@ -142,7 +97,6 @@ function aoReceber(cols){
   if(["inicio","painel","ajustes","leituras","cartoes"].includes(aba)&&typeof PINTA!=="undefined"&&PINTA[aba])PINTA[aba]();
   /* bandeira da questão aberta acompanha o outro aparelho sem redesenhar a questão */
   if(cols.includes("sinal")&&typeof SINAL!=="undefined"&&ST.pos&&ST.pos.chq)SINAL.repinta(ST.pos.chq);
-  agendaResumo();
 }
 
 /* ---------- chip do cabeçalho ---------- */
@@ -165,11 +119,6 @@ function contaMarkup(){
   return `<p class="mini">Conectado como <b>${esc(u.displayName||u.email||"")}</b>${u.displayName&&u.email?` (${esc(u.email)})`:""}.</p>
    <p class="mini" id="ctSit" style="margin-top:6px;color:${cor}">${esc(d.txt)}</p>
    <p class="mini" style="margin-top:6px">Tudo o que você faz é salvo sozinho na sua conta enquanto estuda, e aparece igual no celular e no computador. Sem internet, o app continua funcionando e envia depois.</p>
-   ${coord?`<p class="mini" style="margin-top:6px;padding:8px 10px;background:var(--aviSup);border-radius:8px">
-     <b>A coordenação acompanha seu desempenho neste app.</b> ${esc(coord.coordenador||"")}
-     ${coord.turma?`incluiu você na turma ${esc(coord.turma)}`:"incluiu você na turma"} e vê o resumo do seu estudo:
-     quantas questões você fez, o acerto por área, leituras concluídas, simulados e há quanto tempo você não entra.
-     O que você respondeu em cada questão <b>não</b> aparece para ninguém.</p>`:""}
    <div class="linha" style="margin-top:10px"><button class="bt sec" id="btSair">Sair da conta</button>
     <a class="bt sec" href="/provas.html">MedTech Provas</a></div>`;
 }
@@ -179,7 +128,6 @@ function boot(){
   MTS.aoMudarSituacao(s=>{
     pintaChip();
     const el=document.getElementById("ctSit"); if(el){const d=MTS.descreve(s);el.textContent=d.txt}
-    if(!s.pendentes&&!s.enviando)agendaResumo();
   });
   MTS.iniciar({
     app:"clinicamed", nome:"ClínicaMed", pref:PREF, vendor:"vendor/",
@@ -197,8 +145,6 @@ function boot(){
       /* compra: confere se a conta tem acesso ao clinicamed (planos.json + claims mt). Sem checkout no
          catálogo libera tudo; falha de rede/servidor não trava. Sem acesso, cobre o app com a tela de assinatura. */
       if(window.MTAcesso)MTAcesso.verificar({appId:"clinicamed",user:u,signOut:()=>MTS.sair()}).catch(()=>{});
-      leCoord().then(()=>{if((ST.cfg||{}).aba==="ajustes")pintaAjustes()});
-      if(typeof TURMA!=="undefined")TURMA.boot();
       pintaChip();
       if((ST.cfg||{}).aba==="ajustes")pintaAjustes();
     }
@@ -211,7 +157,7 @@ function boot(){
   if(antigos.length===1)localStorage.setItem(PREF+"mts_uid",antigos[0]);
 }catch(e){}})();
 
-return {boot, mudou:k=>{if(COLECOES[k])MTS.mudou(k)}, resumo, pintaChip, contaMarkup,
-  get usuario(){return MTS.usuario}, get coord(){return coord},
+return {boot, mudou:k=>{if(COLECOES[k])MTS.mudou(k)}, pintaChip, contaMarkup,
+  get usuario(){return MTS.usuario},
   sair(){MTS.sair()}};
 })();
